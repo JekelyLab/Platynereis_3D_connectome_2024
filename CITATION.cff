@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Code documentation for the Jekely et al. three-day-old Platynereis larva connectome paper
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gáspár
+    family-names: Jékely
+  - given-names: Sanja
+    family-names: Jasek
+  - given-names: Martin
+    family-names: Gühmann
+  - given-names: Luis Alberto
+    family-names: Bezares-Calderón
+  - given-names: Elizabeth A.
+    family-names: Williams
+  - given-names: Réza
+    family-names: Shahidi
+identifiers:
+  - type: doi
+    value: add.the.zenodo.repository.doi
+repository-code: 'https://github.com/JekelyLab/Jekely_et_al_2024_connectome/tree/main'
+license: CC-BY-4.0
+date-released: '2024-03-16'
