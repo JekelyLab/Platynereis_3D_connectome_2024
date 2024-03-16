@@ -1,0 +1,16 @@
+"","SNpygM","SNPDFpyg","INasc-pyg","INdescLuqinPDF","INATOpyg","INFVa-pyg","MNladder","chaeMech","covercell","cioMNcover","pyg_cirrus_CR","pygPBunp","Ser-tr1","MNring","INsplitPB"
+"SNpygM",0,13,18,0,0,0,0,0,0,0,0,1,0,0,3
+"SNPDFpyg",0,0,0,8,0,0,0,0,0,0,0,0,0,0,5
+"INasc-pyg",1,0,10,0,0,0,0,1,0,0,0,0,2,0,5
+"INdescLuqinPDF",0,0,0,0,0,0,0,0,0,0,0,0,7,1,0
+"INATOpyg",0,0,0,0,3,0,1,0,0,0,0,0,8,8,0
+"INFVa-pyg",0,0,0,1,0,0,17,0,0,0,0,0,1,0,1
+"MNladder",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"chaeMech",0,2,46,1,0,17,0,71,0,0,6,5,1,46,2
+"covercell",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"cioMNcover",0,0,0,0,0,0,0,0,521,4,2,0,0,0,0
+"pyg_cirrus_CR",1,2,6,0,0,0,0,12,0,4,42,8,0,0,0
+"pygPBunp",1,1,0,1,0,0,0,3,40,0,6,0,0,0,0
+"Ser-tr1",0,0,0,1,0,0,0,0,2,0,0,1,0,6,1
+"MNring",0,0,0,0,0,0,1,0,0,0,0,0,5,19,0
+"INsplitPB",1,14,22,0,0,0,0,3,0,0,1,0,0,6,60

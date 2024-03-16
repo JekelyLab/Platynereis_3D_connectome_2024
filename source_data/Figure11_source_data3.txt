@@ -1,0 +1,7 @@
+presyn,pigment cell,gland cell,muscle,ciliated cell
+head,26,42,306,1029
+sg0,0,0,0,1
+sg1,73,8,483,933
+sg2,0,130,875,0
+sg3,12,2,705,13
+pyg,570,0,34,22

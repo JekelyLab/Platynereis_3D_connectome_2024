@@ -1,0 +1,6 @@
+"","PRC","IN1","eyespot-PRCR1","INR","SNDLSO1.1NP"
+"PRC",21,307,0,8,0
+"IN1",1,87,0,0,0
+"eyespot-PRCR1",0,3,0,15,8
+"INR",2,2,7,6,8
+"SNDLSO1.1NP",0,0,0,0,0

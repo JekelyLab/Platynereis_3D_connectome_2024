@@ -1,0 +1,1415 @@
+"region"	"celltype"	"number"	"SN_MN_IN"	"sum_cells"
+"1"	"head"	"PB"	3	"Sensory neuron"	57
+"2"	"peristomium"	"PB"	0	"Sensory neuron"	57
+"3"	"sg0"	"PB"	0	"Sensory neuron"	57
+"4"	"sg1"	"PB"	10	"Sensory neuron"	57
+"5"	"sg2"	"PB"	18	"Sensory neuron"	57
+"6"	"sg3"	"PB"	17	"Sensory neuron"	57
+"7"	"pyg"	"PB"	9	"Sensory neuron"	57
+"8"	"head"	"trochPU"	0	"Sensory neuron"	30
+"9"	"peristomium"	"trochPU"	0	"Sensory neuron"	30
+"10"	"sg0"	"trochPU"	0	"Sensory neuron"	30
+"11"	"sg1"	"trochPU"	10	"Sensory neuron"	30
+"12"	"sg2"	"trochPU"	11	"Sensory neuron"	30
+"13"	"sg3"	"trochPU"	8	"Sensory neuron"	30
+"14"	"pyg"	"trochPU"	1	"Sensory neuron"	30
+"15"	"head"	"SN-DLSO1.2-3"	28	"Sensory neuron"	28
+"16"	"peristomium"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"17"	"sg0"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"18"	"sg1"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"19"	"sg2"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"20"	"sg3"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"21"	"pyg"	"SN-DLSO1.2-3"	0	"Sensory neuron"	28
+"22"	"head"	"parapodPU"	0	"Sensory neuron"	26
+"23"	"peristomium"	"parapodPU"	0	"Sensory neuron"	26
+"24"	"sg0"	"parapodPU"	0	"Sensory neuron"	26
+"25"	"sg1"	"parapodPU"	4	"Sensory neuron"	26
+"26"	"sg2"	"parapodPU"	10	"Sensory neuron"	26
+"27"	"sg3"	"parapodPU"	12	"Sensory neuron"	26
+"28"	"pyg"	"parapodPU"	0	"Sensory neuron"	26
+"29"	"head"	"PRC"	24	"Sensory neuron"	24
+"30"	"head"	"SNnuchPDF"	24	"Sensory neuron"	24
+"31"	"head"	"hCR"	24	"Sensory neuron"	24
+"32"	"peristomium"	"PRC"	0	"Sensory neuron"	24
+"33"	"peristomium"	"SNnuchPDF"	0	"Sensory neuron"	24
+"34"	"peristomium"	"hCR"	0	"Sensory neuron"	24
+"35"	"sg0"	"PRC"	0	"Sensory neuron"	24
+"36"	"sg0"	"SNnuchPDF"	0	"Sensory neuron"	24
+"37"	"sg0"	"hCR"	0	"Sensory neuron"	24
+"38"	"sg1"	"PRC"	0	"Sensory neuron"	24
+"39"	"sg1"	"SNnuchPDF"	0	"Sensory neuron"	24
+"40"	"sg1"	"hCR"	0	"Sensory neuron"	24
+"41"	"sg2"	"PRC"	0	"Sensory neuron"	24
+"42"	"sg2"	"SNnuchPDF"	0	"Sensory neuron"	24
+"43"	"sg2"	"hCR"	0	"Sensory neuron"	24
+"44"	"sg3"	"PRC"	0	"Sensory neuron"	24
+"45"	"sg3"	"SNnuchPDF"	0	"Sensory neuron"	24
+"46"	"sg3"	"hCR"	0	"Sensory neuron"	24
+"47"	"pyg"	"PRC"	0	"Sensory neuron"	24
+"48"	"pyg"	"SNnuchPDF"	0	"Sensory neuron"	24
+"49"	"pyg"	"hCR"	0	"Sensory neuron"	24
+"50"	"head"	"ventralpygCR"	0	"Sensory neuron"	21
+"51"	"peristomium"	"ventralpygCR"	0	"Sensory neuron"	21
+"52"	"sg0"	"ventralpygCR"	4	"Sensory neuron"	21
+"53"	"sg1"	"ventralpygCR"	2	"Sensory neuron"	21
+"54"	"sg2"	"ventralpygCR"	2	"Sensory neuron"	21
+"55"	"sg3"	"ventralpygCR"	2	"Sensory neuron"	21
+"56"	"pyg"	"ventralpygCR"	11	"Sensory neuron"	21
+"57"	"head"	"chaeMech"	0	"Sensory neuron"	20
+"58"	"peristomium"	"chaeMech"	0	"Sensory neuron"	20
+"59"	"sg0"	"chaeMech"	0	"Sensory neuron"	20
+"60"	"sg1"	"chaeMech"	4	"Sensory neuron"	20
+"61"	"sg2"	"chaeMech"	8	"Sensory neuron"	20
+"62"	"sg3"	"chaeMech"	8	"Sensory neuron"	20
+"63"	"pyg"	"chaeMech"	0	"Sensory neuron"	20
+"64"	"head"	"SN-DSO"	17	"Sensory neuron"	17
+"65"	"head"	"antPUc"	17	"Sensory neuron"	17
+"66"	"head"	"pygCirrusPU"	0	"Sensory neuron"	17
+"67"	"peristomium"	"SN-DSO"	0	"Sensory neuron"	17
+"68"	"peristomium"	"antPUc"	0	"Sensory neuron"	17
+"69"	"peristomium"	"pygCirrusPU"	0	"Sensory neuron"	17
+"70"	"sg0"	"SN-DSO"	0	"Sensory neuron"	17
+"71"	"sg0"	"antPUc"	0	"Sensory neuron"	17
+"72"	"sg0"	"pygCirrusPU"	0	"Sensory neuron"	17
+"73"	"sg1"	"SN-DSO"	0	"Sensory neuron"	17
+"74"	"sg1"	"antPUc"	0	"Sensory neuron"	17
+"75"	"sg1"	"pygCirrusPU"	0	"Sensory neuron"	17
+"76"	"sg2"	"SN-DSO"	0	"Sensory neuron"	17
+"77"	"sg2"	"antPUc"	0	"Sensory neuron"	17
+"78"	"sg2"	"pygCirrusPU"	0	"Sensory neuron"	17
+"79"	"sg3"	"SN-DSO"	0	"Sensory neuron"	17
+"80"	"sg3"	"antPUc"	0	"Sensory neuron"	17
+"81"	"sg3"	"pygCirrusPU"	0	"Sensory neuron"	17
+"82"	"pyg"	"SN-DSO"	0	"Sensory neuron"	17
+"83"	"pyg"	"antPUc"	0	"Sensory neuron"	17
+"84"	"pyg"	"pygCirrusPU"	17	"Sensory neuron"	17
+"85"	"head"	"hCirrusPU"	0	"Sensory neuron"	14
+"86"	"peristomium"	"hCirrusPU"	0	"Sensory neuron"	14
+"87"	"sg0"	"hCirrusPU"	5	"Sensory neuron"	14
+"88"	"sg1"	"hCirrusPU"	4	"Sensory neuron"	14
+"89"	"sg2"	"hCirrusPU"	4	"Sensory neuron"	14
+"90"	"sg3"	"hCirrusPU"	1	"Sensory neuron"	14
+"91"	"pyg"	"hCirrusPU"	0	"Sensory neuron"	14
+"92"	"head"	"SN-DLSO2"	12	"Sensory neuron"	12
+"93"	"head"	"spinPU"	0	"Sensory neuron"	12
+"94"	"peristomium"	"SN-DLSO2"	0	"Sensory neuron"	12
+"95"	"peristomium"	"spinPU"	0	"Sensory neuron"	12
+"96"	"sg0"	"SN-DLSO2"	0	"Sensory neuron"	12
+"97"	"sg0"	"spinPU"	0	"Sensory neuron"	12
+"98"	"sg1"	"SN-DLSO2"	0	"Sensory neuron"	12
+"99"	"sg1"	"spinPU"	0	"Sensory neuron"	12
+"100"	"sg2"	"SN-DLSO2"	0	"Sensory neuron"	12
+"101"	"sg2"	"spinPU"	6	"Sensory neuron"	12
+"102"	"sg3"	"SN-DLSO2"	0	"Sensory neuron"	12
+"103"	"sg3"	"spinPU"	6	"Sensory neuron"	12
+"104"	"pyg"	"SN-DLSO2"	0	"Sensory neuron"	12
+"105"	"pyg"	"spinPU"	0	"Sensory neuron"	12
+"106"	"head"	"SNaant"	9	"Sensory neuron"	9
+"107"	"head"	"SN-DLSO1.3"	9	"Sensory neuron"	9
+"108"	"peristomium"	"SNaant"	0	"Sensory neuron"	9
+"109"	"peristomium"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"110"	"sg0"	"SNaant"	0	"Sensory neuron"	9
+"111"	"sg0"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"112"	"sg1"	"SNaant"	0	"Sensory neuron"	9
+"113"	"sg1"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"114"	"sg2"	"SNaant"	0	"Sensory neuron"	9
+"115"	"sg2"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"116"	"sg3"	"SNaant"	0	"Sensory neuron"	9
+"117"	"sg3"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"118"	"pyg"	"SNaant"	0	"Sensory neuron"	9
+"119"	"pyg"	"SN-DLSO1.3"	0	"Sensory neuron"	9
+"120"	"head"	"SNMB2"	8	"Sensory neuron"	8
+"121"	"peristomium"	"SNMB2"	0	"Sensory neuron"	8
+"122"	"sg0"	"SNMB2"	0	"Sensory neuron"	8
+"123"	"sg1"	"SNMB2"	0	"Sensory neuron"	8
+"124"	"sg2"	"SNMB2"	0	"Sensory neuron"	8
+"125"	"sg3"	"SNMB2"	0	"Sensory neuron"	8
+"126"	"pyg"	"SNMB2"	0	"Sensory neuron"	8
+"127"	"head"	"hPU"	6	"Sensory neuron"	6
+"128"	"peristomium"	"hPU"	0	"Sensory neuron"	6
+"129"	"sg0"	"hPU"	0	"Sensory neuron"	6
+"130"	"sg1"	"hPU"	0	"Sensory neuron"	6
+"131"	"sg2"	"hPU"	0	"Sensory neuron"	6
+"132"	"sg3"	"hPU"	0	"Sensory neuron"	6
+"133"	"pyg"	"hPU"	0	"Sensory neuron"	6
+"134"	"head"	"cPRC"	4	"Sensory neuron"	4
+"135"	"head"	"SN-DLSO3"	4	"Sensory neuron"	4
+"136"	"head"	"interparaPM1"	0	"Sensory neuron"	4
+"137"	"head"	"dsoPU"	4	"Sensory neuron"	4
+"138"	"head"	"SNFVa"	0	"Sensory neuron"	4
+"139"	"head"	"SNstiff"	0	"Sensory neuron"	4
+"140"	"head"	"SN-DLSO1.1"	4	"Sensory neuron"	4
+"141"	"peristomium"	"cPRC"	0	"Sensory neuron"	4
+"142"	"peristomium"	"SN-DLSO3"	0	"Sensory neuron"	4
+"143"	"peristomium"	"interparaPM1"	0	"Sensory neuron"	4
+"144"	"peristomium"	"dsoPU"	0	"Sensory neuron"	4
+"145"	"peristomium"	"SNFVa"	0	"Sensory neuron"	4
+"146"	"peristomium"	"SNstiff"	1	"Sensory neuron"	4
+"147"	"peristomium"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"148"	"sg0"	"cPRC"	0	"Sensory neuron"	4
+"149"	"sg0"	"SN-DLSO3"	0	"Sensory neuron"	4
+"150"	"sg0"	"interparaPM1"	0	"Sensory neuron"	4
+"151"	"sg0"	"dsoPU"	0	"Sensory neuron"	4
+"152"	"sg0"	"SNFVa"	0	"Sensory neuron"	4
+"153"	"sg0"	"SNstiff"	3	"Sensory neuron"	4
+"154"	"sg0"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"155"	"sg1"	"cPRC"	0	"Sensory neuron"	4
+"156"	"sg1"	"SN-DLSO3"	0	"Sensory neuron"	4
+"157"	"sg1"	"interparaPM1"	2	"Sensory neuron"	4
+"158"	"sg1"	"dsoPU"	0	"Sensory neuron"	4
+"159"	"sg1"	"SNFVa"	0	"Sensory neuron"	4
+"160"	"sg1"	"SNstiff"	0	"Sensory neuron"	4
+"161"	"sg1"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"162"	"sg2"	"cPRC"	0	"Sensory neuron"	4
+"163"	"sg2"	"SN-DLSO3"	0	"Sensory neuron"	4
+"164"	"sg2"	"interparaPM1"	2	"Sensory neuron"	4
+"165"	"sg2"	"dsoPU"	0	"Sensory neuron"	4
+"166"	"sg2"	"SNFVa"	2	"Sensory neuron"	4
+"167"	"sg2"	"SNstiff"	0	"Sensory neuron"	4
+"168"	"sg2"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"169"	"sg3"	"cPRC"	0	"Sensory neuron"	4
+"170"	"sg3"	"SN-DLSO3"	0	"Sensory neuron"	4
+"171"	"sg3"	"interparaPM1"	0	"Sensory neuron"	4
+"172"	"sg3"	"dsoPU"	0	"Sensory neuron"	4
+"173"	"sg3"	"SNFVa"	2	"Sensory neuron"	4
+"174"	"sg3"	"SNstiff"	0	"Sensory neuron"	4
+"175"	"sg3"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"176"	"pyg"	"cPRC"	0	"Sensory neuron"	4
+"177"	"pyg"	"SN-DLSO3"	0	"Sensory neuron"	4
+"178"	"pyg"	"interparaPM1"	0	"Sensory neuron"	4
+"179"	"pyg"	"dsoPU"	0	"Sensory neuron"	4
+"180"	"pyg"	"SNFVa"	0	"Sensory neuron"	4
+"181"	"pyg"	"SNstiff"	0	"Sensory neuron"	4
+"182"	"pyg"	"SN-DLSO1.1"	0	"Sensory neuron"	4
+"183"	"head"	"SNnuchNS"	3	"Sensory neuron"	3
+"184"	"peristomium"	"SNnuchNS"	0	"Sensory neuron"	3
+"185"	"sg0"	"SNnuchNS"	0	"Sensory neuron"	3
+"186"	"sg1"	"SNnuchNS"	0	"Sensory neuron"	3
+"187"	"sg2"	"SNnuchNS"	0	"Sensory neuron"	3
+"188"	"sg3"	"SNnuchNS"	0	"Sensory neuron"	3
+"189"	"pyg"	"SNnuchNS"	0	"Sensory neuron"	3
+"190"	"head"	"SNnuchBx"	2	"Sensory neuron"	2
+"191"	"head"	"SNgolden"	2	"Sensory neuron"	2
+"192"	"head"	"SNhorn"	2	"Sensory neuron"	2
+"193"	"head"	"SNhook"	2	"Sensory neuron"	2
+"194"	"head"	"SNlasso"	2	"Sensory neuron"	2
+"195"	"head"	"SNMIP-vc"	2	"Sensory neuron"	2
+"196"	"head"	"SNmus"	2	"Sensory neuron"	2
+"197"	"head"	"SNantlerPDF"	2	"Sensory neuron"	2
+"198"	"head"	"SNPDF-dc"	2	"Sensory neuron"	2
+"199"	"head"	"SN0DLSO1.2-4"	2	"Sensory neuron"	2
+"200"	"head"	"SN-DLSO1.2-1"	2	"Sensory neuron"	2
+"201"	"head"	"eyespot-PRCR3"	2	"Sensory neuron"	2
+"202"	"head"	"eyespot-PRCR1"	2	"Sensory neuron"	2
+"203"	"head"	"MS4"	1	"Sensory neuron"	2
+"204"	"head"	"MS3"	2	"Sensory neuron"	2
+"205"	"head"	"MS5"	0	"Sensory neuron"	2
+"206"	"head"	"SN-ASTC"	2	"Sensory neuron"	2
+"207"	"head"	"SN-DLSO3-PDF"	2	"Sensory neuron"	2
+"208"	"head"	"SN-MIP4"	2	"Sensory neuron"	2
+"209"	"head"	"SN-MIP1"	2	"Sensory neuron"	2
+"210"	"head"	"SN-WLD"	2	"Sensory neuron"	2
+"211"	"head"	"SNbicil"	2	"Sensory neuron"	2
+"212"	"head"	"hPUc1"	2	"Sensory neuron"	2
+"213"	"head"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"214"	"head"	"SN-DLSO1.0"	2	"Sensory neuron"	2
+"215"	"head"	"SN-NS1"	2	"Sensory neuron"	2
+"216"	"head"	"SN-NS3"	2	"Sensory neuron"	2
+"217"	"head"	"SN-NS15"	2	"Sensory neuron"	2
+"218"	"head"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"219"	"head"	"SN-NS22"	2	"Sensory neuron"	2
+"220"	"head"	"SN-NS5"	2	"Sensory neuron"	2
+"221"	"head"	"SN-NS17"	2	"Sensory neuron"	2
+"222"	"head"	"SN-NS19"	2	"Sensory neuron"	2
+"223"	"head"	"SN-NS20"	2	"Sensory neuron"	2
+"224"	"head"	"SN-NS29"	2	"Sensory neuron"	2
+"225"	"head"	"SN-NS27"	2	"Sensory neuron"	2
+"226"	"head"	"SN-NS18"	2	"Sensory neuron"	2
+"227"	"head"	"SN-NS16"	2	"Sensory neuron"	2
+"228"	"head"	"SNadNS22"	2	"Sensory neuron"	2
+"229"	"head"	"SNblunt"	2	"Sensory neuron"	2
+"230"	"head"	"SNbronto"	2	"Sensory neuron"	2
+"231"	"head"	"SNpygM"	0	"Sensory neuron"	2
+"232"	"head"	"SN-DLSO1.1NP"	2	"Sensory neuron"	2
+"233"	"head"	"SNtorii"	2	"Sensory neuron"	2
+"234"	"head"	"SNtrpa"	2	"Sensory neuron"	2
+"235"	"peristomium"	"SNnuchBx"	0	"Sensory neuron"	2
+"236"	"peristomium"	"SNgolden"	0	"Sensory neuron"	2
+"237"	"peristomium"	"SNhorn"	0	"Sensory neuron"	2
+"238"	"peristomium"	"SNhook"	0	"Sensory neuron"	2
+"239"	"peristomium"	"SNlasso"	0	"Sensory neuron"	2
+"240"	"peristomium"	"SNMIP-vc"	0	"Sensory neuron"	2
+"241"	"peristomium"	"SNmus"	0	"Sensory neuron"	2
+"242"	"peristomium"	"SNantlerPDF"	0	"Sensory neuron"	2
+"243"	"peristomium"	"SNPDF-dc"	0	"Sensory neuron"	2
+"244"	"peristomium"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"245"	"peristomium"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"246"	"peristomium"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"247"	"peristomium"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"248"	"peristomium"	"MS4"	0	"Sensory neuron"	2
+"249"	"peristomium"	"MS3"	0	"Sensory neuron"	2
+"250"	"peristomium"	"MS5"	0	"Sensory neuron"	2
+"251"	"peristomium"	"SN-ASTC"	0	"Sensory neuron"	2
+"252"	"peristomium"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"253"	"peristomium"	"SN-MIP4"	0	"Sensory neuron"	2
+"254"	"peristomium"	"SN-MIP1"	0	"Sensory neuron"	2
+"255"	"peristomium"	"SN-WLD"	0	"Sensory neuron"	2
+"256"	"peristomium"	"SNbicil"	0	"Sensory neuron"	2
+"257"	"peristomium"	"hPUc1"	0	"Sensory neuron"	2
+"258"	"peristomium"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"259"	"peristomium"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"260"	"peristomium"	"SN-NS1"	0	"Sensory neuron"	2
+"261"	"peristomium"	"SN-NS3"	0	"Sensory neuron"	2
+"262"	"peristomium"	"SN-NS15"	0	"Sensory neuron"	2
+"263"	"peristomium"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"264"	"peristomium"	"SN-NS22"	0	"Sensory neuron"	2
+"265"	"peristomium"	"SN-NS5"	0	"Sensory neuron"	2
+"266"	"peristomium"	"SN-NS17"	0	"Sensory neuron"	2
+"267"	"peristomium"	"SN-NS19"	0	"Sensory neuron"	2
+"268"	"peristomium"	"SN-NS20"	0	"Sensory neuron"	2
+"269"	"peristomium"	"SN-NS29"	0	"Sensory neuron"	2
+"270"	"peristomium"	"SN-NS27"	0	"Sensory neuron"	2
+"271"	"peristomium"	"SN-NS18"	0	"Sensory neuron"	2
+"272"	"peristomium"	"SN-NS16"	0	"Sensory neuron"	2
+"273"	"peristomium"	"SNadNS22"	0	"Sensory neuron"	2
+"274"	"peristomium"	"SNblunt"	0	"Sensory neuron"	2
+"275"	"peristomium"	"SNbronto"	0	"Sensory neuron"	2
+"276"	"peristomium"	"SNpygM"	0	"Sensory neuron"	2
+"277"	"peristomium"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"278"	"peristomium"	"SNtorii"	0	"Sensory neuron"	2
+"279"	"peristomium"	"SNtrpa"	0	"Sensory neuron"	2
+"280"	"sg0"	"SNnuchBx"	0	"Sensory neuron"	2
+"281"	"sg0"	"SNgolden"	0	"Sensory neuron"	2
+"282"	"sg0"	"SNhorn"	0	"Sensory neuron"	2
+"283"	"sg0"	"SNhook"	0	"Sensory neuron"	2
+"284"	"sg0"	"SNlasso"	0	"Sensory neuron"	2
+"285"	"sg0"	"SNMIP-vc"	0	"Sensory neuron"	2
+"286"	"sg0"	"SNmus"	0	"Sensory neuron"	2
+"287"	"sg0"	"SNantlerPDF"	0	"Sensory neuron"	2
+"288"	"sg0"	"SNPDF-dc"	0	"Sensory neuron"	2
+"289"	"sg0"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"290"	"sg0"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"291"	"sg0"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"292"	"sg0"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"293"	"sg0"	"MS4"	0	"Sensory neuron"	2
+"294"	"sg0"	"MS3"	0	"Sensory neuron"	2
+"295"	"sg0"	"MS5"	0	"Sensory neuron"	2
+"296"	"sg0"	"SN-ASTC"	0	"Sensory neuron"	2
+"297"	"sg0"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"298"	"sg0"	"SN-MIP4"	0	"Sensory neuron"	2
+"299"	"sg0"	"SN-MIP1"	0	"Sensory neuron"	2
+"300"	"sg0"	"SN-WLD"	0	"Sensory neuron"	2
+"301"	"sg0"	"SNbicil"	0	"Sensory neuron"	2
+"302"	"sg0"	"hPUc1"	0	"Sensory neuron"	2
+"303"	"sg0"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"304"	"sg0"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"305"	"sg0"	"SN-NS1"	0	"Sensory neuron"	2
+"306"	"sg0"	"SN-NS3"	0	"Sensory neuron"	2
+"307"	"sg0"	"SN-NS15"	0	"Sensory neuron"	2
+"308"	"sg0"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"309"	"sg0"	"SN-NS22"	0	"Sensory neuron"	2
+"310"	"sg0"	"SN-NS5"	0	"Sensory neuron"	2
+"311"	"sg0"	"SN-NS17"	0	"Sensory neuron"	2
+"312"	"sg0"	"SN-NS19"	0	"Sensory neuron"	2
+"313"	"sg0"	"SN-NS20"	0	"Sensory neuron"	2
+"314"	"sg0"	"SN-NS29"	0	"Sensory neuron"	2
+"315"	"sg0"	"SN-NS27"	0	"Sensory neuron"	2
+"316"	"sg0"	"SN-NS18"	0	"Sensory neuron"	2
+"317"	"sg0"	"SN-NS16"	0	"Sensory neuron"	2
+"318"	"sg0"	"SNadNS22"	0	"Sensory neuron"	2
+"319"	"sg0"	"SNblunt"	0	"Sensory neuron"	2
+"320"	"sg0"	"SNbronto"	0	"Sensory neuron"	2
+"321"	"sg0"	"SNpygM"	0	"Sensory neuron"	2
+"322"	"sg0"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"323"	"sg0"	"SNtorii"	0	"Sensory neuron"	2
+"324"	"sg0"	"SNtrpa"	0	"Sensory neuron"	2
+"325"	"sg1"	"SNnuchBx"	0	"Sensory neuron"	2
+"326"	"sg1"	"SNgolden"	0	"Sensory neuron"	2
+"327"	"sg1"	"SNhorn"	0	"Sensory neuron"	2
+"328"	"sg1"	"SNhook"	0	"Sensory neuron"	2
+"329"	"sg1"	"SNlasso"	0	"Sensory neuron"	2
+"330"	"sg1"	"SNMIP-vc"	0	"Sensory neuron"	2
+"331"	"sg1"	"SNmus"	0	"Sensory neuron"	2
+"332"	"sg1"	"SNantlerPDF"	0	"Sensory neuron"	2
+"333"	"sg1"	"SNPDF-dc"	0	"Sensory neuron"	2
+"334"	"sg1"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"335"	"sg1"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"336"	"sg1"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"337"	"sg1"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"338"	"sg1"	"MS4"	1	"Sensory neuron"	2
+"339"	"sg1"	"MS3"	0	"Sensory neuron"	2
+"340"	"sg1"	"MS5"	2	"Sensory neuron"	2
+"341"	"sg1"	"SN-ASTC"	0	"Sensory neuron"	2
+"342"	"sg1"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"343"	"sg1"	"SN-MIP4"	0	"Sensory neuron"	2
+"344"	"sg1"	"SN-MIP1"	0	"Sensory neuron"	2
+"345"	"sg1"	"SN-WLD"	0	"Sensory neuron"	2
+"346"	"sg1"	"SNbicil"	0	"Sensory neuron"	2
+"347"	"sg1"	"hPUc1"	0	"Sensory neuron"	2
+"348"	"sg1"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"349"	"sg1"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"350"	"sg1"	"SN-NS1"	0	"Sensory neuron"	2
+"351"	"sg1"	"SN-NS3"	0	"Sensory neuron"	2
+"352"	"sg1"	"SN-NS15"	0	"Sensory neuron"	2
+"353"	"sg1"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"354"	"sg1"	"SN-NS22"	0	"Sensory neuron"	2
+"355"	"sg1"	"SN-NS5"	0	"Sensory neuron"	2
+"356"	"sg1"	"SN-NS17"	0	"Sensory neuron"	2
+"357"	"sg1"	"SN-NS19"	0	"Sensory neuron"	2
+"358"	"sg1"	"SN-NS20"	0	"Sensory neuron"	2
+"359"	"sg1"	"SN-NS29"	0	"Sensory neuron"	2
+"360"	"sg1"	"SN-NS27"	0	"Sensory neuron"	2
+"361"	"sg1"	"SN-NS18"	0	"Sensory neuron"	2
+"362"	"sg1"	"SN-NS16"	0	"Sensory neuron"	2
+"363"	"sg1"	"SNadNS22"	0	"Sensory neuron"	2
+"364"	"sg1"	"SNblunt"	0	"Sensory neuron"	2
+"365"	"sg1"	"SNbronto"	0	"Sensory neuron"	2
+"366"	"sg1"	"SNpygM"	0	"Sensory neuron"	2
+"367"	"sg1"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"368"	"sg1"	"SNtorii"	0	"Sensory neuron"	2
+"369"	"sg1"	"SNtrpa"	0	"Sensory neuron"	2
+"370"	"sg2"	"SNnuchBx"	0	"Sensory neuron"	2
+"371"	"sg2"	"SNgolden"	0	"Sensory neuron"	2
+"372"	"sg2"	"SNhorn"	0	"Sensory neuron"	2
+"373"	"sg2"	"SNhook"	0	"Sensory neuron"	2
+"374"	"sg2"	"SNlasso"	0	"Sensory neuron"	2
+"375"	"sg2"	"SNMIP-vc"	0	"Sensory neuron"	2
+"376"	"sg2"	"SNmus"	0	"Sensory neuron"	2
+"377"	"sg2"	"SNantlerPDF"	0	"Sensory neuron"	2
+"378"	"sg2"	"SNPDF-dc"	0	"Sensory neuron"	2
+"379"	"sg2"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"380"	"sg2"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"381"	"sg2"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"382"	"sg2"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"383"	"sg2"	"MS4"	0	"Sensory neuron"	2
+"384"	"sg2"	"MS3"	0	"Sensory neuron"	2
+"385"	"sg2"	"MS5"	0	"Sensory neuron"	2
+"386"	"sg2"	"SN-ASTC"	0	"Sensory neuron"	2
+"387"	"sg2"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"388"	"sg2"	"SN-MIP4"	0	"Sensory neuron"	2
+"389"	"sg2"	"SN-MIP1"	0	"Sensory neuron"	2
+"390"	"sg2"	"SN-WLD"	0	"Sensory neuron"	2
+"391"	"sg2"	"SNbicil"	0	"Sensory neuron"	2
+"392"	"sg2"	"hPUc1"	0	"Sensory neuron"	2
+"393"	"sg2"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"394"	"sg2"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"395"	"sg2"	"SN-NS1"	0	"Sensory neuron"	2
+"396"	"sg2"	"SN-NS3"	0	"Sensory neuron"	2
+"397"	"sg2"	"SN-NS15"	0	"Sensory neuron"	2
+"398"	"sg2"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"399"	"sg2"	"SN-NS22"	0	"Sensory neuron"	2
+"400"	"sg2"	"SN-NS5"	0	"Sensory neuron"	2
+"401"	"sg2"	"SN-NS17"	0	"Sensory neuron"	2
+"402"	"sg2"	"SN-NS19"	0	"Sensory neuron"	2
+"403"	"sg2"	"SN-NS20"	0	"Sensory neuron"	2
+"404"	"sg2"	"SN-NS29"	0	"Sensory neuron"	2
+"405"	"sg2"	"SN-NS27"	0	"Sensory neuron"	2
+"406"	"sg2"	"SN-NS18"	0	"Sensory neuron"	2
+"407"	"sg2"	"SN-NS16"	0	"Sensory neuron"	2
+"408"	"sg2"	"SNadNS22"	0	"Sensory neuron"	2
+"409"	"sg2"	"SNblunt"	0	"Sensory neuron"	2
+"410"	"sg2"	"SNbronto"	0	"Sensory neuron"	2
+"411"	"sg2"	"SNpygM"	0	"Sensory neuron"	2
+"412"	"sg2"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"413"	"sg2"	"SNtorii"	0	"Sensory neuron"	2
+"414"	"sg2"	"SNtrpa"	0	"Sensory neuron"	2
+"415"	"sg3"	"SNnuchBx"	0	"Sensory neuron"	2
+"416"	"sg3"	"SNgolden"	0	"Sensory neuron"	2
+"417"	"sg3"	"SNhorn"	0	"Sensory neuron"	2
+"418"	"sg3"	"SNhook"	0	"Sensory neuron"	2
+"419"	"sg3"	"SNlasso"	0	"Sensory neuron"	2
+"420"	"sg3"	"SNMIP-vc"	0	"Sensory neuron"	2
+"421"	"sg3"	"SNmus"	0	"Sensory neuron"	2
+"422"	"sg3"	"SNantlerPDF"	0	"Sensory neuron"	2
+"423"	"sg3"	"SNPDF-dc"	0	"Sensory neuron"	2
+"424"	"sg3"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"425"	"sg3"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"426"	"sg3"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"427"	"sg3"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"428"	"sg3"	"MS4"	0	"Sensory neuron"	2
+"429"	"sg3"	"MS3"	0	"Sensory neuron"	2
+"430"	"sg3"	"MS5"	0	"Sensory neuron"	2
+"431"	"sg3"	"SN-ASTC"	0	"Sensory neuron"	2
+"432"	"sg3"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"433"	"sg3"	"SN-MIP4"	0	"Sensory neuron"	2
+"434"	"sg3"	"SN-MIP1"	0	"Sensory neuron"	2
+"435"	"sg3"	"SN-WLD"	0	"Sensory neuron"	2
+"436"	"sg3"	"SNbicil"	0	"Sensory neuron"	2
+"437"	"sg3"	"hPUc1"	0	"Sensory neuron"	2
+"438"	"sg3"	"pygCirrusPUSM"	0	"Sensory neuron"	2
+"439"	"sg3"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"440"	"sg3"	"SN-NS1"	0	"Sensory neuron"	2
+"441"	"sg3"	"SN-NS3"	0	"Sensory neuron"	2
+"442"	"sg3"	"SN-NS15"	0	"Sensory neuron"	2
+"443"	"sg3"	"SNPDF-pyg"	0	"Sensory neuron"	2
+"444"	"sg3"	"SN-NS22"	0	"Sensory neuron"	2
+"445"	"sg3"	"SN-NS5"	0	"Sensory neuron"	2
+"446"	"sg3"	"SN-NS17"	0	"Sensory neuron"	2
+"447"	"sg3"	"SN-NS19"	0	"Sensory neuron"	2
+"448"	"sg3"	"SN-NS20"	0	"Sensory neuron"	2
+"449"	"sg3"	"SN-NS29"	0	"Sensory neuron"	2
+"450"	"sg3"	"SN-NS27"	0	"Sensory neuron"	2
+"451"	"sg3"	"SN-NS18"	0	"Sensory neuron"	2
+"452"	"sg3"	"SN-NS16"	0	"Sensory neuron"	2
+"453"	"sg3"	"SNadNS22"	0	"Sensory neuron"	2
+"454"	"sg3"	"SNblunt"	0	"Sensory neuron"	2
+"455"	"sg3"	"SNbronto"	0	"Sensory neuron"	2
+"456"	"sg3"	"SNpygM"	0	"Sensory neuron"	2
+"457"	"sg3"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"458"	"sg3"	"SNtorii"	0	"Sensory neuron"	2
+"459"	"sg3"	"SNtrpa"	0	"Sensory neuron"	2
+"460"	"pyg"	"SNnuchBx"	0	"Sensory neuron"	2
+"461"	"pyg"	"SNgolden"	0	"Sensory neuron"	2
+"462"	"pyg"	"SNhorn"	0	"Sensory neuron"	2
+"463"	"pyg"	"SNhook"	0	"Sensory neuron"	2
+"464"	"pyg"	"SNlasso"	0	"Sensory neuron"	2
+"465"	"pyg"	"SNMIP-vc"	0	"Sensory neuron"	2
+"466"	"pyg"	"SNmus"	0	"Sensory neuron"	2
+"467"	"pyg"	"SNantlerPDF"	0	"Sensory neuron"	2
+"468"	"pyg"	"SNPDF-dc"	0	"Sensory neuron"	2
+"469"	"pyg"	"SN0DLSO1.2-4"	0	"Sensory neuron"	2
+"470"	"pyg"	"SN-DLSO1.2-1"	0	"Sensory neuron"	2
+"471"	"pyg"	"eyespot-PRCR3"	0	"Sensory neuron"	2
+"472"	"pyg"	"eyespot-PRCR1"	0	"Sensory neuron"	2
+"473"	"pyg"	"MS4"	0	"Sensory neuron"	2
+"474"	"pyg"	"MS3"	0	"Sensory neuron"	2
+"475"	"pyg"	"MS5"	0	"Sensory neuron"	2
+"476"	"pyg"	"SN-ASTC"	0	"Sensory neuron"	2
+"477"	"pyg"	"SN-DLSO3-PDF"	0	"Sensory neuron"	2
+"478"	"pyg"	"SN-MIP4"	0	"Sensory neuron"	2
+"479"	"pyg"	"SN-MIP1"	0	"Sensory neuron"	2
+"480"	"pyg"	"SN-WLD"	0	"Sensory neuron"	2
+"481"	"pyg"	"SNbicil"	0	"Sensory neuron"	2
+"482"	"pyg"	"hPUc1"	0	"Sensory neuron"	2
+"483"	"pyg"	"pygCirrusPUSM"	2	"Sensory neuron"	2
+"484"	"pyg"	"SN-DLSO1.0"	0	"Sensory neuron"	2
+"485"	"pyg"	"SN-NS1"	0	"Sensory neuron"	2
+"486"	"pyg"	"SN-NS3"	0	"Sensory neuron"	2
+"487"	"pyg"	"SN-NS15"	0	"Sensory neuron"	2
+"488"	"pyg"	"SNPDF-pyg"	2	"Sensory neuron"	2
+"489"	"pyg"	"SN-NS22"	0	"Sensory neuron"	2
+"490"	"pyg"	"SN-NS5"	0	"Sensory neuron"	2
+"491"	"pyg"	"SN-NS17"	0	"Sensory neuron"	2
+"492"	"pyg"	"SN-NS19"	0	"Sensory neuron"	2
+"493"	"pyg"	"SN-NS20"	0	"Sensory neuron"	2
+"494"	"pyg"	"SN-NS29"	0	"Sensory neuron"	2
+"495"	"pyg"	"SN-NS27"	0	"Sensory neuron"	2
+"496"	"pyg"	"SN-NS18"	0	"Sensory neuron"	2
+"497"	"pyg"	"SN-NS16"	0	"Sensory neuron"	2
+"498"	"pyg"	"SNadNS22"	0	"Sensory neuron"	2
+"499"	"pyg"	"SNblunt"	0	"Sensory neuron"	2
+"500"	"pyg"	"SNbronto"	0	"Sensory neuron"	2
+"501"	"pyg"	"SNpygM"	2	"Sensory neuron"	2
+"502"	"pyg"	"SN-DLSO1.1NP"	0	"Sensory neuron"	2
+"503"	"pyg"	"SNtorii"	0	"Sensory neuron"	2
+"504"	"pyg"	"SNtrpa"	0	"Sensory neuron"	2
+"505"	"head"	"MS1"	1	"Sensory neuron"	1
+"506"	"head"	"SN-IRP2-burs"	1	"Sensory neuron"	1
+"507"	"head"	"SN-IRP2-FMRF"	1	"Sensory neuron"	1
+"508"	"head"	"SNasym"	1	"Sensory neuron"	1
+"509"	"head"	"SN47Ach"	1	"Sensory neuron"	1
+"510"	"head"	"pygPBunp"	0	"Sensory neuron"	1
+"511"	"head"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"512"	"head"	"hPU2l-asymPDF"	1	"Sensory neuron"	1
+"513"	"head"	"doCRunp"	0	"Sensory neuron"	1
+"514"	"head"	"SN-NS4"	1	"Sensory neuron"	1
+"515"	"head"	"SN-YF5cil"	1	"Sensory neuron"	1
+"516"	"head"	"SN-NS6"	1	"Sensory neuron"	1
+"517"	"peristomium"	"MS1"	0	"Sensory neuron"	1
+"518"	"peristomium"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"519"	"peristomium"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"520"	"peristomium"	"SNasym"	0	"Sensory neuron"	1
+"521"	"peristomium"	"SN47Ach"	0	"Sensory neuron"	1
+"522"	"peristomium"	"pygPBunp"	0	"Sensory neuron"	1
+"523"	"peristomium"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"524"	"peristomium"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"525"	"peristomium"	"doCRunp"	0	"Sensory neuron"	1
+"526"	"peristomium"	"SN-NS4"	0	"Sensory neuron"	1
+"527"	"peristomium"	"SN-YF5cil"	0	"Sensory neuron"	1
+"528"	"peristomium"	"SN-NS6"	0	"Sensory neuron"	1
+"529"	"sg0"	"MS1"	0	"Sensory neuron"	1
+"530"	"sg0"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"531"	"sg0"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"532"	"sg0"	"SNasym"	0	"Sensory neuron"	1
+"533"	"sg0"	"SN47Ach"	0	"Sensory neuron"	1
+"534"	"sg0"	"pygPBunp"	0	"Sensory neuron"	1
+"535"	"sg0"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"536"	"sg0"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"537"	"sg0"	"doCRunp"	0	"Sensory neuron"	1
+"538"	"sg0"	"SN-NS4"	0	"Sensory neuron"	1
+"539"	"sg0"	"SN-YF5cil"	0	"Sensory neuron"	1
+"540"	"sg0"	"SN-NS6"	0	"Sensory neuron"	1
+"541"	"sg1"	"MS1"	0	"Sensory neuron"	1
+"542"	"sg1"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"543"	"sg1"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"544"	"sg1"	"SNasym"	0	"Sensory neuron"	1
+"545"	"sg1"	"SN47Ach"	0	"Sensory neuron"	1
+"546"	"sg1"	"pygPBunp"	0	"Sensory neuron"	1
+"547"	"sg1"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"548"	"sg1"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"549"	"sg1"	"doCRunp"	1	"Sensory neuron"	1
+"550"	"sg1"	"SN-NS4"	0	"Sensory neuron"	1
+"551"	"sg1"	"SN-YF5cil"	0	"Sensory neuron"	1
+"552"	"sg1"	"SN-NS6"	0	"Sensory neuron"	1
+"553"	"sg2"	"MS1"	0	"Sensory neuron"	1
+"554"	"sg2"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"555"	"sg2"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"556"	"sg2"	"SNasym"	0	"Sensory neuron"	1
+"557"	"sg2"	"SN47Ach"	0	"Sensory neuron"	1
+"558"	"sg2"	"pygPBunp"	0	"Sensory neuron"	1
+"559"	"sg2"	"VentraltrunkPUunp"	1	"Sensory neuron"	1
+"560"	"sg2"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"561"	"sg2"	"doCRunp"	0	"Sensory neuron"	1
+"562"	"sg2"	"SN-NS4"	0	"Sensory neuron"	1
+"563"	"sg2"	"SN-YF5cil"	0	"Sensory neuron"	1
+"564"	"sg2"	"SN-NS6"	0	"Sensory neuron"	1
+"565"	"sg3"	"MS1"	0	"Sensory neuron"	1
+"566"	"sg3"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"567"	"sg3"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"568"	"sg3"	"SNasym"	0	"Sensory neuron"	1
+"569"	"sg3"	"SN47Ach"	0	"Sensory neuron"	1
+"570"	"sg3"	"pygPBunp"	0	"Sensory neuron"	1
+"571"	"sg3"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"572"	"sg3"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"573"	"sg3"	"doCRunp"	0	"Sensory neuron"	1
+"574"	"sg3"	"SN-NS4"	0	"Sensory neuron"	1
+"575"	"sg3"	"SN-YF5cil"	0	"Sensory neuron"	1
+"576"	"sg3"	"SN-NS6"	0	"Sensory neuron"	1
+"577"	"pyg"	"MS1"	0	"Sensory neuron"	1
+"578"	"pyg"	"SN-IRP2-burs"	0	"Sensory neuron"	1
+"579"	"pyg"	"SN-IRP2-FMRF"	0	"Sensory neuron"	1
+"580"	"pyg"	"SNasym"	0	"Sensory neuron"	1
+"581"	"pyg"	"SN47Ach"	0	"Sensory neuron"	1
+"582"	"pyg"	"pygPBunp"	1	"Sensory neuron"	1
+"583"	"pyg"	"VentraltrunkPUunp"	0	"Sensory neuron"	1
+"584"	"pyg"	"hPU2l-asymPDF"	0	"Sensory neuron"	1
+"585"	"pyg"	"doCRunp"	0	"Sensory neuron"	1
+"586"	"pyg"	"SN-NS4"	0	"Sensory neuron"	1
+"587"	"pyg"	"SN-YF5cil"	0	"Sensory neuron"	1
+"588"	"pyg"	"SN-NS6"	0	"Sensory neuron"	1
+"589"	"head"	"INsplitCR"	0	"interneuron"	17
+"590"	"head"	"INsplitPB"	0	"interneuron"	17
+"591"	"peristomium"	"INsplitCR"	0	"interneuron"	17
+"592"	"peristomium"	"INsplitPB"	0	"interneuron"	17
+"593"	"sg0"	"INsplitCR"	1	"interneuron"	17
+"594"	"sg0"	"INsplitPB"	0	"interneuron"	17
+"595"	"sg1"	"INsplitCR"	8	"interneuron"	17
+"596"	"sg1"	"INsplitPB"	2	"interneuron"	17
+"597"	"sg2"	"INsplitCR"	7	"interneuron"	17
+"598"	"sg2"	"INsplitPB"	9	"interneuron"	17
+"599"	"sg3"	"INsplitCR"	1	"interneuron"	17
+"600"	"sg3"	"INsplitPB"	6	"interneuron"	17
+"601"	"pyg"	"INsplitCR"	0	"interneuron"	17
+"602"	"pyg"	"INsplitPB"	0	"interneuron"	17
+"603"	"head"	"MBmouth"	14	"interneuron"	14
+"604"	"peristomium"	"MBmouth"	0	"interneuron"	14
+"605"	"sg0"	"MBmouth"	0	"interneuron"	14
+"606"	"sg1"	"MBmouth"	0	"interneuron"	14
+"607"	"sg2"	"MBmouth"	0	"interneuron"	14
+"608"	"sg3"	"MBmouth"	0	"interneuron"	14
+"609"	"pyg"	"MBmouth"	0	"interneuron"	14
+"610"	"head"	"INcomm-Upstairs"	0	"interneuron"	13
+"611"	"peristomium"	"INcomm-Upstairs"	0	"interneuron"	13
+"612"	"sg0"	"INcomm-Upstairs"	0	"interneuron"	13
+"613"	"sg1"	"INcomm-Upstairs"	0	"interneuron"	13
+"614"	"sg2"	"INcomm-Upstairs"	0	"interneuron"	13
+"615"	"sg3"	"INcomm-Upstairs"	2	"interneuron"	13
+"616"	"pyg"	"INcomm-Upstairs"	11	"interneuron"	13
+"617"	"head"	"INpro"	12	"interneuron"	12
+"618"	"peristomium"	"INpro"	0	"interneuron"	12
+"619"	"sg0"	"INpro"	0	"interneuron"	12
+"620"	"sg1"	"INpro"	0	"interneuron"	12
+"621"	"sg2"	"INpro"	0	"interneuron"	12
+"622"	"sg3"	"INpro"	0	"interneuron"	12
+"623"	"pyg"	"INpro"	0	"interneuron"	12
+"624"	"head"	"IN1"	10	"interneuron"	10
+"625"	"peristomium"	"IN1"	0	"interneuron"	10
+"626"	"sg0"	"IN1"	0	"interneuron"	10
+"627"	"sg1"	"IN1"	0	"interneuron"	10
+"628"	"sg2"	"IN1"	0	"interneuron"	10
+"629"	"sg3"	"IN1"	0	"interneuron"	10
+"630"	"pyg"	"IN1"	0	"interneuron"	10
+"631"	"head"	"INcomm-Upcross"	0	"interneuron"	9
+"632"	"peristomium"	"INcomm-Upcross"	0	"interneuron"	9
+"633"	"sg0"	"INcomm-Upcross"	0	"interneuron"	9
+"634"	"sg1"	"INcomm-Upcross"	2	"interneuron"	9
+"635"	"sg2"	"INcomm-Upcross"	7	"interneuron"	9
+"636"	"sg3"	"INcomm-Upcross"	0	"interneuron"	9
+"637"	"pyg"	"INcomm-Upcross"	0	"interneuron"	9
+"638"	"head"	"INMBtype6"	8	"interneuron"	8
+"639"	"peristomium"	"INMBtype6"	0	"interneuron"	8
+"640"	"sg0"	"INMBtype6"	0	"interneuron"	8
+"641"	"sg1"	"INMBtype6"	0	"interneuron"	8
+"642"	"sg2"	"INMBtype6"	0	"interneuron"	8
+"643"	"sg3"	"INMBtype6"	0	"interneuron"	8
+"644"	"pyg"	"INMBtype6"	0	"interneuron"	8
+"645"	"head"	"INlasso"	7	"interneuron"	7
+"646"	"head"	"INcross"	7	"interneuron"	7
+"647"	"peristomium"	"INlasso"	0	"interneuron"	7
+"648"	"peristomium"	"INcross"	0	"interneuron"	7
+"649"	"sg0"	"INlasso"	0	"interneuron"	7
+"650"	"sg0"	"INcross"	0	"interneuron"	7
+"651"	"sg1"	"INlasso"	0	"interneuron"	7
+"652"	"sg1"	"INcross"	0	"interneuron"	7
+"653"	"sg2"	"INlasso"	0	"interneuron"	7
+"654"	"sg2"	"INcross"	0	"interneuron"	7
+"655"	"sg3"	"INlasso"	0	"interneuron"	7
+"656"	"sg3"	"INcross"	0	"interneuron"	7
+"657"	"pyg"	"INlasso"	0	"interneuron"	7
+"658"	"pyg"	"INcross"	0	"interneuron"	7
+"659"	"head"	"INpreMN"	6	"interneuron"	6
+"660"	"head"	"INsn"	6	"interneuron"	6
+"661"	"head"	"INdc"	6	"interneuron"	6
+"662"	"head"	"INbackcross"	0	"interneuron"	6
+"663"	"peristomium"	"INpreMN"	0	"interneuron"	6
+"664"	"peristomium"	"INsn"	0	"interneuron"	6
+"665"	"peristomium"	"INdc"	0	"interneuron"	6
+"666"	"peristomium"	"INbackcross"	0	"interneuron"	6
+"667"	"sg0"	"INpreMN"	0	"interneuron"	6
+"668"	"sg0"	"INsn"	0	"interneuron"	6
+"669"	"sg0"	"INdc"	0	"interneuron"	6
+"670"	"sg0"	"INbackcross"	0	"interneuron"	6
+"671"	"sg1"	"INpreMN"	0	"interneuron"	6
+"672"	"sg1"	"INsn"	0	"interneuron"	6
+"673"	"sg1"	"INdc"	0	"interneuron"	6
+"674"	"sg1"	"INbackcross"	2	"interneuron"	6
+"675"	"sg2"	"INpreMN"	0	"interneuron"	6
+"676"	"sg2"	"INsn"	0	"interneuron"	6
+"677"	"sg2"	"INdc"	0	"interneuron"	6
+"678"	"sg2"	"INbackcross"	2	"interneuron"	6
+"679"	"sg3"	"INpreMN"	0	"interneuron"	6
+"680"	"sg3"	"INsn"	0	"interneuron"	6
+"681"	"sg3"	"INdc"	0	"interneuron"	6
+"682"	"sg3"	"INbackcross"	2	"interneuron"	6
+"683"	"pyg"	"INpreMN"	0	"interneuron"	6
+"684"	"pyg"	"INsn"	0	"interneuron"	6
+"685"	"pyg"	"INdc"	0	"interneuron"	6
+"686"	"pyg"	"INbackcross"	0	"interneuron"	6
+"687"	"head"	"INbiaxH"	0	"interneuron"	5
+"688"	"head"	"INW"	5	"interneuron"	5
+"689"	"peristomium"	"INbiaxH"	0	"interneuron"	5
+"690"	"peristomium"	"INW"	0	"interneuron"	5
+"691"	"sg0"	"INbiaxH"	0	"interneuron"	5
+"692"	"sg0"	"INW"	0	"interneuron"	5
+"693"	"sg1"	"INbiaxH"	2	"interneuron"	5
+"694"	"sg1"	"INW"	0	"interneuron"	5
+"695"	"sg2"	"INbiaxH"	3	"interneuron"	5
+"696"	"sg2"	"INW"	0	"interneuron"	5
+"697"	"sg3"	"INbiaxH"	0	"interneuron"	5
+"698"	"sg3"	"INW"	0	"interneuron"	5
+"699"	"pyg"	"INbiaxH"	0	"interneuron"	5
+"700"	"pyg"	"INW"	0	"interneuron"	5
+"701"	"head"	"INton"	4	"interneuron"	4
+"702"	"head"	"INRGWa"	4	"interneuron"	4
+"703"	"head"	"INNOS"	4	"interneuron"	4
+"704"	"head"	"INfoot"	4	"interneuron"	4
+"705"	"head"	"INmidL"	4	"interneuron"	4
+"706"	"head"	"INMBtype7"	4	"interneuron"	4
+"707"	"head"	"INproT2"	4	"interneuron"	4
+"708"	"head"	"INpear"	4	"interneuron"	4
+"709"	"head"	"INZ"	4	"interneuron"	4
+"710"	"head"	"INbigloop"	4	"interneuron"	4
+"711"	"head"	"INasc-pyg"	0	"interneuron"	4
+"712"	"head"	"INpreLadder"	0	"interneuron"	4
+"713"	"head"	"INR1"	4	"interneuron"	4
+"714"	"head"	"INMBPDF"	4	"interneuron"	4
+"715"	"head"	"INDLSO"	4	"interneuron"	4
+"716"	"head"	"INMBdesc2"	4	"interneuron"	4
+"717"	"head"	"INpara"	4	"interneuron"	4
+"718"	"peristomium"	"INton"	0	"interneuron"	4
+"719"	"peristomium"	"INRGWa"	0	"interneuron"	4
+"720"	"peristomium"	"INNOS"	0	"interneuron"	4
+"721"	"peristomium"	"INfoot"	0	"interneuron"	4
+"722"	"peristomium"	"INmidL"	0	"interneuron"	4
+"723"	"peristomium"	"INMBtype7"	0	"interneuron"	4
+"724"	"peristomium"	"INproT2"	0	"interneuron"	4
+"725"	"peristomium"	"INpear"	0	"interneuron"	4
+"726"	"peristomium"	"INZ"	0	"interneuron"	4
+"727"	"peristomium"	"INbigloop"	0	"interneuron"	4
+"728"	"peristomium"	"INasc-pyg"	0	"interneuron"	4
+"729"	"peristomium"	"INpreLadder"	0	"interneuron"	4
+"730"	"peristomium"	"INR1"	0	"interneuron"	4
+"731"	"peristomium"	"INMBPDF"	0	"interneuron"	4
+"732"	"peristomium"	"INDLSO"	0	"interneuron"	4
+"733"	"peristomium"	"INMBdesc2"	0	"interneuron"	4
+"734"	"peristomium"	"INpara"	0	"interneuron"	4
+"735"	"sg0"	"INton"	0	"interneuron"	4
+"736"	"sg0"	"INRGWa"	0	"interneuron"	4
+"737"	"sg0"	"INNOS"	0	"interneuron"	4
+"738"	"sg0"	"INfoot"	0	"interneuron"	4
+"739"	"sg0"	"INmidL"	0	"interneuron"	4
+"740"	"sg0"	"INMBtype7"	0	"interneuron"	4
+"741"	"sg0"	"INproT2"	0	"interneuron"	4
+"742"	"sg0"	"INpear"	0	"interneuron"	4
+"743"	"sg0"	"INZ"	0	"interneuron"	4
+"744"	"sg0"	"INbigloop"	0	"interneuron"	4
+"745"	"sg0"	"INasc-pyg"	0	"interneuron"	4
+"746"	"sg0"	"INpreLadder"	0	"interneuron"	4
+"747"	"sg0"	"INR1"	0	"interneuron"	4
+"748"	"sg0"	"INMBPDF"	0	"interneuron"	4
+"749"	"sg0"	"INDLSO"	0	"interneuron"	4
+"750"	"sg0"	"INMBdesc2"	0	"interneuron"	4
+"751"	"sg0"	"INpara"	0	"interneuron"	4
+"752"	"sg1"	"INton"	0	"interneuron"	4
+"753"	"sg1"	"INRGWa"	0	"interneuron"	4
+"754"	"sg1"	"INNOS"	0	"interneuron"	4
+"755"	"sg1"	"INfoot"	0	"interneuron"	4
+"756"	"sg1"	"INmidL"	0	"interneuron"	4
+"757"	"sg1"	"INMBtype7"	0	"interneuron"	4
+"758"	"sg1"	"INproT2"	0	"interneuron"	4
+"759"	"sg1"	"INpear"	0	"interneuron"	4
+"760"	"sg1"	"INZ"	0	"interneuron"	4
+"761"	"sg1"	"INbigloop"	0	"interneuron"	4
+"762"	"sg1"	"INasc-pyg"	0	"interneuron"	4
+"763"	"sg1"	"INpreLadder"	0	"interneuron"	4
+"764"	"sg1"	"INR1"	0	"interneuron"	4
+"765"	"sg1"	"INMBPDF"	0	"interneuron"	4
+"766"	"sg1"	"INDLSO"	0	"interneuron"	4
+"767"	"sg1"	"INMBdesc2"	0	"interneuron"	4
+"768"	"sg1"	"INpara"	0	"interneuron"	4
+"769"	"sg2"	"INton"	0	"interneuron"	4
+"770"	"sg2"	"INRGWa"	0	"interneuron"	4
+"771"	"sg2"	"INNOS"	0	"interneuron"	4
+"772"	"sg2"	"INfoot"	0	"interneuron"	4
+"773"	"sg2"	"INmidL"	0	"interneuron"	4
+"774"	"sg2"	"INMBtype7"	0	"interneuron"	4
+"775"	"sg2"	"INproT2"	0	"interneuron"	4
+"776"	"sg2"	"INpear"	0	"interneuron"	4
+"777"	"sg2"	"INZ"	0	"interneuron"	4
+"778"	"sg2"	"INbigloop"	0	"interneuron"	4
+"779"	"sg2"	"INasc-pyg"	0	"interneuron"	4
+"780"	"sg2"	"INpreLadder"	2	"interneuron"	4
+"781"	"sg2"	"INR1"	0	"interneuron"	4
+"782"	"sg2"	"INMBPDF"	0	"interneuron"	4
+"783"	"sg2"	"INDLSO"	0	"interneuron"	4
+"784"	"sg2"	"INMBdesc2"	0	"interneuron"	4
+"785"	"sg2"	"INpara"	0	"interneuron"	4
+"786"	"sg3"	"INton"	0	"interneuron"	4
+"787"	"sg3"	"INRGWa"	0	"interneuron"	4
+"788"	"sg3"	"INNOS"	0	"interneuron"	4
+"789"	"sg3"	"INfoot"	0	"interneuron"	4
+"790"	"sg3"	"INmidL"	0	"interneuron"	4
+"791"	"sg3"	"INMBtype7"	0	"interneuron"	4
+"792"	"sg3"	"INproT2"	0	"interneuron"	4
+"793"	"sg3"	"INpear"	0	"interneuron"	4
+"794"	"sg3"	"INZ"	0	"interneuron"	4
+"795"	"sg3"	"INbigloop"	0	"interneuron"	4
+"796"	"sg3"	"INasc-pyg"	0	"interneuron"	4
+"797"	"sg3"	"INpreLadder"	2	"interneuron"	4
+"798"	"sg3"	"INR1"	0	"interneuron"	4
+"799"	"sg3"	"INMBPDF"	0	"interneuron"	4
+"800"	"sg3"	"INDLSO"	0	"interneuron"	4
+"801"	"sg3"	"INMBdesc2"	0	"interneuron"	4
+"802"	"sg3"	"INpara"	0	"interneuron"	4
+"803"	"pyg"	"INton"	0	"interneuron"	4
+"804"	"pyg"	"INRGWa"	0	"interneuron"	4
+"805"	"pyg"	"INNOS"	0	"interneuron"	4
+"806"	"pyg"	"INfoot"	0	"interneuron"	4
+"807"	"pyg"	"INmidL"	0	"interneuron"	4
+"808"	"pyg"	"INMBtype7"	0	"interneuron"	4
+"809"	"pyg"	"INproT2"	0	"interneuron"	4
+"810"	"pyg"	"INpear"	0	"interneuron"	4
+"811"	"pyg"	"INZ"	0	"interneuron"	4
+"812"	"pyg"	"INbigloop"	0	"interneuron"	4
+"813"	"pyg"	"INasc-pyg"	4	"interneuron"	4
+"814"	"pyg"	"INpreLadder"	0	"interneuron"	4
+"815"	"pyg"	"INR1"	0	"interneuron"	4
+"816"	"pyg"	"INMBPDF"	0	"interneuron"	4
+"817"	"pyg"	"INDLSO"	0	"interneuron"	4
+"818"	"pyg"	"INMBdesc2"	0	"interneuron"	4
+"819"	"pyg"	"INpara"	0	"interneuron"	4
+"820"	"head"	"INsplitPUh"	3	"interneuron"	3
+"821"	"head"	"INbiaxLeg"	0	"interneuron"	3
+"822"	"head"	"INcommascFV"	0	"interneuron"	3
+"823"	"peristomium"	"INsplitPUh"	0	"interneuron"	3
+"824"	"peristomium"	"INbiaxLeg"	0	"interneuron"	3
+"825"	"peristomium"	"INcommascFV"	0	"interneuron"	3
+"826"	"sg0"	"INsplitPUh"	0	"interneuron"	3
+"827"	"sg0"	"INbiaxLeg"	0	"interneuron"	3
+"828"	"sg0"	"INcommascFV"	0	"interneuron"	3
+"829"	"sg1"	"INsplitPUh"	0	"interneuron"	3
+"830"	"sg1"	"INbiaxLeg"	0	"interneuron"	3
+"831"	"sg1"	"INcommascFV"	0	"interneuron"	3
+"832"	"sg2"	"INsplitPUh"	0	"interneuron"	3
+"833"	"sg2"	"INbiaxLeg"	3	"interneuron"	3
+"834"	"sg2"	"INcommascFV"	3	"interneuron"	3
+"835"	"sg3"	"INsplitPUh"	0	"interneuron"	3
+"836"	"sg3"	"INbiaxLeg"	0	"interneuron"	3
+"837"	"sg3"	"INcommascFV"	0	"interneuron"	3
+"838"	"pyg"	"INsplitPUh"	0	"interneuron"	3
+"839"	"pyg"	"INbiaxLeg"	0	"interneuron"	3
+"840"	"pyg"	"INcommascFV"	0	"interneuron"	3
+"841"	"head"	"INpreSer"	2	"interneuron"	2
+"842"	"head"	"INdecussPre"	2	"interneuron"	2
+"843"	"head"	"MC2biax-1"	2	"interneuron"	2
+"844"	"head"	"INCrossbow"	2	"interneuron"	2
+"845"	"head"	"INarc1"	2	"interneuron"	2
+"846"	"head"	"INarc2"	2	"interneuron"	2
+"847"	"head"	"INrope"	2	"interneuron"	2
+"848"	"head"	"INCM"	0	"interneuron"	2
+"849"	"head"	"INchaeMech"	0	"interneuron"	2
+"850"	"head"	"INFVa-pyg"	0	"interneuron"	2
+"851"	"head"	"INsplitCRATO"	0	"interneuron"	2
+"852"	"head"	"INMC3"	2	"interneuron"	2
+"853"	"head"	"INbiax"	2	"interneuron"	2
+"854"	"head"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"855"	"head"	"INsplitPBant"	0	"interneuron"	2
+"856"	"head"	"INhook"	2	"interneuron"	2
+"857"	"head"	"INMBtype5"	2	"interneuron"	2
+"858"	"head"	"INUturn"	2	"interneuron"	2
+"859"	"head"	"INATOpyg"	0	"interneuron"	2
+"860"	"head"	"INsplitBronto"	0	"interneuron"	2
+"861"	"head"	"INleucoPU"	0	"interneuron"	2
+"862"	"head"	"INdecussfoot"	2	"interneuron"	2
+"863"	"head"	"INdecusshook"	2	"interneuron"	2
+"864"	"head"	"INsplitVent"	0	"interneuron"	2
+"865"	"head"	"INcomm-DownL"	0	"interneuron"	2
+"866"	"head"	"INlasso-postSN"	2	"interneuron"	2
+"867"	"head"	"INmus"	2	"interneuron"	2
+"868"	"head"	"INdescLuqinPDF"	2	"interneuron"	2
+"869"	"head"	"INcosplit"	0	"interneuron"	2
+"870"	"head"	"INcommdescFVa"	0	"interneuron"	2
+"871"	"head"	"INbiaxHmid"	0	"interneuron"	2
+"872"	"head"	"INhorn"	2	"interneuron"	2
+"873"	"head"	"INMBdescFMRF"	2	"interneuron"	2
+"874"	"head"	"INexsn"	2	"interneuron"	2
+"875"	"head"	"INtorii"	2	"interneuron"	2
+"876"	"head"	"INUturnMB"	2	"interneuron"	2
+"877"	"head"	"INface"	2	"interneuron"	2
+"878"	"head"	"INMBdesc3"	2	"interneuron"	2
+"879"	"head"	"INMBtype9"	2	"interneuron"	2
+"880"	"head"	"INMBtype2"	2	"interneuron"	2
+"881"	"head"	"INdecussM"	2	"interneuron"	2
+"882"	"head"	"INiaStiff"	0	"interneuron"	2
+"883"	"head"	"INmantis"	2	"interneuron"	2
+"884"	"head"	"INsplitSpin"	0	"interneuron"	2
+"885"	"peristomium"	"INpreSer"	0	"interneuron"	2
+"886"	"peristomium"	"INdecussPre"	0	"interneuron"	2
+"887"	"peristomium"	"MC2biax-1"	0	"interneuron"	2
+"888"	"peristomium"	"INCrossbow"	0	"interneuron"	2
+"889"	"peristomium"	"INarc1"	0	"interneuron"	2
+"890"	"peristomium"	"INarc2"	0	"interneuron"	2
+"891"	"peristomium"	"INrope"	0	"interneuron"	2
+"892"	"peristomium"	"INCM"	0	"interneuron"	2
+"893"	"peristomium"	"INchaeMech"	0	"interneuron"	2
+"894"	"peristomium"	"INFVa-pyg"	0	"interneuron"	2
+"895"	"peristomium"	"INsplitCRATO"	0	"interneuron"	2
+"896"	"peristomium"	"INMC3"	0	"interneuron"	2
+"897"	"peristomium"	"INbiax"	0	"interneuron"	2
+"898"	"peristomium"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"899"	"peristomium"	"INsplitPBant"	0	"interneuron"	2
+"900"	"peristomium"	"INhook"	0	"interneuron"	2
+"901"	"peristomium"	"INMBtype5"	0	"interneuron"	2
+"902"	"peristomium"	"INUturn"	0	"interneuron"	2
+"903"	"peristomium"	"INATOpyg"	0	"interneuron"	2
+"904"	"peristomium"	"INsplitBronto"	0	"interneuron"	2
+"905"	"peristomium"	"INleucoPU"	0	"interneuron"	2
+"906"	"peristomium"	"INdecussfoot"	0	"interneuron"	2
+"907"	"peristomium"	"INdecusshook"	0	"interneuron"	2
+"908"	"peristomium"	"INsplitVent"	0	"interneuron"	2
+"909"	"peristomium"	"INcomm-DownL"	0	"interneuron"	2
+"910"	"peristomium"	"INlasso-postSN"	0	"interneuron"	2
+"911"	"peristomium"	"INmus"	0	"interneuron"	2
+"912"	"peristomium"	"INdescLuqinPDF"	0	"interneuron"	2
+"913"	"peristomium"	"INcosplit"	0	"interneuron"	2
+"914"	"peristomium"	"INcommdescFVa"	0	"interneuron"	2
+"915"	"peristomium"	"INbiaxHmid"	0	"interneuron"	2
+"916"	"peristomium"	"INhorn"	0	"interneuron"	2
+"917"	"peristomium"	"INMBdescFMRF"	0	"interneuron"	2
+"918"	"peristomium"	"INexsn"	0	"interneuron"	2
+"919"	"peristomium"	"INtorii"	0	"interneuron"	2
+"920"	"peristomium"	"INUturnMB"	0	"interneuron"	2
+"921"	"peristomium"	"INface"	0	"interneuron"	2
+"922"	"peristomium"	"INMBdesc3"	0	"interneuron"	2
+"923"	"peristomium"	"INMBtype9"	0	"interneuron"	2
+"924"	"peristomium"	"INMBtype2"	0	"interneuron"	2
+"925"	"peristomium"	"INdecussM"	0	"interneuron"	2
+"926"	"peristomium"	"INiaStiff"	0	"interneuron"	2
+"927"	"peristomium"	"INmantis"	0	"interneuron"	2
+"928"	"peristomium"	"INsplitSpin"	0	"interneuron"	2
+"929"	"sg0"	"INpreSer"	0	"interneuron"	2
+"930"	"sg0"	"INdecussPre"	0	"interneuron"	2
+"931"	"sg0"	"MC2biax-1"	0	"interneuron"	2
+"932"	"sg0"	"INCrossbow"	0	"interneuron"	2
+"933"	"sg0"	"INarc1"	0	"interneuron"	2
+"934"	"sg0"	"INarc2"	0	"interneuron"	2
+"935"	"sg0"	"INrope"	0	"interneuron"	2
+"936"	"sg0"	"INCM"	0	"interneuron"	2
+"937"	"sg0"	"INchaeMech"	0	"interneuron"	2
+"938"	"sg0"	"INFVa-pyg"	0	"interneuron"	2
+"939"	"sg0"	"INsplitCRATO"	0	"interneuron"	2
+"940"	"sg0"	"INMC3"	0	"interneuron"	2
+"941"	"sg0"	"INbiax"	0	"interneuron"	2
+"942"	"sg0"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"943"	"sg0"	"INsplitPBant"	0	"interneuron"	2
+"944"	"sg0"	"INhook"	0	"interneuron"	2
+"945"	"sg0"	"INMBtype5"	0	"interneuron"	2
+"946"	"sg0"	"INUturn"	0	"interneuron"	2
+"947"	"sg0"	"INATOpyg"	0	"interneuron"	2
+"948"	"sg0"	"INsplitBronto"	0	"interneuron"	2
+"949"	"sg0"	"INleucoPU"	0	"interneuron"	2
+"950"	"sg0"	"INdecussfoot"	0	"interneuron"	2
+"951"	"sg0"	"INdecusshook"	0	"interneuron"	2
+"952"	"sg0"	"INsplitVent"	0	"interneuron"	2
+"953"	"sg0"	"INcomm-DownL"	0	"interneuron"	2
+"954"	"sg0"	"INlasso-postSN"	0	"interneuron"	2
+"955"	"sg0"	"INmus"	0	"interneuron"	2
+"956"	"sg0"	"INdescLuqinPDF"	0	"interneuron"	2
+"957"	"sg0"	"INcosplit"	0	"interneuron"	2
+"958"	"sg0"	"INcommdescFVa"	0	"interneuron"	2
+"959"	"sg0"	"INbiaxHmid"	0	"interneuron"	2
+"960"	"sg0"	"INhorn"	0	"interneuron"	2
+"961"	"sg0"	"INMBdescFMRF"	0	"interneuron"	2
+"962"	"sg0"	"INexsn"	0	"interneuron"	2
+"963"	"sg0"	"INtorii"	0	"interneuron"	2
+"964"	"sg0"	"INUturnMB"	0	"interneuron"	2
+"965"	"sg0"	"INface"	0	"interneuron"	2
+"966"	"sg0"	"INMBdesc3"	0	"interneuron"	2
+"967"	"sg0"	"INMBtype9"	0	"interneuron"	2
+"968"	"sg0"	"INMBtype2"	0	"interneuron"	2
+"969"	"sg0"	"INdecussM"	0	"interneuron"	2
+"970"	"sg0"	"INiaStiff"	0	"interneuron"	2
+"971"	"sg0"	"INmantis"	0	"interneuron"	2
+"972"	"sg0"	"INsplitSpin"	0	"interneuron"	2
+"973"	"sg1"	"INpreSer"	0	"interneuron"	2
+"974"	"sg1"	"INdecussPre"	0	"interneuron"	2
+"975"	"sg1"	"MC2biax-1"	0	"interneuron"	2
+"976"	"sg1"	"INCrossbow"	0	"interneuron"	2
+"977"	"sg1"	"INarc1"	0	"interneuron"	2
+"978"	"sg1"	"INarc2"	0	"interneuron"	2
+"979"	"sg1"	"INrope"	0	"interneuron"	2
+"980"	"sg1"	"INCM"	2	"interneuron"	2
+"981"	"sg1"	"INchaeMech"	0	"interneuron"	2
+"982"	"sg1"	"INFVa-pyg"	0	"interneuron"	2
+"983"	"sg1"	"INsplitCRATO"	0	"interneuron"	2
+"984"	"sg1"	"INMC3"	0	"interneuron"	2
+"985"	"sg1"	"INbiax"	0	"interneuron"	2
+"986"	"sg1"	"INsplitPB-RF/Ya"	2	"interneuron"	2
+"987"	"sg1"	"INsplitPBant"	2	"interneuron"	2
+"988"	"sg1"	"INhook"	0	"interneuron"	2
+"989"	"sg1"	"INMBtype5"	0	"interneuron"	2
+"990"	"sg1"	"INUturn"	0	"interneuron"	2
+"991"	"sg1"	"INATOpyg"	0	"interneuron"	2
+"992"	"sg1"	"INsplitBronto"	2	"interneuron"	2
+"993"	"sg1"	"INleucoPU"	2	"interneuron"	2
+"994"	"sg1"	"INdecussfoot"	0	"interneuron"	2
+"995"	"sg1"	"INdecusshook"	0	"interneuron"	2
+"996"	"sg1"	"INsplitVent"	0	"interneuron"	2
+"997"	"sg1"	"INcomm-DownL"	2	"interneuron"	2
+"998"	"sg1"	"INlasso-postSN"	0	"interneuron"	2
+"999"	"sg1"	"INmus"	0	"interneuron"	2
+"1000"	"sg1"	"INdescLuqinPDF"	0	"interneuron"	2
+"1001"	"sg1"	"INcosplit"	0	"interneuron"	2
+"1002"	"sg1"	"INcommdescFVa"	0	"interneuron"	2
+"1003"	"sg1"	"INbiaxHmid"	0	"interneuron"	2
+"1004"	"sg1"	"INhorn"	0	"interneuron"	2
+"1005"	"sg1"	"INMBdescFMRF"	0	"interneuron"	2
+"1006"	"sg1"	"INexsn"	0	"interneuron"	2
+"1007"	"sg1"	"INtorii"	0	"interneuron"	2
+"1008"	"sg1"	"INUturnMB"	0	"interneuron"	2
+"1009"	"sg1"	"INface"	0	"interneuron"	2
+"1010"	"sg1"	"INMBdesc3"	0	"interneuron"	2
+"1011"	"sg1"	"INMBtype9"	0	"interneuron"	2
+"1012"	"sg1"	"INMBtype2"	0	"interneuron"	2
+"1013"	"sg1"	"INdecussM"	0	"interneuron"	2
+"1014"	"sg1"	"INiaStiff"	2	"interneuron"	2
+"1015"	"sg1"	"INmantis"	0	"interneuron"	2
+"1016"	"sg1"	"INsplitSpin"	2	"interneuron"	2
+"1017"	"sg2"	"INpreSer"	0	"interneuron"	2
+"1018"	"sg2"	"INdecussPre"	0	"interneuron"	2
+"1019"	"sg2"	"MC2biax-1"	0	"interneuron"	2
+"1020"	"sg2"	"INCrossbow"	0	"interneuron"	2
+"1021"	"sg2"	"INarc1"	0	"interneuron"	2
+"1022"	"sg2"	"INarc2"	0	"interneuron"	2
+"1023"	"sg2"	"INrope"	0	"interneuron"	2
+"1024"	"sg2"	"INCM"	0	"interneuron"	2
+"1025"	"sg2"	"INchaeMech"	0	"interneuron"	2
+"1026"	"sg2"	"INFVa-pyg"	0	"interneuron"	2
+"1027"	"sg2"	"INsplitCRATO"	0	"interneuron"	2
+"1028"	"sg2"	"INMC3"	0	"interneuron"	2
+"1029"	"sg2"	"INbiax"	0	"interneuron"	2
+"1030"	"sg2"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"1031"	"sg2"	"INsplitPBant"	0	"interneuron"	2
+"1032"	"sg2"	"INhook"	0	"interneuron"	2
+"1033"	"sg2"	"INMBtype5"	0	"interneuron"	2
+"1034"	"sg2"	"INUturn"	0	"interneuron"	2
+"1035"	"sg2"	"INATOpyg"	0	"interneuron"	2
+"1036"	"sg2"	"INsplitBronto"	0	"interneuron"	2
+"1037"	"sg2"	"INleucoPU"	0	"interneuron"	2
+"1038"	"sg2"	"INdecussfoot"	0	"interneuron"	2
+"1039"	"sg2"	"INdecusshook"	0	"interneuron"	2
+"1040"	"sg2"	"INsplitVent"	2	"interneuron"	2
+"1041"	"sg2"	"INcomm-DownL"	0	"interneuron"	2
+"1042"	"sg2"	"INlasso-postSN"	0	"interneuron"	2
+"1043"	"sg2"	"INmus"	0	"interneuron"	2
+"1044"	"sg2"	"INdescLuqinPDF"	0	"interneuron"	2
+"1045"	"sg2"	"INcosplit"	2	"interneuron"	2
+"1046"	"sg2"	"INcommdescFVa"	2	"interneuron"	2
+"1047"	"sg2"	"INbiaxHmid"	2	"interneuron"	2
+"1048"	"sg2"	"INhorn"	0	"interneuron"	2
+"1049"	"sg2"	"INMBdescFMRF"	0	"interneuron"	2
+"1050"	"sg2"	"INexsn"	0	"interneuron"	2
+"1051"	"sg2"	"INtorii"	0	"interneuron"	2
+"1052"	"sg2"	"INUturnMB"	0	"interneuron"	2
+"1053"	"sg2"	"INface"	0	"interneuron"	2
+"1054"	"sg2"	"INMBdesc3"	0	"interneuron"	2
+"1055"	"sg2"	"INMBtype9"	0	"interneuron"	2
+"1056"	"sg2"	"INMBtype2"	0	"interneuron"	2
+"1057"	"sg2"	"INdecussM"	0	"interneuron"	2
+"1058"	"sg2"	"INiaStiff"	0	"interneuron"	2
+"1059"	"sg2"	"INmantis"	0	"interneuron"	2
+"1060"	"sg2"	"INsplitSpin"	0	"interneuron"	2
+"1061"	"sg3"	"INpreSer"	0	"interneuron"	2
+"1062"	"sg3"	"INdecussPre"	0	"interneuron"	2
+"1063"	"sg3"	"MC2biax-1"	0	"interneuron"	2
+"1064"	"sg3"	"INCrossbow"	0	"interneuron"	2
+"1065"	"sg3"	"INarc1"	0	"interneuron"	2
+"1066"	"sg3"	"INarc2"	0	"interneuron"	2
+"1067"	"sg3"	"INrope"	0	"interneuron"	2
+"1068"	"sg3"	"INCM"	0	"interneuron"	2
+"1069"	"sg3"	"INchaeMech"	2	"interneuron"	2
+"1070"	"sg3"	"INFVa-pyg"	0	"interneuron"	2
+"1071"	"sg3"	"INsplitCRATO"	2	"interneuron"	2
+"1072"	"sg3"	"INMC3"	0	"interneuron"	2
+"1073"	"sg3"	"INbiax"	0	"interneuron"	2
+"1074"	"sg3"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"1075"	"sg3"	"INsplitPBant"	0	"interneuron"	2
+"1076"	"sg3"	"INhook"	0	"interneuron"	2
+"1077"	"sg3"	"INMBtype5"	0	"interneuron"	2
+"1078"	"sg3"	"INUturn"	0	"interneuron"	2
+"1079"	"sg3"	"INATOpyg"	0	"interneuron"	2
+"1080"	"sg3"	"INsplitBronto"	0	"interneuron"	2
+"1081"	"sg3"	"INleucoPU"	0	"interneuron"	2
+"1082"	"sg3"	"INdecussfoot"	0	"interneuron"	2
+"1083"	"sg3"	"INdecusshook"	0	"interneuron"	2
+"1084"	"sg3"	"INsplitVent"	0	"interneuron"	2
+"1085"	"sg3"	"INcomm-DownL"	0	"interneuron"	2
+"1086"	"sg3"	"INlasso-postSN"	0	"interneuron"	2
+"1087"	"sg3"	"INmus"	0	"interneuron"	2
+"1088"	"sg3"	"INdescLuqinPDF"	0	"interneuron"	2
+"1089"	"sg3"	"INcosplit"	0	"interneuron"	2
+"1090"	"sg3"	"INcommdescFVa"	0	"interneuron"	2
+"1091"	"sg3"	"INbiaxHmid"	0	"interneuron"	2
+"1092"	"sg3"	"INhorn"	0	"interneuron"	2
+"1093"	"sg3"	"INMBdescFMRF"	0	"interneuron"	2
+"1094"	"sg3"	"INexsn"	0	"interneuron"	2
+"1095"	"sg3"	"INtorii"	0	"interneuron"	2
+"1096"	"sg3"	"INUturnMB"	0	"interneuron"	2
+"1097"	"sg3"	"INface"	0	"interneuron"	2
+"1098"	"sg3"	"INMBdesc3"	0	"interneuron"	2
+"1099"	"sg3"	"INMBtype9"	0	"interneuron"	2
+"1100"	"sg3"	"INMBtype2"	0	"interneuron"	2
+"1101"	"sg3"	"INdecussM"	0	"interneuron"	2
+"1102"	"sg3"	"INiaStiff"	0	"interneuron"	2
+"1103"	"sg3"	"INmantis"	0	"interneuron"	2
+"1104"	"sg3"	"INsplitSpin"	0	"interneuron"	2
+"1105"	"pyg"	"INpreSer"	0	"interneuron"	2
+"1106"	"pyg"	"INdecussPre"	0	"interneuron"	2
+"1107"	"pyg"	"MC2biax-1"	0	"interneuron"	2
+"1108"	"pyg"	"INCrossbow"	0	"interneuron"	2
+"1109"	"pyg"	"INarc1"	0	"interneuron"	2
+"1110"	"pyg"	"INarc2"	0	"interneuron"	2
+"1111"	"pyg"	"INrope"	0	"interneuron"	2
+"1112"	"pyg"	"INCM"	0	"interneuron"	2
+"1113"	"pyg"	"INchaeMech"	0	"interneuron"	2
+"1114"	"pyg"	"INFVa-pyg"	2	"interneuron"	2
+"1115"	"pyg"	"INsplitCRATO"	0	"interneuron"	2
+"1116"	"pyg"	"INMC3"	0	"interneuron"	2
+"1117"	"pyg"	"INbiax"	0	"interneuron"	2
+"1118"	"pyg"	"INsplitPB-RF/Ya"	0	"interneuron"	2
+"1119"	"pyg"	"INsplitPBant"	0	"interneuron"	2
+"1120"	"pyg"	"INhook"	0	"interneuron"	2
+"1121"	"pyg"	"INMBtype5"	0	"interneuron"	2
+"1122"	"pyg"	"INUturn"	0	"interneuron"	2
+"1123"	"pyg"	"INATOpyg"	2	"interneuron"	2
+"1124"	"pyg"	"INsplitBronto"	0	"interneuron"	2
+"1125"	"pyg"	"INleucoPU"	0	"interneuron"	2
+"1126"	"pyg"	"INdecussfoot"	0	"interneuron"	2
+"1127"	"pyg"	"INdecusshook"	0	"interneuron"	2
+"1128"	"pyg"	"INsplitVent"	0	"interneuron"	2
+"1129"	"pyg"	"INcomm-DownL"	0	"interneuron"	2
+"1130"	"pyg"	"INlasso-postSN"	0	"interneuron"	2
+"1131"	"pyg"	"INmus"	0	"interneuron"	2
+"1132"	"pyg"	"INdescLuqinPDF"	0	"interneuron"	2
+"1133"	"pyg"	"INcosplit"	0	"interneuron"	2
+"1134"	"pyg"	"INcommdescFVa"	0	"interneuron"	2
+"1135"	"pyg"	"INbiaxHmid"	0	"interneuron"	2
+"1136"	"pyg"	"INhorn"	0	"interneuron"	2
+"1137"	"pyg"	"INMBdescFMRF"	0	"interneuron"	2
+"1138"	"pyg"	"INexsn"	0	"interneuron"	2
+"1139"	"pyg"	"INtorii"	0	"interneuron"	2
+"1140"	"pyg"	"INUturnMB"	0	"interneuron"	2
+"1141"	"pyg"	"INface"	0	"interneuron"	2
+"1142"	"pyg"	"INMBdesc3"	0	"interneuron"	2
+"1143"	"pyg"	"INMBtype9"	0	"interneuron"	2
+"1144"	"pyg"	"INMBtype2"	0	"interneuron"	2
+"1145"	"pyg"	"INdecussM"	0	"interneuron"	2
+"1146"	"pyg"	"INiaStiff"	0	"interneuron"	2
+"1147"	"pyg"	"INmantis"	0	"interneuron"	2
+"1148"	"pyg"	"INsplitSpin"	0	"interneuron"	2
+"1149"	"head"	"cMNPDF-vcl1"	1	"interneuron"	1
+"1150"	"head"	"cMNATO"	1	"interneuron"	1
+"1151"	"head"	"cMNdc"	1	"interneuron"	1
+"1152"	"head"	"INsqNSasym"	1	"interneuron"	1
+"1153"	"peristomium"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1154"	"peristomium"	"cMNATO"	0	"interneuron"	1
+"1155"	"peristomium"	"cMNdc"	0	"interneuron"	1
+"1156"	"peristomium"	"INsqNSasym"	0	"interneuron"	1
+"1157"	"sg0"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1158"	"sg0"	"cMNATO"	0	"interneuron"	1
+"1159"	"sg0"	"cMNdc"	0	"interneuron"	1
+"1160"	"sg0"	"INsqNSasym"	0	"interneuron"	1
+"1161"	"sg1"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1162"	"sg1"	"cMNATO"	0	"interneuron"	1
+"1163"	"sg1"	"cMNdc"	0	"interneuron"	1
+"1164"	"sg1"	"INsqNSasym"	0	"interneuron"	1
+"1165"	"sg2"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1166"	"sg2"	"cMNATO"	0	"interneuron"	1
+"1167"	"sg2"	"cMNdc"	0	"interneuron"	1
+"1168"	"sg2"	"INsqNSasym"	0	"interneuron"	1
+"1169"	"sg3"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1170"	"sg3"	"cMNATO"	0	"interneuron"	1
+"1171"	"sg3"	"cMNdc"	0	"interneuron"	1
+"1172"	"sg3"	"INsqNSasym"	0	"interneuron"	1
+"1173"	"pyg"	"cMNPDF-vcl1"	0	"interneuron"	1
+"1174"	"pyg"	"cMNATO"	0	"interneuron"	1
+"1175"	"pyg"	"cMNdc"	0	"interneuron"	1
+"1176"	"pyg"	"INsqNSasym"	0	"interneuron"	1
+"1177"	"head"	"MNring"	0	"motorneuron"	32
+"1178"	"peristomium"	"MNring"	0	"motorneuron"	32
+"1179"	"sg0"	"MNring"	0	"motorneuron"	32
+"1180"	"sg1"	"MNring"	9	"motorneuron"	32
+"1181"	"sg2"	"MNring"	16	"motorneuron"	32
+"1182"	"sg3"	"MNring"	6	"motorneuron"	32
+"1183"	"pyg"	"MNring"	1	"motorneuron"	32
+"1184"	"head"	"MNchae"	0	"motorneuron"	9
+"1185"	"peristomium"	"MNchae"	0	"motorneuron"	9
+"1186"	"sg0"	"MNchae"	0	"motorneuron"	9
+"1187"	"sg1"	"MNchae"	3	"motorneuron"	9
+"1188"	"sg2"	"MNchae"	3	"motorneuron"	9
+"1189"	"sg3"	"MNchae"	3	"motorneuron"	9
+"1190"	"pyg"	"MNchae"	0	"motorneuron"	9
+"1191"	"head"	"MNpostacic"	0	"motorneuron"	8
+"1192"	"head"	"MNsmile"	0	"motorneuron"	8
+"1193"	"peristomium"	"MNpostacic"	0	"motorneuron"	8
+"1194"	"peristomium"	"MNsmile"	0	"motorneuron"	8
+"1195"	"sg0"	"MNpostacic"	0	"motorneuron"	8
+"1196"	"sg0"	"MNsmile"	0	"motorneuron"	8
+"1197"	"sg1"	"MNpostacic"	4	"motorneuron"	8
+"1198"	"sg1"	"MNsmile"	8	"motorneuron"	8
+"1199"	"sg2"	"MNpostacic"	3	"motorneuron"	8
+"1200"	"sg2"	"MNsmile"	0	"motorneuron"	8
+"1201"	"sg3"	"MNpostacic"	1	"motorneuron"	8
+"1202"	"sg3"	"MNsmile"	0	"motorneuron"	8
+"1203"	"pyg"	"MNpostacic"	0	"motorneuron"	8
+"1204"	"pyg"	"MNsmile"	0	"motorneuron"	8
+"1205"	"head"	"MNarm"	0	"motorneuron"	7
+"1206"	"peristomium"	"MNarm"	0	"motorneuron"	7
+"1207"	"sg0"	"MNarm"	0	"motorneuron"	7
+"1208"	"sg1"	"MNarm"	0	"motorneuron"	7
+"1209"	"sg2"	"MNarm"	4	"motorneuron"	7
+"1210"	"sg3"	"MNarm"	3	"motorneuron"	7
+"1211"	"pyg"	"MNarm"	0	"motorneuron"	7
+"1212"	"head"	"MNbiramous"	0	"motorneuron"	6
+"1213"	"head"	"MNhose"	0	"motorneuron"	6
+"1214"	"head"	"MNwave"	0	"motorneuron"	6
+"1215"	"head"	"MNantacic"	0	"motorneuron"	6
+"1216"	"peristomium"	"MNbiramous"	0	"motorneuron"	6
+"1217"	"peristomium"	"MNhose"	0	"motorneuron"	6
+"1218"	"peristomium"	"MNwave"	0	"motorneuron"	6
+"1219"	"peristomium"	"MNantacic"	0	"motorneuron"	6
+"1220"	"sg0"	"MNbiramous"	0	"motorneuron"	6
+"1221"	"sg0"	"MNhose"	0	"motorneuron"	6
+"1222"	"sg0"	"MNwave"	0	"motorneuron"	6
+"1223"	"sg0"	"MNantacic"	0	"motorneuron"	6
+"1224"	"sg1"	"MNbiramous"	2	"motorneuron"	6
+"1225"	"sg1"	"MNhose"	2	"motorneuron"	6
+"1226"	"sg1"	"MNwave"	0	"motorneuron"	6
+"1227"	"sg1"	"MNantacic"	3	"motorneuron"	6
+"1228"	"sg2"	"MNbiramous"	2	"motorneuron"	6
+"1229"	"sg2"	"MNhose"	2	"motorneuron"	6
+"1230"	"sg2"	"MNwave"	3	"motorneuron"	6
+"1231"	"sg2"	"MNantacic"	3	"motorneuron"	6
+"1232"	"sg3"	"MNbiramous"	2	"motorneuron"	6
+"1233"	"sg3"	"MNhose"	2	"motorneuron"	6
+"1234"	"sg3"	"MNwave"	3	"motorneuron"	6
+"1235"	"sg3"	"MNantacic"	0	"motorneuron"	6
+"1236"	"pyg"	"MNbiramous"	0	"motorneuron"	6
+"1237"	"pyg"	"MNhose"	0	"motorneuron"	6
+"1238"	"pyg"	"MNwave"	0	"motorneuron"	6
+"1239"	"pyg"	"MNantacic"	0	"motorneuron"	6
+"1240"	"head"	"MNspider-post"	0	"motorneuron"	5
+"1241"	"peristomium"	"MNspider-post"	0	"motorneuron"	5
+"1242"	"sg0"	"MNspider-post"	0	"motorneuron"	5
+"1243"	"sg1"	"MNspider-post"	0	"motorneuron"	5
+"1244"	"sg2"	"MNspider-post"	2	"motorneuron"	5
+"1245"	"sg3"	"MNspider-post"	3	"motorneuron"	5
+"1246"	"pyg"	"MNspider-post"	0	"motorneuron"	5
+"1247"	"head"	"MNspider-ant"	0	"motorneuron"	4
+"1248"	"head"	"MNcrab"	0	"motorneuron"	4
+"1249"	"head"	"MNcommUpL"	0	"motorneuron"	4
+"1250"	"head"	"MNob-ipsi"	0	"motorneuron"	4
+"1251"	"head"	"MNpostv"	0	"motorneuron"	4
+"1252"	"head"	"MNheadV"	4	"motorneuron"	4
+"1253"	"peristomium"	"MNspider-ant"	0	"motorneuron"	4
+"1254"	"peristomium"	"MNcrab"	0	"motorneuron"	4
+"1255"	"peristomium"	"MNcommUpL"	0	"motorneuron"	4
+"1256"	"peristomium"	"MNob-ipsi"	0	"motorneuron"	4
+"1257"	"peristomium"	"MNpostv"	0	"motorneuron"	4
+"1258"	"peristomium"	"MNheadV"	0	"motorneuron"	4
+"1259"	"sg0"	"MNspider-ant"	0	"motorneuron"	4
+"1260"	"sg0"	"MNcrab"	0	"motorneuron"	4
+"1261"	"sg0"	"MNcommUpL"	0	"motorneuron"	4
+"1262"	"sg0"	"MNob-ipsi"	0	"motorneuron"	4
+"1263"	"sg0"	"MNpostv"	0	"motorneuron"	4
+"1264"	"sg0"	"MNheadV"	0	"motorneuron"	4
+"1265"	"sg1"	"MNspider-ant"	0	"motorneuron"	4
+"1266"	"sg1"	"MNcrab"	0	"motorneuron"	4
+"1267"	"sg1"	"MNcommUpL"	0	"motorneuron"	4
+"1268"	"sg1"	"MNob-ipsi"	0	"motorneuron"	4
+"1269"	"sg1"	"MNpostv"	0	"motorneuron"	4
+"1270"	"sg1"	"MNheadV"	0	"motorneuron"	4
+"1271"	"sg2"	"MNspider-ant"	2	"motorneuron"	4
+"1272"	"sg2"	"MNcrab"	2	"motorneuron"	4
+"1273"	"sg2"	"MNcommUpL"	2	"motorneuron"	4
+"1274"	"sg2"	"MNob-ipsi"	2	"motorneuron"	4
+"1275"	"sg2"	"MNpostv"	2	"motorneuron"	4
+"1276"	"sg2"	"MNheadV"	0	"motorneuron"	4
+"1277"	"sg3"	"MNspider-ant"	2	"motorneuron"	4
+"1278"	"sg3"	"MNcrab"	2	"motorneuron"	4
+"1279"	"sg3"	"MNcommUpL"	2	"motorneuron"	4
+"1280"	"sg3"	"MNob-ipsi"	2	"motorneuron"	4
+"1281"	"sg3"	"MNpostv"	2	"motorneuron"	4
+"1282"	"sg3"	"MNheadV"	0	"motorneuron"	4
+"1283"	"pyg"	"MNspider-ant"	0	"motorneuron"	4
+"1284"	"pyg"	"MNcrab"	0	"motorneuron"	4
+"1285"	"pyg"	"MNcommUpL"	0	"motorneuron"	4
+"1286"	"pyg"	"MNob-ipsi"	0	"motorneuron"	4
+"1287"	"pyg"	"MNpostv"	0	"motorneuron"	4
+"1288"	"pyg"	"MNheadV"	0	"motorneuron"	4
+"1289"	"head"	"MNacicX"	0	"motorneuron"	3
+"1290"	"head"	"cioMNcover"	0	"motorneuron"	3
+"1291"	"head"	"MNacic"	0	"motorneuron"	3
+"1292"	"head"	"MNantelope"	0	"motorneuron"	3
+"1293"	"peristomium"	"MNacicX"	0	"motorneuron"	3
+"1294"	"peristomium"	"cioMNcover"	0	"motorneuron"	3
+"1295"	"peristomium"	"MNacic"	0	"motorneuron"	3
+"1296"	"peristomium"	"MNantelope"	0	"motorneuron"	3
+"1297"	"sg0"	"MNacicX"	0	"motorneuron"	3
+"1298"	"sg0"	"cioMNcover"	0	"motorneuron"	3
+"1299"	"sg0"	"MNacic"	0	"motorneuron"	3
+"1300"	"sg0"	"MNantelope"	0	"motorneuron"	3
+"1301"	"sg1"	"MNacicX"	0	"motorneuron"	3
+"1302"	"sg1"	"cioMNcover"	0	"motorneuron"	3
+"1303"	"sg1"	"MNacic"	1	"motorneuron"	3
+"1304"	"sg1"	"MNantelope"	1	"motorneuron"	3
+"1305"	"sg2"	"MNacicX"	1	"motorneuron"	3
+"1306"	"sg2"	"cioMNcover"	0	"motorneuron"	3
+"1307"	"sg2"	"MNacic"	0	"motorneuron"	3
+"1308"	"sg2"	"MNantelope"	0	"motorneuron"	3
+"1309"	"sg3"	"MNacicX"	2	"motorneuron"	3
+"1310"	"sg3"	"cioMNcover"	0	"motorneuron"	3
+"1311"	"sg3"	"MNacic"	2	"motorneuron"	3
+"1312"	"sg3"	"MNantelope"	2	"motorneuron"	3
+"1313"	"pyg"	"MNacicX"	0	"motorneuron"	3
+"1314"	"pyg"	"cioMNcover"	3	"motorneuron"	3
+"1315"	"pyg"	"MNacic"	0	"motorneuron"	3
+"1316"	"pyg"	"MNantelope"	0	"motorneuron"	3
+"1317"	"head"	"Ser-h1"	2	"motorneuron"	2
+"1318"	"head"	"MNant"	2	"motorneuron"	2
+"1319"	"head"	"MNspinning"	0	"motorneuron"	2
+"1320"	"head"	"Loop"	0	"motorneuron"	2
+"1321"	"head"	"MNbow"	0	"motorneuron"	2
+"1322"	"head"	"MN3"	2	"motorneuron"	2
+"1323"	"head"	"MN1"	2	"motorneuron"	2
+"1324"	"head"	"MN2"	2	"motorneuron"	2
+"1325"	"head"	"MC3cover"	0	"motorneuron"	2
+"1326"	"head"	"Ser-tr1"	0	"motorneuron"	2
+"1327"	"head"	"MNladder"	0	"motorneuron"	2
+"1328"	"head"	"MNakro"	2	"motorneuron"	2
+"1329"	"head"	"MNgland-head"	2	"motorneuron"	2
+"1330"	"peristomium"	"Ser-h1"	0	"motorneuron"	2
+"1331"	"peristomium"	"MNant"	0	"motorneuron"	2
+"1332"	"peristomium"	"MNspinning"	0	"motorneuron"	2
+"1333"	"peristomium"	"Loop"	0	"motorneuron"	2
+"1334"	"peristomium"	"MNbow"	0	"motorneuron"	2
+"1335"	"peristomium"	"MN3"	0	"motorneuron"	2
+"1336"	"peristomium"	"MN1"	0	"motorneuron"	2
+"1337"	"peristomium"	"MN2"	0	"motorneuron"	2
+"1338"	"peristomium"	"MC3cover"	0	"motorneuron"	2
+"1339"	"peristomium"	"Ser-tr1"	0	"motorneuron"	2
+"1340"	"peristomium"	"MNladder"	0	"motorneuron"	2
+"1341"	"peristomium"	"MNakro"	0	"motorneuron"	2
+"1342"	"peristomium"	"MNgland-head"	0	"motorneuron"	2
+"1343"	"sg0"	"Ser-h1"	0	"motorneuron"	2
+"1344"	"sg0"	"MNant"	0	"motorneuron"	2
+"1345"	"sg0"	"MNspinning"	0	"motorneuron"	2
+"1346"	"sg0"	"Loop"	0	"motorneuron"	2
+"1347"	"sg0"	"MNbow"	0	"motorneuron"	2
+"1348"	"sg0"	"MN3"	0	"motorneuron"	2
+"1349"	"sg0"	"MN1"	0	"motorneuron"	2
+"1350"	"sg0"	"MN2"	0	"motorneuron"	2
+"1351"	"sg0"	"MC3cover"	0	"motorneuron"	2
+"1352"	"sg0"	"Ser-tr1"	0	"motorneuron"	2
+"1353"	"sg0"	"MNladder"	0	"motorneuron"	2
+"1354"	"sg0"	"MNakro"	0	"motorneuron"	2
+"1355"	"sg0"	"MNgland-head"	0	"motorneuron"	2
+"1356"	"sg1"	"Ser-h1"	0	"motorneuron"	2
+"1357"	"sg1"	"MNant"	0	"motorneuron"	2
+"1358"	"sg1"	"MNspinning"	0	"motorneuron"	2
+"1359"	"sg1"	"Loop"	2	"motorneuron"	2
+"1360"	"sg1"	"MNbow"	0	"motorneuron"	2
+"1361"	"sg1"	"MN3"	0	"motorneuron"	2
+"1362"	"sg1"	"MN1"	0	"motorneuron"	2
+"1363"	"sg1"	"MN2"	0	"motorneuron"	2
+"1364"	"sg1"	"MC3cover"	2	"motorneuron"	2
+"1365"	"sg1"	"Ser-tr1"	2	"motorneuron"	2
+"1366"	"sg1"	"MNladder"	2	"motorneuron"	2
+"1367"	"sg1"	"MNakro"	0	"motorneuron"	2
+"1368"	"sg1"	"MNgland-head"	0	"motorneuron"	2
+"1369"	"sg2"	"Ser-h1"	0	"motorneuron"	2
+"1370"	"sg2"	"MNant"	0	"motorneuron"	2
+"1371"	"sg2"	"MNspinning"	2	"motorneuron"	2
+"1372"	"sg2"	"Loop"	0	"motorneuron"	2
+"1373"	"sg2"	"MNbow"	2	"motorneuron"	2
+"1374"	"sg2"	"MN3"	0	"motorneuron"	2
+"1375"	"sg2"	"MN1"	0	"motorneuron"	2
+"1376"	"sg2"	"MN2"	0	"motorneuron"	2
+"1377"	"sg2"	"MC3cover"	0	"motorneuron"	2
+"1378"	"sg2"	"Ser-tr1"	0	"motorneuron"	2
+"1379"	"sg2"	"MNladder"	0	"motorneuron"	2
+"1380"	"sg2"	"MNakro"	0	"motorneuron"	2
+"1381"	"sg2"	"MNgland-head"	0	"motorneuron"	2
+"1382"	"sg3"	"Ser-h1"	0	"motorneuron"	2
+"1383"	"sg3"	"MNant"	0	"motorneuron"	2
+"1384"	"sg3"	"MNspinning"	0	"motorneuron"	2
+"1385"	"sg3"	"Loop"	0	"motorneuron"	2
+"1386"	"sg3"	"MNbow"	0	"motorneuron"	2
+"1387"	"sg3"	"MN3"	0	"motorneuron"	2
+"1388"	"sg3"	"MN1"	0	"motorneuron"	2
+"1389"	"sg3"	"MN2"	0	"motorneuron"	2
+"1390"	"sg3"	"MC3cover"	0	"motorneuron"	2
+"1391"	"sg3"	"Ser-tr1"	0	"motorneuron"	2
+"1392"	"sg3"	"MNladder"	0	"motorneuron"	2
+"1393"	"sg3"	"MNakro"	0	"motorneuron"	2
+"1394"	"sg3"	"MNgland-head"	0	"motorneuron"	2
+"1395"	"pyg"	"Ser-h1"	0	"motorneuron"	2
+"1396"	"pyg"	"MNant"	0	"motorneuron"	2
+"1397"	"pyg"	"MNspinning"	0	"motorneuron"	2
+"1398"	"pyg"	"Loop"	0	"motorneuron"	2
+"1399"	"pyg"	"MNbow"	0	"motorneuron"	2
+"1400"	"pyg"	"MN3"	0	"motorneuron"	2
+"1401"	"pyg"	"MN1"	0	"motorneuron"	2
+"1402"	"pyg"	"MN2"	0	"motorneuron"	2
+"1403"	"pyg"	"MC3cover"	0	"motorneuron"	2
+"1404"	"pyg"	"Ser-tr1"	0	"motorneuron"	2
+"1405"	"pyg"	"MNladder"	0	"motorneuron"	2
+"1406"	"pyg"	"MNakro"	0	"motorneuron"	2
+"1407"	"pyg"	"MNgland-head"	0	"motorneuron"	2
+"1408"	"head"	"MC"	1	"motorneuron"	1
+"1409"	"peristomium"	"MC"	0	"motorneuron"	1
+"1410"	"sg0"	"MC"	0	"motorneuron"	1
+"1411"	"sg1"	"MC"	0	"motorneuron"	1
+"1412"	"sg2"	"MC"	0	"motorneuron"	1
+"1413"	"sg3"	"MC"	0	"motorneuron"	1
+"1414"	"pyg"	"MC"	0	"motorneuron"	1

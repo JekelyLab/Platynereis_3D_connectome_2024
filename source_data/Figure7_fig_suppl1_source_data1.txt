@@ -1,0 +1,7 @@
+"","ciliatedGland","MVGland","MNgland_head","INDLSO","INpreSer","Ser_h1"
+"ciliatedGland",1,0,0,0,0,0
+"MVGland",0,0,0,0,0,0
+"MNgland_head",31,6,0,0,0,3
+"INDLSO",0,0,6,0,1,1
+"INpreSer",0,0,5,0,1,22
+"Ser_h1",1,0,4,0,0,14

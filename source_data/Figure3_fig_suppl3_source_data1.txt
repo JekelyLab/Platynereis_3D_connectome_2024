@@ -1,0 +1,2501 @@
+"annotation1"	"annotation2"	"number"
+"1"	"ectoderm"	"ectoderm"	7595
+"2"	"ectoderm"	"episphere"	2485
+"3"	"ectoderm"	"segment_0"	311
+"4"	"ectoderm"	"segment_1"	1153
+"5"	"ectoderm"	"segment_2"	1331
+"6"	"ectoderm"	"segment_3"	1184
+"7"	"ectoderm"	"torso"	4363
+"8"	"ectoderm"	"pygidium"	337
+"9"	"ectoderm"	"neurosecretory_plexus"	78
+"10"	"ectoderm"	"mushroom body"	232
+"11"	"ectoderm"	"Apical_organ"	44
+"12"	"ectoderm"	"Dorsal_sensory_organ"	39
+"13"	"ectoderm"	"Dorsolateral_sense_organs"	120
+"14"	"ectoderm"	"antenna"	115
+"15"	"ectoderm"	"eyespot"	7
+"16"	"ectoderm"	"mechanosensory_girdle"	333
+"17"	"ectoderm"	"nuchal organ"	45
+"18"	"ectoderm"	"Sensory neuron"	1017
+"19"	"ectoderm"	"sensory_motor_neuron"	10
+"20"	"ectoderm"	"sensory_neurosecretory_neuron"	70
+"21"	"ectoderm"	"interneuron"	1395
+"22"	"ectoderm"	"premotor"	213
+"23"	"ectoderm"	"motorneuron"	251
+"24"	"ectoderm"	"ciliomotors"	13
+"25"	"ectoderm"	"rhabdomeric photoreceptor"	24
+"26"	"ectoderm"	"ciliary photoreceptor"	4
+"27"	"ectoderm"	"sensory_cilia"	499
+"28"	"ectoderm"	"Uniciliated_penetrating_cell"	202
+"29"	"ectoderm"	"Biciliated_penetrating_cell"	53
+"30"	"ectoderm"	"Uniciliated_nonpenetrating_cell"	200
+"31"	"ectoderm"	"Biciliated_nonpenetrating_cell"	14
+"32"	"ectoderm"	"Multiciliated_penetrating_cell"	6
+"33"	"ectoderm"	"dense cored vesicles"	514
+"34"	"ectoderm"	"asymmetric neuron"	15
+"35"	"ectoderm"	"biaxonal"	15
+"36"	"ectoderm"	"decussating"	79
+"37"	"ectoderm"	"commissural"	433
+"38"	"ectoderm"	"ipsilateral"	980
+"39"	"ectoderm"	"contralateral"	702
+"40"	"ectoderm"	"pseudounipolar"	176
+"41"	"ectoderm"	"descending"	229
+"42"	"ectoderm"	"ascending"	303
+"43"	"ectoderm"	"global_reach"	40
+"44"	"ectoderm"	"head_trunk"	214
+"45"	"ectoderm"	"siGOLD"	105
+"46"	"ectoderm"	"glutamatergic"	69
+"47"	"ectoderm"	"serotonergic"	4
+"48"	"ectoderm"	"cholinergic"	18
+"49"	"ectoderm"	"adrenergic"	1
+"50"	"ectoderm"	"dopaminergic"	1
+"51"	"episphere"	"ectoderm"	2485
+"52"	"episphere"	"episphere"	2609
+"53"	"episphere"	"segment_0"	0
+"54"	"episphere"	"segment_1"	0
+"55"	"episphere"	"segment_2"	0
+"56"	"episphere"	"segment_3"	0
+"57"	"episphere"	"torso"	0
+"58"	"episphere"	"pygidium"	0
+"59"	"episphere"	"neurosecretory_plexus"	78
+"60"	"episphere"	"mushroom body"	232
+"61"	"episphere"	"Apical_organ"	44
+"62"	"episphere"	"Dorsal_sensory_organ"	39
+"63"	"episphere"	"Dorsolateral_sense_organs"	120
+"64"	"episphere"	"antenna"	115
+"65"	"episphere"	"eyespot"	7
+"66"	"episphere"	"mechanosensory_girdle"	69
+"67"	"episphere"	"nuchal organ"	45
+"68"	"episphere"	"Sensory neuron"	665
+"69"	"episphere"	"sensory_motor_neuron"	4
+"70"	"episphere"	"sensory_neurosecretory_neuron"	70
+"71"	"episphere"	"interneuron"	678
+"72"	"episphere"	"premotor"	71
+"73"	"episphere"	"motorneuron"	22
+"74"	"episphere"	"ciliomotors"	8
+"75"	"episphere"	"rhabdomeric photoreceptor"	24
+"76"	"episphere"	"ciliary photoreceptor"	4
+"77"	"episphere"	"sensory_cilia"	283
+"78"	"episphere"	"Uniciliated_penetrating_cell"	60
+"79"	"episphere"	"Biciliated_penetrating_cell"	2
+"80"	"episphere"	"Uniciliated_nonpenetrating_cell"	187
+"81"	"episphere"	"Biciliated_nonpenetrating_cell"	10
+"82"	"episphere"	"Multiciliated_penetrating_cell"	0
+"83"	"episphere"	"dense cored vesicles"	346
+"84"	"episphere"	"asymmetric neuron"	15
+"85"	"episphere"	"biaxonal"	7
+"86"	"episphere"	"decussating"	79
+"87"	"episphere"	"commissural"	2
+"88"	"episphere"	"ipsilateral"	284
+"89"	"episphere"	"contralateral"	271
+"90"	"episphere"	"pseudounipolar"	11
+"91"	"episphere"	"descending"	67
+"92"	"episphere"	"ascending"	0
+"93"	"episphere"	"global_reach"	18
+"94"	"episphere"	"head_trunk"	138
+"95"	"episphere"	"siGOLD"	43
+"96"	"episphere"	"glutamatergic"	48
+"97"	"episphere"	"serotonergic"	2
+"98"	"episphere"	"cholinergic"	13
+"99"	"episphere"	"adrenergic"	1
+"100"	"episphere"	"dopaminergic"	1
+"101"	"segment_0"	"ectoderm"	311
+"102"	"segment_0"	"episphere"	0
+"103"	"segment_0"	"segment_0"	413
+"104"	"segment_0"	"segment_1"	0
+"105"	"segment_0"	"segment_2"	0
+"106"	"segment_0"	"segment_3"	0
+"107"	"segment_0"	"torso"	413
+"108"	"segment_0"	"pygidium"	0
+"109"	"segment_0"	"neurosecretory_plexus"	0
+"110"	"segment_0"	"mushroom body"	0
+"111"	"segment_0"	"Apical_organ"	0
+"112"	"segment_0"	"Dorsal_sensory_organ"	0
+"113"	"segment_0"	"Dorsolateral_sense_organs"	0
+"114"	"segment_0"	"antenna"	0
+"115"	"segment_0"	"eyespot"	0
+"116"	"segment_0"	"mechanosensory_girdle"	12
+"117"	"segment_0"	"nuchal organ"	0
+"118"	"segment_0"	"Sensory neuron"	72
+"119"	"segment_0"	"sensory_motor_neuron"	0
+"120"	"segment_0"	"sensory_neurosecretory_neuron"	0
+"121"	"segment_0"	"interneuron"	15
+"122"	"segment_0"	"premotor"	2
+"123"	"segment_0"	"motorneuron"	1
+"124"	"segment_0"	"ciliomotors"	0
+"125"	"segment_0"	"rhabdomeric photoreceptor"	0
+"126"	"segment_0"	"ciliary photoreceptor"	0
+"127"	"segment_0"	"sensory_cilia"	14
+"128"	"segment_0"	"Uniciliated_penetrating_cell"	11
+"129"	"segment_0"	"Biciliated_penetrating_cell"	0
+"130"	"segment_0"	"Uniciliated_nonpenetrating_cell"	3
+"131"	"segment_0"	"Biciliated_nonpenetrating_cell"	0
+"132"	"segment_0"	"Multiciliated_penetrating_cell"	0
+"133"	"segment_0"	"dense cored vesicles"	8
+"134"	"segment_0"	"asymmetric neuron"	0
+"135"	"segment_0"	"biaxonal"	0
+"136"	"segment_0"	"decussating"	0
+"137"	"segment_0"	"commissural"	0
+"138"	"segment_0"	"ipsilateral"	83
+"139"	"segment_0"	"contralateral"	0
+"140"	"segment_0"	"pseudounipolar"	3
+"141"	"segment_0"	"descending"	2
+"142"	"segment_0"	"ascending"	10
+"143"	"segment_0"	"global_reach"	0
+"144"	"segment_0"	"head_trunk"	7
+"145"	"segment_0"	"siGOLD"	0
+"146"	"segment_0"	"glutamatergic"	4
+"147"	"segment_0"	"serotonergic"	0
+"148"	"segment_0"	"cholinergic"	0
+"149"	"segment_0"	"adrenergic"	0
+"150"	"segment_0"	"dopaminergic"	0
+"151"	"segment_1"	"ectoderm"	1153
+"152"	"segment_1"	"episphere"	0
+"153"	"segment_1"	"segment_0"	0
+"154"	"segment_1"	"segment_1"	1472
+"155"	"segment_1"	"segment_2"	0
+"156"	"segment_1"	"segment_3"	0
+"157"	"segment_1"	"torso"	1472
+"158"	"segment_1"	"pygidium"	0
+"159"	"segment_1"	"neurosecretory_plexus"	0
+"160"	"segment_1"	"mushroom body"	0
+"161"	"segment_1"	"Apical_organ"	0
+"162"	"segment_1"	"Dorsal_sensory_organ"	0
+"163"	"segment_1"	"Dorsolateral_sense_organs"	0
+"164"	"segment_1"	"antenna"	0
+"165"	"segment_1"	"eyespot"	0
+"166"	"segment_1"	"mechanosensory_girdle"	62
+"167"	"segment_1"	"nuchal organ"	0
+"168"	"segment_1"	"Sensory neuron"	47
+"169"	"segment_1"	"sensory_motor_neuron"	1
+"170"	"segment_1"	"sensory_neurosecretory_neuron"	0
+"171"	"segment_1"	"interneuron"	224
+"172"	"segment_1"	"premotor"	40
+"173"	"segment_1"	"motorneuron"	64
+"174"	"segment_1"	"ciliomotors"	4
+"175"	"segment_1"	"rhabdomeric photoreceptor"	0
+"176"	"segment_1"	"ciliary photoreceptor"	0
+"177"	"segment_1"	"sensory_cilia"	61
+"178"	"segment_1"	"Uniciliated_penetrating_cell"	47
+"179"	"segment_1"	"Biciliated_penetrating_cell"	10
+"180"	"segment_1"	"Uniciliated_nonpenetrating_cell"	1
+"181"	"segment_1"	"Biciliated_nonpenetrating_cell"	1
+"182"	"segment_1"	"Multiciliated_penetrating_cell"	2
+"183"	"segment_1"	"dense cored vesicles"	51
+"184"	"segment_1"	"asymmetric neuron"	0
+"185"	"segment_1"	"biaxonal"	6
+"186"	"segment_1"	"decussating"	0
+"187"	"segment_1"	"commissural"	121
+"188"	"segment_1"	"ipsilateral"	149
+"189"	"segment_1"	"contralateral"	121
+"190"	"segment_1"	"pseudounipolar"	51
+"191"	"segment_1"	"descending"	73
+"192"	"segment_1"	"ascending"	67
+"193"	"segment_1"	"global_reach"	12
+"194"	"segment_1"	"head_trunk"	48
+"195"	"segment_1"	"siGOLD"	20
+"196"	"segment_1"	"glutamatergic"	3
+"197"	"segment_1"	"serotonergic"	2
+"198"	"segment_1"	"cholinergic"	5
+"199"	"segment_1"	"adrenergic"	0
+"200"	"segment_1"	"dopaminergic"	0
+"201"	"segment_2"	"ectoderm"	1331
+"202"	"segment_2"	"episphere"	0
+"203"	"segment_2"	"segment_0"	0
+"204"	"segment_2"	"segment_1"	0
+"205"	"segment_2"	"segment_2"	1748
+"206"	"segment_2"	"segment_3"	0
+"207"	"segment_2"	"torso"	1748
+"208"	"segment_2"	"pygidium"	0
+"209"	"segment_2"	"neurosecretory_plexus"	0
+"210"	"segment_2"	"mushroom body"	0
+"211"	"segment_2"	"Apical_organ"	0
+"212"	"segment_2"	"Dorsal_sensory_organ"	0
+"213"	"segment_2"	"Dorsolateral_sense_organs"	0
+"214"	"segment_2"	"antenna"	0
+"215"	"segment_2"	"eyespot"	0
+"216"	"segment_2"	"mechanosensory_girdle"	82
+"217"	"segment_2"	"nuchal organ"	0
+"218"	"segment_2"	"Sensory neuron"	67
+"219"	"segment_2"	"sensory_motor_neuron"	2
+"220"	"segment_2"	"sensory_neurosecretory_neuron"	0
+"221"	"segment_2"	"interneuron"	256
+"222"	"segment_2"	"premotor"	60
+"223"	"segment_2"	"motorneuron"	88
+"224"	"segment_2"	"ciliomotors"	0
+"225"	"segment_2"	"rhabdomeric photoreceptor"	0
+"226"	"segment_2"	"ciliary photoreceptor"	0
+"227"	"segment_2"	"sensory_cilia"	50
+"228"	"segment_2"	"Uniciliated_penetrating_cell"	31
+"229"	"segment_2"	"Biciliated_penetrating_cell"	15
+"230"	"segment_2"	"Uniciliated_nonpenetrating_cell"	2
+"231"	"segment_2"	"Biciliated_nonpenetrating_cell"	0
+"232"	"segment_2"	"Multiciliated_penetrating_cell"	2
+"233"	"segment_2"	"dense cored vesicles"	54
+"234"	"segment_2"	"asymmetric neuron"	0
+"235"	"segment_2"	"biaxonal"	2
+"236"	"segment_2"	"decussating"	0
+"237"	"segment_2"	"commissural"	184
+"238"	"segment_2"	"ipsilateral"	184
+"239"	"segment_2"	"contralateral"	184
+"240"	"segment_2"	"pseudounipolar"	69
+"241"	"segment_2"	"descending"	49
+"242"	"segment_2"	"ascending"	104
+"243"	"segment_2"	"global_reach"	0
+"244"	"segment_2"	"head_trunk"	4
+"245"	"segment_2"	"siGOLD"	23
+"246"	"segment_2"	"glutamatergic"	2
+"247"	"segment_2"	"serotonergic"	0
+"248"	"segment_2"	"cholinergic"	0
+"249"	"segment_2"	"adrenergic"	0
+"250"	"segment_2"	"dopaminergic"	0
+"251"	"segment_3"	"ectoderm"	1184
+"252"	"segment_3"	"episphere"	0
+"253"	"segment_3"	"segment_0"	0
+"254"	"segment_3"	"segment_1"	0
+"255"	"segment_3"	"segment_2"	0
+"256"	"segment_3"	"segment_3"	1581
+"257"	"segment_3"	"torso"	1581
+"258"	"segment_3"	"pygidium"	0
+"259"	"segment_3"	"neurosecretory_plexus"	0
+"260"	"segment_3"	"mushroom body"	0
+"261"	"segment_3"	"Apical_organ"	0
+"262"	"segment_3"	"Dorsal_sensory_organ"	0
+"263"	"segment_3"	"Dorsolateral_sense_organs"	0
+"264"	"segment_3"	"antenna"	0
+"265"	"segment_3"	"eyespot"	0
+"266"	"segment_3"	"mechanosensory_girdle"	69
+"267"	"segment_3"	"nuchal organ"	0
+"268"	"segment_3"	"Sensory neuron"	81
+"269"	"segment_3"	"sensory_motor_neuron"	0
+"270"	"segment_3"	"sensory_neurosecretory_neuron"	0
+"271"	"segment_3"	"interneuron"	200
+"272"	"segment_3"	"premotor"	34
+"273"	"segment_3"	"motorneuron"	69
+"274"	"segment_3"	"ciliomotors"	0
+"275"	"segment_3"	"rhabdomeric photoreceptor"	0
+"276"	"segment_3"	"ciliary photoreceptor"	0
+"277"	"segment_3"	"sensory_cilia"	53
+"278"	"segment_3"	"Uniciliated_penetrating_cell"	29
+"279"	"segment_3"	"Biciliated_penetrating_cell"	16
+"280"	"segment_3"	"Uniciliated_nonpenetrating_cell"	4
+"281"	"segment_3"	"Biciliated_nonpenetrating_cell"	2
+"282"	"segment_3"	"Multiciliated_penetrating_cell"	2
+"283"	"segment_3"	"dense cored vesicles"	37
+"284"	"segment_3"	"asymmetric neuron"	0
+"285"	"segment_3"	"biaxonal"	0
+"286"	"segment_3"	"decussating"	0
+"287"	"segment_3"	"commissural"	115
+"288"	"segment_3"	"ipsilateral"	191
+"289"	"segment_3"	"contralateral"	115
+"290"	"segment_3"	"pseudounipolar"	42
+"291"	"segment_3"	"descending"	38
+"292"	"segment_3"	"ascending"	89
+"293"	"segment_3"	"global_reach"	0
+"294"	"segment_3"	"head_trunk"	5
+"295"	"segment_3"	"siGOLD"	9
+"296"	"segment_3"	"glutamatergic"	2
+"297"	"segment_3"	"serotonergic"	0
+"298"	"segment_3"	"cholinergic"	0
+"299"	"segment_3"	"adrenergic"	0
+"300"	"segment_3"	"dopaminergic"	0
+"301"	"torso"	"ectoderm"	4363
+"302"	"torso"	"episphere"	0
+"303"	"torso"	"segment_0"	413
+"304"	"torso"	"segment_1"	1472
+"305"	"torso"	"segment_2"	1748
+"306"	"torso"	"segment_3"	1581
+"307"	"torso"	"torso"	5663
+"308"	"torso"	"pygidium"	396
+"309"	"torso"	"neurosecretory_plexus"	0
+"310"	"torso"	"mushroom body"	0
+"311"	"torso"	"Apical_organ"	0
+"312"	"torso"	"Dorsal_sensory_organ"	0
+"313"	"torso"	"Dorsolateral_sense_organs"	0
+"314"	"torso"	"antenna"	0
+"315"	"torso"	"eyespot"	0
+"316"	"torso"	"mechanosensory_girdle"	264
+"317"	"torso"	"nuchal organ"	0
+"318"	"torso"	"Sensory neuron"	347
+"319"	"torso"	"sensory_motor_neuron"	6
+"320"	"torso"	"sensory_neurosecretory_neuron"	0
+"321"	"torso"	"interneuron"	716
+"322"	"torso"	"premotor"	142
+"323"	"torso"	"motorneuron"	227
+"324"	"torso"	"ciliomotors"	5
+"325"	"torso"	"rhabdomeric photoreceptor"	0
+"326"	"torso"	"ciliary photoreceptor"	0
+"327"	"torso"	"sensory_cilia"	216
+"328"	"torso"	"Uniciliated_penetrating_cell"	142
+"329"	"torso"	"Biciliated_penetrating_cell"	51
+"330"	"torso"	"Uniciliated_nonpenetrating_cell"	13
+"331"	"torso"	"Biciliated_nonpenetrating_cell"	4
+"332"	"torso"	"Multiciliated_penetrating_cell"	6
+"333"	"torso"	"dense cored vesicles"	168
+"334"	"torso"	"asymmetric neuron"	0
+"335"	"torso"	"biaxonal"	8
+"336"	"torso"	"decussating"	0
+"337"	"torso"	"commissural"	431
+"338"	"torso"	"ipsilateral"	696
+"339"	"torso"	"contralateral"	431
+"340"	"torso"	"pseudounipolar"	165
+"341"	"torso"	"descending"	162
+"342"	"torso"	"ascending"	303
+"343"	"torso"	"global_reach"	22
+"344"	"torso"	"head_trunk"	76
+"345"	"torso"	"siGOLD"	62
+"346"	"torso"	"glutamatergic"	21
+"347"	"torso"	"serotonergic"	2
+"348"	"torso"	"cholinergic"	5
+"349"	"torso"	"adrenergic"	0
+"350"	"torso"	"dopaminergic"	0
+"351"	"pygidium"	"ectoderm"	337
+"352"	"pygidium"	"episphere"	0
+"353"	"pygidium"	"segment_0"	0
+"354"	"pygidium"	"segment_1"	0
+"355"	"pygidium"	"segment_2"	0
+"356"	"pygidium"	"segment_3"	0
+"357"	"pygidium"	"torso"	396
+"358"	"pygidium"	"pygidium"	396
+"359"	"pygidium"	"neurosecretory_plexus"	0
+"360"	"pygidium"	"mushroom body"	0
+"361"	"pygidium"	"Apical_organ"	0
+"362"	"pygidium"	"Dorsal_sensory_organ"	0
+"363"	"pygidium"	"Dorsolateral_sense_organs"	0
+"364"	"pygidium"	"antenna"	0
+"365"	"pygidium"	"eyespot"	0
+"366"	"pygidium"	"mechanosensory_girdle"	39
+"367"	"pygidium"	"nuchal organ"	0
+"368"	"pygidium"	"Sensory neuron"	77
+"369"	"pygidium"	"sensory_motor_neuron"	3
+"370"	"pygidium"	"sensory_neurosecretory_neuron"	0
+"371"	"pygidium"	"interneuron"	21
+"372"	"pygidium"	"premotor"	6
+"373"	"pygidium"	"motorneuron"	5
+"374"	"pygidium"	"ciliomotors"	1
+"375"	"pygidium"	"rhabdomeric photoreceptor"	0
+"376"	"pygidium"	"ciliary photoreceptor"	0
+"377"	"pygidium"	"sensory_cilia"	38
+"378"	"pygidium"	"Uniciliated_penetrating_cell"	24
+"379"	"pygidium"	"Biciliated_penetrating_cell"	10
+"380"	"pygidium"	"Uniciliated_nonpenetrating_cell"	3
+"381"	"pygidium"	"Biciliated_nonpenetrating_cell"	1
+"382"	"pygidium"	"Multiciliated_penetrating_cell"	0
+"383"	"pygidium"	"dense cored vesicles"	18
+"384"	"pygidium"	"asymmetric neuron"	0
+"385"	"pygidium"	"biaxonal"	0
+"386"	"pygidium"	"decussating"	0
+"387"	"pygidium"	"commissural"	11
+"388"	"pygidium"	"ipsilateral"	86
+"389"	"pygidium"	"contralateral"	11
+"390"	"pygidium"	"pseudounipolar"	0
+"391"	"pygidium"	"descending"	0
+"392"	"pygidium"	"ascending"	31
+"393"	"pygidium"	"global_reach"	10
+"394"	"pygidium"	"head_trunk"	10
+"395"	"pygidium"	"siGOLD"	10
+"396"	"pygidium"	"glutamatergic"	10
+"397"	"pygidium"	"serotonergic"	0
+"398"	"pygidium"	"cholinergic"	0
+"399"	"pygidium"	"adrenergic"	0
+"400"	"pygidium"	"dopaminergic"	0
+"401"	"neurosecretory_plexus"	"ectoderm"	78
+"402"	"neurosecretory_plexus"	"episphere"	78
+"403"	"neurosecretory_plexus"	"segment_0"	0
+"404"	"neurosecretory_plexus"	"segment_1"	0
+"405"	"neurosecretory_plexus"	"segment_2"	0
+"406"	"neurosecretory_plexus"	"segment_3"	0
+"407"	"neurosecretory_plexus"	"torso"	0
+"408"	"neurosecretory_plexus"	"pygidium"	0
+"409"	"neurosecretory_plexus"	"neurosecretory_plexus"	78
+"410"	"neurosecretory_plexus"	"mushroom body"	10
+"411"	"neurosecretory_plexus"	"Apical_organ"	40
+"412"	"neurosecretory_plexus"	"Dorsal_sensory_organ"	0
+"413"	"neurosecretory_plexus"	"Dorsolateral_sense_organs"	25
+"414"	"neurosecretory_plexus"	"antenna"	0
+"415"	"neurosecretory_plexus"	"eyespot"	0
+"416"	"neurosecretory_plexus"	"mechanosensory_girdle"	0
+"417"	"neurosecretory_plexus"	"nuchal organ"	3
+"418"	"neurosecretory_plexus"	"Sensory neuron"	70
+"419"	"neurosecretory_plexus"	"sensory_motor_neuron"	0
+"420"	"neurosecretory_plexus"	"sensory_neurosecretory_neuron"	70
+"421"	"neurosecretory_plexus"	"interneuron"	8
+"422"	"neurosecretory_plexus"	"premotor"	4
+"423"	"neurosecretory_plexus"	"motorneuron"	0
+"424"	"neurosecretory_plexus"	"ciliomotors"	0
+"425"	"neurosecretory_plexus"	"rhabdomeric photoreceptor"	0
+"426"	"neurosecretory_plexus"	"ciliary photoreceptor"	4
+"427"	"neurosecretory_plexus"	"sensory_cilia"	70
+"428"	"neurosecretory_plexus"	"Uniciliated_penetrating_cell"	0
+"429"	"neurosecretory_plexus"	"Biciliated_penetrating_cell"	0
+"430"	"neurosecretory_plexus"	"Uniciliated_nonpenetrating_cell"	49
+"431"	"neurosecretory_plexus"	"Biciliated_nonpenetrating_cell"	1
+"432"	"neurosecretory_plexus"	"Multiciliated_penetrating_cell"	0
+"433"	"neurosecretory_plexus"	"dense cored vesicles"	78
+"434"	"neurosecretory_plexus"	"asymmetric neuron"	3
+"435"	"neurosecretory_plexus"	"biaxonal"	0
+"436"	"neurosecretory_plexus"	"decussating"	0
+"437"	"neurosecretory_plexus"	"commissural"	0
+"438"	"neurosecretory_plexus"	"ipsilateral"	9
+"439"	"neurosecretory_plexus"	"contralateral"	61
+"440"	"neurosecretory_plexus"	"pseudounipolar"	0
+"441"	"neurosecretory_plexus"	"descending"	0
+"442"	"neurosecretory_plexus"	"ascending"	0
+"443"	"neurosecretory_plexus"	"global_reach"	0
+"444"	"neurosecretory_plexus"	"head_trunk"	0
+"445"	"neurosecretory_plexus"	"siGOLD"	6
+"446"	"neurosecretory_plexus"	"glutamatergic"	0
+"447"	"neurosecretory_plexus"	"serotonergic"	0
+"448"	"neurosecretory_plexus"	"cholinergic"	0
+"449"	"neurosecretory_plexus"	"adrenergic"	0
+"450"	"neurosecretory_plexus"	"dopaminergic"	0
+"451"	"mushroom body"	"ectoderm"	232
+"452"	"mushroom body"	"episphere"	232
+"453"	"mushroom body"	"segment_0"	0
+"454"	"mushroom body"	"segment_1"	0
+"455"	"mushroom body"	"segment_2"	0
+"456"	"mushroom body"	"segment_3"	0
+"457"	"mushroom body"	"torso"	0
+"458"	"mushroom body"	"pygidium"	0
+"459"	"mushroom body"	"neurosecretory_plexus"	10
+"460"	"mushroom body"	"mushroom body"	232
+"461"	"mushroom body"	"Apical_organ"	0
+"462"	"mushroom body"	"Dorsal_sensory_organ"	0
+"463"	"mushroom body"	"Dorsolateral_sense_organs"	0
+"464"	"mushroom body"	"antenna"	0
+"465"	"mushroom body"	"eyespot"	0
+"466"	"mushroom body"	"mechanosensory_girdle"	2
+"467"	"mushroom body"	"nuchal organ"	0
+"468"	"mushroom body"	"Sensory neuron"	125
+"469"	"mushroom body"	"sensory_motor_neuron"	0
+"470"	"mushroom body"	"sensory_neurosecretory_neuron"	10
+"471"	"mushroom body"	"interneuron"	102
+"472"	"mushroom body"	"premotor"	9
+"473"	"mushroom body"	"motorneuron"	0
+"474"	"mushroom body"	"ciliomotors"	0
+"475"	"mushroom body"	"rhabdomeric photoreceptor"	0
+"476"	"mushroom body"	"ciliary photoreceptor"	0
+"477"	"mushroom body"	"sensory_cilia"	51
+"478"	"mushroom body"	"Uniciliated_penetrating_cell"	2
+"479"	"mushroom body"	"Biciliated_penetrating_cell"	0
+"480"	"mushroom body"	"Uniciliated_nonpenetrating_cell"	46
+"481"	"mushroom body"	"Biciliated_nonpenetrating_cell"	3
+"482"	"mushroom body"	"Multiciliated_penetrating_cell"	0
+"483"	"mushroom body"	"dense cored vesicles"	68
+"484"	"mushroom body"	"asymmetric neuron"	0
+"485"	"mushroom body"	"biaxonal"	0
+"486"	"mushroom body"	"decussating"	5
+"487"	"mushroom body"	"commissural"	0
+"488"	"mushroom body"	"ipsilateral"	18
+"489"	"mushroom body"	"contralateral"	25
+"490"	"mushroom body"	"pseudounipolar"	0
+"491"	"mushroom body"	"descending"	17
+"492"	"mushroom body"	"ascending"	0
+"493"	"mushroom body"	"global_reach"	2
+"494"	"mushroom body"	"head_trunk"	17
+"495"	"mushroom body"	"siGOLD"	4
+"496"	"mushroom body"	"glutamatergic"	0
+"497"	"mushroom body"	"serotonergic"	0
+"498"	"mushroom body"	"cholinergic"	0
+"499"	"mushroom body"	"adrenergic"	0
+"500"	"mushroom body"	"dopaminergic"	0
+"501"	"Apical_organ"	"ectoderm"	44
+"502"	"Apical_organ"	"episphere"	44
+"503"	"Apical_organ"	"segment_0"	0
+"504"	"Apical_organ"	"segment_1"	0
+"505"	"Apical_organ"	"segment_2"	0
+"506"	"Apical_organ"	"segment_3"	0
+"507"	"Apical_organ"	"torso"	0
+"508"	"Apical_organ"	"pygidium"	0
+"509"	"Apical_organ"	"neurosecretory_plexus"	40
+"510"	"Apical_organ"	"mushroom body"	0
+"511"	"Apical_organ"	"Apical_organ"	44
+"512"	"Apical_organ"	"Dorsal_sensory_organ"	0
+"513"	"Apical_organ"	"Dorsolateral_sense_organs"	0
+"514"	"Apical_organ"	"antenna"	0
+"515"	"Apical_organ"	"eyespot"	0
+"516"	"Apical_organ"	"mechanosensory_girdle"	0
+"517"	"Apical_organ"	"nuchal organ"	0
+"518"	"Apical_organ"	"Sensory neuron"	36
+"519"	"Apical_organ"	"sensory_motor_neuron"	0
+"520"	"Apical_organ"	"sensory_neurosecretory_neuron"	32
+"521"	"Apical_organ"	"interneuron"	8
+"522"	"Apical_organ"	"premotor"	4
+"523"	"Apical_organ"	"motorneuron"	0
+"524"	"Apical_organ"	"ciliomotors"	0
+"525"	"Apical_organ"	"rhabdomeric photoreceptor"	0
+"526"	"Apical_organ"	"ciliary photoreceptor"	4
+"527"	"Apical_organ"	"sensory_cilia"	35
+"528"	"Apical_organ"	"Uniciliated_penetrating_cell"	0
+"529"	"Apical_organ"	"Biciliated_penetrating_cell"	0
+"530"	"Apical_organ"	"Uniciliated_nonpenetrating_cell"	16
+"531"	"Apical_organ"	"Biciliated_nonpenetrating_cell"	1
+"532"	"Apical_organ"	"Multiciliated_penetrating_cell"	0
+"533"	"Apical_organ"	"dense cored vesicles"	43
+"534"	"Apical_organ"	"asymmetric neuron"	3
+"535"	"Apical_organ"	"biaxonal"	0
+"536"	"Apical_organ"	"decussating"	0
+"537"	"Apical_organ"	"commissural"	0
+"538"	"Apical_organ"	"ipsilateral"	8
+"539"	"Apical_organ"	"contralateral"	28
+"540"	"Apical_organ"	"pseudounipolar"	0
+"541"	"Apical_organ"	"descending"	0
+"542"	"Apical_organ"	"ascending"	0
+"543"	"Apical_organ"	"global_reach"	0
+"544"	"Apical_organ"	"head_trunk"	0
+"545"	"Apical_organ"	"siGOLD"	4
+"546"	"Apical_organ"	"glutamatergic"	0
+"547"	"Apical_organ"	"serotonergic"	0
+"548"	"Apical_organ"	"cholinergic"	0
+"549"	"Apical_organ"	"adrenergic"	0
+"550"	"Apical_organ"	"dopaminergic"	0
+"551"	"Dorsal_sensory_organ"	"ectoderm"	39
+"552"	"Dorsal_sensory_organ"	"episphere"	39
+"553"	"Dorsal_sensory_organ"	"segment_0"	0
+"554"	"Dorsal_sensory_organ"	"segment_1"	0
+"555"	"Dorsal_sensory_organ"	"segment_2"	0
+"556"	"Dorsal_sensory_organ"	"segment_3"	0
+"557"	"Dorsal_sensory_organ"	"torso"	0
+"558"	"Dorsal_sensory_organ"	"pygidium"	0
+"559"	"Dorsal_sensory_organ"	"neurosecretory_plexus"	0
+"560"	"Dorsal_sensory_organ"	"mushroom body"	0
+"561"	"Dorsal_sensory_organ"	"Apical_organ"	0
+"562"	"Dorsal_sensory_organ"	"Dorsal_sensory_organ"	39
+"563"	"Dorsal_sensory_organ"	"Dorsolateral_sense_organs"	0
+"564"	"Dorsal_sensory_organ"	"antenna"	0
+"565"	"Dorsal_sensory_organ"	"eyespot"	0
+"566"	"Dorsal_sensory_organ"	"mechanosensory_girdle"	12
+"567"	"Dorsal_sensory_organ"	"nuchal organ"	0
+"568"	"Dorsal_sensory_organ"	"Sensory neuron"	39
+"569"	"Dorsal_sensory_organ"	"sensory_motor_neuron"	0
+"570"	"Dorsal_sensory_organ"	"sensory_neurosecretory_neuron"	0
+"571"	"Dorsal_sensory_organ"	"interneuron"	0
+"572"	"Dorsal_sensory_organ"	"premotor"	0
+"573"	"Dorsal_sensory_organ"	"motorneuron"	0
+"574"	"Dorsal_sensory_organ"	"ciliomotors"	0
+"575"	"Dorsal_sensory_organ"	"rhabdomeric photoreceptor"	0
+"576"	"Dorsal_sensory_organ"	"ciliary photoreceptor"	0
+"577"	"Dorsal_sensory_organ"	"sensory_cilia"	15
+"578"	"Dorsal_sensory_organ"	"Uniciliated_penetrating_cell"	12
+"579"	"Dorsal_sensory_organ"	"Biciliated_penetrating_cell"	0
+"580"	"Dorsal_sensory_organ"	"Uniciliated_nonpenetrating_cell"	2
+"581"	"Dorsal_sensory_organ"	"Biciliated_nonpenetrating_cell"	1
+"582"	"Dorsal_sensory_organ"	"Multiciliated_penetrating_cell"	0
+"583"	"Dorsal_sensory_organ"	"dense cored vesicles"	7
+"584"	"Dorsal_sensory_organ"	"asymmetric neuron"	4
+"585"	"Dorsal_sensory_organ"	"biaxonal"	0
+"586"	"Dorsal_sensory_organ"	"decussating"	0
+"587"	"Dorsal_sensory_organ"	"commissural"	1
+"588"	"Dorsal_sensory_organ"	"ipsilateral"	21
+"589"	"Dorsal_sensory_organ"	"contralateral"	11
+"590"	"Dorsal_sensory_organ"	"pseudounipolar"	8
+"591"	"Dorsal_sensory_organ"	"descending"	8
+"592"	"Dorsal_sensory_organ"	"ascending"	0
+"593"	"Dorsal_sensory_organ"	"global_reach"	0
+"594"	"Dorsal_sensory_organ"	"head_trunk"	8
+"595"	"Dorsal_sensory_organ"	"siGOLD"	0
+"596"	"Dorsal_sensory_organ"	"glutamatergic"	8
+"597"	"Dorsal_sensory_organ"	"serotonergic"	0
+"598"	"Dorsal_sensory_organ"	"cholinergic"	0
+"599"	"Dorsal_sensory_organ"	"adrenergic"	0
+"600"	"Dorsal_sensory_organ"	"dopaminergic"	0
+"601"	"Dorsolateral_sense_organs"	"ectoderm"	120
+"602"	"Dorsolateral_sense_organs"	"episphere"	120
+"603"	"Dorsolateral_sense_organs"	"segment_0"	0
+"604"	"Dorsolateral_sense_organs"	"segment_1"	0
+"605"	"Dorsolateral_sense_organs"	"segment_2"	0
+"606"	"Dorsolateral_sense_organs"	"segment_3"	0
+"607"	"Dorsolateral_sense_organs"	"torso"	0
+"608"	"Dorsolateral_sense_organs"	"pygidium"	0
+"609"	"Dorsolateral_sense_organs"	"neurosecretory_plexus"	25
+"610"	"Dorsolateral_sense_organs"	"mushroom body"	0
+"611"	"Dorsolateral_sense_organs"	"Apical_organ"	0
+"612"	"Dorsolateral_sense_organs"	"Dorsal_sensory_organ"	0
+"613"	"Dorsolateral_sense_organs"	"Dorsolateral_sense_organs"	120
+"614"	"Dorsolateral_sense_organs"	"antenna"	0
+"615"	"Dorsolateral_sense_organs"	"eyespot"	0
+"616"	"Dorsolateral_sense_organs"	"mechanosensory_girdle"	0
+"617"	"Dorsolateral_sense_organs"	"nuchal organ"	0
+"618"	"Dorsolateral_sense_organs"	"Sensory neuron"	119
+"619"	"Dorsolateral_sense_organs"	"sensory_motor_neuron"	0
+"620"	"Dorsolateral_sense_organs"	"sensory_neurosecretory_neuron"	25
+"621"	"Dorsolateral_sense_organs"	"interneuron"	0
+"622"	"Dorsolateral_sense_organs"	"premotor"	0
+"623"	"Dorsolateral_sense_organs"	"motorneuron"	0
+"624"	"Dorsolateral_sense_organs"	"ciliomotors"	0
+"625"	"Dorsolateral_sense_organs"	"rhabdomeric photoreceptor"	0
+"626"	"Dorsolateral_sense_organs"	"ciliary photoreceptor"	0
+"627"	"Dorsolateral_sense_organs"	"sensory_cilia"	79
+"628"	"Dorsolateral_sense_organs"	"Uniciliated_penetrating_cell"	2
+"629"	"Dorsolateral_sense_organs"	"Biciliated_penetrating_cell"	0
+"630"	"Dorsolateral_sense_organs"	"Uniciliated_nonpenetrating_cell"	74
+"631"	"Dorsolateral_sense_organs"	"Biciliated_nonpenetrating_cell"	3
+"632"	"Dorsolateral_sense_organs"	"Multiciliated_penetrating_cell"	0
+"633"	"Dorsolateral_sense_organs"	"dense cored vesicles"	63
+"634"	"Dorsolateral_sense_organs"	"asymmetric neuron"	1
+"635"	"Dorsolateral_sense_organs"	"biaxonal"	0
+"636"	"Dorsolateral_sense_organs"	"decussating"	0
+"637"	"Dorsolateral_sense_organs"	"commissural"	0
+"638"	"Dorsolateral_sense_organs"	"ipsilateral"	24
+"639"	"Dorsolateral_sense_organs"	"contralateral"	73
+"640"	"Dorsolateral_sense_organs"	"pseudounipolar"	0
+"641"	"Dorsolateral_sense_organs"	"descending"	0
+"642"	"Dorsolateral_sense_organs"	"ascending"	0
+"643"	"Dorsolateral_sense_organs"	"global_reach"	0
+"644"	"Dorsolateral_sense_organs"	"head_trunk"	0
+"645"	"Dorsolateral_sense_organs"	"siGOLD"	5
+"646"	"Dorsolateral_sense_organs"	"glutamatergic"	0
+"647"	"Dorsolateral_sense_organs"	"serotonergic"	0
+"648"	"Dorsolateral_sense_organs"	"cholinergic"	2
+"649"	"Dorsolateral_sense_organs"	"adrenergic"	0
+"650"	"Dorsolateral_sense_organs"	"dopaminergic"	0
+"651"	"antenna"	"ectoderm"	115
+"652"	"antenna"	"episphere"	115
+"653"	"antenna"	"segment_0"	0
+"654"	"antenna"	"segment_1"	0
+"655"	"antenna"	"segment_2"	0
+"656"	"antenna"	"segment_3"	0
+"657"	"antenna"	"torso"	0
+"658"	"antenna"	"pygidium"	0
+"659"	"antenna"	"neurosecretory_plexus"	0
+"660"	"antenna"	"mushroom body"	0
+"661"	"antenna"	"Apical_organ"	0
+"662"	"antenna"	"Dorsal_sensory_organ"	0
+"663"	"antenna"	"Dorsolateral_sense_organs"	0
+"664"	"antenna"	"antenna"	115
+"665"	"antenna"	"eyespot"	0
+"666"	"antenna"	"mechanosensory_girdle"	27
+"667"	"antenna"	"nuchal organ"	0
+"668"	"antenna"	"Sensory neuron"	108
+"669"	"antenna"	"sensory_motor_neuron"	0
+"670"	"antenna"	"sensory_neurosecretory_neuron"	0
+"671"	"antenna"	"interneuron"	0
+"672"	"antenna"	"premotor"	0
+"673"	"antenna"	"motorneuron"	0
+"674"	"antenna"	"ciliomotors"	0
+"675"	"antenna"	"rhabdomeric photoreceptor"	0
+"676"	"antenna"	"ciliary photoreceptor"	0
+"677"	"antenna"	"sensory_cilia"	27
+"678"	"antenna"	"Uniciliated_penetrating_cell"	27
+"679"	"antenna"	"Biciliated_penetrating_cell"	0
+"680"	"antenna"	"Uniciliated_nonpenetrating_cell"	0
+"681"	"antenna"	"Biciliated_nonpenetrating_cell"	0
+"682"	"antenna"	"Multiciliated_penetrating_cell"	0
+"683"	"antenna"	"dense cored vesicles"	4
+"684"	"antenna"	"asymmetric neuron"	1
+"685"	"antenna"	"biaxonal"	0
+"686"	"antenna"	"decussating"	0
+"687"	"antenna"	"commissural"	0
+"688"	"antenna"	"ipsilateral"	86
+"689"	"antenna"	"contralateral"	0
+"690"	"antenna"	"pseudounipolar"	0
+"691"	"antenna"	"descending"	10
+"692"	"antenna"	"ascending"	0
+"693"	"antenna"	"global_reach"	0
+"694"	"antenna"	"head_trunk"	10
+"695"	"antenna"	"siGOLD"	1
+"696"	"antenna"	"glutamatergic"	10
+"697"	"antenna"	"serotonergic"	0
+"698"	"antenna"	"cholinergic"	0
+"699"	"antenna"	"adrenergic"	0
+"700"	"antenna"	"dopaminergic"	0
+"701"	"eyespot"	"ectoderm"	7
+"702"	"eyespot"	"episphere"	7
+"703"	"eyespot"	"segment_0"	0
+"704"	"eyespot"	"segment_1"	0
+"705"	"eyespot"	"segment_2"	0
+"706"	"eyespot"	"segment_3"	0
+"707"	"eyespot"	"torso"	0
+"708"	"eyespot"	"pygidium"	0
+"709"	"eyespot"	"neurosecretory_plexus"	0
+"710"	"eyespot"	"mushroom body"	0
+"711"	"eyespot"	"Apical_organ"	0
+"712"	"eyespot"	"Dorsal_sensory_organ"	0
+"713"	"eyespot"	"Dorsolateral_sense_organs"	0
+"714"	"eyespot"	"antenna"	0
+"715"	"eyespot"	"eyespot"	7
+"716"	"eyespot"	"mechanosensory_girdle"	0
+"717"	"eyespot"	"nuchal organ"	0
+"718"	"eyespot"	"Sensory neuron"	7
+"719"	"eyespot"	"sensory_motor_neuron"	2
+"720"	"eyespot"	"sensory_neurosecretory_neuron"	0
+"721"	"eyespot"	"interneuron"	0
+"722"	"eyespot"	"premotor"	0
+"723"	"eyespot"	"motorneuron"	0
+"724"	"eyespot"	"ciliomotors"	0
+"725"	"eyespot"	"rhabdomeric photoreceptor"	0
+"726"	"eyespot"	"ciliary photoreceptor"	0
+"727"	"eyespot"	"sensory_cilia"	5
+"728"	"eyespot"	"Uniciliated_penetrating_cell"	0
+"729"	"eyespot"	"Biciliated_penetrating_cell"	0
+"730"	"eyespot"	"Uniciliated_nonpenetrating_cell"	0
+"731"	"eyespot"	"Biciliated_nonpenetrating_cell"	0
+"732"	"eyespot"	"Multiciliated_penetrating_cell"	0
+"733"	"eyespot"	"dense cored vesicles"	0
+"734"	"eyespot"	"asymmetric neuron"	0
+"735"	"eyespot"	"biaxonal"	0
+"736"	"eyespot"	"decussating"	0
+"737"	"eyespot"	"commissural"	0
+"738"	"eyespot"	"ipsilateral"	5
+"739"	"eyespot"	"contralateral"	2
+"740"	"eyespot"	"pseudounipolar"	0
+"741"	"eyespot"	"descending"	0
+"742"	"eyespot"	"ascending"	0
+"743"	"eyespot"	"global_reach"	0
+"744"	"eyespot"	"head_trunk"	0
+"745"	"eyespot"	"siGOLD"	0
+"746"	"eyespot"	"glutamatergic"	0
+"747"	"eyespot"	"serotonergic"	0
+"748"	"eyespot"	"cholinergic"	2
+"749"	"eyespot"	"adrenergic"	0
+"750"	"eyespot"	"dopaminergic"	0
+"751"	"mechanosensory_girdle"	"ectoderm"	333
+"752"	"mechanosensory_girdle"	"episphere"	69
+"753"	"mechanosensory_girdle"	"segment_0"	12
+"754"	"mechanosensory_girdle"	"segment_1"	62
+"755"	"mechanosensory_girdle"	"segment_2"	82
+"756"	"mechanosensory_girdle"	"segment_3"	69
+"757"	"mechanosensory_girdle"	"torso"	264
+"758"	"mechanosensory_girdle"	"pygidium"	39
+"759"	"mechanosensory_girdle"	"neurosecretory_plexus"	0
+"760"	"mechanosensory_girdle"	"mushroom body"	2
+"761"	"mechanosensory_girdle"	"Apical_organ"	0
+"762"	"mechanosensory_girdle"	"Dorsal_sensory_organ"	12
+"763"	"mechanosensory_girdle"	"Dorsolateral_sense_organs"	0
+"764"	"mechanosensory_girdle"	"antenna"	27
+"765"	"mechanosensory_girdle"	"eyespot"	0
+"766"	"mechanosensory_girdle"	"mechanosensory_girdle"	333
+"767"	"mechanosensory_girdle"	"nuchal organ"	0
+"768"	"mechanosensory_girdle"	"Sensory neuron"	228
+"769"	"mechanosensory_girdle"	"sensory_motor_neuron"	5
+"770"	"mechanosensory_girdle"	"sensory_neurosecretory_neuron"	0
+"771"	"mechanosensory_girdle"	"interneuron"	99
+"772"	"mechanosensory_girdle"	"premotor"	51
+"773"	"mechanosensory_girdle"	"motorneuron"	6
+"774"	"mechanosensory_girdle"	"ciliomotors"	5
+"775"	"mechanosensory_girdle"	"rhabdomeric photoreceptor"	0
+"776"	"mechanosensory_girdle"	"ciliary photoreceptor"	0
+"777"	"mechanosensory_girdle"	"sensory_cilia"	200
+"778"	"mechanosensory_girdle"	"Uniciliated_penetrating_cell"	152
+"779"	"mechanosensory_girdle"	"Biciliated_penetrating_cell"	37
+"780"	"mechanosensory_girdle"	"Uniciliated_nonpenetrating_cell"	7
+"781"	"mechanosensory_girdle"	"Biciliated_nonpenetrating_cell"	0
+"782"	"mechanosensory_girdle"	"Multiciliated_penetrating_cell"	4
+"783"	"mechanosensory_girdle"	"dense cored vesicles"	78
+"784"	"mechanosensory_girdle"	"asymmetric neuron"	5
+"785"	"mechanosensory_girdle"	"biaxonal"	6
+"786"	"mechanosensory_girdle"	"decussating"	2
+"787"	"mechanosensory_girdle"	"commissural"	3
+"788"	"mechanosensory_girdle"	"ipsilateral"	297
+"789"	"mechanosensory_girdle"	"contralateral"	8
+"790"	"mechanosensory_girdle"	"pseudounipolar"	96
+"791"	"mechanosensory_girdle"	"descending"	56
+"792"	"mechanosensory_girdle"	"ascending"	31
+"793"	"mechanosensory_girdle"	"global_reach"	20
+"794"	"mechanosensory_girdle"	"head_trunk"	62
+"795"	"mechanosensory_girdle"	"siGOLD"	24
+"796"	"mechanosensory_girdle"	"glutamatergic"	45
+"797"	"mechanosensory_girdle"	"serotonergic"	0
+"798"	"mechanosensory_girdle"	"cholinergic"	2
+"799"	"mechanosensory_girdle"	"adrenergic"	0
+"800"	"mechanosensory_girdle"	"dopaminergic"	0
+"801"	"nuchal organ"	"ectoderm"	45
+"802"	"nuchal organ"	"episphere"	45
+"803"	"nuchal organ"	"segment_0"	0
+"804"	"nuchal organ"	"segment_1"	0
+"805"	"nuchal organ"	"segment_2"	0
+"806"	"nuchal organ"	"segment_3"	0
+"807"	"nuchal organ"	"torso"	0
+"808"	"nuchal organ"	"pygidium"	0
+"809"	"nuchal organ"	"neurosecretory_plexus"	3
+"810"	"nuchal organ"	"mushroom body"	0
+"811"	"nuchal organ"	"Apical_organ"	0
+"812"	"nuchal organ"	"Dorsal_sensory_organ"	0
+"813"	"nuchal organ"	"Dorsolateral_sense_organs"	0
+"814"	"nuchal organ"	"antenna"	0
+"815"	"nuchal organ"	"eyespot"	0
+"816"	"nuchal organ"	"mechanosensory_girdle"	0
+"817"	"nuchal organ"	"nuchal organ"	45
+"818"	"nuchal organ"	"Sensory neuron"	38
+"819"	"nuchal organ"	"sensory_motor_neuron"	0
+"820"	"nuchal organ"	"sensory_neurosecretory_neuron"	3
+"821"	"nuchal organ"	"interneuron"	0
+"822"	"nuchal organ"	"premotor"	0
+"823"	"nuchal organ"	"motorneuron"	0
+"824"	"nuchal organ"	"ciliomotors"	0
+"825"	"nuchal organ"	"rhabdomeric photoreceptor"	0
+"826"	"nuchal organ"	"ciliary photoreceptor"	0
+"827"	"nuchal organ"	"sensory_cilia"	36
+"828"	"nuchal organ"	"Uniciliated_penetrating_cell"	0
+"829"	"nuchal organ"	"Biciliated_penetrating_cell"	0
+"830"	"nuchal organ"	"Uniciliated_nonpenetrating_cell"	36
+"831"	"nuchal organ"	"Biciliated_nonpenetrating_cell"	0
+"832"	"nuchal organ"	"Multiciliated_penetrating_cell"	0
+"833"	"nuchal organ"	"dense cored vesicles"	33
+"834"	"nuchal organ"	"asymmetric neuron"	0
+"835"	"nuchal organ"	"biaxonal"	0
+"836"	"nuchal organ"	"decussating"	0
+"837"	"nuchal organ"	"commissural"	0
+"838"	"nuchal organ"	"ipsilateral"	3
+"839"	"nuchal organ"	"contralateral"	34
+"840"	"nuchal organ"	"pseudounipolar"	0
+"841"	"nuchal organ"	"descending"	0
+"842"	"nuchal organ"	"ascending"	0
+"843"	"nuchal organ"	"global_reach"	0
+"844"	"nuchal organ"	"head_trunk"	0
+"845"	"nuchal organ"	"siGOLD"	13
+"846"	"nuchal organ"	"glutamatergic"	0
+"847"	"nuchal organ"	"serotonergic"	0
+"848"	"nuchal organ"	"cholinergic"	0
+"849"	"nuchal organ"	"adrenergic"	0
+"850"	"nuchal organ"	"dopaminergic"	0
+"851"	"Sensory neuron"	"ectoderm"	1017
+"852"	"Sensory neuron"	"episphere"	665
+"853"	"Sensory neuron"	"segment_0"	72
+"854"	"Sensory neuron"	"segment_1"	47
+"855"	"Sensory neuron"	"segment_2"	67
+"856"	"Sensory neuron"	"segment_3"	81
+"857"	"Sensory neuron"	"torso"	347
+"858"	"Sensory neuron"	"pygidium"	77
+"859"	"Sensory neuron"	"neurosecretory_plexus"	70
+"860"	"Sensory neuron"	"mushroom body"	125
+"861"	"Sensory neuron"	"Apical_organ"	36
+"862"	"Sensory neuron"	"Dorsal_sensory_organ"	39
+"863"	"Sensory neuron"	"Dorsolateral_sense_organs"	119
+"864"	"Sensory neuron"	"antenna"	108
+"865"	"Sensory neuron"	"eyespot"	7
+"866"	"Sensory neuron"	"mechanosensory_girdle"	228
+"867"	"Sensory neuron"	"nuchal organ"	38
+"868"	"Sensory neuron"	"Sensory neuron"	1017
+"869"	"Sensory neuron"	"sensory_motor_neuron"	10
+"870"	"Sensory neuron"	"sensory_neurosecretory_neuron"	70
+"871"	"Sensory neuron"	"interneuron"	0
+"872"	"Sensory neuron"	"premotor"	6
+"873"	"Sensory neuron"	"motorneuron"	0
+"874"	"Sensory neuron"	"ciliomotors"	1
+"875"	"Sensory neuron"	"rhabdomeric photoreceptor"	24
+"876"	"Sensory neuron"	"ciliary photoreceptor"	4
+"877"	"Sensory neuron"	"sensory_cilia"	474
+"878"	"Sensory neuron"	"Uniciliated_penetrating_cell"	179
+"879"	"Sensory neuron"	"Biciliated_penetrating_cell"	53
+"880"	"Sensory neuron"	"Uniciliated_nonpenetrating_cell"	200
+"881"	"Sensory neuron"	"Biciliated_nonpenetrating_cell"	14
+"882"	"Sensory neuron"	"Multiciliated_penetrating_cell"	4
+"883"	"Sensory neuron"	"dense cored vesicles"	244
+"884"	"Sensory neuron"	"asymmetric neuron"	11
+"885"	"Sensory neuron"	"biaxonal"	0
+"886"	"Sensory neuron"	"decussating"	0
+"887"	"Sensory neuron"	"commissural"	3
+"888"	"Sensory neuron"	"ipsilateral"	619
+"889"	"Sensory neuron"	"contralateral"	192
+"890"	"Sensory neuron"	"pseudounipolar"	13
+"891"	"Sensory neuron"	"descending"	48
+"892"	"Sensory neuron"	"ascending"	31
+"893"	"Sensory neuron"	"global_reach"	3
+"894"	"Sensory neuron"	"head_trunk"	44
+"895"	"Sensory neuron"	"siGOLD"	33
+"896"	"Sensory neuron"	"glutamatergic"	69
+"897"	"Sensory neuron"	"serotonergic"	0
+"898"	"Sensory neuron"	"cholinergic"	9
+"899"	"Sensory neuron"	"adrenergic"	0
+"900"	"Sensory neuron"	"dopaminergic"	0
+"901"	"sensory_motor_neuron"	"ectoderm"	10
+"902"	"sensory_motor_neuron"	"episphere"	4
+"903"	"sensory_motor_neuron"	"segment_0"	0
+"904"	"sensory_motor_neuron"	"segment_1"	1
+"905"	"sensory_motor_neuron"	"segment_2"	2
+"906"	"sensory_motor_neuron"	"segment_3"	0
+"907"	"sensory_motor_neuron"	"torso"	6
+"908"	"sensory_motor_neuron"	"pygidium"	3
+"909"	"sensory_motor_neuron"	"neurosecretory_plexus"	0
+"910"	"sensory_motor_neuron"	"mushroom body"	0
+"911"	"sensory_motor_neuron"	"Apical_organ"	0
+"912"	"sensory_motor_neuron"	"Dorsal_sensory_organ"	0
+"913"	"sensory_motor_neuron"	"Dorsolateral_sense_organs"	0
+"914"	"sensory_motor_neuron"	"antenna"	0
+"915"	"sensory_motor_neuron"	"eyespot"	2
+"916"	"sensory_motor_neuron"	"mechanosensory_girdle"	5
+"917"	"sensory_motor_neuron"	"nuchal organ"	0
+"918"	"sensory_motor_neuron"	"Sensory neuron"	10
+"919"	"sensory_motor_neuron"	"sensory_motor_neuron"	10
+"920"	"sensory_motor_neuron"	"sensory_neurosecretory_neuron"	0
+"921"	"sensory_motor_neuron"	"interneuron"	0
+"922"	"sensory_motor_neuron"	"premotor"	0
+"923"	"sensory_motor_neuron"	"motorneuron"	0
+"924"	"sensory_motor_neuron"	"ciliomotors"	1
+"925"	"sensory_motor_neuron"	"rhabdomeric photoreceptor"	0
+"926"	"sensory_motor_neuron"	"ciliary photoreceptor"	0
+"927"	"sensory_motor_neuron"	"sensory_cilia"	7
+"928"	"sensory_motor_neuron"	"Uniciliated_penetrating_cell"	4
+"929"	"sensory_motor_neuron"	"Biciliated_penetrating_cell"	2
+"930"	"sensory_motor_neuron"	"Uniciliated_nonpenetrating_cell"	1
+"931"	"sensory_motor_neuron"	"Biciliated_nonpenetrating_cell"	0
+"932"	"sensory_motor_neuron"	"Multiciliated_penetrating_cell"	0
+"933"	"sensory_motor_neuron"	"dense cored vesicles"	2
+"934"	"sensory_motor_neuron"	"asymmetric neuron"	1
+"935"	"sensory_motor_neuron"	"biaxonal"	0
+"936"	"sensory_motor_neuron"	"decussating"	0
+"937"	"sensory_motor_neuron"	"commissural"	0
+"938"	"sensory_motor_neuron"	"ipsilateral"	9
+"939"	"sensory_motor_neuron"	"contralateral"	0
+"940"	"sensory_motor_neuron"	"pseudounipolar"	0
+"941"	"sensory_motor_neuron"	"descending"	0
+"942"	"sensory_motor_neuron"	"ascending"	1
+"943"	"sensory_motor_neuron"	"global_reach"	1
+"944"	"sensory_motor_neuron"	"head_trunk"	1
+"945"	"sensory_motor_neuron"	"siGOLD"	2
+"946"	"sensory_motor_neuron"	"glutamatergic"	0
+"947"	"sensory_motor_neuron"	"serotonergic"	0
+"948"	"sensory_motor_neuron"	"cholinergic"	2
+"949"	"sensory_motor_neuron"	"adrenergic"	0
+"950"	"sensory_motor_neuron"	"dopaminergic"	0
+"951"	"sensory_neurosecretory_neuron"	"ectoderm"	70
+"952"	"sensory_neurosecretory_neuron"	"episphere"	70
+"953"	"sensory_neurosecretory_neuron"	"segment_0"	0
+"954"	"sensory_neurosecretory_neuron"	"segment_1"	0
+"955"	"sensory_neurosecretory_neuron"	"segment_2"	0
+"956"	"sensory_neurosecretory_neuron"	"segment_3"	0
+"957"	"sensory_neurosecretory_neuron"	"torso"	0
+"958"	"sensory_neurosecretory_neuron"	"pygidium"	0
+"959"	"sensory_neurosecretory_neuron"	"neurosecretory_plexus"	70
+"960"	"sensory_neurosecretory_neuron"	"mushroom body"	10
+"961"	"sensory_neurosecretory_neuron"	"Apical_organ"	32
+"962"	"sensory_neurosecretory_neuron"	"Dorsal_sensory_organ"	0
+"963"	"sensory_neurosecretory_neuron"	"Dorsolateral_sense_organs"	25
+"964"	"sensory_neurosecretory_neuron"	"antenna"	0
+"965"	"sensory_neurosecretory_neuron"	"eyespot"	0
+"966"	"sensory_neurosecretory_neuron"	"mechanosensory_girdle"	0
+"967"	"sensory_neurosecretory_neuron"	"nuchal organ"	3
+"968"	"sensory_neurosecretory_neuron"	"Sensory neuron"	70
+"969"	"sensory_neurosecretory_neuron"	"sensory_motor_neuron"	0
+"970"	"sensory_neurosecretory_neuron"	"sensory_neurosecretory_neuron"	70
+"971"	"sensory_neurosecretory_neuron"	"interneuron"	0
+"972"	"sensory_neurosecretory_neuron"	"premotor"	0
+"973"	"sensory_neurosecretory_neuron"	"motorneuron"	0
+"974"	"sensory_neurosecretory_neuron"	"ciliomotors"	0
+"975"	"sensory_neurosecretory_neuron"	"rhabdomeric photoreceptor"	0
+"976"	"sensory_neurosecretory_neuron"	"ciliary photoreceptor"	4
+"977"	"sensory_neurosecretory_neuron"	"sensory_cilia"	70
+"978"	"sensory_neurosecretory_neuron"	"Uniciliated_penetrating_cell"	0
+"979"	"sensory_neurosecretory_neuron"	"Biciliated_penetrating_cell"	0
+"980"	"sensory_neurosecretory_neuron"	"Uniciliated_nonpenetrating_cell"	49
+"981"	"sensory_neurosecretory_neuron"	"Biciliated_nonpenetrating_cell"	1
+"982"	"sensory_neurosecretory_neuron"	"Multiciliated_penetrating_cell"	0
+"983"	"sensory_neurosecretory_neuron"	"dense cored vesicles"	70
+"984"	"sensory_neurosecretory_neuron"	"asymmetric neuron"	3
+"985"	"sensory_neurosecretory_neuron"	"biaxonal"	0
+"986"	"sensory_neurosecretory_neuron"	"decussating"	0
+"987"	"sensory_neurosecretory_neuron"	"commissural"	0
+"988"	"sensory_neurosecretory_neuron"	"ipsilateral"	9
+"989"	"sensory_neurosecretory_neuron"	"contralateral"	61
+"990"	"sensory_neurosecretory_neuron"	"pseudounipolar"	0
+"991"	"sensory_neurosecretory_neuron"	"descending"	0
+"992"	"sensory_neurosecretory_neuron"	"ascending"	0
+"993"	"sensory_neurosecretory_neuron"	"global_reach"	0
+"994"	"sensory_neurosecretory_neuron"	"head_trunk"	0
+"995"	"sensory_neurosecretory_neuron"	"siGOLD"	4
+"996"	"sensory_neurosecretory_neuron"	"glutamatergic"	0
+"997"	"sensory_neurosecretory_neuron"	"serotonergic"	0
+"998"	"sensory_neurosecretory_neuron"	"cholinergic"	0
+"999"	"sensory_neurosecretory_neuron"	"adrenergic"	0
+"1000"	"sensory_neurosecretory_neuron"	"dopaminergic"	0
+"1001"	"interneuron"	"ectoderm"	1395
+"1002"	"interneuron"	"episphere"	678
+"1003"	"interneuron"	"segment_0"	15
+"1004"	"interneuron"	"segment_1"	224
+"1005"	"interneuron"	"segment_2"	256
+"1006"	"interneuron"	"segment_3"	200
+"1007"	"interneuron"	"torso"	716
+"1008"	"interneuron"	"pygidium"	21
+"1009"	"interneuron"	"neurosecretory_plexus"	8
+"1010"	"interneuron"	"mushroom body"	102
+"1011"	"interneuron"	"Apical_organ"	8
+"1012"	"interneuron"	"Dorsal_sensory_organ"	0
+"1013"	"interneuron"	"Dorsolateral_sense_organs"	0
+"1014"	"interneuron"	"antenna"	0
+"1015"	"interneuron"	"eyespot"	0
+"1016"	"interneuron"	"mechanosensory_girdle"	99
+"1017"	"interneuron"	"nuchal organ"	0
+"1018"	"interneuron"	"Sensory neuron"	0
+"1019"	"interneuron"	"sensory_motor_neuron"	0
+"1020"	"interneuron"	"sensory_neurosecretory_neuron"	0
+"1021"	"interneuron"	"interneuron"	1395
+"1022"	"interneuron"	"premotor"	205
+"1023"	"interneuron"	"motorneuron"	0
+"1024"	"interneuron"	"ciliomotors"	1
+"1025"	"interneuron"	"rhabdomeric photoreceptor"	0
+"1026"	"interneuron"	"ciliary photoreceptor"	0
+"1027"	"interneuron"	"sensory_cilia"	0
+"1028"	"interneuron"	"Uniciliated_penetrating_cell"	0
+"1029"	"interneuron"	"Biciliated_penetrating_cell"	0
+"1030"	"interneuron"	"Uniciliated_nonpenetrating_cell"	0
+"1031"	"interneuron"	"Biciliated_nonpenetrating_cell"	0
+"1032"	"interneuron"	"Multiciliated_penetrating_cell"	0
+"1033"	"interneuron"	"dense cored vesicles"	221
+"1034"	"interneuron"	"asymmetric neuron"	4
+"1035"	"interneuron"	"biaxonal"	6
+"1036"	"interneuron"	"decussating"	65
+"1037"	"interneuron"	"commissural"	247
+"1038"	"interneuron"	"ipsilateral"	256
+"1039"	"interneuron"	"contralateral"	313
+"1040"	"interneuron"	"pseudounipolar"	140
+"1041"	"interneuron"	"descending"	134
+"1042"	"interneuron"	"ascending"	225
+"1043"	"interneuron"	"global_reach"	16
+"1044"	"interneuron"	"head_trunk"	137
+"1045"	"interneuron"	"siGOLD"	59
+"1046"	"interneuron"	"glutamatergic"	0
+"1047"	"interneuron"	"serotonergic"	0
+"1048"	"interneuron"	"cholinergic"	0
+"1049"	"interneuron"	"adrenergic"	1
+"1050"	"interneuron"	"dopaminergic"	1
+"1051"	"premotor"	"ectoderm"	213
+"1052"	"premotor"	"episphere"	71
+"1053"	"premotor"	"segment_0"	2
+"1054"	"premotor"	"segment_1"	40
+"1055"	"premotor"	"segment_2"	60
+"1056"	"premotor"	"segment_3"	34
+"1057"	"premotor"	"torso"	142
+"1058"	"premotor"	"pygidium"	6
+"1059"	"premotor"	"neurosecretory_plexus"	4
+"1060"	"premotor"	"mushroom body"	9
+"1061"	"premotor"	"Apical_organ"	4
+"1062"	"premotor"	"Dorsal_sensory_organ"	0
+"1063"	"premotor"	"Dorsolateral_sense_organs"	0
+"1064"	"premotor"	"antenna"	0
+"1065"	"premotor"	"eyespot"	0
+"1066"	"premotor"	"mechanosensory_girdle"	51
+"1067"	"premotor"	"nuchal organ"	0
+"1068"	"premotor"	"Sensory neuron"	6
+"1069"	"premotor"	"sensory_motor_neuron"	0
+"1070"	"premotor"	"sensory_neurosecretory_neuron"	0
+"1071"	"premotor"	"interneuron"	205
+"1072"	"premotor"	"premotor"	213
+"1073"	"premotor"	"motorneuron"	1
+"1074"	"premotor"	"ciliomotors"	1
+"1075"	"premotor"	"rhabdomeric photoreceptor"	0
+"1076"	"premotor"	"ciliary photoreceptor"	0
+"1077"	"premotor"	"sensory_cilia"	0
+"1078"	"premotor"	"Uniciliated_penetrating_cell"	0
+"1079"	"premotor"	"Biciliated_penetrating_cell"	0
+"1080"	"premotor"	"Uniciliated_nonpenetrating_cell"	0
+"1081"	"premotor"	"Biciliated_nonpenetrating_cell"	0
+"1082"	"premotor"	"Multiciliated_penetrating_cell"	0
+"1083"	"premotor"	"dense cored vesicles"	89
+"1084"	"premotor"	"asymmetric neuron"	3
+"1085"	"premotor"	"biaxonal"	2
+"1086"	"premotor"	"decussating"	16
+"1087"	"premotor"	"commissural"	42
+"1088"	"premotor"	"ipsilateral"	77
+"1089"	"premotor"	"contralateral"	58
+"1090"	"premotor"	"pseudounipolar"	51
+"1091"	"premotor"	"descending"	38
+"1092"	"premotor"	"ascending"	50
+"1093"	"premotor"	"global_reach"	10
+"1094"	"premotor"	"head_trunk"	42
+"1095"	"premotor"	"siGOLD"	30
+"1096"	"premotor"	"glutamatergic"	0
+"1097"	"premotor"	"serotonergic"	0
+"1098"	"premotor"	"cholinergic"	0
+"1099"	"premotor"	"adrenergic"	1
+"1100"	"premotor"	"dopaminergic"	1
+"1101"	"motorneuron"	"ectoderm"	251
+"1102"	"motorneuron"	"episphere"	22
+"1103"	"motorneuron"	"segment_0"	1
+"1104"	"motorneuron"	"segment_1"	64
+"1105"	"motorneuron"	"segment_2"	88
+"1106"	"motorneuron"	"segment_3"	69
+"1107"	"motorneuron"	"torso"	227
+"1108"	"motorneuron"	"pygidium"	5
+"1109"	"motorneuron"	"neurosecretory_plexus"	0
+"1110"	"motorneuron"	"mushroom body"	0
+"1111"	"motorneuron"	"Apical_organ"	0
+"1112"	"motorneuron"	"Dorsal_sensory_organ"	0
+"1113"	"motorneuron"	"Dorsolateral_sense_organs"	0
+"1114"	"motorneuron"	"antenna"	0
+"1115"	"motorneuron"	"eyespot"	0
+"1116"	"motorneuron"	"mechanosensory_girdle"	6
+"1117"	"motorneuron"	"nuchal organ"	0
+"1118"	"motorneuron"	"Sensory neuron"	0
+"1119"	"motorneuron"	"sensory_motor_neuron"	0
+"1120"	"motorneuron"	"sensory_neurosecretory_neuron"	0
+"1121"	"motorneuron"	"interneuron"	0
+"1122"	"motorneuron"	"premotor"	1
+"1123"	"motorneuron"	"motorneuron"	251
+"1124"	"motorneuron"	"ciliomotors"	11
+"1125"	"motorneuron"	"rhabdomeric photoreceptor"	0
+"1126"	"motorneuron"	"ciliary photoreceptor"	0
+"1127"	"motorneuron"	"sensory_cilia"	0
+"1128"	"motorneuron"	"Uniciliated_penetrating_cell"	0
+"1129"	"motorneuron"	"Biciliated_penetrating_cell"	0
+"1130"	"motorneuron"	"Uniciliated_nonpenetrating_cell"	0
+"1131"	"motorneuron"	"Biciliated_nonpenetrating_cell"	0
+"1132"	"motorneuron"	"Multiciliated_penetrating_cell"	0
+"1133"	"motorneuron"	"dense cored vesicles"	32
+"1134"	"motorneuron"	"asymmetric neuron"	0
+"1135"	"motorneuron"	"biaxonal"	9
+"1136"	"motorneuron"	"decussating"	14
+"1137"	"motorneuron"	"commissural"	117
+"1138"	"motorneuron"	"ipsilateral"	71
+"1139"	"motorneuron"	"contralateral"	131
+"1140"	"motorneuron"	"pseudounipolar"	18
+"1141"	"motorneuron"	"descending"	30
+"1142"	"motorneuron"	"ascending"	28
+"1143"	"motorneuron"	"global_reach"	21
+"1144"	"motorneuron"	"head_trunk"	27
+"1145"	"motorneuron"	"siGOLD"	4
+"1146"	"motorneuron"	"glutamatergic"	0
+"1147"	"motorneuron"	"serotonergic"	4
+"1148"	"motorneuron"	"cholinergic"	9
+"1149"	"motorneuron"	"adrenergic"	0
+"1150"	"motorneuron"	"dopaminergic"	0
+"1151"	"ciliomotors"	"ectoderm"	13
+"1152"	"ciliomotors"	"episphere"	8
+"1153"	"ciliomotors"	"segment_0"	0
+"1154"	"ciliomotors"	"segment_1"	4
+"1155"	"ciliomotors"	"segment_2"	0
+"1156"	"ciliomotors"	"segment_3"	0
+"1157"	"ciliomotors"	"torso"	5
+"1158"	"ciliomotors"	"pygidium"	1
+"1159"	"ciliomotors"	"neurosecretory_plexus"	0
+"1160"	"ciliomotors"	"mushroom body"	0
+"1161"	"ciliomotors"	"Apical_organ"	0
+"1162"	"ciliomotors"	"Dorsal_sensory_organ"	0
+"1163"	"ciliomotors"	"Dorsolateral_sense_organs"	0
+"1164"	"ciliomotors"	"antenna"	0
+"1165"	"ciliomotors"	"eyespot"	0
+"1166"	"ciliomotors"	"mechanosensory_girdle"	5
+"1167"	"ciliomotors"	"nuchal organ"	0
+"1168"	"ciliomotors"	"Sensory neuron"	1
+"1169"	"ciliomotors"	"sensory_motor_neuron"	1
+"1170"	"ciliomotors"	"sensory_neurosecretory_neuron"	0
+"1171"	"ciliomotors"	"interneuron"	1
+"1172"	"ciliomotors"	"premotor"	1
+"1173"	"ciliomotors"	"motorneuron"	11
+"1174"	"ciliomotors"	"ciliomotors"	13
+"1175"	"ciliomotors"	"rhabdomeric photoreceptor"	0
+"1176"	"ciliomotors"	"ciliary photoreceptor"	0
+"1177"	"ciliomotors"	"sensory_cilia"	1
+"1178"	"ciliomotors"	"Uniciliated_penetrating_cell"	0
+"1179"	"ciliomotors"	"Biciliated_penetrating_cell"	1
+"1180"	"ciliomotors"	"Uniciliated_nonpenetrating_cell"	0
+"1181"	"ciliomotors"	"Biciliated_nonpenetrating_cell"	0
+"1182"	"ciliomotors"	"Multiciliated_penetrating_cell"	0
+"1183"	"ciliomotors"	"dense cored vesicles"	12
+"1184"	"ciliomotors"	"asymmetric neuron"	1
+"1185"	"ciliomotors"	"biaxonal"	7
+"1186"	"ciliomotors"	"decussating"	6
+"1187"	"ciliomotors"	"commissural"	1
+"1188"	"ciliomotors"	"ipsilateral"	0
+"1189"	"ciliomotors"	"contralateral"	7
+"1190"	"ciliomotors"	"pseudounipolar"	0
+"1191"	"ciliomotors"	"descending"	3
+"1192"	"ciliomotors"	"ascending"	2
+"1193"	"ciliomotors"	"global_reach"	11
+"1194"	"ciliomotors"	"head_trunk"	11
+"1195"	"ciliomotors"	"siGOLD"	2
+"1196"	"ciliomotors"	"glutamatergic"	0
+"1197"	"ciliomotors"	"serotonergic"	4
+"1198"	"ciliomotors"	"cholinergic"	5
+"1199"	"ciliomotors"	"adrenergic"	1
+"1200"	"ciliomotors"	"dopaminergic"	0
+"1201"	"rhabdomeric photoreceptor"	"ectoderm"	24
+"1202"	"rhabdomeric photoreceptor"	"episphere"	24
+"1203"	"rhabdomeric photoreceptor"	"segment_0"	0
+"1204"	"rhabdomeric photoreceptor"	"segment_1"	0
+"1205"	"rhabdomeric photoreceptor"	"segment_2"	0
+"1206"	"rhabdomeric photoreceptor"	"segment_3"	0
+"1207"	"rhabdomeric photoreceptor"	"torso"	0
+"1208"	"rhabdomeric photoreceptor"	"pygidium"	0
+"1209"	"rhabdomeric photoreceptor"	"neurosecretory_plexus"	0
+"1210"	"rhabdomeric photoreceptor"	"mushroom body"	0
+"1211"	"rhabdomeric photoreceptor"	"Apical_organ"	0
+"1212"	"rhabdomeric photoreceptor"	"Dorsal_sensory_organ"	0
+"1213"	"rhabdomeric photoreceptor"	"Dorsolateral_sense_organs"	0
+"1214"	"rhabdomeric photoreceptor"	"antenna"	0
+"1215"	"rhabdomeric photoreceptor"	"eyespot"	0
+"1216"	"rhabdomeric photoreceptor"	"mechanosensory_girdle"	0
+"1217"	"rhabdomeric photoreceptor"	"nuchal organ"	0
+"1218"	"rhabdomeric photoreceptor"	"Sensory neuron"	24
+"1219"	"rhabdomeric photoreceptor"	"sensory_motor_neuron"	0
+"1220"	"rhabdomeric photoreceptor"	"sensory_neurosecretory_neuron"	0
+"1221"	"rhabdomeric photoreceptor"	"interneuron"	0
+"1222"	"rhabdomeric photoreceptor"	"premotor"	0
+"1223"	"rhabdomeric photoreceptor"	"motorneuron"	0
+"1224"	"rhabdomeric photoreceptor"	"ciliomotors"	0
+"1225"	"rhabdomeric photoreceptor"	"rhabdomeric photoreceptor"	24
+"1226"	"rhabdomeric photoreceptor"	"ciliary photoreceptor"	0
+"1227"	"rhabdomeric photoreceptor"	"sensory_cilia"	0
+"1228"	"rhabdomeric photoreceptor"	"Uniciliated_penetrating_cell"	0
+"1229"	"rhabdomeric photoreceptor"	"Biciliated_penetrating_cell"	0
+"1230"	"rhabdomeric photoreceptor"	"Uniciliated_nonpenetrating_cell"	0
+"1231"	"rhabdomeric photoreceptor"	"Biciliated_nonpenetrating_cell"	0
+"1232"	"rhabdomeric photoreceptor"	"Multiciliated_penetrating_cell"	0
+"1233"	"rhabdomeric photoreceptor"	"dense cored vesicles"	0
+"1234"	"rhabdomeric photoreceptor"	"asymmetric neuron"	0
+"1235"	"rhabdomeric photoreceptor"	"biaxonal"	0
+"1236"	"rhabdomeric photoreceptor"	"decussating"	0
+"1237"	"rhabdomeric photoreceptor"	"commissural"	0
+"1238"	"rhabdomeric photoreceptor"	"ipsilateral"	3
+"1239"	"rhabdomeric photoreceptor"	"contralateral"	14
+"1240"	"rhabdomeric photoreceptor"	"pseudounipolar"	0
+"1241"	"rhabdomeric photoreceptor"	"descending"	0
+"1242"	"rhabdomeric photoreceptor"	"ascending"	0
+"1243"	"rhabdomeric photoreceptor"	"global_reach"	0
+"1244"	"rhabdomeric photoreceptor"	"head_trunk"	0
+"1245"	"rhabdomeric photoreceptor"	"siGOLD"	0
+"1246"	"rhabdomeric photoreceptor"	"glutamatergic"	24
+"1247"	"rhabdomeric photoreceptor"	"serotonergic"	0
+"1248"	"rhabdomeric photoreceptor"	"cholinergic"	0
+"1249"	"rhabdomeric photoreceptor"	"adrenergic"	0
+"1250"	"rhabdomeric photoreceptor"	"dopaminergic"	0
+"1251"	"ciliary photoreceptor"	"ectoderm"	4
+"1252"	"ciliary photoreceptor"	"episphere"	4
+"1253"	"ciliary photoreceptor"	"segment_0"	0
+"1254"	"ciliary photoreceptor"	"segment_1"	0
+"1255"	"ciliary photoreceptor"	"segment_2"	0
+"1256"	"ciliary photoreceptor"	"segment_3"	0
+"1257"	"ciliary photoreceptor"	"torso"	0
+"1258"	"ciliary photoreceptor"	"pygidium"	0
+"1259"	"ciliary photoreceptor"	"neurosecretory_plexus"	4
+"1260"	"ciliary photoreceptor"	"mushroom body"	0
+"1261"	"ciliary photoreceptor"	"Apical_organ"	4
+"1262"	"ciliary photoreceptor"	"Dorsal_sensory_organ"	0
+"1263"	"ciliary photoreceptor"	"Dorsolateral_sense_organs"	0
+"1264"	"ciliary photoreceptor"	"antenna"	0
+"1265"	"ciliary photoreceptor"	"eyespot"	0
+"1266"	"ciliary photoreceptor"	"mechanosensory_girdle"	0
+"1267"	"ciliary photoreceptor"	"nuchal organ"	0
+"1268"	"ciliary photoreceptor"	"Sensory neuron"	4
+"1269"	"ciliary photoreceptor"	"sensory_motor_neuron"	0
+"1270"	"ciliary photoreceptor"	"sensory_neurosecretory_neuron"	4
+"1271"	"ciliary photoreceptor"	"interneuron"	0
+"1272"	"ciliary photoreceptor"	"premotor"	0
+"1273"	"ciliary photoreceptor"	"motorneuron"	0
+"1274"	"ciliary photoreceptor"	"ciliomotors"	0
+"1275"	"ciliary photoreceptor"	"rhabdomeric photoreceptor"	0
+"1276"	"ciliary photoreceptor"	"ciliary photoreceptor"	4
+"1277"	"ciliary photoreceptor"	"sensory_cilia"	4
+"1278"	"ciliary photoreceptor"	"Uniciliated_penetrating_cell"	0
+"1279"	"ciliary photoreceptor"	"Biciliated_penetrating_cell"	0
+"1280"	"ciliary photoreceptor"	"Uniciliated_nonpenetrating_cell"	0
+"1281"	"ciliary photoreceptor"	"Biciliated_nonpenetrating_cell"	0
+"1282"	"ciliary photoreceptor"	"Multiciliated_penetrating_cell"	0
+"1283"	"ciliary photoreceptor"	"dense cored vesicles"	4
+"1284"	"ciliary photoreceptor"	"asymmetric neuron"	0
+"1285"	"ciliary photoreceptor"	"biaxonal"	0
+"1286"	"ciliary photoreceptor"	"decussating"	0
+"1287"	"ciliary photoreceptor"	"commissural"	0
+"1288"	"ciliary photoreceptor"	"ipsilateral"	0
+"1289"	"ciliary photoreceptor"	"contralateral"	4
+"1290"	"ciliary photoreceptor"	"pseudounipolar"	0
+"1291"	"ciliary photoreceptor"	"descending"	0
+"1292"	"ciliary photoreceptor"	"ascending"	0
+"1293"	"ciliary photoreceptor"	"global_reach"	0
+"1294"	"ciliary photoreceptor"	"head_trunk"	0
+"1295"	"ciliary photoreceptor"	"siGOLD"	0
+"1296"	"ciliary photoreceptor"	"glutamatergic"	0
+"1297"	"ciliary photoreceptor"	"serotonergic"	0
+"1298"	"ciliary photoreceptor"	"cholinergic"	0
+"1299"	"ciliary photoreceptor"	"adrenergic"	0
+"1300"	"ciliary photoreceptor"	"dopaminergic"	0
+"1301"	"sensory_cilia"	"ectoderm"	499
+"1302"	"sensory_cilia"	"episphere"	283
+"1303"	"sensory_cilia"	"segment_0"	14
+"1304"	"sensory_cilia"	"segment_1"	61
+"1305"	"sensory_cilia"	"segment_2"	50
+"1306"	"sensory_cilia"	"segment_3"	53
+"1307"	"sensory_cilia"	"torso"	216
+"1308"	"sensory_cilia"	"pygidium"	38
+"1309"	"sensory_cilia"	"neurosecretory_plexus"	70
+"1310"	"sensory_cilia"	"mushroom body"	51
+"1311"	"sensory_cilia"	"Apical_organ"	35
+"1312"	"sensory_cilia"	"Dorsal_sensory_organ"	15
+"1313"	"sensory_cilia"	"Dorsolateral_sense_organs"	79
+"1314"	"sensory_cilia"	"antenna"	27
+"1315"	"sensory_cilia"	"eyespot"	5
+"1316"	"sensory_cilia"	"mechanosensory_girdle"	200
+"1317"	"sensory_cilia"	"nuchal organ"	36
+"1318"	"sensory_cilia"	"Sensory neuron"	474
+"1319"	"sensory_cilia"	"sensory_motor_neuron"	7
+"1320"	"sensory_cilia"	"sensory_neurosecretory_neuron"	70
+"1321"	"sensory_cilia"	"interneuron"	0
+"1322"	"sensory_cilia"	"premotor"	0
+"1323"	"sensory_cilia"	"motorneuron"	0
+"1324"	"sensory_cilia"	"ciliomotors"	1
+"1325"	"sensory_cilia"	"rhabdomeric photoreceptor"	0
+"1326"	"sensory_cilia"	"ciliary photoreceptor"	4
+"1327"	"sensory_cilia"	"sensory_cilia"	499
+"1328"	"sensory_cilia"	"Uniciliated_penetrating_cell"	200
+"1329"	"sensory_cilia"	"Biciliated_penetrating_cell"	53
+"1330"	"sensory_cilia"	"Uniciliated_nonpenetrating_cell"	200
+"1331"	"sensory_cilia"	"Biciliated_nonpenetrating_cell"	14
+"1332"	"sensory_cilia"	"Multiciliated_penetrating_cell"	6
+"1333"	"sensory_cilia"	"dense cored vesicles"	176
+"1334"	"sensory_cilia"	"asymmetric neuron"	10
+"1335"	"sensory_cilia"	"biaxonal"	0
+"1336"	"sensory_cilia"	"decussating"	0
+"1337"	"sensory_cilia"	"commissural"	3
+"1338"	"sensory_cilia"	"ipsilateral"	291
+"1339"	"sensory_cilia"	"contralateral"	160
+"1340"	"sensory_cilia"	"pseudounipolar"	5
+"1341"	"sensory_cilia"	"descending"	40
+"1342"	"sensory_cilia"	"ascending"	16
+"1343"	"sensory_cilia"	"global_reach"	2
+"1344"	"sensory_cilia"	"head_trunk"	33
+"1345"	"sensory_cilia"	"siGOLD"	30
+"1346"	"sensory_cilia"	"glutamatergic"	45
+"1347"	"sensory_cilia"	"serotonergic"	0
+"1348"	"sensory_cilia"	"cholinergic"	7
+"1349"	"sensory_cilia"	"adrenergic"	0
+"1350"	"sensory_cilia"	"dopaminergic"	0
+"1351"	"Uniciliated_penetrating_cell"	"ectoderm"	202
+"1352"	"Uniciliated_penetrating_cell"	"episphere"	60
+"1353"	"Uniciliated_penetrating_cell"	"segment_0"	11
+"1354"	"Uniciliated_penetrating_cell"	"segment_1"	47
+"1355"	"Uniciliated_penetrating_cell"	"segment_2"	31
+"1356"	"Uniciliated_penetrating_cell"	"segment_3"	29
+"1357"	"Uniciliated_penetrating_cell"	"torso"	142
+"1358"	"Uniciliated_penetrating_cell"	"pygidium"	24
+"1359"	"Uniciliated_penetrating_cell"	"neurosecretory_plexus"	0
+"1360"	"Uniciliated_penetrating_cell"	"mushroom body"	2
+"1361"	"Uniciliated_penetrating_cell"	"Apical_organ"	0
+"1362"	"Uniciliated_penetrating_cell"	"Dorsal_sensory_organ"	12
+"1363"	"Uniciliated_penetrating_cell"	"Dorsolateral_sense_organs"	2
+"1364"	"Uniciliated_penetrating_cell"	"antenna"	27
+"1365"	"Uniciliated_penetrating_cell"	"eyespot"	0
+"1366"	"Uniciliated_penetrating_cell"	"mechanosensory_girdle"	152
+"1367"	"Uniciliated_penetrating_cell"	"nuchal organ"	0
+"1368"	"Uniciliated_penetrating_cell"	"Sensory neuron"	179
+"1369"	"Uniciliated_penetrating_cell"	"sensory_motor_neuron"	4
+"1370"	"Uniciliated_penetrating_cell"	"sensory_neurosecretory_neuron"	0
+"1371"	"Uniciliated_penetrating_cell"	"interneuron"	0
+"1372"	"Uniciliated_penetrating_cell"	"premotor"	0
+"1373"	"Uniciliated_penetrating_cell"	"motorneuron"	0
+"1374"	"Uniciliated_penetrating_cell"	"ciliomotors"	0
+"1375"	"Uniciliated_penetrating_cell"	"rhabdomeric photoreceptor"	0
+"1376"	"Uniciliated_penetrating_cell"	"ciliary photoreceptor"	0
+"1377"	"Uniciliated_penetrating_cell"	"sensory_cilia"	200
+"1378"	"Uniciliated_penetrating_cell"	"Uniciliated_penetrating_cell"	202
+"1379"	"Uniciliated_penetrating_cell"	"Biciliated_penetrating_cell"	0
+"1380"	"Uniciliated_penetrating_cell"	"Uniciliated_nonpenetrating_cell"	0
+"1381"	"Uniciliated_penetrating_cell"	"Biciliated_nonpenetrating_cell"	0
+"1382"	"Uniciliated_penetrating_cell"	"Multiciliated_penetrating_cell"	0
+"1383"	"Uniciliated_penetrating_cell"	"dense cored vesicles"	10
+"1384"	"Uniciliated_penetrating_cell"	"asymmetric neuron"	5
+"1385"	"Uniciliated_penetrating_cell"	"biaxonal"	0
+"1386"	"Uniciliated_penetrating_cell"	"decussating"	0
+"1387"	"Uniciliated_penetrating_cell"	"commissural"	3
+"1388"	"Uniciliated_penetrating_cell"	"ipsilateral"	175
+"1389"	"Uniciliated_penetrating_cell"	"contralateral"	6
+"1390"	"Uniciliated_penetrating_cell"	"pseudounipolar"	3
+"1391"	"Uniciliated_penetrating_cell"	"descending"	38
+"1392"	"Uniciliated_penetrating_cell"	"ascending"	4
+"1393"	"Uniciliated_penetrating_cell"	"global_reach"	0
+"1394"	"Uniciliated_penetrating_cell"	"head_trunk"	30
+"1395"	"Uniciliated_penetrating_cell"	"siGOLD"	2
+"1396"	"Uniciliated_penetrating_cell"	"glutamatergic"	45
+"1397"	"Uniciliated_penetrating_cell"	"serotonergic"	0
+"1398"	"Uniciliated_penetrating_cell"	"cholinergic"	7
+"1399"	"Uniciliated_penetrating_cell"	"adrenergic"	0
+"1400"	"Uniciliated_penetrating_cell"	"dopaminergic"	0
+"1401"	"Biciliated_penetrating_cell"	"ectoderm"	53
+"1402"	"Biciliated_penetrating_cell"	"episphere"	2
+"1403"	"Biciliated_penetrating_cell"	"segment_0"	0
+"1404"	"Biciliated_penetrating_cell"	"segment_1"	10
+"1405"	"Biciliated_penetrating_cell"	"segment_2"	15
+"1406"	"Biciliated_penetrating_cell"	"segment_3"	16
+"1407"	"Biciliated_penetrating_cell"	"torso"	51
+"1408"	"Biciliated_penetrating_cell"	"pygidium"	10
+"1409"	"Biciliated_penetrating_cell"	"neurosecretory_plexus"	0
+"1410"	"Biciliated_penetrating_cell"	"mushroom body"	0
+"1411"	"Biciliated_penetrating_cell"	"Apical_organ"	0
+"1412"	"Biciliated_penetrating_cell"	"Dorsal_sensory_organ"	0
+"1413"	"Biciliated_penetrating_cell"	"Dorsolateral_sense_organs"	0
+"1414"	"Biciliated_penetrating_cell"	"antenna"	0
+"1415"	"Biciliated_penetrating_cell"	"eyespot"	0
+"1416"	"Biciliated_penetrating_cell"	"mechanosensory_girdle"	37
+"1417"	"Biciliated_penetrating_cell"	"nuchal organ"	0
+"1418"	"Biciliated_penetrating_cell"	"Sensory neuron"	53
+"1419"	"Biciliated_penetrating_cell"	"sensory_motor_neuron"	2
+"1420"	"Biciliated_penetrating_cell"	"sensory_neurosecretory_neuron"	0
+"1421"	"Biciliated_penetrating_cell"	"interneuron"	0
+"1422"	"Biciliated_penetrating_cell"	"premotor"	0
+"1423"	"Biciliated_penetrating_cell"	"motorneuron"	0
+"1424"	"Biciliated_penetrating_cell"	"ciliomotors"	1
+"1425"	"Biciliated_penetrating_cell"	"rhabdomeric photoreceptor"	0
+"1426"	"Biciliated_penetrating_cell"	"ciliary photoreceptor"	0
+"1427"	"Biciliated_penetrating_cell"	"sensory_cilia"	53
+"1428"	"Biciliated_penetrating_cell"	"Uniciliated_penetrating_cell"	0
+"1429"	"Biciliated_penetrating_cell"	"Biciliated_penetrating_cell"	53
+"1430"	"Biciliated_penetrating_cell"	"Uniciliated_nonpenetrating_cell"	0
+"1431"	"Biciliated_penetrating_cell"	"Biciliated_nonpenetrating_cell"	0
+"1432"	"Biciliated_penetrating_cell"	"Multiciliated_penetrating_cell"	0
+"1433"	"Biciliated_penetrating_cell"	"dense cored vesicles"	9
+"1434"	"Biciliated_penetrating_cell"	"asymmetric neuron"	0
+"1435"	"Biciliated_penetrating_cell"	"biaxonal"	0
+"1436"	"Biciliated_penetrating_cell"	"decussating"	0
+"1437"	"Biciliated_penetrating_cell"	"commissural"	0
+"1438"	"Biciliated_penetrating_cell"	"ipsilateral"	52
+"1439"	"Biciliated_penetrating_cell"	"contralateral"	0
+"1440"	"Biciliated_penetrating_cell"	"pseudounipolar"	1
+"1441"	"Biciliated_penetrating_cell"	"descending"	1
+"1442"	"Biciliated_penetrating_cell"	"ascending"	5
+"1443"	"Biciliated_penetrating_cell"	"global_reach"	1
+"1444"	"Biciliated_penetrating_cell"	"head_trunk"	1
+"1445"	"Biciliated_penetrating_cell"	"siGOLD"	1
+"1446"	"Biciliated_penetrating_cell"	"glutamatergic"	0
+"1447"	"Biciliated_penetrating_cell"	"serotonergic"	0
+"1448"	"Biciliated_penetrating_cell"	"cholinergic"	0
+"1449"	"Biciliated_penetrating_cell"	"adrenergic"	0
+"1450"	"Biciliated_penetrating_cell"	"dopaminergic"	0
+"1451"	"Uniciliated_nonpenetrating_cell"	"ectoderm"	200
+"1452"	"Uniciliated_nonpenetrating_cell"	"episphere"	187
+"1453"	"Uniciliated_nonpenetrating_cell"	"segment_0"	3
+"1454"	"Uniciliated_nonpenetrating_cell"	"segment_1"	1
+"1455"	"Uniciliated_nonpenetrating_cell"	"segment_2"	2
+"1456"	"Uniciliated_nonpenetrating_cell"	"segment_3"	4
+"1457"	"Uniciliated_nonpenetrating_cell"	"torso"	13
+"1458"	"Uniciliated_nonpenetrating_cell"	"pygidium"	3
+"1459"	"Uniciliated_nonpenetrating_cell"	"neurosecretory_plexus"	49
+"1460"	"Uniciliated_nonpenetrating_cell"	"mushroom body"	46
+"1461"	"Uniciliated_nonpenetrating_cell"	"Apical_organ"	16
+"1462"	"Uniciliated_nonpenetrating_cell"	"Dorsal_sensory_organ"	2
+"1463"	"Uniciliated_nonpenetrating_cell"	"Dorsolateral_sense_organs"	74
+"1464"	"Uniciliated_nonpenetrating_cell"	"antenna"	0
+"1465"	"Uniciliated_nonpenetrating_cell"	"eyespot"	0
+"1466"	"Uniciliated_nonpenetrating_cell"	"mechanosensory_girdle"	7
+"1467"	"Uniciliated_nonpenetrating_cell"	"nuchal organ"	36
+"1468"	"Uniciliated_nonpenetrating_cell"	"Sensory neuron"	200
+"1469"	"Uniciliated_nonpenetrating_cell"	"sensory_motor_neuron"	1
+"1470"	"Uniciliated_nonpenetrating_cell"	"sensory_neurosecretory_neuron"	49
+"1471"	"Uniciliated_nonpenetrating_cell"	"interneuron"	0
+"1472"	"Uniciliated_nonpenetrating_cell"	"premotor"	0
+"1473"	"Uniciliated_nonpenetrating_cell"	"motorneuron"	0
+"1474"	"Uniciliated_nonpenetrating_cell"	"ciliomotors"	0
+"1475"	"Uniciliated_nonpenetrating_cell"	"rhabdomeric photoreceptor"	0
+"1476"	"Uniciliated_nonpenetrating_cell"	"ciliary photoreceptor"	0
+"1477"	"Uniciliated_nonpenetrating_cell"	"sensory_cilia"	200
+"1478"	"Uniciliated_nonpenetrating_cell"	"Uniciliated_penetrating_cell"	0
+"1479"	"Uniciliated_nonpenetrating_cell"	"Biciliated_penetrating_cell"	0
+"1480"	"Uniciliated_nonpenetrating_cell"	"Uniciliated_nonpenetrating_cell"	200
+"1481"	"Uniciliated_nonpenetrating_cell"	"Biciliated_nonpenetrating_cell"	0
+"1482"	"Uniciliated_nonpenetrating_cell"	"Multiciliated_penetrating_cell"	0
+"1483"	"Uniciliated_nonpenetrating_cell"	"dense cored vesicles"	135
+"1484"	"Uniciliated_nonpenetrating_cell"	"asymmetric neuron"	0
+"1485"	"Uniciliated_nonpenetrating_cell"	"biaxonal"	0
+"1486"	"Uniciliated_nonpenetrating_cell"	"decussating"	0
+"1487"	"Uniciliated_nonpenetrating_cell"	"commissural"	0
+"1488"	"Uniciliated_nonpenetrating_cell"	"ipsilateral"	43
+"1489"	"Uniciliated_nonpenetrating_cell"	"contralateral"	132
+"1490"	"Uniciliated_nonpenetrating_cell"	"pseudounipolar"	1
+"1491"	"Uniciliated_nonpenetrating_cell"	"descending"	1
+"1492"	"Uniciliated_nonpenetrating_cell"	"ascending"	7
+"1493"	"Uniciliated_nonpenetrating_cell"	"global_reach"	1
+"1494"	"Uniciliated_nonpenetrating_cell"	"head_trunk"	2
+"1495"	"Uniciliated_nonpenetrating_cell"	"siGOLD"	25
+"1496"	"Uniciliated_nonpenetrating_cell"	"glutamatergic"	0
+"1497"	"Uniciliated_nonpenetrating_cell"	"serotonergic"	0
+"1498"	"Uniciliated_nonpenetrating_cell"	"cholinergic"	0
+"1499"	"Uniciliated_nonpenetrating_cell"	"adrenergic"	0
+"1500"	"Uniciliated_nonpenetrating_cell"	"dopaminergic"	0
+"1501"	"Biciliated_nonpenetrating_cell"	"ectoderm"	14
+"1502"	"Biciliated_nonpenetrating_cell"	"episphere"	10
+"1503"	"Biciliated_nonpenetrating_cell"	"segment_0"	0
+"1504"	"Biciliated_nonpenetrating_cell"	"segment_1"	1
+"1505"	"Biciliated_nonpenetrating_cell"	"segment_2"	0
+"1506"	"Biciliated_nonpenetrating_cell"	"segment_3"	2
+"1507"	"Biciliated_nonpenetrating_cell"	"torso"	4
+"1508"	"Biciliated_nonpenetrating_cell"	"pygidium"	1
+"1509"	"Biciliated_nonpenetrating_cell"	"neurosecretory_plexus"	1
+"1510"	"Biciliated_nonpenetrating_cell"	"mushroom body"	3
+"1511"	"Biciliated_nonpenetrating_cell"	"Apical_organ"	1
+"1512"	"Biciliated_nonpenetrating_cell"	"Dorsal_sensory_organ"	1
+"1513"	"Biciliated_nonpenetrating_cell"	"Dorsolateral_sense_organs"	3
+"1514"	"Biciliated_nonpenetrating_cell"	"antenna"	0
+"1515"	"Biciliated_nonpenetrating_cell"	"eyespot"	0
+"1516"	"Biciliated_nonpenetrating_cell"	"mechanosensory_girdle"	0
+"1517"	"Biciliated_nonpenetrating_cell"	"nuchal organ"	0
+"1518"	"Biciliated_nonpenetrating_cell"	"Sensory neuron"	14
+"1519"	"Biciliated_nonpenetrating_cell"	"sensory_motor_neuron"	0
+"1520"	"Biciliated_nonpenetrating_cell"	"sensory_neurosecretory_neuron"	1
+"1521"	"Biciliated_nonpenetrating_cell"	"interneuron"	0
+"1522"	"Biciliated_nonpenetrating_cell"	"premotor"	0
+"1523"	"Biciliated_nonpenetrating_cell"	"motorneuron"	0
+"1524"	"Biciliated_nonpenetrating_cell"	"ciliomotors"	0
+"1525"	"Biciliated_nonpenetrating_cell"	"rhabdomeric photoreceptor"	0
+"1526"	"Biciliated_nonpenetrating_cell"	"ciliary photoreceptor"	0
+"1527"	"Biciliated_nonpenetrating_cell"	"sensory_cilia"	14
+"1528"	"Biciliated_nonpenetrating_cell"	"Uniciliated_penetrating_cell"	0
+"1529"	"Biciliated_nonpenetrating_cell"	"Biciliated_penetrating_cell"	0
+"1530"	"Biciliated_nonpenetrating_cell"	"Uniciliated_nonpenetrating_cell"	0
+"1531"	"Biciliated_nonpenetrating_cell"	"Biciliated_nonpenetrating_cell"	14
+"1532"	"Biciliated_nonpenetrating_cell"	"Multiciliated_penetrating_cell"	0
+"1533"	"Biciliated_nonpenetrating_cell"	"dense cored vesicles"	2
+"1534"	"Biciliated_nonpenetrating_cell"	"asymmetric neuron"	2
+"1535"	"Biciliated_nonpenetrating_cell"	"biaxonal"	0
+"1536"	"Biciliated_nonpenetrating_cell"	"decussating"	0
+"1537"	"Biciliated_nonpenetrating_cell"	"commissural"	0
+"1538"	"Biciliated_nonpenetrating_cell"	"ipsilateral"	8
+"1539"	"Biciliated_nonpenetrating_cell"	"contralateral"	4
+"1540"	"Biciliated_nonpenetrating_cell"	"pseudounipolar"	0
+"1541"	"Biciliated_nonpenetrating_cell"	"descending"	0
+"1542"	"Biciliated_nonpenetrating_cell"	"ascending"	0
+"1543"	"Biciliated_nonpenetrating_cell"	"global_reach"	0
+"1544"	"Biciliated_nonpenetrating_cell"	"head_trunk"	0
+"1545"	"Biciliated_nonpenetrating_cell"	"siGOLD"	1
+"1546"	"Biciliated_nonpenetrating_cell"	"glutamatergic"	0
+"1547"	"Biciliated_nonpenetrating_cell"	"serotonergic"	0
+"1548"	"Biciliated_nonpenetrating_cell"	"cholinergic"	0
+"1549"	"Biciliated_nonpenetrating_cell"	"adrenergic"	0
+"1550"	"Biciliated_nonpenetrating_cell"	"dopaminergic"	0
+"1551"	"Multiciliated_penetrating_cell"	"ectoderm"	6
+"1552"	"Multiciliated_penetrating_cell"	"episphere"	0
+"1553"	"Multiciliated_penetrating_cell"	"segment_0"	0
+"1554"	"Multiciliated_penetrating_cell"	"segment_1"	2
+"1555"	"Multiciliated_penetrating_cell"	"segment_2"	2
+"1556"	"Multiciliated_penetrating_cell"	"segment_3"	2
+"1557"	"Multiciliated_penetrating_cell"	"torso"	6
+"1558"	"Multiciliated_penetrating_cell"	"pygidium"	0
+"1559"	"Multiciliated_penetrating_cell"	"neurosecretory_plexus"	0
+"1560"	"Multiciliated_penetrating_cell"	"mushroom body"	0
+"1561"	"Multiciliated_penetrating_cell"	"Apical_organ"	0
+"1562"	"Multiciliated_penetrating_cell"	"Dorsal_sensory_organ"	0
+"1563"	"Multiciliated_penetrating_cell"	"Dorsolateral_sense_organs"	0
+"1564"	"Multiciliated_penetrating_cell"	"antenna"	0
+"1565"	"Multiciliated_penetrating_cell"	"eyespot"	0
+"1566"	"Multiciliated_penetrating_cell"	"mechanosensory_girdle"	4
+"1567"	"Multiciliated_penetrating_cell"	"nuchal organ"	0
+"1568"	"Multiciliated_penetrating_cell"	"Sensory neuron"	4
+"1569"	"Multiciliated_penetrating_cell"	"sensory_motor_neuron"	0
+"1570"	"Multiciliated_penetrating_cell"	"sensory_neurosecretory_neuron"	0
+"1571"	"Multiciliated_penetrating_cell"	"interneuron"	0
+"1572"	"Multiciliated_penetrating_cell"	"premotor"	0
+"1573"	"Multiciliated_penetrating_cell"	"motorneuron"	0
+"1574"	"Multiciliated_penetrating_cell"	"ciliomotors"	0
+"1575"	"Multiciliated_penetrating_cell"	"rhabdomeric photoreceptor"	0
+"1576"	"Multiciliated_penetrating_cell"	"ciliary photoreceptor"	0
+"1577"	"Multiciliated_penetrating_cell"	"sensory_cilia"	6
+"1578"	"Multiciliated_penetrating_cell"	"Uniciliated_penetrating_cell"	0
+"1579"	"Multiciliated_penetrating_cell"	"Biciliated_penetrating_cell"	0
+"1580"	"Multiciliated_penetrating_cell"	"Uniciliated_nonpenetrating_cell"	0
+"1581"	"Multiciliated_penetrating_cell"	"Biciliated_nonpenetrating_cell"	0
+"1582"	"Multiciliated_penetrating_cell"	"Multiciliated_penetrating_cell"	6
+"1583"	"Multiciliated_penetrating_cell"	"dense cored vesicles"	0
+"1584"	"Multiciliated_penetrating_cell"	"asymmetric neuron"	0
+"1585"	"Multiciliated_penetrating_cell"	"biaxonal"	0
+"1586"	"Multiciliated_penetrating_cell"	"decussating"	0
+"1587"	"Multiciliated_penetrating_cell"	"commissural"	0
+"1588"	"Multiciliated_penetrating_cell"	"ipsilateral"	6
+"1589"	"Multiciliated_penetrating_cell"	"contralateral"	0
+"1590"	"Multiciliated_penetrating_cell"	"pseudounipolar"	0
+"1591"	"Multiciliated_penetrating_cell"	"descending"	0
+"1592"	"Multiciliated_penetrating_cell"	"ascending"	0
+"1593"	"Multiciliated_penetrating_cell"	"global_reach"	0
+"1594"	"Multiciliated_penetrating_cell"	"head_trunk"	0
+"1595"	"Multiciliated_penetrating_cell"	"siGOLD"	0
+"1596"	"Multiciliated_penetrating_cell"	"glutamatergic"	0
+"1597"	"Multiciliated_penetrating_cell"	"serotonergic"	0
+"1598"	"Multiciliated_penetrating_cell"	"cholinergic"	0
+"1599"	"Multiciliated_penetrating_cell"	"adrenergic"	0
+"1600"	"Multiciliated_penetrating_cell"	"dopaminergic"	0
+"1601"	"dense cored vesicles"	"ectoderm"	514
+"1602"	"dense cored vesicles"	"episphere"	346
+"1603"	"dense cored vesicles"	"segment_0"	8
+"1604"	"dense cored vesicles"	"segment_1"	51
+"1605"	"dense cored vesicles"	"segment_2"	54
+"1606"	"dense cored vesicles"	"segment_3"	37
+"1607"	"dense cored vesicles"	"torso"	168
+"1608"	"dense cored vesicles"	"pygidium"	18
+"1609"	"dense cored vesicles"	"neurosecretory_plexus"	78
+"1610"	"dense cored vesicles"	"mushroom body"	68
+"1611"	"dense cored vesicles"	"Apical_organ"	43
+"1612"	"dense cored vesicles"	"Dorsal_sensory_organ"	7
+"1613"	"dense cored vesicles"	"Dorsolateral_sense_organs"	63
+"1614"	"dense cored vesicles"	"antenna"	4
+"1615"	"dense cored vesicles"	"eyespot"	0
+"1616"	"dense cored vesicles"	"mechanosensory_girdle"	78
+"1617"	"dense cored vesicles"	"nuchal organ"	33
+"1618"	"dense cored vesicles"	"Sensory neuron"	244
+"1619"	"dense cored vesicles"	"sensory_motor_neuron"	2
+"1620"	"dense cored vesicles"	"sensory_neurosecretory_neuron"	70
+"1621"	"dense cored vesicles"	"interneuron"	221
+"1622"	"dense cored vesicles"	"premotor"	89
+"1623"	"dense cored vesicles"	"motorneuron"	32
+"1624"	"dense cored vesicles"	"ciliomotors"	12
+"1625"	"dense cored vesicles"	"rhabdomeric photoreceptor"	0
+"1626"	"dense cored vesicles"	"ciliary photoreceptor"	4
+"1627"	"dense cored vesicles"	"sensory_cilia"	176
+"1628"	"dense cored vesicles"	"Uniciliated_penetrating_cell"	10
+"1629"	"dense cored vesicles"	"Biciliated_penetrating_cell"	9
+"1630"	"dense cored vesicles"	"Uniciliated_nonpenetrating_cell"	135
+"1631"	"dense cored vesicles"	"Biciliated_nonpenetrating_cell"	2
+"1632"	"dense cored vesicles"	"Multiciliated_penetrating_cell"	0
+"1633"	"dense cored vesicles"	"dense cored vesicles"	559
+"1634"	"dense cored vesicles"	"asymmetric neuron"	11
+"1635"	"dense cored vesicles"	"biaxonal"	11
+"1636"	"dense cored vesicles"	"decussating"	21
+"1637"	"dense cored vesicles"	"commissural"	44
+"1638"	"dense cored vesicles"	"ipsilateral"	133
+"1639"	"dense cored vesicles"	"contralateral"	198
+"1640"	"dense cored vesicles"	"pseudounipolar"	50
+"1641"	"dense cored vesicles"	"descending"	49
+"1642"	"dense cored vesicles"	"ascending"	52
+"1643"	"dense cored vesicles"	"global_reach"	29
+"1644"	"dense cored vesicles"	"head_trunk"	78
+"1645"	"dense cored vesicles"	"siGOLD"	96
+"1646"	"dense cored vesicles"	"glutamatergic"	7
+"1647"	"dense cored vesicles"	"serotonergic"	4
+"1648"	"dense cored vesicles"	"cholinergic"	7
+"1649"	"dense cored vesicles"	"adrenergic"	1
+"1650"	"dense cored vesicles"	"dopaminergic"	1
+"1651"	"asymmetric neuron"	"ectoderm"	15
+"1652"	"asymmetric neuron"	"episphere"	15
+"1653"	"asymmetric neuron"	"segment_0"	0
+"1654"	"asymmetric neuron"	"segment_1"	0
+"1655"	"asymmetric neuron"	"segment_2"	0
+"1656"	"asymmetric neuron"	"segment_3"	0
+"1657"	"asymmetric neuron"	"torso"	0
+"1658"	"asymmetric neuron"	"pygidium"	0
+"1659"	"asymmetric neuron"	"neurosecretory_plexus"	3
+"1660"	"asymmetric neuron"	"mushroom body"	0
+"1661"	"asymmetric neuron"	"Apical_organ"	3
+"1662"	"asymmetric neuron"	"Dorsal_sensory_organ"	4
+"1663"	"asymmetric neuron"	"Dorsolateral_sense_organs"	1
+"1664"	"asymmetric neuron"	"antenna"	1
+"1665"	"asymmetric neuron"	"eyespot"	0
+"1666"	"asymmetric neuron"	"mechanosensory_girdle"	5
+"1667"	"asymmetric neuron"	"nuchal organ"	0
+"1668"	"asymmetric neuron"	"Sensory neuron"	11
+"1669"	"asymmetric neuron"	"sensory_motor_neuron"	1
+"1670"	"asymmetric neuron"	"sensory_neurosecretory_neuron"	3
+"1671"	"asymmetric neuron"	"interneuron"	4
+"1672"	"asymmetric neuron"	"premotor"	3
+"1673"	"asymmetric neuron"	"motorneuron"	0
+"1674"	"asymmetric neuron"	"ciliomotors"	1
+"1675"	"asymmetric neuron"	"rhabdomeric photoreceptor"	0
+"1676"	"asymmetric neuron"	"ciliary photoreceptor"	0
+"1677"	"asymmetric neuron"	"sensory_cilia"	10
+"1678"	"asymmetric neuron"	"Uniciliated_penetrating_cell"	5
+"1679"	"asymmetric neuron"	"Biciliated_penetrating_cell"	0
+"1680"	"asymmetric neuron"	"Uniciliated_nonpenetrating_cell"	0
+"1681"	"asymmetric neuron"	"Biciliated_nonpenetrating_cell"	2
+"1682"	"asymmetric neuron"	"Multiciliated_penetrating_cell"	0
+"1683"	"asymmetric neuron"	"dense cored vesicles"	11
+"1684"	"asymmetric neuron"	"asymmetric neuron"	15
+"1685"	"asymmetric neuron"	"biaxonal"	0
+"1686"	"asymmetric neuron"	"decussating"	0
+"1687"	"asymmetric neuron"	"commissural"	0
+"1688"	"asymmetric neuron"	"ipsilateral"	7
+"1689"	"asymmetric neuron"	"contralateral"	4
+"1690"	"asymmetric neuron"	"pseudounipolar"	0
+"1691"	"asymmetric neuron"	"descending"	0
+"1692"	"asymmetric neuron"	"ascending"	0
+"1693"	"asymmetric neuron"	"global_reach"	0
+"1694"	"asymmetric neuron"	"head_trunk"	0
+"1695"	"asymmetric neuron"	"siGOLD"	3
+"1696"	"asymmetric neuron"	"glutamatergic"	0
+"1697"	"asymmetric neuron"	"serotonergic"	0
+"1698"	"asymmetric neuron"	"cholinergic"	0
+"1699"	"asymmetric neuron"	"adrenergic"	1
+"1700"	"asymmetric neuron"	"dopaminergic"	1
+"1701"	"biaxonal"	"ectoderm"	15
+"1702"	"biaxonal"	"episphere"	7
+"1703"	"biaxonal"	"segment_0"	0
+"1704"	"biaxonal"	"segment_1"	6
+"1705"	"biaxonal"	"segment_2"	2
+"1706"	"biaxonal"	"segment_3"	0
+"1707"	"biaxonal"	"torso"	8
+"1708"	"biaxonal"	"pygidium"	0
+"1709"	"biaxonal"	"neurosecretory_plexus"	0
+"1710"	"biaxonal"	"mushroom body"	0
+"1711"	"biaxonal"	"Apical_organ"	0
+"1712"	"biaxonal"	"Dorsal_sensory_organ"	0
+"1713"	"biaxonal"	"Dorsolateral_sense_organs"	0
+"1714"	"biaxonal"	"antenna"	0
+"1715"	"biaxonal"	"eyespot"	0
+"1716"	"biaxonal"	"mechanosensory_girdle"	6
+"1717"	"biaxonal"	"nuchal organ"	0
+"1718"	"biaxonal"	"Sensory neuron"	0
+"1719"	"biaxonal"	"sensory_motor_neuron"	0
+"1720"	"biaxonal"	"sensory_neurosecretory_neuron"	0
+"1721"	"biaxonal"	"interneuron"	6
+"1722"	"biaxonal"	"premotor"	2
+"1723"	"biaxonal"	"motorneuron"	9
+"1724"	"biaxonal"	"ciliomotors"	7
+"1725"	"biaxonal"	"rhabdomeric photoreceptor"	0
+"1726"	"biaxonal"	"ciliary photoreceptor"	0
+"1727"	"biaxonal"	"sensory_cilia"	0
+"1728"	"biaxonal"	"Uniciliated_penetrating_cell"	0
+"1729"	"biaxonal"	"Biciliated_penetrating_cell"	0
+"1730"	"biaxonal"	"Uniciliated_nonpenetrating_cell"	0
+"1731"	"biaxonal"	"Biciliated_nonpenetrating_cell"	0
+"1732"	"biaxonal"	"Multiciliated_penetrating_cell"	0
+"1733"	"biaxonal"	"dense cored vesicles"	11
+"1734"	"biaxonal"	"asymmetric neuron"	0
+"1735"	"biaxonal"	"biaxonal"	15
+"1736"	"biaxonal"	"decussating"	2
+"1737"	"biaxonal"	"commissural"	3
+"1738"	"biaxonal"	"ipsilateral"	0
+"1739"	"biaxonal"	"contralateral"	5
+"1740"	"biaxonal"	"pseudounipolar"	0
+"1741"	"biaxonal"	"descending"	7
+"1742"	"biaxonal"	"ascending"	3
+"1743"	"biaxonal"	"global_reach"	8
+"1744"	"biaxonal"	"head_trunk"	9
+"1745"	"biaxonal"	"siGOLD"	2
+"1746"	"biaxonal"	"glutamatergic"	0
+"1747"	"biaxonal"	"serotonergic"	2
+"1748"	"biaxonal"	"cholinergic"	3
+"1749"	"biaxonal"	"adrenergic"	0
+"1750"	"biaxonal"	"dopaminergic"	0
+"1751"	"decussating"	"ectoderm"	79
+"1752"	"decussating"	"episphere"	79
+"1753"	"decussating"	"segment_0"	0
+"1754"	"decussating"	"segment_1"	0
+"1755"	"decussating"	"segment_2"	0
+"1756"	"decussating"	"segment_3"	0
+"1757"	"decussating"	"torso"	0
+"1758"	"decussating"	"pygidium"	0
+"1759"	"decussating"	"neurosecretory_plexus"	0
+"1760"	"decussating"	"mushroom body"	5
+"1761"	"decussating"	"Apical_organ"	0
+"1762"	"decussating"	"Dorsal_sensory_organ"	0
+"1763"	"decussating"	"Dorsolateral_sense_organs"	0
+"1764"	"decussating"	"antenna"	0
+"1765"	"decussating"	"eyespot"	0
+"1766"	"decussating"	"mechanosensory_girdle"	2
+"1767"	"decussating"	"nuchal organ"	0
+"1768"	"decussating"	"Sensory neuron"	0
+"1769"	"decussating"	"sensory_motor_neuron"	0
+"1770"	"decussating"	"sensory_neurosecretory_neuron"	0
+"1771"	"decussating"	"interneuron"	65
+"1772"	"decussating"	"premotor"	16
+"1773"	"decussating"	"motorneuron"	14
+"1774"	"decussating"	"ciliomotors"	6
+"1775"	"decussating"	"rhabdomeric photoreceptor"	0
+"1776"	"decussating"	"ciliary photoreceptor"	0
+"1777"	"decussating"	"sensory_cilia"	0
+"1778"	"decussating"	"Uniciliated_penetrating_cell"	0
+"1779"	"decussating"	"Biciliated_penetrating_cell"	0
+"1780"	"decussating"	"Uniciliated_nonpenetrating_cell"	0
+"1781"	"decussating"	"Biciliated_nonpenetrating_cell"	0
+"1782"	"decussating"	"Multiciliated_penetrating_cell"	0
+"1783"	"decussating"	"dense cored vesicles"	21
+"1784"	"decussating"	"asymmetric neuron"	0
+"1785"	"decussating"	"biaxonal"	2
+"1786"	"decussating"	"decussating"	79
+"1787"	"decussating"	"commissural"	0
+"1788"	"decussating"	"ipsilateral"	0
+"1789"	"decussating"	"contralateral"	79
+"1790"	"decussating"	"pseudounipolar"	0
+"1791"	"decussating"	"descending"	0
+"1792"	"decussating"	"ascending"	0
+"1793"	"decussating"	"global_reach"	14
+"1794"	"decussating"	"head_trunk"	74
+"1795"	"decussating"	"siGOLD"	5
+"1796"	"decussating"	"glutamatergic"	0
+"1797"	"decussating"	"serotonergic"	2
+"1798"	"decussating"	"cholinergic"	6
+"1799"	"decussating"	"adrenergic"	0
+"1800"	"decussating"	"dopaminergic"	0
+"1801"	"commissural"	"ectoderm"	433
+"1802"	"commissural"	"episphere"	2
+"1803"	"commissural"	"segment_0"	0
+"1804"	"commissural"	"segment_1"	121
+"1805"	"commissural"	"segment_2"	184
+"1806"	"commissural"	"segment_3"	115
+"1807"	"commissural"	"torso"	431
+"1808"	"commissural"	"pygidium"	11
+"1809"	"commissural"	"neurosecretory_plexus"	0
+"1810"	"commissural"	"mushroom body"	0
+"1811"	"commissural"	"Apical_organ"	0
+"1812"	"commissural"	"Dorsal_sensory_organ"	1
+"1813"	"commissural"	"Dorsolateral_sense_organs"	0
+"1814"	"commissural"	"antenna"	0
+"1815"	"commissural"	"eyespot"	0
+"1816"	"commissural"	"mechanosensory_girdle"	3
+"1817"	"commissural"	"nuchal organ"	0
+"1818"	"commissural"	"Sensory neuron"	3
+"1819"	"commissural"	"sensory_motor_neuron"	0
+"1820"	"commissural"	"sensory_neurosecretory_neuron"	0
+"1821"	"commissural"	"interneuron"	247
+"1822"	"commissural"	"premotor"	42
+"1823"	"commissural"	"motorneuron"	117
+"1824"	"commissural"	"ciliomotors"	1
+"1825"	"commissural"	"rhabdomeric photoreceptor"	0
+"1826"	"commissural"	"ciliary photoreceptor"	0
+"1827"	"commissural"	"sensory_cilia"	3
+"1828"	"commissural"	"Uniciliated_penetrating_cell"	3
+"1829"	"commissural"	"Biciliated_penetrating_cell"	0
+"1830"	"commissural"	"Uniciliated_nonpenetrating_cell"	0
+"1831"	"commissural"	"Biciliated_nonpenetrating_cell"	0
+"1832"	"commissural"	"Multiciliated_penetrating_cell"	0
+"1833"	"commissural"	"dense cored vesicles"	44
+"1834"	"commissural"	"asymmetric neuron"	0
+"1835"	"commissural"	"biaxonal"	3
+"1836"	"commissural"	"decussating"	0
+"1837"	"commissural"	"commissural"	433
+"1838"	"commissural"	"ipsilateral"	4
+"1839"	"commissural"	"contralateral"	433
+"1840"	"commissural"	"pseudounipolar"	39
+"1841"	"commissural"	"descending"	48
+"1842"	"commissural"	"ascending"	125
+"1843"	"commissural"	"global_reach"	2
+"1844"	"commissural"	"head_trunk"	20
+"1845"	"commissural"	"siGOLD"	24
+"1846"	"commissural"	"glutamatergic"	3
+"1847"	"commissural"	"serotonergic"	1
+"1848"	"commissural"	"cholinergic"	0
+"1849"	"commissural"	"adrenergic"	0
+"1850"	"commissural"	"dopaminergic"	0
+"1851"	"ipsilateral"	"ectoderm"	980
+"1852"	"ipsilateral"	"episphere"	284
+"1853"	"ipsilateral"	"segment_0"	83
+"1854"	"ipsilateral"	"segment_1"	149
+"1855"	"ipsilateral"	"segment_2"	184
+"1856"	"ipsilateral"	"segment_3"	191
+"1857"	"ipsilateral"	"torso"	696
+"1858"	"ipsilateral"	"pygidium"	86
+"1859"	"ipsilateral"	"neurosecretory_plexus"	9
+"1860"	"ipsilateral"	"mushroom body"	18
+"1861"	"ipsilateral"	"Apical_organ"	8
+"1862"	"ipsilateral"	"Dorsal_sensory_organ"	21
+"1863"	"ipsilateral"	"Dorsolateral_sense_organs"	24
+"1864"	"ipsilateral"	"antenna"	86
+"1865"	"ipsilateral"	"eyespot"	5
+"1866"	"ipsilateral"	"mechanosensory_girdle"	297
+"1867"	"ipsilateral"	"nuchal organ"	3
+"1868"	"ipsilateral"	"Sensory neuron"	619
+"1869"	"ipsilateral"	"sensory_motor_neuron"	9
+"1870"	"ipsilateral"	"sensory_neurosecretory_neuron"	9
+"1871"	"ipsilateral"	"interneuron"	256
+"1872"	"ipsilateral"	"premotor"	77
+"1873"	"ipsilateral"	"motorneuron"	71
+"1874"	"ipsilateral"	"ciliomotors"	0
+"1875"	"ipsilateral"	"rhabdomeric photoreceptor"	3
+"1876"	"ipsilateral"	"ciliary photoreceptor"	0
+"1877"	"ipsilateral"	"sensory_cilia"	291
+"1878"	"ipsilateral"	"Uniciliated_penetrating_cell"	175
+"1879"	"ipsilateral"	"Biciliated_penetrating_cell"	52
+"1880"	"ipsilateral"	"Uniciliated_nonpenetrating_cell"	43
+"1881"	"ipsilateral"	"Biciliated_nonpenetrating_cell"	8
+"1882"	"ipsilateral"	"Multiciliated_penetrating_cell"	6
+"1883"	"ipsilateral"	"dense cored vesicles"	133
+"1884"	"ipsilateral"	"asymmetric neuron"	7
+"1885"	"ipsilateral"	"biaxonal"	0
+"1886"	"ipsilateral"	"decussating"	0
+"1887"	"ipsilateral"	"commissural"	4
+"1888"	"ipsilateral"	"ipsilateral"	980
+"1889"	"ipsilateral"	"contralateral"	7
+"1890"	"ipsilateral"	"pseudounipolar"	97
+"1891"	"ipsilateral"	"descending"	127
+"1892"	"ipsilateral"	"ascending"	150
+"1893"	"ipsilateral"	"global_reach"	13
+"1894"	"ipsilateral"	"head_trunk"	82
+"1895"	"ipsilateral"	"siGOLD"	35
+"1896"	"ipsilateral"	"glutamatergic"	48
+"1897"	"ipsilateral"	"serotonergic"	0
+"1898"	"ipsilateral"	"cholinergic"	9
+"1899"	"ipsilateral"	"adrenergic"	0
+"1900"	"ipsilateral"	"dopaminergic"	0
+"1901"	"contralateral"	"ectoderm"	702
+"1902"	"contralateral"	"episphere"	271
+"1903"	"contralateral"	"segment_0"	0
+"1904"	"contralateral"	"segment_1"	121
+"1905"	"contralateral"	"segment_2"	184
+"1906"	"contralateral"	"segment_3"	115
+"1907"	"contralateral"	"torso"	431
+"1908"	"contralateral"	"pygidium"	11
+"1909"	"contralateral"	"neurosecretory_plexus"	61
+"1910"	"contralateral"	"mushroom body"	25
+"1911"	"contralateral"	"Apical_organ"	28
+"1912"	"contralateral"	"Dorsal_sensory_organ"	11
+"1913"	"contralateral"	"Dorsolateral_sense_organs"	73
+"1914"	"contralateral"	"antenna"	0
+"1915"	"contralateral"	"eyespot"	2
+"1916"	"contralateral"	"mechanosensory_girdle"	8
+"1917"	"contralateral"	"nuchal organ"	34
+"1918"	"contralateral"	"Sensory neuron"	192
+"1919"	"contralateral"	"sensory_motor_neuron"	0
+"1920"	"contralateral"	"sensory_neurosecretory_neuron"	61
+"1921"	"contralateral"	"interneuron"	313
+"1922"	"contralateral"	"premotor"	58
+"1923"	"contralateral"	"motorneuron"	131
+"1924"	"contralateral"	"ciliomotors"	7
+"1925"	"contralateral"	"rhabdomeric photoreceptor"	14
+"1926"	"contralateral"	"ciliary photoreceptor"	4
+"1927"	"contralateral"	"sensory_cilia"	160
+"1928"	"contralateral"	"Uniciliated_penetrating_cell"	6
+"1929"	"contralateral"	"Biciliated_penetrating_cell"	0
+"1930"	"contralateral"	"Uniciliated_nonpenetrating_cell"	132
+"1931"	"contralateral"	"Biciliated_nonpenetrating_cell"	4
+"1932"	"contralateral"	"Multiciliated_penetrating_cell"	0
+"1933"	"contralateral"	"dense cored vesicles"	198
+"1934"	"contralateral"	"asymmetric neuron"	4
+"1935"	"contralateral"	"biaxonal"	5
+"1936"	"contralateral"	"decussating"	79
+"1937"	"contralateral"	"commissural"	433
+"1938"	"contralateral"	"ipsilateral"	7
+"1939"	"contralateral"	"contralateral"	702
+"1940"	"contralateral"	"pseudounipolar"	47
+"1941"	"contralateral"	"descending"	50
+"1942"	"contralateral"	"ascending"	125
+"1943"	"contralateral"	"global_reach"	16
+"1944"	"contralateral"	"head_trunk"	96
+"1945"	"contralateral"	"siGOLD"	51
+"1946"	"contralateral"	"glutamatergic"	17
+"1947"	"contralateral"	"serotonergic"	3
+"1948"	"contralateral"	"cholinergic"	6
+"1949"	"contralateral"	"adrenergic"	0
+"1950"	"contralateral"	"dopaminergic"	0
+"1951"	"pseudounipolar"	"ectoderm"	176
+"1952"	"pseudounipolar"	"episphere"	11
+"1953"	"pseudounipolar"	"segment_0"	3
+"1954"	"pseudounipolar"	"segment_1"	51
+"1955"	"pseudounipolar"	"segment_2"	69
+"1956"	"pseudounipolar"	"segment_3"	42
+"1957"	"pseudounipolar"	"torso"	165
+"1958"	"pseudounipolar"	"pygidium"	0
+"1959"	"pseudounipolar"	"neurosecretory_plexus"	0
+"1960"	"pseudounipolar"	"mushroom body"	0
+"1961"	"pseudounipolar"	"Apical_organ"	0
+"1962"	"pseudounipolar"	"Dorsal_sensory_organ"	8
+"1963"	"pseudounipolar"	"Dorsolateral_sense_organs"	0
+"1964"	"pseudounipolar"	"antenna"	0
+"1965"	"pseudounipolar"	"eyespot"	0
+"1966"	"pseudounipolar"	"mechanosensory_girdle"	96
+"1967"	"pseudounipolar"	"nuchal organ"	0
+"1968"	"pseudounipolar"	"Sensory neuron"	13
+"1969"	"pseudounipolar"	"sensory_motor_neuron"	0
+"1970"	"pseudounipolar"	"sensory_neurosecretory_neuron"	0
+"1971"	"pseudounipolar"	"interneuron"	140
+"1972"	"pseudounipolar"	"premotor"	51
+"1973"	"pseudounipolar"	"motorneuron"	18
+"1974"	"pseudounipolar"	"ciliomotors"	0
+"1975"	"pseudounipolar"	"rhabdomeric photoreceptor"	0
+"1976"	"pseudounipolar"	"ciliary photoreceptor"	0
+"1977"	"pseudounipolar"	"sensory_cilia"	5
+"1978"	"pseudounipolar"	"Uniciliated_penetrating_cell"	3
+"1979"	"pseudounipolar"	"Biciliated_penetrating_cell"	1
+"1980"	"pseudounipolar"	"Uniciliated_nonpenetrating_cell"	1
+"1981"	"pseudounipolar"	"Biciliated_nonpenetrating_cell"	0
+"1982"	"pseudounipolar"	"Multiciliated_penetrating_cell"	0
+"1983"	"pseudounipolar"	"dense cored vesicles"	50
+"1984"	"pseudounipolar"	"asymmetric neuron"	0
+"1985"	"pseudounipolar"	"biaxonal"	0
+"1986"	"pseudounipolar"	"decussating"	0
+"1987"	"pseudounipolar"	"commissural"	39
+"1988"	"pseudounipolar"	"ipsilateral"	97
+"1989"	"pseudounipolar"	"contralateral"	47
+"1990"	"pseudounipolar"	"pseudounipolar"	176
+"1991"	"pseudounipolar"	"descending"	4
+"1992"	"pseudounipolar"	"ascending"	8
+"1993"	"pseudounipolar"	"global_reach"	6
+"1994"	"pseudounipolar"	"head_trunk"	16
+"1995"	"pseudounipolar"	"siGOLD"	15
+"1996"	"pseudounipolar"	"glutamatergic"	0
+"1997"	"pseudounipolar"	"serotonergic"	0
+"1998"	"pseudounipolar"	"cholinergic"	0
+"1999"	"pseudounipolar"	"adrenergic"	0
+"2000"	"pseudounipolar"	"dopaminergic"	0
+"2001"	"descending"	"ectoderm"	229
+"2002"	"descending"	"episphere"	67
+"2003"	"descending"	"segment_0"	2
+"2004"	"descending"	"segment_1"	73
+"2005"	"descending"	"segment_2"	49
+"2006"	"descending"	"segment_3"	38
+"2007"	"descending"	"torso"	162
+"2008"	"descending"	"pygidium"	0
+"2009"	"descending"	"neurosecretory_plexus"	0
+"2010"	"descending"	"mushroom body"	17
+"2011"	"descending"	"Apical_organ"	0
+"2012"	"descending"	"Dorsal_sensory_organ"	8
+"2013"	"descending"	"Dorsolateral_sense_organs"	0
+"2014"	"descending"	"antenna"	10
+"2015"	"descending"	"eyespot"	0
+"2016"	"descending"	"mechanosensory_girdle"	56
+"2017"	"descending"	"nuchal organ"	0
+"2018"	"descending"	"Sensory neuron"	48
+"2019"	"descending"	"sensory_motor_neuron"	0
+"2020"	"descending"	"sensory_neurosecretory_neuron"	0
+"2021"	"descending"	"interneuron"	134
+"2022"	"descending"	"premotor"	38
+"2023"	"descending"	"motorneuron"	30
+"2024"	"descending"	"ciliomotors"	3
+"2025"	"descending"	"rhabdomeric photoreceptor"	0
+"2026"	"descending"	"ciliary photoreceptor"	0
+"2027"	"descending"	"sensory_cilia"	40
+"2028"	"descending"	"Uniciliated_penetrating_cell"	38
+"2029"	"descending"	"Biciliated_penetrating_cell"	1
+"2030"	"descending"	"Uniciliated_nonpenetrating_cell"	1
+"2031"	"descending"	"Biciliated_nonpenetrating_cell"	0
+"2032"	"descending"	"Multiciliated_penetrating_cell"	0
+"2033"	"descending"	"dense cored vesicles"	49
+"2034"	"descending"	"asymmetric neuron"	0
+"2035"	"descending"	"biaxonal"	7
+"2036"	"descending"	"decussating"	0
+"2037"	"descending"	"commissural"	48
+"2038"	"descending"	"ipsilateral"	127
+"2039"	"descending"	"contralateral"	50
+"2040"	"descending"	"pseudounipolar"	4
+"2041"	"descending"	"descending"	229
+"2042"	"descending"	"ascending"	3
+"2043"	"descending"	"global_reach"	10
+"2044"	"descending"	"head_trunk"	67
+"2045"	"descending"	"siGOLD"	17
+"2046"	"descending"	"glutamatergic"	25
+"2047"	"descending"	"serotonergic"	1
+"2048"	"descending"	"cholinergic"	2
+"2049"	"descending"	"adrenergic"	0
+"2050"	"descending"	"dopaminergic"	0
+"2051"	"ascending"	"ectoderm"	303
+"2052"	"ascending"	"episphere"	0
+"2053"	"ascending"	"segment_0"	10
+"2054"	"ascending"	"segment_1"	67
+"2055"	"ascending"	"segment_2"	104
+"2056"	"ascending"	"segment_3"	89
+"2057"	"ascending"	"torso"	303
+"2058"	"ascending"	"pygidium"	31
+"2059"	"ascending"	"neurosecretory_plexus"	0
+"2060"	"ascending"	"mushroom body"	0
+"2061"	"ascending"	"Apical_organ"	0
+"2062"	"ascending"	"Dorsal_sensory_organ"	0
+"2063"	"ascending"	"Dorsolateral_sense_organs"	0
+"2064"	"ascending"	"antenna"	0
+"2065"	"ascending"	"eyespot"	0
+"2066"	"ascending"	"mechanosensory_girdle"	31
+"2067"	"ascending"	"nuchal organ"	0
+"2068"	"ascending"	"Sensory neuron"	31
+"2069"	"ascending"	"sensory_motor_neuron"	1
+"2070"	"ascending"	"sensory_neurosecretory_neuron"	0
+"2071"	"ascending"	"interneuron"	225
+"2072"	"ascending"	"premotor"	50
+"2073"	"ascending"	"motorneuron"	28
+"2074"	"ascending"	"ciliomotors"	2
+"2075"	"ascending"	"rhabdomeric photoreceptor"	0
+"2076"	"ascending"	"ciliary photoreceptor"	0
+"2077"	"ascending"	"sensory_cilia"	16
+"2078"	"ascending"	"Uniciliated_penetrating_cell"	4
+"2079"	"ascending"	"Biciliated_penetrating_cell"	5
+"2080"	"ascending"	"Uniciliated_nonpenetrating_cell"	7
+"2081"	"ascending"	"Biciliated_nonpenetrating_cell"	0
+"2082"	"ascending"	"Multiciliated_penetrating_cell"	0
+"2083"	"ascending"	"dense cored vesicles"	52
+"2084"	"ascending"	"asymmetric neuron"	0
+"2085"	"ascending"	"biaxonal"	3
+"2086"	"ascending"	"decussating"	0
+"2087"	"ascending"	"commissural"	125
+"2088"	"ascending"	"ipsilateral"	150
+"2089"	"ascending"	"contralateral"	125
+"2090"	"ascending"	"pseudounipolar"	8
+"2091"	"ascending"	"descending"	3
+"2092"	"ascending"	"ascending"	303
+"2093"	"ascending"	"global_reach"	12
+"2094"	"ascending"	"head_trunk"	54
+"2095"	"ascending"	"siGOLD"	32
+"2096"	"ascending"	"glutamatergic"	0
+"2097"	"ascending"	"serotonergic"	0
+"2098"	"ascending"	"cholinergic"	1
+"2099"	"ascending"	"adrenergic"	0
+"2100"	"ascending"	"dopaminergic"	0
+"2101"	"global_reach"	"ectoderm"	40
+"2102"	"global_reach"	"episphere"	18
+"2103"	"global_reach"	"segment_0"	0
+"2104"	"global_reach"	"segment_1"	12
+"2105"	"global_reach"	"segment_2"	0
+"2106"	"global_reach"	"segment_3"	0
+"2107"	"global_reach"	"torso"	22
+"2108"	"global_reach"	"pygidium"	10
+"2109"	"global_reach"	"neurosecretory_plexus"	0
+"2110"	"global_reach"	"mushroom body"	2
+"2111"	"global_reach"	"Apical_organ"	0
+"2112"	"global_reach"	"Dorsal_sensory_organ"	0
+"2113"	"global_reach"	"Dorsolateral_sense_organs"	0
+"2114"	"global_reach"	"antenna"	0
+"2115"	"global_reach"	"eyespot"	0
+"2116"	"global_reach"	"mechanosensory_girdle"	20
+"2117"	"global_reach"	"nuchal organ"	0
+"2118"	"global_reach"	"Sensory neuron"	3
+"2119"	"global_reach"	"sensory_motor_neuron"	1
+"2120"	"global_reach"	"sensory_neurosecretory_neuron"	0
+"2121"	"global_reach"	"interneuron"	16
+"2122"	"global_reach"	"premotor"	10
+"2123"	"global_reach"	"motorneuron"	21
+"2124"	"global_reach"	"ciliomotors"	11
+"2125"	"global_reach"	"rhabdomeric photoreceptor"	0
+"2126"	"global_reach"	"ciliary photoreceptor"	0
+"2127"	"global_reach"	"sensory_cilia"	2
+"2128"	"global_reach"	"Uniciliated_penetrating_cell"	0
+"2129"	"global_reach"	"Biciliated_penetrating_cell"	1
+"2130"	"global_reach"	"Uniciliated_nonpenetrating_cell"	1
+"2131"	"global_reach"	"Biciliated_nonpenetrating_cell"	0
+"2132"	"global_reach"	"Multiciliated_penetrating_cell"	0
+"2133"	"global_reach"	"dense cored vesicles"	29
+"2134"	"global_reach"	"asymmetric neuron"	0
+"2135"	"global_reach"	"biaxonal"	8
+"2136"	"global_reach"	"decussating"	14
+"2137"	"global_reach"	"commissural"	2
+"2138"	"global_reach"	"ipsilateral"	13
+"2139"	"global_reach"	"contralateral"	16
+"2140"	"global_reach"	"pseudounipolar"	6
+"2141"	"global_reach"	"descending"	10
+"2142"	"global_reach"	"ascending"	12
+"2143"	"global_reach"	"global_reach"	40
+"2144"	"global_reach"	"head_trunk"	39
+"2145"	"global_reach"	"siGOLD"	10
+"2146"	"global_reach"	"glutamatergic"	0
+"2147"	"global_reach"	"serotonergic"	4
+"2148"	"global_reach"	"cholinergic"	8
+"2149"	"global_reach"	"adrenergic"	0
+"2150"	"global_reach"	"dopaminergic"	0
+"2151"	"head_trunk"	"ectoderm"	214
+"2152"	"head_trunk"	"episphere"	138
+"2153"	"head_trunk"	"segment_0"	7
+"2154"	"head_trunk"	"segment_1"	48
+"2155"	"head_trunk"	"segment_2"	4
+"2156"	"head_trunk"	"segment_3"	5
+"2157"	"head_trunk"	"torso"	76
+"2158"	"head_trunk"	"pygidium"	10
+"2159"	"head_trunk"	"neurosecretory_plexus"	0
+"2160"	"head_trunk"	"mushroom body"	17
+"2161"	"head_trunk"	"Apical_organ"	0
+"2162"	"head_trunk"	"Dorsal_sensory_organ"	8
+"2163"	"head_trunk"	"Dorsolateral_sense_organs"	0
+"2164"	"head_trunk"	"antenna"	10
+"2165"	"head_trunk"	"eyespot"	0
+"2166"	"head_trunk"	"mechanosensory_girdle"	62
+"2167"	"head_trunk"	"nuchal organ"	0
+"2168"	"head_trunk"	"Sensory neuron"	44
+"2169"	"head_trunk"	"sensory_motor_neuron"	1
+"2170"	"head_trunk"	"sensory_neurosecretory_neuron"	0
+"2171"	"head_trunk"	"interneuron"	137
+"2172"	"head_trunk"	"premotor"	42
+"2173"	"head_trunk"	"motorneuron"	27
+"2174"	"head_trunk"	"ciliomotors"	11
+"2175"	"head_trunk"	"rhabdomeric photoreceptor"	0
+"2176"	"head_trunk"	"ciliary photoreceptor"	0
+"2177"	"head_trunk"	"sensory_cilia"	33
+"2178"	"head_trunk"	"Uniciliated_penetrating_cell"	30
+"2179"	"head_trunk"	"Biciliated_penetrating_cell"	1
+"2180"	"head_trunk"	"Uniciliated_nonpenetrating_cell"	2
+"2181"	"head_trunk"	"Biciliated_nonpenetrating_cell"	0
+"2182"	"head_trunk"	"Multiciliated_penetrating_cell"	0
+"2183"	"head_trunk"	"dense cored vesicles"	78
+"2184"	"head_trunk"	"asymmetric neuron"	0
+"2185"	"head_trunk"	"biaxonal"	9
+"2186"	"head_trunk"	"decussating"	74
+"2187"	"head_trunk"	"commissural"	20
+"2188"	"head_trunk"	"ipsilateral"	82
+"2189"	"head_trunk"	"contralateral"	96
+"2190"	"head_trunk"	"pseudounipolar"	16
+"2191"	"head_trunk"	"descending"	67
+"2192"	"head_trunk"	"ascending"	54
+"2193"	"head_trunk"	"global_reach"	39
+"2194"	"head_trunk"	"head_trunk"	214
+"2195"	"head_trunk"	"siGOLD"	25
+"2196"	"head_trunk"	"glutamatergic"	25
+"2197"	"head_trunk"	"serotonergic"	4
+"2198"	"head_trunk"	"cholinergic"	11
+"2199"	"head_trunk"	"adrenergic"	0
+"2200"	"head_trunk"	"dopaminergic"	0
+"2201"	"siGOLD"	"ectoderm"	105
+"2202"	"siGOLD"	"episphere"	43
+"2203"	"siGOLD"	"segment_0"	0
+"2204"	"siGOLD"	"segment_1"	20
+"2205"	"siGOLD"	"segment_2"	23
+"2206"	"siGOLD"	"segment_3"	9
+"2207"	"siGOLD"	"torso"	62
+"2208"	"siGOLD"	"pygidium"	10
+"2209"	"siGOLD"	"neurosecretory_plexus"	6
+"2210"	"siGOLD"	"mushroom body"	4
+"2211"	"siGOLD"	"Apical_organ"	4
+"2212"	"siGOLD"	"Dorsal_sensory_organ"	0
+"2213"	"siGOLD"	"Dorsolateral_sense_organs"	5
+"2214"	"siGOLD"	"antenna"	1
+"2215"	"siGOLD"	"eyespot"	0
+"2216"	"siGOLD"	"mechanosensory_girdle"	24
+"2217"	"siGOLD"	"nuchal organ"	13
+"2218"	"siGOLD"	"Sensory neuron"	33
+"2219"	"siGOLD"	"sensory_motor_neuron"	2
+"2220"	"siGOLD"	"sensory_neurosecretory_neuron"	4
+"2221"	"siGOLD"	"interneuron"	59
+"2222"	"siGOLD"	"premotor"	30
+"2223"	"siGOLD"	"motorneuron"	4
+"2224"	"siGOLD"	"ciliomotors"	2
+"2225"	"siGOLD"	"rhabdomeric photoreceptor"	0
+"2226"	"siGOLD"	"ciliary photoreceptor"	0
+"2227"	"siGOLD"	"sensory_cilia"	30
+"2228"	"siGOLD"	"Uniciliated_penetrating_cell"	2
+"2229"	"siGOLD"	"Biciliated_penetrating_cell"	1
+"2230"	"siGOLD"	"Uniciliated_nonpenetrating_cell"	25
+"2231"	"siGOLD"	"Biciliated_nonpenetrating_cell"	1
+"2232"	"siGOLD"	"Multiciliated_penetrating_cell"	0
+"2233"	"siGOLD"	"dense cored vesicles"	96
+"2234"	"siGOLD"	"asymmetric neuron"	3
+"2235"	"siGOLD"	"biaxonal"	2
+"2236"	"siGOLD"	"decussating"	5
+"2237"	"siGOLD"	"commissural"	24
+"2238"	"siGOLD"	"ipsilateral"	35
+"2239"	"siGOLD"	"contralateral"	51
+"2240"	"siGOLD"	"pseudounipolar"	15
+"2241"	"siGOLD"	"descending"	17
+"2242"	"siGOLD"	"ascending"	32
+"2243"	"siGOLD"	"global_reach"	10
+"2244"	"siGOLD"	"head_trunk"	25
+"2245"	"siGOLD"	"siGOLD"	105
+"2246"	"siGOLD"	"glutamatergic"	1
+"2247"	"siGOLD"	"serotonergic"	0
+"2248"	"siGOLD"	"cholinergic"	1
+"2249"	"siGOLD"	"adrenergic"	0
+"2250"	"siGOLD"	"dopaminergic"	1
+"2251"	"glutamatergic"	"ectoderm"	69
+"2252"	"glutamatergic"	"episphere"	48
+"2253"	"glutamatergic"	"segment_0"	4
+"2254"	"glutamatergic"	"segment_1"	3
+"2255"	"glutamatergic"	"segment_2"	2
+"2256"	"glutamatergic"	"segment_3"	2
+"2257"	"glutamatergic"	"torso"	21
+"2258"	"glutamatergic"	"pygidium"	10
+"2259"	"glutamatergic"	"neurosecretory_plexus"	0
+"2260"	"glutamatergic"	"mushroom body"	0
+"2261"	"glutamatergic"	"Apical_organ"	0
+"2262"	"glutamatergic"	"Dorsal_sensory_organ"	8
+"2263"	"glutamatergic"	"Dorsolateral_sense_organs"	0
+"2264"	"glutamatergic"	"antenna"	10
+"2265"	"glutamatergic"	"eyespot"	0
+"2266"	"glutamatergic"	"mechanosensory_girdle"	45
+"2267"	"glutamatergic"	"nuchal organ"	0
+"2268"	"glutamatergic"	"Sensory neuron"	69
+"2269"	"glutamatergic"	"sensory_motor_neuron"	0
+"2270"	"glutamatergic"	"sensory_neurosecretory_neuron"	0
+"2271"	"glutamatergic"	"interneuron"	0
+"2272"	"glutamatergic"	"premotor"	0
+"2273"	"glutamatergic"	"motorneuron"	0
+"2274"	"glutamatergic"	"ciliomotors"	0
+"2275"	"glutamatergic"	"rhabdomeric photoreceptor"	24
+"2276"	"glutamatergic"	"ciliary photoreceptor"	0
+"2277"	"glutamatergic"	"sensory_cilia"	45
+"2278"	"glutamatergic"	"Uniciliated_penetrating_cell"	45
+"2279"	"glutamatergic"	"Biciliated_penetrating_cell"	0
+"2280"	"glutamatergic"	"Uniciliated_nonpenetrating_cell"	0
+"2281"	"glutamatergic"	"Biciliated_nonpenetrating_cell"	0
+"2282"	"glutamatergic"	"Multiciliated_penetrating_cell"	0
+"2283"	"glutamatergic"	"dense cored vesicles"	7
+"2284"	"glutamatergic"	"asymmetric neuron"	0
+"2285"	"glutamatergic"	"biaxonal"	0
+"2286"	"glutamatergic"	"decussating"	0
+"2287"	"glutamatergic"	"commissural"	3
+"2288"	"glutamatergic"	"ipsilateral"	48
+"2289"	"glutamatergic"	"contralateral"	17
+"2290"	"glutamatergic"	"pseudounipolar"	0
+"2291"	"glutamatergic"	"descending"	25
+"2292"	"glutamatergic"	"ascending"	0
+"2293"	"glutamatergic"	"global_reach"	0
+"2294"	"glutamatergic"	"head_trunk"	25
+"2295"	"glutamatergic"	"siGOLD"	1
+"2296"	"glutamatergic"	"glutamatergic"	69
+"2297"	"glutamatergic"	"serotonergic"	0
+"2298"	"glutamatergic"	"cholinergic"	0
+"2299"	"glutamatergic"	"adrenergic"	0
+"2300"	"glutamatergic"	"dopaminergic"	0
+"2301"	"serotonergic"	"ectoderm"	4
+"2302"	"serotonergic"	"episphere"	2
+"2303"	"serotonergic"	"segment_0"	0
+"2304"	"serotonergic"	"segment_1"	2
+"2305"	"serotonergic"	"segment_2"	0
+"2306"	"serotonergic"	"segment_3"	0
+"2307"	"serotonergic"	"torso"	2
+"2308"	"serotonergic"	"pygidium"	0
+"2309"	"serotonergic"	"neurosecretory_plexus"	0
+"2310"	"serotonergic"	"mushroom body"	0
+"2311"	"serotonergic"	"Apical_organ"	0
+"2312"	"serotonergic"	"Dorsal_sensory_organ"	0
+"2313"	"serotonergic"	"Dorsolateral_sense_organs"	0
+"2314"	"serotonergic"	"antenna"	0
+"2315"	"serotonergic"	"eyespot"	0
+"2316"	"serotonergic"	"mechanosensory_girdle"	0
+"2317"	"serotonergic"	"nuchal organ"	0
+"2318"	"serotonergic"	"Sensory neuron"	0
+"2319"	"serotonergic"	"sensory_motor_neuron"	0
+"2320"	"serotonergic"	"sensory_neurosecretory_neuron"	0
+"2321"	"serotonergic"	"interneuron"	0
+"2322"	"serotonergic"	"premotor"	0
+"2323"	"serotonergic"	"motorneuron"	4
+"2324"	"serotonergic"	"ciliomotors"	4
+"2325"	"serotonergic"	"rhabdomeric photoreceptor"	0
+"2326"	"serotonergic"	"ciliary photoreceptor"	0
+"2327"	"serotonergic"	"sensory_cilia"	0
+"2328"	"serotonergic"	"Uniciliated_penetrating_cell"	0
+"2329"	"serotonergic"	"Biciliated_penetrating_cell"	0
+"2330"	"serotonergic"	"Uniciliated_nonpenetrating_cell"	0
+"2331"	"serotonergic"	"Biciliated_nonpenetrating_cell"	0
+"2332"	"serotonergic"	"Multiciliated_penetrating_cell"	0
+"2333"	"serotonergic"	"dense cored vesicles"	4
+"2334"	"serotonergic"	"asymmetric neuron"	0
+"2335"	"serotonergic"	"biaxonal"	2
+"2336"	"serotonergic"	"decussating"	2
+"2337"	"serotonergic"	"commissural"	1
+"2338"	"serotonergic"	"ipsilateral"	0
+"2339"	"serotonergic"	"contralateral"	3
+"2340"	"serotonergic"	"pseudounipolar"	0
+"2341"	"serotonergic"	"descending"	1
+"2342"	"serotonergic"	"ascending"	0
+"2343"	"serotonergic"	"global_reach"	4
+"2344"	"serotonergic"	"head_trunk"	4
+"2345"	"serotonergic"	"siGOLD"	0
+"2346"	"serotonergic"	"glutamatergic"	0
+"2347"	"serotonergic"	"serotonergic"	4
+"2348"	"serotonergic"	"cholinergic"	0
+"2349"	"serotonergic"	"adrenergic"	0
+"2350"	"serotonergic"	"dopaminergic"	0
+"2351"	"cholinergic"	"ectoderm"	18
+"2352"	"cholinergic"	"episphere"	13
+"2353"	"cholinergic"	"segment_0"	0
+"2354"	"cholinergic"	"segment_1"	5
+"2355"	"cholinergic"	"segment_2"	0
+"2356"	"cholinergic"	"segment_3"	0
+"2357"	"cholinergic"	"torso"	5
+"2358"	"cholinergic"	"pygidium"	0
+"2359"	"cholinergic"	"neurosecretory_plexus"	0
+"2360"	"cholinergic"	"mushroom body"	0
+"2361"	"cholinergic"	"Apical_organ"	0
+"2362"	"cholinergic"	"Dorsal_sensory_organ"	0
+"2363"	"cholinergic"	"Dorsolateral_sense_organs"	2
+"2364"	"cholinergic"	"antenna"	0
+"2365"	"cholinergic"	"eyespot"	2
+"2366"	"cholinergic"	"mechanosensory_girdle"	2
+"2367"	"cholinergic"	"nuchal organ"	0
+"2368"	"cholinergic"	"Sensory neuron"	9
+"2369"	"cholinergic"	"sensory_motor_neuron"	2
+"2370"	"cholinergic"	"sensory_neurosecretory_neuron"	0
+"2371"	"cholinergic"	"interneuron"	0
+"2372"	"cholinergic"	"premotor"	0
+"2373"	"cholinergic"	"motorneuron"	9
+"2374"	"cholinergic"	"ciliomotors"	5
+"2375"	"cholinergic"	"rhabdomeric photoreceptor"	0
+"2376"	"cholinergic"	"ciliary photoreceptor"	0
+"2377"	"cholinergic"	"sensory_cilia"	7
+"2378"	"cholinergic"	"Uniciliated_penetrating_cell"	7
+"2379"	"cholinergic"	"Biciliated_penetrating_cell"	0
+"2380"	"cholinergic"	"Uniciliated_nonpenetrating_cell"	0
+"2381"	"cholinergic"	"Biciliated_nonpenetrating_cell"	0
+"2382"	"cholinergic"	"Multiciliated_penetrating_cell"	0
+"2383"	"cholinergic"	"dense cored vesicles"	7
+"2384"	"cholinergic"	"asymmetric neuron"	0
+"2385"	"cholinergic"	"biaxonal"	3
+"2386"	"cholinergic"	"decussating"	6
+"2387"	"cholinergic"	"commissural"	0
+"2388"	"cholinergic"	"ipsilateral"	9
+"2389"	"cholinergic"	"contralateral"	6
+"2390"	"cholinergic"	"pseudounipolar"	0
+"2391"	"cholinergic"	"descending"	2
+"2392"	"cholinergic"	"ascending"	1
+"2393"	"cholinergic"	"global_reach"	8
+"2394"	"cholinergic"	"head_trunk"	11
+"2395"	"cholinergic"	"siGOLD"	1
+"2396"	"cholinergic"	"glutamatergic"	0
+"2397"	"cholinergic"	"serotonergic"	0
+"2398"	"cholinergic"	"cholinergic"	18
+"2399"	"cholinergic"	"adrenergic"	0
+"2400"	"cholinergic"	"dopaminergic"	0
+"2401"	"adrenergic"	"ectoderm"	1
+"2402"	"adrenergic"	"episphere"	1
+"2403"	"adrenergic"	"segment_0"	0
+"2404"	"adrenergic"	"segment_1"	0
+"2405"	"adrenergic"	"segment_2"	0
+"2406"	"adrenergic"	"segment_3"	0
+"2407"	"adrenergic"	"torso"	0
+"2408"	"adrenergic"	"pygidium"	0
+"2409"	"adrenergic"	"neurosecretory_plexus"	0
+"2410"	"adrenergic"	"mushroom body"	0
+"2411"	"adrenergic"	"Apical_organ"	0
+"2412"	"adrenergic"	"Dorsal_sensory_organ"	0
+"2413"	"adrenergic"	"Dorsolateral_sense_organs"	0
+"2414"	"adrenergic"	"antenna"	0
+"2415"	"adrenergic"	"eyespot"	0
+"2416"	"adrenergic"	"mechanosensory_girdle"	0
+"2417"	"adrenergic"	"nuchal organ"	0
+"2418"	"adrenergic"	"Sensory neuron"	0
+"2419"	"adrenergic"	"sensory_motor_neuron"	0
+"2420"	"adrenergic"	"sensory_neurosecretory_neuron"	0
+"2421"	"adrenergic"	"interneuron"	1
+"2422"	"adrenergic"	"premotor"	1
+"2423"	"adrenergic"	"motorneuron"	0
+"2424"	"adrenergic"	"ciliomotors"	1
+"2425"	"adrenergic"	"rhabdomeric photoreceptor"	0
+"2426"	"adrenergic"	"ciliary photoreceptor"	0
+"2427"	"adrenergic"	"sensory_cilia"	0
+"2428"	"adrenergic"	"Uniciliated_penetrating_cell"	0
+"2429"	"adrenergic"	"Biciliated_penetrating_cell"	0
+"2430"	"adrenergic"	"Uniciliated_nonpenetrating_cell"	0
+"2431"	"adrenergic"	"Biciliated_nonpenetrating_cell"	0
+"2432"	"adrenergic"	"Multiciliated_penetrating_cell"	0
+"2433"	"adrenergic"	"dense cored vesicles"	1
+"2434"	"adrenergic"	"asymmetric neuron"	1
+"2435"	"adrenergic"	"biaxonal"	0
+"2436"	"adrenergic"	"decussating"	0
+"2437"	"adrenergic"	"commissural"	0
+"2438"	"adrenergic"	"ipsilateral"	0
+"2439"	"adrenergic"	"contralateral"	0
+"2440"	"adrenergic"	"pseudounipolar"	0
+"2441"	"adrenergic"	"descending"	0
+"2442"	"adrenergic"	"ascending"	0
+"2443"	"adrenergic"	"global_reach"	0
+"2444"	"adrenergic"	"head_trunk"	0
+"2445"	"adrenergic"	"siGOLD"	0
+"2446"	"adrenergic"	"glutamatergic"	0
+"2447"	"adrenergic"	"serotonergic"	0
+"2448"	"adrenergic"	"cholinergic"	0
+"2449"	"adrenergic"	"adrenergic"	1
+"2450"	"adrenergic"	"dopaminergic"	0
+"2451"	"dopaminergic"	"ectoderm"	1
+"2452"	"dopaminergic"	"episphere"	1
+"2453"	"dopaminergic"	"segment_0"	0
+"2454"	"dopaminergic"	"segment_1"	0
+"2455"	"dopaminergic"	"segment_2"	0
+"2456"	"dopaminergic"	"segment_3"	0
+"2457"	"dopaminergic"	"torso"	0
+"2458"	"dopaminergic"	"pygidium"	0
+"2459"	"dopaminergic"	"neurosecretory_plexus"	0
+"2460"	"dopaminergic"	"mushroom body"	0
+"2461"	"dopaminergic"	"Apical_organ"	0
+"2462"	"dopaminergic"	"Dorsal_sensory_organ"	0
+"2463"	"dopaminergic"	"Dorsolateral_sense_organs"	0
+"2464"	"dopaminergic"	"antenna"	0
+"2465"	"dopaminergic"	"eyespot"	0
+"2466"	"dopaminergic"	"mechanosensory_girdle"	0
+"2467"	"dopaminergic"	"nuchal organ"	0
+"2468"	"dopaminergic"	"Sensory neuron"	0
+"2469"	"dopaminergic"	"sensory_motor_neuron"	0
+"2470"	"dopaminergic"	"sensory_neurosecretory_neuron"	0
+"2471"	"dopaminergic"	"interneuron"	1
+"2472"	"dopaminergic"	"premotor"	1
+"2473"	"dopaminergic"	"motorneuron"	0
+"2474"	"dopaminergic"	"ciliomotors"	0
+"2475"	"dopaminergic"	"rhabdomeric photoreceptor"	0
+"2476"	"dopaminergic"	"ciliary photoreceptor"	0
+"2477"	"dopaminergic"	"sensory_cilia"	0
+"2478"	"dopaminergic"	"Uniciliated_penetrating_cell"	0
+"2479"	"dopaminergic"	"Biciliated_penetrating_cell"	0
+"2480"	"dopaminergic"	"Uniciliated_nonpenetrating_cell"	0
+"2481"	"dopaminergic"	"Biciliated_nonpenetrating_cell"	0
+"2482"	"dopaminergic"	"Multiciliated_penetrating_cell"	0
+"2483"	"dopaminergic"	"dense cored vesicles"	1
+"2484"	"dopaminergic"	"asymmetric neuron"	1
+"2485"	"dopaminergic"	"biaxonal"	0
+"2486"	"dopaminergic"	"decussating"	0
+"2487"	"dopaminergic"	"commissural"	0
+"2488"	"dopaminergic"	"ipsilateral"	0
+"2489"	"dopaminergic"	"contralateral"	0
+"2490"	"dopaminergic"	"pseudounipolar"	0
+"2491"	"dopaminergic"	"descending"	0
+"2492"	"dopaminergic"	"ascending"	0
+"2493"	"dopaminergic"	"global_reach"	0
+"2494"	"dopaminergic"	"head_trunk"	0
+"2495"	"dopaminergic"	"siGOLD"	1
+"2496"	"dopaminergic"	"glutamatergic"	0
+"2497"	"dopaminergic"	"serotonergic"	0
+"2498"	"dopaminergic"	"cholinergic"	0
+"2499"	"dopaminergic"	"adrenergic"	0
+"2500"	"dopaminergic"	"dopaminergic"	1

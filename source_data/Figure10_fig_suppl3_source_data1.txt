@@ -1,0 +1,9 @@
+"","SN head","IN head","MN head","effector head","SN trunk","IN trunk","MN trunk","effector trunk"
+"SN head",1024,1613,426,88,87,442,89,5
+"IN head",224,2141,551,122,80,518,379,16
+"MN head",8,127,157,623,24,143,54,573
+"effector head",0,2,0,0,1,0,0,0
+"SN trunk",43,107,115,58,424,1465,331,44
+"IN trunk",156,360,103,2,324,2358,1237,80
+"MN trunk",15,50,49,808,53,293,487,2903
+"effector trunk",0,4,1,0,5,19,9,1

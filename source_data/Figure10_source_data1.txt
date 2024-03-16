@@ -1,0 +1,2589 @@
+"names"	"postsyn_class"	"num_occurrences"	"presyn_color"	"num_class_target"
+"1"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"2"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"3"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"4"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"5"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"6"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"7"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"8"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"9"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"10"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"11"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"12"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"13"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"14"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"15"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"16"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"17"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"18"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"19"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"20"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"21"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"22"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"23"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"24"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"25"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"26"	"INrope_l1"	"n.a."	197	"#CC79A7"	5
+"27"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"28"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"29"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"30"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"31"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"32"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"33"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"34"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"35"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"36"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"37"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"38"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"39"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"40"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"41"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"42"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"43"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"44"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"45"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"46"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"47"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"48"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"49"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"50"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"51"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"52"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"53"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"54"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"55"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"56"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"57"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"58"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"59"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"60"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"61"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"62"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"63"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"64"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"65"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"66"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"67"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"68"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"69"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"70"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"71"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"72"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"73"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"74"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"75"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"76"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"77"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"78"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"79"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"80"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"81"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"82"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"83"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"84"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"85"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"86"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"87"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"88"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"89"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"90"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"91"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"92"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"93"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"94"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"95"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"96"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"97"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"98"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"99"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"100"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"101"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"102"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"103"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"104"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"105"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"106"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"107"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"108"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"109"	"INrope_l1"	"n.a."	197	"#CC79A7"	5
+"110"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"111"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"112"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"113"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"114"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"115"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"116"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"117"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"118"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"119"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"120"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"121"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"122"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"123"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"124"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"125"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"126"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"127"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"128"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"129"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"130"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"131"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"132"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"133"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"134"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"135"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"136"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"137"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"138"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"139"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"140"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"141"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"142"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"143"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"144"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"145"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"146"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"147"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"148"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"149"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"150"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"151"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"152"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"153"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"154"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"155"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"156"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"157"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"158"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"159"	"INrope_l1"	"n.a."	197	"#CC79A7"	5
+"160"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"161"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"162"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"163"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"164"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"165"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"166"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"167"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"168"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"169"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"170"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"171"	"INrope_l1"	"n.a."	197	"#CC79A7"	5
+"172"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"173"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"174"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"175"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"176"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"177"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"178"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"179"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"180"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"181"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"182"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"183"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"184"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"185"	"INrope_l1"	"MN"	197	"#CC79A7"	119
+"186"	"INrope_l1"	"SN"	197	"#CC79A7"	7
+"187"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"188"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"189"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"190"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"191"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"192"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"193"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"194"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"195"	"INrope_l1"	"n.a."	197	"#CC79A7"	5
+"196"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"197"	"INrope_l1"	"IN"	197	"#CC79A7"	66
+"198"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"199"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"200"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"201"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"202"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"203"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"204"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"205"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"206"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"207"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"208"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"209"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"210"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"211"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"212"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"213"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"214"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"215"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"216"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"217"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"218"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"219"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"220"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"221"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"222"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"223"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"224"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"225"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"226"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"227"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"228"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"229"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"230"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"231"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"232"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"233"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"234"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"235"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"236"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"237"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"238"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"239"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"240"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"241"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"242"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"243"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"244"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"245"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"246"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"247"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"248"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"249"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"250"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"251"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"252"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"253"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"254"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"255"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"256"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"257"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"258"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"259"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"260"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"261"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"262"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"263"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"264"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"265"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"266"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"267"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"268"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"269"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"270"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"271"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"272"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"273"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"274"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"275"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"276"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"277"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"278"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"279"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"280"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"281"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"282"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"283"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"284"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"285"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"286"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"287"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"288"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"289"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"290"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"291"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"292"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"293"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"294"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"295"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"296"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"297"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"298"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"299"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"300"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"301"	"INrope_r1"	"MN"	123	"#CC79A7"	84
+"302"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"303"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"304"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"305"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"306"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"307"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"308"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"309"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"310"	"INrope_r1"	"SN"	123	"#CC79A7"	4
+"311"	"INrope_r1"	"SN"	123	"#CC79A7"	4
+"312"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"313"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"314"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"315"	"INrope_r1"	"n.a."	123	"#CC79A7"	9
+"316"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"317"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"318"	"INrope_r1"	"IN"	123	"#CC79A7"	26
+"319"	"INrope_r1"	"SN"	123	"#CC79A7"	4
+"320"	"INrope_r1"	"SN"	123	"#CC79A7"	4
+"321"	"MN1_l"	"effector"	120	"#0072B2"	118
+"322"	"MN1_l"	"effector"	120	"#0072B2"	118
+"323"	"MN1_l"	"effector"	120	"#0072B2"	118
+"324"	"MN1_l"	"effector"	120	"#0072B2"	118
+"325"	"MN1_l"	"effector"	120	"#0072B2"	118
+"326"	"MN1_l"	"effector"	120	"#0072B2"	118
+"327"	"MN1_l"	"effector"	120	"#0072B2"	118
+"328"	"MN1_l"	"effector"	120	"#0072B2"	118
+"329"	"MN1_l"	"effector"	120	"#0072B2"	118
+"330"	"MN1_l"	"effector"	120	"#0072B2"	118
+"331"	"MN1_l"	"effector"	120	"#0072B2"	118
+"332"	"MN1_l"	"effector"	120	"#0072B2"	118
+"333"	"MN1_l"	"effector"	120	"#0072B2"	118
+"334"	"MN1_l"	"effector"	120	"#0072B2"	118
+"335"	"MN1_l"	"effector"	120	"#0072B2"	118
+"336"	"MN1_l"	"effector"	120	"#0072B2"	118
+"337"	"MN1_l"	"effector"	120	"#0072B2"	118
+"338"	"MN1_l"	"effector"	120	"#0072B2"	118
+"339"	"MN1_l"	"effector"	120	"#0072B2"	118
+"340"	"MN1_l"	"effector"	120	"#0072B2"	118
+"341"	"MN1_l"	"effector"	120	"#0072B2"	118
+"342"	"MN1_l"	"effector"	120	"#0072B2"	118
+"343"	"MN1_l"	"effector"	120	"#0072B2"	118
+"344"	"MN1_l"	"effector"	120	"#0072B2"	118
+"345"	"MN1_l"	"effector"	120	"#0072B2"	118
+"346"	"MN1_l"	"effector"	120	"#0072B2"	118
+"347"	"MN1_l"	"effector"	120	"#0072B2"	118
+"348"	"MN1_l"	"effector"	120	"#0072B2"	118
+"349"	"MN1_l"	"effector"	120	"#0072B2"	118
+"350"	"MN1_l"	"effector"	120	"#0072B2"	118
+"351"	"MN1_l"	"effector"	120	"#0072B2"	118
+"352"	"MN1_l"	"effector"	120	"#0072B2"	118
+"353"	"MN1_l"	"effector"	120	"#0072B2"	118
+"354"	"MN1_l"	"effector"	120	"#0072B2"	118
+"355"	"MN1_l"	"effector"	120	"#0072B2"	118
+"356"	"MN1_l"	"effector"	120	"#0072B2"	118
+"357"	"MN1_l"	"effector"	120	"#0072B2"	118
+"358"	"MN1_l"	"effector"	120	"#0072B2"	118
+"359"	"MN1_l"	"effector"	120	"#0072B2"	118
+"360"	"MN1_l"	"effector"	120	"#0072B2"	118
+"361"	"MN1_l"	"effector"	120	"#0072B2"	118
+"362"	"MN1_l"	"effector"	120	"#0072B2"	118
+"363"	"MN1_l"	"effector"	120	"#0072B2"	118
+"364"	"MN1_l"	"effector"	120	"#0072B2"	118
+"365"	"MN1_l"	"effector"	120	"#0072B2"	118
+"366"	"MN1_l"	"effector"	120	"#0072B2"	118
+"367"	"MN1_l"	"effector"	120	"#0072B2"	118
+"368"	"MN1_l"	"effector"	120	"#0072B2"	118
+"369"	"MN1_l"	"effector"	120	"#0072B2"	118
+"370"	"MN1_l"	"effector"	120	"#0072B2"	118
+"371"	"MN1_l"	"effector"	120	"#0072B2"	118
+"372"	"MN1_l"	"effector"	120	"#0072B2"	118
+"373"	"MN1_l"	"effector"	120	"#0072B2"	118
+"374"	"MN1_l"	"effector"	120	"#0072B2"	118
+"375"	"MN1_l"	"effector"	120	"#0072B2"	118
+"376"	"MN1_l"	"effector"	120	"#0072B2"	118
+"377"	"MN1_l"	"effector"	120	"#0072B2"	118
+"378"	"MN1_l"	"effector"	120	"#0072B2"	118
+"379"	"MN1_l"	"effector"	120	"#0072B2"	118
+"380"	"MN1_l"	"effector"	120	"#0072B2"	118
+"381"	"MN1_l"	"effector"	120	"#0072B2"	118
+"382"	"MN1_l"	"effector"	120	"#0072B2"	118
+"383"	"MN1_l"	"effector"	120	"#0072B2"	118
+"384"	"MN1_l"	"effector"	120	"#0072B2"	118
+"385"	"MN1_l"	"effector"	120	"#0072B2"	118
+"386"	"MN1_l"	"effector"	120	"#0072B2"	118
+"387"	"MN1_l"	"effector"	120	"#0072B2"	118
+"388"	"MN1_l"	"effector"	120	"#0072B2"	118
+"389"	"MN1_l"	"effector"	120	"#0072B2"	118
+"390"	"MN1_l"	"effector"	120	"#0072B2"	118
+"391"	"MN1_l"	"effector"	120	"#0072B2"	118
+"392"	"MN1_l"	"effector"	120	"#0072B2"	118
+"393"	"MN1_l"	"effector"	120	"#0072B2"	118
+"394"	"MN1_l"	"effector"	120	"#0072B2"	118
+"395"	"MN1_l"	"effector"	120	"#0072B2"	118
+"396"	"MN1_l"	"effector"	120	"#0072B2"	118
+"397"	"MN1_l"	"effector"	120	"#0072B2"	118
+"398"	"MN1_l"	"effector"	120	"#0072B2"	118
+"399"	"MN1_l"	"effector"	120	"#0072B2"	118
+"400"	"MN1_l"	"effector"	120	"#0072B2"	118
+"401"	"MN1_l"	"effector"	120	"#0072B2"	118
+"402"	"MN1_l"	"effector"	120	"#0072B2"	118
+"403"	"MN1_l"	"effector"	120	"#0072B2"	118
+"404"	"MN1_l"	"effector"	120	"#0072B2"	118
+"405"	"MN1_l"	"effector"	120	"#0072B2"	118
+"406"	"MN1_l"	"effector"	120	"#0072B2"	118
+"407"	"MN1_l"	"effector"	120	"#0072B2"	118
+"408"	"MN1_l"	"effector"	120	"#0072B2"	118
+"409"	"MN1_l"	"effector"	120	"#0072B2"	118
+"410"	"MN1_l"	"effector"	120	"#0072B2"	118
+"411"	"MN1_l"	"effector"	120	"#0072B2"	118
+"412"	"MN1_l"	"effector"	120	"#0072B2"	118
+"413"	"MN1_l"	"effector"	120	"#0072B2"	118
+"414"	"MN1_l"	"effector"	120	"#0072B2"	118
+"415"	"MN1_l"	"effector"	120	"#0072B2"	118
+"416"	"MN1_l"	"effector"	120	"#0072B2"	118
+"417"	"MN1_l"	"effector"	120	"#0072B2"	118
+"418"	"MN1_l"	"effector"	120	"#0072B2"	118
+"419"	"MN1_l"	"effector"	120	"#0072B2"	118
+"420"	"MN1_l"	"effector"	120	"#0072B2"	118
+"421"	"MN1_l"	"effector"	120	"#0072B2"	118
+"422"	"MN1_l"	"effector"	120	"#0072B2"	118
+"423"	"MN1_l"	"effector"	120	"#0072B2"	118
+"424"	"MN1_l"	"effector"	120	"#0072B2"	118
+"425"	"MN1_l"	"effector"	120	"#0072B2"	118
+"426"	"MN1_l"	"effector"	120	"#0072B2"	118
+"427"	"MN1_l"	"effector"	120	"#0072B2"	118
+"428"	"MN1_l"	"effector"	120	"#0072B2"	118
+"429"	"MN1_l"	"effector"	120	"#0072B2"	118
+"430"	"MN1_l"	"effector"	120	"#0072B2"	118
+"431"	"MN1_l"	"effector"	120	"#0072B2"	118
+"432"	"MN1_l"	"effector"	120	"#0072B2"	118
+"433"	"MN1_l"	"effector"	120	"#0072B2"	118
+"434"	"MN1_l"	"effector"	120	"#0072B2"	118
+"435"	"MN1_l"	"effector"	120	"#0072B2"	118
+"436"	"MN1_l"	"effector"	120	"#0072B2"	118
+"437"	"MN1_l"	"effector"	120	"#0072B2"	118
+"438"	"MN1_l"	"effector"	120	"#0072B2"	118
+"439"	"MN1_l"	"MN"	120	"#0072B2"	1
+"440"	"MN1_l"	"IN"	120	"#0072B2"	1
+"441"	"MN1_r"	"n.a."	113	"#0072B2"	4
+"442"	"MN1_r"	"n.a."	113	"#0072B2"	4
+"443"	"MN1_r"	"n.a."	113	"#0072B2"	4
+"444"	"MN1_r"	"n.a."	113	"#0072B2"	4
+"445"	"MN1_r"	"effector"	113	"#0072B2"	101
+"446"	"MN1_r"	"effector"	113	"#0072B2"	101
+"447"	"MN1_r"	"effector"	113	"#0072B2"	101
+"448"	"MN1_r"	"effector"	113	"#0072B2"	101
+"449"	"MN1_r"	"effector"	113	"#0072B2"	101
+"450"	"MN1_r"	"effector"	113	"#0072B2"	101
+"451"	"MN1_r"	"effector"	113	"#0072B2"	101
+"452"	"MN1_r"	"effector"	113	"#0072B2"	101
+"453"	"MN1_r"	"effector"	113	"#0072B2"	101
+"454"	"MN1_r"	"effector"	113	"#0072B2"	101
+"455"	"MN1_r"	"effector"	113	"#0072B2"	101
+"456"	"MN1_r"	"effector"	113	"#0072B2"	101
+"457"	"MN1_r"	"effector"	113	"#0072B2"	101
+"458"	"MN1_r"	"effector"	113	"#0072B2"	101
+"459"	"MN1_r"	"effector"	113	"#0072B2"	101
+"460"	"MN1_r"	"effector"	113	"#0072B2"	101
+"461"	"MN1_r"	"effector"	113	"#0072B2"	101
+"462"	"MN1_r"	"effector"	113	"#0072B2"	101
+"463"	"MN1_r"	"effector"	113	"#0072B2"	101
+"464"	"MN1_r"	"effector"	113	"#0072B2"	101
+"465"	"MN1_r"	"effector"	113	"#0072B2"	101
+"466"	"MN1_r"	"effector"	113	"#0072B2"	101
+"467"	"MN1_r"	"effector"	113	"#0072B2"	101
+"468"	"MN1_r"	"effector"	113	"#0072B2"	101
+"469"	"MN1_r"	"effector"	113	"#0072B2"	101
+"470"	"MN1_r"	"effector"	113	"#0072B2"	101
+"471"	"MN1_r"	"effector"	113	"#0072B2"	101
+"472"	"MN1_r"	"effector"	113	"#0072B2"	101
+"473"	"MN1_r"	"effector"	113	"#0072B2"	101
+"474"	"MN1_r"	"effector"	113	"#0072B2"	101
+"475"	"MN1_r"	"effector"	113	"#0072B2"	101
+"476"	"MN1_r"	"effector"	113	"#0072B2"	101
+"477"	"MN1_r"	"effector"	113	"#0072B2"	101
+"478"	"MN1_r"	"effector"	113	"#0072B2"	101
+"479"	"MN1_r"	"effector"	113	"#0072B2"	101
+"480"	"MN1_r"	"effector"	113	"#0072B2"	101
+"481"	"MN1_r"	"effector"	113	"#0072B2"	101
+"482"	"MN1_r"	"effector"	113	"#0072B2"	101
+"483"	"MN1_r"	"effector"	113	"#0072B2"	101
+"484"	"MN1_r"	"effector"	113	"#0072B2"	101
+"485"	"MN1_r"	"effector"	113	"#0072B2"	101
+"486"	"MN1_r"	"effector"	113	"#0072B2"	101
+"487"	"MN1_r"	"effector"	113	"#0072B2"	101
+"488"	"MN1_r"	"effector"	113	"#0072B2"	101
+"489"	"MN1_r"	"effector"	113	"#0072B2"	101
+"490"	"MN1_r"	"IN"	113	"#0072B2"	3
+"491"	"MN1_r"	"IN"	113	"#0072B2"	3
+"492"	"MN1_r"	"effector"	113	"#0072B2"	101
+"493"	"MN1_r"	"effector"	113	"#0072B2"	101
+"494"	"MN1_r"	"effector"	113	"#0072B2"	101
+"495"	"MN1_r"	"effector"	113	"#0072B2"	101
+"496"	"MN1_r"	"effector"	113	"#0072B2"	101
+"497"	"MN1_r"	"effector"	113	"#0072B2"	101
+"498"	"MN1_r"	"effector"	113	"#0072B2"	101
+"499"	"MN1_r"	"effector"	113	"#0072B2"	101
+"500"	"MN1_r"	"effector"	113	"#0072B2"	101
+"501"	"MN1_r"	"effector"	113	"#0072B2"	101
+"502"	"MN1_r"	"effector"	113	"#0072B2"	101
+"503"	"MN1_r"	"effector"	113	"#0072B2"	101
+"504"	"MN1_r"	"MN"	113	"#0072B2"	4
+"505"	"MN1_r"	"effector"	113	"#0072B2"	101
+"506"	"MN1_r"	"effector"	113	"#0072B2"	101
+"507"	"MN1_r"	"effector"	113	"#0072B2"	101
+"508"	"MN1_r"	"effector"	113	"#0072B2"	101
+"509"	"MN1_r"	"effector"	113	"#0072B2"	101
+"510"	"MN1_r"	"effector"	113	"#0072B2"	101
+"511"	"MN1_r"	"effector"	113	"#0072B2"	101
+"512"	"MN1_r"	"effector"	113	"#0072B2"	101
+"513"	"MN1_r"	"effector"	113	"#0072B2"	101
+"514"	"MN1_r"	"effector"	113	"#0072B2"	101
+"515"	"MN1_r"	"effector"	113	"#0072B2"	101
+"516"	"MN1_r"	"effector"	113	"#0072B2"	101
+"517"	"MN1_r"	"effector"	113	"#0072B2"	101
+"518"	"MN1_r"	"effector"	113	"#0072B2"	101
+"519"	"MN1_r"	"effector"	113	"#0072B2"	101
+"520"	"MN1_r"	"effector"	113	"#0072B2"	101
+"521"	"MN1_r"	"effector"	113	"#0072B2"	101
+"522"	"MN1_r"	"effector"	113	"#0072B2"	101
+"523"	"MN1_r"	"effector"	113	"#0072B2"	101
+"524"	"MN1_r"	"effector"	113	"#0072B2"	101
+"525"	"MN1_r"	"effector"	113	"#0072B2"	101
+"526"	"MN1_r"	"effector"	113	"#0072B2"	101
+"527"	"MN1_r"	"effector"	113	"#0072B2"	101
+"528"	"MN1_r"	"effector"	113	"#0072B2"	101
+"529"	"MN1_r"	"effector"	113	"#0072B2"	101
+"530"	"MN1_r"	"effector"	113	"#0072B2"	101
+"531"	"MN1_r"	"effector"	113	"#0072B2"	101
+"532"	"MN1_r"	"effector"	113	"#0072B2"	101
+"533"	"MN1_r"	"effector"	113	"#0072B2"	101
+"534"	"MN1_r"	"effector"	113	"#0072B2"	101
+"535"	"MN1_r"	"effector"	113	"#0072B2"	101
+"536"	"MN1_r"	"effector"	113	"#0072B2"	101
+"537"	"MN1_r"	"effector"	113	"#0072B2"	101
+"538"	"MN1_r"	"effector"	113	"#0072B2"	101
+"539"	"MN1_r"	"effector"	113	"#0072B2"	101
+"540"	"MN1_r"	"effector"	113	"#0072B2"	101
+"541"	"MN1_r"	"effector"	113	"#0072B2"	101
+"542"	"MN1_r"	"effector"	113	"#0072B2"	101
+"543"	"MN1_r"	"effector"	113	"#0072B2"	101
+"544"	"MN1_r"	"MN"	113	"#0072B2"	4
+"545"	"MN1_r"	"SN"	113	"#0072B2"	1
+"546"	"MN1_r"	"effector"	113	"#0072B2"	101
+"547"	"MN1_r"	"effector"	113	"#0072B2"	101
+"548"	"MN1_r"	"MN"	113	"#0072B2"	4
+"549"	"MN1_r"	"MN"	113	"#0072B2"	4
+"550"	"MN1_r"	"IN"	113	"#0072B2"	3
+"551"	"MN1_r"	"effector"	113	"#0072B2"	101
+"552"	"MN1_r"	"effector"	113	"#0072B2"	101
+"553"	"MN1_r"	"effector"	113	"#0072B2"	101
+"554"	"MN2_l"	"effector"	107	"#0072B2"	106
+"555"	"MN2_l"	"effector"	107	"#0072B2"	106
+"556"	"MN2_l"	"effector"	107	"#0072B2"	106
+"557"	"MN2_l"	"effector"	107	"#0072B2"	106
+"558"	"MN2_l"	"effector"	107	"#0072B2"	106
+"559"	"MN2_l"	"effector"	107	"#0072B2"	106
+"560"	"MN2_l"	"effector"	107	"#0072B2"	106
+"561"	"MN2_l"	"effector"	107	"#0072B2"	106
+"562"	"MN2_l"	"effector"	107	"#0072B2"	106
+"563"	"MN2_l"	"effector"	107	"#0072B2"	106
+"564"	"MN2_l"	"effector"	107	"#0072B2"	106
+"565"	"MN2_l"	"effector"	107	"#0072B2"	106
+"566"	"MN2_l"	"effector"	107	"#0072B2"	106
+"567"	"MN2_l"	"effector"	107	"#0072B2"	106
+"568"	"MN2_l"	"effector"	107	"#0072B2"	106
+"569"	"MN2_l"	"effector"	107	"#0072B2"	106
+"570"	"MN2_l"	"effector"	107	"#0072B2"	106
+"571"	"MN2_l"	"effector"	107	"#0072B2"	106
+"572"	"MN2_l"	"effector"	107	"#0072B2"	106
+"573"	"MN2_l"	"effector"	107	"#0072B2"	106
+"574"	"MN2_l"	"effector"	107	"#0072B2"	106
+"575"	"MN2_l"	"effector"	107	"#0072B2"	106
+"576"	"MN2_l"	"effector"	107	"#0072B2"	106
+"577"	"MN2_l"	"effector"	107	"#0072B2"	106
+"578"	"MN2_l"	"effector"	107	"#0072B2"	106
+"579"	"MN2_l"	"effector"	107	"#0072B2"	106
+"580"	"MN2_l"	"effector"	107	"#0072B2"	106
+"581"	"MN2_l"	"effector"	107	"#0072B2"	106
+"582"	"MN2_l"	"effector"	107	"#0072B2"	106
+"583"	"MN2_l"	"effector"	107	"#0072B2"	106
+"584"	"MN2_l"	"effector"	107	"#0072B2"	106
+"585"	"MN2_l"	"effector"	107	"#0072B2"	106
+"586"	"MN2_l"	"effector"	107	"#0072B2"	106
+"587"	"MN2_l"	"effector"	107	"#0072B2"	106
+"588"	"MN2_l"	"effector"	107	"#0072B2"	106
+"589"	"MN2_l"	"effector"	107	"#0072B2"	106
+"590"	"MN2_l"	"effector"	107	"#0072B2"	106
+"591"	"MN2_l"	"effector"	107	"#0072B2"	106
+"592"	"MN2_l"	"effector"	107	"#0072B2"	106
+"593"	"MN2_l"	"effector"	107	"#0072B2"	106
+"594"	"MN2_l"	"effector"	107	"#0072B2"	106
+"595"	"MN2_l"	"effector"	107	"#0072B2"	106
+"596"	"MN2_l"	"effector"	107	"#0072B2"	106
+"597"	"MN2_l"	"effector"	107	"#0072B2"	106
+"598"	"MN2_l"	"effector"	107	"#0072B2"	106
+"599"	"MN2_l"	"effector"	107	"#0072B2"	106
+"600"	"MN2_l"	"effector"	107	"#0072B2"	106
+"601"	"MN2_l"	"effector"	107	"#0072B2"	106
+"602"	"MN2_l"	"effector"	107	"#0072B2"	106
+"603"	"MN2_l"	"effector"	107	"#0072B2"	106
+"604"	"MN2_l"	"effector"	107	"#0072B2"	106
+"605"	"MN2_l"	"effector"	107	"#0072B2"	106
+"606"	"MN2_l"	"effector"	107	"#0072B2"	106
+"607"	"MN2_l"	"effector"	107	"#0072B2"	106
+"608"	"MN2_l"	"effector"	107	"#0072B2"	106
+"609"	"MN2_l"	"effector"	107	"#0072B2"	106
+"610"	"MN2_l"	"effector"	107	"#0072B2"	106
+"611"	"MN2_l"	"effector"	107	"#0072B2"	106
+"612"	"MN2_l"	"effector"	107	"#0072B2"	106
+"613"	"MN2_l"	"effector"	107	"#0072B2"	106
+"614"	"MN2_l"	"effector"	107	"#0072B2"	106
+"615"	"MN2_l"	"effector"	107	"#0072B2"	106
+"616"	"MN2_l"	"effector"	107	"#0072B2"	106
+"617"	"MN2_l"	"effector"	107	"#0072B2"	106
+"618"	"MN2_l"	"effector"	107	"#0072B2"	106
+"619"	"MN2_l"	"effector"	107	"#0072B2"	106
+"620"	"MN2_l"	"effector"	107	"#0072B2"	106
+"621"	"MN2_l"	"effector"	107	"#0072B2"	106
+"622"	"MN2_l"	"effector"	107	"#0072B2"	106
+"623"	"MN2_l"	"effector"	107	"#0072B2"	106
+"624"	"MN2_l"	"effector"	107	"#0072B2"	106
+"625"	"MN2_l"	"effector"	107	"#0072B2"	106
+"626"	"MN2_l"	"effector"	107	"#0072B2"	106
+"627"	"MN2_l"	"effector"	107	"#0072B2"	106
+"628"	"MN2_l"	"effector"	107	"#0072B2"	106
+"629"	"MN2_l"	"effector"	107	"#0072B2"	106
+"630"	"MN2_l"	"effector"	107	"#0072B2"	106
+"631"	"MN2_l"	"effector"	107	"#0072B2"	106
+"632"	"MN2_l"	"effector"	107	"#0072B2"	106
+"633"	"MN2_l"	"effector"	107	"#0072B2"	106
+"634"	"MN2_l"	"effector"	107	"#0072B2"	106
+"635"	"MN2_l"	"effector"	107	"#0072B2"	106
+"636"	"MN2_l"	"effector"	107	"#0072B2"	106
+"637"	"MN2_l"	"effector"	107	"#0072B2"	106
+"638"	"MN2_l"	"effector"	107	"#0072B2"	106
+"639"	"MN2_l"	"effector"	107	"#0072B2"	106
+"640"	"MN2_l"	"effector"	107	"#0072B2"	106
+"641"	"MN2_l"	"effector"	107	"#0072B2"	106
+"642"	"MN2_l"	"effector"	107	"#0072B2"	106
+"643"	"MN2_l"	"effector"	107	"#0072B2"	106
+"644"	"MN2_l"	"effector"	107	"#0072B2"	106
+"645"	"MN2_l"	"effector"	107	"#0072B2"	106
+"646"	"MN2_l"	"effector"	107	"#0072B2"	106
+"647"	"MN2_l"	"effector"	107	"#0072B2"	106
+"648"	"MN2_l"	"effector"	107	"#0072B2"	106
+"649"	"MN2_l"	"effector"	107	"#0072B2"	106
+"650"	"MN2_l"	"effector"	107	"#0072B2"	106
+"651"	"MN2_l"	"effector"	107	"#0072B2"	106
+"652"	"MN2_l"	"effector"	107	"#0072B2"	106
+"653"	"MN2_l"	"effector"	107	"#0072B2"	106
+"654"	"MN2_l"	"effector"	107	"#0072B2"	106
+"655"	"MN2_l"	"effector"	107	"#0072B2"	106
+"656"	"MN2_l"	"effector"	107	"#0072B2"	106
+"657"	"MN2_l"	"effector"	107	"#0072B2"	106
+"658"	"MN2_r"	"effector"	107	"#0072B2"	103
+"659"	"MN2_r"	"effector"	107	"#0072B2"	103
+"660"	"MN2_r"	"effector"	107	"#0072B2"	103
+"661"	"MN2_r"	"effector"	107	"#0072B2"	103
+"662"	"MN2_r"	"effector"	107	"#0072B2"	103
+"663"	"MN2_r"	"effector"	107	"#0072B2"	103
+"664"	"MN2_r"	"effector"	107	"#0072B2"	103
+"665"	"MN2_r"	"effector"	107	"#0072B2"	103
+"666"	"MN2_r"	"effector"	107	"#0072B2"	103
+"667"	"MN2_r"	"effector"	107	"#0072B2"	103
+"668"	"MN2_r"	"effector"	107	"#0072B2"	103
+"669"	"MN2_r"	"effector"	107	"#0072B2"	103
+"670"	"MN2_r"	"effector"	107	"#0072B2"	103
+"671"	"MN2_r"	"effector"	107	"#0072B2"	103
+"672"	"MN2_r"	"effector"	107	"#0072B2"	103
+"673"	"MN2_r"	"effector"	107	"#0072B2"	103
+"674"	"MN2_r"	"effector"	107	"#0072B2"	103
+"675"	"MN2_r"	"effector"	107	"#0072B2"	103
+"676"	"MN2_r"	"effector"	107	"#0072B2"	103
+"677"	"MN2_r"	"effector"	107	"#0072B2"	103
+"678"	"MN2_r"	"effector"	107	"#0072B2"	103
+"679"	"MN2_r"	"effector"	107	"#0072B2"	103
+"680"	"MN2_r"	"effector"	107	"#0072B2"	103
+"681"	"MN2_r"	"effector"	107	"#0072B2"	103
+"682"	"MN2_r"	"effector"	107	"#0072B2"	103
+"683"	"MN2_r"	"effector"	107	"#0072B2"	103
+"684"	"MN2_r"	"effector"	107	"#0072B2"	103
+"685"	"MN2_r"	"effector"	107	"#0072B2"	103
+"686"	"MN2_r"	"effector"	107	"#0072B2"	103
+"687"	"MN2_r"	"effector"	107	"#0072B2"	103
+"688"	"MN2_r"	"effector"	107	"#0072B2"	103
+"689"	"MN2_r"	"effector"	107	"#0072B2"	103
+"690"	"MN2_r"	"effector"	107	"#0072B2"	103
+"691"	"MN2_r"	"effector"	107	"#0072B2"	103
+"692"	"MN2_r"	"effector"	107	"#0072B2"	103
+"693"	"MN2_r"	"effector"	107	"#0072B2"	103
+"694"	"MN2_r"	"effector"	107	"#0072B2"	103
+"695"	"MN2_r"	"effector"	107	"#0072B2"	103
+"696"	"MN2_r"	"effector"	107	"#0072B2"	103
+"697"	"MN2_r"	"effector"	107	"#0072B2"	103
+"698"	"MN2_r"	"effector"	107	"#0072B2"	103
+"699"	"MN2_r"	"effector"	107	"#0072B2"	103
+"700"	"MN2_r"	"effector"	107	"#0072B2"	103
+"701"	"MN2_r"	"effector"	107	"#0072B2"	103
+"702"	"MN2_r"	"effector"	107	"#0072B2"	103
+"703"	"MN2_r"	"effector"	107	"#0072B2"	103
+"704"	"MN2_r"	"effector"	107	"#0072B2"	103
+"705"	"MN2_r"	"effector"	107	"#0072B2"	103
+"706"	"MN2_r"	"effector"	107	"#0072B2"	103
+"707"	"MN2_r"	"effector"	107	"#0072B2"	103
+"708"	"MN2_r"	"effector"	107	"#0072B2"	103
+"709"	"MN2_r"	"effector"	107	"#0072B2"	103
+"710"	"MN2_r"	"effector"	107	"#0072B2"	103
+"711"	"MN2_r"	"effector"	107	"#0072B2"	103
+"712"	"MN2_r"	"effector"	107	"#0072B2"	103
+"713"	"MN2_r"	"effector"	107	"#0072B2"	103
+"714"	"MN2_r"	"effector"	107	"#0072B2"	103
+"715"	"MN2_r"	"effector"	107	"#0072B2"	103
+"716"	"MN2_r"	"effector"	107	"#0072B2"	103
+"717"	"MN2_r"	"effector"	107	"#0072B2"	103
+"718"	"MN2_r"	"effector"	107	"#0072B2"	103
+"719"	"MN2_r"	"effector"	107	"#0072B2"	103
+"720"	"MN2_r"	"effector"	107	"#0072B2"	103
+"721"	"MN2_r"	"effector"	107	"#0072B2"	103
+"722"	"MN2_r"	"effector"	107	"#0072B2"	103
+"723"	"MN2_r"	"effector"	107	"#0072B2"	103
+"724"	"MN2_r"	"effector"	107	"#0072B2"	103
+"725"	"MN2_r"	"effector"	107	"#0072B2"	103
+"726"	"MN2_r"	"effector"	107	"#0072B2"	103
+"727"	"MN2_r"	"effector"	107	"#0072B2"	103
+"728"	"MN2_r"	"effector"	107	"#0072B2"	103
+"729"	"MN2_r"	"effector"	107	"#0072B2"	103
+"730"	"MN2_r"	"effector"	107	"#0072B2"	103
+"731"	"MN2_r"	"effector"	107	"#0072B2"	103
+"732"	"MN2_l"	"effector"	107	"#0072B2"	106
+"733"	"MN2_r"	"MN"	107	"#0072B2"	4
+"734"	"MN2_r"	"MN"	107	"#0072B2"	4
+"735"	"MN2_r"	"effector"	107	"#0072B2"	103
+"736"	"MN2_r"	"effector"	107	"#0072B2"	103
+"737"	"MN2_r"	"effector"	107	"#0072B2"	103
+"738"	"MN2_r"	"effector"	107	"#0072B2"	103
+"739"	"MN2_r"	"effector"	107	"#0072B2"	103
+"740"	"MN2_l"	"MN"	107	"#0072B2"	1
+"741"	"MN2_r"	"MN"	107	"#0072B2"	4
+"742"	"MN2_r"	"effector"	107	"#0072B2"	103
+"743"	"MN2_r"	"effector"	107	"#0072B2"	103
+"744"	"MN2_r"	"effector"	107	"#0072B2"	103
+"745"	"MN2_r"	"effector"	107	"#0072B2"	103
+"746"	"MN2_r"	"effector"	107	"#0072B2"	103
+"747"	"MN2_r"	"effector"	107	"#0072B2"	103
+"748"	"MN2_r"	"effector"	107	"#0072B2"	103
+"749"	"MN2_r"	"effector"	107	"#0072B2"	103
+"750"	"MN2_r"	"effector"	107	"#0072B2"	103
+"751"	"MN2_r"	"effector"	107	"#0072B2"	103
+"752"	"MN2_r"	"effector"	107	"#0072B2"	103
+"753"	"MN2_r"	"effector"	107	"#0072B2"	103
+"754"	"MN2_r"	"effector"	107	"#0072B2"	103
+"755"	"MN2_r"	"effector"	107	"#0072B2"	103
+"756"	"MN2_r"	"effector"	107	"#0072B2"	103
+"757"	"MN2_r"	"effector"	107	"#0072B2"	103
+"758"	"MN2_r"	"effector"	107	"#0072B2"	103
+"759"	"MN2_r"	"effector"	107	"#0072B2"	103
+"760"	"MN2_r"	"effector"	107	"#0072B2"	103
+"761"	"MN2_r"	"effector"	107	"#0072B2"	103
+"762"	"MN2_r"	"MN"	107	"#0072B2"	4
+"763"	"MN2_r"	"effector"	107	"#0072B2"	103
+"764"	"MN2_r"	"effector"	107	"#0072B2"	103
+"765"	"MN2_r"	"effector"	107	"#0072B2"	103
+"766"	"MN2_r"	"effector"	107	"#0072B2"	103
+"767"	"MN2_l"	"effector"	107	"#0072B2"	106
+"768"	"MNant_l"	"effector"	83	"#0072B2"	68
+"769"	"MNant_l"	"effector"	83	"#0072B2"	68
+"770"	"MNant_l"	"effector"	83	"#0072B2"	68
+"771"	"MNant_l"	"effector"	83	"#0072B2"	68
+"772"	"MNant_l"	"effector"	83	"#0072B2"	68
+"773"	"MNant_l"	"effector"	83	"#0072B2"	68
+"774"	"MNant_l"	"effector"	83	"#0072B2"	68
+"775"	"MNant_l"	"effector"	83	"#0072B2"	68
+"776"	"MNant_l"	"effector"	83	"#0072B2"	68
+"777"	"MNant_l"	"effector"	83	"#0072B2"	68
+"778"	"MNant_l"	"effector"	83	"#0072B2"	68
+"779"	"MNant_l"	"effector"	83	"#0072B2"	68
+"780"	"MNant_l"	"effector"	83	"#0072B2"	68
+"781"	"MNant_l"	"effector"	83	"#0072B2"	68
+"782"	"MNant_l"	"effector"	83	"#0072B2"	68
+"783"	"MNant_l"	"effector"	83	"#0072B2"	68
+"784"	"MNant_l"	"effector"	83	"#0072B2"	68
+"785"	"MNant_l"	"effector"	83	"#0072B2"	68
+"786"	"MNant_l"	"effector"	83	"#0072B2"	68
+"787"	"MNant_l"	"effector"	83	"#0072B2"	68
+"788"	"MNant_l"	"effector"	83	"#0072B2"	68
+"789"	"MNant_l"	"effector"	83	"#0072B2"	68
+"790"	"MNant_l"	"effector"	83	"#0072B2"	68
+"791"	"MNant_l"	"effector"	83	"#0072B2"	68
+"792"	"MNant_l"	"effector"	83	"#0072B2"	68
+"793"	"MNant_l"	"effector"	83	"#0072B2"	68
+"794"	"MNant_l"	"effector"	83	"#0072B2"	68
+"795"	"MNant_l"	"effector"	83	"#0072B2"	68
+"796"	"MNant_l"	"effector"	83	"#0072B2"	68
+"797"	"MNant_l"	"effector"	83	"#0072B2"	68
+"798"	"MNant_l"	"effector"	83	"#0072B2"	68
+"799"	"MNant_l"	"effector"	83	"#0072B2"	68
+"800"	"MNant_l"	"effector"	83	"#0072B2"	68
+"801"	"MNant_l"	"SN"	83	"#0072B2"	1
+"802"	"MNant_l"	"effector"	83	"#0072B2"	68
+"803"	"MNant_l"	"effector"	83	"#0072B2"	68
+"804"	"MNant_l"	"effector"	83	"#0072B2"	68
+"805"	"MNant_l"	"effector"	83	"#0072B2"	68
+"806"	"MNant_l"	"effector"	83	"#0072B2"	68
+"807"	"MNant_l"	"effector"	83	"#0072B2"	68
+"808"	"MNant_l"	"effector"	83	"#0072B2"	68
+"809"	"MNant_l"	"effector"	83	"#0072B2"	68
+"810"	"MNant_l"	"effector"	83	"#0072B2"	68
+"811"	"MNant_l"	"effector"	83	"#0072B2"	68
+"812"	"MNant_l"	"effector"	83	"#0072B2"	68
+"813"	"MNant_l"	"effector"	83	"#0072B2"	68
+"814"	"MNant_l"	"effector"	83	"#0072B2"	68
+"815"	"MNant_l"	"effector"	83	"#0072B2"	68
+"816"	"MNant_l"	"effector"	83	"#0072B2"	68
+"817"	"MNant_l"	"effector"	83	"#0072B2"	68
+"818"	"MNant_l"	"effector"	83	"#0072B2"	68
+"819"	"MNant_l"	"effector"	83	"#0072B2"	68
+"820"	"MNant_l"	"effector"	83	"#0072B2"	68
+"821"	"MNant_l"	"effector"	83	"#0072B2"	68
+"822"	"MNant_l"	"MN"	83	"#0072B2"	6
+"823"	"MNant_l"	"MN"	83	"#0072B2"	6
+"824"	"MNant_l"	"MN"	83	"#0072B2"	6
+"825"	"MNant_l"	"MN"	83	"#0072B2"	6
+"826"	"MNant_l"	"MN"	83	"#0072B2"	6
+"827"	"MNant_l"	"MN"	83	"#0072B2"	6
+"828"	"MNant_l"	"effector"	83	"#0072B2"	68
+"829"	"MNant_l"	"effector"	83	"#0072B2"	68
+"830"	"MNant_l"	"effector"	83	"#0072B2"	68
+"831"	"MNant_l"	"effector"	83	"#0072B2"	68
+"832"	"MNant_l"	"effector"	83	"#0072B2"	68
+"833"	"MNant_l"	"effector"	83	"#0072B2"	68
+"834"	"MNant_l"	"effector"	83	"#0072B2"	68
+"835"	"MNant_l"	"effector"	83	"#0072B2"	68
+"836"	"MNant_l"	"effector"	83	"#0072B2"	68
+"837"	"MNant_l"	"effector"	83	"#0072B2"	68
+"838"	"MNant_l"	"n.a."	83	"#0072B2"	3
+"839"	"MNant_l"	"effector"	83	"#0072B2"	68
+"840"	"MNant_l"	"effector"	83	"#0072B2"	68
+"841"	"MNant_l"	"effector"	83	"#0072B2"	68
+"842"	"MNant_l"	"effector"	83	"#0072B2"	68
+"843"	"MNant_l"	"effector"	83	"#0072B2"	68
+"844"	"MNant_l"	"IN"	83	"#0072B2"	5
+"845"	"MNant_l"	"IN"	83	"#0072B2"	5
+"846"	"MNant_l"	"n.a."	83	"#0072B2"	3
+"847"	"MNant_l"	"n.a."	83	"#0072B2"	3
+"848"	"MNant_l"	"IN"	83	"#0072B2"	5
+"849"	"MNant_l"	"IN"	83	"#0072B2"	5
+"850"	"MNant_l"	"IN"	83	"#0072B2"	5
+"851"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"852"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"853"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"854"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"855"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"856"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"857"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"858"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"859"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"860"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"861"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"862"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"863"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"864"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"865"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"866"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"867"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"868"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"869"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"870"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"871"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"872"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"873"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"874"	"Ser-h1_l"	"n.a."	75	"#0072B2"	5
+"875"	"Ser-h1_l"	"n.a."	75	"#0072B2"	5
+"876"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"877"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"878"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"879"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"880"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"881"	"Ser-h1_l"	"n.a."	75	"#0072B2"	5
+"882"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"883"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"884"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"885"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"886"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"887"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"888"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"889"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"890"	"Ser-h1_l"	"n.a."	75	"#0072B2"	5
+"891"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"892"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"893"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"894"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"895"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"896"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"897"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"898"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"899"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"900"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"901"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"902"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"903"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"904"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"905"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"906"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"907"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"908"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"909"	"Ser-h1_l"	"SN"	75	"#0072B2"	11
+"910"	"Ser-h1_l"	"n.a."	75	"#0072B2"	5
+"911"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"912"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"913"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"914"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"915"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"916"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"917"	"Ser-h1_l"	"MN"	75	"#0072B2"	10
+"918"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"919"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"920"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"921"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"922"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"923"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"924"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"925"	"Ser-h1_l"	"IN"	75	"#0072B2"	49
+"926"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"927"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"928"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"929"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"930"	"dsoCR_2r"	"MN"	58	"#E69F00"	3
+"931"	"dsoCR_2r"	"MN"	58	"#E69F00"	3
+"932"	"dsoCR_2r"	"MN"	58	"#E69F00"	3
+"933"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"934"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"935"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"936"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"937"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"938"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"939"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"940"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"941"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"942"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"943"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"944"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"945"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"946"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"947"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"948"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"949"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"950"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"951"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"952"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"953"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"954"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"955"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"956"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"957"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"958"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"959"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"960"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"961"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"962"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"963"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"964"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"965"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"966"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"967"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"968"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"969"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"970"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"971"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"972"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"973"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"974"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"975"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"976"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"977"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"978"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"979"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"980"	"dsoCR_2r"	"IN"	58	"#E69F00"	47
+"981"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"982"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"983"	"dsoCR_2r"	"SN"	58	"#E69F00"	8
+"984"	"MN3_l"	"SN"	57	"#0072B2"	4
+"985"	"MN3_l"	"IN"	57	"#0072B2"	26
+"986"	"MN3_l"	"IN"	57	"#0072B2"	26
+"987"	"MN3_l"	"IN"	57	"#0072B2"	26
+"988"	"MN3_l"	"IN"	57	"#0072B2"	26
+"989"	"MN3_l"	"IN"	57	"#0072B2"	26
+"990"	"MN3_l"	"IN"	57	"#0072B2"	26
+"991"	"MN3_l"	"effector"	57	"#0072B2"	4
+"992"	"MN3_l"	"MN"	57	"#0072B2"	1
+"993"	"MN3_l"	"SN"	57	"#0072B2"	4
+"994"	"MN3_l"	"SN"	57	"#0072B2"	4
+"995"	"MN3_l"	"effector"	57	"#0072B2"	4
+"996"	"MN3_l"	"IN"	57	"#0072B2"	26
+"997"	"MN3_l"	"IN"	57	"#0072B2"	26
+"998"	"MN3_l"	"IN"	57	"#0072B2"	26
+"999"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1000"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1001"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1002"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1003"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1004"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1005"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1006"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1007"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1008"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1009"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1010"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1011"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1012"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1013"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1014"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1015"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1016"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1017"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1018"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1019"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1020"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1021"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1022"	"MN3_l"	"SN"	57	"#0072B2"	4
+"1023"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1024"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1025"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1026"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1027"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1028"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1029"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1030"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1031"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1032"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1033"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1034"	"MN3_l"	"effector"	57	"#0072B2"	4
+"1035"	"MN3_l"	"effector"	57	"#0072B2"	4
+"1036"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1037"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1038"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1039"	"MN3_l"	"IN"	57	"#0072B2"	26
+"1040"	"MN3_l"	"n.a."	57	"#0072B2"	22
+"1041"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1042"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1043"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1044"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1045"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1046"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1047"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1048"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1049"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1050"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1051"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1052"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1053"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1054"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1055"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1056"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1057"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1058"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1059"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1060"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1061"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1062"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1063"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1064"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1065"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1066"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1067"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1068"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1069"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1070"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1071"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1072"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1073"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1074"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1075"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1076"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1077"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1078"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1079"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1080"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1081"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1082"	"INdescLuqinPDF_l"	"n.a."	54	"#CC79A7"	13
+"1083"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1084"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1085"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1086"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1087"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1088"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1089"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1090"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1091"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1092"	"INdescLuqinPDF_l"	"MN"	54	"#CC79A7"	8
+"1093"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1094"	"INdescLuqinPDF_l"	"IN"	54	"#CC79A7"	33
+"1095"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1096"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1097"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1098"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1099"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1100"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1101"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1102"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1103"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1104"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1105"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1106"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1107"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1108"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1109"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1110"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1111"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1112"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1113"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1114"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1115"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1116"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1117"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1118"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1119"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1120"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1121"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1122"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1123"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1124"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1125"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1126"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1127"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1128"	"MNant_r "	"SN"	50	"#0072B2"	2
+"1129"	"MNant_r "	"SN"	50	"#0072B2"	2
+"1130"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1131"	"MNant_r "	"MN"	50	"#0072B2"	5
+"1132"	"MNant_r "	"MN"	50	"#0072B2"	5
+"1133"	"MNant_r "	"MN"	50	"#0072B2"	5
+"1134"	"MNant_r "	"MN"	50	"#0072B2"	5
+"1135"	"MNant_r "	"MN"	50	"#0072B2"	5
+"1136"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1137"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1138"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1139"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1140"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1141"	"MNant_r "	"IN"	50	"#0072B2"	2
+"1142"	"MNant_r "	"IN"	50	"#0072B2"	2
+"1143"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1144"	"MNant_r "	"effector"	50	"#0072B2"	41
+"1145"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1146"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1147"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1148"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1149"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1150"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1151"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1152"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1153"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1154"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1155"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1156"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1157"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1158"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1159"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1160"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1161"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1162"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1163"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1164"	"SNbronto_r"	"MN"	47	"#E69F00"	14
+"1165"	"SNbronto_r"	"SN"	47	"#E69F00"	5
+"1166"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1167"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1168"	"SNbronto_r"	"SN"	47	"#E69F00"	5
+"1169"	"SNbronto_r"	"SN"	47	"#E69F00"	5
+"1170"	"SNbronto_r"	"SN"	47	"#E69F00"	5
+"1171"	"SNbronto_r"	"SN"	47	"#E69F00"	5
+"1172"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1173"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1174"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1175"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1176"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1177"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1178"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1179"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1180"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1181"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1182"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1183"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1184"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1185"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1186"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1187"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1188"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1189"	"SNbronto_r"	"n.a."	47	"#E69F00"	1
+"1190"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1191"	"SNbronto_r"	"IN"	47	"#E69F00"	27
+"1192"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1193"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1194"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1195"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1196"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1197"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1198"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1199"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1200"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1201"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1202"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1203"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1204"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1205"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1206"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1207"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1208"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1209"	"SNbronto_l"	"SN"	45	"#E69F00"	2
+"1210"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1211"	"SNbronto_l"	"MN"	45	"#E69F00"	14
+"1212"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1213"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1214"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1215"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1216"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1217"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1218"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1219"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1220"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1221"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1222"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1223"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1224"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1225"	"SNbronto_l"	"n.a."	45	"#E69F00"	2
+"1226"	"SNbronto_l"	"n.a."	45	"#E69F00"	2
+"1227"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1228"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1229"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1230"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1231"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1232"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1233"	"SNbronto_l"	"SN"	45	"#E69F00"	2
+"1234"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1235"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1236"	"SNbronto_l"	"IN"	45	"#E69F00"	27
+"1237"	"MS2"	"SN"	40	"#E69F00"	40
+"1238"	"MS2"	"SN"	40	"#E69F00"	40
+"1239"	"MS2"	"SN"	40	"#E69F00"	40
+"1240"	"MS2"	"SN"	40	"#E69F00"	40
+"1241"	"MS2"	"SN"	40	"#E69F00"	40
+"1242"	"MS2"	"SN"	40	"#E69F00"	40
+"1243"	"MS2"	"SN"	40	"#E69F00"	40
+"1244"	"MS2"	"SN"	40	"#E69F00"	40
+"1245"	"MS2"	"SN"	40	"#E69F00"	40
+"1246"	"MS2"	"SN"	40	"#E69F00"	40
+"1247"	"MS2"	"SN"	40	"#E69F00"	40
+"1248"	"MS2"	"SN"	40	"#E69F00"	40
+"1249"	"MS2"	"SN"	40	"#E69F00"	40
+"1250"	"MS2"	"SN"	40	"#E69F00"	40
+"1251"	"MS2"	"SN"	40	"#E69F00"	40
+"1252"	"MS2"	"SN"	40	"#E69F00"	40
+"1253"	"MS2"	"SN"	40	"#E69F00"	40
+"1254"	"MS2"	"SN"	40	"#E69F00"	40
+"1255"	"MS2"	"SN"	40	"#E69F00"	40
+"1256"	"MS2"	"SN"	40	"#E69F00"	40
+"1257"	"MS2"	"SN"	40	"#E69F00"	40
+"1258"	"MS2"	"SN"	40	"#E69F00"	40
+"1259"	"MS2"	"SN"	40	"#E69F00"	40
+"1260"	"MS2"	"SN"	40	"#E69F00"	40
+"1261"	"MS2"	"SN"	40	"#E69F00"	40
+"1262"	"MS2"	"SN"	40	"#E69F00"	40
+"1263"	"MS2"	"SN"	40	"#E69F00"	40
+"1264"	"MS2"	"SN"	40	"#E69F00"	40
+"1265"	"MS2"	"SN"	40	"#E69F00"	40
+"1266"	"MS2"	"SN"	40	"#E69F00"	40
+"1267"	"MS2"	"SN"	40	"#E69F00"	40
+"1268"	"MS2"	"SN"	40	"#E69F00"	40
+"1269"	"MS2"	"SN"	40	"#E69F00"	40
+"1270"	"MS2"	"SN"	40	"#E69F00"	40
+"1271"	"MS2"	"SN"	40	"#E69F00"	40
+"1272"	"MS2"	"SN"	40	"#E69F00"	40
+"1273"	"MS2"	"SN"	40	"#E69F00"	40
+"1274"	"MS2"	"SN"	40	"#E69F00"	40
+"1275"	"MS2"	"SN"	40	"#E69F00"	40
+"1276"	"MS2"	"SN"	40	"#E69F00"	40
+"1277"	"dsoCR_2l; PDF"	"SN"	40	"#E69F00"	1
+"1278"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1279"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1280"	"dsoCR_2l; PDF"	"n.a."	40	"#E69F00"	1
+"1281"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1282"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1283"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1284"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1285"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1286"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1287"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1288"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1289"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1290"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1291"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1292"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1293"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1294"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1295"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1296"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1297"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1298"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1299"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1300"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1301"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1302"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1303"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1304"	"dsoCR_2l; PDF"	"MN"	40	"#E69F00"	3
+"1305"	"dsoCR_2l; PDF"	"MN"	40	"#E69F00"	3
+"1306"	"dsoCR_2l; PDF"	"MN"	40	"#E69F00"	3
+"1307"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1308"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1309"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1310"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1311"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1312"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1313"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1314"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1315"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1316"	"dsoCR_2l; PDF"	"IN"	40	"#E69F00"	35
+"1317"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1318"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1319"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1320"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1321"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1322"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1323"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1324"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1325"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1326"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1327"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1328"	"MNgland-head_l"	"MN"	36	"#0072B2"	3
+"1329"	"MNgland-head_l"	"SN"	36	"#0072B2"	1
+"1330"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1331"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1332"	"MNgland-head_l"	"n.a."	36	"#0072B2"	3
+"1333"	"MNgland-head_l"	"n.a."	36	"#0072B2"	3
+"1334"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1335"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1336"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1337"	"MNgland-head_l"	"n.a."	36	"#0072B2"	3
+"1338"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1339"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1340"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1341"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1342"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1343"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1344"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1345"	"MNgland-head_l"	"effector"	36	"#0072B2"	10
+"1346"	"MNgland-head_l"	"MN"	36	"#0072B2"	3
+"1347"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1348"	"MNgland-head_l"	"MN"	36	"#0072B2"	3
+"1349"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1350"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1351"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1352"	"MNgland-head_l"	"IN"	36	"#0072B2"	19
+"1353"	"hCR2_r; SN"	"SN"	35	"#E69F00"	5
+"1354"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1355"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1356"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1357"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1358"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1359"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1360"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1361"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1362"	"hCR2_r; SN"	"SN"	35	"#E69F00"	5
+"1363"	"hCR2_r; SN"	"SN"	35	"#E69F00"	5
+"1364"	"hCR2_r; SN"	"SN"	35	"#E69F00"	5
+"1365"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1366"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1367"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1368"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1369"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1370"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1371"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1372"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1373"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1374"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1375"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1376"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1377"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1378"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1379"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1380"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1381"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1382"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1383"	"hCR2_r; SN"	"effector"	35	"#E69F00"	1
+"1384"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1385"	"hCR2_r; SN"	"SN"	35	"#E69F00"	5
+"1386"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1387"	"hCR2_r; SN"	"IN"	35	"#E69F00"	29
+"1388"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1389"	"INdescLuqinPDF_r"	"n.a."	34	"#CC79A7"	3
+"1390"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1391"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1392"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1393"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1394"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1395"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1396"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1397"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1398"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1399"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1400"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1401"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1402"	"INdescLuqinPDF_r"	"MN"	34	"#CC79A7"	12
+"1403"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1404"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1405"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1406"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1407"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1408"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1409"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1410"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1411"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1412"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1413"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1414"	"INdescLuqinPDF_r"	"n.a."	34	"#CC79A7"	3
+"1415"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1416"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1417"	"INdescLuqinPDF_r"	"n.a."	34	"#CC79A7"	3
+"1418"	"INdescLuqinPDF_r"	"SN"	34	"#CC79A7"	1
+"1419"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1420"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1421"	"INdescLuqinPDF_r"	"IN"	34	"#CC79A7"	18
+"1422"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1423"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1424"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1425"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1426"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1427"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1428"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1429"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1430"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1431"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1432"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1433"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1434"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1435"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1436"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1437"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1438"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1439"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1440"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1441"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1442"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1443"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1444"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1445"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1446"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1447"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1448"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1449"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1450"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1451"	"hCR1_l2; SN"	"IN"	30	"#E69F00"	30
+"1452"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1453"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1454"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1455"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1456"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1457"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1458"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1459"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1460"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1461"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1462"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1463"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1464"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1465"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1466"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1467"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1468"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1469"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1470"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1471"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1472"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1473"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1474"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1475"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1476"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1477"	"INbiax_r"	"MN"	29	"#CC79A7"	4
+"1478"	"INbiax_r"	"MN"	29	"#CC79A7"	4
+"1479"	"INbiax_r"	"MN"	29	"#CC79A7"	4
+"1480"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1481"	"SNblunt_l"	"SN"	29	"#E69F00"	5
+"1482"	"SNblunt_l"	"SN"	29	"#E69F00"	5
+"1483"	"SNblunt_l"	"SN"	29	"#E69F00"	5
+"1484"	"INbiax_r"	"MN"	29	"#CC79A7"	4
+"1485"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1486"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1487"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1488"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1489"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1490"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1491"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1492"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1493"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1494"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1495"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1496"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1497"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1498"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1499"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1500"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1501"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1502"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1503"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1504"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1505"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1506"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1507"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1508"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1509"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1510"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1511"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1512"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1513"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1514"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1515"	"SNblunt_l"	"MN"	29	"#E69F00"	7
+"1516"	"INdecuss_r 1013576"	"SN"	29	"#CC79A7"	1
+"1517"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1518"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1519"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1520"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1521"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1522"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1523"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1524"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1525"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1526"	"INdecuss_r 1013576"	"n.a."	29	"#CC79A7"	5
+"1527"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1528"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1529"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1530"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1531"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1532"	"INpro_r1"	"n.a."	29	"#CC79A7"	3
+"1533"	"INpro_r1"	"n.a."	29	"#CC79A7"	3
+"1534"	"INpro_r1"	"n.a."	29	"#CC79A7"	3
+"1535"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1536"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1537"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1538"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1539"	"INdecuss_r 1013576"	"MN"	29	"#CC79A7"	12
+"1540"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1541"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1542"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1543"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1544"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1545"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1546"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1547"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1548"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1549"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1550"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1551"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1552"	"INpro_r1"	"effector"	29	"#CC79A7"	4
+"1553"	"INpro_r1"	"effector"	29	"#CC79A7"	4
+"1554"	"INpro_r1"	"effector"	29	"#CC79A7"	4
+"1555"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1556"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1557"	"INpro_r1"	"effector"	29	"#CC79A7"	4
+"1558"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1559"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1560"	"INpro_r1"	"IN"	29	"#CC79A7"	7
+"1561"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1562"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1563"	"SNblunt_l"	"n.a."	29	"#E69F00"	2
+"1564"	"SNblunt_l"	"n.a."	29	"#E69F00"	2
+"1565"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1566"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1567"	"INbiax_r"	"n.a."	29	"#CC79A7"	1
+"1568"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1569"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1570"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1571"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1572"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1573"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1574"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1575"	"SNblunt_l"	"SN"	29	"#E69F00"	5
+"1576"	"SNblunt_l"	"IN"	29	"#E69F00"	15
+"1577"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1578"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1579"	"INbiax_r"	"IN"	29	"#CC79A7"	24
+"1580"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1581"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1582"	"INpro_r1"	"MN"	29	"#CC79A7"	11
+"1583"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1584"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1585"	"SNblunt_l"	"SN"	29	"#E69F00"	5
+"1586"	"hCR2_l; SN"	"IN"	29	"#E69F00"	29
+"1587"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1588"	"INdecuss_r 1013576"	"IN"	29	"#CC79A7"	11
+"1589"	"INdecuss_r 1013576"	"n.a."	29	"#CC79A7"	5
+"1590"	"INdecuss_r 1013576"	"n.a."	29	"#CC79A7"	5
+"1591"	"INdecuss_r 1013576"	"n.a."	29	"#CC79A7"	5
+"1592"	"INdecuss_r 1013576"	"n.a."	29	"#CC79A7"	5
+"1593"	"INpro_r1"	"SN"	29	"#CC79A7"	4
+"1594"	"INpro_r1"	"SN"	29	"#CC79A7"	4
+"1595"	"INpro_r1"	"SN"	29	"#CC79A7"	4
+"1596"	"INpro_r1"	"SN"	29	"#CC79A7"	4
+"1597"	"hCR1_r; SN"	"SN"	28	"#E69F00"	5
+"1598"	"hCR1_r; SN"	"SN"	28	"#E69F00"	5
+"1599"	"hCR1_r; SN"	"SN"	28	"#E69F00"	5
+"1600"	"hCR1_r; SN"	"SN"	28	"#E69F00"	5
+"1601"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1602"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1603"	"hCR1_r; SN"	"SN"	28	"#E69F00"	5
+"1604"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1605"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1606"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1607"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1608"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1609"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1610"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1611"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1612"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1613"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1614"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1615"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1616"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1617"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1618"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1619"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1620"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1621"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1622"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1623"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1624"	"hCR1_r; SN"	"IN"	28	"#E69F00"	23
+"1625"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1626"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1627"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1628"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1629"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1630"	"SNblunt_r"	"MN"	26	"#E69F00"	6
+"1631"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1632"	"SNblunt_r"	"SN"	26	"#E69F00"	5
+"1633"	"SNblunt_r"	"SN"	26	"#E69F00"	5
+"1634"	"SNblunt_r"	"SN"	26	"#E69F00"	5
+"1635"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1636"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1637"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1638"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1639"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1640"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1641"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1642"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1643"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1644"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1645"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1646"	"SNblunt_r"	"SN"	26	"#E69F00"	5
+"1647"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1648"	"SNblunt_r"	"SN"	26	"#E69F00"	5
+"1649"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1650"	"SNblunt_r"	"IN"	26	"#E69F00"	15
+"1651"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1652"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1653"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1654"	"Ser-h1_r"	"SN"	25	"#0072B2"	4
+"1655"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1656"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1657"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1658"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1659"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1660"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1661"	"Ser-h1_r"	"SN"	25	"#0072B2"	4
+"1662"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1663"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1664"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1665"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1666"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1667"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1668"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1669"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1670"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1671"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1672"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1673"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1674"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1675"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1676"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1677"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1678"	"cMNATO"	"MN"	25	"#CC79A7"	12
+"1679"	"Ser-h1_r"	"effector"	25	"#0072B2"	4
+"1680"	"Ser-h1_r"	"effector"	25	"#0072B2"	4
+"1681"	"Ser-h1_r"	"effector"	25	"#0072B2"	4
+"1682"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1683"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1684"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1685"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1686"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1687"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1688"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1689"	"Ser-h1_r"	"effector"	25	"#0072B2"	4
+"1690"	"Ser-h1_r"	"SN"	25	"#0072B2"	4
+"1691"	"Ser-h1_r"	"SN"	25	"#0072B2"	4
+"1692"	"cMNATO"	"IN"	25	"#CC79A7"	4
+"1693"	"cMNATO"	"IN"	25	"#CC79A7"	4
+"1694"	"cMNATO"	"IN"	25	"#CC79A7"	4
+"1695"	"cMNATO"	"IN"	25	"#CC79A7"	4
+"1696"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1697"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1698"	"Ser-h1_r"	"MN"	25	"#0072B2"	6
+"1699"	"cMNATO"	"SN"	25	"#CC79A7"	9
+"1700"	"Ser-h1_r"	"IN"	25	"#0072B2"	11
+"1701"	"cMNPDF-vcl1"	"IN"	22	"#CC79A7"	5
+"1702"	"cMNPDF-vcl1"	"IN"	22	"#CC79A7"	5
+"1703"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1704"	"cMNPDF-vcl1"	"SN"	22	"#CC79A7"	5
+"1705"	"cMNPDF-vcl1"	"SN"	22	"#CC79A7"	5
+"1706"	"cMNPDF-vcl1"	"SN"	22	"#CC79A7"	5
+"1707"	"cMNPDF-vcl1"	"SN"	22	"#CC79A7"	5
+"1708"	"cMNPDF-vcl1"	"SN"	22	"#CC79A7"	5
+"1709"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1710"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1711"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1712"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1713"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1714"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1715"	"cMNPDF-vcl1"	"IN"	22	"#CC79A7"	5
+"1716"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1717"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1718"	"cMNPDF-vcl1"	"MN"	22	"#CC79A7"	10
+"1719"	"cMNPDF-vcl1"	"IN"	22	"#CC79A7"	5
+"1720"	"cMNPDF-vcl1"	"n.a."	22	"#CC79A7"	2
+"1721"	"cMNPDF-vcl1"	"n.a."	22	"#CC79A7"	2
+"1722"	"cMNPDF-vcl1"	"IN"	22	"#CC79A7"	5
+"1723"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1724"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1725"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1726"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1727"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1728"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1729"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1730"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1731"	"MN3_r"	"MN"	21	"#0072B2"	3
+"1732"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1733"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1734"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1735"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1736"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1737"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1738"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1739"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1740"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1741"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1742"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1743"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1744"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1745"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1746"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1747"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1748"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1749"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1750"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1751"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1752"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1753"	"MN3_r"	"MN"	21	"#0072B2"	3
+"1754"	"MN3_r"	"MN"	21	"#0072B2"	3
+"1755"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1756"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1757"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1758"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1759"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1760"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1761"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1762"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1763"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1764"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1765"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1766"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1767"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1768"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1769"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1770"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1771"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1772"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1773"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1774"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1775"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1776"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1777"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1778"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1779"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1780"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1781"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1782"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1783"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1784"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1785"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1786"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1787"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1788"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1789"	"hCR1_r1; antCR_1r; SN"	"effector"	21	"#E69F00"	1
+"1790"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1791"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1792"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1793"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1794"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1795"	"dsoCR_1r; PDF"	"IN"	21	"#E69F00"	21
+"1796"	"hCR1_r1; antCR_1r; SN"	"IN"	21	"#E69F00"	20
+"1797"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1798"	"MN3_r"	"IN"	21	"#0072B2"	10
+"1799"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1800"	"hCR1_l1; SN"	"IN"	21	"#E69F00"	21
+"1801"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1802"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1803"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1804"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1805"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1806"	"MN3_r"	"n.a."	21	"#0072B2"	8
+"1807"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1808"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1809"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1810"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1811"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1812"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1813"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1814"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1815"	"INhorn_r"	"MN"	20	"#CC79A7"	3
+"1816"	"INhorn_r"	"MN"	20	"#CC79A7"	3
+"1817"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1818"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1819"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1820"	"INarc2_l"	"n.a."	20	"#CC79A7"	3
+"1821"	"INarc2_l"	"MN"	20	"#CC79A7"	4
+"1822"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1823"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1824"	"INarc2_l"	"n.a."	20	"#CC79A7"	3
+"1825"	"INarc2_l"	"n.a."	20	"#CC79A7"	3
+"1826"	"INarc2_l"	"MN"	20	"#CC79A7"	4
+"1827"	"INarc2_l"	"MN"	20	"#CC79A7"	4
+"1828"	"INarc2_l"	"MN"	20	"#CC79A7"	4
+"1829"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1830"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1831"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1832"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1833"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1834"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1835"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1836"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1837"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1838"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1839"	"INhorn_r"	"MN"	20	"#CC79A7"	3
+"1840"	"INhorn_r"	"SN"	20	"#CC79A7"	2
+"1841"	"INhorn_r"	"SN"	20	"#CC79A7"	2
+"1842"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1843"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1844"	"INhorn_r"	"IN"	20	"#CC79A7"	15
+"1845"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1846"	"INarc2_l"	"IN"	20	"#CC79A7"	13
+"1847"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1848"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1849"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1850"	"MNgland-head_r"	"MN"	19	"#0072B2"	3
+"1851"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1852"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1853"	"INtorii_r"	"MN"	19	"#CC79A7"	1
+"1854"	"INtorii_r"	"SN"	19	"#CC79A7"	1
+"1855"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1856"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1857"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1858"	"MNgland-head_r"	"MN"	19	"#0072B2"	3
+"1859"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1860"	"MNgland-head_r"	"SN"	19	"#0072B2"	1
+"1861"	"INtorii_r"	"n.a."	19	"#CC79A7"	1
+"1862"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1863"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1864"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1865"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1866"	"MNgland-head_r"	"MN"	19	"#0072B2"	3
+"1867"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1868"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1869"	"MNgland-head_r"	"IN"	19	"#0072B2"	7
+"1870"	"MNgland-head_r"	"n.a."	19	"#0072B2"	3
+"1871"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1872"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1873"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1874"	"MNgland-head_r"	"effector"	19	"#0072B2"	5
+"1875"	"MNgland-head_r"	"effector"	19	"#0072B2"	5
+"1876"	"MNgland-head_r"	"effector"	19	"#0072B2"	5
+"1877"	"MNgland-head_r"	"effector"	19	"#0072B2"	5
+"1878"	"MNgland-head_r"	"effector"	19	"#0072B2"	5
+"1879"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1880"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1881"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1882"	"INtorii_r"	"IN"	19	"#CC79A7"	16
+"1883"	"MNgland-head_r"	"n.a."	19	"#0072B2"	3
+"1884"	"MNgland-head_r"	"n.a."	19	"#0072B2"	3
+"1885"	"dsoCR_1l"	"MN"	18	"#E69F00"	1
+"1886"	"INdecussfoot_r"	"n.a."	18	"#CC79A7"	5
+"1887"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1888"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1889"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1890"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1891"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1892"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1893"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1894"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1895"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1896"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1897"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1898"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1899"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1900"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1901"	"INdecussfoot_r"	"MN"	18	"#CC79A7"	2
+"1902"	"INdecussfoot_r"	"MN"	18	"#CC79A7"	2
+"1903"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1904"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1905"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1906"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1907"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1908"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1909"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1910"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1911"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1912"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1913"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1914"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1915"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1916"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1917"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1918"	"INMC3_r"	"MN"	18	"#CC79A7"	15
+"1919"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1920"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1921"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1922"	"INdecussfoot_r"	"n.a."	18	"#CC79A7"	5
+"1923"	"INdecussfoot_r"	"n.a."	18	"#CC79A7"	5
+"1924"	"INMC3_r"	"IN"	18	"#CC79A7"	3
+"1925"	"INMC3_r"	"IN"	18	"#CC79A7"	3
+"1926"	"INMC3_r"	"IN"	18	"#CC79A7"	3
+"1927"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1928"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1929"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1930"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1931"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1932"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1933"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1934"	"dsoCR_1l"	"IN"	18	"#E69F00"	17
+"1935"	"INdecussfoot_r"	"n.a."	18	"#CC79A7"	5
+"1936"	"INdecussfoot_r"	"n.a."	18	"#CC79A7"	5
+"1937"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1938"	"INdecussfoot_r"	"IN"	18	"#CC79A7"	11
+"1939"	"dsoCR_3r"	"effector"	17	"#E69F00"	2
+"1940"	"dsoCR_3r"	"effector"	17	"#E69F00"	2
+"1941"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1942"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1943"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1944"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1945"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1946"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1947"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1948"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1949"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1950"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1951"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1952"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1953"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1954"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1955"	"dsoCR_3r"	"IN"	17	"#E69F00"	15
+"1956"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1957"	"hPUc_3r; SN"	"MN"	16	"#E69F00"	1
+"1958"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1959"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1960"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1961"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1962"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1963"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1964"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1965"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1966"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1967"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1968"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1969"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1970"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1971"	"hPUc_3r; SN"	"IN"	16	"#E69F00"	15
+"1972"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1973"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1974"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1975"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1976"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1977"	"INtorii_l"	"SN"	15	"#CC79A7"	1
+"1978"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1979"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1980"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1981"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1982"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1983"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1984"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1985"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1986"	"INtorii_l"	"IN"	15	"#CC79A7"	14
+"1987"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"1988"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"1989"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"1990"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"1991"	"INarc1_l"	"SN"	14	"#CC79A7"	1
+"1992"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"1993"	"INdecuss_r 1363308"	"n.a."	14	"#CC79A7"	2
+"1994"	"INarc1_l"	"MN"	14	"#CC79A7"	3
+"1995"	"INarc1_l"	"MN"	14	"#CC79A7"	3
+"1996"	"INarc1_l"	"MN"	14	"#CC79A7"	3
+"1997"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"1998"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"1999"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2000"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"2001"	"INdecuss_r 1363308"	"MN"	14	"#CC79A7"	3
+"2002"	"INdecuss_r 1363308"	"MN"	14	"#CC79A7"	3
+"2003"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2004"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2005"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2006"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2007"	"INdecuss_r 1363308"	"n.a."	14	"#CC79A7"	2
+"2008"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"2009"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"2010"	"INdecuss_r 1363308"	"MN"	14	"#CC79A7"	3
+"2011"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2012"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"2013"	"INarc1_l"	"IN"	14	"#CC79A7"	10
+"2014"	"INdecuss_r 1363308"	"IN"	14	"#CC79A7"	9
+"2015"	"INdesc_exsn_r; sn_like"	"SN"	13	"#CC79A7"	5
+"2016"	"INdesc_exsn_r; sn_like"	"SN"	13	"#CC79A7"	5
+"2017"	"INdesc_exsn_r; sn_like"	"SN"	13	"#CC79A7"	5
+"2018"	"INdesc_exsn_r; sn_like"	"SN"	13	"#CC79A7"	5
+"2019"	"INdesc_exsn_r; sn_like"	"IN"	13	"#CC79A7"	4
+"2020"	"INdecusshook_r"	"MN"	13	"#CC79A7"	5
+"2021"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2022"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2023"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2024"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2025"	"INdesc_exsn_r; sn_like"	"IN"	13	"#CC79A7"	4
+"2026"	"INdesc_exsn_r; sn_like"	"IN"	13	"#CC79A7"	4
+"2027"	"INdecusshook_r"	"MN"	13	"#CC79A7"	5
+"2028"	"INdecusshook_r"	"MN"	13	"#CC79A7"	5
+"2029"	"INdecusshook_r"	"MN"	13	"#CC79A7"	5
+"2030"	"INdecusshook_r"	"MN"	13	"#CC79A7"	5
+"2031"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2032"	"INdesc_exsn_r; sn_like"	"IN"	13	"#CC79A7"	4
+"2033"	"INdesc_exsn_r; sn_like"	"effector"	13	"#CC79A7"	2
+"2034"	"INdesc_exsn_r; sn_like"	"effector"	13	"#CC79A7"	2
+"2035"	"INdesc_exsn_r; sn_like"	"SN"	13	"#CC79A7"	5
+"2036"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2037"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2038"	"INdecusshook_r"	"IN"	13	"#CC79A7"	8
+"2039"	"INdesc_exsn_r; sn_like"	"n.a."	13	"#CC79A7"	2
+"2040"	"INdesc_exsn_r; sn_like"	"n.a."	13	"#CC79A7"	2
+"2041"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2042"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2043"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2044"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2045"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2046"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2047"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2048"	"INMC3_l"	"MN"	12	"#CC79A7"	8
+"2049"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2050"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2051"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2052"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2053"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2054"	"cMNdc"	"SN"	12	"#CC79A7"	6
+"2055"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2056"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2057"	"cMNdc"	"effector"	12	"#CC79A7"	3
+"2058"	"cMNdc"	"effector"	12	"#CC79A7"	3
+"2059"	"INMBdesc2_r 1342039"	"MN"	12	"#CC79A7"	2
+"2060"	"INMBdesc2_r 1342039"	"MN"	12	"#CC79A7"	2
+"2061"	"cMNdc"	"MN"	12	"#CC79A7"	3
+"2062"	"INproT2_l2; INpro_l2 "	"IN"	12	"#CC79A7"	5
+"2063"	"cMNdc"	"MN"	12	"#CC79A7"	3
+"2064"	"cMNdc"	"MN"	12	"#CC79A7"	3
+"2065"	"INMC3_l"	"IN"	12	"#CC79A7"	3
+"2066"	"INMC3_l"	"IN"	12	"#CC79A7"	3
+"2067"	"INMC3_l"	"IN"	12	"#CC79A7"	3
+"2068"	"INMBdesc2_r 1342039"	"SN"	12	"#CC79A7"	1
+"2069"	"INMBdesc2_r 1342039"	"IN"	12	"#CC79A7"	4
+"2070"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2071"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2072"	"INproT2_l2; INpro_l2 "	"IN"	12	"#CC79A7"	5
+"2073"	"INMC3_l"	"n.a."	12	"#CC79A7"	1
+"2074"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2075"	"INMBdesc2_r 1342039"	"IN"	12	"#CC79A7"	4
+"2076"	"INproT2_l2; INpro_l2 "	"IN"	12	"#CC79A7"	5
+"2077"	"INproT2_l2; INpro_l2 "	"IN"	12	"#CC79A7"	5
+"2078"	"INproT2_l2; INpro_l2 "	"IN"	12	"#CC79A7"	5
+"2079"	"INMBdesc2_r 1342039"	"IN"	12	"#CC79A7"	4
+"2080"	"cMNdc"	"effector"	12	"#CC79A7"	3
+"2081"	"INproT2_l2; INpro_l2 "	"n.a."	12	"#CC79A7"	1
+"2082"	"INproT2_l2; INpro_l2 "	"MN"	12	"#CC79A7"	6
+"2083"	"INMBdesc2_r 1342039"	"IN"	12	"#CC79A7"	4
+"2084"	"INMBdesc2_r 1342039"	"n.a."	12	"#CC79A7"	5
+"2085"	"INMBdesc2_r 1342039"	"n.a."	12	"#CC79A7"	5
+"2086"	"INMBdesc2_r 1342039"	"n.a."	12	"#CC79A7"	5
+"2087"	"INMBdesc2_r 1342039"	"n.a."	12	"#CC79A7"	5
+"2088"	"INMBdesc2_r 1342039"	"n.a."	12	"#CC79A7"	5
+"2089"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2090"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2091"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2092"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2093"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2094"	"INMBdescFMRF_r"	"n.a."	11	"#CC79A7"	1
+"2095"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2096"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2097"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2098"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2099"	"INMBdescFMRF_r"	"IN"	11	"#CC79A7"	10
+"2100"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2101"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2102"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2103"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2104"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2105"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2106"	"INdecusshook_l"	"effector"	10	"#CC79A7"	3
+"2107"	"INdecusshook_l"	"effector"	10	"#CC79A7"	3
+"2108"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2109"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2110"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2111"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2112"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2113"	"INdecusshook_l"	"n.a."	10	"#CC79A7"	1
+"2114"	"INUturn_r"	"MN"	10	"#CC79A7"	6
+"2115"	"INCrossbow_l"	"effector"	10	"#CC79A7"	1
+"2116"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2117"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2118"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2119"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2120"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2121"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2122"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2123"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2124"	"INUturn_r"	"effector"	10	"#CC79A7"	1
+"2125"	"INdecusshook_l"	"effector"	10	"#CC79A7"	3
+"2126"	"INUturn_r"	"IN"	10	"#CC79A7"	3
+"2127"	"INUturn_r"	"IN"	10	"#CC79A7"	3
+"2128"	"INUturn_r"	"IN"	10	"#CC79A7"	3
+"2129"	"INCrossbow_l"	"n.a."	10	"#CC79A7"	1
+"2130"	"INCrossbow_l"	"MN"	10	"#CC79A7"	1
+"2131"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2132"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2133"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2134"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2135"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2136"	"INCrossbow_l"	"IN"	10	"#CC79A7"	7
+"2137"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2138"	"INdecusshook_l"	"IN"	10	"#CC79A7"	6
+"2139"	"INpro_r2; INvc_r7"	"IN"	10	"#CC79A7"	10
+"2140"	"antCR_3r; SN"	"SN"	9	"#E69F00"	1
+"2141"	"INdescRFa_r"	"IN"	9	"#CC79A7"	4
+"2142"	"INdesc_l 1259647"	"SN"	9	"#CC79A7"	3
+"2143"	"INdescRFa_r"	"IN"	9	"#CC79A7"	4
+"2144"	"INdesc_l 1259647"	"IN"	9	"#CC79A7"	4
+"2145"	"INdescRFa_r"	"MN"	9	"#CC79A7"	3
+"2146"	"INdescRFa_r"	"MN"	9	"#CC79A7"	3
+"2147"	"INdescRFa_r"	"MN"	9	"#CC79A7"	3
+"2148"	"INdescRFa_r"	"SN"	9	"#CC79A7"	1
+"2149"	"dsoPU3unp"	"MN"	9	"#E69F00"	1
+"2150"	"INdesc_l 1259647"	"MN"	9	"#CC79A7"	1
+"2151"	"INdescRFa_r"	"IN"	9	"#CC79A7"	4
+"2152"	"INdesc_l 1259647"	"IN"	9	"#CC79A7"	4
+"2153"	"INdescRFa_r"	"IN"	9	"#CC79A7"	4
+"2154"	"INdesc_l 1259647"	"n.a."	9	"#CC79A7"	1
+"2155"	"INdesc_l 1259647"	"SN"	9	"#CC79A7"	3
+"2156"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2157"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2158"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2159"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2160"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2161"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2162"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2163"	"dsoPU3unp"	"IN"	9	"#E69F00"	8
+"2164"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2165"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2166"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2167"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2168"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2169"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2170"	"antCR_3r; SN"	"IN"	9	"#E69F00"	7
+"2171"	"INdescRFa_r"	"n.a."	9	"#CC79A7"	1
+"2172"	"antCR_3r; SN"	"effector"	9	"#E69F00"	1
+"2173"	"INdesc_l 1259647"	"IN"	9	"#CC79A7"	4
+"2174"	"INdesc_l 1259647"	"IN"	9	"#CC79A7"	4
+"2175"	"INdesc_l 1259647"	"SN"	9	"#CC79A7"	3
+"2176"	"INdecussM_PDF_r"	"IN"	8	"#CC79A7"	3
+"2177"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2178"	"INdecuss_l 1855915"	"MN"	8	"#CC79A7"	3
+"2179"	"MNakro_r"	"effector"	8	"#0072B2"	1
+"2180"	"MNakro_r"	"SN"	8	"#0072B2"	1
+"2181"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2182"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2183"	"INdecussM_PDF_r"	"MN"	8	"#CC79A7"	5
+"2184"	"MNakro_r"	"MN"	8	"#0072B2"	4
+"2185"	"MNakro_r"	"MN"	8	"#0072B2"	4
+"2186"	"MNakro_r"	"MN"	8	"#0072B2"	4
+"2187"	"MNakro_r"	"MN"	8	"#0072B2"	4
+"2188"	"SNantlerPDF_r"	"MN"	8	"#E69F00"	2
+"2189"	"INdecuss_l 1855915"	"IN"	8	"#CC79A7"	4
+"2190"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2191"	"MNakro_l"	"MN"	8	"#0072B2"	2
+"2192"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2193"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2194"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2195"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2196"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2197"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2198"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2199"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2200"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2201"	"MNakro_l"	"effector"	8	"#0072B2"	6
+"2202"	"INdecussM_PDF_r"	"IN"	8	"#CC79A7"	3
+"2203"	"MNakro_l"	"MN"	8	"#0072B2"	2
+"2204"	"INdecussM_PDF_r"	"IN"	8	"#CC79A7"	3
+"2205"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2206"	"INdecuss_l 1855915"	"MN"	8	"#CC79A7"	3
+"2207"	"INdecuss_l 1855915"	"IN"	8	"#CC79A7"	4
+"2208"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2209"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2210"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2211"	"INdecussM_PDF_r"	"MN"	8	"#CC79A7"	5
+"2212"	"INdecussM_PDF_r"	"MN"	8	"#CC79A7"	5
+"2213"	"INdecussM_PDF_r"	"MN"	8	"#CC79A7"	5
+"2214"	"INdecussM_PDF_r"	"MN"	8	"#CC79A7"	5
+"2215"	"SNantlerPDF_r"	"MN"	8	"#E69F00"	2
+"2216"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2217"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2218"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2219"	"INdecuss_l 1855915"	"MN"	8	"#CC79A7"	3
+"2220"	"INdecussM_l"	"n.a."	8	"#CC79A7"	2
+"2221"	"INdecussM_l"	"n.a."	8	"#CC79A7"	2
+"2222"	"INdecuss_l 1855915"	"IN"	8	"#CC79A7"	4
+"2223"	"INdecuss_l 1855915"	"n.a."	8	"#CC79A7"	1
+"2224"	"INdecuss_l 1855915"	"IN"	8	"#CC79A7"	4
+"2225"	"SNantlerPDF_r"	"IN"	8	"#E69F00"	6
+"2226"	"INdesc_r 1998558"	"IN"	8	"#CC79A7"	8
+"2227"	"MNakro_r"	"IN"	8	"#0072B2"	2
+"2228"	"MNakro_r"	"IN"	8	"#0072B2"	2
+"2229"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2230"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2231"	"INdecussM_l"	"IN"	8	"#CC79A7"	6
+"2232"	"INdescRGWa_r"	"effector"	7	"#CC79A7"	1
+"2233"	"INdecussn2_l 1264499"	"IN"	7	"#CC79A7"	3
+"2234"	"INdecussn2_l 1264499"	"IN"	7	"#CC79A7"	3
+"2235"	"MNdecuss_r 1593703"	"IN"	7	"#0072B2"	5
+"2236"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2237"	"INdesc_r 1731420"	"IN"	7	"#CC79A7"	4
+"2238"	"INdecuss_l 780916"	"SN"	7	"#CC79A7"	1
+"2239"	"INdescRGWa_r"	"SN"	7	"#CC79A7"	1
+"2240"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2241"	"INdecussPre_l"	"IN"	7	"#CC79A7"	4
+"2242"	"INdecussPre_l"	"MN"	7	"#CC79A7"	1
+"2243"	"INdecussPre_l"	"IN"	7	"#CC79A7"	4
+"2244"	"INdescRGWa_r"	"IN"	7	"#CC79A7"	5
+"2245"	"INdecussPre_l"	"IN"	7	"#CC79A7"	4
+"2246"	"INdesc_r 1731420"	"IN"	7	"#CC79A7"	4
+"2247"	"INdescRGWa_r"	"IN"	7	"#CC79A7"	5
+"2248"	"INdecussn2_l 1264499"	"MN"	7	"#CC79A7"	3
+"2249"	"INdecussn2_l 1264499"	"MN"	7	"#CC79A7"	3
+"2250"	"INdesc_r 1731420"	"MN"	7	"#CC79A7"	1
+"2251"	"INdecussn2_l 1264499"	"IN"	7	"#CC79A7"	3
+"2252"	"MNdecuss_r 1593703"	"IN"	7	"#0072B2"	5
+"2253"	"INdesc_r 1731420"	"n.a."	7	"#CC79A7"	1
+"2254"	"INdecuss_l 780916"	"IN"	7	"#CC79A7"	5
+"2255"	"INdecuss_l 780916"	"n.a."	7	"#CC79A7"	1
+"2256"	"INdecussPre_l"	"IN"	7	"#CC79A7"	4
+"2257"	"INdecussn2_l 1264499"	"MN"	7	"#CC79A7"	3
+"2258"	"INdesc_r 1731420"	"SN"	7	"#CC79A7"	1
+"2259"	"INdecussPre_l"	"n.a."	7	"#CC79A7"	1
+"2260"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2261"	"INdecuss_l 780916"	"IN"	7	"#CC79A7"	5
+"2262"	"MNdecuss_r 1593703"	"effector"	7	"#0072B2"	1
+"2263"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2264"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2265"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2266"	"MNdecuss_r 1593703"	"n.a."	7	"#0072B2"	1
+"2267"	"INMBPDF_l1"	"n.a."	7	"#CC79A7"	1
+"2268"	"INdecussPre_l"	"effector"	7	"#CC79A7"	1
+"2269"	"INdecussn2_l 1264499"	"effector"	7	"#CC79A7"	1
+"2270"	"INdesc_r 1731420"	"IN"	7	"#CC79A7"	4
+"2271"	"INdesc_r 1731420"	"IN"	7	"#CC79A7"	4
+"2272"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2273"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2274"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2275"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2276"	"INpro_l6"	"IN"	7	"#CC79A7"	7
+"2277"	"INdecuss_l 780916"	"IN"	7	"#CC79A7"	5
+"2278"	"INdecuss_l 780916"	"IN"	7	"#CC79A7"	5
+"2279"	"INdescRGWa_r"	"IN"	7	"#CC79A7"	5
+"2280"	"INdescRGWa_r"	"IN"	7	"#CC79A7"	5
+"2281"	"INdescRGWa_r"	"IN"	7	"#CC79A7"	5
+"2282"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2283"	"INMBPDF_l1"	"IN"	7	"#CC79A7"	6
+"2284"	"MNdecuss_r 1593703"	"IN"	7	"#0072B2"	5
+"2285"	"INdecuss_l 780916"	"IN"	7	"#CC79A7"	5
+"2286"	"MNdecuss_r 1593703"	"IN"	7	"#0072B2"	5
+"2287"	"MNdecuss_r 1593703"	"IN"	7	"#0072B2"	5
+"2288"	"INdecuss_r 1796980"	"n.a."	6	"#CC79A7"	1
+"2289"	"antCR_4r; SN"	"SN"	6	"#E69F00"	3
+"2290"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2291"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2292"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2293"	"INdecuss_r 1321500"	"IN"	6	"#CC79A7"	3
+"2294"	"antCR_4r; SN"	"SN"	6	"#E69F00"	3
+"2295"	"antCR_4r; SN"	"SN"	6	"#E69F00"	3
+"2296"	"INbigloop_l1"	"SN"	6	"#CC79A7"	1
+"2297"	"INdecuss_l 1856972"	"SN"	6	"#CC79A7"	1
+"2298"	"INproT3_r1; INpro_r3"	"IN"	6	"#CC79A7"	4
+"2299"	"INUturn_l"	"IN"	6	"#CC79A7"	2
+"2300"	"INW_r1"	"IN"	6	"#CC79A7"	3
+"2301"	"INW_r1"	"IN"	6	"#CC79A7"	3
+"2302"	"INW_r1"	"IN"	6	"#CC79A7"	3
+"2303"	"INdecuss_r 1796980"	"IN"	6	"#CC79A7"	4
+"2304"	"INdecuss_r 1321500"	"n.a."	6	"#CC79A7"	2
+"2305"	"INMBdesc2FMRFtype2_l"	"IN"	6	"#CC79A7"	4
+"2306"	"SNantlerPDF_l"	"MN"	6	"#E69F00"	5
+"2307"	"SNantlerPDF_l"	"MN"	6	"#E69F00"	5
+"2308"	"SNantlerPDF_l"	"MN"	6	"#E69F00"	5
+"2309"	"SNantlerPDF_l"	"MN"	6	"#E69F00"	5
+"2310"	"SNantlerPDF_l"	"MN"	6	"#E69F00"	5
+"2311"	"INW_r1"	"MN"	6	"#CC79A7"	2
+"2312"	"INW_r1"	"MN"	6	"#CC79A7"	2
+"2313"	"INUturn_l"	"MN"	6	"#CC79A7"	4
+"2314"	"INUturn_l"	"MN"	6	"#CC79A7"	4
+"2315"	"INUturn_l"	"MN"	6	"#CC79A7"	4
+"2316"	"INUturn_l"	"MN"	6	"#CC79A7"	4
+"2317"	"INdecuss_r 1796980"	"MN"	6	"#CC79A7"	1
+"2318"	"INdecuss_r 1321500"	"MN"	6	"#CC79A7"	1
+"2319"	"INbigloop_l1"	"n.a."	6	"#CC79A7"	1
+"2320"	"INproT3_r1; INpro_r3"	"IN"	6	"#CC79A7"	4
+"2321"	"antCR_4r; SN"	"IN"	6	"#E69F00"	3
+"2322"	"INUturn_l"	"IN"	6	"#CC79A7"	2
+"2323"	"INdecuss_r 1796980"	"IN"	6	"#CC79A7"	4
+"2324"	"INbigloop_l1"	"MN"	6	"#CC79A7"	1
+"2325"	"INproT3_r1; INpro_r3"	"SN"	6	"#CC79A7"	2
+"2326"	"INproT3_r1; INpro_r3"	"SN"	6	"#CC79A7"	2
+"2327"	"INbigloop_l1"	"IN"	6	"#CC79A7"	3
+"2328"	"INbigloop_l1"	"IN"	6	"#CC79A7"	3
+"2329"	"INbigloop_l1"	"IN"	6	"#CC79A7"	3
+"2330"	"INdecuss_l 1856972"	"IN"	6	"#CC79A7"	4
+"2331"	"SNantlerPDF_l"	"IN"	6	"#E69F00"	1
+"2332"	"INdecuss_r 1796980"	"IN"	6	"#CC79A7"	4
+"2333"	"INproT2_l1"	"MN"	6	"#CC79A7"	3
+"2334"	"INproT2_l1"	"IN"	6	"#CC79A7"	2
+"2335"	"INMBdesc2FMRFtype2_l"	"n.a."	6	"#CC79A7"	1
+"2336"	"INW_r1"	"SN"	6	"#CC79A7"	1
+"2337"	"INdecuss_r 1321500"	"IN"	6	"#CC79A7"	3
+"2338"	"INproT2_r2; INpro_r2"	"IN"	6	"#CC79A7"	3
+"2339"	"INvc_l8"	"IN"	6	"#CC79A7"	5
+"2340"	"antCR_4r; SN"	"IN"	6	"#E69F00"	3
+"2341"	"antCR_4r; SN"	"IN"	6	"#E69F00"	3
+"2342"	"INMBdesc2FMRFtype2_l"	"IN"	6	"#CC79A7"	4
+"2343"	"INproT2_l1"	"n.a."	6	"#CC79A7"	1
+"2344"	"INdecuss_r 1796980"	"IN"	6	"#CC79A7"	4
+"2345"	"INMBdesc2FMRFtype2_l"	"MN"	6	"#CC79A7"	1
+"2346"	"INproT2_l1"	"MN"	6	"#CC79A7"	3
+"2347"	"INMBdesc2FMRFtype2_l"	"IN"	6	"#CC79A7"	4
+"2348"	"INproT2_r2; INpro_r2"	"MN"	6	"#CC79A7"	2
+"2349"	"INproT2_r2; INpro_r2"	"MN"	6	"#CC79A7"	2
+"2350"	"INvc_l8"	"n.a."	6	"#CC79A7"	1
+"2351"	"INproT3_r1; INpro_r3"	"IN"	6	"#CC79A7"	4
+"2352"	"INvc_l8"	"IN"	6	"#CC79A7"	5
+"2353"	"INproT2_l1"	"MN"	6	"#CC79A7"	3
+"2354"	"INvc_l8"	"IN"	6	"#CC79A7"	5
+"2355"	"INdecuss_l 1856972"	"IN"	6	"#CC79A7"	4
+"2356"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2357"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2358"	"INMBdesc2FMRFtype2_l"	"IN"	6	"#CC79A7"	4
+"2359"	"INproT3_r1; INpro_r3"	"IN"	6	"#CC79A7"	4
+"2360"	"INdecuss_r 1321500"	"n.a."	6	"#CC79A7"	2
+"2361"	"INproT2_r2; INpro_r2"	"n.a."	6	"#CC79A7"	1
+"2362"	"INvc_l8"	"IN"	6	"#CC79A7"	5
+"2363"	"INvc_l8"	"IN"	6	"#CC79A7"	5
+"2364"	"INdecuss_r 1321500"	"IN"	6	"#CC79A7"	3
+"2365"	"INdecuss_l 1856972"	"n.a."	6	"#CC79A7"	1
+"2366"	"INdecuss_l 1856972"	"IN"	6	"#CC79A7"	4
+"2367"	"INdecuss_l 1856972"	"IN"	6	"#CC79A7"	4
+"2368"	"INsplitPUh_l2"	"IN"	6	"#CC79A7"	6
+"2369"	"INproT2_l1"	"IN"	6	"#CC79A7"	2
+"2370"	"INproT2_r2; INpro_r2"	"IN"	6	"#CC79A7"	3
+"2371"	"INproT2_r2; INpro_r2"	"IN"	6	"#CC79A7"	3
+"2372"	"INdecuss_r 1928755"	"IN"	5	"#CC79A7"	3
+"2373"	"INsn_r4"	"SN"	5	"#CC79A7"	5
+"2374"	"INsn_r4"	"SN"	5	"#CC79A7"	5
+"2375"	"INsn_r4"	"SN"	5	"#CC79A7"	5
+"2376"	"INsn_r4"	"SN"	5	"#CC79A7"	5
+"2377"	"INsn_r4"	"SN"	5	"#CC79A7"	5
+"2378"	"INdecuss_r 1928755"	"IN"	5	"#CC79A7"	3
+"2379"	"INdecuss_r 1928755"	"IN"	5	"#CC79A7"	3
+"2380"	"INdecuss_r 1701850"	"SN"	5	"#CC79A7"	2
+"2381"	"INdecuss_r 1701850"	"SN"	5	"#CC79A7"	2
+"2382"	"INdecuss_l 1354049"	"IN"	5	"#CC79A7"	3
+"2383"	"MNheadV_r1"	"effector"	5	"#0072B2"	5
+"2384"	"MNheadV_r1"	"effector"	5	"#0072B2"	5
+"2385"	"MNheadV_r1"	"effector"	5	"#0072B2"	5
+"2386"	"MNheadV_r1"	"effector"	5	"#0072B2"	5
+"2387"	"MNheadV_r1"	"effector"	5	"#0072B2"	5
+"2388"	"INdecuss_l 1354049"	"IN"	5	"#CC79A7"	3
+"2389"	"INdecuss_r 1928755"	"n.a."	5	"#CC79A7"	1
+"2390"	"INdecuss_r 1928755"	"MN"	5	"#CC79A7"	1
+"2391"	"INdecuss_l 1354049"	"n.a."	5	"#CC79A7"	2
+"2392"	"INdecuss_l 1354049"	"n.a."	5	"#CC79A7"	2
+"2393"	"INdecuss_l 1354049"	"IN"	5	"#CC79A7"	3
+"2394"	"INZ_l2"	"IN"	5	"#CC79A7"	5
+"2395"	"INZ_l2"	"IN"	5	"#CC79A7"	5
+"2396"	"INZ_l2"	"IN"	5	"#CC79A7"	5
+"2397"	"INZ_l2"	"IN"	5	"#CC79A7"	5
+"2398"	"INZ_l2"	"IN"	5	"#CC79A7"	5
+"2399"	"INdecuss_r 1701850"	"IN"	5	"#CC79A7"	3
+"2400"	"INdecuss_r 1701850"	"IN"	5	"#CC79A7"	3
+"2401"	"INdecuss_r 1701850"	"IN"	5	"#CC79A7"	3
+"2402"	"INpro_l1"	"IN"	4	"#CC79A7"	4
+"2403"	"MNdesc_l 1325300"	"IN"	4	"#0072B2"	4
+"2404"	"MNdesc_l 1325300"	"IN"	4	"#0072B2"	4
+"2405"	"SNantimp 1322646"	"MN"	4	"#E69F00"	4
+"2406"	"SNantimp 1322646"	"MN"	4	"#E69F00"	4
+"2407"	"SNant_r 1959493"	"MN"	4	"#E69F00"	4
+"2408"	"SNant_r 1959493"	"MN"	4	"#E69F00"	4
+"2409"	"SNant_r 1959493"	"MN"	4	"#E69F00"	4
+"2410"	"INhorn_l"	"MN"	4	"#CC79A7"	1
+"2411"	"SNantimp 1322646"	"MN"	4	"#E69F00"	4
+"2412"	"INW_l3"	"IN"	4	"#CC79A7"	4
+"2413"	"SNbicil_r"	"SN"	4	"#E69F00"	2
+"2414"	"SNbicil_r"	"SN"	4	"#E69F00"	2
+"2415"	"hPU2l-asymPDF"	"SN"	4	"#E69F00"	1
+"2416"	"INUturnMB_r"	"SN"	4	"#CC79A7"	2
+"2417"	"INUturnMB_r"	"SN"	4	"#CC79A7"	2
+"2418"	"INpro_l1"	"IN"	4	"#CC79A7"	4
+"2419"	"SNant_r 1959493"	"MN"	4	"#E69F00"	4
+"2420"	"hPU2l-asymPDF"	"MN"	4	"#E69F00"	3
+"2421"	"hPU2l-asymPDF"	"MN"	4	"#E69F00"	3
+"2422"	"INMB_r 1311698"	"MN"	4	"#CC79A7"	3
+"2423"	"INMB_r 1311698"	"MN"	4	"#CC79A7"	3
+"2424"	"INMB_r 1311698"	"MN"	4	"#CC79A7"	3
+"2425"	"INarc2_r"	"MN"	4	"#CC79A7"	2
+"2426"	"SNantimp 1322646"	"MN"	4	"#E69F00"	4
+"2427"	"INarc2_r"	"MN"	4	"#CC79A7"	2
+"2428"	"INhorn_l"	"IN"	4	"#CC79A7"	3
+"2429"	"INhorn_l"	"IN"	4	"#CC79A7"	3
+"2430"	"INhorn_l"	"IN"	4	"#CC79A7"	3
+"2431"	"INdesc_l 1498371"	"IN"	4	"#CC79A7"	4
+"2432"	"SNbicil_r"	"IN"	4	"#E69F00"	2
+"2433"	"INbigloop_r2"	"IN"	4	"#CC79A7"	4
+"2434"	"hPU2l-asymPDF"	"MN"	4	"#E69F00"	3
+"2435"	"SNbicil_r"	"IN"	4	"#E69F00"	2
+"2436"	"SNtorii_l"	"IN"	4	"#E69F00"	4
+"2437"	"SNtorii_l"	"IN"	4	"#E69F00"	4
+"2438"	"SNtorii_l"	"IN"	4	"#E69F00"	4
+"2439"	"INMB_r 1311698"	"IN"	4	"#CC79A7"	1
+"2440"	"SNtorii_l"	"IN"	4	"#E69F00"	4
+"2441"	"INdesc_l 1498371"	"IN"	4	"#CC79A7"	4
+"2442"	"MNdesc_l 1325300"	"IN"	4	"#0072B2"	4
+"2443"	"INarc2_r"	"IN"	4	"#CC79A7"	2
+"2444"	"INarc2_r"	"IN"	4	"#CC79A7"	2
+"2445"	"INbigloop_r2"	"IN"	4	"#CC79A7"	4
+"2446"	"INbigloop_r2"	"IN"	4	"#CC79A7"	4
+"2447"	"INbigloop_r2"	"IN"	4	"#CC79A7"	4
+"2448"	"INUturnMB_r"	"MN"	4	"#CC79A7"	1
+"2449"	"INUturnMB_r"	"IN"	4	"#CC79A7"	1
+"2450"	"INpro_l1"	"IN"	4	"#CC79A7"	4
+"2451"	"INdesc_l 1498371"	"IN"	4	"#CC79A7"	4
+"2452"	"INpro_l1"	"IN"	4	"#CC79A7"	4
+"2453"	"INW_l3"	"IN"	4	"#CC79A7"	4
+"2454"	"INZ_r1"	"IN"	4	"#CC79A7"	4
+"2455"	"INZ_r1"	"IN"	4	"#CC79A7"	4
+"2456"	"INZ_r1"	"IN"	4	"#CC79A7"	4
+"2457"	"INZ_r1"	"IN"	4	"#CC79A7"	4
+"2458"	"INW_l3"	"IN"	4	"#CC79A7"	4
+"2459"	"INW_l3"	"IN"	4	"#CC79A7"	4
+"2460"	"MNdesc_l 1325300"	"IN"	4	"#0072B2"	4
+"2461"	"INdesc_l 1498371"	"IN"	4	"#CC79A7"	4
+"2462"	"INpro_l3"	"IN"	3	"#CC79A7"	2
+"2463"	"SNbicilDhead_r"	"MN"	3	"#E69F00"	3
+"2464"	"hPBc1r"	"IN"	3	"#E69F00"	3
+"2465"	"hPBc1r"	"IN"	3	"#E69F00"	3
+"2466"	"SNbicilDhead_r"	"MN"	3	"#E69F00"	3
+"2467"	"SNbicilDhead_r"	"MN"	3	"#E69F00"	3
+"2468"	"IN 854300"	"IN"	3	"#CC79A7"	1
+"2469"	"INW_l1"	"MN"	3	"#CC79A7"	1
+"2470"	"INMB_r 149323"	"SN"	3	"#CC79A7"	1
+"2471"	"IN 854300"	"SN"	3	"#CC79A7"	2
+"2472"	"IN 854300"	"SN"	3	"#CC79A7"	2
+"2473"	"IN_mn4 333054"	"IN"	3	"#CC79A7"	2
+"2474"	"INMBdescFMRF_l"	"MN"	3	"#CC79A7"	1
+"2475"	"INMBdescFMRF_l"	"IN"	3	"#CC79A7"	2
+"2476"	"INW_l1"	"IN"	3	"#CC79A7"	2
+"2477"	"INpro_l3"	"MN"	3	"#CC79A7"	1
+"2478"	"INpro_l3"	"IN"	3	"#CC79A7"	2
+"2479"	"INpro_l2; INvc_l2"	"IN"	3	"#CC79A7"	3
+"2480"	"INMB_r 149323"	"IN"	3	"#CC79A7"	2
+"2481"	"INMBdesc2_l 296187"	"IN"	3	"#CC79A7"	3
+"2482"	"INpro_l2; INvc_l2"	"IN"	3	"#CC79A7"	3
+"2483"	"hPBc1r"	"IN"	3	"#E69F00"	3
+"2484"	"INMB_r 149323"	"IN"	3	"#CC79A7"	2
+"2485"	"INMBdesc2_l 296187"	"IN"	3	"#CC79A7"	3
+"2486"	"INMBdesc2_l 296187"	"IN"	3	"#CC79A7"	3
+"2487"	"INW_l1"	"IN"	3	"#CC79A7"	2
+"2488"	"IN_mn4 333054"	"IN"	3	"#CC79A7"	2
+"2489"	"INMBdescFMRF_l"	"IN"	3	"#CC79A7"	2
+"2490"	"INpro_l2; INvc_l2"	"IN"	3	"#CC79A7"	3
+"2491"	"IN_mn4 333054"	"n.a."	3	"#CC79A7"	1
+"2492"	"eyespot-PRCR3_r"	"SN"	2	"#E69F00"	2
+"2493"	"eyespot-PRCR3_r"	"SN"	2	"#E69F00"	2
+"2494"	"INton_l2"	"SN"	2	"#CC79A7"	2
+"2495"	"INton_l2"	"SN"	2	"#CC79A7"	2
+"2496"	"INCrossbow_r"	"IN"	2	"#CC79A7"	1
+"2497"	"SN-DLSO1.1_2r"	"MN"	2	"#E69F00"	2
+"2498"	"SN-DLSO1.1_2r"	"MN"	2	"#E69F00"	2
+"2499"	"hPUc_3l; SN"	"MN"	2	"#E69F00"	2
+"2500"	"hPUc_3l; SN"	"MN"	2	"#E69F00"	2
+"2501"	"antPUc_3r; SN"	"IN"	2	"#E69F00"	1
+"2502"	"SNpalp 1325687"	"MN"	2	"#E69F00"	2
+"2503"	"antPUc_3r; SN"	"MN"	2	"#E69F00"	1
+"2504"	"SNpalp 1325687"	"MN"	2	"#E69F00"	2
+"2505"	"SNnuch_DAr"	"MN"	2	"#E69F00"	2
+"2506"	"SNnuch_Do2r"	"MN"	2	"#E69F00"	1
+"2507"	"SNnuch-downloop_r "	"MN"	2	"#E69F00"	1
+"2508"	"SNnuch_DAr"	"MN"	2	"#E69F00"	2
+"2509"	"MNdecuss_l 656355"	"IN"	2	"#0072B2"	2
+"2510"	"INMBtype6_r4"	"IN"	2	"#CC79A7"	2
+"2511"	"INMBtype6_r4"	"IN"	2	"#CC79A7"	2
+"2512"	"INCrossbow_r"	"n.a."	2	"#CC79A7"	1
+"2513"	"MNdecuss_l 656355"	"IN"	2	"#0072B2"	2
+"2514"	"INUturnMB_l"	"IN"	2	"#CC79A7"	2
+"2515"	"INUturnMB_l"	"IN"	2	"#CC79A7"	2
+"2516"	"INproT2_r1; INpro_r4"	"MN"	2	"#CC79A7"	2
+"2517"	"INproT2_r1; INpro_r4"	"MN"	2	"#CC79A7"	2
+"2518"	"INdesc_r 335229"	"IN"	2	"#CC79A7"	2
+"2519"	"INdecuss_r 2017536"	"SN"	2	"#CC79A7"	1
+"2520"	"INdesc_r 335229"	"IN"	2	"#CC79A7"	2
+"2521"	"INdecuss_r 2017536"	"IN"	2	"#CC79A7"	1
+"2522"	"SNnuch_Do2r"	"IN"	2	"#E69F00"	1
+"2523"	"SNnuch-downloop_r "	"IN"	2	"#E69F00"	1
+"2524"	"SNhorn_l "	"IN"	1	"#E69F00"	1
+"2525"	"IN 1294207"	"IN"	1	"#CC79A7"	1
+"2526"	"INMBdev_l 1354682"	"SN"	1	"#CC79A7"	1
+"2527"	"INR1_r1"	"SN"	1	"#CC79A7"	1
+"2528"	"INsn_r1"	"SN"	1	"#CC79A7"	1
+"2529"	"antPUc_6l; SN"	"IN"	1	"#E69F00"	1
+"2530"	"INMBPDF_r1"	"IN"	1	"#CC79A7"	1
+"2531"	"SNpalp 1342820"	"MN"	1	"#E69F00"	1
+"2532"	"antPUc_3l; SN"	"MN"	1	"#E69F00"	1
+"2533"	"hPU1_r; SN"	"MN"	1	"#E69F00"	1
+"2534"	"SNpalp 1372849"	"MN"	1	"#E69F00"	1
+"2535"	"INRGWa_dcr1"	"SN"	1	"#CC79A7"	1
+"2536"	"INpreSer_l"	"SN"	1	"#CC79A7"	1
+"2537"	"eyespot-PRCR1_l"	"SN"	1	"#E69F00"	1
+"2538"	"prototroch_7clock_A"	"SN"	1	"grey50"	1
+"2539"	"INhead_r 1304980"	"SN"	1	"#CC79A7"	1
+"2540"	"INdecussfoot_l"	"SN"	1	"#CC79A7"	1
+"2541"	"cPRC_l2"	"IN"	1	"#E69F00"	1
+"2542"	"eyespot-PRCR1_r"	"IN"	1	"#E69F00"	1
+"2543"	"INpreSer_r"	"IN"	1	"#CC79A7"	1
+"2544"	"IN 1312225"	"IN"	1	"#CC79A7"	1
+"2545"	"SNhorn_r"	"MN"	1	"#E69F00"	1
+"2546"	"SN-NS19_r"	"MN"	1	"#E69F00"	1
+"2547"	"INsplitPUh_r2"	"MN"	1	"#CC79A7"	1
+"2548"	"INMBtype7_r1"	"IN"	1	"#CC79A7"	1
+"2549"	"SNlasso_r"	"MN"	1	"#E69F00"	1
+"2550"	"SN HC 1325683"	"MN"	1	"#E69F00"	1
+"2551"	"SNMIP-vc_l"	"IN"	1	"#E69F00"	1
+"2552"	"SNMIP-vc_r"	"IN"	1	"#E69F00"	1
+"2553"	"MC"	"MN"	1	"#0072B2"	1
+"2554"	"eyespot-PRCR3_l"	"MN"	1	"#E69F00"	1
+"2555"	"INMBdesc2_r 1398574"	"MN"	1	"#CC79A7"	1
+"2556"	"INdecuss_l 1560655"	"n.a."	1	"#CC79A7"	1
+"2557"	"INdecuss_l 1321532"	"MN"	1	"#CC79A7"	1
+"2558"	"SNMB with bubble 2"	"IN"	1	"#E69F00"	1
+"2559"	"SNmus_r"	"IN"	1	"#E69F00"	1
+"2560"	"SNnuch_r3"	"IN"	1	"#E69F00"	1
+"2561"	"SNnuch_r9"	"IN"	1	"#E69F00"	1
+"2562"	"SNgolden_l"	"IN"	1	"#E69F00"	1
+"2563"	"IN 1258528"	"IN"	1	"#CC79A7"	1
+"2564"	"antCR_4l; SN"	"IN"	1	"#E69F00"	1
+"2565"	"SNaant_3r"	"IN"	1	"#E69F00"	1
+"2566"	"INdecuss_l 241833"	"IN"	1	"#CC79A7"	1
+"2567"	"INMBtype1_l"	"IN"	1	"#CC79A7"	1
+"2568"	"IN 1472845"	"IN"	1	"#CC79A7"	1
+"2569"	"INbigloop_r1"	"IN"	1	"#CC79A7"	1
+"2570"	"SN-DSO10"	"SN"	1	"#E69F00"	1
+"2571"	"INbiax_l"	"IN"	1	"#CC79A7"	1
+"2572"	"hCR3r; SN"	"IN"	1	"#E69F00"	1
+"2573"	"dsoPU2unp"	"IN"	1	"#E69F00"	1
+"2574"	"INproATO_r3"	"IN"	1	"#CC79A7"	1
+"2575"	"INhead_l 1627480"	"IN"	1	"#CC79A7"	1
+"2576"	"SNMB 1316425"	"IN"	1	"#E69F00"	1
+"2577"	"INMBdev_r 786570"	"IN"	1	"#CC79A7"	1
+"2578"	"INdecuss_l 54909"	"IN"	1	"#CC79A7"	1
+"2579"	"INpara_r1"	"IN"	1	"#CC79A7"	1
+"2580"	"INhead_l 1272535"	"IN"	1	"#CC79A7"	1
+"2581"	"INpro_r7"	"IN"	1	"#CC79A7"	1
+"2582"	"IN PDF-left1 target 111829"	"IN"	1	"#CC79A7"	1
+"2583"	"INdecuss_r 1272025"	"IN"	1	"#CC79A7"	1
+"2584"	"INdecussPre_r"	"IN"	1	"#CC79A7"	1
+"2585"	"IN 1306491"	"IN"	1	"#CC79A7"	1
+"2586"	"antCR_5l; SN"	"IN"	1	"#E69F00"	1
+"2587"	"SNPDF-dc_r1_DLSO1.1_4r"	"IN"	1	"#E69F00"	1
+"2588"	"SN-DSO7"	"IN"	1	"#E69F00"	1

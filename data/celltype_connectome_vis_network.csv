@@ -1,0 +1,2359 @@
+presyn_cell,type_presyn,postsyn_cell,synapses,synapse_fraction
+PRC,Sensory neuron,PRC,21,0.7241379310344828
+PRC,Sensory neuron,IN1,307,0.7415458937198067
+PRC,Sensory neuron,INton,1,0.0303030303030303
+PRC,Sensory neuron,INbigloop,1,0.05555555555555555
+PRC,Sensory neuron,INR1,8,0.27586206896551724
+cPRC,Sensory neuron,SNnuchNS,1,0.04166666666666666
+cPRC,Sensory neuron,SN-DLSO1.2,1,0.09090909090909093
+cPRC,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+cPRC,Sensory neuron,SN-ASTC,37,0.7551020408163265
+cPRC,Sensory neuron,SN-DLSO3,1,0.09090909090909093
+cPRC,Sensory neuron,SN-IRP2-FMRF,2,0.2857142857142857
+cPRC,Sensory neuron,SN-MIP1,26,0.6341463414634146
+cPRC,Sensory neuron,SN-WLD,1,0.0238095238095238
+cPRC,Sensory neuron,SN-NS5,4,0.3636363636363637
+cPRC,Sensory neuron,SN-NS19,66,0.9428571428571428
+cPRC,Sensory neuron,SN-NS20,16,0.8
+cPRC,Sensory neuron,SN-NS16,3,0.2727272727272727
+cPRC,Sensory neuron,INpreSer,1,0.125
+cPRC,Sensory neuron,INRGWa,64,0.2191780821917808
+cPRC,Sensory neuron,INNOS,41,0.5942028985507246
+cPRC,Sensory neuron,INarc2,1,0.01075268817204301
+cPRC,Sensory neuron,INsplitPB-RF/Ya,1,0.05
+SNnuchPDF,Sensory neuron,SNnuchPDF,37,0.36633663366336633
+SNnuchPDF,Sensory neuron,SNnuchBx,2,0.2857142857142857
+SNnuchPDF,Sensory neuron,SNPDF-dc,1,0.09090909090909093
+SNnuchPDF,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SNnuchPDF,Sensory neuron,SN-ASTC,1,0.02040816326530612
+SNnuchPDF,Sensory neuron,SN-DLSO3-PDF,2,0.10526315789473684
+SNnuchPDF,Sensory neuron,SN-DLSO3,1,0.09090909090909093
+SNnuchPDF,Sensory neuron,SNasym,3,0.3333333333333333
+SNnuchPDF,Sensory neuron,SN-NS4,2,0.3333333333333333
+SNnuchPDF,Sensory neuron,SN-NS20,1,0.05
+SNnuchPDF,Sensory neuron,SN-NS29,1,0.5
+SNnuchPDF,Sensory neuron,SN-DLSO1.1NP,1,0.03333333333333333
+SNnuchPDF,Sensory neuron,INpreSer,1,0.125
+SNnuchPDF,Sensory neuron,INRGWa,7,0.02397260273972602
+SNnuchPDF,Sensory neuron,INNOS,1,0.0144927536231884
+SNnuchPDF,Sensory neuron,cMNATO,3,0.05357142857142857
+SNnuchPDF,Sensory neuron,INarc1,44,0.27672955974842767
+SNnuchPDF,Sensory neuron,INarc2,44,0.4731182795698925
+SNnuchPDF,Sensory neuron,INMBtype7,2,0.16666666666666666
+SNnuchPDF,Sensory neuron,INZ,3,0.06666666666666667
+SNnuchPDF,Sensory neuron,INbigloop,1,0.05555555555555555
+SNnuchPDF,Sensory neuron,INasc-pyg,2,0.01204819277108433
+SNnuchPDF,Sensory neuron,INsqNSasym,2,0.1
+SNnuchPDF,Sensory neuron,INMBdescFMRF,3,0.2
+SNnuchPDF,Sensory neuron,INDLSO,3,0.17647058823529413
+SNnuchPDF,Sensory neuron,MNant,2,0.01015228426395939
+SNnuchPDF,Sensory neuron,Ser-tr1,5,0.05
+SNnuchNS,Sensory neuron,SNnuchNS,1,0.04166666666666666
+SNnuchNS,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SNnuchNS,Sensory neuron,SN-WLD,5,0.11904761904761904
+SNnuchNS,Sensory neuron,SN-YF5cil,3,0.13636363636363635
+SNnuchNS,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SNnuchNS,Sensory neuron,INRGWa,8,0.0273972602739726
+SNnuchNS,Sensory neuron,INCrossbow,1,0.01204819277108433
+SNnuchBx,Sensory neuron,SNnuchBx,2,0.2857142857142857
+SNnuchBx,Sensory neuron,INbiax,9,0.2647058823529412
+SNgolden,Sensory neuron,SNnuchPDF,1,0.0099009900990099
+SNgolden,Sensory neuron,SNgolden,4,1
+SNgolden,Sensory neuron,SNlasso,1,0.03225806451612903
+SNgolden,Sensory neuron,SN-DLSO1.2-1,11,0.7333333333333333
+SNgolden,Sensory neuron,SN-NS19,1,0.01428571428571428
+SNgolden,Sensory neuron,SN-DLSO1.1NP,8,0.26666666666666666
+SNgolden,Sensory neuron,INasc-pyg,1,0.00602409638554216
+SNgolden,Sensory neuron,INDLSO,1,0.0588235294117647
+SNgolden,Sensory neuron,MNgland-head,2,0.04651162790697674
+SNhorn,Sensory neuron,SNantlerPDF,1,0.16666666666666666
+SNhorn,Sensory neuron,hPUc1,1,0.1111111111111111
+SNhorn,Sensory neuron,INhook,1,0.06666666666666667
+SNhorn,Sensory neuron,INhorn,23,0.41818181818181815
+SNhorn,Sensory neuron,INtorii,1,0.0303030303030303
+SNhorn,Sensory neuron,INMBdesc2,1,0.0625
+SNhorn,Sensory neuron,INiaStiff,1,0.05263157894736842
+SNhorn,Sensory neuron,MNant,8,0.04060913705583756
+SNhorn,Sensory neuron,MC3cover,1,0.00709219858156028
+SNhook,Sensory neuron,SNlasso,1,0.03225806451612903
+SNhook,Sensory neuron,MS3,1,0.16666666666666666
+SNhook,Sensory neuron,SNaant,1,0.3333333333333333
+SNhook,Sensory neuron,INMBtype6,1,0.07692307692307693
+SNhook,Sensory neuron,INMBtype7,1,0.08333333333333333
+SNhook,Sensory neuron,INpro,3,0.02054794520547945
+SNhook,Sensory neuron,INZ,2,0.04444444444444444
+SNhook,Sensory neuron,INbigloop,1,0.05555555555555555
+SNhook,Sensory neuron,INdecussfoot,2,0.02985074626865671
+SNhook,Sensory neuron,INdecusshook,14,0.2153846153846154
+SNhook,Sensory neuron,INhorn,5,0.09090909090909093
+SNhook,Sensory neuron,INtorii,1,0.0303030303030303
+SNhook,Sensory neuron,INMBdesc3,1,0.1
+SNhook,Sensory neuron,MNant,24,0.1218274111675127
+SNlasso,Sensory neuron,SNMB2,1,0.07142857142857142
+SNlasso,Sensory neuron,SN-DLSO3-PDF,4,0.21052631578947367
+SNlasso,Sensory neuron,SN-DLSO1.1NP,1,0.03333333333333333
+SNlasso,Sensory neuron,INRGWa,16,0.0547945205479452
+SNlasso,Sensory neuron,INNOS,3,0.04347826086956521
+SNlasso,Sensory neuron,INdc,4,0.16
+SNlasso,Sensory neuron,INW,11,0.11827956989247312
+SNlasso,Sensory neuron,INZ,1,0.02222222222222222
+SNlasso,Sensory neuron,INlasso-postSN,22,0.6666666666666666
+SNlasso,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+SNlasso,Sensory neuron,INsqNSasym,1,0.05
+SNlasso,Sensory neuron,INMBdescFMRF,1,0.06666666666666667
+SNlasso,Sensory neuron,INDLSO,1,0.0588235294117647
+SNlasso,Sensory neuron,INUturnMB,6,0.14285714285714285
+SNlasso,Sensory neuron,MNant,6,0.03045685279187817
+SNlasso,Sensory neuron,Ser-tr1,1,0.01
+SNlasso,Sensory neuron,MNgland-head,1,0.02325581395348837
+SNMIP-vc,Sensory neuron,SNMIP-vc,2,0.13333333333333333
+SNMIP-vc,Sensory neuron,SNantlerPDF,1,0.16666666666666666
+SNMIP-vc,Sensory neuron,MS1,1,0.06666666666666667
+SNMIP-vc,Sensory neuron,MS3,1,0.16666666666666666
+SNMIP-vc,Sensory neuron,INdecussPre,1,0.02325581395348837
+SNMIP-vc,Sensory neuron,INCrossbow,5,0.06024096385542168
+SNMIP-vc,Sensory neuron,INarc1,7,0.0440251572327044
+SNMIP-vc,Sensory neuron,INpear,2,0.2222222222222222
+SNMIP-vc,Sensory neuron,INsqNSasym,4,0.2
+SNMIP-vc,Sensory neuron,INUturnMB,1,0.0238095238095238
+SNMIP-vc,Sensory neuron,INiaStiff,2,0.10526315789473684
+SNMIP-vc,Sensory neuron,MNant,2,0.01015228426395939
+SNMIP-vc,Sensory neuron,MN3,13,0.07386363636363637
+SNMIP-vc,Sensory neuron,MN1,1,0.0032258064516129
+SNMIP-vc,Sensory neuron,Glia-pigmented,1,0.125
+SNMIP-vc,Sensory neuron,MUSpx,2,0.5
+SNmus,Sensory neuron,INmus,2,0.2
+SNantlerPDF,Sensory neuron,MS4,1,0.01694915254237288
+SNantlerPDF,Sensory neuron,cMNdc,2,0.04347826086956521
+SNantlerPDF,Sensory neuron,INCrossbow,1,0.01204819277108433
+SNantlerPDF,Sensory neuron,INarc1,1,0.00628930817610062
+SNantlerPDF,Sensory neuron,INbiaxH,2,0.02564102564102564
+SNantlerPDF,Sensory neuron,INhook,8,0.5333333333333333
+SNantlerPDF,Sensory neuron,INpro,3,0.02054794520547945
+SNantlerPDF,Sensory neuron,INproT2,2,0.03448275862068965
+SNantlerPDF,Sensory neuron,INdecusshook,1,0.01538461538461538
+SNantlerPDF,Sensory neuron,INpreLadder,1,0.04761904761904761
+SNantlerPDF,Sensory neuron,INcomm-Upcross,1,0.01666666666666666
+SNantlerPDF,Sensory neuron,INmus,1,0.1
+SNantlerPDF,Sensory neuron,INMBPDF,1,0.03225806451612903
+SNantlerPDF,Sensory neuron,INpara,1,0.0625
+SNantlerPDF,Sensory neuron,MNant,25,0.12690355329949238
+SNantlerPDF,Sensory neuron,Loop,5,0.03472222222222222
+SNantlerPDF,Sensory neuron,MN3,37,0.2102272727272727
+SNantlerPDF,Sensory neuron,MN1,4,0.01290322580645161
+SNantlerPDF,Sensory neuron,MN2,3,0.01442307692307692
+SNantlerPDF,Sensory neuron,Ser-tr1,1,0.01
+SNantlerPDF,Sensory neuron,MNladder,1,0.00675675675675675
+SNPDF-dc,Sensory neuron,SNnuchPDF,1,0.0099009900990099
+SNPDF-dc,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SNPDF-dc,Sensory neuron,SNMB2,1,0.07142857142857142
+SNPDF-dc,Sensory neuron,SN-DLSO3,1,0.09090909090909093
+SNPDF-dc,Sensory neuron,SN-DSO17,2,0.10526315789473684
+SNPDF-dc,Sensory neuron,SNasym,2,0.2222222222222222
+SNPDF-dc,Sensory neuron,SN-NS1,2,0.25
+SNPDF-dc,Sensory neuron,SN-NS22,1,0.16666666666666666
+SNPDF-dc,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SNPDF-dc,Sensory neuron,INasc-pyg,1,0.00602409638554216
+SN-DLSO1.2,Sensory neuron,SN-DLSO,4,0.03669724770642202
+SN-DLSO,Sensory neuron,SNnuchNS,3,0.125
+SN-DLSO,Sensory neuron,SN-DLSO1.2,6,0.5454545454545454
+SN-DLSO,Sensory neuron,SN-DLSO,44,0.4036697247706422
+SN-DLSO,Sensory neuron,SN-DLSO2l,5,0.16666666666666666
+SN-DLSO,Sensory neuron,SN-ASTC,3,0.06122448979591836
+SN-DLSO,Sensory neuron,SN-IRP2-FMRF,4,0.5714285714285714
+SN-DLSO,Sensory neuron,SN-MIP1,5,0.12195121951219512
+SN-DLSO,Sensory neuron,SN-WLD,11,0.2619047619047619
+SN-DLSO,Sensory neuron,SN-DLSO1.0,2,0.25
+SN-DLSO,Sensory neuron,SN-NS1,2,0.25
+SN-DLSO,Sensory neuron,SN-NS22,1,0.16666666666666666
+SN-DLSO,Sensory neuron,SN-NS17,2,0.25
+SN-DLSO,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SN-DLSO,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-DLSO,Sensory neuron,INNOS,1,0.0144927536231884
+SN-DLSO1.2-1,Sensory neuron,MNgland-head,1,0.02325581395348837
+SN-DLSO2l,Sensory neuron,SN-DLSO,14,0.12844036697247707
+SN-DLSO2l,Sensory neuron,INarc2,2,0.02150537634408602
+SNMB2,Sensory neuron,SN-DLSO,11,0.10091743119266056
+SNMB2,Sensory neuron,SN-DLSO2l,3,0.1
+SNMB2,Sensory neuron,SNMB2,5,0.35714285714285715
+SNMB2,Sensory neuron,SN-DLSO3,4,0.3636363636363637
+SNMB2,Sensory neuron,SN-DLSO1.0,5,0.625
+SNMB2,Sensory neuron,SN-NS17,4,0.5
+SNMB2,Sensory neuron,INDLSO,1,0.0588235294117647
+eyespot-PRCR3,Sensory neuron,MS5,2,0.14285714285714285
+eyespot-PRCR3,Sensory neuron,Loop,1,0.00694444444444444
+eyespot-PRCR3,Sensory neuron,MN3,15,0.08522727272727272
+eyespot-PRCR3,Sensory neuron,MN1,19,0.06129032258064516
+eyespot-PRCR3,Sensory neuron,MN2,9,0.04326923076923077
+eyespot-PRCR3,Sensory neuron,prototroch,58,0.07090464547677261
+eyespot-PRCR1,Sensory neuron,pygPBunp,1,0.01428571428571428
+eyespot-PRCR1,Sensory neuron,SN-DLSO1.1NP,8,0.26666666666666666
+eyespot-PRCR1,Sensory neuron,IN1,3,0.0072463768115942
+eyespot-PRCR1,Sensory neuron,INarc1,4,0.02515723270440251
+eyespot-PRCR1,Sensory neuron,INdc,1,0.04
+eyespot-PRCR1,Sensory neuron,INbigloop,1,0.05555555555555555
+eyespot-PRCR1,Sensory neuron,INcomm-Upcross,1,0.01666666666666666
+eyespot-PRCR1,Sensory neuron,INR1,15,0.5172413793103449
+MS1,Sensory neuron,INproT2,13,0.22413793103448276
+MS1,Sensory neuron,INpear,1,0.1111111111111111
+MS1,Sensory neuron,INMBtype9,3,0.75
+MS1,Sensory neuron,MN3,6,0.03409090909090909
+MS1,Sensory neuron,MN1,70,0.2258064516129032
+MS1,Sensory neuron,MN2,13,0.0625
+MS1,Sensory neuron,Glia-pigmented,1,0.125
+MS4,Sensory neuron,eyespot-PRCR3,1,1
+MS4,Sensory neuron,MS4,51,0.864406779661017
+MS4,Sensory neuron,MS5,2,0.14285714285714285
+MS4,Sensory neuron,INsn,4,0.03773584905660377
+MS4,Sensory neuron,MN3,40,0.2272727272727273
+MS4,Sensory neuron,MN1,73,0.23548387096774193
+MS4,Sensory neuron,MN2,41,0.1971153846153846
+MS3,Sensory neuron,SNMIP-vc,2,0.13333333333333333
+MS3,Sensory neuron,MS1,2,0.13333333333333333
+MS3,Sensory neuron,MS3,1,0.16666666666666666
+MS3,Sensory neuron,INRGWa,2,0.00684931506849315
+MS3,Sensory neuron,INCrossbow,15,0.18072289156626503
+MS3,Sensory neuron,INdecussfoot,2,0.02985074626865671
+MS3,Sensory neuron,INMBPDF,1,0.03225806451612903
+MS3,Sensory neuron,Glia-pigmented,1,0.125
+MS3,Sensory neuron,MUSpx,1,0.25
+MS5,Sensory neuron,SN-DLSO1.1NP,1,0.03333333333333333
+MS5,Sensory neuron,INton,2,0.06060606060606061
+MS5,Sensory neuron,INsn,2,0.01886792452830188
+MS5,Sensory neuron,INpro,1,0.00684931506849315
+MS5,Sensory neuron,MN3,2,0.01136363636363636
+MS5,Sensory neuron,MN1,6,0.01935483870967742
+MS5,Sensory neuron,MN2,4,0.01923076923076923
+SN-ASTC,Sensory neuron,cPRC,4,0.4444444444444444
+SN-ASTC,Sensory neuron,SN-DLSO,2,0.01834862385321101
+SN-ASTC,Sensory neuron,SN-DLSO3-PDF,1,0.05263157894736842
+SN-ASTC,Sensory neuron,SN-MIP1,3,0.07317073170731707
+SN-ASTC,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-ASTC,Sensory neuron,SNasym,1,0.1111111111111111
+SN-ASTC,Sensory neuron,SN47Ach,2,0.2857142857142857
+SN-ASTC,Sensory neuron,SN-NS1,2,0.25
+SN-ASTC,Sensory neuron,SN-NS5,2,0.18181818181818185
+SN-ASTC,Sensory neuron,SN-NS20,1,0.05
+SN-ASTC,Sensory neuron,SN-NS16,2,0.18181818181818185
+SN-ASTC,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SN-ASTC,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-ASTC,Sensory neuron,INNOS,2,0.02898550724637681
+SN-DLSO3-PDF,Sensory neuron,SNnuchPDF,2,0.0198019801980198
+SN-DLSO3-PDF,Sensory neuron,SN47Ach,1,0.14285714285714285
+SN-DLSO3-PDF,Sensory neuron,SN-NS29,1,0.5
+SN-DLSO3-PDF,Sensory neuron,cMNATO,1,0.01785714285714285
+SN-DLSO3-PDF,Sensory neuron,INlasso,1,0.03125
+SN-DLSO3-PDF,Sensory neuron,INarc1,1,0.00628930817610062
+SN-DLSO3-PDF,Sensory neuron,INUturn,1,0.0238095238095238
+SN-DLSO3-PDF,Sensory neuron,INDLSO,2,0.1176470588235294
+SN-DLSO3-PDF,Sensory neuron,Ser-h1,2,0.01052631578947368
+SN-DLSO3,Sensory neuron,SNMB2,1,0.07142857142857142
+SN-DLSO3,Sensory neuron,SN-DLSO3,1,0.09090909090909093
+SN-DLSO3,Sensory neuron,INDLSO,3,0.17647058823529413
+SN-IRP2-burs,Sensory neuron,SN-ASTC,2,0.04081632653061224
+SN-IRP2-burs,Sensory neuron,SN-MIP1,2,0.04878048780487805
+SN-IRP2-burs,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-IRP2-burs,Sensory neuron,SN-NS4,1,0.16666666666666666
+SN-IRP2-burs,Sensory neuron,INRGWa,4,0.0136986301369863
+SN-IRP2-burs,Sensory neuron,INNOS,1,0.0144927536231884
+SN-IRP2-burs,Sensory neuron,INCrossbow,1,0.01204819277108433
+SN-IRP2-burs,Sensory neuron,INarc2,1,0.01075268817204301
+SN-IRP2-FMRF,Sensory neuron,SN-DLSO1.2,1,0.09090909090909093
+SN-IRP2-FMRF,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-IRP2-FMRF,Sensory neuron,SN-ASTC,2,0.04081632653061224
+SN-IRP2-FMRF,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-IRP2-FMRF,Sensory neuron,SN-NS22,1,0.16666666666666666
+SN-MIP4,Sensory neuron,SNnuchPDF,1,0.0099009900990099
+SN-MIP4,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-MIP1,Sensory neuron,cPRC,1,0.1111111111111111
+SN-MIP1,Sensory neuron,SNnuchNS,1,0.04166666666666666
+SN-MIP1,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-MIP1,Sensory neuron,SN-ASTC,2,0.04081632653061224
+SN-MIP1,Sensory neuron,SN-IRP2-FMRF,1,0.14285714285714285
+SN-MIP1,Sensory neuron,SN-NS1,1,0.125
+SN-MIP1,Sensory neuron,SN-NS5,2,0.18181818181818185
+SN-MIP1,Sensory neuron,SN-NS20,1,0.05
+SN-MIP1,Sensory neuron,SN-NS18,1,0.25
+SN-MIP1,Sensory neuron,SN-NS16,1,0.09090909090909093
+SN-MIP1,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-MIP1,Sensory neuron,INNOS,2,0.02898550724637681
+SN-WLD,Sensory neuron,SN-NS3,1,0.3333333333333333
+SN-WLD,Sensory neuron,INNOS,1,0.0144927536231884
+SN-DSO17,Sensory neuron,SNnuchPDF,24,0.2376237623762376
+SN-DSO17,Sensory neuron,SNnuchBx,1,0.14285714285714285
+SN-DSO17,Sensory neuron,SN-DLSO3-PDF,1,0.05263157894736842
+SN-DSO17,Sensory neuron,SN-DLSO3,2,0.18181818181818185
+SN-DSO17,Sensory neuron,SN-DSO17,12,0.631578947368421
+SN-DSO17,Sensory neuron,INasc-pyg,1,0.00602409638554216
+SN-DSO17,Sensory neuron,MNant,2,0.01015228426395939
+SNbicil,Sensory neuron,pygPBunp,2,0.02857142857142857
+SNbicil,Sensory neuron,hPU2l-asymPDF,1,0.3333333333333333
+SNbicil,Sensory neuron,cMNATO,16,0.2857142857142857
+SNbicil,Sensory neuron,cMNdc,1,0.0217391304347826
+SNbicil,Sensory neuron,Ser-h1,1,0.00526315789473684
+SNasym,Sensory neuron,SNnuchPDF,1,0.0099009900990099
+SNasym,Sensory neuron,SN-DLSO2l,3,0.1
+SNasym,Sensory neuron,SNMB2,2,0.14285714285714285
+SNasym,Sensory neuron,SN-DSO17,1,0.05263157894736842
+SNasym,Sensory neuron,SN-YF5cil,1,0.04545454545454545
+SNasym,Sensory neuron,SN-NS19,1,0.01428571428571428
+SNasym,Sensory neuron,INpreSer,1,0.125
+SNasym,Sensory neuron,INRGWa,2,0.00684931506849315
+SNasym,Sensory neuron,INNOS,1,0.0144927536231884
+SNasym,Sensory neuron,INCrossbow,4,0.04819277108433735
+SNasym,Sensory neuron,INarc2,8,0.08602150537634409
+SNasym,Sensory neuron,INdc,1,0.04
+SNasym,Sensory neuron,INsqNSasym,3,0.15
+SNasym,Sensory neuron,INDLSO,1,0.0588235294117647
+SN47Ach,Sensory neuron,SN-IRP2-burs,1,1
+SN47Ach,Sensory neuron,INpreSer,1,0.125
+SN47Ach,Sensory neuron,INRGWa,29,0.09931506849315068
+SN47Ach,Sensory neuron,INNOS,5,0.07246376811594203
+SN47Ach,Sensory neuron,INlasso,1,0.03125
+SN47Ach,Sensory neuron,INCrossbow,1,0.01204819277108433
+SN47Ach,Sensory neuron,INarc1,1,0.00628930817610062
+SN47Ach,Sensory neuron,INarc2,4,0.04301075268817204
+SN47Ach,Sensory neuron,INUturn,14,0.3333333333333333
+SN47Ach,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+SN47Ach,Sensory neuron,Ser-h1,2,0.01052631578947368
+pygPBunp,Sensory neuron,SNbicil,2,0.125
+pygPBunp,Sensory neuron,SN47Ach,1,0.14285714285714285
+pygPBunp,Sensory neuron,chaeMech,3,0.01724137931034482
+pygPBunp,Sensory neuron,hCirrusPU,2,0.09523809523809525
+pygPBunp,Sensory neuron,hCR2,1,0.01030927835051546
+pygPBunp,Sensory neuron,VentralpygCR2,6,0.0625
+pygPBunp,Sensory neuron,SNPDF-pyg,1,0.01666666666666666
+pygPBunp,Sensory neuron,SNpygM,1,0.08333333333333333
+pygPBunp,Sensory neuron,INRGWa,6,0.02054794520547945
+pygPBunp,Sensory neuron,cMNPDF-vcl1,1,0.04347826086956521
+pygPBunp,Sensory neuron,cMNATO,4,0.07142857142857142
+pygPBunp,Sensory neuron,cMNdc,1,0.0217391304347826
+pygPBunp,Sensory neuron,INarc1,8,0.05031446540880503
+pygPBunp,Sensory neuron,INrope,1,0.01204819277108433
+pygPBunp,Sensory neuron,INsplitCR,4,0.00911161731207289
+pygPBunp,Sensory neuron,INbiaxH,1,0.01282051282051282
+pygPBunp,Sensory neuron,INUturn,1,0.0238095238095238
+pygPBunp,Sensory neuron,INcomm-Upstairs,1,0.01923076923076923
+pygPBunp,Sensory neuron,INcomm-Upcross,1,0.01666666666666666
+pygPBunp,Sensory neuron,INcomm-DownL,4,0.1176470588235294
+pygPBunp,Sensory neuron,INlasso-postSN,1,0.0303030303030303
+pygPBunp,Sensory neuron,INmus,1,0.1
+pygPBunp,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+pygPBunp,Sensory neuron,Ser-h1,12,0.06315789473684211
+pygPBunp,Sensory neuron,MC,8,0.08247422680412371
+pygPBunp,Sensory neuron,MNant,4,0.02030456852791878
+pygPBunp,Sensory neuron,MNspinning,2,0.01162790697674418
+pygPBunp,Sensory neuron,Loop,1,0.00694444444444444
+pygPBunp,Sensory neuron,MNcrab,7,0.0625
+pygPBunp,Sensory neuron,MN3,4,0.02272727272727272
+pygPBunp,Sensory neuron,MNgland-head,2,0.04651162790697674
+pygPBunp,Sensory neuron,prototroch,12,0.01466992665036674
+pygPBunp,Sensory neuron,covercell,40,0.06191950464396285
+pygPBunp,Sensory neuron,vacuolar-cell-head,9,0.9
+pygPBunp,Sensory neuron,pygidial-pigment-cell,4,0.17391304347826086
+chaeMech,Sensory neuron,pygPBunp,5,0.07142857142857142
+chaeMech,Sensory neuron,chaeMech,69,0.39655172413793105
+chaeMech,Sensory neuron,ventralParaPB2,6,0.05555555555555555
+chaeMech,Sensory neuron,interparaPM1,1,0.5
+chaeMech,Sensory neuron,spinPU1,2,0.2222222222222222
+chaeMech,Sensory neuron,ventralParaPU1,6,0.13333333333333333
+chaeMech,Sensory neuron,hCirrusPU,2,0.09523809523809525
+chaeMech,Sensory neuron,ventralpostParaPUc2,2,0.15384615384615383
+chaeMech,Sensory neuron,hCR2,1,0.01030927835051546
+chaeMech,Sensory neuron,VentralpygCR2,6,0.0625
+chaeMech,Sensory neuron,doCRunp,1,0.09090909090909093
+chaeMech,Sensory neuron,SNPDF-pyg,2,0.03333333333333333
+chaeMech,Sensory neuron,SNFVa,4,0.10256410256410256
+chaeMech,Sensory neuron,SNbronto,1,0.09090909090909093
+chaeMech,Sensory neuron,INrope,4,0.04819277108433735
+chaeMech,Sensory neuron,INCM,10,0.05617977528089887
+chaeMech,Sensory neuron,INchaeMech,51,0.7727272727272727
+chaeMech,Sensory neuron,INFVa-pyg,17,0.4473684210526316
+chaeMech,Sensory neuron,INsplitCR,140,0.31890660592255127
+chaeMech,Sensory neuron,INsplitCRATO,16,0.2711864406779661
+chaeMech,Sensory neuron,INbiax,3,0.08823529411764706
+chaeMech,Sensory neuron,INsplitPB,1,0.00258397932816537
+chaeMech,Sensory neuron,INbackcross3,3,0.14285714285714285
+chaeMech,Sensory neuron,INbiaxLeg,4,0.1176470588235294
+chaeMech,Sensory neuron,INbiaxH,39,0.5
+chaeMech,Sensory neuron,INcomm-Upstairs,2,0.03846153846153846
+chaeMech,Sensory neuron,INasc-pyg,46,0.27710843373493976
+chaeMech,Sensory neuron,INsplitBronto,45,0.5625
+chaeMech,Sensory neuron,INcomm-Upcross,1,0.01666666666666666
+chaeMech,Sensory neuron,INsplitVent,2,0.0588235294117647
+chaeMech,Sensory neuron,INcomm-DownL,7,0.2058823529411765
+chaeMech,Sensory neuron,INcommascFV,1,0.0625
+chaeMech,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+chaeMech,Sensory neuron,INtorii,1,0.0303030303030303
+chaeMech,Sensory neuron,MNant,1,0.00507614213197969
+chaeMech,Sensory neuron,MNspinning,28,0.16279069767441862
+chaeMech,Sensory neuron,Loop,2,0.01388888888888888
+chaeMech,Sensory neuron,MNbiramous,3,0.03225806451612903
+chaeMech,Sensory neuron,MNring,46,0.2754491017964072
+chaeMech,Sensory neuron,MNcrab,7,0.0625
+chaeMech,Sensory neuron,MNhose,8,0.18604651162790695
+chaeMech,Sensory neuron,MNbow,4,0.16
+chaeMech,Sensory neuron,MN1,3,0.00967741935483871
+chaeMech,Sensory neuron,MC3cover,5,0.03546099290780142
+chaeMech,Sensory neuron,MNmouth,1,0.03125
+chaeMech,Sensory neuron,Ser-tr1,1,0.01
+chaeMech,Sensory neuron,MNacic,2,0.14285714285714285
+chaeMech,Sensory neuron,MNchae,3,0.25
+chaeMech,Sensory neuron,MUSobP-neuV,3,0.02631578947368421
+ventralParaPB2,Sensory neuron,pygPBunp,1,0.01428571428571428
+ventralParaPB2,Sensory neuron,chaeMech,8,0.04597701149425287
+ventralParaPB2,Sensory neuron,ventralParaPB2,46,0.42592592592592593
+ventralParaPB2,Sensory neuron,spinPU1,6,0.6666666666666666
+ventralParaPB2,Sensory neuron,ventralParaPU1,4,0.08888888888888889
+ventralParaPB2,Sensory neuron,hPUc,1,0.05263157894736842
+ventralParaPB2,Sensory neuron,VentralpygCR2,6,0.0625
+ventralParaPB2,Sensory neuron,SNPDF-pyg,2,0.03333333333333333
+ventralParaPB2,Sensory neuron,SNFVa,14,0.358974358974359
+ventralParaPB2,Sensory neuron,SNblunt,2,0.08695652173913043
+ventralParaPB2,Sensory neuron,SNpygM,3,0.25
+ventralParaPB2,Sensory neuron,INarc1,1,0.00628930817610062
+ventralParaPB2,Sensory neuron,INrope,2,0.02409638554216867
+ventralParaPB2,Sensory neuron,INFVa-pyg,2,0.05263157894736842
+ventralParaPB2,Sensory neuron,INsplitPB-RF/Ya,7,0.35
+ventralParaPB2,Sensory neuron,INsplitPBant,29,0.37662337662337664
+ventralParaPB2,Sensory neuron,INsplitPB,195,0.5038759689922481
+ventralParaPB2,Sensory neuron,INsplitPUh,6,0.10344827586206896
+ventralParaPB2,Sensory neuron,INbiaxH,1,0.01282051282051282
+ventralParaPB2,Sensory neuron,INasc-pyg,4,0.02409638554216867
+ventralParaPB2,Sensory neuron,INsplitVent,1,0.02941176470588235
+ventralParaPB2,Sensory neuron,MNant,3,0.01522842639593908
+ventralParaPB2,Sensory neuron,MNspinning,21,0.12209302325581396
+ventralParaPB2,Sensory neuron,Loop,7,0.04861111111111111
+ventralParaPB2,Sensory neuron,MNwave,1,0.01923076923076923
+ventralParaPB2,Sensory neuron,MC3cover,6,0.0425531914893617
+ventralParaPB2,Sensory neuron,Ser-tr1,1,0.01
+ventralParaPB2,Sensory neuron,paratroch,1,0.0011806375442739
+ventralParaPB2,Sensory neuron,spinGland,1,0.0079365079365079309
+ventralParaPB2,Sensory neuron,InterparaGland,2,0.6666666666666666
+ventralParaPB2,Sensory neuron,pygidial-pigment-cell,1,0.04347826086956521
+ventralParaPB2,Sensory neuron,MUSac-neuDy,1,0.3333333333333333
+ventralParaPB2,Sensory neuron,MUSobP-neuV,2,0.0175438596491228
+ventralParaPB2,Sensory neuron,MUSobP-notV,1,0.015625
+interparaPM1,Sensory neuron,INsplitPBant,2,0.02597402597402597
+interparaPM1,Sensory neuron,INsplitPB,30,0.07751937984496124
+antPUc,Sensory neuron,antPUc,6,0.4
+antPUc,Sensory neuron,hCR2,2,0.02061855670103092
+antPUc,Sensory neuron,SNblunt,2,0.08695652173913043
+antPUc,Sensory neuron,INarc1,3,0.01886792452830188
+antPUc,Sensory neuron,INMC3,2,0.15384615384615383
+antPUc,Sensory neuron,INsplitPBant,1,0.01298701298701298
+antPUc,Sensory neuron,INsplitPUh,1,0.01724137931034482
+antPUc,Sensory neuron,MC,7,0.07216494845360824
+antPUc,Sensory neuron,MC3cover,2,0.01418439716312056
+spinPU1,Sensory neuron,chaeMech,6,0.03448275862068965
+spinPU1,Sensory neuron,ventralParaPB2,4,0.03703703703703703
+spinPU1,Sensory neuron,ventralParaPU1,1,0.02222222222222222
+spinPU1,Sensory neuron,SNPDF-pyg,2,0.03333333333333333
+spinPU1,Sensory neuron,INsplitPBant,6,0.07792207792207792
+spinPU1,Sensory neuron,INsplitPB,3,0.00775193798449612
+spinPU1,Sensory neuron,MNspinning,6,0.03488372093023256
+spinPU1,Sensory neuron,MNbiramous,1,0.01075268817204301
+spinPU1,Sensory neuron,MNacic,1,0.07142857142857142
+spinPU1,Sensory neuron,MNchae,1,0.08333333333333333
+ventralParaPU1,Sensory neuron,chaeMech,7,0.04022988505747126
+ventralParaPU1,Sensory neuron,spinPU1,1,0.1111111111111111
+ventralParaPU1,Sensory neuron,ventralParaPU1,6,0.13333333333333333
+ventralParaPU1,Sensory neuron,ventralpostParaPUc2,3,0.2307692307692308
+ventralParaPU1,Sensory neuron,SNFVa,3,0.07692307692307693
+ventralParaPU1,Sensory neuron,SNblunt,1,0.04347826086956521
+ventralParaPU1,Sensory neuron,INFVa-pyg,5,0.13157894736842105
+ventralParaPU1,Sensory neuron,INsplitPB,5,0.01291989664082687
+ventralParaPU1,Sensory neuron,INbiaxH,2,0.02564102564102564
+ventralParaPU1,Sensory neuron,INproT2,1,0.01724137931034482
+ventralParaPU1,Sensory neuron,INleucoPU,23,0.39655172413793105
+ventralParaPU1,Sensory neuron,INpreLadder,1,0.04761904761904761
+ventralParaPU1,Sensory neuron,INsplitVent,1,0.02941176470588235
+ventralParaPU1,Sensory neuron,Ser-h1,1,0.00526315789473684
+ventralParaPU1,Sensory neuron,MNspinning,8,0.04651162790697674
+ventralParaPU1,Sensory neuron,Loop,5,0.03472222222222222
+ventralParaPU1,Sensory neuron,MNspiderATO-ant,1,0.01851851851851851
+ventralParaPU1,Sensory neuron,MNspider-post,2,0.03508771929824561
+ventralParaPU1,Sensory neuron,MNring,7,0.04191616766467065
+ventralParaPU1,Sensory neuron,MNbow,2,0.08
+ventralParaPU1,Sensory neuron,MNacicX,1,0.02702702702702703
+ventralParaPU1,Sensory neuron,MC3cover,3,0.02127659574468085
+ventralParaPU1,Sensory neuron,MNob-ipsi,1,0.08333333333333333
+ventralParaPU1,Sensory neuron,Ser-tr1,4,0.04
+ventralParaPU1,Sensory neuron,MNladder,17,0.11486486486486489
+ventralParaPU1,Sensory neuron,MNpostacic,1,0.08333333333333333
+ventralParaPU1,Sensory neuron,MNsmile,1,0.0175438596491228
+ventralParaPU1,Sensory neuron,paratroch,1,0.0011806375442739
+ventralParaPU1,Sensory neuron,MUSobP-neuV,1,0.0087719298245614
+ventralParaPU1,Sensory neuron,MUSobP-noty,2,0.07407407407407407
+hPUc1,Sensory neuron,SNhorn,1,0.125
+hPUc1,Sensory neuron,hPUc1,3,0.3333333333333333
+hPUc1,Sensory neuron,INdecussPre,2,0.04651162790697674
+hPUc1,Sensory neuron,INCrossbow,7,0.08433734939759036
+hPUc1,Sensory neuron,INMBdesc2,1,0.0625
+hPUc1,Sensory neuron,MNakro,1,0.09090909090909093
+hPUc1,Sensory neuron,MUSpx,1,0.25
+hPUc1,Sensory neuron,MUSpr-vt,1,1
+pygCirrusPUSM,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+pygCirrusPUSM,Sensory neuron,pygCirrusPU,2,0.1176470588235294
+pygCirrusPUSM,Sensory neuron,SNPDF-pyg,3,0.05
+pygCirrusPUSM,Sensory neuron,SNpygM,1,0.08333333333333333
+pygCirrusPUSM,Sensory neuron,INsplitPB,1,0.00258397932816537
+pygCirrusPUSM,Sensory neuron,MUSlongV,6,0.01675977653631285
+hCirrusPU,Sensory neuron,chaeMech,1,0.0057471264367816
+hCirrusPU,Sensory neuron,hCirrusPU,1,0.04761904761904761
+hCirrusPU,Sensory neuron,hCR2,1,0.01030927835051546
+hCirrusPU,Sensory neuron,INsplitCR,1,0.00227790432801822
+hCirrusPU,Sensory neuron,INbiaxLeg,5,0.14705882352941177
+hCirrusPU,Sensory neuron,INcomm-Upstairs,4,0.07692307692307693
+hCirrusPU,Sensory neuron,INcomm-Upcross,3,0.05
+hCirrusPU,Sensory neuron,MNcrab,2,0.01785714285714285
+hCirrusPU,Sensory neuron,MNwave,1,0.01923076923076923
+hCirrusPU,Sensory neuron,MNchae,1,0.08333333333333333
+ventralpostParaPUc2,Sensory neuron,chaeMech,5,0.02873563218390804
+ventralpostParaPUc2,Sensory neuron,ventralParaPU1,4,0.08888888888888889
+ventralpostParaPUc2,Sensory neuron,ventralpostParaPUc2,1,0.07692307692307693
+ventralpostParaPUc2,Sensory neuron,SNFVa,1,0.02564102564102564
+ventralpostParaPUc2,Sensory neuron,INdecussPre,1,0.02325581395348837
+ventralpostParaPUc2,Sensory neuron,INsplitVent,1,0.02941176470588235
+ventralpostParaPUc2,Sensory neuron,MNring,5,0.02994011976047904
+ventralpostParaPUc2,Sensory neuron,MNbow,1,0.04
+ventralpostParaPUc2,Sensory neuron,MNpostv,1,0.125
+ventralpostParaPUc2,Sensory neuron,Ser-tr1,1,0.01
+ventralpostParaPUc2,Sensory neuron,MNchae,1,0.08333333333333333
+ventralpostParaPUc2,Sensory neuron,MUSac-notM,1,0.0196078431372549
+ventralpostParaPUc2,Sensory neuron,MUSchae-notAac,1,0.00520833333333333
+hPUc,Sensory neuron,hPUc,10,0.5263157894736842
+hPUc,Sensory neuron,SNblunt,2,0.08695652173913043
+hPUc,Sensory neuron,SNbronto,1,0.09090909090909093
+hPUc,Sensory neuron,SN-DLSO1.1,2,0.6666666666666666
+hPUc,Sensory neuron,MC2biax-1,1,0.5
+hPUc,Sensory neuron,INarc1,1,0.00628930817610062
+hPUc,Sensory neuron,INCM,3,0.01685393258426966
+hPUc,Sensory neuron,INsplitCR,1,0.00227790432801822
+hPUc,Sensory neuron,INMC3,1,0.07692307692307693
+hPUc,Sensory neuron,INsplitPUh,13,0.22413793103448276
+hPUc,Sensory neuron,INMBdesc2,1,0.0625
+hPUc,Sensory neuron,MNant,3,0.01522842639593908
+hPUc,Sensory neuron,MC3cover,4,0.02836879432624113
+dsoPUc1unp,Sensory neuron,SN-DLSO1.2-1,4,0.26666666666666666
+dsoPUc1unp,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+dsoPUc1unp,Sensory neuron,hPUc,1,0.05263157894736842
+dsoPUc1unp,Sensory neuron,hCR2,3,0.03092783505154639
+dsoPUc1unp,Sensory neuron,SN-DLSO1.1NP,3,0.1
+dsoPUc1unp,Sensory neuron,INarc1,1,0.00628930817610062
+dsoPUc1unp,Sensory neuron,INrope,1,0.01204819277108433
+dsoPUc1unp,Sensory neuron,INbiax,2,0.0588235294117647
+dsoPUc1unp,Sensory neuron,INsplitPUh,8,0.13793103448275862
+dsoPUc1unp,Sensory neuron,INbigloop,1,0.05555555555555555
+dsoPUc1unp,Sensory neuron,INcomm-Upcross,1,0.01666666666666666
+dsoPUc1unp,Sensory neuron,INMBdescFMRF,1,0.06666666666666667
+dsoPUc1unp,Sensory neuron,MNant,1,0.00507614213197969
+dsoPUc1unp,Sensory neuron,Ser-tr1,1,0.01
+dsoPUc1unp,Sensory neuron,MNgland-head,4,0.09302325581395347
+dsoPUc1unp,Sensory neuron,CB-pigment,1,0.1
+pygCirrusPU,Sensory neuron,ventralParaPB2,4,0.03703703703703703
+pygCirrusPU,Sensory neuron,hCirrusPU,1,0.04761904761904761
+pygCirrusPU,Sensory neuron,pygCirrusPU,6,0.35294117647058826
+pygCirrusPU,Sensory neuron,VentralpygCR2,2,0.02083333333333333
+pygCirrusPU,Sensory neuron,SNPDF-pyg,2,0.03333333333333333
+pygCirrusPU,Sensory neuron,SNpygM,2,0.16666666666666666
+pygCirrusPU,Sensory neuron,INFVa-pyg,3,0.07894736842105263
+pygCirrusPU,Sensory neuron,INsplitCR,3,0.00683371298405467
+pygCirrusPU,Sensory neuron,INsplitPB,5,0.01291989664082687
+pygCirrusPU,Sensory neuron,INbiaxLeg,9,0.2647058823529412
+pygCirrusPU,Sensory neuron,INcomm-Upstairs,1,0.01923076923076923
+pygCirrusPU,Sensory neuron,INasc-pyg,3,0.0180722891566265
+pygCirrusPU,Sensory neuron,MNcrab,2,0.01785714285714285
+hPU2l-asymPDF,Sensory neuron,SNbicil,2,0.125
+hPU2l-asymPDF,Sensory neuron,pygPBunp,1,0.01428571428571428
+hPU2l-asymPDF,Sensory neuron,cMNPDF-vcl1,2,0.08695652173913043
+hPU2l-asymPDF,Sensory neuron,cMNdc,2,0.04347826086956521
+hPU2l-asymPDF,Sensory neuron,INarc1,1,0.00628930817610062
+hPU2l-asymPDF,Sensory neuron,INrope,4,0.04819277108433735
+hPU2l-asymPDF,Sensory neuron,INMBdesc3,1,0.1
+hPU2l-asymPDF,Sensory neuron,MC3cover,2,0.01418439716312056
+hPU2l-asymPDF,Sensory neuron,MNmouth,1,0.03125
+hPU2l-asymPDF,Sensory neuron,covercell,7,0.01083591331269349
+hCR2,Sensory neuron,pygPBunp,4,0.05714285714285714
+hCR2,Sensory neuron,chaeMech,4,0.02298850574712643
+hCR2,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+hCR2,Sensory neuron,antPUc,5,0.3333333333333333
+hCR2,Sensory neuron,hCirrusPU,5,0.23809523809523808
+hCR2,Sensory neuron,hPUc,1,0.05263157894736842
+hCR2,Sensory neuron,hCR2,25,0.25773195876288657
+hCR2,Sensory neuron,VentralpygCR2,5,0.05208333333333333
+hCR2,Sensory neuron,doCRunp,6,0.5454545454545454
+hCR2,Sensory neuron,INCrossbow,6,0.07228915662650602
+hCR2,Sensory neuron,INarc1,28,0.1761006289308176
+hCR2,Sensory neuron,INrope,20,0.24096385542168677
+hCR2,Sensory neuron,INCM,138,0.7752808988764045
+hCR2,Sensory neuron,INsplitCR,91,0.2072892938496583
+hCR2,Sensory neuron,INsplitCRATO,3,0.05084745762711865
+hCR2,Sensory neuron,INsplitPUh,2,0.03448275862068965
+hCR2,Sensory neuron,INbiaxLeg,3,0.08823529411764706
+hCR2,Sensory neuron,INbiaxH,4,0.05128205128205128
+hCR2,Sensory neuron,INbigloop,1,0.05555555555555555
+hCR2,Sensory neuron,INcomm-Upstairs,1,0.01923076923076923
+hCR2,Sensory neuron,INasc-pyg,1,0.00602409638554216
+hCR2,Sensory neuron,INleucoPU,1,0.01724137931034482
+hCR2,Sensory neuron,INcomm-Upcross,23,0.38333333333333336
+hCR2,Sensory neuron,INcomm-DownL,6,0.17647058823529413
+hCR2,Sensory neuron,INtorii,2,0.06060606060606061
+hCR2,Sensory neuron,MC,6,0.06185567010309278
+hCR2,Sensory neuron,MNant,3,0.01522842639593908
+hCR2,Sensory neuron,MNcrab,6,0.05357142857142857
+hCR2,Sensory neuron,MC3cover,1,0.00709219858156028
+hCR2,Sensory neuron,MNgland-head,2,0.04651162790697674
+hCR2,Sensory neuron,prototroch,2,0.00244498777506112
+VentralpygCR2,Sensory neuron,pygPBunp,8,0.11428571428571428
+VentralpygCR2,Sensory neuron,chaeMech,12,0.06896551724137931
+VentralpygCR2,Sensory neuron,ventralParaPB2,2,0.01851851851851851
+VentralpygCR2,Sensory neuron,hCirrusPU,1,0.04761904761904761
+VentralpygCR2,Sensory neuron,pygCirrusPU,3,0.17647058823529413
+VentralpygCR2,Sensory neuron,hCR2,6,0.06185567010309278
+VentralpygCR2,Sensory neuron,VentralpygCR2,42,0.4375
+VentralpygCR2,Sensory neuron,doCRunp,1,0.09090909090909093
+VentralpygCR2,Sensory neuron,SNPDF-pyg,2,0.03333333333333333
+VentralpygCR2,Sensory neuron,SNpygM,1,0.08333333333333333
+VentralpygCR2,Sensory neuron,INsplitCR,73,0.1662870159453303
+VentralpygCR2,Sensory neuron,INsplitCRATO,14,0.23728813559322037
+VentralpygCR2,Sensory neuron,INbiaxLeg,8,0.2352941176470588
+VentralpygCR2,Sensory neuron,INbiaxH,3,0.03846153846153846
+VentralpygCR2,Sensory neuron,INcomm-Upstairs,8,0.15384615384615383
+VentralpygCR2,Sensory neuron,INasc-pyg,6,0.03614457831325301
+VentralpygCR2,Sensory neuron,INcomm-Upcross,11,0.18333333333333332
+VentralpygCR2,Sensory neuron,MNcrab,20,0.17857142857142858
+VentralpygCR2,Sensory neuron,cioMNcover,3,0.1875
+doCRunp,Sensory neuron,pygPBunp,1,0.01428571428571428
+doCRunp,Sensory neuron,hCirrusPU,1,0.04761904761904761
+doCRunp,Sensory neuron,hCR2,3,0.03092783505154639
+doCRunp,Sensory neuron,INrope,1,0.01204819277108433
+doCRunp,Sensory neuron,INCM,3,0.01685393258426966
+doCRunp,Sensory neuron,INsplitCR,4,0.00911161731207289
+doCRunp,Sensory neuron,INcomm-DownL,2,0.0588235294117647
+doCRunp,Sensory neuron,MC,1,0.01030927835051546
+doCRunp,Sensory neuron,MNcrab,3,0.02678571428571428
+SN-DLSO1.0,Sensory neuron,SN-DLSO,12,0.11009174311926606
+SN-DLSO1.0,Sensory neuron,SN-DLSO2l,10,0.3333333333333333
+SN-DLSO1.0,Sensory neuron,SNMB2,2,0.14285714285714285
+SN-DLSO1.0,Sensory neuron,SNadNS22,1,0.5
+SN-NS1,Sensory neuron,SNnuchNS,1,0.04166666666666666
+SN-NS1,Sensory neuron,SN-DLSO1.2,1,0.09090909090909093
+SN-NS1,Sensory neuron,SN-DLSO,4,0.03669724770642202
+SN-NS1,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SN-NS1,Sensory neuron,SN-ASTC,1,0.02040816326530612
+SN-NS1,Sensory neuron,SN-MIP4,1,1
+SN-NS1,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-NS1,Sensory neuron,SN-NS15,1,0.3333333333333333
+SN-NS1,Sensory neuron,SN-NS22,2,0.3333333333333333
+SN-NS1,Sensory neuron,SN-YF5cil,1,0.04545454545454545
+SN-NS1,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-NS3,Sensory neuron,SN-DLSO1.2,1,0.09090909090909093
+SN-NS3,Sensory neuron,SN-WLD,7,0.16666666666666666
+SN-NS3,Sensory neuron,SN-NS5,1,0.09090909090909093
+SN-NS3,Sensory neuron,SN-NS27,1,1
+SN-NS3,Sensory neuron,SN-NS18,1,0.25
+SN-NS3,Sensory neuron,SN-NS16,2,0.18181818181818185
+SN-NS3,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SN-NS4,Sensory neuron,SN47Ach,1,0.14285714285714285
+SN-NS4,Sensory neuron,SN-NS19,1,0.01428571428571428
+SN-NS4,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-NS4,Sensory neuron,INarc2,3,0.03225806451612903
+SN-NS4,Sensory neuron,INDLSO,1,0.0588235294117647
+SN-NS15,Sensory neuron,SNnuchNS,6,0.25
+SN-NS15,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-NS15,Sensory neuron,SN-NS15,1,0.3333333333333333
+SN-NS15,Sensory neuron,SN-YF5cil,10,0.4545454545454546
+SN-NS15,Sensory neuron,SN-NS16,1,0.09090909090909093
+SNaant,Sensory neuron,SNMB2,1,0.07142857142857142
+SNaant,Sensory neuron,INbiax,1,0.02941176470588235
+SNaant,Sensory neuron,INdc,3,0.12
+SNaant,Sensory neuron,INW,1,0.01075268817204301
+SNaant,Sensory neuron,INMBtype7,2,0.16666666666666666
+SNaant,Sensory neuron,INZ,11,0.24444444444444444
+SNaant,Sensory neuron,INcomm-Upstairs,1,0.01923076923076923
+SNPDF-pyg,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+SNPDF-pyg,Sensory neuron,hCirrusPU,1,0.04761904761904761
+SNPDF-pyg,Sensory neuron,SNstiff,6,0.4
+SNPDF-pyg,Sensory neuron,cMNdc,3,0.06521739130434782
+SNPDF-pyg,Sensory neuron,INrope,1,0.01204819277108433
+SNPDF-pyg,Sensory neuron,INsplitCR,3,0.00683371298405467
+SNPDF-pyg,Sensory neuron,INsplitPB-RF/Ya,2,0.1
+SNPDF-pyg,Sensory neuron,INsplitPBant,1,0.01298701298701298
+SNPDF-pyg,Sensory neuron,INsplitPB,5,0.01291989664082687
+SNPDF-pyg,Sensory neuron,INsplitPUh,3,0.05172413793103448
+SNPDF-pyg,Sensory neuron,INleucoPU,1,0.01724137931034482
+SNPDF-pyg,Sensory neuron,INcommascFV,1,0.0625
+SNPDF-pyg,Sensory neuron,INdescLuqinPDF,8,0.1702127659574468
+SNPDF-pyg,Sensory neuron,INbiaxHmid,1,0.25
+SNPDF-pyg,Sensory neuron,INhorn,1,0.01818181818181818
+SNPDF-pyg,Sensory neuron,INMBPDF,5,0.16129032258064516
+SNPDF-pyg,Sensory neuron,INtorii,5,0.15151515151515152
+SNPDF-pyg,Sensory neuron,INiaStiff,2,0.10526315789473684
+SNPDF-pyg,Sensory neuron,MNant,3,0.01522842639593908
+SNPDF-pyg,Sensory neuron,MNspinning,1,0.00581395348837209
+SNPDF-pyg,Sensory neuron,Loop,1,0.00694444444444444
+SNPDF-pyg,Sensory neuron,MC3cover,1,0.00709219858156028
+SN-NS22,Sensory neuron,SN-DLSO1.2,1,0.09090909090909093
+SN-NS22,Sensory neuron,SN-DLSO,2,0.01834862385321101
+SN-NS22,Sensory neuron,SN-WLD,2,0.04761904761904761
+SN-NS5,Sensory neuron,SN-MIP1,1,0.02439024390243902
+SN-NS5,Sensory neuron,SN-NS20,1,0.05
+SN-NS5,Sensory neuron,SN-NS16,1,0.09090909090909093
+SN-NS5,Sensory neuron,INpreSer,2,0.25
+SN-NS5,Sensory neuron,INRGWa,16,0.0547945205479452
+SN-NS5,Sensory neuron,INarc2,1,0.01075268817204301
+SN-NS17,Sensory neuron,SN-DLSO,3,0.02752293577981651
+SN-NS17,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SN-NS17,Sensory neuron,SNMB2,1,0.07142857142857142
+SN-NS17,Sensory neuron,SN-DLSO3,1,0.09090909090909093
+SN-NS17,Sensory neuron,SN-NS22,1,0.16666666666666666
+SN-NS17,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SN-YF5cil,Sensory neuron,cPRC,2,0.2222222222222222
+SN-YF5cil,Sensory neuron,SNnuchNS,4,0.16666666666666666
+SN-YF5cil,Sensory neuron,SN-DLSO,2,0.01834862385321101
+SN-YF5cil,Sensory neuron,SN-ASTC,1,0.02040816326530612
+SN-YF5cil,Sensory neuron,SN-MIP1,1,0.02439024390243902
+SN-YF5cil,Sensory neuron,SN-WLD,2,0.04761904761904761
+SN-YF5cil,Sensory neuron,SN-NS15,1,0.3333333333333333
+SN-YF5cil,Sensory neuron,INarc2,1,0.01075268817204301
+SN-NS19,Sensory neuron,MC3cover,1,0.00709219858156028
+SN-NS20,Sensory neuron,cPRC,1,0.1111111111111111
+SN-NS6,Sensory neuron,SN-DLSO2l,2,0.06666666666666667
+SN-NS29,Sensory neuron,SNnuchPDF,1,0.0099009900990099
+SN-NS29,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-NS29,Sensory neuron,SN-MIP1,1,0.02439024390243902
+SN-NS29,Sensory neuron,SN-WLD,2,0.04761904761904761
+SN-NS29,Sensory neuron,SN47Ach,1,0.14285714285714285
+SN-NS29,Sensory neuron,INarc2,1,0.01075268817204301
+SN-NS29,Sensory neuron,INpear,1,0.1111111111111111
+SN-NS29,Sensory neuron,Glia-pigmented,1,0.125
+SN-NS27,Sensory neuron,cPRC,1,0.1111111111111111
+SN-NS27,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-NS27,Sensory neuron,SN-MIP1,1,0.02439024390243902
+SN-NS27,Sensory neuron,SN-NS3,1,0.3333333333333333
+SN-NS27,Sensory neuron,SN-NS17,1,0.125
+SN-NS27,Sensory neuron,SN-YF5cil,1,0.04545454545454545
+SN-NS27,Sensory neuron,SN-NS18,2,0.5
+SN-NS18,Sensory neuron,SNnuchNS,1,0.04166666666666666
+SN-NS18,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-NS18,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SN-NS18,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-NS18,Sensory neuron,SN-NS16,1,0.09090909090909093
+SN-NS18,Sensory neuron,INRGWa,1,0.00342465753424657
+SN-NS18,Sensory neuron,INNOS,3,0.04347826086956521
+SN-NS16,Sensory neuron,SNnuchNS,5,0.20833333333333337
+SN-NS16,Sensory neuron,SN-WLD,1,0.0238095238095238
+SN-NS16,Sensory neuron,SN-NS5,1,0.09090909090909093
+SN-NS16,Sensory neuron,SN-YF5cil,5,0.2272727272727273
+SN-NS16,Sensory neuron,INRGWa,4,0.0136986301369863
+SNadNS22,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SNadNS22,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SNadNS22,Sensory neuron,SN-DLSO1.0,1,0.125
+SNadNS22,Sensory neuron,SN-NS17,1,0.125
+SNadNS22,Sensory neuron,SNadNS22,1,0.5
+SNFVa,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+SNFVa,Sensory neuron,SNPDF-pyg,1,0.01666666666666666
+SNFVa,Sensory neuron,SNblunt,3,0.13043478260869565
+SNFVa,Sensory neuron,INrope,1,0.01204819277108433
+SNFVa,Sensory neuron,INsplitPB,5,0.01291989664082687
+SNFVa,Sensory neuron,INasc-pyg,1,0.00602409638554216
+SNFVa,Sensory neuron,INsplitBronto,1,0.0125
+SNFVa,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+SNFVa,Sensory neuron,INcommdescFVa,4,0.26666666666666666
+SNFVa,Sensory neuron,INhorn,1,0.01818181818181818
+SNFVa,Sensory neuron,INiaStiff,1,0.05263157894736842
+SNFVa,Sensory neuron,MNspinning,7,0.04069767441860465
+SNFVa,Sensory neuron,Loop,1,0.00694444444444444
+SNFVa,Sensory neuron,MNbiramous,1,0.01075268817204301
+SNFVa,Sensory neuron,MNring,1,0.0059880239520958
+SNFVa,Sensory neuron,MNbow,2,0.08
+SNFVa,Sensory neuron,MC3cover,18,0.1276595744680851
+SNblunt,Sensory neuron,ventralParaPB2,3,0.02777777777777777
+SNblunt,Sensory neuron,ventralParaPU1,1,0.02222222222222222
+SNblunt,Sensory neuron,SNFVa,4,0.10256410256410256
+SNblunt,Sensory neuron,cMNdc,1,0.0217391304347826
+SNblunt,Sensory neuron,INCM,2,0.01123595505617977
+SNblunt,Sensory neuron,INMC3,1,0.07692307692307693
+SNblunt,Sensory neuron,INsplitPB,4,0.0103359173126615
+SNblunt,Sensory neuron,INsplitPUh,5,0.08620689655172414
+SNblunt,Sensory neuron,INbiaxH,2,0.02564102564102564
+SNblunt,Sensory neuron,INsplitBronto,2,0.025
+SNblunt,Sensory neuron,INsplitVent,3,0.08823529411764706
+SNblunt,Sensory neuron,INcommascFV,2,0.125
+SNblunt,Sensory neuron,MNant,1,0.00507614213197969
+SNblunt,Sensory neuron,MNspinning,3,0.01744186046511628
+SNblunt,Sensory neuron,Loop,1,0.00694444444444444
+SNblunt,Sensory neuron,MC3cover,8,0.05673758865248227
+SNblunt,Sensory neuron,Ser-tr1,1,0.01
+SN-DLSO1.3,Sensory neuron,SNnuchPDF,5,0.04950495049504951
+SN-DLSO1.3,Sensory neuron,SNPDF-dc,10,0.9090909090909092
+SN-DLSO1.3,Sensory neuron,SN-DLSO,1,0.0091743119266055
+SN-DLSO1.3,Sensory neuron,SN-DLSO2l,1,0.03333333333333333
+SN-DLSO1.3,Sensory neuron,SN-WLD,4,0.09523809523809525
+SN-DLSO1.3,Sensory neuron,SN-DSO17,2,0.10526315789473684
+SN-DLSO1.3,Sensory neuron,SN-DLSO1.3,1,0.08333333333333333
+SN-DLSO1.3,Sensory neuron,SNtorii,1,0.5
+SNstiff,Sensory neuron,SNhorn,1,0.125
+SNstiff,Sensory neuron,hPUc1,1,0.1111111111111111
+SNstiff,Sensory neuron,cMNdc,1,0.0217391304347826
+SNstiff,Sensory neuron,INarc1,1,0.00628930817610062
+SNstiff,Sensory neuron,INcommascFV,1,0.0625
+SNstiff,Sensory neuron,INdescLuqinPDF,1,0.02127659574468085
+SNstiff,Sensory neuron,INhorn,8,0.14545454545454545
+SNstiff,Sensory neuron,INMBPDF,5,0.16129032258064516
+SNstiff,Sensory neuron,INiaStiff,5,0.2631578947368421
+SNstiff,Sensory neuron,metatroch,1,0.00869565217391304
+SNbronto,Sensory neuron,chaeMech,5,0.02873563218390804
+SNbronto,Sensory neuron,ventralParaPB2,1,0.00925925925925925
+SNbronto,Sensory neuron,INrope,12,0.14457831325301204
+SNbronto,Sensory neuron,INCM,3,0.01685393258426966
+SNbronto,Sensory neuron,INsplitCR,2,0.00455580865603644
+SNbronto,Sensory neuron,INMC3,1,0.07692307692307693
+SNbronto,Sensory neuron,INbiax,1,0.02941176470588235
+SNbronto,Sensory neuron,INsplitPB,2,0.00516795865633075
+SNbronto,Sensory neuron,INsplitPUh,1,0.01724137931034482
+SNbronto,Sensory neuron,INasc-pyg,4,0.02409638554216867
+SNbronto,Sensory neuron,INsplitBronto,20,0.25
+SNbronto,Sensory neuron,INMBdesc2,1,0.0625
+SNbronto,Sensory neuron,MNspinning,5,0.02906976744186046
+SNbronto,Sensory neuron,Loop,1,0.00694444444444444
+SNbronto,Sensory neuron,MC3cover,20,0.14184397163120568
+SNpygM,Sensory neuron,pygPBunp,1,0.01428571428571428
+SNpygM,Sensory neuron,ventralParaPB2,2,0.01851851851851851
+SNpygM,Sensory neuron,SNPDF-pyg,13,0.21666666666666667
+SNpygM,Sensory neuron,INsplitCR,2,0.00455580865603644
+SNpygM,Sensory neuron,INsplitPB,3,0.00775193798449612
+SNpygM,Sensory neuron,INbiaxH,2,0.02564102564102564
+SNpygM,Sensory neuron,INasc-pyg,17,0.10240963855421686
+SNpygM,Sensory neuron,INcomm-DownL,1,0.02941176470588235
+SNpygM,Sensory neuron,INbiaxHmid,2,0.5
+SN-DLSO1.1,Sensory neuron,hPUc1,1,0.1111111111111111
+SN-DLSO1.1,Sensory neuron,hPUc,1,0.05263157894736842
+SN-DLSO1.1,Sensory neuron,dsoPUc1unp,1,0.3333333333333333
+SN-DLSO1.1,Sensory neuron,MC2biax-1,1,0.5
+SN-DLSO1.1,Sensory neuron,INfoot,1,0.08333333333333333
+SN-DLSO1.1,Sensory neuron,MC3cover,2,0.01418439716312056
+SNtorii,Sensory neuron,SNnuchPDF,5,0.04950495049504951
+SNtorii,Sensory neuron,SNlasso,2,0.06451612903225806
+SNtorii,Sensory neuron,SN-DSO17,1,0.05263157894736842
+SNtorii,Sensory neuron,SN-DLSO1.3,4,0.3333333333333333
+SNtorii,Sensory neuron,INZ,1,0.02222222222222222
+SNtorii,Sensory neuron,INbigloop,4,0.2222222222222222
+SNtorii,Sensory neuron,INasc-pyg,4,0.02409638554216867
+SNtorii,Sensory neuron,INhorn,7,0.12727272727272726
+SNtorii,Sensory neuron,INtorii,8,0.24242424242424243
+SNtorii,Sensory neuron,MNant,7,0.03553299492385787
+SNtrpa,Sensory neuron,INW,4,0.04301075268817204
+SNtrpa,Sensory neuron,INMBtype2,1,0.3333333333333333
+IN1,interneuron,PRC,1,0.03448275862068965
+IN1,interneuron,IN1,87,0.21014492753623187
+IN1,interneuron,INton,28,0.8484848484848485
+IN1,interneuron,INsn,2,0.01886792452830188
+INton,interneuron,MS5,2,0.14285714285714285
+INton,interneuron,IN1,12,0.02898550724637681
+INton,interneuron,INton,2,0.06060606060606061
+INton,interneuron,INsn,4,0.03773584905660377
+INton,interneuron,INdc,2,0.08
+INton,interneuron,INexsn,2,0.5
+INpreSer,interneuron,pygPBunp,1,0.01428571428571428
+INpreSer,interneuron,INpreSer,1,0.125
+INpreSer,interneuron,INRGWa,1,0.00342465753424657
+INpreSer,interneuron,INCrossbow,1,0.01204819277108433
+INpreSer,interneuron,INarc1,7,0.0440251572327044
+INpreSer,interneuron,INUturn,5,0.11904761904761904
+INpreSer,interneuron,INcomm-Upcross,1,0.01666666666666666
+INpreSer,interneuron,INdescLuqinPDF,7,0.14893617021276595
+INpreSer,interneuron,INsqNSasym,2,0.1
+INpreSer,interneuron,INMBPDF,1,0.03225806451612903
+INpreSer,interneuron,Ser-h1,22,0.11578947368421053
+INpreSer,interneuron,MNgland-head,5,0.11627906976744186
+INRGWa,interneuron,PRC,4,0.13793103448275862
+INRGWa,interneuron,SN-DLSO,1,0.0091743119266055
+INRGWa,interneuron,MS1,3,0.2
+INRGWa,interneuron,MS4,6,0.1016949152542373
+INRGWa,interneuron,SN-DLSO3-PDF,1,0.05263157894736842
+INRGWa,interneuron,pygPBunp,1,0.01428571428571428
+INRGWa,interneuron,SN-NS5,1,0.09090909090909093
+INRGWa,interneuron,INRGWa,17,0.05821917808219178
+INRGWa,interneuron,INpreMN,18,0.45
+INRGWa,interneuron,INCrossbow,12,0.14457831325301204
+INRGWa,interneuron,INarc1,5,0.03144654088050314
+INRGWa,interneuron,INsn,24,0.22641509433962265
+INRGWa,interneuron,INdc,1,0.04
+INRGWa,interneuron,INhook,3,0.2
+INRGWa,interneuron,INlasso-postSN,1,0.0303030303030303
+INRGWa,interneuron,INdescLuqinPDF,6,0.1276595744680851
+INRGWa,interneuron,INsqNSasym,6,0.3
+INRGWa,interneuron,INDLSO,1,0.0588235294117647
+INRGWa,interneuron,INUturnMB,1,0.0238095238095238
+INRGWa,interneuron,Ser-h1,77,0.4052631578947368
+INNOS,interneuron,INRGWa,91,0.3116438356164384
+INNOS,interneuron,INNOS,5,0.07246376811594203
+INNOS,interneuron,cMNdc,1,0.0217391304347826
+INNOS,interneuron,INpreMN,1,0.025
+INNOS,interneuron,INCrossbow,1,0.01204819277108433
+INNOS,interneuron,INarc2,1,0.01075268817204301
+INNOS,interneuron,INsn,1,0.00943396226415094
+cMNPDF-vcl1,interneuron,SNMIP-vc,3,0.2
+cMNPDF-vcl1,interneuron,SNantlerPDF,1,0.16666666666666666
+cMNPDF-vcl1,interneuron,SNbicil,4,0.25
+cMNPDF-vcl1,interneuron,pygPBunp,5,0.07142857142857142
+cMNPDF-vcl1,interneuron,hPUc1,3,0.3333333333333333
+cMNPDF-vcl1,interneuron,SNblunt,1,0.04347826086956521
+cMNPDF-vcl1,interneuron,INRGWa,6,0.02054794520547945
+cMNPDF-vcl1,interneuron,INNOS,1,0.0144927536231884
+cMNPDF-vcl1,interneuron,cMNATO,13,0.23214285714285715
+cMNPDF-vcl1,interneuron,cMNdc,11,0.2391304347826087
+cMNPDF-vcl1,interneuron,INpreMN,1,0.025
+cMNPDF-vcl1,interneuron,INCrossbow,1,0.01204819277108433
+cMNPDF-vcl1,interneuron,INarc1,2,0.01257861635220125
+cMNPDF-vcl1,interneuron,INarc2,2,0.02150537634408602
+cMNPDF-vcl1,interneuron,INrope,1,0.01204819277108433
+cMNPDF-vcl1,interneuron,INbiaxH,1,0.01282051282051282
+cMNPDF-vcl1,interneuron,INmidL,2,0.4
+cMNPDF-vcl1,interneuron,INproT2,1,0.01724137931034482
+cMNPDF-vcl1,interneuron,INdecussfoot,1,0.01492537313432835
+cMNPDF-vcl1,interneuron,INmus,2,0.2
+cMNPDF-vcl1,interneuron,INMBPDF,1,0.03225806451612903
+cMNPDF-vcl1,interneuron,INUturnMB,2,0.04761904761904761
+cMNPDF-vcl1,interneuron,INMBdesc2,1,0.0625
+cMNPDF-vcl1,interneuron,INiaStiff,2,0.10526315789473684
+cMNPDF-vcl1,interneuron,Ser-h1,8,0.04210526315789473
+cMNPDF-vcl1,interneuron,MC,5,0.05154639175257732
+cMNPDF-vcl1,interneuron,MNant,1,0.00507614213197969
+cMNPDF-vcl1,interneuron,Loop,3,0.02083333333333333
+cMNPDF-vcl1,interneuron,cioMNcover,1,0.0625
+cMNPDF-vcl1,interneuron,MN3,1,0.00568181818181818
+cMNPDF-vcl1,interneuron,MC3cover,6,0.0425531914893617
+cMNPDF-vcl1,interneuron,prototroch,22,0.02689486552567237
+cMNPDF-vcl1,interneuron,covercell,3,0.00464396284829721
+cMNATO,interneuron,SNnuchPDF,5,0.04950495049504951
+cMNATO,interneuron,SNnuchNS,1,0.04166666666666666
+cMNATO,interneuron,SN-DLSO3-PDF,10,0.5263157894736842
+cMNATO,interneuron,SNbicil,4,0.25
+cMNATO,interneuron,SNasym,2,0.2222222222222222
+cMNATO,interneuron,pygPBunp,8,0.11428571428571428
+cMNATO,interneuron,hPU2l-asymPDF,1,0.3333333333333333
+cMNATO,interneuron,SN-NS3,1,0.3333333333333333
+cMNATO,interneuron,SN-NS4,3,0.5
+cMNATO,interneuron,SN-NS19,1,0.01428571428571428
+cMNATO,interneuron,INRGWa,1,0.00342465753424657
+cMNATO,interneuron,cMNPDF-vcl1,2,0.08695652173913043
+cMNATO,interneuron,cMNdc,10,0.21739130434782608
+cMNATO,interneuron,INCrossbow,1,0.01204819277108433
+cMNATO,interneuron,INarc2,6,0.06451612903225806
+cMNATO,interneuron,INbackcross3,2,0.09523809523809525
+cMNATO,interneuron,INUturn,1,0.0238095238095238
+cMNATO,interneuron,INUturnMB,1,0.0238095238095238
+cMNATO,interneuron,Ser-h1,9,0.04736842105263158
+cMNATO,interneuron,MC,12,0.12371134020618556
+cMNATO,interneuron,MNant,2,0.01015228426395939
+cMNATO,interneuron,Loop,5,0.03472222222222222
+cMNATO,interneuron,cioMNcover,2,0.125
+cMNATO,interneuron,MC3cover,2,0.01418439716312056
+cMNATO,interneuron,Ser-tr1,3,0.03
+cMNATO,interneuron,prototroch,45,0.0550122249388753
+cMNATO,interneuron,covercell,9,0.01393188854489164
+cMNdc,interneuron,SNbicil,1,0.0625
+cMNdc,interneuron,pygPBunp,6,0.08571428571428572
+cMNdc,interneuron,INRGWa,3,0.01027397260273972
+cMNdc,interneuron,INNOS,1,0.0144927536231884
+cMNdc,interneuron,cMNPDF-vcl1,2,0.08695652173913043
+cMNdc,interneuron,INCrossbow,2,0.02409638554216867
+cMNdc,interneuron,INarc1,11,0.06918238993710692
+cMNdc,interneuron,INarc2,2,0.02150537634408602
+cMNdc,interneuron,INUturn,1,0.0238095238095238
+cMNdc,interneuron,INdescLuqinPDF,1,0.02127659574468085
+cMNdc,interneuron,Ser-h1,3,0.01578947368421052
+cMNdc,interneuron,MC,3,0.03092783505154639
+cMNdc,interneuron,MNant,10,0.05076142131979695
+cMNdc,interneuron,Loop,3,0.02083333333333333
+cMNdc,interneuron,prototroch,26,0.03178484107579462
+cMNdc,interneuron,metatroch,2,0.01739130434782608
+cMNdc,interneuron,ciliatedGland,1,0.02040816326530612
+cMNdc,interneuron,covercell,1,0.00154798761609907
+INlasso,interneuron,SNMIP-vc,1,0.06666666666666667
+INlasso,interneuron,INlasso,29,0.90625
+INlasso,interneuron,INW,4,0.04301075268817204
+INlasso,interneuron,INMBtype6,5,0.38461538461538464
+INlasso,interneuron,INlasso-postSN,3,0.09090909090909093
+INlasso,interneuron,INMBPDF,1,0.03225806451612903
+INlasso,interneuron,INUturnMB,1,0.0238095238095238
+INlasso,interneuron,INMBdesc3,1,0.1
+INlasso,interneuron,INdecussM,3,0.125
+INlasso,interneuron,Ser-h1,1,0.00526315789473684
+INlasso,interneuron,MNgland-head,2,0.04651162790697674
+INlasso,interneuron,Glia-pigmented,1,0.125
+INdecussPre,interneuron,cMNPDF-vcl1,2,0.08695652173913043
+INdecussPre,interneuron,INpro,2,0.0136986301369863
+INpreMN,interneuron,MS1,8,0.5333333333333333
+INpreMN,interneuron,INdecussPre,16,0.3720930232558139
+INpreMN,interneuron,INpreMN,5,0.125
+INpreMN,interneuron,INproT2,8,0.13793103448275862
+INpreMN,interneuron,INpear,1,0.1111111111111111
+INpreMN,interneuron,INexsn,1,0.25
+INpreMN,interneuron,INMBtype9,1,0.25
+INpreMN,interneuron,MN3,14,0.07954545454545454
+INpreMN,interneuron,MN1,28,0.09032258064516129
+INpreMN,interneuron,MN2,36,0.17307692307692307
+INpreMN,interneuron,MNheadV,2,0.18181818181818185
+INCrossbow,interneuron,SNMIP-vc,1,0.06666666666666667
+INCrossbow,interneuron,SNasym,1,0.1111111111111111
+INCrossbow,interneuron,INRGWa,2,0.00684931506849315
+INCrossbow,interneuron,cMNPDF-vcl1,3,0.13043478260869565
+INCrossbow,interneuron,cMNATO,1,0.01785714285714285
+INCrossbow,interneuron,INarc1,1,0.00628930817610062
+INCrossbow,interneuron,INarc2,1,0.01075268817204301
+INCrossbow,interneuron,INbackcross3,1,0.04761904761904761
+INCrossbow,interneuron,INpear,1,0.1111111111111111
+INCrossbow,interneuron,INdecusshook,3,0.04615384615384615
+INCrossbow,interneuron,INpreLadder,1,0.04761904761904761
+INCrossbow,interneuron,INlasso-postSN,1,0.0303030303030303
+INCrossbow,interneuron,INMBPDF,1,0.03225806451612903
+INCrossbow,interneuron,INdecussM,1,0.04166666666666666
+INCrossbow,interneuron,Ser-h1,1,0.00526315789473684
+INCrossbow,interneuron,MNladder,1,0.00675675675675675
+INCrossbow,interneuron,MNakro,1,0.09090909090909093
+INCrossbow,interneuron,ciliatedGland,3,0.06122448979591836
+INarc1,interneuron,SNantlerPDF,1,0.16666666666666666
+INarc1,interneuron,SNstiff,1,0.06666666666666667
+INarc1,interneuron,IN1,1,0.00241545893719806
+INarc1,interneuron,cMNdc,1,0.0217391304347826
+INarc1,interneuron,INCrossbow,6,0.07228915662650602
+INarc1,interneuron,INarc2,1,0.01075268817204301
+INarc1,interneuron,INFVa-pyg,2,0.05263157894736842
+INarc1,interneuron,INpro,4,0.0273972602739726
+INarc1,interneuron,INpreLadder,1,0.04761904761904761
+INarc1,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INarc1,interneuron,INMBPDF,3,0.0967741935483871
+INarc1,interneuron,INDLSO,1,0.0588235294117647
+INarc1,interneuron,INMBdesc3,1,0.1
+INarc1,interneuron,INdecussM,3,0.125
+INarc1,interneuron,Ser-h1,4,0.02105263157894736
+INarc1,interneuron,MNant,3,0.01522842639593908
+INarc1,interneuron,Loop,2,0.01388888888888888
+INarc1,interneuron,MN1,2,0.0064516129032258
+INarc1,interneuron,MN2,8,0.03846153846153846
+INarc1,interneuron,Ser-tr1,1,0.01
+INarc2,interneuron,SN-MIP1,1,0.02439024390243902
+INarc2,interneuron,SN-WLD,1,0.0238095238095238
+INarc2,interneuron,cMNPDF-vcl1,1,0.04347826086956521
+INarc2,interneuron,cMNATO,3,0.05357142857142857
+INarc2,interneuron,cMNdc,1,0.0217391304347826
+INarc2,interneuron,INCrossbow,2,0.02409638554216867
+INarc2,interneuron,INFVa-pyg,3,0.07894736842105263
+INarc2,interneuron,INW,3,0.03225806451612903
+INarc2,interneuron,INcomm-Upstairs,2,0.03846153846153846
+INarc2,interneuron,INcomm-Upcross,1,0.01666666666666666
+INarc2,interneuron,Ser-h1,3,0.01578947368421052
+INarc2,interneuron,MN3,1,0.00568181818181818
+INarc2,interneuron,MNob-ipsi,3,0.25
+INarc2,interneuron,Ser-tr1,2,0.02
+INarc2,interneuron,MNantacic,1,0.08333333333333333
+INarc2,interneuron,MNakro,2,0.18181818181818185
+INsn,interneuron,MS4,1,0.01694915254237288
+INsn,interneuron,MS5,6,0.42857142857142855
+INsn,interneuron,IN1,1,0.00241545893719806
+INsn,interneuron,INRGWa,2,0.00684931506849315
+INsn,interneuron,INsn,22,0.20754716981132076
+INsn,interneuron,INdc,5,0.2
+INsn,interneuron,INW,3,0.03225806451612903
+INsn,interneuron,INmidL,1,0.2
+INsn,interneuron,INcross,1,0.06666666666666667
+INsn,interneuron,INpro,16,0.1095890410958904
+INsn,interneuron,INproT2,18,0.3103448275862069
+INsn,interneuron,INUturn,1,0.0238095238095238
+INsn,interneuron,INMBdesc3,1,0.1
+INsn,interneuron,MN3,6,0.03409090909090909
+INsn,interneuron,MN1,63,0.2032258064516129
+INsn,interneuron,MN2,58,0.27884615384615385
+INrope,interneuron,SNhook,1,1
+INrope,interneuron,chaeMech,3,0.01724137931034482
+INrope,interneuron,ventralParaPB2,1,0.00925925925925925
+INrope,interneuron,hCirrusPU,1,0.04761904761904761
+INrope,interneuron,ventralpostParaPUc2,2,0.15384615384615383
+INrope,interneuron,SNPDF-pyg,1,0.01666666666666666
+INrope,interneuron,SNFVa,2,0.05128205128205128
+INrope,interneuron,SNblunt,2,0.08695652173913043
+INrope,interneuron,SNbronto,1,0.09090909090909093
+INrope,interneuron,INCM,2,0.01123595505617977
+INrope,interneuron,INchaeMech,1,0.01515151515151515
+INrope,interneuron,INsplitCR,1,0.00227790432801822
+INrope,interneuron,INsplitCRATO,4,0.06779661016949153
+INrope,interneuron,INsplitBronto,1,0.0125
+INrope,interneuron,INleucoPU,4,0.06896551724137931
+INrope,interneuron,INsplitVent,12,0.35294117647058826
+INrope,interneuron,INMBdesc2,1,0.0625
+INrope,interneuron,MNspinning,5,0.02906976744186046
+INrope,interneuron,Loop,26,0.18055555555555555
+INrope,interneuron,MNspiderATO-ant,21,0.3888888888888889
+INrope,interneuron,MNspider-post,24,0.42105263157894735
+INrope,interneuron,MNbiramous,47,0.5053763440860215
+INrope,interneuron,MNring,14,0.08383233532934131
+INrope,interneuron,MNcrab,3,0.02678571428571428
+INrope,interneuron,MNhose,9,0.20930232558139536
+INrope,interneuron,MNbow,1,0.04
+INrope,interneuron,MNwave,1,0.01923076923076923
+INrope,interneuron,MNmouth,10,0.3125
+INrope,interneuron,MNob-ipsi,1,0.08333333333333333
+INrope,interneuron,MNacic,2,0.14285714285714285
+INrope,interneuron,MNarm,2,0.25
+INrope,interneuron,MNsmile,31,0.543859649122807
+INCM,interneuron,SNbronto,3,0.2727272727272727
+INCM,interneuron,INarc1,3,0.01886792452830188
+INCM,interneuron,INrope,2,0.02409638554216867
+INCM,interneuron,INsplitCR,2,0.00455580865603644
+INCM,interneuron,INMC3,3,0.2307692307692308
+INCM,interneuron,INbiaxLeg,1,0.02941176470588235
+INCM,interneuron,INbiaxH,1,0.01282051282051282
+INCM,interneuron,INasc-pyg,1,0.00602409638554216
+INCM,interneuron,INsplitBronto,2,0.025
+INCM,interneuron,INleucoPU,1,0.01724137931034482
+INCM,interneuron,MNant,26,0.1319796954314721
+INCM,interneuron,Loop,28,0.19444444444444445
+INCM,interneuron,MNbiramous,2,0.02150537634408602
+INCM,interneuron,MNsmile,1,0.0175438596491228
+INchaeMech,interneuron,chaeMech,2,0.01149425287356321
+INchaeMech,interneuron,INFVa-pyg,1,0.02631578947368421
+INchaeMech,interneuron,INsplitBronto,2,0.025
+INchaeMech,interneuron,INpreLadder,1,0.04761904761904761
+INchaeMech,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INchaeMech,interneuron,INcommdescFVa,2,0.13333333333333333
+INchaeMech,interneuron,MNspiderATO-ant,3,0.05555555555555555
+INchaeMech,interneuron,MNspider-post,4,0.07017543859649122
+INchaeMech,interneuron,MNcrab,3,0.02678571428571428
+INchaeMech,interneuron,MNhose,1,0.02325581395348837
+INchaeMech,interneuron,MNacicX,13,0.35135135135135137
+INchaeMech,interneuron,MNladder,4,0.02702702702702703
+INchaeMech,interneuron,MNsmile,1,0.0175438596491228
+INFVa-pyg,interneuron,pygCirrusPU,2,0.1176470588235294
+INFVa-pyg,interneuron,cMNPDF-vcl1,1,0.04347826086956521
+INFVa-pyg,interneuron,INarc2,1,0.01075268817204301
+INFVa-pyg,interneuron,INsplitPB,1,0.00258397932816537
+INFVa-pyg,interneuron,INW,2,0.02150537634408602
+INFVa-pyg,interneuron,INcomm-Upstairs,7,0.1346153846153846
+INFVa-pyg,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INFVa-pyg,interneuron,INiaStiff,2,0.10526315789473684
+INFVa-pyg,interneuron,MN3,3,0.01704545454545454
+INFVa-pyg,interneuron,MNob-ipsi,3,0.25
+INFVa-pyg,interneuron,Ser-tr1,1,0.01
+INFVa-pyg,interneuron,MNladder,17,0.11486486486486489
+INFVa-pyg,interneuron,MNchae,1,0.08333333333333333
+INsplitCR,interneuron,pygPBunp,2,0.02857142857142857
+INsplitCR,interneuron,chaeMech,1,0.0057471264367816
+INsplitCR,interneuron,hCirrusPU,3,0.14285714285714285
+INsplitCR,interneuron,hPUc,1,0.05263157894736842
+INsplitCR,interneuron,hCR2,8,0.08247422680412371
+INsplitCR,interneuron,VentralpygCR2,6,0.0625
+INsplitCR,interneuron,SNPDF-pyg,3,0.05
+INsplitCR,interneuron,SNpygM,1,0.08333333333333333
+INsplitCR,interneuron,INarc1,4,0.02515723270440251
+INsplitCR,interneuron,INarc2,2,0.02150537634408602
+INsplitCR,interneuron,INCM,2,0.01123595505617977
+INsplitCR,interneuron,INsplitCR,24,0.05466970387243736
+INsplitCR,interneuron,INsplitCRATO,9,0.15254237288135594
+INsplitCR,interneuron,INbiaxH,5,0.0641025641025641
+INsplitCR,interneuron,INcomm-Upstairs,6,0.1153846153846154
+INsplitCR,interneuron,INasc-pyg,4,0.02409638554216867
+INsplitCR,interneuron,INcomm-Upcross,2,0.03333333333333333
+INsplitCR,interneuron,INcomm-DownL,3,0.08823529411764706
+INsplitCR,interneuron,INcommdescFVa,1,0.06666666666666667
+INsplitCR,interneuron,INMBdesc2,1,0.0625
+INsplitCR,interneuron,MC,1,0.01030927835051546
+INsplitCR,interneuron,MNspinning,7,0.04069767441860465
+INsplitCR,interneuron,MNspiderATO-ant,1,0.01851851851851851
+INsplitCR,interneuron,MNbiramous,7,0.07526881720430108
+INsplitCR,interneuron,MNring,2,0.01197604790419161
+INsplitCR,interneuron,MNcrab,25,0.22321428571428573
+INsplitCR,interneuron,MNhose,4,0.09302325581395347
+INsplitCR,interneuron,MNwave,7,0.1346153846153846
+INsplitCR,interneuron,cioMNcover,2,0.125
+INsplitCR,interneuron,MC3cover,1,0.00709219858156028
+INsplitCR,interneuron,MNpostv,1,0.125
+INsplitCR,interneuron,MNakro,1,0.09090909090909093
+INsplitCR,interneuron,metatroch,1,0.00869565217391304
+INsplitCRATO,interneuron,INrope,1,0.01204819277108433
+INsplitCRATO,interneuron,INsplitCR,2,0.00455580865603644
+INsplitCRATO,interneuron,INsplitCRATO,1,0.01694915254237288
+INsplitCRATO,interneuron,INATOpyg,1,0.25
+INsplitCRATO,interneuron,INcomm-Upstairs,4,0.07692307692307693
+INsplitCRATO,interneuron,MNspinning,3,0.01744186046511628
+INsplitCRATO,interneuron,MNspiderATO-ant,2,0.03703703703703703
+INsplitCRATO,interneuron,MNspider-post,2,0.03508771929824561
+INsplitCRATO,interneuron,MNbiramous,7,0.07526881720430108
+INsplitCRATO,interneuron,MNcrab,3,0.02678571428571428
+INsplitCRATO,interneuron,MNwave,1,0.01923076923076923
+INsplitCRATO,interneuron,MNmouth,2,0.0625
+INsplitCRATO,interneuron,pygidial-pigment-cell,8,0.34782608695652173
+INMC3,interneuron,SNbronto,3,0.2727272727272727
+INMC3,interneuron,INrope,1,0.01204819277108433
+INMC3,interneuron,INCM,5,0.02808988764044943
+INMC3,interneuron,MNant,1,0.00507614213197969
+INMC3,interneuron,MNspinning,1,0.00581395348837209
+INMC3,interneuron,MC3cover,22,0.15602836879432624
+INMC3,interneuron,covercell,1,0.00154798761609907
+INbiax,interneuron,SNlasso,2,0.06451612903225806
+INbiax,interneuron,INsplitCRATO,4,0.06779661016949153
+INbiax,interneuron,INbiax,4,0.1176470588235294
+INbiax,interneuron,INbiaxH,1,0.01282051282051282
+INbiax,interneuron,INW,7,0.07526881720430108
+INbiax,interneuron,INcommascFV,1,0.0625
+INbiax,interneuron,INdescLuqinPDF,3,0.06382978723404255
+INbiax,interneuron,INMBdescFMRF,2,0.13333333333333333
+INbiax,interneuron,MNant,1,0.00507614213197969
+INbiax,interneuron,MN3,1,0.00568181818181818
+INbiax,interneuron,Ser-tr1,4,0.04
+INbiax,interneuron,MNgland-head,1,0.02325581395348837
+INsplitPB-RF/Ya,interneuron,SNnuchPDF,4,0.0396039603960396
+INsplitPB-RF/Ya,interneuron,SNlasso,17,0.5483870967741935
+INsplitPB-RF/Ya,interneuron,ventralParaPB2,5,0.04629629629629629
+INsplitPB-RF/Ya,interneuron,antPUc,2,0.13333333333333333
+INsplitPB-RF/Ya,interneuron,dsoPUc1unp,2,0.6666666666666666
+INsplitPB-RF/Ya,interneuron,hCR2,1,0.01030927835051546
+INsplitPB-RF/Ya,interneuron,SNPDF-pyg,3,0.05
+INsplitPB-RF/Ya,interneuron,SNblunt,1,0.04347826086956521
+INsplitPB-RF/Ya,interneuron,INsplitCR,1,0.00227790432801822
+INsplitPB-RF/Ya,interneuron,INbiax,1,0.02941176470588235
+INsplitPB-RF/Ya,interneuron,INsplitPB-RF/Ya,1,0.05
+INsplitPB-RF/Ya,interneuron,INsplitPBant,21,0.2727272727272727
+INsplitPB-RF/Ya,interneuron,INsplitPB,17,0.04392764857881137
+INsplitPB-RF/Ya,interneuron,INsplitPUh,1,0.01724137931034482
+INsplitPB-RF/Ya,interneuron,INMBtype7,1,0.08333333333333333
+INsplitPB-RF/Ya,interneuron,INasc-pyg,6,0.03614457831325301
+INsplitPB-RF/Ya,interneuron,INleucoPU,1,0.01724137931034482
+INsplitPB-RF/Ya,interneuron,INcommdescFVa,1,0.06666666666666667
+INsplitPB-RF/Ya,interneuron,INMBdescFMRF,1,0.06666666666666667
+INsplitPB-RF/Ya,interneuron,INtorii,1,0.0303030303030303
+INsplitPB-RF/Ya,interneuron,MC,5,0.05154639175257732
+INsplitPB-RF/Ya,interneuron,Loop,1,0.00694444444444444
+INsplitPB-RF/Ya,interneuron,MC3cover,5,0.03546099290780142
+INsplitPBant,interneuron,SNlasso,3,0.0967741935483871
+INsplitPBant,interneuron,chaeMech,1,0.0057471264367816
+INsplitPBant,interneuron,interparaPM1,1,0.5
+INsplitPBant,interneuron,SNPDF-pyg,5,0.08333333333333333
+INsplitPBant,interneuron,INrope,1,0.01204819277108433
+INsplitPBant,interneuron,INsplitPB-RF/Ya,2,0.1
+INsplitPBant,interneuron,INsplitPB,5,0.01291989664082687
+INsplitPBant,interneuron,INsplitPUh,7,0.1206896551724138
+INsplitPBant,interneuron,INasc-pyg,11,0.06626506024096386
+INsplitPBant,interneuron,INleucoPU,2,0.03448275862068965
+INsplitPBant,interneuron,INsplitVent,1,0.02941176470588235
+INsplitPBant,interneuron,MNspinning,3,0.01744186046511628
+INsplitPB,interneuron,PRC,1,0.03448275862068965
+INsplitPB,interneuron,chaeMech,3,0.01724137931034482
+INsplitPB,interneuron,ventralParaPB2,9,0.08333333333333333
+INsplitPB,interneuron,antPUc,1,0.06666666666666667
+INsplitPB,interneuron,ventralParaPU1,2,0.04444444444444444
+INsplitPB,interneuron,hCirrusPU,1,0.04761904761904761
+INsplitPB,interneuron,hCR2,1,0.01030927835051546
+INsplitPB,interneuron,VentralpygCR2,1,0.01041666666666666
+INsplitPB,interneuron,SNPDF-pyg,13,0.21666666666666667
+INsplitPB,interneuron,SNFVa,6,0.15384615384615383
+INsplitPB,interneuron,SNpygM,1,0.08333333333333333
+INsplitPB,interneuron,INrope,1,0.01204819277108433
+INsplitPB,interneuron,INCM,1,0.00561797752808988
+INsplitPB,interneuron,INsplitCR,4,0.00911161731207289
+INsplitPB,interneuron,INsplitCRATO,1,0.01694915254237288
+INsplitPB,interneuron,INsplitPB-RF/Ya,4,0.2
+INsplitPB,interneuron,INsplitPBant,5,0.06493506493506493
+INsplitPB,interneuron,INsplitPB,60,0.15503875968992248
+INsplitPB,interneuron,INsplitPUh,1,0.01724137931034482
+INsplitPB,interneuron,INbiaxH,1,0.01282051282051282
+INsplitPB,interneuron,INcomm-Upstairs,2,0.03846153846153846
+INsplitPB,interneuron,INasc-pyg,21,0.12650602409638553
+INsplitPB,interneuron,INleucoPU,14,0.2413793103448276
+INsplitPB,interneuron,INsplitVent,2,0.0588235294117647
+INsplitPB,interneuron,INcommdescFVa,1,0.06666666666666667
+INsplitPB,interneuron,INbiaxHmid,1,0.25
+INsplitPB,interneuron,MNant,1,0.00507614213197969
+INsplitPB,interneuron,MNspinning,16,0.09302325581395347
+INsplitPB,interneuron,Loop,8,0.05555555555555555
+INsplitPB,interneuron,MNspiderATO-ant,4,0.07407407407407407
+INsplitPB,interneuron,MNring,6,0.03592814371257485
+INsplitPB,interneuron,MC3cover,10,0.07092198581560284
+INsplitPB,interneuron,spinGland,2,0.01587301587301587
+INsplitPB,interneuron,pygidial-pigment-cell,2,0.08695652173913043
+INsplitPUh,interneuron,SNlasso,1,0.03225806451612903
+INsplitPUh,interneuron,antPUc,1,0.06666666666666667
+INsplitPUh,interneuron,hCR2,1,0.01030927835051546
+INsplitPUh,interneuron,SN-YF5cil,1,0.04545454545454545
+INsplitPUh,interneuron,INsplitPBant,5,0.06493506493506493
+INsplitPUh,interneuron,INsplitPB,5,0.01291989664082687
+INsplitPUh,interneuron,INsplitVent,1,0.02941176470588235
+INsplitPUh,interneuron,INtorii,4,0.12121212121212122
+INsplitPUh,interneuron,MNant,1,0.00507614213197969
+INsplitPUh,interneuron,MC3cover,2,0.01418439716312056
+INdc,interneuron,SNaant,1,0.3333333333333333
+INdc,interneuron,SNtrpa,1,0.25
+INdc,interneuron,INsn,6,0.05660377358490566
+INdc,interneuron,INdc,5,0.2
+INdc,interneuron,INW,1,0.01075268817204301
+INdc,interneuron,INcross,1,0.06666666666666667
+INdc,interneuron,INpro,6,0.0410958904109589
+INdc,interneuron,INMBdescFMRF,1,0.06666666666666667
+INdc,interneuron,INUturnMB,1,0.0238095238095238
+INdc,interneuron,MN3,1,0.00568181818181818
+INdc,interneuron,MN1,6,0.01935483870967742
+INdc,interneuron,MN2,5,0.02403846153846154
+INbackcross3,interneuron,chaeMech,3,0.01724137931034482
+INbackcross3,interneuron,MNant,1,0.00507614213197969
+INbackcross3,interneuron,Loop,1,0.00694444444444444
+INbackcross3,interneuron,MNring,1,0.0059880239520958
+INbackcross3,interneuron,covercell,1,0.00154798761609907
+INbiaxLeg,interneuron,pygPBunp,4,0.05714285714285714
+INbiaxLeg,interneuron,chaeMech,4,0.02298850574712643
+INbiaxLeg,interneuron,hCirrusPU,1,0.04761904761904761
+INbiaxLeg,interneuron,pygCirrusPU,1,0.0588235294117647
+INbiaxLeg,interneuron,hCR2,2,0.02061855670103092
+INbiaxLeg,interneuron,VentralpygCR2,1,0.01041666666666666
+INbiaxLeg,interneuron,INsplitCR,11,0.02505694760820045
+INbiaxLeg,interneuron,INleucoPU,2,0.03448275862068965
+INbiaxLeg,interneuron,INcomm-Upcross,1,0.01666666666666666
+INbiaxLeg,interneuron,MNcrab,3,0.02678571428571428
+INbiaxH,interneuron,pygPBunp,2,0.02857142857142857
+INbiaxH,interneuron,chaeMech,4,0.02298850574712643
+INbiaxH,interneuron,hCirrusPU,1,0.04761904761904761
+INbiaxH,interneuron,VentralpygCR2,7,0.07291666666666667
+INbiaxH,interneuron,SNPDF-pyg,1,0.01666666666666666
+INbiaxH,interneuron,SNFVa,3,0.07692307692307693
+INbiaxH,interneuron,SNblunt,1,0.04347826086956521
+INbiaxH,interneuron,INrope,1,0.01204819277108433
+INbiaxH,interneuron,INCM,1,0.00561797752808988
+INbiaxH,interneuron,INchaeMech,1,0.01515151515151515
+INbiaxH,interneuron,INsplitCR,27,0.06150341685649203
+INbiaxH,interneuron,INsplitCRATO,2,0.03389830508474576
+INbiaxH,interneuron,INsplitPB,7,0.01808785529715762
+INbiaxH,interneuron,INbiaxH,1,0.01282051282051282
+INbiaxH,interneuron,INasc-pyg,16,0.0963855421686747
+INbiaxH,interneuron,INsplitBronto,1,0.0125
+INbiaxH,interneuron,INcomm-Upcross,1,0.01666666666666666
+INbiaxH,interneuron,INsplitVent,3,0.08823529411764706
+INbiaxH,interneuron,INcomm-DownL,5,0.14705882352941177
+INbiaxH,interneuron,INcommascFV,2,0.125
+INbiaxH,interneuron,INcommdescFVa,1,0.06666666666666667
+INbiaxH,interneuron,INUturnMB,1,0.0238095238095238
+INbiaxH,interneuron,MNspinning,10,0.05813953488372093
+INbiaxH,interneuron,MNring,2,0.01197604790419161
+INbiaxH,interneuron,MNcrab,1,0.00892857142857142
+INbiaxH,interneuron,cioMNcover,1,0.0625
+INbiaxH,interneuron,MC3cover,4,0.02836879432624113
+INbiaxH,interneuron,Ser-tr1,3,0.03
+INfoot,interneuron,INCrossbow,3,0.03614457831325301
+INfoot,interneuron,INarc1,2,0.01257861635220125
+INfoot,interneuron,INdc,1,0.04
+INfoot,interneuron,INMBtype6,1,0.07692307692307693
+INfoot,interneuron,INMBtype7,1,0.08333333333333333
+INfoot,interneuron,INcross,1,0.06666666666666667
+INfoot,interneuron,INpro,5,0.03424657534246575
+INfoot,interneuron,INZ,5,0.1111111111111111
+INfoot,interneuron,INdecussfoot,49,0.7313432835820896
+INfoot,interneuron,INdecusshook,8,0.12307692307692308
+INfoot,interneuron,INmus,1,0.1
+INfoot,interneuron,INhorn,1,0.01818181818181818
+INfoot,interneuron,INdecussM,3,0.125
+INW,interneuron,INarc2,1,0.01075268817204301
+INW,interneuron,INsn,1,0.00943396226415094
+INW,interneuron,INFVa-pyg,1,0.02631578947368421
+INW,interneuron,INW,5,0.05376344086021505
+INW,interneuron,INUturn,5,0.11904761904761904
+INW,interneuron,INcommascFV,3,0.1875
+INW,interneuron,INUturnMB,1,0.0238095238095238
+INW,interneuron,Ser-tr1,3,0.03
+INW,interneuron,ciliatedGland,1,0.02040816326530612
+INmidL,interneuron,INarc1,1,0.00628930817610062
+INhook,interneuron,INNOS,1,0.0144927536231884
+INhook,interneuron,INdecussPre,4,0.09302325581395347
+INhook,interneuron,INCrossbow,1,0.01204819277108433
+INhook,interneuron,INW,12,0.12903225806451613
+INhook,interneuron,INUturn,1,0.0238095238095238
+INhook,interneuron,INlasso-postSN,1,0.0303030303030303
+INhook,interneuron,INUturnMB,4,0.09523809523809525
+INhook,interneuron,Ser-h1,2,0.01052631578947368
+INhook,interneuron,MN3,1,0.00568181818181818
+INMBtype6,interneuron,SNMIP-vc,1,0.06666666666666667
+INMBtype6,interneuron,INdc,1,0.04
+INMBtype6,interneuron,INfoot,8,0.6666666666666666
+INMBtype6,interneuron,INW,16,0.1720430107526882
+INMBtype6,interneuron,INMBtype6,5,0.38461538461538464
+INMBtype6,interneuron,INMBtype7,1,0.08333333333333333
+INMBtype6,interneuron,INcross,1,0.06666666666666667
+INMBtype6,interneuron,INpro,3,0.02054794520547945
+INMBtype6,interneuron,INZ,3,0.06666666666666667
+INMBtype6,interneuron,INdecussfoot,2,0.02985074626865671
+INMBtype6,interneuron,INdecusshook,2,0.03076923076923077
+INMBtype6,interneuron,INmus,1,0.1
+INMBtype6,interneuron,INMBdesc3,3,0.3
+INMBtype6,interneuron,INMBtype2,2,0.6666666666666666
+INMBtype6,interneuron,Glia-pigmented,1,0.125
+INMBtype5,interneuron,INsn,1,0.00943396226415094
+INMBtype5,interneuron,INW,6,0.06451612903225806
+INMBtype5,interneuron,INUturn,4,0.09523809523809525
+INMBtype5,interneuron,Ser-h1,6,0.03157894736842105
+INMBtype7,interneuron,INpro,1,0.00684931506849315
+INMBtype7,interneuron,INZ,9,0.2
+INMBtype7,interneuron,INMBPDF,4,0.12903225806451613
+INMBtype7,interneuron,INpara,7,0.4375
+INcross,interneuron,INcross,1,0.06666666666666667
+INcross,interneuron,INpro,11,0.07534246575342465
+INcross,interneuron,INproT2,1,0.01724137931034482
+INcross,interneuron,INdecussfoot,2,0.02985074626865671
+INcross,interneuron,INdecussM,1,0.04166666666666666
+INcross,interneuron,Glia-pigmented,1,0.125
+INpro,interneuron,ventralParaPU1,4,0.08888888888888889
+INpro,interneuron,cMNdc,1,0.0217391304347826
+INpro,interneuron,INdecussPre,9,0.20930232558139536
+INpro,interneuron,INarc2,1,0.01075268817204301
+INpro,interneuron,INsn,1,0.00943396226415094
+INpro,interneuron,INdc,1,0.04
+INpro,interneuron,INhook,1,0.06666666666666667
+INpro,interneuron,INcross,3,0.2
+INpro,interneuron,INpro,72,0.4931506849315068
+INpro,interneuron,INproT2,3,0.05172413793103448
+INpro,interneuron,INdecussfoot,4,0.05970149253731343
+INpro,interneuron,INdecusshook,2,0.03076923076923077
+INpro,interneuron,INMBdesc2,1,0.0625
+INpro,interneuron,MNring,1,0.0059880239520958
+INpro,interneuron,MNhose,1,0.02325581395348837
+INpro,interneuron,MNacicX,2,0.05405405405405406
+INpro,interneuron,MN3,1,0.00568181818181818
+INpro,interneuron,MN2,2,0.00961538461538461
+INpro,interneuron,MNantacic,1,0.08333333333333333
+INpro,interneuron,MNpostacic,2,0.16666666666666666
+INpro,interneuron,MNsmile,1,0.0175438596491228
+INpro,interneuron,MUSobA-re,1,0.0119047619047619
+INpro,interneuron,MUSobA-arc,2,0.03508771929824561
+INpro,interneuron,MUStrans,2,0.01680672268907563
+INproT2,interneuron,cMNdc,1,0.0217391304347826
+INproT2,interneuron,INdecussPre,2,0.04651162790697674
+INproT2,interneuron,INpro,2,0.0136986301369863
+INproT2,interneuron,MNring,10,0.05988023952095808
+INproT2,interneuron,MNcrab,1,0.00892857142857142
+INproT2,interneuron,MN2,1,0.0048076923076923
+INpear,interneuron,SNMIP-vc,1,0.06666666666666667
+INpear,interneuron,SN-DLSO1.1,1,0.3333333333333333
+INpear,interneuron,INpreMN,2,0.05
+INpear,interneuron,INW,1,0.01075268817204301
+INpear,interneuron,INmidL,1,0.2
+INpear,interneuron,INhook,1,0.06666666666666667
+INpear,interneuron,INpear,1,0.1111111111111111
+INpear,interneuron,INexsn,1,0.25
+INpear,interneuron,Ser-h1,1,0.00526315789473684
+INpear,interneuron,MNheadV,3,0.2727272727272727
+INpear,interneuron,Glia-pigmented,1,0.125
+INZ,interneuron,INfoot,1,0.08333333333333333
+INZ,interneuron,INMBtype6,1,0.07692307692307693
+INZ,interneuron,INMBtype7,2,0.16666666666666666
+INZ,interneuron,INcross,5,0.3333333333333333
+INZ,interneuron,INpro,7,0.04794520547945205
+INZ,interneuron,INZ,9,0.2
+INZ,interneuron,INpara,2,0.125
+INbigloop,interneuron,pygPBunp,1,0.01428571428571428
+INbigloop,interneuron,hPUc,1,0.05263157894736842
+INbigloop,interneuron,hCR2,2,0.02061855670103092
+INbigloop,interneuron,SNblunt,1,0.04347826086956521
+INbigloop,interneuron,INarc1,1,0.00628930817610062
+INbigloop,interneuron,INrope,3,0.03614457831325301
+INbigloop,interneuron,INCM,3,0.01685393258426966
+INbigloop,interneuron,INMC3,2,0.15384615384615383
+INbigloop,interneuron,INbiax,2,0.0588235294117647
+INbigloop,interneuron,INsplitPUh,1,0.01724137931034482
+INbigloop,interneuron,INbigloop,4,0.2222222222222222
+INbigloop,interneuron,INMBdesc2,1,0.0625
+INbigloop,interneuron,MNant,4,0.02030456852791878
+INbigloop,interneuron,MNspinning,1,0.00581395348837209
+INbigloop,interneuron,MNakro,1,0.09090909090909093
+INUturn,interneuron,INW,1,0.01075268817204301
+INUturn,interneuron,INbigloop,1,0.05555555555555555
+INUturn,interneuron,INcomm-Upcross,1,0.01666666666666666
+INUturn,interneuron,INUturnMB,1,0.0238095238095238
+INUturn,interneuron,MNcrab,1,0.00892857142857142
+INUturn,interneuron,Ser-tr1,9,0.09
+INUturn,interneuron,ciliatedGland,1,0.02040816326530612
+INATOpyg,interneuron,pygCirrusPU,1,0.0588235294117647
+INATOpyg,interneuron,INchaeMech,2,0.0303030303030303
+INATOpyg,interneuron,INATOpyg,3,0.75
+INATOpyg,interneuron,INpreLadder,2,0.09523809523809525
+INATOpyg,interneuron,INcomm-Upcross,1,0.01666666666666666
+INATOpyg,interneuron,INcommascFV,2,0.125
+INATOpyg,interneuron,MNspider-post,1,0.0175438596491228
+INATOpyg,interneuron,MNring,8,0.04790419161676647
+INATOpyg,interneuron,MNcrab,2,0.01785714285714285
+INATOpyg,interneuron,MNhose,1,0.02325581395348837
+INATOpyg,interneuron,MNacicX,1,0.02702702702702703
+INATOpyg,interneuron,Ser-tr1,8,0.08
+INATOpyg,interneuron,MNladder,1,0.00675675675675675
+INATOpyg,interneuron,MNantacic,4,0.3333333333333333
+INATOpyg,interneuron,MNchae,2,0.16666666666666666
+INATOpyg,interneuron,MNsmile,1,0.0175438596491228
+INcomm-Upstairs,interneuron,chaeMech,1,0.0057471264367816
+INcomm-Upstairs,interneuron,VentralpygCR2,5,0.05208333333333333
+INcomm-Upstairs,interneuron,INsplitCR,1,0.00227790432801822
+INcomm-Upstairs,interneuron,INUturn,1,0.0238095238095238
+INcomm-Upstairs,interneuron,INcomm-Upstairs,2,0.03846153846153846
+INcomm-Upstairs,interneuron,INcomm-Upcross,1,0.01666666666666666
+INcomm-Upstairs,interneuron,INcomm-DownL,1,0.02941176470588235
+INcomm-Upstairs,interneuron,Ser-h1,1,0.00526315789473684
+INcomm-Upstairs,interneuron,cioMNcover,2,0.125
+INasc-pyg,interneuron,SNnuchPDF,14,0.13861386138613865
+INasc-pyg,interneuron,SNnuchBx,2,0.2857142857142857
+INasc-pyg,interneuron,SNlasso,4,0.12903225806451613
+INasc-pyg,interneuron,MS3,1,0.16666666666666666
+INasc-pyg,interneuron,SN-DSO17,1,0.05263157894736842
+INasc-pyg,interneuron,chaeMech,1,0.0057471264367816
+INasc-pyg,interneuron,ventralParaPB2,1,0.00925925925925925
+INasc-pyg,interneuron,hCR2,4,0.04123711340206185
+INasc-pyg,interneuron,SNblunt,1,0.04347826086956521
+INasc-pyg,interneuron,SN-DLSO1.3,1,0.08333333333333333
+INasc-pyg,interneuron,SNpygM,1,0.08333333333333333
+INasc-pyg,interneuron,SNtorii,1,0.5
+INasc-pyg,interneuron,SNtrpa,3,0.75
+INasc-pyg,interneuron,INsplitCRATO,1,0.01694915254237288
+INasc-pyg,interneuron,INbiax,1,0.02941176470588235
+INasc-pyg,interneuron,INsplitPB-RF/Ya,2,0.1
+INasc-pyg,interneuron,INsplitPBant,3,0.03896103896103896
+INasc-pyg,interneuron,INsplitPB,5,0.01291989664082687
+INasc-pyg,interneuron,INbiaxH,3,0.03846153846153846
+INasc-pyg,interneuron,INasc-pyg,9,0.05421686746987952
+INasc-pyg,interneuron,INsplitBronto,1,0.0125
+INasc-pyg,interneuron,INcomm-DownL,1,0.02941176470588235
+INasc-pyg,interneuron,INhorn,1,0.01818181818181818
+INasc-pyg,interneuron,INtorii,1,0.0303030303030303
+INasc-pyg,interneuron,MC,3,0.03092783505154639
+INasc-pyg,interneuron,MNant,3,0.01522842639593908
+INasc-pyg,interneuron,MNspinning,1,0.00581395348837209
+INasc-pyg,interneuron,Ser-tr1,2,0.02
+INsplitBronto,interneuron,chaeMech,1,0.0057471264367816
+INsplitBronto,interneuron,ventralParaPB2,2,0.01851851851851851
+INsplitBronto,interneuron,SNbronto,1,0.09090909090909093
+INsplitBronto,interneuron,INrope,1,0.01204819277108433
+INsplitBronto,interneuron,INCM,1,0.00561797752808988
+INsplitBronto,interneuron,INchaeMech,2,0.0303030303030303
+INsplitBronto,interneuron,INbiax,1,0.02941176470588235
+INsplitBronto,interneuron,INsplitPB,1,0.00258397932816537
+INsplitBronto,interneuron,INbiaxH,2,0.02564102564102564
+INsplitBronto,interneuron,INcomm-DownL,1,0.02941176470588235
+INsplitBronto,interneuron,INcommdescFVa,1,0.06666666666666667
+INsplitBronto,interneuron,MNspinning,20,0.11627906976744186
+INsplitBronto,interneuron,Loop,2,0.01388888888888888
+INsplitBronto,interneuron,MNspiderATO-ant,12,0.2222222222222222
+INsplitBronto,interneuron,MNspider-post,6,0.10526315789473684
+INsplitBronto,interneuron,MNring,4,0.02395209580838323
+INsplitBronto,interneuron,MNcrab,2,0.01785714285714285
+INsplitBronto,interneuron,MNhose,1,0.02325581395348837
+INsplitBronto,interneuron,MNacicX,1,0.02702702702702703
+INsplitBronto,interneuron,MN3,1,0.00568181818181818
+INsplitBronto,interneuron,MC3cover,1,0.00709219858156028
+INsplitBronto,interneuron,MNladder,1,0.00675675675675675
+INsplitBronto,interneuron,MNsmile,1,0.0175438596491228
+INleucoPU,interneuron,ventralParaPU1,5,0.1111111111111111
+INleucoPU,interneuron,INarc1,1,0.00628930817610062
+INleucoPU,interneuron,INUturn,1,0.0238095238095238
+INleucoPU,interneuron,INcommdescFVa,1,0.06666666666666667
+INleucoPU,interneuron,MNspiderATO-ant,1,0.01851851851851851
+INleucoPU,interneuron,MNspider-post,6,0.10526315789473684
+INleucoPU,interneuron,MNbiramous,7,0.07526881720430108
+INleucoPU,interneuron,MNring,2,0.01197604790419161
+INleucoPU,interneuron,MNhose,10,0.23255813953488372
+INleucoPU,interneuron,MNwave,25,0.4807692307692308
+INleucoPU,interneuron,MNmouth,13,0.40625
+INleucoPU,interneuron,MNladder,26,0.17567567567567569
+INleucoPU,interneuron,MNarm,4,0.5
+INleucoPU,interneuron,MNpostacic,4,0.3333333333333333
+INleucoPU,interneuron,MNsmile,5,0.08771929824561403
+INdecussfoot,interneuron,SNstiff,1,0.06666666666666667
+INdecussfoot,interneuron,INchaeMech,2,0.0303030303030303
+INdecussfoot,interneuron,INW,4,0.04301075268817204
+INdecussfoot,interneuron,INdecusshook,2,0.03076923076923077
+INdecussfoot,interneuron,INhorn,1,0.01818181818181818
+INdecussfoot,interneuron,INMBdescFMRF,1,0.06666666666666667
+INdecussfoot,interneuron,INdecussM,1,0.04166666666666666
+INdecussfoot,interneuron,Loop,1,0.00694444444444444
+INdecussfoot,interneuron,MNakro,1,0.09090909090909093
+INdecusshook,interneuron,INarc2,1,0.01075268817204301
+INdecusshook,interneuron,INpro,1,0.00684931506849315
+INdecusshook,interneuron,INpreLadder,3,0.14285714285714285
+INdecusshook,interneuron,INMBPDF,3,0.0967741935483871
+INdecusshook,interneuron,INMBdescFMRF,1,0.06666666666666667
+INdecusshook,interneuron,INdecussM,4,0.16666666666666666
+INdecusshook,interneuron,MNladder,3,0.02027027027027027
+INdecusshook,interneuron,ciliatedGland,4,0.08163265306122448
+INpreLadder,interneuron,cMNPDF-vcl1,1,0.04347826086956521
+INpreLadder,interneuron,INchaeMech,1,0.01515151515151515
+INpreLadder,interneuron,INbiaxH,1,0.01282051282051282
+INpreLadder,interneuron,INsplitVent,1,0.02941176470588235
+INpreLadder,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INpreLadder,interneuron,MNring,1,0.0059880239520958
+INpreLadder,interneuron,Ser-tr1,1,0.01
+INpreLadder,interneuron,MNladder,47,0.31756756756756754
+INpreLadder,interneuron,MNchae,1,0.08333333333333333
+INcomm-Upcross,interneuron,pygPBunp,3,0.04285714285714286
+INcomm-Upcross,interneuron,chaeMech,4,0.02298850574712643
+INcomm-Upcross,interneuron,hCR2,31,0.31958762886597936
+INcomm-Upcross,interneuron,VentralpygCR2,2,0.02083333333333333
+INcomm-Upcross,interneuron,doCRunp,1,0.09090909090909093
+INcomm-Upcross,interneuron,INarc1,9,0.05660377358490566
+INcomm-Upcross,interneuron,INCM,1,0.00561797752808988
+INcomm-Upcross,interneuron,INsplitCR,4,0.00911161731207289
+INcomm-Upcross,interneuron,INsplitPUh,1,0.01724137931034482
+INcomm-Upcross,interneuron,INbiaxLeg,3,0.08823529411764706
+INcomm-Upcross,interneuron,INUturn,2,0.04761904761904761
+INcomm-Upcross,interneuron,INcomm-Upcross,5,0.08333333333333333
+INcomm-Upcross,interneuron,INcommdescFVa,2,0.13333333333333333
+INcomm-Upcross,interneuron,MC,2,0.02061855670103092
+INcomm-Upcross,interneuron,MNcrab,1,0.00892857142857142
+INcomm-Upcross,interneuron,MC3cover,1,0.00709219858156028
+INcomm-Upcross,interneuron,MNgland-head,6,0.13953488372093023
+INsplitVent,interneuron,chaeMech,5,0.02873563218390804
+INsplitVent,interneuron,ventralParaPB2,3,0.02777777777777777
+INsplitVent,interneuron,ventralParaPU1,4,0.08888888888888889
+INsplitVent,interneuron,ventralpostParaPUc2,1,0.07692307692307693
+INsplitVent,interneuron,INrope,5,0.06024096385542168
+INsplitVent,interneuron,INchaeMech,3,0.04545454545454545
+INsplitVent,interneuron,INFVa-pyg,1,0.02631578947368421
+INsplitVent,interneuron,INsplitCR,1,0.00227790432801822
+INsplitVent,interneuron,INsplitCRATO,1,0.01694915254237288
+INsplitVent,interneuron,INsplitPB,3,0.00775193798449612
+INsplitVent,interneuron,INasc-pyg,1,0.00602409638554216
+INsplitVent,interneuron,MNspinning,2,0.01162790697674418
+INsplitVent,interneuron,MNring,15,0.08982035928143713
+INsplitVent,interneuron,MNcrab,1,0.00892857142857142
+INsplitVent,interneuron,MNhose,2,0.04651162790697674
+INsplitVent,interneuron,MNbow,2,0.08
+INsplitVent,interneuron,MNwave,2,0.03846153846153846
+INsplitVent,interneuron,MC3cover,1,0.00709219858156028
+INsplitVent,interneuron,MNob-ipsi,1,0.08333333333333333
+INsplitVent,interneuron,Ser-tr1,1,0.01
+INcomm-DownL,interneuron,chaeMech,5,0.02873563218390804
+INcomm-DownL,interneuron,hCR2,1,0.01030927835051546
+INcomm-DownL,interneuron,VentralpygCR2,5,0.05208333333333333
+INcomm-DownL,interneuron,SNpygM,1,0.08333333333333333
+INcomm-DownL,interneuron,INsplitCR,31,0.07061503416856492
+INcomm-DownL,interneuron,INsplitPB,2,0.00516795865633075
+INcomm-DownL,interneuron,INbiaxH,1,0.01282051282051282
+INcomm-DownL,interneuron,INasc-pyg,3,0.0180722891566265
+INcomm-DownL,interneuron,MNring,4,0.02395209580838323
+INcomm-DownL,interneuron,MNcrab,6,0.05357142857142857
+INlasso-postSN,interneuron,INRGWa,2,0.00684931506849315
+INlasso-postSN,interneuron,INpreMN,8,0.2
+INlasso-postSN,interneuron,INsn,32,0.3018867924528302
+INlasso-postSN,interneuron,INfoot,1,0.08333333333333333
+INlasso-postSN,interneuron,INW,2,0.02150537634408602
+INlasso-postSN,interneuron,INlasso-postSN,3,0.09090909090909093
+INlasso-postSN,interneuron,INDLSO,1,0.0588235294117647
+INlasso-postSN,interneuron,MN3,4,0.02272727272727272
+INlasso-postSN,interneuron,MN1,1,0.0032258064516129
+INlasso-postSN,interneuron,MNgland-head,1,0.02325581395348837
+INcommascFV,interneuron,ventralParaPB2,1,0.00925925925925925
+INcommascFV,interneuron,INrope,1,0.01204819277108433
+INcommascFV,interneuron,INbiax,1,0.02941176470588235
+INcommascFV,interneuron,INsplitPB,1,0.00258397932816537
+INcommascFV,interneuron,INbiaxH,1,0.01282051282051282
+INcommascFV,interneuron,INsplitVent,1,0.02941176470588235
+INcommascFV,interneuron,INcomm-DownL,1,0.02941176470588235
+INR1,interneuron,PRC,2,0.06896551724137931
+INR1,interneuron,eyespot-PRCR1,7,1
+INR1,interneuron,MS5,1,0.07142857142857142
+INR1,interneuron,SN-DLSO1.1NP,8,0.26666666666666666
+INR1,interneuron,IN1,2,0.00483091787439613
+INR1,interneuron,INR1,6,0.20689655172413793
+INmus,interneuron,INlasso,1,0.03125
+INmus,interneuron,INsn,1,0.00943396226415094
+INmus,interneuron,INUturn,1,0.0238095238095238
+INmus,interneuron,INmus,1,0.1
+INdescLuqinPDF,interneuron,hCR2,1,0.01030927835051546
+INdescLuqinPDF,interneuron,INchaeMech,2,0.0303030303030303
+INdescLuqinPDF,interneuron,INsplitCR,2,0.00455580865603644
+INdescLuqinPDF,interneuron,INsplitCRATO,1,0.01694915254237288
+INdescLuqinPDF,interneuron,INbiax,4,0.1176470588235294
+INdescLuqinPDF,interneuron,INW,4,0.04301075268817204
+INdescLuqinPDF,interneuron,INdecussfoot,2,0.02985074626865671
+INdescLuqinPDF,interneuron,INpreLadder,1,0.04761904761904761
+INdescLuqinPDF,interneuron,INcommdescFVa,1,0.06666666666666667
+INdescLuqinPDF,interneuron,INMBdescFMRF,3,0.2
+INdescLuqinPDF,interneuron,INMBdesc2,2,0.125
+INdescLuqinPDF,interneuron,MNant,2,0.01015228426395939
+INdescLuqinPDF,interneuron,MNspinning,10,0.05813953488372093
+INdescLuqinPDF,interneuron,MNspiderATO-ant,1,0.01851851851851851
+INdescLuqinPDF,interneuron,MNring,1,0.0059880239520958
+INdescLuqinPDF,interneuron,Ser-tr1,7,0.07
+INcosplit,interneuron,MNspider-post,1,0.0175438596491228
+INcosplit,interneuron,MNhose,1,0.02325581395348837
+INcosplit,interneuron,MUSobA-re,1,0.0119047619047619
+INcommdescFVa,interneuron,INFVa-pyg,1,0.02631578947368421
+INcommdescFVa,interneuron,MNspinning,8,0.04651162790697674
+INcommdescFVa,interneuron,MNspiderATO-ant,1,0.01851851851851851
+INcommdescFVa,interneuron,MNring,2,0.01197604790419161
+INcommdescFVa,interneuron,MNladder,17,0.11486486486486489
+INsqNSasym,interneuron,INpreMN,2,0.05
+INsqNSasym,interneuron,INCrossbow,3,0.03614457831325301
+INsqNSasym,interneuron,INsn,1,0.00943396226415094
+INsqNSasym,interneuron,INlasso-postSN,1,0.0303030303030303
+INsqNSasym,interneuron,INdescLuqinPDF,2,0.0425531914893617
+INsqNSasym,interneuron,INDLSO,1,0.0588235294117647
+INsqNSasym,interneuron,INUturnMB,2,0.04761904761904761
+INsqNSasym,interneuron,Ser-h1,9,0.04736842105263158
+INbiaxHmid,interneuron,SNPDF-pyg,3,0.05
+INbiaxHmid,interneuron,INsplitCR,1,0.00227790432801822
+INbiaxHmid,interneuron,INbiaxH,1,0.01282051282051282
+INbiaxHmid,interneuron,INasc-pyg,1,0.00602409638554216
+INhorn,interneuron,SNhorn,1,0.125
+INhorn,interneuron,chaeMech,2,0.01149425287356321
+INhorn,interneuron,INrope,2,0.02409638554216867
+INhorn,interneuron,INbiaxH,1,0.01282051282051282
+INhorn,interneuron,INsplitBronto,1,0.0125
+INhorn,interneuron,INleucoPU,1,0.01724137931034482
+INhorn,interneuron,INtorii,6,0.18181818181818185
+INhorn,interneuron,INMBdesc2,1,0.0625
+INhorn,interneuron,INiaStiff,2,0.10526315789473684
+INhorn,interneuron,MNant,1,0.00507614213197969
+INhorn,interneuron,MNhose,2,0.04651162790697674
+INhorn,interneuron,MC3cover,1,0.00709219858156028
+INMBPDF,interneuron,INdecusshook,6,0.09230769230769233
+INMBPDF,interneuron,INpreLadder,2,0.09523809523809525
+INMBPDF,interneuron,INMBPDF,1,0.03225806451612903
+INMBPDF,interneuron,INMBdescFMRF,1,0.06666666666666667
+INMBPDF,interneuron,INdecussM,5,0.20833333333333337
+INMBPDF,interneuron,Ser-h1,4,0.02105263157894736
+INMBPDF,interneuron,MN3,1,0.00568181818181818
+INMBPDF,interneuron,MNgland-head,3,0.06976744186046512
+INMBPDF,interneuron,ciliatedGland,1,0.02040816326530612
+INMBdescFMRF,interneuron,INchaeMech,1,0.01515151515151515
+INMBdescFMRF,interneuron,INbigloop,1,0.05555555555555555
+INMBdescFMRF,interneuron,INsplitBronto,1,0.0125
+INMBdescFMRF,interneuron,INdecusshook,2,0.03076923076923077
+INMBdescFMRF,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INMBdescFMRF,interneuron,Loop,1,0.00694444444444444
+INDLSO,interneuron,SN47Ach,1,0.14285714285714285
+INDLSO,interneuron,SNaant,1,0.3333333333333333
+INDLSO,interneuron,INpreSer,1,0.125
+INDLSO,interneuron,INRGWa,1,0.00342465753424657
+INDLSO,interneuron,cMNPDF-vcl1,1,0.04347826086956521
+INDLSO,interneuron,INCrossbow,1,0.01204819277108433
+INDLSO,interneuron,INarc1,6,0.03773584905660377
+INDLSO,interneuron,INfoot,1,0.08333333333333333
+INDLSO,interneuron,INUturn,1,0.0238095238095238
+INDLSO,interneuron,INdescLuqinPDF,5,0.10638297872340426
+INDLSO,interneuron,INsqNSasym,1,0.05
+INDLSO,interneuron,INUturnMB,15,0.35714285714285715
+INDLSO,interneuron,Ser-h1,1,0.00526315789473684
+INDLSO,interneuron,MNant,7,0.03553299492385787
+INDLSO,interneuron,MNgland-head,6,0.13953488372093023
+INexsn,interneuron,SNMIP-vc,1,0.06666666666666667
+INexsn,interneuron,INdecussPre,8,0.18604651162790695
+MBmouth,interneuron,MBmouth,1,1
+MBmouth,interneuron,INface,4,0.8
+INtorii,interneuron,hPUc,1,0.05263157894736842
+INtorii,interneuron,SNPDF-pyg,2,0.03333333333333333
+INtorii,interneuron,SNblunt,1,0.04347826086956521
+INtorii,interneuron,INsplitPBant,3,0.03896103896103896
+INtorii,interneuron,INsplitPB,3,0.00775193798449612
+INtorii,interneuron,INsplitPUh,5,0.08620689655172414
+INtorii,interneuron,INasc-pyg,1,0.00602409638554216
+INtorii,interneuron,INleucoPU,7,0.1206896551724138
+INtorii,interneuron,INcommascFV,1,0.0625
+INtorii,interneuron,INhorn,1,0.01818181818181818
+INtorii,interneuron,MNant,1,0.00507614213197969
+INtorii,interneuron,MC3cover,1,0.00709219858156028
+INUturnMB,interneuron,pygPBunp,2,0.02857142857142857
+INUturnMB,interneuron,INbiax,1,0.02941176470588235
+INUturnMB,interneuron,INW,1,0.01075268817204301
+INUturnMB,interneuron,INUturn,1,0.0238095238095238
+INUturnMB,interneuron,MNring,1,0.0059880239520958
+INUturnMB,interneuron,MN3,1,0.00568181818181818
+INface,interneuron,INface,1,0.2
+INMBdesc3,interneuron,SNbronto,1,0.09090909090909093
+INMBdesc3,interneuron,INbiax,1,0.02941176470588235
+INMBdesc3,interneuron,INW,2,0.02150537634408602
+INMBdesc3,interneuron,INUturnMB,1,0.0238095238095238
+INMBdesc3,interneuron,MN3,1,0.00568181818181818
+INMBdesc2,interneuron,INrope,3,0.03614457831325301
+INMBdesc2,interneuron,INsplitCR,1,0.00227790432801822
+INMBdesc2,interneuron,INdescLuqinPDF,2,0.0425531914893617
+INMBdesc2,interneuron,INhorn,2,0.03636363636363636
+INMBdesc2,interneuron,INMBdesc2,2,0.125
+INMBdesc2,interneuron,MNant,1,0.00507614213197969
+INMBdesc2,interneuron,MNring,1,0.0059880239520958
+INMBdesc2,interneuron,Ser-tr1,2,0.02
+INMBdesc2,interneuron,MNsmile,1,0.0175438596491228
+INpara,interneuron,INW,2,0.02150537634408602
+INpara,interneuron,INMBtype7,2,0.16666666666666666
+INpara,interneuron,INcross,2,0.13333333333333333
+INpara,interneuron,INpro,1,0.00684931506849315
+INpara,interneuron,INZ,1,0.02222222222222222
+INpara,interneuron,INMBdesc3,1,0.1
+INpara,interneuron,INpara,6,0.375
+INpara,interneuron,MN3,1,0.00568181818181818
+INMBtype9,interneuron,INpreMN,2,0.05
+INMBtype9,interneuron,INmidL,1,0.2
+INMBtype9,interneuron,INproT2,10,0.1724137931034483
+INMBtype9,interneuron,INdecusshook,1,0.01538461538461538
+INMBtype9,interneuron,MN3,1,0.00568181818181818
+INMBtype9,interneuron,MN2,3,0.01442307692307692
+INMBtype9,interneuron,MNheadV,1,0.09090909090909093
+INMBtype2,interneuron,INdecusshook,7,0.1076923076923077
+INMBtype2,interneuron,INMBdesc3,1,0.1
+INdecussM,interneuron,INCrossbow,1,0.01204819277108433
+INdecussM,interneuron,INarc1,2,0.01257861635220125
+INdecussM,interneuron,INdecusshook,2,0.03076923076923077
+INdecussM,interneuron,INpreLadder,2,0.09523809523809525
+INdecussM,interneuron,Ser-tr1,1,0.01
+INdecussM,interneuron,MNladder,4,0.02702702702702703
+INiaStiff,interneuron,SNhorn,1,0.125
+INiaStiff,interneuron,SNMIP-vc,3,0.2
+INiaStiff,interneuron,MS1,1,0.06666666666666667
+INiaStiff,interneuron,MS3,1,0.16666666666666666
+INiaStiff,interneuron,SNPDF-pyg,1,0.01666666666666666
+INiaStiff,interneuron,SNstiff,3,0.2
+INiaStiff,interneuron,cMNPDF-vcl1,1,0.04347826086956521
+INiaStiff,interneuron,INCrossbow,1,0.01204819277108433
+INiaStiff,interneuron,INhook,1,0.06666666666666667
+INiaStiff,interneuron,INpear,1,0.1111111111111111
+INiaStiff,interneuron,INdecussfoot,1,0.01492537313432835
+INiaStiff,interneuron,INdecusshook,1,0.01538461538461538
+INiaStiff,interneuron,INmus,1,0.1
+INiaStiff,interneuron,INdescLuqinPDF,1,0.02127659574468085
+INiaStiff,interneuron,INtorii,1,0.0303030303030303
+INiaStiff,interneuron,INMBdesc2,1,0.0625
+INiaStiff,interneuron,INiaStiff,1,0.05263157894736842
+INiaStiff,interneuron,MNladder,2,0.01351351351351351
+Ser-h1,motorneuron,SNbicil,2,0.125
+Ser-h1,motorneuron,pygPBunp,8,0.11428571428571428
+Ser-h1,motorneuron,VentraltrunkPUunp-Glialike,2,0.5
+Ser-h1,motorneuron,ventralParaPU1,2,0.04444444444444444
+Ser-h1,motorneuron,doCRunp,2,0.18181818181818185
+Ser-h1,motorneuron,SN-NS1,1,0.125
+Ser-h1,motorneuron,INRGWa,1,0.00342465753424657
+Ser-h1,motorneuron,cMNPDF-vcl1,5,0.21739130434782608
+Ser-h1,motorneuron,cMNATO,13,0.23214285714285715
+Ser-h1,motorneuron,cMNdc,2,0.04347826086956521
+Ser-h1,motorneuron,INCrossbow,3,0.03614457831325301
+Ser-h1,motorneuron,INarc1,1,0.00628930817610062
+Ser-h1,motorneuron,INarc2,8,0.08602150537634409
+Ser-h1,motorneuron,INbackcross3,1,0.04761904761904761
+Ser-h1,motorneuron,INpro,1,0.00684931506849315
+Ser-h1,motorneuron,INcomm-Upstairs,8,0.15384615384615383
+Ser-h1,motorneuron,INdecusshook,5,0.07692307692307693
+Ser-h1,motorneuron,INpreLadder,3,0.14285714285714285
+Ser-h1,motorneuron,INsqNSasym,1,0.05
+Ser-h1,motorneuron,INMBPDF,4,0.12903225806451613
+Ser-h1,motorneuron,INUturnMB,1,0.0238095238095238
+Ser-h1,motorneuron,INdecussM,1,0.04166666666666666
+Ser-h1,motorneuron,Ser-h1,14,0.07368421052631578
+Ser-h1,motorneuron,MC,42,0.4329896907216495
+Ser-h1,motorneuron,MNant,1,0.00507614213197969
+Ser-h1,motorneuron,MNhose,1,0.02325581395348837
+Ser-h1,motorneuron,MNbow,2,0.08
+Ser-h1,motorneuron,MNacicX,1,0.02702702702702703
+Ser-h1,motorneuron,cioMNcover,1,0.0625
+Ser-h1,motorneuron,Ser-tr1,10,0.1
+Ser-h1,motorneuron,MNladder,1,0.00675675675675675
+Ser-h1,motorneuron,MNgland-head,4,0.09302325581395347
+Ser-h1,motorneuron,prototroch,24,0.02933985330073349
+Ser-h1,motorneuron,ciliatedGland,1,0.02040816326530612
+Ser-h1,motorneuron,covercell,3,0.00464396284829721
+MC,motorneuron,hCR2,2,0.02061855670103092
+MC,motorneuron,INbigloop,1,0.05555555555555555
+MC,motorneuron,Ser-h1,2,0.01052631578947368
+MC,motorneuron,Ser-tr1,1,0.01
+MC,motorneuron,prototroch,340,0.4156479217603912
+MNant,motorneuron,SNantlerPDF,1,0.16666666666666666
+MNant,motorneuron,SNstiff,3,0.2
+MNant,motorneuron,cMNATO,1,0.01785714285714285
+MNant,motorneuron,cMNdc,1,0.0217391304347826
+MNant,motorneuron,INbackcross3,1,0.04761904761904761
+MNant,motorneuron,INMBdesc2,1,0.0625
+MNant,motorneuron,MNant,3,0.01522842639593908
+MNant,motorneuron,Loop,7,0.04861111111111111
+MNant,motorneuron,Ser-tr1,3,0.03
+MNant,motorneuron,MNakro,2,0.18181818181818185
+MNant,motorneuron,MNgland-head,1,0.02325581395348837
+MNant,motorneuron,akrotroch,40,0.2395209580838323
+MNant,motorneuron,prototroch,55,0.06723716381418093
+MNant,motorneuron,metatroch,73,0.6347826086956522
+MNant,motorneuron,paratroch,34,0.04014167650531287
+MNant,motorneuron,ciliatedGland,2,0.04081632653061224
+MNant,motorneuron,covercell,1,0.00154798761609907
+MNant,motorneuron,pigment-cell,1,1
+MNspinning,motorneuron,chaeMech,8,0.04597701149425287
+MNspinning,motorneuron,ventralParaPB2,5,0.04629629629629629
+MNspinning,motorneuron,ventralParaPU1,3,0.06666666666666667
+MNspinning,motorneuron,hCR2,1,0.01030927835051546
+MNspinning,motorneuron,SNblunt,4,0.17391304347826086
+MNspinning,motorneuron,INrope,2,0.02409638554216867
+MNspinning,motorneuron,INCM,2,0.01123595505617977
+MNspinning,motorneuron,INMC3,2,0.15384615384615383
+MNspinning,motorneuron,INsplitPB,8,0.020671834625323
+MNspinning,motorneuron,INsplitPUh,3,0.05172413793103448
+MNspinning,motorneuron,INbiaxH,1,0.01282051282051282
+MNspinning,motorneuron,INpro,1,0.00684931506849315
+MNspinning,motorneuron,INsplitBronto,2,0.025
+MNspinning,motorneuron,INcomm-Upcross,1,0.01666666666666666
+MNspinning,motorneuron,INsplitVent,2,0.0588235294117647
+MNspinning,motorneuron,INcommascFV,2,0.125
+MNspinning,motorneuron,INhorn,2,0.03636363636363636
+MNspinning,motorneuron,INtorii,1,0.0303030303030303
+MNspinning,motorneuron,MNant,1,0.00507614213197969
+MNspinning,motorneuron,Loop,7,0.04861111111111111
+MNspinning,motorneuron,MNbow,1,0.04
+MNspinning,motorneuron,MC3cover,6,0.0425531914893617
+MNspinning,motorneuron,Ser-tr1,1,0.01
+MNspinning,motorneuron,MNladder,1,0.00675675675675675
+MNspinning,motorneuron,MNsmile,2,0.03508771929824561
+MNspinning,motorneuron,spinGland,123,0.9761904761904762
+Loop,motorneuron,SNhorn,2,0.25
+Loop,motorneuron,MS3,1,0.16666666666666666
+Loop,motorneuron,ventralParaPB2,1,0.00925925925925925
+Loop,motorneuron,ventralParaPU1,1,0.02222222222222222
+Loop,motorneuron,SNblunt,1,0.04347826086956521
+Loop,motorneuron,cMNATO,1,0.01785714285714285
+Loop,motorneuron,cMNdc,1,0.0217391304347826
+Loop,motorneuron,INrope,7,0.08433734939759036
+Loop,motorneuron,INMC3,1,0.07692307692307693
+Loop,motorneuron,INbackcross3,11,0.5238095238095238
+Loop,motorneuron,INpro,1,0.00684931506849315
+Loop,motorneuron,INcomm-Upcross,1,0.01666666666666666
+Loop,motorneuron,INhorn,1,0.01818181818181818
+Loop,motorneuron,MC,2,0.02061855670103092
+Loop,motorneuron,MNant,7,0.03553299492385787
+Loop,motorneuron,MNspinning,1,0.00581395348837209
+Loop,motorneuron,MNspider-post,2,0.03508771929824561
+Loop,motorneuron,MNring,3,0.01796407185628742
+Loop,motorneuron,MNcrab,1,0.00892857142857142
+Loop,motorneuron,MNbow,1,0.04
+Loop,motorneuron,MN1,1,0.0032258064516129
+Loop,motorneuron,MN2,2,0.00961538461538461
+Loop,motorneuron,MC3cover,2,0.01418439716312056
+Loop,motorneuron,Ser-tr1,9,0.09
+Loop,motorneuron,akrotroch,59,0.3532934131736527
+Loop,motorneuron,crescentcell,14,1
+Loop,motorneuron,prototroch,90,0.1100244498777506
+Loop,motorneuron,nuchalCiliaCilia,11,1
+Loop,motorneuron,paratroch,295,0.3482880755608028
+Loop,motorneuron,InterparaGland,1,0.3333333333333333
+Loop,motorneuron,covercell,2,0.00309597523219814
+Loop,motorneuron,CB-pigment,2,0.2
+Loop,motorneuron,pygidial-pigment-cell,5,0.21739130434782608
+Loop,motorneuron,MUSobP-neuV,2,0.0175438596491228
+Loop,motorneuron,MUSlongD,1,0.00252525252525252
+MNspiderATO-ant,motorneuron,INrope,1,0.01204819277108433
+MNspiderATO-ant,motorneuron,MNspider-post,2,0.03508771929824561
+MNspiderATO-ant,motorneuron,MNbow,2,0.08
+MNspiderATO-ant,motorneuron,MNwave,1,0.01923076923076923
+MNspiderATO-ant,motorneuron,MNacicX,1,0.02702702702702703
+MNspiderATO-ant,motorneuron,MNladder,1,0.00675675675675675
+MNspiderATO-ant,motorneuron,MNantacic,1,0.08333333333333333
+MNspiderATO-ant,motorneuron,MUSac-notP,38,0.24675324675324675
+MNspiderATO-ant,motorneuron,MUSac-notM,3,0.0588235294117647
+MNspiderATO-ant,motorneuron,MUSac-neuAV,1,0.02631578947368421
+MNspiderATO-ant,motorneuron,MUSac-neuPV,12,0.1153846153846154
+MNspiderATO-ant,motorneuron,MUSac-neuDx,1,0.09090909090909093
+MNspiderATO-ant,motorneuron,MUSobA-re,28,0.3333333333333333
+MNspiderATO-ant,motorneuron,MUSobA-arc,39,0.6842105263157895
+MNspiderATO-ant,motorneuron,MUSobA-lpp,3,0.21428571428571427
+MNspiderATO-ant,motorneuron,MUSobP-notD,9,0.36
+MNspiderATO-ant,motorneuron,MUSchae-notDob,2,0.2857142857142857
+MNspiderATO-ant,motorneuron,MUSchae-notA,9,0.47368421052631576
+MNspiderATO-ant,motorneuron,MUSchae-notAac,10,0.05208333333333333
+MNspiderATO-ant,motorneuron,MUSchae-neuDac,12,0.15789473684210523
+MNspiderATO-ant,motorneuron,MUSchae-Are,4,0.26666666666666666
+MNspiderATO-ant,motorneuron,MUStrans,1,0.00840336134453781
+MNspiderATO-ant,motorneuron,MUSlongV,11,0.03072625698324022
+MNspider-post,motorneuron,ventralParaPB2,1,0.00925925925925925
+MNspider-post,motorneuron,MNspiderATO-ant,2,0.03703703703703703
+MNspider-post,motorneuron,MNbiramous,1,0.01075268817204301
+MNspider-post,motorneuron,MNbow,1,0.04
+MNspider-post,motorneuron,MNwave,1,0.01923076923076923
+MNspider-post,motorneuron,MNpostacic,1,0.08333333333333333
+MNspider-post,motorneuron,MUSac-neuPV,11,0.10576923076923075
+MNspider-post,motorneuron,MUSobP-neuDlong,11,0.5789473684210527
+MNspider-post,motorneuron,MUSobP-neuDprox,5,0.7142857142857143
+MNspider-post,motorneuron,MUSobP-neuV,23,0.20175438596491227
+MNspider-post,motorneuron,MUSobP-notV,16,0.25
+MNspider-post,motorneuron,MUSobP-noty,4,0.14814814814814814
+MNspider-post,motorneuron,MUSchae-neuAVt,5,0.35714285714285715
+MNspider-post,motorneuron,MUSlongV,3,0.00837988826815642
+MNbiramous,motorneuron,chaeMech,2,0.01149425287356321
+MNbiramous,motorneuron,ventralParaPB2,1,0.00925925925925925
+MNbiramous,motorneuron,MNspiderATO-ant,1,0.01851851851851851
+MNbiramous,motorneuron,MNbow,1,0.04
+MNbiramous,motorneuron,MNladder,1,0.00675675675675675
+MNbiramous,motorneuron,MNacic,1,0.07142857142857142
+MNbiramous,motorneuron,MUSobA-re,3,0.03571428571428571
+MNbiramous,motorneuron,MUSchae-notAac,51,0.265625
+MNbiramous,motorneuron,MUSchae-notAre,3,0.42857142857142855
+MNbiramous,motorneuron,MUSchae-neuDac,33,0.4342105263157895
+MNbiramous,motorneuron,MUSchae-Are,11,0.7333333333333333
+MNbiramous,motorneuron,MUSlongV,1,0.00279329608938547
+MNring,motorneuron,INbackcross3,1,0.04761904761904761
+MNring,motorneuron,MNring,16,0.09580838323353294
+MNring,motorneuron,MNcrab,2,0.01785714285714285
+MNring,motorneuron,MN2,5,0.02403846153846154
+MNring,motorneuron,Ser-tr1,5,0.05
+MNring,motorneuron,MNladder,1,0.00675675675675675
+MNring,motorneuron,MUSac-notA,50,0.5434782608695652
+MNring,motorneuron,MUSac-notP,1,0.00649350649350649
+MNring,motorneuron,MUSac-neuAV,9,0.23684210526315788
+MNring,motorneuron,MUSac-neuPV,3,0.02884615384615384
+MNring,motorneuron,MUSac-neuDy,2,0.6666666666666666
+MNring,motorneuron,MUSobA-arc,1,0.0175438596491228
+MNring,motorneuron,MUSobA-mpp,1,0.07692307692307693
+MNring,motorneuron,MUSobA-lpp,6,0.42857142857142855
+MNring,motorneuron,MUSobP-neuDlong,2,0.10526315789473684
+MNring,motorneuron,MUSobP-neuDprox,1,0.14285714285714285
+MNring,motorneuron,MUSobP-neuV,33,0.2894736842105263
+MNring,motorneuron,MUSobP-notV,2,0.03125
+MNring,motorneuron,MUStrans,61,0.5126050420168067
+MNring,motorneuron,MUSlongD,185,0.4671717171717172
+MNring,motorneuron,MUSlongV,96,0.2681564245810056
+MNcrab,motorneuron,INrope,1,0.01204819277108433
+MNcrab,motorneuron,Loop,1,0.00694444444444444
+MNcrab,motorneuron,MNring,5,0.02994011976047904
+MNcrab,motorneuron,MNhose,1,0.02325581395348837
+MNcrab,motorneuron,MNwave,1,0.01923076923076923
+MNcrab,motorneuron,MN2,1,0.0048076923076923
+MNcrab,motorneuron,MNmouth,1,0.03125
+MNcrab,motorneuron,MNsmile,1,0.0175438596491228
+MNcrab,motorneuron,MUSac-notA,29,0.31521739130434784
+MNcrab,motorneuron,MUSac-notP,18,0.11688311688311688
+MNcrab,motorneuron,MUSac-notM,1,0.0196078431372549
+MNcrab,motorneuron,MUSac-neuAV,19,0.5
+MNcrab,motorneuron,MUSac-neuPV,32,0.3076923076923077
+MNcrab,motorneuron,MUSac-neuDx,4,0.3636363636363637
+MNcrab,motorneuron,MUSobA-re,3,0.03571428571428571
+MNcrab,motorneuron,MUSobA-arc,1,0.0175438596491228
+MNcrab,motorneuron,MUSobA-mpp,3,0.2307692307692308
+MNcrab,motorneuron,MUSobA-lpp,1,0.07142857142857142
+MNcrab,motorneuron,MUSobP-neuV,1,0.0087719298245614
+MNcrab,motorneuron,MUSchae-notD,2,1
+MNcrab,motorneuron,MUSchae-notAac,64,0.3333333333333333
+MNcrab,motorneuron,MUSchae-notAre,1,0.14285714285714285
+MNcrab,motorneuron,MUStrans,2,0.01680672268907563
+MNcrab,motorneuron,MUSlongD,65,0.16414141414141414
+MNcrab,motorneuron,MUSlongV,55,0.15363128491620112
+MNhose,motorneuron,INsplitCRATO,1,0.01694915254237288
+MNhose,motorneuron,MNspider-post,2,0.03508771929824561
+MNhose,motorneuron,MNwave,1,0.01923076923076923
+MNhose,motorneuron,MNacicX,5,0.13513513513513514
+MNhose,motorneuron,MN3,1,0.00568181818181818
+MNhose,motorneuron,MNob-ipsi,1,0.08333333333333333
+MNhose,motorneuron,MNladder,1,0.00675675675675675
+MNhose,motorneuron,MNantacic,1,0.08333333333333333
+MNhose,motorneuron,pygidial-pigment-cell,1,0.04347826086956521
+MNhose,motorneuron,MUSobA-re,12,0.14285714285714285
+MNhose,motorneuron,MUSobA-arc,2,0.03508771929824561
+MNhose,motorneuron,MUSobA-mpp,4,0.3076923076923077
+MNhose,motorneuron,MUSobA-mlpp,5,1
+MNhose,motorneuron,MUSobA-lpp,3,0.21428571428571427
+MNhose,motorneuron,MUSobA-trans,11,0.8461538461538461
+MNhose,motorneuron,MUSobP-neuV,20,0.17543859649122806
+MNhose,motorneuron,MUSobP-notV,27,0.421875
+MNhose,motorneuron,MUSobP-noty,13,0.48148148148148145
+MNhose,motorneuron,MUStrans,29,0.24369747899159663
+MNbow,motorneuron,chaeMech,2,0.01149425287356321
+MNbow,motorneuron,ventralParaPB2,1,0.00925925925925925
+MNbow,motorneuron,ventralParaPU1,1,0.02222222222222222
+MNbow,motorneuron,ventralpostParaPUc2,1,0.07692307692307693
+MNbow,motorneuron,INsplitPB,1,0.00258397932816537
+MNbow,motorneuron,MNant,1,0.00507614213197969
+MNbow,motorneuron,MNbiramous,12,0.12903225806451613
+MNbow,motorneuron,MNcrab,1,0.00892857142857142
+MNbow,motorneuron,MNpostv,1,0.125
+MNbow,motorneuron,MNacic,1,0.07142857142857142
+MNbow,motorneuron,MNpostacic,1,0.08333333333333333
+MNbow,motorneuron,MUSac-notA,1,0.0108695652173913
+MNbow,motorneuron,MUSac-notP,20,0.12987012987012986
+MNbow,motorneuron,MUSac-notM,3,0.0588235294117647
+MNbow,motorneuron,MUSobP-neuDdist,3,1
+MNbow,motorneuron,MUSobP-neuV,1,0.0087719298245614
+MNbow,motorneuron,MUSchae-notAac,8,0.04166666666666666
+MNbow,motorneuron,MUSchae-neuVob,1,0.07692307692307693
+MNbow,motorneuron,MUSchae-neuDac,7,0.09210526315789472
+MNwave,motorneuron,MNcrab,2,0.01785714285714285
+MNwave,motorneuron,MNwave,2,0.03846153846153846
+MNwave,motorneuron,MNacicX,1,0.02702702702702703
+MNwave,motorneuron,MNacic,2,0.14285714285714285
+MNwave,motorneuron,MNchae,1,0.08333333333333333
+MNwave,motorneuron,MUSac-notA,8,0.08695652173913043
+MNwave,motorneuron,MUSac-notP,23,0.14935064935064934
+MNwave,motorneuron,MUSac-notM,29,0.5686274509803921
+MNwave,motorneuron,MUSobA-re,2,0.0238095238095238
+MNwave,motorneuron,MUSchae-notAac,28,0.14583333333333334
+MNwave,motorneuron,MUSchae-notAre,1,0.14285714285714285
+MNacicX,motorneuron,MNspiderATO-ant,2,0.03703703703703703
+MNacicX,motorneuron,MNspider-post,2,0.03508771929824561
+MNacicX,motorneuron,MNwave,1,0.01923076923076923
+MNacicX,motorneuron,MNpostv,5,0.625
+MNacicX,motorneuron,MNacic,5,0.35714285714285715
+MNacicX,motorneuron,paratroch,3,0.00354191263282172
+MNacicX,motorneuron,CB-pigment,2,0.2
+MNacicX,motorneuron,MUSac-neuPV,26,0.25
+MNacicX,motorneuron,MUSchae-neuAVt,5,0.35714285714285715
+MNacicX,motorneuron,MUSlongV,4,0.0111731843575419
+cioMNcover,motorneuron,MS5,1,0.07142857142857142
+cioMNcover,motorneuron,SNbicil,1,0.0625
+cioMNcover,motorneuron,VentralpygCR2,2,0.02083333333333333
+cioMNcover,motorneuron,INsplitCR,1,0.00227790432801822
+cioMNcover,motorneuron,INbiaxLeg,1,0.02941176470588235
+cioMNcover,motorneuron,MNcrab,1,0.00892857142857142
+cioMNcover,motorneuron,cioMNcover,4,0.25
+cioMNcover,motorneuron,MC3cover,2,0.01418439716312056
+cioMNcover,motorneuron,prototroch,10,0.01222493887530562
+cioMNcover,motorneuron,covercell,517,0.8003095975232198
+cioMNcover,motorneuron,vacuolar-cell-head,1,0.1
+MN3,motorneuron,pygPBunp,1,0.01428571428571428
+MN3,motorneuron,pygCirrusPU,2,0.1176470588235294
+MN3,motorneuron,INRGWa,1,0.00342465753424657
+MN3,motorneuron,cMNdc,1,0.0217391304347826
+MN3,motorneuron,INpreMN,1,0.025
+MN3,motorneuron,INsn,2,0.01886792452830188
+MN3,motorneuron,INrope,1,0.01204819277108433
+MN3,motorneuron,INFVa-pyg,2,0.05263157894736842
+MN3,motorneuron,INsplitCR,1,0.00227790432801822
+MN3,motorneuron,INsplitCRATO,1,0.01694915254237288
+MN3,motorneuron,INbiax,2,0.0588235294117647
+MN3,motorneuron,INsplitPB,1,0.00258397932816537
+MN3,motorneuron,INW,1,0.01075268817204301
+MN3,motorneuron,INpro,3,0.02054794520547945
+MN3,motorneuron,INUturn,1,0.0238095238095238
+MN3,motorneuron,INcomm-Upstairs,1,0.01923076923076923
+MN3,motorneuron,INsplitBronto,1,0.0125
+MN3,motorneuron,INdecusshook,2,0.03076923076923077
+MN3,motorneuron,INsplitVent,1,0.02941176470588235
+MN3,motorneuron,INcomm-DownL,2,0.0588235294117647
+MN3,motorneuron,INUturnMB,3,0.07142857142857142
+MN3,motorneuron,Ser-h1,1,0.00526315789473684
+MN3,motorneuron,MN3,19,0.10795454545454546
+MN3,motorneuron,MN1,32,0.1032258064516129
+MN3,motorneuron,MN2,15,0.07211538461538461
+MN3,motorneuron,MNob-ipsi,2,0.16666666666666666
+MN3,motorneuron,Ser-tr1,2,0.02
+MN3,motorneuron,prototroch,88,0.10757946210268948
+MN3,motorneuron,pygidial-pigment-cell,1,0.04347826086956521
+MN1,motorneuron,INsn,2,0.01886792452830188
+MN1,motorneuron,INsplitPB,2,0.00516795865633075
+MN1,motorneuron,INpro,1,0.00684931506849315
+MN1,motorneuron,INproT2,1,0.01724137931034482
+MN1,motorneuron,MNspider-post,1,0.0175438596491228
+MN1,motorneuron,Ser-tr1,1,0.01
+MN1,motorneuron,MNpostacic,1,0.08333333333333333
+MN1,motorneuron,paratroch,66,0.07792207792207792
+MN1,motorneuron,MUSlongV,154,0.4301675977653631
+MN2,motorneuron,MNring,2,0.01197604790419161
+MN2,motorneuron,MNcrab,1,0.00892857142857142
+MN2,motorneuron,Ser-tr1,1,0.01
+MN2,motorneuron,MNsmile,1,0.0175438596491228
+MN2,motorneuron,prototroch,35,0.04278728606356968
+MN2,motorneuron,paratroch,76,0.089728453364817
+MN2,motorneuron,MUSlongD,136,0.3434343434343434
+MC3cover,motorneuron,ventralpostParaPUc2,1,0.07692307692307693
+MC3cover,motorneuron,hPUc,2,0.10526315789473684
+MC3cover,motorneuron,SNFVa,2,0.05128205128205128
+MC3cover,motorneuron,INCM,1,0.00561797752808988
+MC3cover,motorneuron,INsplitPB,1,0.00258397932816537
+MC3cover,motorneuron,INasc-pyg,1,0.00602409638554216
+MC3cover,motorneuron,paratroch,6,0.00708382526564344
+MC3cover,motorneuron,covercell,59,0.0913312693498452
+MC3cover,motorneuron,CB-pigment,5,0.5
+MC3cover,motorneuron,pygidial-pigment-cell,1,0.04347826086956521
+MC3cover,motorneuron,EC pigment 1342499,1,1
+MNmouth,motorneuron,MNcrab,2,0.01785714285714285
+MNmouth,motorneuron,MNsmile,1,0.0175438596491228
+MNmouth,motorneuron,MUStrans,1,0.00840336134453781
+MNmouth,motorneuron,MUSlongV,2,0.00558659217877095
+MNob-ipsi,motorneuron,MNladder,1,0.00675675675675675
+MNob-ipsi,motorneuron,MNantelope,1,1
+MNob-ipsi,motorneuron,MUSobP-neuV,19,0.16666666666666666
+MNob-ipsi,motorneuron,MUSobP-notV,13,0.203125
+MNob-ipsi,motorneuron,MUSobP-noty,5,0.18518518518518515
+MNpostv,motorneuron,MNbiramous,1,0.01075268817204301
+MNpostv,motorneuron,MNring,1,0.0059880239520958
+MNpostv,motorneuron,MNacicX,10,0.2702702702702703
+MNpostv,motorneuron,MNarm,1,0.125
+MNpostv,motorneuron,MUSac-neuPV,9,0.08653846153846154
+MNpostv,motorneuron,MUSchae-neuAVt,1,0.07142857142857142
+Ser-tr1,motorneuron,SNhorn,2,0.25
+Ser-tr1,motorneuron,SNantlerPDF,1,0.16666666666666666
+Ser-tr1,motorneuron,pygPBunp,1,0.01428571428571428
+Ser-tr1,motorneuron,ventralParaPB2,1,0.00925925925925925
+Ser-tr1,motorneuron,cMNPDF-vcl1,1,0.04347826086956521
+Ser-tr1,motorneuron,cMNdc,3,0.06521739130434782
+Ser-tr1,motorneuron,INCrossbow,1,0.01204819277108433
+Ser-tr1,motorneuron,INsplitPB-RF/Ya,1,0.05
+Ser-tr1,motorneuron,INsplitPB,1,0.00258397932816537
+Ser-tr1,motorneuron,INbiaxH,1,0.01282051282051282
+Ser-tr1,motorneuron,INdecusshook,2,0.03076923076923077
+Ser-tr1,motorneuron,INcomm-Upcross,1,0.01666666666666666
+Ser-tr1,motorneuron,INsplitVent,2,0.0588235294117647
+Ser-tr1,motorneuron,INdescLuqinPDF,1,0.02127659574468085
+Ser-tr1,motorneuron,INhorn,1,0.01818181818181818
+Ser-tr1,motorneuron,INtorii,1,0.0303030303030303
+Ser-tr1,motorneuron,INdecussM,1,0.04166666666666666
+Ser-tr1,motorneuron,INiaStiff,1,0.05263157894736842
+Ser-tr1,motorneuron,MNant,16,0.08121827411167512
+Ser-tr1,motorneuron,MNspinning,1,0.00581395348837209
+Ser-tr1,motorneuron,Loop,20,0.1388888888888889
+Ser-tr1,motorneuron,MNring,6,0.03592814371257485
+Ser-tr1,motorneuron,MNcrab,1,0.00892857142857142
+Ser-tr1,motorneuron,MNbow,1,0.04
+Ser-tr1,motorneuron,MN1,1,0.0032258064516129
+Ser-tr1,motorneuron,MN2,2,0.00961538461538461
+Ser-tr1,motorneuron,MNakro,2,0.18181818181818185
+Ser-tr1,motorneuron,MNgland-head,2,0.04651162790697674
+Ser-tr1,motorneuron,akrotroch,33,0.19760479041916168
+Ser-tr1,motorneuron,prototroch,9,0.01100244498777506
+Ser-tr1,motorneuron,metatroch,31,0.26956521739130435
+Ser-tr1,motorneuron,paratroch,365,0.4309327036599764
+Ser-tr1,motorneuron,ciliatedGland,2,0.04081632653061224
+Ser-tr1,motorneuron,covercell,2,0.00309597523219814
+Ser-tr1,motorneuron,MUSac-neuPD,1,0.14285714285714285
+Ser-tr1,motorneuron,MUSlongD,4,0.0101010101010101
+Ser-tr1,motorneuron,MUSlongV,1,0.00279329608938547
+MNladder,motorneuron,INcomm-Upstairs,2,0.03846153846153846
+MNladder,motorneuron,INleucoPU,1,0.01724137931034482
+MNladder,motorneuron,INdecusshook,1,0.01538461538461538
+MNladder,motorneuron,INpreLadder,3,0.14285714285714285
+MNladder,motorneuron,MNcrab,1,0.00892857142857142
+MNladder,motorneuron,MNsmile,1,0.0175438596491228
+MNladder,motorneuron,MUSobA-re,1,0.0119047619047619
+MNladder,motorneuron,MUSobA-arc,1,0.0175438596491228
+MNladder,motorneuron,MUSobP-neuV,1,0.0087719298245614
+MNladder,motorneuron,MUSobP-notV,4,0.0625
+MNladder,motorneuron,MUStrans,4,0.03361344537815126
+MNacic,motorneuron,chaeMech,1,0.0057471264367816
+MNacic,motorneuron,INsplitPBant,1,0.01298701298701298
+MNacic,motorneuron,MNbiramous,1,0.01075268817204301
+MNacic,motorneuron,MNwave,3,0.05769230769230769
+MNacic,motorneuron,MUSac-notP,47,0.3051948051948052
+MNacic,motorneuron,MUSac-notM,7,0.13725490196078433
+MNacic,motorneuron,MUSac-neuAV,1,0.02631578947368421
+MNacic,motorneuron,MUSac-neuDach,3,0.07317073170731707
+MNacic,motorneuron,MUSobA-re,7,0.08333333333333333
+MNacic,motorneuron,MUSobA-mpp,1,0.07692307692307693
+MNacic,motorneuron,MUSchae-notA,2,0.10526315789473684
+MNacic,motorneuron,MUSchae-notAac,9,0.046875
+MNarm,motorneuron,ventralParaPU1,1,0.02222222222222222
+MNarm,motorneuron,ventralpostParaPUc2,1,0.07692307692307693
+MNarm,motorneuron,MNchae,1,0.08333333333333333
+MNarm,motorneuron,MUSac-neuAV,2,0.05263157894736842
+MNarm,motorneuron,MUSac-neuPD,5,0.7142857142857143
+MNarm,motorneuron,MUSac-neuDx,3,0.2727272727272727
+MNarm,motorneuron,MUSac-neuDach,24,0.5853658536585366
+MNarm,motorneuron,MUSobP-neuV,4,0.03508771929824561
+MNarm,motorneuron,MUSchae-neuVob,1,0.07692307692307693
+MNarm,motorneuron,MUSchae-neuDac,8,0.10526315789473684
+MNarm,motorneuron,MUSchae-neuAVo,9,0.6923076923076923
+MNantacic,motorneuron,ventralpostParaPUc2,1,0.07692307692307693
+MNantacic,motorneuron,MNbow,1,0.04
+MNantacic,motorneuron,MNwave,2,0.03846153846153846
+MNantacic,motorneuron,MNantacic,3,0.25
+MNantacic,motorneuron,MUSac-notA,3,0.03260869565217391
+MNantacic,motorneuron,MUSac-notP,6,0.03896103896103896
+MNantacic,motorneuron,MUSac-notM,7,0.13725490196078433
+MNantacic,motorneuron,MUSac-neuPV,9,0.08653846153846154
+MNantacic,motorneuron,MUSac-neuDach,9,0.2195121951219512
+MNantacic,motorneuron,MUSobA-re,15,0.17857142857142858
+MNantacic,motorneuron,MUSobA-arc,9,0.15789473684210523
+MNantacic,motorneuron,MUSobA-mpp,1,0.07692307692307693
+MNantacic,motorneuron,MUSobA-lpp,1,0.07142857142857142
+MNantacic,motorneuron,MUSobP-noty,1,0.03703703703703703
+MNantacic,motorneuron,MUSchae-notDob,2,0.2857142857142857
+MNantacic,motorneuron,MUSchae-notA,8,0.42105263157894735
+MNantacic,motorneuron,MUSchae-notAac,21,0.109375
+MNantacic,motorneuron,MUSchae-notAre,1,0.14285714285714285
+MNantacic,motorneuron,MUSlongV,2,0.00558659217877095
+MNpostacic,motorneuron,chaeMech,1,0.0057471264367816
+MNpostacic,motorneuron,ventralParaPB2,1,0.00925925925925925
+MNpostacic,motorneuron,MNspinning,2,0.01162790697674418
+MNpostacic,motorneuron,MNspiderATO-ant,1,0.01851851851851851
+MNpostacic,motorneuron,MNspider-post,1,0.0175438596491228
+MNpostacic,motorneuron,MNbiramous,2,0.02150537634408602
+MNpostacic,motorneuron,MNbow,1,0.04
+MNpostacic,motorneuron,MNwave,1,0.01923076923076923
+MNpostacic,motorneuron,MNacicX,1,0.02702702702702703
+MNpostacic,motorneuron,MNantacic,1,0.08333333333333333
+MNpostacic,motorneuron,MNpostacic,2,0.16666666666666666
+MNpostacic,motorneuron,MUSac-notA,1,0.0108695652173913
+MNpostacic,motorneuron,MUSac-notP,1,0.00649350649350649
+MNpostacic,motorneuron,MUSac-neuPD,1,0.14285714285714285
+MNpostacic,motorneuron,MUSac-neuPV,1,0.00961538461538461
+MNpostacic,motorneuron,MUSac-neure,1,1
+MNpostacic,motorneuron,MUSobP-notD,16,0.64
+MNpostacic,motorneuron,MUSobP-neuDlong,6,0.3157894736842105
+MNpostacic,motorneuron,MUSobP-neuDprox,1,0.14285714285714285
+MNpostacic,motorneuron,MUSobP-neuV,2,0.0175438596491228
+MNpostacic,motorneuron,MUSobP-notV,1,0.015625
+MNpostacic,motorneuron,MUSobP-noty,2,0.07407407407407407
+MNpostacic,motorneuron,MUSchae-notDob,3,0.42857142857142855
+MNpostacic,motorneuron,MUSchae-notDn,8,1
+MNpostacic,motorneuron,MUSchae-notAre,1,0.14285714285714285
+MNpostacic,motorneuron,MUSchae-neuAVt,2,0.14285714285714285
+MNpostacic,motorneuron,MUSlongV,3,0.00837988826815642
+MNakro,motorneuron,hPU2l-asymPDF,1,0.3333333333333333
+MNakro,motorneuron,SNstiff,1,0.06666666666666667
+MNakro,motorneuron,IN1,1,0.00241545893719806
+MNakro,motorneuron,INrope,1,0.01204819277108433
+MNakro,motorneuron,INpro,1,0.00684931506849315
+MNakro,motorneuron,INbigloop,1,0.05555555555555555
+MNakro,motorneuron,INdecussfoot,1,0.01492537313432835
+MNakro,motorneuron,MNant,7,0.03553299492385787
+MNakro,motorneuron,Loop,2,0.01388888888888888
+MNakro,motorneuron,MNmouth,1,0.03125
+MNakro,motorneuron,Ser-tr1,3,0.03
+MNakro,motorneuron,akrotroch,35,0.20958083832335328
+MNakro,motorneuron,prototroch,1,0.00122249388753056
+MNakro,motorneuron,metatroch,6,0.05217391304347826
+MNchae,motorneuron,MNbiramous,1,0.01075268817204301
+MNchae,motorneuron,MNarm,1,0.125
+MNchae,motorneuron,MUSac-neuAV,6,0.15789473684210523
+MNchae,motorneuron,MUSac-neuDx,3,0.2727272727272727
+MNchae,motorneuron,MUSac-neuDach,5,0.12195121951219512
+MNchae,motorneuron,MUSobP-neuV,2,0.0175438596491228
+MNchae,motorneuron,MUSchae-neuVob,11,0.8461538461538461
+MNchae,motorneuron,MUSchae-neuDac,16,0.21052631578947367
+MNchae,motorneuron,MUSchae-neuAVo,4,0.3076923076923077
+MNchae,motorneuron,MUSchae-neuAVt,1,0.07142857142857142
+MNgland-head,motorneuron,VentraltrunkPUunp-Glialike,2,0.5
+MNgland-head,motorneuron,cMNdc,1,0.0217391304347826
+MNgland-head,motorneuron,INCrossbow,1,0.01204819277108433
+MNgland-head,motorneuron,INarc1,1,0.00628930817610062
+MNgland-head,motorneuron,INbackcross3,1,0.04761904761904761
+MNgland-head,motorneuron,INdecussfoot,1,0.01492537313432835
+MNgland-head,motorneuron,INdecusshook,4,0.06153846153846154
+MNgland-head,motorneuron,INcomm-Upcross,1,0.01666666666666666
+MNgland-head,motorneuron,INdecussM,1,0.04166666666666666
+MNgland-head,motorneuron,Ser-h1,3,0.01578947368421052
+MNgland-head,motorneuron,MNspiderATO-ant,1,0.01851851851851851
+MNgland-head,motorneuron,MNspider-post,1,0.0175438596491228
+MNgland-head,motorneuron,MNbow,2,0.08
+MNgland-head,motorneuron,MNwave,1,0.01923076923076923
+MNgland-head,motorneuron,ciliatedGland,31,0.6326530612244898
+MNgland-head,motorneuron,MVGland,6,0.8571428571428571
+MNheadV,motorneuron,INpear,1,0.1111111111111111
+MNheadV,motorneuron,MNheadV,5,0.4545454545454546
+MNheadV,motorneuron,MUSlongD,5,0.01262626262626262
+MNantelope,motorneuron,MNcrab,1,0.00892857142857142
+MNantelope,motorneuron,MNhose,1,0.02325581395348837
+MNantelope,motorneuron,MUSobA-re,10,0.11904761904761904
+MNantelope,motorneuron,MUSobA-arc,2,0.03508771929824561
+MNsmile,motorneuron,MNmouth,3,0.09375
+MNsmile,motorneuron,MNsmile,8,0.14035087719298245
+MNsmile,motorneuron,prototroch,1,0.00122249388753056
+MNsmile,motorneuron,metatroch,1,0.00869565217391304
+MNsmile,motorneuron,ciliatedGland,1,0.02040816326530612
+MNsmile,motorneuron,MVGland,1,0.14285714285714285
+MNsmile,motorneuron,MUSobA-re,1,0.0119047619047619
+MNsmile,motorneuron,MUSobA-mpp,3,0.2307692307692308
+MNsmile,motorneuron,MUSobA-trans,2,0.15384615384615383
+MNsmile,motorneuron,MUStrans,19,0.15966386554621848
+MNsmile,motorneuron,MUSlongV,20,0.05586592178770949
+MNsmile,motorneuron,MUSax,13,1
+MNsmile,motorneuron,MUSll,8,1
+MNsmile,motorneuron,MUSch,3,1
+prototroch,effector,pygPBunp,1,0.01428571428571428
+ciliatedGland,effector,INCrossbow,1,0.01204819277108433
+ciliatedGland,effector,ciliatedGland,1,0.02040816326530612
+InterparaGland,effector,ventralParaPB2,2,0.01851851851851851
+InterparaGland,effector,INsplitPB,4,0.0103359173126615
+InterparaGland,effector,Loop,1,0.00694444444444444
+CB-pigment,effector,MUSac-neuPV,1,0.00961538461538461

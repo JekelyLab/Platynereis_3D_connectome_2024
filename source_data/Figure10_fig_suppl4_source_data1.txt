@@ -1,0 +1,9 @@
+"","SN left","IN left","MN left","effector left","SN right","IN right","MN right","effector right"
+"SN left",564,1264,228,55,212,452,230,8
+"IN left",253,1660,647,45,103,1010,482,64
+"MN left",20,157,177,1033,25,164,167,1488
+"effector left",1,3,0,0,0,1,1,0
+"SN right",240,407,169,2,521,1439,293,68
+"IN right",129,1032,488,41,255,1675,652,69
+"MN right",22,139,220,1454,19,153,180,945
+"effector right",0,6,5,0,4,15,4,1

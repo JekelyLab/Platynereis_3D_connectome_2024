@@ -1,0 +1,7 @@
+"","ciliary band cells","SNantler","SNhook","SNtorii","SNhorn","MNant"
+"ciliary band cells",0,0,0,0,0,0
+"SNantler",0,0,0,0,0,25
+"SNhook",0,0,0,0,0,24
+"SNtorii",0,0,0,0,0,7
+"SNhorn",0,1,0,0,0,8
+"MNant",202,1,0,0,0,3
