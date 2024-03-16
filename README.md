@@ -8,6 +8,8 @@
   by [Jékely
   lab](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely).
 
+[![DOI](https://zenodo.org/badge/773035678.svg)](https://zenodo.org/doi/10.5281/zenodo.10825370)
+
 This repository contains the data and code for our paper:
 
 > Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
@@ -28,7 +30,8 @@ Please cite this compendium as:
 > Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
 > Calderón, Elizabeth A. Williams, Réza Shahidi, (2024). *Compendium of
 > R code and data for Whole-body connectome of a segmented annelid
-> larva*. Accessed 16 Mar 2024. Online at <https://doi.org/xxx/xxx>
+> larva*. Accessed 16 Mar 2024. Online at
+> <https://zenodo.org/doi/10.5281/zenodo.10825370>
 
 ## Contents
 

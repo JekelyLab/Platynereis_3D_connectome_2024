@@ -23,7 +23,7 @@ authors:
     family-names: Shahidi
 identifiers:
   - type: doi
-    value: add.the.zenodo.repository.doi
-repository-code: 'https://github.com/JekelyLab/Jekely_et_al_2024_connectome/tree/main'
+    value: 10.5281/zenodo.10825371
+repository-code: 'https://zenodo.org/doi/10.5281/zenodo.10825370'
 license: CC-BY-4.0
 date-released: '2024-03-16'

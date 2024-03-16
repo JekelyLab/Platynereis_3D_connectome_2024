@@ -18,6 +18,8 @@ Title <- "Whole-body connectome of a segmented annelid larva"
 # About the project: 
 - this is a repository of an R project containing code and source data for the Platynereis three-day-old larva connectome paper. Contributed by [Jékely lab](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely).
 
+[![DOI](https://zenodo.org/badge/773035678.svg)](https://zenodo.org/doi/10.5281/zenodo.10825370)
+
 This repository contains the data and code for our paper:
 
 > Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi (2024)
@@ -32,7 +34,7 @@ Our pre-print is online here:
 
 Please cite this compendium as:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://zenodo.org/doi/10.5281/zenodo.10825370>
 
 ## Contents
 
