@@ -18,7 +18,7 @@ format:
     margin-right: 0.8in
     margin-top: 0.8in
     margin-bottom: 0.8in
-    toc: true
+    toc: false
     keep-tex: true
     include-in-header:
       text: |
@@ -630,7 +630,7 @@ This project has received funding from the European Research Council (ERC) under
 
 The EM image stack with all traces and annotations are available at <https://catmaid.jekelylab.ex.ac.uk> and can be queried in CATMAID or via the CATMAID application programming interface (API) with the catmaid/natverse packages [@bates2020natverse].
 The dataset includes all EM images (in jpg format), skeletons, meshes, node tags, connectors (both synapses and desmosomes) and annotations.
-We also provide all the R scripts we used for data retrieval and the generation of the figures [add Github/Zenodo repo]. All plots, diagrams (including anatomical renderings), figure layouts should be fully reproducible by using the R scripts provided. Scripts were mostly organised by figure, except some generalist scripts e.g. to load libraries, CATMAID access data and general functions ('Natverse_functions_and_conn.R').
+We also provide all the R scripts we used for data retrieval and the generation of the figures [@jekely_2024_10825371]. All plots, diagrams (including anatomical renderings), figure layouts should be fully reproducible by using the R scripts provided. Scripts were mostly organised by figure, except some generalist scripts e.g. to load libraries, CATMAID access data and general functions ('Natverse_functions_and_conn.R').
 
 **Specimen preparation, transmission electron microscopy and image processing**
 
@@ -645,7 +645,7 @@ We used the collaborative annotation toolkit CATMAID for tracing, annotation and
 
 Due to contrast and focus problems in the main dataset we had to re-image certain layers at higher resolutions, to allow tracing of neurons.
 These re-imaged series were made into independent CATMAID projects.
-This included five extra projects, taken at various points throughout the main dataset [(Supplemental Table xy - Reza)](check).
+This included five extra projects, taken at various points throughout the main dataset. All layers including the information on lost layers, immunogold labelling and re-imaging are listed in Supplementary Table 2.
 The largest of these, Plexus_HT-4_Naomi_project\_\_372-4013, consisted of 1407 layers at resolution of 2.2 nm.
 This stack mostly focused on the brain plexus and the ventral nerve cord where most neurites and synapses occur.
 Other projects consisted of three jump/gap regions that required not only high resolution but also better realignment.

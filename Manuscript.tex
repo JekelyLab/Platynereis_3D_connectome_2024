@@ -181,12 +181,6 @@
 
 \linenumbers
 
-\renewcommand*\contentsname{Table of contents}
-{
-\hypersetup{linkcolor=}
-\setcounter{tocdepth}{3}
-\tableofcontents
-}
 \setstretch{1.2}
 \hfill\break
 
@@ -202,8 +196,9 @@ Exeter, EX4 4QD, United Kingdom\\
 \textsuperscript{3}School of Biological Sciences, University of Bristol,
 Bristol, United Kingdom\\
 \textsuperscript{4}BioSciences, University of Exeter, Stocker Road,
-Exeter EX4 4QD, Exeter, UK \textsuperscript{5}Electron Microscopy Core
-Facility (EMCF), University of Heidelberg, 69120 Heidelberg, Germany
+Exeter EX4 4QD, Exeter, United Kingdom\\
+\textsuperscript{5}Electron Microscopy Core Facility (EMCF), University
+of Heidelberg, 69120 Heidelberg, Germany\\
 \textsuperscript{*}Correspondence: gaspar.jekely@cos.uni-heidelberg.de
 
 \section{Abstract}\label{abstract}
@@ -286,15 +281,16 @@ Williams et al., 2017). Here, we report the complete synaptic connectome
 and the cell-type complement from the same volume of a three-day-old
 \emph{Platynereis} larva. Recently we also reported the desmosomal
 connectome and motoneuron innervation of the somatic musculature (Jasek
-et al., 2022). The full connectome reconstruction has now allowed us to
-uncover several new circuits and to consider all circuits in a
-whole-body context. We also found several neurons that span the entire
-length of the larva, highlighting the strength of a whole-body dataset.
-These cells and their circuits allow us to generate hypotheses on how
-whole-body coordination may be achieved by the larval nervous system.
-The connectome also allows us to address long-standing hypotheses about
-the origin of the segmented annelid body-plan and explore patterns of
-circuit evolution.
+et al., 2022) and a preprint of a preliminary analysis of the synaptic
+connectome (Verasztó et al., 2020) that this work supersedes. The full
+connectome reconstruction has now allowed us to uncover several new
+circuits and to consider all circuits in a whole-body context. We also
+found several neurons that span the entire length of the larva,
+highlighting the strength of a whole-body dataset. These cells and their
+circuits allow us to generate hypotheses on how whole-body coordination
+may be achieved by the larval nervous system. The connectome also allows
+us to address long-standing hypotheses about the origin of the segmented
+annelid body-plan and explore patterns of circuit evolution.
 
 \section{Results}\label{results}
 
@@ -465,10 +461,10 @@ several modules (Figures 2). Nodes in a module are more strongly
 interconnected than to nodes in other modules (Figure 2---figure
 supplement 3). We named the modules based on their primary effector
 organs or other dominant anatomical characters. We would like to note
-that this analysis can recover different number of modules depending on
+that this analysis can recover varying numbers of modules depending on
 the resolution parameter (Figure 2---figure supplement 2C). The selected
-parameters results in communities that we think best represent
-functional units.
+resolution parameter subdivides the network into communities that we
+think best represent functional units.
 
 The modules include the anterior neurosecretory centre, the mushroom
 bodies, the visual circuit, a network of ciliomotor neurons, a module
@@ -493,7 +489,7 @@ al., 2023; Jokura et al., 2023; Verasztó et al., 2018).
 The modules are also interconnected among themselves suggesting
 crosstalk. Most sensory neurons occur in the visual, the two
 mechanosensory, the mushroom body and the anterior neurosecretory
-modules (Figure 2---figure supplement 1J). In a Sankey diagram
+modules (Figure 2---figure supplement 1J). In a Sankey network diagram
 representing information flow, these modules are upstream of the
 motor-dominated pigmentmotor, ciliomotor, and musclemotor modules
 (Figure 2---figure supplement 2B).
@@ -675,12 +671,12 @@ cells. We identified four sensory neurons with direct motor output
 hPU2l-asymPDF) and 25 premotor sensory neurons. The maximum number of
 hops from sensory neurons to an effector is five. 33 sensory neurons
 have no synaptic paths to effectors. 19 of these are neurosecretory
-cells with few or no synaptic partners (Williams et al., 2017)
-(Figure4---figure supplement 5). For a graph-based visualisation of
-information flow, we arranged the nodes according to their relative
-ration of incoming and outgoing synapses (Figure 4---figure supplement
-6). This layout indicates that sensory-evoked activity propagates from
-sensory neurons through interneurons and motoneurons to effectors.
+cells with few or no synaptic partners (Williams et al., 2017) (Figure
+4---figure supplement 5). For a graph-based visualisation of information
+flow, we arranged the nodes according to their relative ratio of
+incoming and outgoing synapses (Figure 4---figure supplement 6). This
+layout indicates that sensory-evoked activity propagates from sensory
+neurons through interneurons and motoneurons to effectors.
 
 \subsubsection{Neurotransmitter and neuropeptides
 phenotypes}\label{neurotransmitter-and-neuropeptides-phenotypes}
@@ -973,7 +969,7 @@ The outputs of the mushroom body circuits also include projection
 neurons of the central brain, including the INW, INlasso, INproT2 and
 INdecussHook neurons (Figure 9H-Q). Among these the INproT2 neurons are
 premotor neurons synapsing on trunk MNring motoneurons, indicating a
-shallow sensory-motor organisation of mushroom body outputs.
+shallow sensory-motor organisation of mushroom-body outputs.
 
 The overall architecture of the \emph{Platynereis} MB is multilayer,
 parallel and feed-forward, with only very weak recurrent connections or
@@ -1028,13 +1024,13 @@ that ascend to the brain (Figure 10C, D). There are 549 trunk connectome
 cells that receive synapses from head neurons and 288 head connectome
 cells that receive synapses from trunk neurons (Figure 10E, G).
 
-The trunk-projecting brain neurons have either a decussating (crossing
-the midline in the head and then descending) or ipsilaterally descending
-morphology. The two types project to different domains of the VNC and
-have different target neurons (Figure 10---figure supplement 1E, F).
-Decussating and descending neurons receive most of their incoming
-synapses in the central head neuropil and form most of their outgoing
-synapses in the VNC (Figure 10---figure supplement 1C, D, H-M).
+The trunk-projecting brain neurons have either a decussating or
+ipsilaterally descending morphology. The two types project to different
+domains of the VNC and have different target neurons (Figure 10---figure
+supplement 1E, F). Decussating and descending neurons receive most of
+their incoming synapses in the central head neuropil and form most of
+their outgoing synapses in the VNC (Figure 10---figure supplement 1C, D,
+H-M).
 
 Ranking head neurons by the number of synapses on trunk targets
 highlights the strong motor connections of the INrope MB projection
@@ -1223,7 +1219,7 @@ ciliary band (Figure 12J, K). The pygPBunp neuron also synapses on
 another head pigmented cell type (vacuolar-cell). Pygidial cells also
 form connections with segment 1-3 sensory, inter- and motoneurons.
 
-Ranking trunk and pygidialmaps cell types by various network centrality
+Ranking trunk and pygidial cell types by various network centrality
 measures often identified segment-specific cells as strongly connected
 (e.g.~pygPBunp, Ser-tr1, Loop)(Figure 12---figure supplement 2).
 
@@ -1404,7 +1400,7 @@ neurons are ipsilateral interneurons with a bifurcating projection
 (presudounipolar morphology). This family of interneurons ---
 collectively referred to as INsplit --- could be subdivided into several
 distinct cell types (INsplitCR, INsplitPB, INsplitPBant,
-INsplitPB\_RF/Ya, INsplitPUh, INsplitBronto, INCM)(Figure
+INsplitPB-RF/Ya, INsplitPUh, INsplitBronto, INCM)(Figure
 16A-H)(Bezares-Calderón et al., 2018).
 
 INsplit neurons occur in all four trunk segments and in the head
@@ -1740,7 +1736,7 @@ catmaid/natverse packages (Bates et al., 2020). The dataset includes all
 EM images (in jpg format), skeletons, meshes, node tags, connectors
 (both synapses and desmosomes) and annotations. We also provide all the
 R scripts we used for data retrieval and the generation of the figures
-{[}add Github/Zenodo repo{]}. All plots, diagrams (including anatomical
+(Jékely et al., 2024). All plots, diagrams (including anatomical
 renderings), figure layouts should be fully reproducible by using the R
 scripts provided. Scripts were mostly organised by figure, except some
 generalist scripts e.g.~to load libraries, CATMAID access data and
@@ -1770,18 +1766,19 @@ Due to contrast and focus problems in the main dataset we had to
 re-image certain layers at higher resolutions, to allow tracing of
 neurons. These re-imaged series were made into independent CATMAID
 projects. This included five extra projects, taken at various points
-throughout the main dataset \href{check}{(Supplemental Table xy -
-Reza)}. The largest of these, Plexus\_HT-4\_Naomi\_project\_\_372-4013,
-consisted of 1407 layers at resolution of 2.2 nm. This stack mostly
-focused on the brain plexus and the ventral nerve cord where most
-neurites and synapses occur. Other projects consisted of three jump/gap
-regions that required not only high resolution but also better
-realignment. One set contained all the immunogold labelled layers
-(Shahidi et al., 2015) that were not included in the main aligned
-dataset. These layers had very low contrast due to the immunolabelling
-procedure and therefore required higher resolution imaging. All projects
-were first created and processed in TrakEM2 and then exported as flat
-jpeg images into CATMAID.
+throughout the main dataset. All layers including the information on
+lost layers, immunogold labelling and re-imaging are listed in
+Supplementary Table 2. The largest of these,
+Plexus\_HT-4\_Naomi\_project\_\_372-4013, consisted of 1407 layers at
+resolution of 2.2 nm. This stack mostly focused on the brain plexus and
+the ventral nerve cord where most neurites and synapses occur. Other
+projects consisted of three jump/gap regions that required not only high
+resolution but also better realignment. One set contained all the
+immunogold labelled layers (Shahidi et al., 2015) that were not included
+in the main aligned dataset. These layers had very low contrast due to
+the immunolabelling procedure and therefore required higher resolution
+imaging. All projects were first created and processed in TrakEM2 and
+then exported as flat jpeg images into CATMAID.
 
 \textbf{Image-stack realignment and transformation of spatial data in
 CATMAID}
@@ -2775,6 +2772,12 @@ G. 2022. Desmosomal connectomics of all somatic muscles in an annelid
 larva. \emph{eLife} \textbf{11}.
 doi:\href{https://doi.org/10.7554/elife.71231}{10.7554/elife.71231}
 
+\bibitem[\citeproctext]{ref-jekely_2024_10825371}
+Jékely G, Jasek S, Gühmann M, Bezares-Calderón LA, Williams EA, Shahidi
+R. 2024. {Code documentation for the Jekely et al. three- day-old
+Platynereis larva connectome paper}.
+doi:\href{https://doi.org/10.5281/zenodo.10825371}{10.5281/zenodo.10825371}
+
 \bibitem[\citeproctext]{ref-jokura2023nitric}
 Jokura K, Ueda N, Guehmann M, Yanez-Guerra LA, Slowinski P, Wedgwood KC,
 Jekely G. 2023. Nitric oxide feedback to ciliary photoreceptor cells
@@ -2919,6 +2922,13 @@ Tessmar-Raible K, Jékely G. 2018. Ciliary and rhabdomeric
 photoreceptor-cell circuits form a spectral depth gauge in marine
 zooplankton. \emph{eLife} \textbf{7}.
 doi:\href{https://doi.org/10.7554/elife.36440}{10.7554/elife.36440}
+
+\bibitem[\citeproctext]{ref-veraszto2020}
+Verasztó C, Jasek S, Gühmann M, Shahidi R, Ueda N, Beard JD, Mendes S,
+Heinz K, Bezares-Calderón LA, Williams E, Jékely G. 2020.
+\href{http://dx.doi.org/10.1101/2020.08.21.260984}{Whole-animal
+connectome and cell-type complement of the three-segmented
+{\emph{Platynereis dumerilii}} larva}.
 
 \bibitem[\citeproctext]{ref-veraszto2017}
 Verasztó C, Ueda N, Bezares-Calderón LA, Panzera A, Williams EA, Shahidi
