@@ -1,5 +1,7 @@
 ---
 title: "Whole-body connectome of a segmented annelid larva"
+subtitle: |
+  \raggedright  Gáspár Jékely^1,2,\*^ , Sanja Jasek^1,2^, Martin Gühmann^3^, Luis Alberto Bezares-Calderón^2^, Elizabeth A. Williams^4^, Réza Shahidi^5^ \newline<br>^1^Heidelberg University, Centre for Organismal Studies (COS), 69120 Heidelberg, Germany \newline<br>^2^Living Systems Institute, University of Exeter, Exeter, EX4 4QD, United Kingdom \newline<br>^3^School of Biological Sciences, University of Bristol, Bristol, United Kingdom \newline<br>^4^BioSciences, University of Exeter, Stocker Road, Exeter EX4 4QD, Exeter, United Kingdom\newline<br> ^5^Electron Microscopy Core Facility (EMCF), University of Heidelberg, 69120 Heidelberg, Germany \newline<br> ^\*^Correspondence: gaspar.jekely@cos.uni-heidelberg.de
 mainfont: Arial
 monofont: DejaVu Sans Mono #Times New Roman
 fontsize: 11pt
@@ -18,7 +20,7 @@ format:
     margin-right: 0.8in
     margin-top: 0.8in
     margin-bottom: 0.8in
-    toc: false
+    toc: true
     keep-tex: true
     include-in-header:
       text: |
@@ -29,16 +31,7 @@ format:
 bibliography: references.bib #add bibliography in this file
 csl: elife.csl #change according to journal
 ---
-\
 
-Gáspár Jékely^1,2,\*^ , Sanja Jasek^1,2^, Martin Gühmann^3^, Luis Alberto Bezares Calderón^2^, Elizabeth A. Williams^4^, Réza Shahidi^5^\
-
-^1^Heidelberg University, Centre for Organismal Studies (COS), 69120 Heidelberg, Germany\
-^2^Living Systems Institute, University of Exeter, Exeter, EX4 4QD, United Kingdom\
-^3^School of Biological Sciences, University of Bristol, Bristol, United Kingdom\
-^4^BioSciences, University of Exeter, Stocker Road, Exeter EX4 4QD, Exeter, United Kingdom\
-^5^Electron Microscopy Core Facility (EMCF), University of Heidelberg, 69120 Heidelberg, Germany\
-^\*^Correspondence: gaspar.jekely\@cos.uni-heidelberg.de
 
 ```{r include=FALSE}
 source("code/statistics_for_paper.R")
