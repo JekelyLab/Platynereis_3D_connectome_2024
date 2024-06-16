@@ -1,7 +1,7 @@
 ---
 title: "Whole-body connectome of a segmented annelid larva"
 subtitle: |
-  \raggedright  Gáspár Jékely^1,2,\*^ , Sanja Jasek^1,2^, Martin Gühmann^3^, Luis Alberto Bezares-Calderón^2^, Elizabeth A. Williams^4^, Réza Shahidi^5^ \newline<br>^1^Heidelberg University, Centre for Organismal Studies (COS), 69120 Heidelberg, Germany \newline<br>^2^Living Systems Institute, University of Exeter, Exeter, EX4 4QD, United Kingdom \newline<br>^3^School of Biological Sciences, University of Bristol, Bristol, United Kingdom \newline<br>^4^BioSciences, University of Exeter, Stocker Road, Exeter EX4 4QD, Exeter, United Kingdom\newline<br> ^5^Electron Microscopy Core Facility (EMCF), University of Heidelberg, 69120 Heidelberg, Germany \newline<br> ^\*^Correspondence: gaspar.jekely@cos.uni-heidelberg.de
+  \raggedright  Csaba Verasztó^1,2\†^, Sanja Jasek^1,3,\†^, Martin Gühmann^4^, Luis Alberto Bezares-Calderón^1^, Elizabeth A. Williams^5^, Réza Shahidi^6^, Gáspár Jékely^1,3,\*^  \newline<br>^1^Living Systems Institute, University of Exeter, Exeter, EX4 4QD, United Kingdom \newline<br>^2^École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland, \newline<br>^3^Heidelberg University, Centre for Organismal Studies (COS), 69120 Heidelberg, Germany \newline<br>^4^School of Biological Sciences, University of Bristol, Bristol, United Kingdom \newline<br>^5^BioSciences, University of Exeter, Stocker Road, Exeter EX4 4QD, Exeter, United Kingdom\newline<br> ^6^Electron Microscopy Core Facility (EMCF), University of Heidelberg, 69120 Heidelberg, Germany \newline<br> ^\*^Correspondence: gaspar.jekely@cos.uni-heidelberg.de \newline<br> ^\†^These authors contributed equally to this work
 mainfont: Arial
 monofont: DejaVu Sans Mono #Times New Roman
 fontsize: 11pt
