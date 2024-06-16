@@ -63,7 +63,7 @@ language R. To work with the compendium, you will need
 installed on your computer the [R software](https://cloud.r-project.org/)
 itself and optionally [RStudio Desktop](https://rstudio.com/products/rstudio/download/).
 
-If you would like to use the template, you could open Rstudio in your computer, then go to File > New Project > Version Control > Git. Under repository URL add the URL of this page https://github.com/JekelyLab/Jekely_et_al_2024_connectome and save it in a local folder.
+If you would like to use the template, you could open Rstudio in your computer, then go to File > New Project > Version Control > Git. Under repository URL add the URL of this page https://github.com/JekelyLab/Platynereis_3D_connectome_2024 and save it in a local folder.
 
 The R project will live in the folder (as working directory) where the Jekely_et_al_2024_connectome.Rproj file is saved. All other files and directories will be accessed relative to this working directory. This way the project is portable and self-contained.
 
