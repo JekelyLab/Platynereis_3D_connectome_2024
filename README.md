@@ -33,8 +33,10 @@ The project directory contains:
 
 - [:file_folder: text](Manuscript.qmd): Quarto source document for
   manuscript. Includes text, references and inserts the latest version
-  of the figures from the /Figures folder. There is also a rendered html
-  version, `Manuscript.html`, suitable for reading.
+  of the figures from the /Figures folder. The quarto file can be
+  rendered into an html or pdf file in RStudio with all figures
+  inserted, suitable for reading. For this, you need to download the
+  repository, as explained below.
 
 - [:file_folder: data](/data): Data used in the analysis.
 
