@@ -12,32 +12,34 @@
 
 This repository contains the data and code for our paper:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
-> Calderón, Elizabeth A. Williams, Réza Shahidi (2024) . *Whole-body
-> connectome of a segmented annelid larva*. Name of journal/book \<\>
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
+> Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024) .
+> *Whole-body connectome of a segmented annelid larva*. Name of
+> journal/book \<\>
 
 Our pre-print is online here:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
-> Calderón, Elizabeth A. Williams, Réza Shahidi (2024). *Whole-body
-> connectome of a segmented annelid larva*. Name of journal/book,
-> Accessed 16 Mar 2024. Online at <https://doi.org/xxx/xxx>
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
+> Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024).
+> *Whole-body connectome of a segmented annelid larva*. Name of
+> journal/book, Accessed 16 Jun 2024. Online at
+> <https://doi.org/xxx/xxx>
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
-> Calderón, Elizabeth A. Williams, Réza Shahidi, (2024). *Compendium of
-> R code and data for Whole-body connectome of a segmented annelid
-> larva*. Accessed 16 Mar 2024. Online at
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
+> Calderón, Elizabeth A. Williams, Réza Shahidi, , Gáspár Jékely,
+> (2024). *Compendium of R code and data for Whole-body connectome of a
+> segmented annelid larva*. Accessed 16 Jun 2024. Online at
 > <https://zenodo.org/doi/10.5281/zenodo.10825370>
 
 ## Contents
 
 The project directory contains:
 
-- [:file_folder: text](/Manuscript.qmd): Quarto source document for
+- [:file_folder: text](Manuscript.qmd): Quarto source document for
   manuscript. Includes text, references and inserts the latest version
   of the figures from the /Figures folder. There is also a rendered html
   version, `Manuscript.html`, suitable for reading.
@@ -46,7 +48,9 @@ The project directory contains:
 
 - [:file_folder: scripts](/code): scripts used in the analysis.
 
-- [:file_folder: figures](/pictures): Plots and other illustrations
+- [:file_folder: images](/pictures): Plots and other illustrations  
+
+- [:file_folder: figures](/Figures): All figures for the paper
 
 - [:file_folder: supplements](/supplements): Supplementary materials
   including notes and other documents prepared and collected during the

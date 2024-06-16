@@ -22,39 +22,38 @@ Title <- "Whole-body connectome of a segmented annelid larva"
 
 This repository contains the data and code for our paper:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi (2024)
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024)
  \. _`r Title`_. Name of journal/book <>
 
 Our pre-print is online here:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi (2024). _`r Title`_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024). _`r Title`_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
 
 
 ### How to cite
 
 Please cite this compendium as:
 
-> Gáspár Jékely, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://zenodo.org/doi/10.5281/zenodo.10825370>
+> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares Calderón, Elizabeth A. Williams, Réza Shahidi, , Gáspár Jékely, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for `r Title`_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://zenodo.org/doi/10.5281/zenodo.10825370>
 
 ## Contents
 
 The project directory contains:
 
-  - [:file\_folder: text](/Manuscript.qmd): Quarto source document
+  - [:file\_folder: text](Manuscript.qmd): Quarto source document
     for manuscript. Includes text, references and inserts the latest version of the figures from the /Figures folder. 
 There is also a rendered html version,
     `Manuscript.html`, suitable for reading.
     
   - [:file\_folder: data](/data): Data used in the analysis.
   - [:file\_folder: scripts](/code): scripts used in the analysis.
-  - [:file\_folder: figures](/pictures): Plots and other
-    illustrations
-  - [:file\_folder:
-    supplements](/supplements):
+  - [:file\_folder: images](/pictures): Plots and other
+    illustrations  
+  - [:file\_folder: figures](/Figures): All figures for the paper
+  - [:file\_folder: supplements](/supplements):
     Supplementary materials including notes and other documents
     prepared and collected during the analysis.
-  - [:file\_folder:
-    source_data](/source_data):
+  - [:file\_folder: source_data](/source_data):
     Source data files associated with each figure containing all data points that have been plotted in the figure.
 
 ## How to run in your browser or download and run locally

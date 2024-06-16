@@ -9,8 +9,8 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Gáspár
-    family-names: Jékely
+  - given-names: Csaba
+    family-names: Verasztó
   - given-names: Sanja
     family-names: Jasek
   - given-names: Martin
@@ -21,6 +21,8 @@ authors:
     family-names: Williams
   - given-names: Réza
     family-names: Shahidi
+  - given-names: Gáspár
+    family-names: Jékely
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10825371
