@@ -14,16 +14,8 @@ This repository contains the data and code for our paper:
 
 > Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
 > Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024) .
-> *Whole-body connectome of a segmented annelid larva*. Name of
-> journal/book \<\>
-
-Our pre-print is online here:
-
-> Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
-> Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024).
-> *Whole-body connectome of a segmented annelid larva*. Name of
-> journal/book, Accessed 16 Jun 2024. Online at
-> <https://doi.org/xxx/xxx>
+> *Whole-body connectome of a segmented annelid larva*. biorxiv. Online
+> at <https://doi.org/10.1101/2024.03.17.585258>
 
 ### How to cite
 
@@ -33,7 +25,7 @@ Please cite this compendium as:
 > Calderón, Elizabeth A. Williams, Réza Shahidi, , Gáspár Jékely,
 > (2024). *Compendium of R code and data for Whole-body connectome of a
 > segmented annelid larva*. Accessed 16 Jun 2024. Online at
-> <https://zenodo.org/doi/10.5281/zenodo.10825370>
+> <https://zenodo.org/records/11811680>
 
 ## Contents
 
