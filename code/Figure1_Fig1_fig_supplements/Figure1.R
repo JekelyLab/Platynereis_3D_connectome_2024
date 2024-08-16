@@ -1065,11 +1065,11 @@ close3d()
     draw_label("3", x = 0.05, y = 0.23, size = 8)
 
   panel_SN_prepost <- ggdraw() + draw_image(img_SN_prepost) +
-    draw_label("SN outgoing",
+    draw_label("SN presyn",
       x = 0.4, y = 0.99,
       size = 10, color = "#0072B2"
     ) +
-    draw_label("incoming",
+    draw_label("postsyn",
       x = 0.8, y = 0.99,
       size = 10, color = "#D55E00"
     ) +
@@ -1092,37 +1092,37 @@ close3d()
   
 
   panel_IN_prepost <- ggdraw() + draw_image(img_IN_prepost) +
-    draw_label("IN outgoing",
+    draw_label("IN presyn",
       x = 0.4, y = 0.99,
       size = 10, color = "#0072B2"
     ) +
-    draw_label("incoming",
+    draw_label("postsyn",
       x = 0.8, y = 0.99,
       size = 10, color = "#D55E00"
     )
 
   panel_MN_prepost <- ggdraw() + draw_image(img_MN_prepost) +
-    draw_label("MN outgoing",
+    draw_label("MN presyn",
       x = 0.4, y = 0.99,
       size = 10, color = "#0072B2"
     ) +
-    draw_label("incoming",
+    draw_label("postsyn",
       x = 0.8, y = 0.99,
       size = 10, color = "#D55E00"
     )
 
   panel_SN_syn_distr <- ggdraw() + draw_image(img_SN_syn_distr) +
     draw_label("sensory neurons", x = 0.4, y = 0.98, size = 10) +
-    draw_label("outgoung", x = 0.58, y = 0.68, size = 10, color = "#0072B2") +
-    draw_label("incoming", x = 0.45, y = 0.38, size = 10, color = "#D55E00")
+    draw_label("presynaptic", x = 0.58, y = 0.68, size = 10, color = "#0072B2") +
+    draw_label("postsynaptic", x = 0.45, y = 0.38, size = 10, color = "#D55E00")
   panel_IN_syn_distr <- ggdraw() + draw_image(img_IN_syn_distr) +
     draw_label("interneurons", x = 0.4, y = 0.98, size = 10) +
-    draw_label("outgoung", x = 0.62, y = 0.55, size = 10, color = "#0072B2") +
-    draw_label("incoming", x = 0.52, y = 0.73, size = 10, color = "#D55E00")
+    draw_label("presynaptic", x = 0.62, y = 0.55, size = 10, color = "#0072B2") +
+    draw_label("postsynaptic", x = 0.52, y = 0.73, size = 10, color = "#D55E00")
   panel_MN_syn_distr <- ggdraw() + draw_image(img_MN_syn_distr) +
     draw_label("motor neurons", x = 0.4, y = 0.98, size = 10) +
-    draw_label("outgoung", x = 0.7, y = 0.68, size = 10, color = "#0072B2") +
-    draw_label("incoming", x = 0.45, y = 0.36, size = 10, color = "#D55E00")
+    draw_label("presynaptic", x = 0.7, y = 0.68, size = 10, color = "#0072B2") +
+    draw_label("postsynaptic", x = 0.45, y = 0.36, size = 10, color = "#D55E00")
 
   panel_img_cables_A <- ggdraw() + draw_image(img_cables_A)
   panel_img_cables_B <- ggdraw() + draw_image(img_cables_B)

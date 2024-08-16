@@ -435,11 +435,11 @@ webshot2::webshot(
       x = 0.45, y = 0.98, fontfamily = "sans", fontface = "plain",
       color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1
     ) +
-    draw_label("outgoing",
+    draw_label("presynapse",
       x = 0.15, y = 0.9, fontfamily = "sans", fontface = "plain",
       color = oranges[8], size = 9, angle = 0, lineheight = 0.9, alpha = 1
     ) +
-    draw_label("incoming",
+    draw_label("postsynapse",
       x = 0.15, y = 0.85, fontfamily = "sans", fontface = "plain",
       color = blues[4], size = 9, angle = 0, lineheight = 0.9, alpha = 1
     )

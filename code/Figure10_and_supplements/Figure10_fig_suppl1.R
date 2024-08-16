@@ -460,8 +460,8 @@ panel_decuss_desc_post_v <- ggdraw() + draw_image(
     x = 0.1, y = 0.94, hjust = 0,
     size = 10, color = Okabe_Ito[5], fontface = "bold"
   ) +
-  draw_label("incoming",
-    x = 0.7, y = 0.99, hjust = 0,
+  draw_label("postsynapse",
+    x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[8], fontface = "plain"
   )
 
@@ -476,8 +476,8 @@ panel_decuss_desc_pre_v <- ggdraw() + draw_image(
     x = 0.1, y = 0.94, hjust = 0,
     size = 10, color = Okabe_Ito[5], fontface = "bold"
   ) +
-  draw_label("outgoing",
-    x = 0.7, y = 0.99, hjust = 0,
+  draw_label("presynapse",
+    x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[8], fontface = "plain"
   )
 
@@ -493,12 +493,12 @@ panel_decuss_post_pre_f <- ggdraw() + draw_image(
     x = 0.1, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[8], fontface = "plain"
   ) +
-  draw_label("outgoing",
-    x = 0.65, y = 0.94, hjust = 0,
+  draw_label("presynapse",
+    x = 0.6, y = 0.94, hjust = 0,
     size = 10, color = Okabe_Ito[5], fontface = "bold"
   ) +
-  draw_label("incoming",
-    x = 0.65, y = 0.99, hjust = 0,
+  draw_label("postsynapse",
+    x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[6], fontface = "bold"
   )
 
@@ -513,12 +513,12 @@ panel_desc_post_pre_f <- ggdraw() + draw_image(
     x = 0.1, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[8], fontface = "plain"
   ) +
-  draw_label("outgoing",
-    x = 0.65, y = 0.94, hjust = 0,
+  draw_label("presynapse",
+    x = 0.6, y = 0.94, hjust = 0,
     size = 10, color = Okabe_Ito[5], fontface = "bold"
   ) +
-  draw_label("incoming",
-    x = 0.65, y = 0.99, hjust = 0,
+  draw_label("postsynapse",
+    x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[6], fontface = "bold"
   )
 

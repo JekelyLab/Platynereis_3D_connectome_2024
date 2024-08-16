@@ -30,8 +30,10 @@ format:
         \linenumbers
 bibliography: references.bib #add bibliography in this file
 csl: elife.csl #change according to journal
+editor: 
+  markdown: 
+    wrap: sentence
 ---
-
 
 ```{r include=FALSE}
 source("code/statistics_for_paper.R")
@@ -72,7 +74,7 @@ Cellular-resolution gene expression atlases have also been developed for differe
 These can increasingly be integrated with single-cell transcriptomic atlases and synaptic circuit maps [@Achim2015; @vergara2017whole; @williams2017; @Vergara2021].
 The registration of a gene expression atlas to a whole-body low-resolution EM volume in the six-day-old *Platynereis* larva has also been reported [@Vergara2021].
 
-We previously reported synaptic connectomes for several whole-body circuits from a transmission EM  volume of a three-day-old larva [@Randel2015].
+We previously reported synaptic connectomes for several whole-body circuits from a transmission EM volume of a three-day-old larva [@Randel2015].
 These include the visual, startle, ciliomotor, nuchal organ, and neurosecretory systems [@bezares-calderon2018; @Randel2015; @shahidi2015serial; @veraszto2017; @veraszto2018; @williams2017].
 Here, we report the complete synaptic connectome and the cell-type complement from the same volume of a three-day-old *Platynereis* larva.
 Recently we also reported the desmosomal connectome and motoneuron innervation of the somatic musculature [@jasek2022] and a preprint of a preliminary analysis of the synaptic connectome [@veraszto2020] that this work supersedes.
@@ -87,10 +89,19 @@ The connectome also allows us to address long-standing hypotheses about the orig
 
 We traced and annotated all cells in a previously reported volume EM dataset of a three-day-old (72 hours post fertilisation (hpf)) *Platynereis* larva [@Randel2015] (Figure 1A, Figure 1---figure supplement 1).
 The dataset consists of 4,846 layers of 40 nm thin sections scanned by transmission electron microscopy (TEM).
-The sections span the entire body of the larva. In the volume, we identified `r num_soma` cells with a soma.
+The sections span the entire body of the larva.
+In the volume, we identified `r num_soma` cells with a soma.
 
-We skeletonised cells containing projections or having an elongated morphology including muscle cells, glia and neurons (Figure 1C, D). During skeletonisation, interconnected nodes are placed in the neurite cross-section profiles of the same neuron across layers. The skeletons are grown until all branches of a neuron have been traced. The individual nodes can be tagged and the skeletons named and multiply annotated. For all neuronal skeletons, we also identified and marked synaptic sites as connectors. Connectors link a node of a presynaptic skeleton to a node of a postsynaptic skeleton partner. Synapses were recognised as presynaptic vesicle clusters at the membrane with no postsynaptic specialisations, as previously described [@randel2014neuronal].
-Synapses are monoadic, connecting one presynaptic neuron to one postsynaptic cell. Querying all skeletons and synaptic connectors allowed us to derive the synaptic connectome (Figure 1, Figure 2). We did not identify any gap junctions. 
+We skeletonised cells containing projections or having an elongated morphology including muscle cells, glia and neurons (Figure 1C, D).
+During skeletonisation, interconnected nodes are placed in the neurite cross-section profiles of the same neuron across layers.
+The skeletons are grown until all branches of a neuron have been traced.
+The individual nodes can be tagged and the skeletons named and multiply annotated.
+For all neuronal skeletons, we also identified and marked synaptic sites as connectors.
+Connectors link a node of a presynaptic skeleton to a node of a postsynaptic skeleton partner.
+Synapses were recognised as presynaptic vesicle clusters at the membrane with no postsynaptic specialisations, as previously described [@randel2014neuronal].
+Synapses are monoadic, connecting one presynaptic neuron to one postsynaptic cell.
+Querying all skeletons and synaptic connectors allowed us to derive the synaptic connectome (Figure 1, Figure 2).
+We did not identify any gap junctions.
 
 The skeletons across the volume comprised `r with_soma_node_count_sum` nodes and had `r with_soma_presyn_sum` presynaptic and `r with_soma_postsyn_sum` postsynaptic sites.
 We could not attach `r num_frag` fragments (`r fragment_node_count_sum` nodes) to a skeleton with a soma.
@@ -98,13 +109,11 @@ These fragments contained `r fragment_presyn_sum` presynaptic and `r fragment_po
 Most of the fragments represent short skeletons of twigs (median length `r median_cable_length_frag` µm)(Figure 1---figure supplement 2B) that could not be traced across gaps or low-quality layers.
 Overall, `r fraction_fragment`% of all nodes, `r percent_presyn_on_frag`% of presynaptic, and `r percent_postsyn_on_frag`% of postsynaptic sites are on fragments and not assigned to a cell with a soma.
 
-
-```{r, out.width = "100%", fig.cap="**Figure 1. Overview of nervous-system anatomy in the three-day-old *Platynereis* larva.** (A) Stylised scanning electron microscopy image of a three-day-old segmented *Platynereis* larva. (B) Morphological rendering of all cells in the EM volume. Spheres represent the position of cell somas. (C) Neurite processes of all neurons in the larva coloured by neuron type (ventral view). Soma are not shown. (D) All effector cells in the larva, including ciliated cells (yellow), glands (grey) and muscles (red). Spheres indicate cell soma (not shown for muscle cells) (E) Summary of cell numbers of different categories in the larva.  (F-H) All presynaptic sites coloured by neuron type shown in (F) ventral, lateral (G), and frontal (H) views. (I) Morphological rendering of all sensory and interneurons on the left side of the larva.  (J) Morphological rendering of all sensory and motor neurons on the left side of the larva. Horizontal lines indicate the position of the cross-sections in (K). (K) Cross-section view of sensory, inter- and motor neuron projections in the ventral nerve cord neuropil. Cross-sections at three antero-posterior positions are shown. Numbers indicate the position of the cross-sections as marked in (J). (L) Position of presynaptic and postsynaptic sites on all sensory neurons of the connectome. (M) Mean radial synapse density (radius: 1000 nm, centre: soma) of incoming and outgoing synapses in sensory neurons. (N) Position of presynaptic and postsynaptic sites on all interneurons of the connectome. (O) Mean radial synapse density (radius: 1000 nm, centre: soma) of incoming and outgoing synapses in interneurons. (P) Position of presynaptic and postsynaptic sites on all motor neurons of the connectome. (Q) Mean radial synapse density (radius: 1000 nm, centre: soma) of incoming and outgoing synapses in motor neurons. In all anatomical renderings, the outline of the yolk is shown in grey. In (G), the body outline is also shown. Aciculae and chaetae are also shown in grey as segmental markers. Abbreviations: SN, sensory neuron; IN, interneuron; MN, motor neuron, sg0-3, segments 0-3. <br> Figure 1—source data 1. Source data for panels M, O, Q. " }
+```{r, out.width = "100%", fig.cap="**Figure 1. Overview of nervous-system anatomy in the three-day-old *Platynereis* larva.** (A) Stylised scanning electron microscopy image of a three-day-old segmented *Platynereis* larva. (B) Morphological rendering of all cells in the EM volume. Spheres represent the position of cell somas. (C) Neurite processes of all neurons in the larva coloured by neuron type (ventral view). Soma are not shown. (D) All effector cells in the larva, including ciliated cells (yellow), glands (grey) and muscles (red). Spheres indicate cell soma (not shown for muscle cells) (E) Summary of cell numbers of different categories in the larva.  (F-H) All presynaptic sites coloured by neuron type shown in (F) ventral, lateral (G), and frontal (H) views. (I) Morphological rendering of all sensory and interneurons on the left side of the larva.  (J) Morphological rendering of all sensory and motor neurons on the left side of the larva. Horizontal lines indicate the position of the cross-sections in (K). (K) Cross-section view of sensory, inter- and motor neuron projections in the ventral nerve cord neuropil. Cross-sections at three antero-posterior positions are shown. Numbers indicate the position of the cross-sections as marked in (J). (L) Position of presynaptic and postsynaptic sites on all sensory neurons of the connectome. (M) Mean radial synapse density (radius: 1000 nm, centre: soma) of presynaptic and postsynaptic synapses in sensory neurons. (N) Position of presynaptic and postsynaptic sites on all interneurons of the connectome. (O) Mean radial synapse density (radius: 1000 nm, centre: soma) of presynaptic and postsynaptic synapses in interneurons. (P) Position of presynaptic and postsynaptic sites on all motor neurons of the connectome. (Q) Mean radial synapse density (radius: 1000 nm, centre: soma) of presynaptic and postsynaptic synapses in motor neurons. In all anatomical renderings, the outline of the yolk is shown in grey. In (G), the body outline is also shown. Aciculae and chaetae are also shown in grey as segmental markers. Abbreviations: SN, sensory neuron; IN, interneuron; MN, motor neuron, sg0-3, segments 0-3. <br> Figure 1—source data 1. Source data for panels M, O, Q. " }
 #| echo: false 
 
 knitr::include_graphics("Figures/Figure1.png")
 ```
-
 
 ### Neuroanatomy and neuropils
 
@@ -124,13 +133,13 @@ Motor nerves concentrate dorsally in the VNC (Figure 1K), close to the basal lam
 
 Neurons have a median cable length of `r median_cable_length_all` µm (sensory neurons: `r median_cable_length_SN` µm; interneurons: `r median_cable_length_IN` µm, motoneurons: `r median_cable_length_MN` µm)(Figure 1---figure supplement 2A) and the largest neurons (Ser-tr1 and Loop) a cable length of 1.2-1.7 mm.
 
-Neurons have a median of `r median_presyn_sites` outgoing (presynpatic) and `r median_postsyn_sites` incoming (postsynaptic) synaptic sites with the largest neurons (MC, Ser-tr1, Loop) with over 300 outgoing synapses (Figure 1---figure supplement 2).
+Neurons have a median of `r median_presyn_sites` presynpatic and `r median_postsyn_sites` postsynaptic sites with the largest neurons (MC, Ser-tr1, Loop) with over 300 presynapses (Figure 1---figure supplement 2).
 
-The relative ratio of incoming and outgoing sites distinguishes sensory, inter- and motoneurons, with sensory neurons having relatively more outgoing synapses (Figure 1---figure supplement 2E).
+The relative ratio of post- and presynaptic sites distinguishes sensory, inter- and motoneurons, with sensory neurons having relatively more presynapses (Figure 1---figure supplement 2E).
 
-The number of outgoing and incoming synaptic sites and skeleton segments scales with the total cable length of skeletons with Pearson's correlation coefficients \>0.7 (Figure 1---figure supplement 2F-H).
+The number of pre- and postsynaptic sites and skeleton segments scales with the total cable length of skeletons with Pearson's correlation coefficients \>0.7 (Figure 1---figure supplement 2F-H).
 
-Most neuronal trees are unipolar and not highly branched (<100 segments; Figure 1---figure supplement 2H).
+Most neuronal trees are unipolar and not highly branched (\<100 segments; Figure 1---figure supplement 2H).
 Neurons in general do not have primary cilia.
 Sensory neurons are bipolar with an axon and a sensory dendrite bearing zero to five sensory cilia at its proximal tip, showing different sensory specialisations [@williams2017; @bezares-calderon2018].
 Interneurons are unipolar or pseudo-unipolar.
@@ -138,25 +147,35 @@ Ciliomotor neurons have two motor axons emanating from the soma [@veraszto2017],
 
 ### Derivation and network analysis of the whole-body synaptic connectome
 
-To define a whole-body synaptic connectome for the larva, we comprehensively identified synapses by traversing the volume and each skeleton multiple times (32,381 synapses). Synapses were connected to the pre- and postsynaptic skeletons (one to one, as synapses are monoadic).
-We then retrieved all synapses and their pre- and postsynaptic skeletons and derived a graph (6,725 graph nodes or vertices). From this graph, nodes with less than three connections were removed.
+To define a whole-body synaptic connectome for the larva, we comprehensively identified synapses by traversing the volume and each skeleton multiple times (32,381 synapses).
+Synapses were connected to the pre- and postsynaptic skeletons (one to one, as synapses are monoadic).
+We then retrieved all synapses and their pre- and postsynaptic skeletons and derived a graph (6,725 graph nodes or vertices).
+From this graph, nodes with less than three connections were removed.
 The final synaptic connectome contains `r n_nodes_connectome` nodes (including `r n_fragments` fragments) connected by `r n_edges` directed edges formed by `r n_synapses` in-graph synapses (Figure 2).
 The connectome is a sparsely-connected network with a graph density of `r density`.
 
-In the graph, the majority of source nodes (nodes with only outgoing edges) are sensory neurons, sink nodes (nodes with only incoming edges) are mostly effector cells (Figure 2---figure supplement 1). The nodes with the highest degree included ciliomotor neurons (e.g. Loop, Ser-tr1)[@bezares-calderon2018; @veraszto2017], the sensory-motoneuron pygPBunp [@veraszto2017], and the motoneurons of exocrine glands (MNspinning, see below).
+In the graph, the majority of source nodes (nodes with only outgoing edges) are sensory neurons, sink nodes (nodes with only incoming edges) are mostly effector cells (Figure 2---figure supplement 1).
+The nodes with the highest degree included ciliomotor neurons (e.g. Loop, Ser-tr1)[@bezares-calderon2018; @veraszto2017], the sensory-motoneuron pygPBunp [@veraszto2017], and the motoneurons of exocrine glands (MNspinning, see below).
 Some of the strongest edges (highest number of synapses) were between the pigment-cell motoneuron cioMNcover and prototroch pigment cells, MNspinning and exocrine glands, and the previously described MC cell and ciliated cells [@veraszto2017].
 
 To identify more strongly connected subgraphs within the connectome, we used community detection with the Leiden algorithm [@traag2019louvain].
 This analysis combined with force-field-based clustering highlighted several modules (Figures 2).
 Nodes in a module are more strongly interconnected than to nodes in other modules (Figure 2---figure supplement 3).
-We named the modules based on their primary effector organs or other dominant anatomical characters. We would like to note that this analysis can recover varying numbers of modules depending on the resolution parameter (Figure 2—figure supplement 2C). The selected resolution parameter subdivides the network into communities that we think best represent functional units.
+We named the modules based on their primary effector organs or other dominant anatomical characters.
+We would like to note that this analysis can recover varying numbers of modules depending on the resolution parameter (Figure 2—figure supplement 2C).
+The selected resolution parameter subdivides the network into communities that we think best represent functional units.
 
 The modules include the anterior neurosecretory centre, the mushroom bodies, the visual circuit, a network of ciliomotor neurons, a module innervating head pigment cells, a left and right mechanosensory module providing input to muscles and segmental exocrine glands, a module for trunk postural control, and five muscle-motor modules (Figures 2).
 
-The modules contain neurons that project to distinct neuropil domains (Figures 2---figure supplement 5) and likely correspond to functional units. The visual module contains neurons of the eyes and primary visual neuropil (PRC, IN1, INint, INton) previously shown to mediate visual phototaxis [@randel2014neuronal]. The ciliomotor module contains ciliary band cells and functionally related neurons that show coordinated activity and drive ciliary closures and beating (Ser-tr1, Loop, MNant) [@veraszto2017]. The anterior neurosecretory centre includes anterior and dorsal sensory neurons, the ciliary photoreceptors and their postsynaptic circuit including the INRGWa and INNOS interneurons as well as the Ser-h1 and MC ciliomotors with their prototroch targets. Neurons in this module mediate barotaxis and UV avoidance [@Bezares2023barotaxis; @jokura2023nitric; @veraszto2018].
+The modules contain neurons that project to distinct neuropil domains (Figures 2---figure supplement 5) and likely correspond to functional units.
+The visual module contains neurons of the eyes and primary visual neuropil (PRC, IN1, INint, INton) previously shown to mediate visual phototaxis [@randel2014neuronal].
+The ciliomotor module contains ciliary band cells and functionally related neurons that show coordinated activity and drive ciliary closures and beating (Ser-tr1, Loop, MNant) [@veraszto2017].
+The anterior neurosecretory centre includes anterior and dorsal sensory neurons, the ciliary photoreceptors and their postsynaptic circuit including the INRGWa and INNOS interneurons as well as the Ser-h1 and MC ciliomotors with their prototroch targets.
+Neurons in this module mediate barotaxis and UV avoidance [@Bezares2023barotaxis; @jokura2023nitric; @veraszto2018].
 
-The modules are also interconnected among themselves suggesting crosstalk. Most sensory neurons occur in the visual, the two mechanosensory, the mushroom body and the anterior neurosecretory modules (Figure 2---figure supplement 1J). In a Sankey network diagram representing information flow, these modules are upstream of the motor-dominated pigmentmotor, ciliomotor, and musclemotor modules (Figure 2---figure supplement 2B).
-
+The modules are also interconnected among themselves suggesting crosstalk.
+Most sensory neurons occur in the visual, the two mechanosensory, the mushroom body and the anterior neurosecretory modules (Figure 2---figure supplement 1J).
+In a Sankey network diagram representing information flow, these modules are upstream of the motor-dominated pigmentmotor, ciliomotor, and musclemotor modules (Figure 2---figure supplement 2B).
 
 ```{r, out.width = "100%", fig.cap="**Figure 2. Modularity of the *Platynereis* larval connectome.** Full connectome graph of the *P. dumerilii* three-day-old larva chemical synapse connectome. Nodes represent individual cells, edges represent synaptic connectivity. Nodes are coloured by modules. Node sizes are proportional to weighted degree. The individual panels show the morphology of all cells in each module with the outline of the yolk and aciculae shown in grey. <br> Figure 2—source data 1. Source data of the connectome graph in tibble graph (tbl_graph) format saved as an R binary object. "}
 #| echo: false 
@@ -198,15 +217,18 @@ All cells were annotated in CATMAID [@Saalfeld2009; @Schneider-Mizell2016] with 
 We also annotated all cells based on their soma position in the body (e.g. left or right side, segment 0-3, germ layer etc.)(Figure 3---figure supplement 2).
 These annotations were used to query the data and visualise subsets of cells.
 
-Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners. We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
+Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
+We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
 
 Querying by two or more annotations allows tallying the number of cells in different category (e.g. number of sensory cells with a single penetrating cilium or the number of gland cells in a particular segment)(Figure 3---figure supplement 3).
 
-Left-right cell-type pairs have similar arbor morphologies (Figure 3---figure supplement 4). The similar branching patterns for left and right cells of the same type is also indicated by their similar average Sholl diagrams (Figure 3---figure supplement 5).
+Left-right cell-type pairs have similar arbor morphologies (Figure 3---figure supplement 4).
+The similar branching patterns for left and right cells of the same type is also indicated by their similar average Sholl diagrams (Figure 3---figure supplement 5).
 Left-right pairs also have projections at symmetrical positions in the VNC indicating neuropil stereotypy (Figure 3---figure supplement 6).
 
-Outgoing and incoming synapses in a neuron can be intermingled or spatially segregated.
-Interneurons can have mixed or spatially segregated input-output compartments. Most motoneurons have spatially segregated input-output compartments (Figure 1L-Q and Figure 3---figure supplement 7, 8).
+Presynaptic and postsynaptic sites in a neuron can be intermingled or spatially segregated.
+Interneurons can have mixed or spatially segregated input-output compartments.
+Most motoneurons have spatially segregated input-output compartments (Figure 1L-Q and Figure 3---figure supplement 7, 8).
 
 ### Grouped cell-type-level connectome
 
@@ -229,14 +251,17 @@ To explore sensory-motor pathways in the grouped graph, we searched for the shor
 We identified four sensory neurons with direct motor output (sensory-motor neurons: eyespot-PRCR3, pygPBunp, pygCirrusPUSM, hPU2l-asymPDF) and 25 premotor sensory neurons.
 The maximum number of hops from sensory neurons to an effector is five.
 33 sensory neurons have no synaptic paths to effectors.
-19 of these are neurosecretory cells with few or no synaptic partners [@williams2017] (Figure 4---figure supplement 5). For a graph-based visualisation of information flow, we arranged the nodes according to their relative ratio of incoming and outgoing synapses (Figure 4---figure supplement 6). This layout indicates that sensory-evoked activity propagates from sensory neurons through interneurons and motoneurons to effectors.
+19 of these are neurosecretory cells with few or no synaptic partners [@williams2017] (Figure 4---figure supplement 5).
+For a graph-based visualisation of information flow, we arranged the nodes according to their relative ratio of post- and presynapses (Figure 4---figure supplement 6).
+This layout indicates that sensory-evoked activity propagates from sensory neurons through interneurons and motoneurons to effectors.
 
 ### Neurotransmitter and neuropeptides phenotypes
 
-We could assign neurotransmitters or neuropeptides to 53 (26%) neuronal cell types  (Figure 5).
+We could assign neurotransmitters or neuropeptides to 53 (26%) neuronal cell types (Figure 5).
 This was possible either by direct immunogold labelling for neuropeptides [@shahidi2015serial] or by matching the position and morphology of cells to whole-body gene expression data or neuronal transgenic reporter expression [@randel2014neuronal; @veraszto2017; @vergara2017whole].
 
-We annotated 11 cholinergic, 3 serotonergic, 1 dopaminergic, 1 adrenergic, and 4 glutamatergic neuronal cell types. In addition, we assigned one of 12 neuropeptides to 38 cell types (pigment dispersing factor --- 12, allatotropin/orexin --- 5, leucokinin --- 1, proenkephalin --- 1, FVamide --- 5, FMRFamide --- 3, myoinhibitory peptide --- 3, achatin --- 1, RGWamide --- 1, MLD/pedal peptide --- 1, IRP2 --- 1, WLD --- 1).
+We annotated 11 cholinergic, 3 serotonergic, 1 dopaminergic, 1 adrenergic, and 4 glutamatergic neuronal cell types.
+In addition, we assigned one of 12 neuropeptides to 38 cell types (pigment dispersing factor --- 12, allatotropin/orexin --- 5, leucokinin --- 1, proenkephalin --- 1, FVamide --- 5, FMRFamide --- 3, myoinhibitory peptide --- 3, achatin --- 1, RGWamide --- 1, MLD/pedal peptide --- 1, IRP2 --- 1, WLD --- 1).
 Neuropeptides occur in sensory, motor and interneurons.
 
 In agreement with the large number of neuropeptides expressed in the larva [@Conzelmann2011; @shahidi2015serial; @williams2017], 516 connectome neurons contained dense core vesicles, indicative of peptidergic transmission (Figure 5---figure supplement 1).
@@ -277,14 +302,19 @@ These decussating (crossing the midline before descending) motoneurons are at th
 Their inputs include central head interneurons and several premotor sensory neurons (SNantler, MS, eyespotPRCR3) that directly synapse on the vMNs.
 The vMNs have a decussating morphology and innervate contralateral ciliated cells and ventral and dorsal longitudinal muscles, controlling trunk bending and the laterality of ciliary beating [@randel2014neuronal; @Randel2015].
 
-Another motor output from the head is two types of exocrine glands in the first segment (ciliatedGland, MVgland). These are innervated by two MNgland-head gland-motor neurons. The MNgland-head cells receive input from the rhythmically active serotonergic Ser-h1 ciliomotor neurons [@veraszto2017] suggesting a link between ciliary activity and glandular secretion.
+Another motor output from the head is two types of exocrine glands in the first segment (ciliatedGland, MVgland).
+These are innervated by two MNgland-head gland-motor neurons.
+The MNgland-head cells receive input from the rhythmically active serotonergic Ser-h1 ciliomotor neurons [@veraszto2017] suggesting a link between ciliary activity and glandular secretion.
 
-Furthermore, several head ciliomotor neurons directly innervate locomotor ciliary bands [@veraszto2017] (MC, Ser-h1, MNant, vMN). Of these, the MNant cells receive direct input from several head sensory neurons (SNhook, SNtorii, SNantler, SNhorn)(Figure 7F).
+Furthermore, several head ciliomotor neurons directly innervate locomotor ciliary bands [@veraszto2017] (MC, Ser-h1, MNant, vMN).
+Of these, the MNant cells receive direct input from several head sensory neurons (SNhook, SNtorii, SNantler, SNhorn)(Figure 7F).
 The vMN and MNant motoneurons thus seem to integrate multiple direct sensory and other inputs.
 
-Sensory integration also characterises the visual system. Here, the visual eye photoreceptors (PRC) share a postsynaptic interneuron (INR) with the PRCR1 photoreceptors of the eyespots (Figure 7G-H).
+Sensory integration also characterises the visual system.
+Here, the visual eye photoreceptors (PRC) share a postsynaptic interneuron (INR) with the PRCR1 photoreceptors of the eyespots (Figure 7G-H).
 
-To identify neurons with possible integrative function, we ranked cells by the number of presynaptic and postsynaptic cell-type-level partners. We also ranked cells by various node-centrality measures including node weighted degree, pagerank, betweenness and authority (Figure 7J, K; Figure 7---figure supplement 2).
+To identify neurons with possible integrative function, we ranked cells by the number of presynaptic and postsynaptic cell-type-level partners.
+We also ranked cells by various node-centrality measures including node weighted degree, PageRank, betweenness and authority (Figure 7J, K; Figure 7---figure supplement 2). PageRank is an algorithm used to rank webpages and scores the number and quality of the incoming links of a node [@page1999pagerank], betweenness centrality measures the number of shortest paths that pass through a node in a graph,  and authority [@kleinberg1999authoritative].
 
 The MNant and vMN motoneurons have among the highest number of presynaptic partners.
 Among the interneurons, INRGW, INarc1 and INW integrate the largest number of inputs.
@@ -314,7 +344,10 @@ knitr::include_graphics("Figures/Figure7.png")
 ### Mushroom-body anatomy and circuits
 
 Nereid annelids have a pair of mushroom bodies with morphological and molecular similarities to arthropod mushroom bodies [@tomer2010profiling].
-In *Platynereis*, the mushroom bodies start to develop in the larva. In the six-day-old volume, the partial reconstruction of neurite projectiones revealed the presence of both sensory and interneurons in the mushroom bodies. Some of the sensory neurons were found to project to the anterior neurosecretory neuropil [@Vergara2021; @arendt2021conserved]. Here we present the complete reconstruction of the developing mushroom bodies and their circuits in the three-day-old larva (Video 3; Figure 8).
+In *Platynereis*, the mushroom bodies start to develop in the larva.
+In the six-day-old volume, the partial reconstruction of neurite projectiones revealed the presence of both sensory and interneurons in the mushroom bodies.
+Some of the sensory neurons were found to project to the anterior neurosecretory neuropil [@Vergara2021; @arendt2021conserved].
+Here we present the complete reconstruction of the developing mushroom bodies and their circuits in the three-day-old larva (Video 3; Figure 8).
 
 The mushroom bodies (MBs) are formed by a pair of ventrolateral brain ganglia.
 They comprise both sensory and interneurons (SNMB and INMB)(Figure 8A-D).
@@ -340,7 +373,9 @@ The Sholl diagrams are similar for left-right pairs and the correlation coeffici
 The outputs of the mushroom body circuits also include projection neurons of the central brain, including the INW, INlasso, INproT2 and INdecussHook neurons (Figure 9H-Q).
 Among these the INproT2 neurons are premotor neurons synapsing on trunk MNring motoneurons, indicating a shallow sensory-motor organisation of mushroom-body outputs.
 
-The overall architecture of the _Platynereis_ MB is multilayer, parallel and feed-forward, with only very weak recurrent connections or lateral connections between the feed-forward networks (Figure 9B; Figure 9---figure supplement 1). The circuit also shows a fan-out fan-in architecture, with the sensory neurons diverging to several IN targets (e.g. SNtorii to INtorii, INbigloop and INhorn) and post-MB interneurons receiving converging input (e.g. INW from INhook, INlasso, INMBtype5-6, and SNlasso). This multilayer perceptron architecture may support the formation of associative memories, as proposed for memory circuits in cephalopods [@shomrat2011alternative].
+The overall architecture of the *Platynereis* MB is multilayer, parallel and feed-forward, with only very weak recurrent connections or lateral connections between the feed-forward networks (Figure 9B; Figure 9---figure supplement 1).
+The circuit also shows a fan-out fan-in architecture, with the sensory neurons diverging to several IN targets (e.g. SNtorii to INtorii, INbigloop and INhorn) and post-MB interneurons receiving converging input (e.g. INW from INhook, INlasso, INMBtype5-6, and SNlasso).
+This multilayer perceptron architecture may support the formation of associative memories, as proposed for memory circuits in cephalopods [@shomrat2011alternative].
 
 ```{r, out.width = "100%", fig.cap="**Figure 9. Parallel circuit organisation of the mushroom bodies** (A) Connectivity of the mushroom body by neuron category with morphological rendering for each category shown below. (B) Connectivity of mushroom-body neurons and their outputs. Nodes represent neurons grouped by cell type, arrows show synaptic connectivity. (C-D) Sensory inputs to the mushroom bodies (other than SNMB), anterior (C) and ventral (D) views. (E) Palp sensory neurons and their interneuron targets in the mushroom body. (F) Antennal and SNbronto sensory neurons and their interneuron targets in the mushroom body. (G) SNhorn and SNstiff sensory neurons and their interneuron targets in the mushroom body. (H) Interneuron inputs to the mushroom body. (I-L) Inputs to INMBtype2 (I), INMBtype5 (J), INMBtype6 (K) and INMBtype7 (L) mushroom body interneurons. (M) INMBtype9 and its postsynaptic target, the INproT2 premotor projection neuron. (N-O) Pre- and postsynaptic partners of INproT2, anterior (N) and ventral (O) views. (P) Partner of the INW projection neurons. (Q) Partners of the INdecusshook projection neurons. Yolk outline and all mushroom body neurons are shown in grey for reference. Abbreviations: SN, sensory neuron; IN, interneuron; MN, motor neuron; MBSN, mushroom body sensory neuron; MBintrIN, mushroom body intrinsic interneuron; MBON, mushroom body output neuron. <br> Figure 9—source data 1. Connectivity matrix of the network in panel A. <br> Figure 9—source data 2. Connectivity matrix of the network in panel B. "}
 #| echo: false
@@ -356,7 +391,7 @@ There are 549 trunk connectome cells that receive synapses from head neurons and
 
 The trunk-projecting brain neurons have either a decussating or ipsilaterally descending morphology.
 The two types project to different domains of the VNC and have different target neurons (Figure 10---figure supplement 1E, F).
-Decussating and descending neurons receive most of their incoming synapses in the central head neuropil and form most of their outgoing synapses in the VNC (Figure 10---figure supplement 1C, D, H-M).
+Decussating and descending neurons receive most of their synaptic inputs (postsynaptic sites) in the central head neuropil and form most of their presynapses in the VNC (Figure 10---figure supplement 1C, D, H-M).
 
 Ranking head neurons by the number of synapses on trunk targets highlights the strong motor connections of the INrope MB projection neurons [@bezares-calderon2018] and the ventral head motoneurons (vMNs)(Figure 10F).
 The MNant and MNgland-head neurons also innervate trunk effectors (ciliary band and gland cells, respectively).
@@ -369,7 +404,8 @@ Other contacts are formed mostly between trunk and head interneurons (Figure 10H
 
 Plotting head-to-trunk connectivity by cell class (sensory, inter, motor neurons and effectors) (Figure 10---figure supplement 3) shows the relative strengths of the connections.
 
-A similar analysis for left-to-right cell groups highlights the strong connectivity between the two body sides across all cell classes (Figure 10---figure supplement 4). For example, left-side eyespot-PRCR3, SNantlerPDF, and SNMIP-vc sensory neurons synapse on right-side MN1 and MN3 motoneurons, INrope interneurons synapse on both left and right MNspinning mononeurons, and mononeurons form similar number of synapses on left- and right-side partners (Figure 10---figure supplement 4).
+A similar analysis for left-to-right cell groups highlights the strong connectivity between the two body sides across all cell classes (Figure 10---figure supplement 4).
+For example, left-side eyespot-PRCR3, SNantlerPDF, and SNMIP-vc sensory neurons synapse on right-side MN1 and MN3 motoneurons, INrope interneurons synapse on both left and right MNspinning mononeurons, and mononeurons form similar number of synapses on left- and right-side partners (Figure 10---figure supplement 4).
 
 ```{r, out.width = "100%", fig.cap="**Figure 10. Connections between the head and the trunk. ** (A) Morphological rendering of head (cyan) and trunk (red) cells, which are part of the connectome. (B) Connectome graph with head (cyan) and trunk (red) cells coloured separately. (C) Morphological rendering of all head neurons with descending projections into the ventral nerve cord. (D) Morphological rendering of all trunk neurons with ascending projections into the head. (E) Morphological rendering of all synaptic targets of head neurons in the trunk coloured by cell class. (F) Distribution across classes of trunk targets of head neurons ordered by the number of head to trunk synapses (top 50 neurons shown). (G) Morphological rendering of all synaptic targets of trunk neurons in the head coloured by cell class. (H) Distribution across classes of head targets of trunk neurons ordered by the number of trunk to head synapses (top 50 neurons shown). <br> Figure 10—source data 1. Source data for panel F. <br> Figure 10—source data 2. Source data for panel H. "}
 #| echo: false
@@ -389,7 +425,8 @@ The ciliary bands mark the posterior segment boundaries.
 knitr::include_graphics("Figures/Figure11.png")
 ```
 
-Breaking down connections to segments (head, sg0-3, pygidium) or to cell classes (SN, IN, MN, effector) and segments shows that the strongest connections are formed within segments but there are also connections between any pair of segments with the exception of segment 0 (Figure 11B-D, F, G; Figure 11---figure supplement 1). Segment 1 interneurons, for example, connect to cells in four other body regions (Figure 11G).
+Breaking down connections to segments (head, sg0-3, pygidium) or to cell classes (SN, IN, MN, effector) and segments shows that the strongest connections are formed within segments but there are also connections between any pair of segments with the exception of segment 0 (Figure 11B-D, F, G; Figure 11---figure supplement 1).
+Segment 1 interneurons, for example, connect to cells in four other body regions (Figure 11G).
 In agreement with this, morphological rendering of cells per segment reveals long-range projections beyond the boundary of each segment (Figure 11H-K).
 The head, segment 1 and the pygidium all contain neurons that project along the entire length of the body (neurons with 'global reach')(Figure 11L-N).
 
@@ -418,7 +455,8 @@ The first segment contains ciliomotor neurons involved in body-wide ciliary clos
 
 In addition, segment-1-specific inter- and motoneurons have extensive connections with other trunk and head cell types (Figure 12D), including sensory inputs and motor outputs.
 
-Segment 2 contains a unique pair of giant motoneurons (MNspinning) that extensively innervate the contralateral spinning glands (spinGland) in the second and third segments (Figure 12E, F). The four spinGland cells have a large microvillar secretory pore at the tip of the ventral parapodia (neuropodia).
+Segment 2 contains a unique pair of giant motoneurons (MNspinning) that extensively innervate the contralateral spinning glands (spinGland) in the second and third segments (Figure 12E, F).
+The four spinGland cells have a large microvillar secretory pore at the tip of the ventral parapodia (neuropodia).
 MNspinning cells form reciprocal connections with pseudounipolar INsplit mechanosensory interneurons (Figure 12I).
 Segment 2 also contains the large contra- and ipsilaterally projecting MNbow motoneurons and four types of unique interneurons (Figure 12G, H).
 
@@ -434,7 +472,8 @@ Ranking trunk and pygidial cell types by various network centrality measures oft
 The whole-body connectome allowed us to systematically investigate the occurrence of serially repeated cell types or cell-type families in the annelid body.
 
 Each larval segment has a distinct neuron-type composition with some unique cell types (Figure 12).
-At the same time, several neuron types occur in all chaetigerous segments. These include the chaeMech sensory neurons (Figure 15A), the INsplitPB (Figure 16B) and INbackcross interneurons and the MNche and MNhose motoneurons (not shown).
+At the same time, several neuron types occur in all chaetigerous segments.
+These include the chaeMech sensory neurons (Figure 15A), the INsplitPB (Figure 16B) and INbackcross interneurons and the MNche and MNhose motoneurons (not shown).
 
 Four cell-type families (CR, PU, PB, INsplit) and two muscle types (MUSlongV, MUStrans) occur across five or six body regions (head, segments 0-3 and pygidium)(Figure 13).
 This pattern may indicate serial homology, suggesting a metameric evolutionary origin for the trunk segments, the pygidium and the head.
@@ -443,7 +482,6 @@ This pattern may indicate serial homology, suggesting a metameric evolutionary o
 #| echo: false
 knitr::include_graphics("Figures/Figure13.png")
 ```
-
 
 ### The mechanosensory girdle
 
@@ -486,13 +524,16 @@ In *Harmothoë* and *Nereis*, the bristle receptors connect to the giant axon sy
 In *Platynereis*, chaeMech neurons are highly interconnected.
 They project into the VNC where inputs and output are mixed on the chaeMech axons (Figure 15B).
 
-The direct postsynaptic partners of chaeMech cells include the premotor interneurons INsplitCR, INsplitBronto, INchaeMech and the MNring and MNspinning motoneurons (Figure 15E, F). The innervation of MNspinning by chaeMech (and also indirectly by PB mechanosensory neurons; Figure 12I) suggests that parapodial mechanosensation may regulate glandular secretion of the spinGlands.
+The direct postsynaptic partners of chaeMech cells include the premotor interneurons INsplitCR, INsplitBronto, INchaeMech and the MNring and MNspinning motoneurons (Figure 15E, F).
+The innervation of MNspinning by chaeMech (and also indirectly by PB mechanosensory neurons; Figure 12I) suggests that parapodial mechanosensation may regulate glandular secretion of the spinGlands.
 
 Among the direct targets of chaeMech neurons, the INsplitCR interneurons receive the largest number of chaeMech synapses (Figure 15E).
-These neurons are also postsynaptic to the collar receptors (CR) that mediate a hydrodynamic startle response characterised by parapodial elevation and the extension of the chaetae [@bezares-calderon2018]. At the same time chaeMech do not or only weakly synapse on INrope and INCM neurons, which are one of the main targets of CRs and INchaeMech neurons lack synaptic inputs from CRs. This shows that the postsynaptic circuits of CRs and chaeMechs are only partially overlapping.
-The shared innervation of INsplitCR by CRs and chaeMechs suggests that there may be proprioceptive inhibitory feedback during the startle response provided by chaeMechs through the INsplitCR cells. 
+These neurons are also postsynaptic to the collar receptors (CR) that mediate a hydrodynamic startle response characterised by parapodial elevation and the extension of the chaetae [@bezares-calderon2018].
+At the same time chaeMech do not or only weakly synapse on INrope and INCM neurons, which are one of the main targets of CRs and INchaeMech neurons lack synaptic inputs from CRs.
+This shows that the postsynaptic circuits of CRs and chaeMechs are only partially overlapping.
+The shared innervation of INsplitCR by CRs and chaeMechs suggests that there may be proprioceptive inhibitory feedback during the startle response provided by chaeMechs through the INsplitCR cells.
 
-```{r, out.width = "100%", fig.cap="**Figure 15. Chaetal mechanosensors and their circuits.** (A) Morphological rendering of chaeMech neurons, ventral view. (B) Outgoing (red) and incoming (cyan) synapses of chaeMech neurons, ventral view. The soma of the chaeMech cells is shown in grey. (C) Lateral view of chaeMech  neurons. (D) TEM image of the sensory dendrites of chaeMech neurons (yellow highlight) surrounding the chaetae (red highlight). (E) Grouped synaptic connectivity matrix of chaeMech, CR and SNbronto neurons and their downstream targets. (F) Same connectivity information as in (E) represented as a network. In (A-C) the yolk outline, stomodeum and the mechanosensory girdle neuropil are shown in grey for reference. In (A, C) the aciculae and chaetae are also shown. <br> Figure 15—source data 1. Connectivity matrix for the network in panels E, F. "}
+```{r, out.width = "100%", fig.cap="**Figure 15. Chaetal mechanosensors and their circuits.** (A) Morphological rendering of chaeMech neurons, ventral view. (B) Presynaptic (red) and postsynaptic (cyan) sites of chaeMech neurons, ventral view. The soma of the chaeMech cells is shown in grey. (C) Lateral view of chaeMech  neurons. (D) TEM image of the sensory dendrites of chaeMech neurons (yellow highlight) surrounding the chaetae (red highlight). (E) Grouped synaptic connectivity matrix of chaeMech, CR and SNbronto neurons and their downstream targets. (F) Same connectivity information as in (E) represented as a network. In (A-C) the yolk outline, stomodeum and the mechanosensory girdle neuropil are shown in grey for reference. In (A, C) the aciculae and chaetae are also shown. <br> Figure 15—source data 1. Connectivity matrix for the network in panels E, F. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure15.png")
 ```
@@ -510,53 +551,91 @@ Some head PU neurons synapse on INsplitPUh (Figure 16D).
 
 Among trunk neuron types, INsplitCR and INsplitPB cells are highly ranked based on the number of pre- and postsynaptic partners, suggesting an integrating function (Figure 12---figure supplement 2).
 
-INsplit neurons are premotor neurons, with connections to several trunk motoneuron types that in turn innervate glands, ciliated cells, muscles and pigment cells (Figure 16I, Figure 16---figure supplement 1). Mechanosensory neurons thus provide input to all effector systems in the body.
+INsplit neurons are premotor neurons, with connections to several trunk motoneuron types that in turn innervate glands, ciliated cells, muscles and pigment cells (Figure 16I, Figure 16---figure supplement 1).
+Mechanosensory neurons thus provide input to all effector systems in the body.
 
 ```{r, out.width = "100%", fig.cap="**Figure 16. Parallel systems of mechanosensory neurons and their INsplit targets. ** (A) Morphological rendering of all collar receptor (CR) neurons and their INsplitCR targets. (B) All penetrating biciliated (PB) neurons and their INsplitPB targets. (C) SNbronto neurons and their INsplitBronto targets. (D) Head penetrating uniciliated (hPU) neurons and their INsplitPUh targets. (E) Interparapodial penetrating multiciliary (inerparaPM) neurons and their INsplitPB targets. (F) SNblunt neurons and their INsplitPUh and INsplitVent targets. (G) INsplitCR and INsplitPB neurons. (H) Example morphologies of pseudounipolar INsplit neurons. Spheres represent the position of cell somas. (I) Grouped connectivity diagram of the six mechanosensory cell classes, their direct INsplit targets and downstream motoneurons and effectors. Only connections with >5 synapses are shown. In (A-G) the stomodeum, the aciculae and the yolk outline are shown for reference. <br> Figure 16—source data 1. Connectivity matrix for the network in panel I. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure16.png")
 ```
 
-
 # Discussion
 
-### A whole-body resource for _Platynereis_
+### A whole-body resource for *Platynereis*
 
-Here we described a whole-body connectome for the segmented three-day-old larva of the marine annelid _Platynereis dumerilii_.
-_Platynereis_ is the third species for which such a whole-body resource is available, after _C. elegans_ and _C. intestinalis_  [@white1986structure; @cook2019whole; @ryan2016cns]. 
-The power of such whole-body approaches lies in their comprehensive nature encompassing not only the nervous system but also all effectors and other cells. Overall, we identified, annotated and spatially mapped 294 cell types and a total of `r num_soma` cells.
+Here we described a whole-body connectome for the segmented three-day-old larva of the marine annelid *Platynereis dumerilii*.
+*Platynereis* is the third species for which such a whole-body resource is available, after *C. elegans* and *C. intestinalis* [@white1986structure; @cook2019whole; @ryan2016cns].
+The power of such whole-body approaches lies in their comprehensive nature encompassing not only the nervous system but also all effectors and other cells.
+Overall, we identified, annotated and spatially mapped 294 cell types and a total of `r num_soma` cells.
 
-_Platynereis_ is distinguished from the nematode and tunicate larval connectomes by the complexity of its nervous and effector systems. The nervous system contains an order of magnitude more neurons. The effector system is multi-modal, and includes muscles, locomotor multiciliated cells, glands and pigment cells. The musculature is composed of 53 distinct muscle cell-types, is segmental, and extends to the parapodia that are supported by a chitin-based endoskeleton (aciculae) [@jasek2022].
+*Platynereis* is distinguished from the nematode and tunicate larval connectomes by the complexity of its nervous and effector systems.
+The nervous system contains an order of magnitude more neurons.
+The effector system is multi-modal, and includes muscles, locomotor multiciliated cells, glands and pigment cells.
+The musculature is composed of 53 distinct muscle cell-types, is segmental, and extends to the parapodia that are supported by a chitin-based endoskeleton (aciculae) [@jasek2022].
 
 ### Organisation of the connectome
 
-The overall organisation of the nervous system is feed-forward, with information flow from a large diversity of sensors through interneurons to effectors. Most sensory-motor connections are relatively shallow, including direct sensory-motor neurons. However, we identified many areas of recurrent connectivity suggesting internal processing beyond sensory-motor arcs. One example is the ciliomotor system that is driven by a rhythmic pacemaker circuit [@veraszto2017]. The endogenous activity generated by this circuit is modified by sensory inputs such as hydrostatic pressure or UV light [@Bezares2023barotaxis; @jokura2023nitric].
+The overall organisation of the nervous system is feed-forward, with information flow from a large diversity of sensors through interneurons to effectors.
+Most sensory-motor connections are relatively shallow, including direct sensory-motor neurons.
+However, we identified many areas of recurrent connectivity suggesting internal processing beyond sensory-motor arcs.
+One example is the ciliomotor system that is driven by a rhythmic pacemaker circuit [@veraszto2017].
+The endogenous activity generated by this circuit is modified by sensory inputs such as hydrostatic pressure or UV light [@Bezares2023barotaxis; @jokura2023nitric].
 
-We also identified several potential sites of multisensory integration suggesting extensive cross-talk between distinct channels of sensory processing. One experimentally characterised example is a cross-talk between phototaxis and UV avoidance [@veraszto2018]. We have now found that the eyespot R1 and adult eye photoreceptors converge on the INR interneurons (Figure 7G, H). This suggests a further layer of integration of light-sensory pathways.
+We also identified several potential sites of multisensory integration suggesting extensive cross-talk between distinct channels of sensory processing.
+One experimentally characterised example is a cross-talk between phototaxis and UV avoidance [@veraszto2018].
+We have now found that the eyespot R1 and adult eye photoreceptors converge on the INR interneurons (Figure 7G, H).
+This suggests a further layer of integration of light-sensory pathways.
 The connectome now enables the systematic identification of similar circuit motifs for sensory cross-talk with predictive value.
 
-The connectome also shows a modular organisation and can be subdivided into functionally distinct sub-networks. These sub-networks are strongly connected within themselves, but there are also extensive connections between the modules. Such inter-module connections may establish a hierarchy of behaviours e.g. by cross-inhibition.
+The connectome also shows a modular organisation and can be subdivided into functionally distinct sub-networks.
+These sub-networks are strongly connected within themselves, but there are also extensive connections between the modules.
+Such inter-module connections may establish a hierarchy of behaviours e.g. by cross-inhibition.
 
-The mushroom bodies also show a parallel feed-forward organisation with minimal feedback. This could be due to the developmental snapshot we acquired for the three-day-old stage. Mushroom bodies grow in size and form a morphologically clearly recognisable region only in later-stage larvae and juveniles [@tomer2010profiling]. This growth is likely accompanied by circuit maturation. However, we think that the mushroom body cell types and circuits we reconstructed already show a functional circuit architecture. The MB cell types and their connections show left-right stereotypy and specificity of connectivity. It may be that annelid mushroom bodies can support associative learning by this multilayer perceptron-like organisation. In the cephalopods _Sepia officinalis_ and _Octopus vulgaris_, similar feedforward information flow characterises the vertical lobe, a learning centre  [@shomrat2011alternative]. The circuitry here has a simple fan-out fan-in architecture that in _Octopus vulgaris_ shows further interconnections between the parallel feedforward networks [@bidel2023connectomics]. In _Platynereis_, we only identified very weak connections between the parallel networks, at the level of the MB projection neurons.
+The mushroom bodies also show a parallel feed-forward organisation with minimal feedback.
+This could be due to the developmental snapshot we acquired for the three-day-old stage.
+Mushroom bodies grow in size and form a morphologically clearly recognisable region only in later-stage larvae and juveniles [@tomer2010profiling].
+This growth is likely accompanied by circuit maturation.
+However, we think that the mushroom body cell types and circuits we reconstructed already show a functional circuit architecture.
+The MB cell types and their connections show left-right stereotypy and specificity of connectivity.
+It may be that annelid mushroom bodies can support associative learning by this multilayer perceptron-like organisation.
+In the cephalopods *Sepia officinalis* and *Octopus vulgaris*, similar feedforward information flow characterises the vertical lobe, a learning centre [@shomrat2011alternative].
+The circuitry here has a simple fan-out fan-in architecture that in *Octopus vulgaris* shows further interconnections between the parallel feedforward networks [@bidel2023connectomics].
+In *Platynereis*, we only identified very weak connections between the parallel networks, at the level of the MB projection neurons.
 
 ### Functional predictions
 
 The connectome also enables the generation of specific circuit-level hypotheses about neuronal control and integration in the *Platynereis* larva.
 
-The analysis of the mechanosensory systems, for example, led to several new functional predictions. The convergence of mechanosensory pathways to the MNspinning motoneurons of the exocrine spinGlands indicates that glandular secretion is regulated by mechanosensory inputs to the parapodia. These circuits could regulate tube secretion by the benthic juvenile worms. 
+The analysis of the mechanosensory systems, for example, led to several new functional predictions.
+The convergence of mechanosensory pathways to the MNspinning motoneurons of the exocrine spinGlands indicates that glandular secretion is regulated by mechanosensory inputs to the parapodia.
+These circuits could regulate tube secretion by the benthic juvenile worms.
 
-We also identified a potential site of mechanosensory feedback that may regulate the startle response. During a vibration-induced startle, the parapodia and their chaetae are extended, potentially activating the chaeMech chaetal mechanoreceptors. The chaeMech neurons synapse on the INsplitCR cells that are also a main target of the vibration-sensing CR neurons. An inhibitory signal from chaeMech to INsplitCR could lead to the controlled cessation of a startle.
+We also identified a potential site of mechanosensory feedback that may regulate the startle response.
+During a vibration-induced startle, the parapodia and their chaetae are extended, potentially activating the chaeMech chaetal mechanoreceptors.
+The chaeMech neurons synapse on the INsplitCR cells that are also a main target of the vibration-sensing CR neurons.
+An inhibitory signal from chaeMech to INsplitCR could lead to the controlled cessation of a startle.
 
-By comprehensive tracing and cell annotation, we also identified a unique class of pigment-motor neurons (MC3cover, cioMNcover, pygPBunp). The direct synaptic innervation of pigment cells suggests that pigmentation may be under neuronal control in _Platynereis_ larvae. We do not know how neuronal inputs may influence pigment cells. One possibility is that synaptic signals induce the movement or bleaching of the pigment vacuoles. In the cover cells, we occasionally observed the rapid disappearance of the pigment granules. The fact that at least one of the pigment-motor cells (pygPBunp) is also directly mechanosensory [@bezares-calderon2018] suggests that mechanical cues may alter pigmentation.
+By comprehensive tracing and cell annotation, we also identified a unique class of pigment-motor neurons (MC3cover, cioMNcover, pygPBunp).
+The direct synaptic innervation of pigment cells suggests that pigmentation may be under neuronal control in *Platynereis* larvae.
+We do not know how neuronal inputs may influence pigment cells.
+One possibility is that synaptic signals induce the movement or bleaching of the pigment vacuoles.
+In the cover cells, we occasionally observed the rapid disappearance of the pigment granules.
+The fact that at least one of the pigment-motor cells (pygPBunp) is also directly mechanosensory [@bezares-calderon2018] suggests that mechanical cues may alter pigmentation.
 
-Network analysis also identified various hub neurons of potential functional importance. For example, in the brain, INRGWa and INW interneurons integrate a large number of inputs. Likewise, in the trunk mechanosensory system, INsplitCR and INsplitPB neurons receive many distinct inputs. Multi-pathway convergence can occur both at the level of interneurons and on motoneurons (e.g. MNant, vMN, MNspinning).
+Network analysis also identified various hub neurons of potential functional importance.
+For example, in the brain, INRGWa and INW interneurons integrate a large number of inputs.
+Likewise, in the trunk mechanosensory system, INsplitCR and INsplitPB neurons receive many distinct inputs.
+Multi-pathway convergence can occur both at the level of interneurons and on motoneurons (e.g. MNant, vMN, MNspinning).
 
 ### Circuits for whole-body coordination
 
-The *Platynereis* whole-body connectome resource highlights the value of having access to comprehensive circuit and cell-type information. In the _Platynereis_ larva, almost every functional module spans several body regions and often the entire body.
+The *Platynereis* whole-body connectome resource highlights the value of having access to comprehensive circuit and cell-type information.
+In the *Platynereis* larva, almost every functional module spans several body regions and often the entire body.
 
-The coordinated closure and beating of cilia along the body segments is ensured by giant ciliomotor neurons that innervate target cells in multiple segments [@veraszto2017]. The secretion of spinGlands across segments is likely also coordinated since the two MNspinning neurons innervate the four spinning glands in segments 2 and 3.
-Among the muscle motoneurons, the vMNs MN1 and MN2 innervate ventral and dorsal longitudinal muscles (MUSlong) in each segment. MNspider cells synapse on contralateral muscles in two consecutive segments and the muscle targets of MNcrab and MNbow neurons span three segments [@bezares-calderon2018].
+The coordinated closure and beating of cilia along the body segments is ensured by giant ciliomotor neurons that innervate target cells in multiple segments [@veraszto2017].
+The secretion of spinGlands across segments is likely also coordinated since the two MNspinning neurons innervate the four spinning glands in segments 2 and 3.
+Among the muscle motoneurons, the vMNs MN1 and MN2 innervate ventral and dorsal longitudinal muscles (MUSlong) in each segment.
+MNspider cells synapse on contralateral muscles in two consecutive segments and the muscle targets of MNcrab and MNbow neurons span three segments [@bezares-calderon2018].
 In the pigment-motor system, the cioMNcover cells each innervate half the ring of the cover cells and pygPBunp innervates the entire ring, also suggesting coordinated regulation.
 
 Intersegmental coordination is also apparent at the level of sensory and interneurons.
@@ -564,58 +643,72 @@ For example, individual chaeMech cells can synapse on interneurons in three segm
 INrope and INchaeMech interneurons target motoneurons across three segments, INsplitCRATO, INsplitBronto and INsplitVent in two segments.
 The globally reaching INsplitPBant cells have postsynaptic partners in all four segments and the pygidium.
 
-These examples demonstrate the importance of a whole-body approach in connectomics to understanding circuit function and behaviour. Partial connectomes could not deliver satisfactory circuit explanations for any of these systems We do not expect this to be different for other animals.
-
+These examples demonstrate the importance of a whole-body approach in connectomics to understanding circuit function and behaviour.
+Partial connectomes could not deliver satisfactory circuit explanations for any of these systems We do not expect this to be different for other animals.
 
 ### Circuit evolution by duplication and divergence
 
-An exciting perspective in connectomics is to learn about circuit evolution by the analysis of comprehensive datasets that integrate anatomy and connectivity. 
-Our reconstructions identified a potential case for circuit evolution by duplication and divergence of synaptically connected cell types [@tosches2017developmental].
+An exciting perspective in connectomics is to learn about circuit evolution by the analysis of comprehensive datasets that integrate anatomy and connectivity.
+Our reconstructions identified a potential case for circuit evolution by duplication and divergence [@tosches2017developmental; @roberts2022evolution], a concept that originated from genetics [@ohno1970evolution].
 
-The mechanosensory girdle contains several morphologically similar mechanosensory neurons bearing penetrating cilia at the tip of their sensory dendrites (PB, CR, interparaPM, PU and pygPBunp). These cells likely represent evolutionarily related sister cell types [@arendt2008evolution]. Some of these neurons also show overlapping gene regulatory signatures --- supporting their classification as sister cell types --- as they all can be labelled by the same *PKD2-1* transgene (PB, CR and pygPBunp)[@bezares-calderon2018].
+The mechanosensory girdle contains several morphologically similar mechanosensory neurons bearing penetrating cilia at the tip of their sensory dendrites (PB, CR, interparaPM, PU and pygPBunp).
+These cells likely represent evolutionarily related sister cell types [@arendt2008evolution].
+Some of these neurons also show overlapping gene regulatory signatures --- supporting their classification as sister cell types --- as they all can be labelled by the same *PKD2-1* transgene (PB, CR and pygPBunp)[@bezares-calderon2018].
 
-These mechanosensory neurons synapse on distinct subsets of INsplit types. Based on their morphological similarity, INsplit cells are also likely related among themselves.
+These mechanosensory neurons synapse on distinct subsets of INsplit types.
+Based on their morphological similarity, INsplit cells are also likely related among themselves.
 
-This pattern suggests that these parallel systems may have evolved through the process of circuit duplication and divergence. According to this model, the diversification of mechanoreceptors may have been paralleled by the diversification of their postsynaptic INsplit neurons. This enabled sensory refinement in parallel with the evolution of matched downstream circuits and behaviours. 
+This pattern suggests that these parallel systems may have evolved through the process of circuit duplication and divergence.
+According to this model, the diversification of mechanoreceptors may have been paralleled by the diversification of their postsynaptic INsplit neurons.
+This enabled sensory refinement in parallel with the evolution of matched downstream circuits and behaviours.
 
 The duplication and divergence of cell-type sets also characterised the evolution of the vertebrate cerebellum [@kebschull2020cerebellar].
-Further support for this model in *Platynereis* could come from comprehensive gene expression analyses for the distinct mechanosensory and INsplit neurons.
+Duplication and divergence of circuits was also proposed as a possible mechanism for the evolution of brain pathways for vocal learning in song-learning birds, spoken language in humans [@chakraborty2015brain] and other circuits [@roberts2022evolution]. Further support for this model in *Platynereis* could come from comprehensive gene expression analyses for the distinct mechanosensory and INsplit neurons.
 
 ### Connectomics informs the evolution of the annelid segmental body plan
 
-Our dataset represents, to our knowledge, the first whole-body connectome of a segmented animal. These data also inform our understanding of the evolution of the annelid body segments and nervous system, both long-standing questions in evolution and development [@balfour1881treatise; @sedgwick1884origin; @nielsen2005larval; @steinmetz2011segmental; @starunov2015metameric; @nielsen2018evolution].  
+Our dataset represents, to our knowledge, the first whole-body connectome of a segmented animal.
+These data also inform our understanding of the evolution of the annelid body segments and nervous system, both long-standing questions in evolution and development [@balfour1881treatise; @sedgwick1884origin; @nielsen2005larval; @steinmetz2011segmental; @starunov2015metameric; @nielsen2018evolution].
 
 By mapping cell-type distributions across segments we found evidence for segmental homology overlain by a heteromeric pattern with segment-specific cell types.
 The serial homology of the cryptic segment (sg0) with the other three trunk segments (sg1-3) [@steinmetz2011segmental] is confirmed by neuron and muscle types shared between these four segments.
-In addition, the pygidium and the head may have metameric origin. The pygidium has a coelomic cavity and muscle cell types (MUSlong, MUStrans) shared with the other trunk segments [@starunov2015metameric; @jasek2022].
+In addition, the pygidium and the head may have metameric origin.
+The pygidium has a coelomic cavity and muscle cell types (MUSlong, MUStrans) shared with the other trunk segments [@starunov2015metameric; @jasek2022].
 The segmental origin of the annelid head is suggested by a Cambrian annelid fossil where the head is formed by a segment with parapodia and chaetae [@parry2015cambrian].
 
-The metameric origin of all six body regions receives additional support from our connectome reconstructions. We identified muscle cell types (MUSlongV, MUStrans), sensory neuron types (CR, PB, PU) and one family of interneurons (INsplit) shared by five or six of the body regions. One interpretation of this pattern is that the annelid body evolved from an organisation with six homomeric regions that subsequently diversified but retained a core set of homologous cells. Further tests of this model could come from future whole-body connectomes of other annelid species. 
+The metameric origin of all six body regions receives additional support from our connectome reconstructions.
+We identified muscle cell types (MUSlongV, MUStrans), sensory neuron types (CR, PB, PU) and one family of interneurons (INsplit) shared by five or six of the body regions.
+One interpretation of this pattern is that the annelid body evolved from an organisation with six homomeric regions that subsequently diversified but retained a core set of homologous cells.
+Further tests of this model could come from future whole-body connectomes of other annelid species.
 
 The identification of a mechanosensory girdle in *Platynereis* reminded us of another classic hypothesis about bilaterian body-plan evolution.
 
-In 1881, Francis Balfour put forward the hypothesis that the ancestral nervous system from which the nervous system of arthropods, molluscs and other invertebrates derived was "a circumoral ring, like that of Medusae, with which radially-arranged sense-organs may have been connected". He posits a transition scenario in which a "circumoral nerve-ring, if longitudinally extended, might give rise to a pair of nerve-cords united in front and behind" [@balfour1881treatise].
+In 1881, Francis Balfour put forward the hypothesis that the ancestral nervous system from which the nervous system of arthropods, molluscs and other invertebrates derived was "a circumoral ring, like that of Medusae, with which radially-arranged sense-organs may have been connected".
+He posits a transition scenario in which a "circumoral nerve-ring, if longitudinally extended, might give rise to a pair of nerve-cords united in front and behind" [@balfour1881treatise].
 
-In 1884, Sedgwick further developed this model and derived the bilaterian mouth and anus through the fusion of the lateral lips of the gastric slit of a radially symmetric animal [@sedgwick1884origin]. Metameric segmentation in this model evolved from the mesenteries and somites from gut pouches of a radial ancestor.
+In 1884, Sedgwick further developed this model and derived the bilaterian mouth and anus through the fusion of the lateral lips of the gastric slit of a radially symmetric animal [@sedgwick1884origin].
+Metameric segmentation in this model evolved from the mesenteries and somites from gut pouches of a radial ancestor.
 For a thorough modern treatment of this Balfour-Sedgwick model --- also referred to as the amphistomy theory --- see [@nielsen2018evolution].
 
-Our connectome reconstructions in the *Platynereis* larva are compatible with the Balfour-Sedgwick theory. The mechanosensory girdle looping around all six homologous body segments can be interpreted as a derivative of a circumoral nerve ring looping around homomeric body regions. The girdle could correspond to radially-arranged mechanosensory organs around the cnidarian oral opening (e.g. [@singla1975statocysts]) (Figure 17). Alternative transition scenarios, such as the evolution of a new opening at the aboral pole of a radial ancestor and de-novo evolution of a mechanosensory, circumoral nerve ring seem less plausible. 
-
+Our connectome reconstructions in the *Platynereis* larva are compatible with the Balfour-Sedgwick theory.
+The mechanosensory girdle looping around all six homologous body segments can be interpreted as a derivative of a circumoral nerve ring looping around homomeric body regions.
+The girdle could correspond to radially-arranged mechanosensory organs around the cnidarian oral opening (e.g. [@singla1975statocysts]) (Figure 17).
+Alternative transition scenarios, such as the evolution of a new opening at the aboral pole of a radial ancestor and de-novo evolution of a mechanosensory, circumoral nerve ring seem less plausible.
 
 ```{r, out.width = "100%", fig.cap="**Figure 17. Origin of the mechanosensory girdle by amphistomy?** Hypothetical homology of the circumoral nervous system in a radially symmetrical ancestor of bilaterians and the mechanosensory girdle. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure17.png")
 ```
 
-
-Testing this model would require detailed reconstructions of cnidarian circumoral nervous systems. We predict that there may be bifurcating interneurons in cnidarians that are postsynaptic to circumoral mechanosensors and project in two directions along the oral opening (similar to INsplit neurons).
+Testing this model would require detailed reconstructions of cnidarian circumoral nervous systems.
+We predict that there may be bifurcating interneurons in cnidarians that are postsynaptic to circumoral mechanosensors and project in two directions along the oral opening (similar to INsplit neurons).
 
 # Acknowledgments
 
-This research was funded by a Wellcome Trust Investigator Award 214337/Z/18/Z. 
-The research has also been supported by a grant from the Deutsche Forschungsgemeinschaft (JE 777/3---1).
-This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 101020792). We thank Nobuo Ueda, Nadine Randel, James David Beard, and Sara Mendes for contributing to tracing and Konrad Heinz for helping to implement an R workflow with the Natverse package. We thank Tom Kazimiers for support with the realignment of the stack.
-
+This research was funded by a Wellcome Trust Investigator Award 214337/Z/18/Z. The research has also been supported by a grant from the Deutsche Forschungsgemeinschaft (JE 777/3---1).
+This project has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No 101020792).
+We thank Nobuo Ueda, Nadine Randel, James David Beard, and Sara Mendes for contributing to tracing and Konrad Heinz for helping to implement an R workflow with the Natverse package.
+We thank Tom Kazimiers for support with the realignment of the stack.
 
 # Materials and Methods
 
@@ -623,7 +716,9 @@ This project has received funding from the European Research Council (ERC) under
 
 The EM image stack with all traces and annotations are available at <https://catmaid.jekelylab.ex.ac.uk> and can be queried in CATMAID or via the CATMAID application programming interface (API) with the catmaid/natverse packages [@bates2020natverse].
 The dataset includes all EM images (in jpg format), skeletons, meshes, node tags, connectors (both synapses and desmosomes) and annotations.
-We also provide all the R scripts we used for data retrieval and the generation of the figures [@jekely_2024_10825371]. All plots, diagrams (including anatomical renderings), figure layouts should be fully reproducible by using the R scripts provided. Scripts were mostly organised by figure, except some generalist scripts e.g. to load libraries, CATMAID access data and general functions ('Natverse_functions_and_conn.R').
+We also provide all the R scripts we used for data retrieval and the generation of the figures [@jekely_2024_10825371].
+All plots, diagrams (including anatomical renderings), figure layouts should be fully reproducible by using the R scripts provided.
+Scripts were mostly organised by figure, except some generalist scripts e.g. to load libraries, CATMAID access data and general functions ('Natverse_functions_and_conn.R').
 
 **Specimen preparation, transmission electron microscopy and image processing**
 
@@ -638,7 +733,8 @@ We used the collaborative annotation toolkit CATMAID for tracing, annotation and
 
 Due to contrast and focus problems in the main dataset we had to re-image certain layers at higher resolutions, to allow tracing of neurons.
 These re-imaged series were made into independent CATMAID projects.
-This included five extra projects, taken at various points throughout the main dataset. All layers including the information on lost layers, immunogold labelling and re-imaging are listed in Supplementary Table 2.
+This included five extra projects, taken at various points throughout the main dataset.
+All layers including the information on lost layers, immunogold labelling and re-imaging are listed in Supplementary Table 2.
 The largest of these, Plexus_HT-4_Naomi_project\_\_372-4013, consisted of 1407 layers at resolution of 2.2 nm.
 This stack mostly focused on the brain plexus and the ventral nerve cord where most neurites and synapses occur.
 Other projects consisted of three jump/gap regions that required not only high resolution but also better realignment.
@@ -648,12 +744,22 @@ All projects were first created and processed in TrakEM2 and then exported as fl
 
 **Image-stack realignment and transformation of spatial data in CATMAID**
 
-To improve the traceability of the vEM stack in all areas, we realigned the raw TEM images to improve the previously reported alignment of the volume [@Randel2015]. 
-First, we opened the original project with the TrakEM2 plugin for FIJI (ImageJ) (version 2.0.0-rc-15/1.49k / Java 1.6.0_24 (64-bit) – 2014). We set the region of interest (ROI) to width: 25792, height: 28800, x-shift: 20885, y-shift: 11928. All 4846 layers were then exported as flat TIFF images with a scale of 100%, 8-bit grayscale, no background color (0). A new blank TrakEM2 project was then created in FIJI and the exported TIFF images were imported using the project import function “import sequence as grid”. 
-The project was then aligned according to Albert Cardona’s 2016 alignment protocol (https://wikis.utexas.edu/display/khlab/TrakEM2+elastic+alignment?preview=/139168916/194807990/TEM Alignment in TrakEM2 (Cardona 2016).pdf) with some modifications. 
-The image filters were previously applied to the images, and therefore were not required. First, an ‘Affine’ alignment was applied using the following parameters: least squares (linear feature correspondences) mode, choosing entire layer range with first layer as reference, using visible images only and no propagation, initial Gaussian blur of 1.6 pixels, 3 steps per scale octave, minimum image size of 64 pixels and maximum of 2048 pixels, feature descriptor size of 8, feature descriptor orientation bins of 8, closest ratio of 0.92, with clear cache selected, feature extraction threads of 30, maximal alignment error of 100 pixels, minimal inlier ratio of 0.20, minimal number of inliers of 12, expected transformation as Affine, testing multiple hypotheses with tolerance of 5.00 pixels, testing maximal layer neighbour range of 5 layers, giving up after 5 failures, desired transformation as Affine, regularizing model, maximal iteration of 1000, maximal plateauwidth of 200, regularizer as Rigid, and lambda of 0.10.
-Next, two iterations of Elastic alignment were applied using the following parameters: block matching layer scale of 0.05, search radius of 200 pixels, block radius of 2000 pixels (increased to 2400 pixels during second iteration), resolution of 60, correlation filters with minimal PMCC r of 0.10, maximal curvature ratio of 1000, maximal second best r/best r of 0.90, using local smoothness filter, with approximate local transformation as Affine, local region sigma of 1000 pixels, absolute maximal local displacement of 10 pixels, relative maximal local displacement of 3.00, as pre-aligned layers, testing maximal of 4 layers, approximate transformation as Rigid, maximal iterations of 1000, maximal plateau width of 200, spring mesh stiffness of 0.01, maximal stretch of 2000 pixels, maximal iterations of 3000, maximal plateauwidth of 200, using legacy optimizer. After each alignment procedure the project was saved as an XML file with a different name. Finally, images were exported for CATMAID using TrakEM2 in FIJI (version 2.0.0-rc-69/1.52p / Java 1.8.0_172 (64-bit) – 2019).
-After the realignment, the transformation of all traced neuron skeletons in CATMAID was necessary to match the newly applied image alignment transforms. To achieve this, we used  a logic script (Tom Kazimiers, Kazmos GmbH) that applied a realignment transformation process from the TrakEM2 xml project file to the CATMAID data. This script was added as a management command in CATMAID  (https://github.com/catmaid/CATMAID/blob/master/django/applications/catmaid/management/commands/catmaid_update_tracing_data_using_trakem2_xml.py). When applied, these transformation offsets were within ±1 pixel accuracy for all parented nodes. The code is available in the CATMAID GitHub repository, commit e25debb (https://github.com/catmaid/CATMAID/commit/e25debb).
+To improve the traceability of the vEM stack in all areas, we realigned the raw TEM images to improve the previously reported alignment of the volume [@Randel2015].
+First, we opened the original project with the TrakEM2 plugin for FIJI (ImageJ) (version 2.0.0-rc-15/1.49k / Java 1.6.0_24 (64-bit) – 2014).
+We set the region of interest (ROI) to width: 25792, height: 28800, x-shift: 20885, y-shift: 11928.
+All 4846 layers were then exported as flat TIFF images with a scale of 100%, 8-bit grayscale, no background color (0).
+A new blank TrakEM2 project was then created in FIJI and the exported TIFF images were imported using the project import function “import sequence as grid”.
+The project was then aligned according to Albert Cardona’s 2016 alignment protocol (https://wikis.utexas.edu/display/khlab/TrakEM2+elastic+alignment?preview=/139168916/194807990/TEM Alignment in TrakEM2 (Cardona 2016).pdf) with some modifications.
+The image filters were previously applied to the images, and therefore were not required.
+First, an ‘Affine’ alignment was applied using the following parameters: least squares (linear feature correspondences) mode, choosing entire layer range with first layer as reference, using visible images only and no propagation, initial Gaussian blur of 1.6 pixels, 3 steps per scale octave, minimum image size of 64 pixels and maximum of 2048 pixels, feature descriptor size of 8, feature descriptor orientation bins of 8, closest ratio of 0.92, with clear cache selected, feature extraction threads of 30, maximal alignment error of 100 pixels, minimal inlier ratio of 0.20, minimal number of inliers of 12, expected transformation as Affine, testing multiple hypotheses with tolerance of 5.00 pixels, testing maximal layer neighbour range of 5 layers, giving up after 5 failures, desired transformation as Affine, regularizing model, maximal iteration of 1000, maximal plateauwidth of 200, regularizer as Rigid, and lambda of 0.10.
+Next, two iterations of Elastic alignment were applied using the following parameters: block matching layer scale of 0.05, search radius of 200 pixels, block radius of 2000 pixels (increased to 2400 pixels during second iteration), resolution of 60, correlation filters with minimal PMCC r of 0.10, maximal curvature ratio of 1000, maximal second best r/best r of 0.90, using local smoothness filter, with approximate local transformation as Affine, local region sigma of 1000 pixels, absolute maximal local displacement of 10 pixels, relative maximal local displacement of 3.00, as pre-aligned layers, testing maximal of 4 layers, approximate transformation as Rigid, maximal iterations of 1000, maximal plateau width of 200, spring mesh stiffness of 0.01, maximal stretch of 2000 pixels, maximal iterations of 3000, maximal plateauwidth of 200, using legacy optimizer.
+After each alignment procedure the project was saved as an XML file with a different name.
+Finally, images were exported for CATMAID using TrakEM2 in FIJI (version 2.0.0-rc-69/1.52p / Java 1.8.0_172 (64-bit) – 2019).
+After the realignment, the transformation of all traced neuron skeletons in CATMAID was necessary to match the newly applied image alignment transforms.
+To achieve this, we used a logic script (Tom Kazimiers, Kazmos GmbH) that applied a realignment transformation process from the TrakEM2 xml project file to the CATMAID data.
+This script was added as a management command in CATMAID (https://github.com/catmaid/CATMAID/blob/master/django/applications/catmaid/management/commands/catmaid_update_tracing_data_using_trakem2_xml.py).
+When applied, these transformation offsets were within ±1 pixel accuracy for all parented nodes.
+The code is available in the CATMAID GitHub repository, commit e25debb (https://github.com/catmaid/CATMAID/commit/e25debb).
 
 **Neuron tracing, synapse annotation and reviewing**
 
@@ -661,13 +767,15 @@ To digitally reconstruct every neuron in the serial TEM dataset of the three-day
 
 The total construction time of all skeletons was over 2,970 hours with an additional 782 hours of review time.
 
-To mark the position of cell somas, we tagged the centre of each nucleus in the volume. At the approximate centre of each nucleus, we changed the radius of a single node according to the soma size in that layer. All skeletons were rooted on the soma and the node was tagged with 'soma'.
+To mark the position of cell somas, we tagged the centre of each nucleus in the volume.
+At the approximate centre of each nucleus, we changed the radius of a single node according to the soma size in that layer.
+All skeletons were rooted on the soma and the node was tagged with 'soma'.
 
 Ultrastructural features (number and orientation of microtubules, electron density of the cytoplasm and vesicles, ER structure) and a high resolution dataset of the neuropil and the ventral nerve cord aided tracing through low-quality layers and gaps.
 
 We identified synapses based on a vesicle cloud close to the plasma membrane.
 Most synapses were visible in consecutive layers (for example images see [@randel2014neuronal] and browse the data).
-We also checked for the proximity of mitochondria in the same arbour in case of ambiguous synapses --- a requirement supported by quantitative connectomic data in _Drosophila_ [@Schneider-Mizell2016].
+We also checked for the proximity of mitochondria in the same arbour in case of ambiguous synapses --- a requirement supported by quantitative connectomic data in *Drosophila* [@Schneider-Mizell2016].
 The systematic review of all neurons belonging to a cell type was done by one or multiple reviewers until close to 100% was reached for every cell.
 Cells were further checked in the 3D widget to split implausible skeletons.
 Synapses were reviewed multiple times, from both the pre- and postsynaptic arbour.
@@ -676,7 +784,8 @@ Synapses were reviewed multiple times, from both the pre- and postsynaptic arbou
 
 All cells have a unique name.
 We named neurons based on their type (e.g. sensory or motor; SN, MN) cell body position (left or right, head or trunk segment), axonal morphology, neuropeptide expression, and other specialisations (e.g. sensory morphology).
-Cells of the same type have similar names, distinguished by body position indicators and numbers. These indicators follow the general cell-type name separated by the first _ symbol in the name string.
+Cells of the same type have similar names, distinguished by body position indicators and numbers.
+These indicators follow the general cell-type name separated by the first \_ symbol in the name string.
 We endeavoured to give names that were easy to remember.
 The name of many sensory neurons start with SN followed by a specific term (e.g. blunt, bronto, stiff).
 Interneurons often start with IN and motoneurons with MN.
@@ -687,7 +796,7 @@ Non-neuronal cells were named based on anatomical terms (e.g. prototroch) or by 
 All cells have multiple annotations, which can be used to query the database in CATMAID or through the CATMAID API (e.g. in R b the catmaid package).
 Neurons belonging to a cell-type category were annotated with the generalist annotation 'celltype' and a cell-type-specific annotation (e.g. celltype23 for the INpreMN neurons).
 Non-neuronal cells belonging to a cell-type category were annotated with the generalist annotation 'celltype_non_neuronal' and a cell-type-specific annotation (e.g. celltype_non_neuronal23 for the acicula cells).
-Neurons were also annotated with descriptors of their projection morphologies (e.g. commissural, ipsilateral, pseudounipolar etc.), neuron class (Sensory neuron, sensory-motor neuron, sensory-neurosecretory neuron, interneuron, inter-motorneuron and motorneuron [note the 'r', which we kept for backward compatibility]).
+Neurons were also annotated with descriptors of their projection morphologies (e.g. commissural, ipsilateral, pseudounipolar etc.), neuron class (Sensory neuron, sensory-motor neuron, sensory-neurosecretory neuron, interneuron, inter-motorneuron and motorneuron \[note the 'r', which we kept for backward compatibility\]).
 In CATMAID, we recommend the use of regular expressions for searching annotations e.g. \^motorneuron\$ to retrieve exact matches.
 Differentiating neurons with immature sensory dendrites or axonal projections with axonal growth cones and with no or few synapses were annotated 'immature neuron' (402 cells).
 Ascending trunk neurons and descending head neurons traversing the circumesophageal connectives were annotated 'head-trunk'.
@@ -698,7 +807,10 @@ Cells were also annotated according to the location of their soma in a certain b
 
 When defining the connectome, we aimed at including differentiated cells and skeletons connected with at least three synapses to the main graph.
 We used the script 'connectome_from_CATMAID.R' to derive the final full connectome graph.
-First, we fetched all synaptic connectors and their pre- and postsynaptoc partners. Each single synapse was assigned a weight of one and edges connecting the same nodes in the same direction were summed. We then removed all vertices from the graph with <3 synapses. We checked for connected components and selected the largest subgraph.
+First, we fetched all synaptic connectors and their pre- and postsynaptoc partners.
+Each single synapse was assigned a weight of one and edges connecting the same nodes in the same direction were summed.
+We then removed all vertices from the graph with \<3 synapses.
+We checked for connected components and selected the largest subgraph.
 
 **Network layout**
 
@@ -713,16 +825,16 @@ Node positions from this Gephi layout were imported and further graph manipulati
 **Network analysis**
 
 We used CATMAID (several releases), Gephi 0.10.1 and R for network analysis.
-For graph analysis and visualisation, we used R and the iGraph, tidygraph, visNetwork and networkD3 packages
-[@csardi2006igraph; @allaire2017package; @almende2019package].
+For graph analysis and visualisation, we used R and the iGraph, tidygraph, visNetwork and networkD3 packages [@csardi2006igraph; @allaire2017package; @almende2019package].
 
 **Data analysis and plotting**
 
-For data analysis, we used R and Rstudio (various releases)[@RStudio]. For data handling and plotting we endeavoured to adhere to the practices and packages of the Tidyverse [@wickham2019welcome]. Data plotting was done with the ggplot2 package [@wickham2016package].
+For data analysis, we used R and Rstudio (various releases)[@RStudio].
+For data handling and plotting we endeavoured to adhere to the practices and packages of the Tidyverse [@wickham2019welcome].
+Data plotting was done with the ggplot2 package [@wickham2016package].
 See also the 'versionInfo.txt' and 'sessionInfo.txt' files in the repository for full package and version information.
 
 # Figure supplements
-
 
 ```{r, out.width = "100%", fig.cap="**Figure 1—figure supplement 1. Anatomy of the three-day-old *Platynereis dumerilii* larva.** (A) Scanning electron micrograph of a three-day-old larva, ventral view. (B) Light microscopy image of a three-day-old larva, ventral view. (C) Morphological rendering of ciliary bands, stomodeum, aciculae, chaetae and pygidial sensory neurons in the three-day-old larval volume. "}
 #| echo: false
@@ -743,7 +855,6 @@ knitr::include_graphics("Figures/Figure2_fig_suppl1.png")
 #| echo: false
 knitr::include_graphics("Figures/Figure2_fig_suppl2.png")
 ```
-
 
 ```{r, out.width = "100%", fig.cap="**Figure 2—figure supplement 3. Neuropils formed by connectome modules.** (A) Neuropils of the visual, anterior NS, MB and central brain and postural control modules. (B) VNC neurite tracks of the left and right mechanosensory, the postural control and the MB and central brain modules. "}
 #| echo: false
@@ -780,12 +891,12 @@ knitr::include_graphics("Figures/Figure3_fig_suppl5.png")
 knitr::include_graphics("Figures/Figure3_fig_suppl6.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 7. Radial density of incoming and outgoing synapses in head neurons. ** (A-T) Morphological renderings of selected head cell types with input and output synapses (left panels) and radial density plots of incoming and outgoing synapses (right panels). Synapse density was calculated from the root node (soma) and was averaged for different neurons of the same cell type. <br> Figure3—figure supplement 7—source data 1. Radial density data of incoming and outgoing synapses for all 202 cell types. "}
+```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 7. Radial density of presynaptic and postsynaptic sites in head neurons. ** (A-T) Morphological renderings of selected head cell types with input and output synapses (left panels) and radial density plots of presynaptic (blue) and postsynaptic (orange) sites (right panels). Synapse density was calculated from the root node (soma) and was averaged for different neurons of the same cell type. <br> Figure3—figure supplement 7—source data 1. Radial density data of incoming (postsynaptic) and outgoing (presynaptic) synapses for all 202 cell types. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure3_fig_suppl7.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 8. Radial density of incoming and outgoing synapses in trunk neurons. ** (A-T) Morphological renderings of selected trunk cell types with input and output synapses (left panels) and radial density plots of incoming and outgoing synapses (right panels). Synapse density was calculated from the root node (soma) and was averaged for different neurons of the same cell type. Source data are the same as for Figure3—figure supplement 7. "}
+```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 8. Radial density of presynaptic and postsynaptic sites  in trunk neurons. ** (A-T) Morphological renderings of selected trunk cell types with input and output synapses (left panels) and radial density plots of presynaptic (blue) and postsynaptic (orange) sites (right panels). Synapse density was calculated from the root node (soma) and was averaged for different neurons of the same cell type. Source data are the same as for Figure3—figure supplement 7. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure3_fig_suppl8.png")
 ```
@@ -805,7 +916,6 @@ knitr::include_graphics("Figures/Figure4_fig_suppl2.png")
 knitr::include_graphics("Figures/Figure4_fig_suppl3.png")
 ```
 
-
 ```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 4. Network properties of the *Platynereis*, *C. elegans* and *Ciona* connectomes in comparison to a random graph ** (A) Network graph of the full *Platynereis* connectome, coloured by Leiden modules. (B) Summary table of network statistics for the four connectome networks and mean values for 100 Erdős-Rényi random graphs with the same number of nodes and edges as the *Platynereis* cell-type graph. (C) The *Platynereis* grouped cell-type-level connectome coloured by Leiden modules. (D) The *C. elegans* connectome (excluding the pharynx network) coloured by Leiden module. (E) The *Ciona* larval connectome coloured by Leiden module. (F) An Erdős-Rényi random graph coloured by Leiden module. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure4_fig_suppl4.png")
@@ -820,7 +930,6 @@ knitr::include_graphics("Figures/Figure4_fig_suppl5.png")
 #| echo: false
 knitr::include_graphics("Figures/Figure4_fig_suppl6.png")
 ```
-
 
 ```{r, out.width = "100%", fig.cap="**Figure 5—figure supplement 1. Neurons with dense cored vesicles.** (A, B) Morphological rendering of neurons with dense cored vesicles, ventral (A) and anterior (B) views. "}
 #| echo: false
@@ -842,7 +951,6 @@ knitr::include_graphics("Figures/Figure6_fig_suppl1.png")
 knitr::include_graphics("Figures/Figure7_fig_suppl1.png")
 ```
 
-
 ```{r, out.width = "100%", fig.cap="**Figure 7—figure supplement 2. Metrics of head cell types.** (A) Number of postsynaptic cell-type partners of head neuronal cell types. (B) Number of presynaptic cell-type partners of head neuronal cell types. (C) Head cell-types ranked by weighted degree. (D) Head cell-types ranked by pagerank centrality. (E) Head cell-types ranked by betweenness centrality. (F) Head cell-types ranked by square root of authority centrality. Only the top 28 cell types are shown. Source data are the same as for Figure 4. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure7_fig_suppl2.png")
@@ -863,7 +971,7 @@ knitr::include_graphics("Figures/Figure9_fig_suppl1.png")
 knitr::include_graphics("Figures/Figure9_fig_Suppl2.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 10—figure supplement 1. Head descending and decussating neurons.** (A) Morphological rendering of the neurites of head desending (blue) and decussationg (yellow) neurons. (B) Names of head descending and decussationg cell types. (C) Incoming synapses on head descending and decussating neurons. (D) Outgoing synapses of head descending and decussating neurons. (E) Postsynaptic targets of head descending and decussating neurons. (F) Distribution of the neurites of head descending and decussating neurons in the VNC. Cross section at the position of the thin line in (E). (G) Neurites of the postsynaptic targets of head descending and decussating neurons in the VNC. Cross section at the position of the thin line in (E). (H-I) Incoming (red) and outgoing (blue) synapses of head decussating neurons in anterior (H) and ventral (I) view. (J) Mean radial density of incoming and outgoing synapses in head decussating neurons. (K-L) Incoming (red) and outgoing (blue) synapses of head descending neurons in anterior (K) and ventral (L) view. (M) Mean radial density of incoming and outgoing synapses in head descending neurons. <br> Figure 10—figure supplement 1—source data 1. Source data for panels (J, M). "}
+```{r, out.width = "100%", fig.cap="**Figure 10—figure supplement 1. Head descending and decussating neurons.** (A) Morphological rendering of the neurites of head desending (blue) and decussationg (yellow) neurons. (B) Names of head descending and decussationg cell types. (C) Postsynaptic sites of head descending and decussating neurons. (D) Presynaptic sites of head descending and decussating neurons. (E) Postsynaptic targets of head descending and decussating neurons. (F) Distribution of the neurites of head descending and decussating neurons in the VNC. Cross section at the position of the thin line in (E). (G) Neurites of the postsynaptic targets of head descending and decussating neurons in the VNC. Cross section at the position of the thin line in (E). (H-I) Postsynaptic (red) and presynaptic (blue) sites of head decussating neurons in anterior (H) and ventral (I) view. (J) Mean radial density of postsynapses and presynapses in head decussating neurons. (K-L) Postsynaptic (red) and presynaptic (blue) sites of head descending neurons in anterior (K) and ventral (L) view. (M) Mean radial density of postsynapses and presynapses in head descending neurons. <br> Figure 10—figure supplement 1—source data 1. Source data for panels (J, M). "}
 #| echo: false
 knitr::include_graphics("Figures/Figure10_fig_suppl1.png")
 ```
@@ -882,7 +990,6 @@ knitr::include_graphics("Figures/Figure10_fig_suppl3.png")
 #| echo: false
 knitr::include_graphics("Figures/Figure10_fig_suppl4.png")
 ```
-
 
 ```{r, out.width = "100%", fig.cap="**Figure 11—figure supplement 1. Connectivity matrix of cell categories across the six body regions. ** Source data are the same as for Figure 11 panel C"}
 #| echo: false
@@ -930,7 +1037,5 @@ Video 5.
 \
 
 # References
+
 \
-
-
-
