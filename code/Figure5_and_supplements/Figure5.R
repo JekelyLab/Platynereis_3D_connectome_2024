@@ -10,6 +10,46 @@ load_neuron <- function(annotation){
     function(x) smooth_neuron(x, sigma=6000))
 }
 
+#function to read the soma coordinates of one neuron in a neuronlist with the smallest X value soma position
+coords_soma <- function(neuronlist){
+unlist(as_tibble(soma(neuronlist)) %>%
+  arrange(X) %>% slice(1) %>% as.list()
+  )
+  }
+
+
+#function to add a text label to a neuron and a line to one of the neurons of the neuronlist starting from the soma
+add_label_with_line <- function(neuronlist, offsetx, offsety, offsetz, side, label){
+  cords_left = unlist(as_tibble(soma(neuronlist)) %>%
+  arrange(X) %>% slice(1) %>% as.list()
+  )
+  cords_right = unlist(as_tibble(soma(neuronlist)) %>%
+  arrange(desc(X)) %>% slice(1) %>% as.list()
+  )
+  
+  if (side == "left") {
+  cords <- cords_left
+  } else {
+  cords <- cords_right
+  }
+  
+  print(cords)
+  lines3d(c(cords[1], cords[1]-offsetx), 
+          c(cords[2], cords[2]-offsety), 
+          c(cords[3], cords[3]-offsetz), lwd=2)
+  adj_x <- if_else(offsetx < 0, 0, 1)
+  adj_y <- if_else(offsety < 0, 1, 0)
+  
+  if (missing(label)) {
+    label <- deparse(substitute(neuronlist))
+  }
+  texts3d(c(cords[1]-offsetx, cords[2]-offsety, 
+            cords[3]-offsetz), 
+          text = label, 
+          adj = c(adj_x, adj_y, 1),
+          cex = 1.7)
+}
+
 # load PDF neurons ---------------
 cMNPDF <- load_neuron("^celltype10$")
 SNnuch <- load_neuron("^celltype13$")
@@ -84,6 +124,8 @@ eyespotPRCR3 <- load_neuron("^celltype33$")
 Loop <- load_neuron("^celltype59$")
 MS1 <- load_neuron("^celltype35$")
 MS2_4 <- load_neuron("^celltype36$")
+MS2 <- load_neuron(1737105)
+MS4 <- load_neuron(64258)
 MS3 <- load_neuron("^celltype37$")
 MS5 <- load_neuron("^celltype38$")
 
@@ -93,7 +135,7 @@ plot_background_ventral_no_ac()
 plot3d(cMNPDF, soma = TRUE, lwd = 4, color = bluepurple[4])
 plot3d(SNnuch, soma = TRUE, lwd = 2, color = bluepurple[8])
 plot3d(INMBPDF, soma = TRUE, lwd = 3, color = bluepurple[6])
-plot3d(SNantler, soma = TRUE, lwd = 6, color = bluepurple[9])
+plot3d(SNantlerPDF, soma = TRUE, lwd = 6, color = bluepurple[9])
 plot3d(SNPDF_pyg, soma = TRUE, lwd = 4, color = bluepurple[4])
 plot3d(SNPDF_dc, soma = TRUE, lwd = 2, color = bluepurple[7])
 plot3d(SN_DLSO3_PDF, soma = TRUE, lwd = 6, color = bluepurple[3])
@@ -102,17 +144,19 @@ plot3d(cMNdc, soma = TRUE, lwd = 8, color = bluepurple[4])
 plot3d(INdescLuqinPDF, soma = TRUE, lwd = 5, color = bluepurple[5])
 plot3d(hPU2l_asymPDF, soma = TRUE, lwd = 3, color = bluepurple[9])
 
-texts3d(115000, 115000, 43000, text = "cMNPDF", cex = 2)
-texts3d(124000, 44000, 44000, text = "SNnuch", cex = 2)
-texts3d(20000, 74000, 37000, text = "INMBPDF", cex = 2)
-texts3d(105000, 70000, 2000, text = "SNantlerPDF", cex = 2)
-texts3d(55000, 138000, 155000, text = "SNPDF-pyg", cex = 2)
-texts3d(35000, 43000, 23000, text = "SNPDF-dc", cex = 2)
-texts3d(35000, 33000, 10000, text = "SN-DLSO3-PDF", cex = 2)
-texts3d(30000, 28000, 20000, text = "SNDLSO1.2-4", cex = 2)
-texts3d(74000, 4000, 43000, text = "cMNdc", cex = 2)
-texts3d(38000, 48000, 30000, text = "INdescLuqinPDF", cex = 2)
-texts3d(112000, 105000, 31000, text = "hPU2l-asymPDF", cex = 2)
+
+add_label_with_line(cMNPDF, -3000, -5000, -4000, "right")
+add_label_with_line(SNnuch, -6000, 5000, 4000, "right")
+add_label_with_line(INMBPDF, 6000, -12100, -10000, "left")
+add_label_with_line(SNantlerPDF, -17000, 5000, 5000, "right")
+add_label_with_line(SNPDF_pyg, -19000, 5000, 5000, "right", "SNPDF-pyg")
+add_label_with_line(SNPDF_dc, 16000, 8000, -100, "left", "SNPDF-dc")
+add_label_with_line(SN_DLSO3_PDF, 12000, 1000, 5000, "left", "SN-DLSO3-PDF")
+add_label_with_line(SN_DLSO1.2_4, 12000, -2000, -6000, "left", "SNDLSO1.2-4")
+add_label_with_line(cMNdc, -12000, 10000, 26000, "left")
+add_label_with_line(INdescLuqinPDF, 10000, 2000, -6000, "left")
+add_label_with_line(hPU2l_asymPDF, 19000, -26000, -15000, "left", "hPU2l-asymPDF")
+
 
 plot3d(scalebar_50um_ventral, lwd = 3, color = "black")
 par3d(zoom=0.53)
@@ -134,10 +178,12 @@ plot3d(MNspider_ant, soma = TRUE, lwd = 6, color = bluepurple[3])
 plot3d(INsplitCRATO, soma = TRUE, lwd = 3, color = bluepurple[6])
 plot3d(INpreLadderATO, soma = TRUE, lwd = 12, color = blues[5])
 
-texts3d(60000, 115000, 179000, text = "INATOpyg", cex = 2)
-texts3d(41000, 144000, 84000, text = "MNspider-ant", cex = 2)
-texts3d(27000, 134000, 117000, text = "INsplitCRATO", cex = 2)
-texts3d(115000, 130000, 107000, text = "INpreLadderATO", cex = 2)
+add_label_with_line(INATOpyg, 19000, 2000, -5000, "left")
+add_label_with_line(MNspider_ant, 19000, 2000, -5000, "left", "MNspider-ant")
+add_label_with_line(INsplitCRATO, 12000, 2000, -8000, "left")
+add_label_with_line(INpreLadderATO, -3000, -3000, -8000, "right")
+
+
 
 par3d(zoom=0.53)
 
@@ -149,7 +195,7 @@ close3d()
 # leuco plotting ----------
 plot_background_ventral_no_ac()
 plot3d(INleucoPU, soma = TRUE, lwd = 5, color = bluepurple[9])
-texts3d(55000, 130000, 51000, text = "INleucoPU", cex = 2)
+texts3d(55000, 130000, 51000, text = "INleucoPU", cex = 1.8)
 par3d(zoom=0.53)
 
 rgl.snapshot("pictures/Leuco_neurons_ventral.png")
@@ -162,10 +208,10 @@ plot3d(SNFVa_pyg, soma = TRUE, lwd = 6, color = bluepurple[3])
 plot3d(INcommascFV, soma = TRUE, lwd = 8, color = bluepurple[6])
 plot3d(INcommdescFVa, soma = TRUE, lwd = 12, color = blues[5])
 
-texts3d(60000, 115000, 173000, text = "INFVa-pyg", cex = 2)
-texts3d(32000, 144000, 140000, text = "SNFVa-pyg", cex = 2)
-texts3d(40000, 134000, 110000, text = "INcommascFV", cex = 2)
-texts3d(115000, 130000, 87000, text = "INcommdescFVa", cex = 2)
+add_label_with_line(INFVa_pyg, -3000, -8000, -8000, "right", "INFVa-pyg")
+add_label_with_line(SNFVa_pyg, 3000, -3000, -8000, "left", "SNFVa-pyg")
+add_label_with_line(INcommascFV, -20000, 33000, -8000, "right")
+add_label_with_line(INcommdescFVa, 20000, 43000, -8000, "left")
 
 par3d(zoom=0.53)
 
@@ -174,14 +220,13 @@ close3d()
 
 # cPRC-INRGW plotting ----------
 plot_background()
-
 plot3d(INRGW, soma = TRUE, lwd = 1, color = bluepurple[9])
 plot3d(INNOS, soma = TRUE, lwd = 4, color = bluepurple[4])
 plot3d(cPRC, soma = TRUE, lwd = 3, color = oranges[4])
 
-texts3d(100000, 36000, 4000, text = "cPRC", cex = 2)
-texts3d(50000, 54000, 10000, text = "INRGW", cex = 2)
-texts3d(71000, 32000, 2000, text = "INNOS", cex = 2)
+add_label_with_line(cPRC, -2000, 3000, -8000, "right")
+add_label_with_line(INRGW, 2000, -7000, -8000, "left")
+add_label_with_line(INNOS, 2000, 3000, -8000, "right")
 
 rgl.snapshot("pictures/cPRC_et_al.png")
 close3d()
@@ -189,15 +234,14 @@ close3d()
 # Achatin-FMRFa plotting ----------
 plot_background()
 plot3d(SN47Ach, soma = TRUE, lwd = 3, color =  oranges[5])
-
 plot3d(INMBdesc2, soma = TRUE, lwd = 5, color =  bluepurple[4])
 plot3d(INMBdescFMRF, soma = TRUE, lwd = 4, color =  bluepurple[9])
 plot3d(SN_IRP2_FMRF, soma = TRUE, lwd = 3, color =  bluepurple[7])
 
-texts3d(46000, 26000, 4000, text = "SN47Ach", cex = 2)
-texts3d(36000, 72000, 4000, text = "INMBdesc2", cex = 2)
-texts3d(39000, 56000, 4000, text = "INMBdescFMRF", cex = 2)
-texts3d(76000, 43000, 4000, text = "SN-IRP2-FMRF", cex = 2)
+add_label_with_line(SN47Ach, -2000, 3000, -8000, "right")
+add_label_with_line(INMBdesc2, -1, -14000, -8000, "left")
+add_label_with_line(INMBdescFMRF, -1, 13000, -8000, "left")
+add_label_with_line(SN_IRP2_FMRF, -1, 13000, -8000, "right", "SN-IRP2-FMRF")
 
 rgl.snapshot("pictures/SN47Ach.png")
 close3d()
@@ -208,9 +252,9 @@ plot3d(SNMIP, soma = TRUE, lwd = c(4,3), color =  oranges[5:6])
 plot3d(SNMIP1, soma = TRUE, lwd = c(2,3), color =  oranges[7:8])
 plot3d(SNMIP4, soma = TRUE, lwd = c(4,5), color =  oranges[4:5])
 
-texts3d(63000, 103000, 4000, text = "SNMIP-vc", cex = 2)
-texts3d(63000, 64000, 4000, text = "SNMIP1", cex = 2)
-texts3d(60000, 29000, 4000, text = "SNMIP4", cex = 2)
+add_label_with_line(SNMIP, -1000, 7000, -8000, "right", "SNMIP-vc")
+add_label_with_line(SNMIP1, -9000, 10000, -8000, "right")
+add_label_with_line(SNMIP4, 3000, 7000, -8000, "left")
 
 rgl.snapshot("pictures/MIP.png")
 close3d()
@@ -221,9 +265,10 @@ plot3d(Ser_h1, soma = TRUE, lwd = 3, color = "red")
 plot3d(Ser_tr1, soma = TRUE, lwd = 2, color = bluepurple[6])
 plot3d(pygPBunp, soma = TRUE, lwd = 5, color = bluepurple[8])
 
-texts3d(40000, 52000, 24000, text = "Ser-h1", cex = 2)
-texts3d(58000, 144000, 60000, text = "Ser-tr1", cex = 2)
-texts3d(77000, 115000, 177000, text = "pygPBunp", cex = 2)
+add_label_with_line(Ser_h1, -3000, 7000, 8000, "right", "Ser-h1")
+add_label_with_line(Ser_tr1, 38000, 7000, -18000, "left", "Ser-tr1")
+add_label_with_line(pygPBunp, 6000, 7000, 1000, "left")
+
 par3d(zoom=0.53)
 
 rgl.snapshot("pictures/Ser_neurons.png")
@@ -232,8 +277,6 @@ close3d()
 # plot cholinergic neurons ---------------------
 
 plot_background_ventral_no_ac()
-
-plot_ACh <- function(){
 plot3d(MC, soma = TRUE, lwd = 7, color = "black")
 plot3d(MN1, soma = TRUE, lwd = 6, color = bluepurple[4])
 plot3d(MN2, soma = TRUE, lwd = 5, color = bluepurple[5])
@@ -245,18 +288,17 @@ plot3d(MS3, soma = TRUE, lwd = 2, color = bluepurple[8])
 plot3d(MS5, soma = TRUE, lwd = 2, color = bluepurple[8])
 plot3d(eyespotPRCR3, soma = TRUE, lwd = 5, color = "red")
 
-texts3d(70000, 42000, 20000, text = "MC", cex = 2)
-texts3d(62000, 11000, 72000, text = "MS4", cex = 2)
-texts3d(50000, 22000, 76000, text = "MS5", cex = 2)
-texts3d(77000, 58000, 7000, text = "MS1", cex = 2)
-texts3d(70000, 72000, 10000, text = "MS2", cex = 2)
-texts3d(48000, 32000, 14000, text = "MS3", cex = 2)
-texts3d(58000, 138000, 60000, text = "Loop", cex = 2)
-texts3d(20000, 72000, 20000, text = "eyespotPRCR3", cex = 2)
-texts3d(68000, 104000, 20000, text = "vMN", cex = 2)
-}
+add_label_with_line(MC, -1, 8000, 11000, "left")
+add_label_with_line(MS2, 3000, 10, 7000, "left")
+add_label_with_line(MS4, 4000, 50, 1000, "left")
+add_label_with_line(MS5, 14000, 1000, 1000, "left")
+add_label_with_line(MS1, 30, 4000, 6000, "left")
+add_label_with_line(MN1, 26000, 1000, 6000, "left")
+add_label_with_line(MN2, 31000, 7000, 18000, "left")
+add_label_with_line(MN3, 33000, 10, 11000, "left")
+add_label_with_line(Loop, 33000, 1000, -11000, "left")
+add_label_with_line(eyespotPRCR3, 4000, -3000, -11000, "left", "PRCR3")
 
-plot_ACh()
 par3d(zoom=0.53)
 
 rgl.snapshot("pictures/ACh_neurons_ventral.png")
@@ -270,16 +312,16 @@ close3d()
 # plot glutamatergic -----------
 
 plot_background_ventral_no_ac()
-
 plot3d(PRC, soma = TRUE, lwd = 3, color = bluepurple[4])
 plot3d(hCR, soma = TRUE, lwd = 4, color = bluepurple[9])
 plot3d(ventralpygCR, soma = TRUE, lwd = 2, color = bluepurple[7])
 plot3d(doCRunp, soma = TRUE, lwd = 4, color = "red")
 
-texts3d(22000, 72000, 20000, text = "PRC", cex = 2)
-texts3d(30000, 72000, 1000, text = "hCR", cex = 2)
-texts3d(70000, 32000, 77000, text = "doCRunp", cex = 2)
-texts3d(40000, 138000, 65000, text = "trunkCR", cex = 2)
+add_label_with_line(PRC, 6300, 1000, 1000, "left")
+add_label_with_line(hCR, 6300, 1000, 1000, "left")
+add_label_with_line(doCRunp, 45000, -45000, 1000, "left")
+add_label_with_line(ventralpygCR, -1, -20000, 1000, "left", "trunkCR")
+
 par3d(zoom=0.53)
 rgl.snapshot("pictures/Glu_neurons.png")
 close3d()
@@ -311,8 +353,72 @@ syn_tb <- activate(syn_tb, nodes) %>%
     y = unlist(y_coord)
   )
 
+#move some nodes to fix label position
+syn_tb %>%
+  filter(name == "pygidial-pigment-cell") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "paratroch") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "CB-pigment") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "parapodPU") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "prototroch") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "metatroch") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "SN-NS16") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "SN-NS27") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "doCRunp") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "MUSac-neuDy") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "VentraltrunkPUunp") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "INdescLuqinPDF") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "INbiax") %>%
+  select(x,y)
+syn_tb %>%
+  filter(name == "INsplitSpin") %>%
+  select(x,y)
+
+syn_tb <- syn_tb %>%
+  activate(nodes) %>%
+  mutate(
+    y = if_else(name == "pygidial-pigment-cell", 0.37, y),
+    y = if_else(name == "paratroch", 0.526, y),
+    y = if_else(name == "CB-pigment", 0.46, y),
+    y = if_else(name == "parapodPU", 0.35, y),
+    y = if_else(name == "prototroch", 0.447, y),
+    y = if_else(name == "metatroch", 0.52, y),
+    y = if_else(name == "SN-NS16", 0.65, y),
+    y = if_else(name == "SN-NS27", 0.55, y),
+    x = if_else(name == "doCRunp", 0.52, x),
+    x = if_else(name == "INdescLuqinPDF", 0.5, x),
+    y = if_else(name == "MUSac-neuDy", 0.26, y),
+    y = if_else(name == "VentraltrunkPUunp", 0.476, y),
+    y = if_else(name == "INbiax", 0.386, y),
+    y = if_else(name == "INsplitSpin", 0.36, y)
+  )
+
 # graph visualisation -----------------------------------------------------
 
+{
 # convert to visNet form
 syn.vis <- syn_tb %>%
   toVisNetworkData()
@@ -322,6 +428,7 @@ syn.vis$edges$value <- sqrt(syn.vis$edges$synapses)
 
 #coordinates as matrix
 coords <- matrix(c(syn.vis$nodes$x, syn.vis$nodes$y), ncol = 2)
+
 
 PDF_neurons <- c(
   "cMNPDF-vcl1", "SNnuchPDF", "INMBPDF", "SNantlerPDF", 
@@ -453,14 +560,19 @@ visNet <- visNetwork(syn.vis$nodes, syn.vis$edges) %>%
     width = 3000, height = 1500) %>%
   addFontAwesome()
 
-visNet
-
 # save as html
 saveNetwork(visNet, "pictures/network_with_transmitters.html",
             selfcontained = TRUE
 )
+
+#save also as source data
+saveNetwork(visNet, "source_data/Figure5_source_data1.html",
+            selfcontained = TRUE
+)
+}
+
 # save from web browser
-webshot::webshot(
+webshot2::webshot(
   url = "pictures/network_with_transmitters.html",
   file = "pictures/network_with_transmitters.png",
   vwidth = 3000, vheight = 1500, # define the size of the browser window
