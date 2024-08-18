@@ -992,6 +992,7 @@ synapse_matrix = matrix(unlist(synapse_list), byrow=TRUE, nrow=N_cell_groups)
 rownames(synapse_matrix) <- cell_group_attr$cell_group_names
 colnames(synapse_matrix) <- cell_group_attr$cell_group_names
 synapse_matrix
+max(synapse_matrix)
 
 write.csv(as.data.frame(synapse_matrix), "source_data/Figure9_source_data2.txt")
 
@@ -1112,9 +1113,10 @@ Conn_graph.visn$nodes$level <- cell_group_attr$level
     visGroups(groupname = "MN", shape = "dot", 
               opacity=1, color="#cccccc")  %>%
     addFontAwesome() %>%
-    visLegend(addNodes = list(
-      list(label = "66 syn", shape = "icon", 
-           icon = list(code = "f2d1", size = 30, color = "#D55E00"))), 
+    visLegend(
+      #addNodes = list(
+      # list(label = "66 syn", shape = "icon", 
+      #     icon = list(code = "f2d1", size = 30, color = "#D55E00"))), 
       useGroups = TRUE,  width=0.1,ncol = 1,
       position='right', stepY=70)
   
@@ -1127,7 +1129,7 @@ saveNetwork(visNet, "pictures/visNetwork_MBproj_circuit.html", selfcontained = T
 webshot2::webshot(url="pictures/visNetwork_MBproj_circuit.html",
                   file="pictures/visNetwork_MBproj_circuit.png",
                   vwidth=1200, vheight=600, #define the size of the browser window
-                  cliprect = c(40,70,1000, 410), zoom=5, delay = 2)
+                  cliprect = c(40,70,950, 440), zoom=5, delay = 2)
 
 }
 
@@ -1571,11 +1573,17 @@ img_small3 <- readPNG("pictures/Figure_MBcentralINoutput_MBONoutput.png")
 img_small4 <- readPNG("pictures/Figure_MB_MNant.png")
 }
 
+
 #convert png to image panel
 {
 panelMBcelltypes <- ggdraw() + draw_image(img1b, scale = 1) + 
   draw_label("MB cell types and partners connectivity", x = 0.22, y = 0.98, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)  + 
+  draw_label("# of synapses", x = 0.89, y = 0.9, size = 8, hjust = 1) +
+  draw_label("6", x = 0.82, y = 0.85, size = 8, hjust = 1) + 
+  draw_label("29", x = 0.82, y = 0.8, size = 8, hjust = 1) +
+  draw_line(x = c(0.83, 0.88), y = c(0.85, 0.85), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.83, 0.88), y = c(0.8, 0.8), size = 1.2, color = 'grey')
 
 panelSNinputs <- ggdraw() + draw_image(img2b, scale = 1) + 
   draw_label("partners of SN inputs", x = 0.15, y = 0.98, fontfamily = "sans", fontface = "plain",
@@ -1595,7 +1603,13 @@ panelINMBproj_partners <- ggdraw() + draw_image(img5b, scale = 1) +
 
 graph_grouped  <- ggdraw() + draw_image(img_group, scale = 1) + 
   draw_label("MB neuron-category connectivity", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+             size = 11,lineheight = 0.9)  + 
+  draw_label("# of synapses", x = 0.99, y = 0.9, size = 8, hjust = 1) +
+  draw_label("4", x = 0.92, y = 0.8, size = 8, hjust = 1) + 
+  draw_label("69", x = 0.92, y = 0.72, size = 8, hjust = 1) +
+  draw_line(x = c(0.93, 0.98), y = c(0.8, 0.8), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.93, 0.98), y = c(0.72, 0.72), size = 1.2, color = 'grey')
+
 panel_small1  <- ggdraw() + draw_image(img_small1, scale = 1)
 panel_small2  <- ggdraw() + draw_image(img_small2, scale = 1)
 panel_small3  <- ggdraw() + draw_image(img_small3, scale = 1)
