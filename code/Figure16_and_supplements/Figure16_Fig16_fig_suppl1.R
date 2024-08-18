@@ -505,10 +505,20 @@ webshot2::webshot(url="pictures/visNetwork_mech_INsplit_circuit.html",
   panel_CR9 <- ggdraw() + draw_image(imgCR9, scale=1) +
     draw_label('INsplitCR', x=0.5, y=0.6, size = 9,
                color=Okabe_Ito[5])
-  
-  panelQ <- ggdraw() + draw_image(imgQ, scale=1)
-  
-  
+
+#check network max  
+network_temp <- read_csv("source_data/Figure16_source_data1.txt")
+network_temp %>%
+  select(-...1) %>%
+  max()
+
+  panelQ <- ggdraw() + draw_image(imgQ, scale=1) +
+    draw_label("# of synapses", x = 0.3, y = 0.94, size = 8, hjust = 1) +
+    draw_label("6", x = 0.24, y = 0.9, size = 8, hjust = 1) + 
+    draw_label("471", x = 0.24, y = 0.86, size = 8, hjust = 1) +
+    draw_line(x = c(0.25, 0.3), y = c(0.9, 0.9), size = 0.2, color = 'grey') +
+    draw_line(x = c(0.25, 0.3), y = c(0.86, 0.86), size = 1.6, color = 'grey')
+
   
 rm(imgCR, imgPB, imgM, imgN, imgO, imgP, imgPUh2,
    imgBronto1, imgVent2, imgPB1, imgCR9, imgQ)

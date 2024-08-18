@@ -356,13 +356,7 @@ Conn_graph.visn$nodes$level <- cell_group_attr$level
     ) %>%
     addFontAwesome() %>%
     visLegend(
-      addNodes = list(
-        list(
-          label = "148 synapses      ", shape = "icon",
-          icon = list(code = "f2d1", size = 80, color = "#E69F00")
-        )
-      ),
-      useGroups = TRUE, width = 0.08, ncol = 1,
+      useGroups = TRUE, width = 0.15, ncol = 1,
       position = "right", stepX = 50, stepY = 75, zoom = TRUE
     )
 
@@ -453,8 +447,22 @@ webshot2::webshot(
       x = 0.21, y = 0.18, fontfamily = "sans", fontface = "bold",
       color = "white", size = 11)
   panelE <- ggdraw() + draw_image(imgE, scale = 1)
-  panelF <- ggdraw() + draw_image(imgF, scale = 1)
+  
+#check network max  
+network_temp <- read_csv("source_data/Figure15_source_data1.txt")
+network_temp %>%
+  select(-...1) %>%
+  max()
+
+  panelF <- ggdraw() + draw_image(imgF, scale = 1) +
+  draw_label("# of synapses", x = 0.9, y = 0.82, size = 8, hjust = 1) +
+  draw_label("6", x = 0.84, y = 0.77, size = 8, hjust = 1) + 
+  draw_label("151", x = 0.84, y = 0.74, size = 8, hjust = 1) +
+  draw_line(x = c(0.85, 0.9), y = c(0.77, 0.77), size = 0.2, color = 'grey') +
+  draw_line(x = c(0.85, 0.9), y = c(0.74, 0.74), size = 1.6, color = 'grey')
+
 }
+
 
 {
 # define layout with textual representation

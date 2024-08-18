@@ -310,13 +310,6 @@ Conn_graph.visn$nodes$group <- list(
 
 Conn_graph.visn$nodes$color <- node_colors
 
-"INATOpyg", "MNspider-ant", 
-"INsplitCRATO", "INpreLadderATO", 
-"Ser-tr1", "INrope", 
-"muscle", "MNladder",
-"INleucoPU", "trochPU",
-"INsplitPB", "INtorii", "SNtorii",
-"MNwave", "MNcommUpL", "Troch"
 
 #hierarchical layout
 Conn_graph.visn$nodes$level <- c(
@@ -371,14 +364,31 @@ panel_PDF <- ggdraw() +
   draw_label(
     "circuit of PDF+ neurons", x = 0.3, y = 0.99, 
     color = "black", size = 11
-  )
+  ) +
+  draw_label("# of synapses", x = 1, y = 0.2, size = 8, hjust = 1) +
+  draw_label("4", x = 0.94, y = 0.17, size = 8, hjust = 1) + 
+  draw_label("44", x = 0.94, y = 0.14, size = 8, hjust = 1) +
+  draw_line(x = c(0.95, 1), y = c(0.17, 0.17), size = 0.2, color = 'grey') +
+  draw_line(x = c(0.95, 1), y = c(0.14, 0.14), size = 1.8, color = 'grey')
+
+
+network_temp <- read_csv("source_data/Figure5_fig_suppl2_source_data2.txt")
+network_temp %>%
+  select(-...1) %>%
+  max()
 
 panel_ATO <- ggdraw() + 
   draw_image(readPNG("pictures/visNetwork_ATO_Leuco.png")) + 
   draw_label(
     "circuit of ATO+ and Leuco+ neurons", x = 0.4, y = 0.99, 
     color = "black", size = 11
-  )
+  ) +
+  draw_label("# of synapses", x = 1, y = 0.2, size = 8, hjust = 1) +
+  draw_label("4", x = 0.94, y = 0.17, size = 8, hjust = 1) + 
+  draw_label("438", x = 0.94, y = 0.14, size = 8, hjust = 1) +
+  draw_line(x = c(0.95, 1), y = c(0.17, 0.17), size = 0.2, color = 'grey') +
+  draw_line(x = c(0.95, 1), y = c(0.14, 0.14), size = 1.6, color = 'grey')
+
 
 
 layout = "

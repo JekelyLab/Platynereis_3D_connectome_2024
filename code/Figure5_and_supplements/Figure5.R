@@ -675,7 +675,13 @@ panel_network <-ggdraw() + draw_image(readPNG("pictures/network_with_transmitter
   draw_label(
     "cholinergic", x = 0.1, y = 0.75, 
     color = Okabe_Ito[3], size = 11, hjust = 0
-  )
+  ) +
+  draw_label("# of synapses", x = 1, y = 0.9, size = 8, hjust = 1) +
+  draw_label("1", x = 0.94, y = 0.87, size = 8, hjust = 1) + 
+  draw_label("521", x = 0.94, y = 0.84, size = 8, hjust = 1) +
+  draw_line(x = c(0.95, 1), y = c(0.87, 0.87), size = 0.2, color = 'grey') +
+  draw_line(x = c(0.95, 1), y = c(0.84, 0.84), size = 1.6, color = 'grey')
+
 
 
 layout <- "
@@ -698,7 +704,7 @@ ggsave("Figures/Figure5.png", limitsize = FALSE,
        width = 3200, height = 4500, bg='white'
        )  
 
-ggsave("Figures/Figure5.pdf", limitsize = FALSE, 
+  ggsave("Figures/Figure5.pdf", limitsize = FALSE, 
        units = c("px"), Figure5, 
        width = 3200, height = 4500
        )  
