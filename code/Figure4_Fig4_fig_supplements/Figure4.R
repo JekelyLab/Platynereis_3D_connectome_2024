@@ -250,7 +250,7 @@ syn_tb <- syn_tb %>%
     weights = E(syn.igraph)$synapses,
     mode = "out"
   )) %>%
-  mutate("pagerank" = centrality_pagerank(
+  mutate("PageRank" = centrality_pagerank(
     weights = E(syn.igraph)$synapses,
     directed = TRUE
   ))
@@ -679,7 +679,7 @@ my_theme <- theme_minimal() +
 # network size with different edge thresholds
 for (i in 1:100) {
   # create subgraph with edges above a threshold
-  conn_graph_filt <- delete.edges(syn_tb, which(E(syn.igraph)$synapses < i))
+  conn_graph_filt <- delete_edges(syn_tb, which(E(syn.igraph)$synapses < i))
   # check size of largest subgraph
   cl <- components(conn_graph_filt)
   print(max(cl$csize))
@@ -782,48 +782,48 @@ between <- syn_tb %>%
 between
 
 
-# plot node pagerank centrality
+# plot node PageRank centrality
 
 page <- syn_tb %>%
   as_tibble() %>%
   ggplot() +
   geom_histogram(
     data = syn_tb %>% as_tibble() %>% filter(group == "effector"),
-    aes(pagerank),
+    aes(PageRank),
     fill = "grey40", alpha = 0.6, bins = 48,
     color = "grey", linewidth = 0.1
   ) +
   geom_histogram(
     data = syn_tb %>% as_tibble() %>% filter(group == "sensory neuron"),
-    aes(pagerank),
+    aes(PageRank),
     fill = "#E69F00", alpha = 1, bins = 54,
     color = "grey", linewidth = 0.1
   )  +
   geom_histogram(
     data = syn_tb %>% as_tibble() %>% filter(group == "interneuron"),
-    aes(pagerank),
+    aes(PageRank),
     fill = "#CC79A7", alpha = 0.5, bins = 52,
     color = "grey", linewidth = 0.1
   )  +
   geom_histogram(
     data = syn_tb %>% as_tibble() %>% filter(group == "motoneuron"),
-    aes(pagerank),
+    aes(PageRank),
     fill = "#0072B2", alpha = 0.6, bins = 50,
     color = "grey", linewidth = 0.1
   ) +
-  labs(x = "pagerank", y = "# of nodes", title = " ") +
+  labs(x = "PageRank", y = "# of nodes", title = " ") +
   scale_x_log10(breaks = c(0.001, 0.005, 0.01, 0.02)) +
   theme_minimal_hgrid() +
   my_theme
 page
 
-# plot node weighted degree against pagerank
+# plot node weighted degree against PageRank
 
 degree_rank <- syn_tb %>%
   activate(nodes) %>%
   as_tibble() %>%
   ggplot(aes(
-    x = value, y = pagerank, color = group, shape = group, alpha = group,
+    x = value, y = PageRank, color = group, shape = group, alpha = group,
     size = betweenness
   )) +
   geom_point() +
@@ -955,9 +955,36 @@ webshot::webshot(
 
 # assemble figure ---------------------------------------------------------
 
+#check max of network
+network_temp <- read_rds("source_data/Figure4_source_data1.rds")
+network_temp %>%
+  activate(edges) %>%
+  as_tibble %>%
+  select(synapses) %>%
+  max()
+
+  
+
+panel_glands_network <- ggdraw() + 
+  draw_image(readPNG("pictures/visNetwork_glands.png")) +
+  draw_label("MNgland-head circuit", x = 0.5, y = 0.99, 
+             fontfamily = "sans", size = 11) + 
+  draw_label("# of synapses", x = 0.94, y = 0.9, size = 8, hjust = 1) +
+  draw_label("1", x = 0.87, y = 0.82, size = 8, hjust = 1) + 
+  draw_label("31", x = 0.87, y = 0.76, size = 8, hjust = 1) +
+  draw_line(x = c(0.88, 0.93), y = c(0.82, 0.82), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.88, 0.93), y = c(0.76, 0.76), size = 2, color = 'grey')
+
+
 img_network <- readPNG("pictures/Figure4_celltype_network.png")
 img_table <- readPNG("pictures/celltype_stats_table.png")
-panel_network <- ggdraw() + draw_image(img_network, scale = 1.05)
+panel_network <- ggdraw() + draw_image(img_network, scale = 1.05) +
+    draw_label("# of synapses", x = 1, y = 0.9, size = 8, hjust = 1) +
+  draw_label("1", x = 0.94, y = 0.87, size = 8, hjust = 1) + 
+  draw_label("521", x = 0.94, y = 0.84, size = 8, hjust = 1) +
+  draw_line(x = c(0.95, 1), y = c(0.87, 0.87), size = 0.2, color = 'grey') +
+  draw_line(x = c(0.95, 1), y = c(0.84, 0.84), size = 1.6, color = 'grey')
+
 panel_table <- ggdraw() + draw_image(img_table, scale = 1.3)
 
 layout <- "
