@@ -284,10 +284,22 @@ panel_MNgland_head_a <- ggdraw() +
 panel_table <- ggdraw() + 
   draw_image(readPNG("pictures/glands_stats_table.png"))
 
+
+#check max of network
+network_temp <- read_csv("source_data/Figure7_fig_suppl1_source_data1.txt")
+network_temp %>%
+  select(-...1) %>% min()
+
 panel_glands_network <- ggdraw() + 
   draw_image(readPNG("pictures/visNetwork_glands.png")) +
   draw_label("MNgland-head circuit", x = 0.5, y = 0.99, 
-             fontfamily = "sans", size = 11)
+             fontfamily = "sans", size = 11) + 
+  draw_label("# of synapses", x = 0.94, y = 0.9, size = 8, hjust = 1) +
+  draw_label("1", x = 0.87, y = 0.82, size = 8, hjust = 1) + 
+  draw_label("31", x = 0.87, y = 0.76, size = 8, hjust = 1) +
+  draw_line(x = c(0.88, 0.93), y = c(0.82, 0.82), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.88, 0.93), y = c(0.76, 0.76), size = 2, color = 'grey')
+
 
 panel_headGland1 <- ggdraw() + 
   draw_image(readPNG("images_notR/headGland_2um_1.png")) +

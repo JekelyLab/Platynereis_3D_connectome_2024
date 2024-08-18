@@ -1744,7 +1744,7 @@ ggsave("Figures/Figure11.pdf", limitsize = FALSE,
        units = c("px"), Fig11, width = 4600, height = 3200)
 
  
-
+# assemble Figure 12 -----------------
 
 panel_sg0 <- ggdraw() + draw_image(readPNG("pictures/Figure_sg0.png")) +
   draw_label("sg0 and mouth neurons", x = 0.45, y = 0.96, fontfamily = "sans", fontface = "plain",
@@ -1762,6 +1762,12 @@ panel_MC3 <- ggdraw() + draw_image(readPNG("pictures/Figure_sg1_MN_targets.png")
 panel_sg1IN <- ggdraw() + draw_image(readPNG("pictures/Figure_sg1_IN.png")) +
   draw_label("sg1 INs", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
              color = "black", size = 11)
+
+#check max of network
+network_temp <- read_csv("source_data/Figure12_source_data2.txt")
+network_temp %>%
+  select(-...1) %>% max()
+
 panel_sg1_network <- ggdraw() + draw_image(readPNG("pictures/visNetwork_sg1_specific_input_output.png")) +
   draw_label("sg1 networks", x = 0.2, y = 0.97, fontfamily = "sans", fontface = "plain",
              color = "black", size = 11) +
@@ -1769,7 +1775,12 @@ panel_sg1_network <- ggdraw() + draw_image(readPNG("pictures/visNetwork_sg1_spec
   draw_line(c(0.69, 0.69), c(1, 0.03), size=0.3) +
   draw_label("sg1", x = 0.37, y = 0.99, size = 11) +
   draw_label("trunk", x = 0.53, y = 0.99, size = 11) +
-  draw_label("head", x = 0.77, y = 0.99, size = 11)
+  draw_label("head", x = 0.77, y = 0.99, size = 11) + 
+  draw_label("# of synapses", x = 0.89, y = 0.9, size = 8, hjust = 1) +
+  draw_label("6", x = 0.82, y = 0.85, size = 8, hjust = 1) + 
+  draw_label("138", x = 0.82, y = 0.8, size = 8, hjust = 1) +
+  draw_line(x = c(0.83, 0.88), y = c(0.85, 0.85), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.83, 0.88), y = c(0.8, 0.8), size = 2, color = 'grey')
 
 #sg2 panels
 panel_sg2_MNs <- ggdraw() + 
@@ -1783,7 +1794,13 @@ panel_MNspin_partners <- ggdraw() +
 panel_MNspin_network <- ggdraw() + 
   draw_image(readPNG("pictures/visNetwork_MNspinning_input_output.png")) +
   draw_label("MNspinning network", x = 0.3, y = 0.97,
-             color = "black", size = 11)
+             color = "black", size = 11) + 
+  draw_label("# of synapses", x = 0.89, y = 0.9, size = 8, hjust = 1) +
+  draw_label("2", x = 0.82, y = 0.85, size = 8, hjust = 1) + 
+  draw_label("206", x = 0.82, y = 0.8, size = 8, hjust = 1) +
+  draw_line(x = c(0.83, 0.88), y = c(0.85, 0.85), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.83, 0.88), y = c(0.8, 0.8), size = 2, color = 'grey')
+
 
 panel_spinGland <- ggdraw() + 
   draw_image(readPNG("images_notR/Spinning_Gland_TEM.png")) +
@@ -1825,7 +1842,13 @@ panel_pyg_network <- ggdraw() +
   draw_label("sg1", x = 0.67, y = 0.99, size = 11) +
   draw_label("head", x = 0.8, y = 0.99, size = 11) +
   draw_label("pygidium\nnetwork", x = 0.13, y = 0.95, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11)
+             color = "black", size = 11) + 
+  draw_label("# of synapses", x = 0.94, y = 0.9, size = 8, hjust = 1) +
+  draw_label("2", x = 0.87, y = 0.85, size = 8, hjust = 1) + 
+  draw_label("521", x = 0.87, y = 0.8, size = 8, hjust = 1) +
+  draw_line(x = c(0.88, 0.93), y = c(0.85, 0.85), size = 0.3, color = 'grey') +
+  draw_line(x = c(0.88, 0.93), y = c(0.8, 0.8), size = 2, color = 'grey')
+
 
 
 
