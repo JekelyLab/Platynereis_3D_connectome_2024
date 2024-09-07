@@ -119,7 +119,7 @@ knitr::include_graphics("Figures/Figure1.png")
 
 The *Platynereis* larval nervous system is subdivided into an anterior brain and a rope-ladder-like paired ventral nerve cord (VNC).
 The brain and VNC are connected by circumesophageal connectives (Figure 1C, F-H).
-The trunk has five segments, an anterior cryptic segment (segment 0)[@steinmetz2011segmental], three main segments (segments 1-3) with parapodia, and a posterior pygidium (Figure 1A, B).
+The trunk has five segments, an anterior cryptic segment (segment 0)[@saudemont2008complementary; @steinmetz2011segmental], three main segments (segments 1-3) with parapodia, and a posterior pygidium (Figure 1A, B).
 
 Morphological rendering of all synapses in the volume highlights the overall organisation of neuropils and motor nerves.
 In the brain, sensory, inter- and motoneurons synapse in partly overlapping regions, with sensory neuron synapses occurring more anteriorly.
@@ -416,7 +416,7 @@ knitr::include_graphics("Figures/Figure10.png")
 
 Next, we analysed the neuronal complement and interconnectivity of the body segments.
 
-The three-day-old larva has three main trunk segments with chaeta-bearing parapodia (chaetigerous segments) and a more anterior cryptic segment [@steinmetz2011segmental].
+The three-day-old larva has three main trunk segments with chaeta-bearing parapodia (chaetigerous segments) and a more anterior cryptic segment [@saudemont2008complementary; @steinmetz2011segmental].
 In addition, the pygidium forms the posterior-most part of the body [@starunov2015metameric] (Figure 1A, Figure 11A).
 The ciliary bands mark the posterior segment boundaries.
 
@@ -671,7 +671,7 @@ Our dataset represents, to our knowledge, the first whole-body connectome of a s
 These data also inform our understanding of the evolution of the annelid body segments and nervous system, both long-standing questions in evolution and development [@balfour1881treatise; @sedgwick1884origin; @nielsen2005larval; @steinmetz2011segmental; @starunov2015metameric; @nielsen2018evolution].
 
 By mapping cell-type distributions across segments we found evidence for segmental homology overlain by a heteromeric pattern with segment-specific cell types.
-The serial homology of the cryptic segment (sg0) with the other three trunk segments (sg1-3) [@steinmetz2011segmental] is confirmed by neuron and muscle types shared between these four segments.
+The serial homology of the cryptic segment (sg0) with the other three trunk segments (sg1-3) [@saudemont2008complementary; @steinmetz2011segmental] is confirmed by neuron and muscle types shared between these four segments.
 In addition, the pygidium and the head may have metameric origin.
 The pygidium has a coelomic cavity and muscle cell types (MUSlong, MUStrans) shared with the other trunk segments [@starunov2015metameric; @jasek2022].
 The segmental origin of the annelid head is suggested by a Cambrian annelid fossil where the head is formed by a segment with parapodia and chaetae [@parry2015cambrian].
