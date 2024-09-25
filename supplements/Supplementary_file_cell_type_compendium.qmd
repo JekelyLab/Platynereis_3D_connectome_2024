@@ -1,0 +1,421 @@
+---
+title: "Compendium of all cell types in the three-day-old *Platynereis dumerilii* larva"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: 3
+---
+
+```{r}
+#| echo: false
+#| include: FALSE
+library(dplyr)
+library(rio)
+library(tinytable)
+library(knitr)
+library(gt)
+library(catmaid)
+library(rgl)
+library(htmltools)
+
+# catmaid connection
+conn_http1 <- catmaid_login(
+  server="https://catmaid.jekelylab.ex.ac.uk/", 
+  authname="AnonymousUser",
+  config=httr::config(ssl_verifypeer=0, http_version=1)
+)
+```
+
+# Neuronal cell types
+
+## Sensory neurons
+
+
+```{r}
+#| echo: false
+
+plot_background <- function(x){
+  nopen3d() # opens a pannable 3d window
+  par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
+  plot3d(bounding_dots, add=T, col="white") 
+  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
+  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
+  par3d(zoom=0.52)
+  nview3d("frontal", extramat=rotationMatrix(0.2, 1, 0.1, 0.5))
+  #z-axis clip
+  #clipplanes3d(0, 0, -1, 65000)
+  #y-axis clip
+  clipplanes3d(1, 0, 0.16, 7000)
+  #x-axis clip
+  clipplanes3d(0, -1, 0.16, 130000)
+}
+
+plot_background_ventral <- function(x){
+  nopen3d() # opens a pannable 3d window
+  par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
+  plot3d(bounding_dots, add=T, col="white") 
+  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
+  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
+  par3d(zoom=0.6)
+  nview3d('ventral', extramat=(rotationMatrix(0.35, 1, 0, 0)%*%rotationMatrix(0.05, 0, 0, 1)))
+  #y-axis clip
+  clipplanes3d(1, 0, 0.16, 7000)
+  #x-axis clip
+  clipplanes3d(0, -1, 0.16, 130000)
+}
+
+  
+
+celltypes <- rio::import("Supplementary_Table1.csv")
+
+#load anatomy landmarks
+bounding_dots = nlapply(read.neurons.catmaid("^bounding_dots$", pid=11),
+                          function(x) smooth_neuron(x, sigma=6000))
+yolk <- catmaid_get_volume(4, rval = c("mesh3d", "catmaidmesh", "raw"),
+                             invertFaces = T, conn = NULL, pid = 11)
+acicula <-   nlapply(read.neurons.catmaid("^acicula$", pid=11),
+                       function(x) smooth_neuron(x, sigma=6000))
+
+#functions for table and neuron plot
+plot_cell_name <- function(annotation, type_of_cell){
+  name <- celltypes |>
+  filter(`Sensory/inter/motor neuron` == type_of_cell) |> 
+  filter(`CATMAID annotation` == annotation) |> 
+  pull(`CATMAID annotation`, `name of cell type`)
+
+kable(name, col.names = c("name of cell type", "CATMAID annotation"))
+}
+
+plot_cell_chars <- function(annotation, type_of_cell){
+  celltypes |>
+  filter(`Sensory/inter/motor neuron` == type_of_cell) |>
+  filter(`CATMAID annotation` == annotation) |>   
+  select(`number of cells`, `soma position`, `region`, `transmitter phenotype`, `postsynaptic partners (<10 synapses)`, `presynaptic partners (<10 synapses)`, `reference`) |>
+  kable()
+}
+
+#function to plot rgl widget with neuron
+plot_cell_rgl <- function(annotation, type_of_cell, background){
+  ID <- celltypes |>
+    filter(`Sensory/inter/motor neuron` == type_of_cell) |> 
+    filter(`CATMAID annotation` == annotation) |> 
+    pull(`CATMAID annotation`)
+
+  neuron1 = nlapply(read.neurons.catmaid(ID, pid=11),
+                    function(x) smooth_neuron(x, sigma=6000))
+  if(background == "ventral"){
+    plot_background_ventral()
+  }
+  else{
+    plot_background()
+  }
+  plot3d(neuron1, WithConnectors = F, soma=TRUE, lwd=3,
+         add=T, alpha=0.7, col="#0072B2")
+
+  s <- scene3d()
+  rglwidget(s, width = 400, height = 100)
+}
+
+```
+
+### Photoreceptors
+
+#### Rhabdomeric photoreceptors
+```{r}
+#| echo: false
+# PRC
+annot <- "celltype1"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+[3D visualisation: ](`r path`)
+
+
+
+```{r}
+#| echo: false
+#| eval: false
+# eyespot-PRCR3
+annot <- "celltype33"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# eyespot-PRCR1
+annot <- "celltype34"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+#### Ciliary photoreceptors
+```{r}
+#| echo: false
+#| eval: false
+# cPRC
+annot <- "celltype5"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+
+### Mechanoreceptors
+
+#### CR (collar receptor) hydrodynamic vibration-receptor neurons
+
+```{r}
+#| echo: false
+#| eval: false
+# hCR
+annot <- "celltype100"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+
+```{r}
+#| echo: false
+#| eval: false
+# ventralpygCR
+annot <- "celltype101"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# doCRunp
+annot <- "celltype102"
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+```
+
+#### PU (penetrating uniciliated) mechanosensory neurons
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype88")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype89")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype90")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype91")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype92")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype93")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype94")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype95")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype96")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype97")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+```{r}
+#| echo: false
+#| eval: false
+# PU neurons celltype88-98
+annot <- ("celltype98")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+close3d()
+
+path <- paste("../../supplements/celltype_RGLs/", annot, ".html", sep = "")
+htmltools::save_html(widgets, path)
+
+```
+
+
+
+### Chemoreceptors
