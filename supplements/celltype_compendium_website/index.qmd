@@ -20,11 +20,20 @@ library(rgl)
 library(htmltools)
 
 # catmaid connection
-conn_http1 <- catmaid_login(
-  server="https://catmaid.jekelylab.ex.ac.uk/", 
-  authname="AnonymousUser",
-  config=httr::config(ssl_verifypeer=0, http_version=1)
-)
+#conn_http1 <- catmaid_login(
+#  server="https://catmaid.jekelylab.ex.ac.uk/", 
+#  authname="AnonymousUser",
+#  config=httr::config(ssl_verifypeer=0, http_version=1)
+#)
+
+# catmaid connection, needs username, password AND token - weird!
+{
+  # can run this separate file using source function
+  conn <- source("~/R/conn.R")
+  #for larger calls we need to use http/1, see https://www.gitmemory.com/issue/natverse/rcatmaid/158/641537466
+  #for this we configure to http/1.1
+#  conn_http1 = catmaid_login(conn=conn, config=httr::config(ssl_verifypeer=0, http_version=1))
+}
 ```
 
 # Neuronal cell types
@@ -190,7 +199,7 @@ htmlwidgets::saveWidget(widgets, path2)
 
 [3D visualisation](_site/celltype_RGLs/celltype34.html){target="_blank"}
 
-#### Ciliary photoreceptors
+#### Ciliary photoreceptors {#sec-cPRC}
 
 ```{r}
 #| echo: false
@@ -346,6 +355,7 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 
 # PU neurons celltype88-98
+#VentraltrunkPUunp
 annot <- ("celltype90")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
@@ -394,6 +404,7 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 
 # PU neurons celltype88-98
+#hPUc1
 annot <- ("celltype92")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
@@ -562,7 +573,7 @@ htmlwidgets::saveWidget(widgets, path2)
 [3D visualisation](_site/celltype_RGLs/celltype98.html){target="_blank"}
 
 
-#### PB (penetrating biciliated) mechanosensory neurons
+#### PB (penetrating biciliated) mechanosensory neurons  {#sec-PB}
 
 
 ```{r}
@@ -594,6 +605,7 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 
 # PB neurons celltype80 and 54
+#pygPBunp
 annot <- ("celltype54")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
@@ -615,7 +627,316 @@ htmlwidgets::saveWidget(widgets, path2)
 [3D visualisation](_site/celltype_RGLs/celltype54.html){target="_blank"}
 
 
-### Chemoreceptors
+#### Flow-sensory MS neurons
+
+
+```{r}
+#| echo: false
+
+# MS neurons celltype35-38
+annot <- ("celltype35")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype35.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype35.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+
+# MS neurons celltype35-38
+annot <- ("celltype36")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype36.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype36.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+
+# MS neurons celltype35-38
+annot <- ("celltype37")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype37.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype37.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+
+# MS neurons celltype35-38
+annot <- ("celltype38")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype38.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype38.html){target="_blank"}
+
+
+#### Chaetal mechanosensory neurons
+
+
+```{r}
+#| echo: false
+
+# chaeMech
+annot <- ("celltype71")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype71.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype71.html){target="_blank"}
+
+
+#### Other putative mechanosensory neurons in the mechanosensory girdle
+
+
+
+```{r}
+#| echo: false
+#SNantlerPDF
+annot <- ("celltype26")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype26.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype26.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#SNblunt
+annot <- ("celltype148")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype148.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype148.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#SNbronto
+annot <- ("celltype168")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype168.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype168.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#SNFVa
+annot <- ("celltype143")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype143.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype143.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#SNFVa
+annot <- ("celltype143")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype143.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype143.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#SNPDF-pyg
+annot <- ("celltype115")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype115.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype115.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#SNpygM
+annot <- ("celltype170")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype170.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype170.html){target="_blank"}
+
+
+
+### Nuchal organ chemoreceptors
 
 ```{r}
 #| echo: false
@@ -691,13 +1012,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 [3D visualisation](_site/celltype_RGLs/celltype15.html){target="_blank"}
 
-### Other sensory cells (unclear modality)
+
+### Mushroom body sensory cells
+
+
 
 
 ```{r}
 #| echo: false
-#SNgolden
-annot <- ("celltype16")
+#SNtrpa
+annot <- ("celltype190")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -713,9 +1037,112 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype16.png){height=200}
+![](snapshots/celltype190.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype16.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype190.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#SNtorii
+annot <- ("celltype187")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype187.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype187.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#SNmus
+annot <- ("celltype25")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype25.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype25.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#	SNMB2
+annot <- ("celltype32")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype32.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype32.html){target="_blank"}
+
+
+
+
+
+```{r}
+#| echo: false
+#SNlasso
+annot <- ("celltype20")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype20.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype20.html){target="_blank"}
+
 
 
 
@@ -769,12 +1196,10 @@ htmlwidgets::saveWidget(widgets, path2)
 [3D visualisation](_site/celltype_RGLs/celltype18.html){target="_blank"}
 
 
-
-
 ```{r}
 #| echo: false
-#SNlasso
-annot <- ("celltype20")
+#SNgolden
+annot <- ("celltype16")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -790,16 +1215,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype20.png){height=200}
+![](snapshots/celltype16.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype20.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype16.html){target="_blank"}
 
 
 
 ```{r}
 #| echo: false
-#SNMIP-vc
-annot <- ("celltype24")
+#SN-NS27
+annot <- ("celltype137")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -815,16 +1240,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype24.png){height=200}
+![](snapshots/celltype137.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype24.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype137.html){target="_blank"}
+
 
 
 
 ```{r}
 #| echo: false
-#SNmus
-annot <- ("celltype25")
+#SN-NS19
+annot <- ("celltype133")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -840,16 +1266,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype25.png){height=200}
+![](snapshots/celltype133.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype25.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype133.html){target="_blank"}
 
 
 
 ```{r}
 #| echo: false
-#SNantlerPDF
-annot <- ("celltype26")
+#SN-NS18
+annot <- ("celltype138")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -865,16 +1291,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype26.png){height=200}
+![](snapshots/celltype138.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype26.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype138.html){target="_blank"}
+
 
 
 
 ```{r}
 #| echo: false
-#SNPDF-dc
-annot <- ("celltype27")
+#SN-NS17
+annot <- ("celltype131")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -890,16 +1317,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype27.png){height=200}
+![](snapshots/celltype131.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype27.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype131.html){target="_blank"}
+
 
 
 
 ```{r}
 #| echo: false
-#	SN0DLSO1.2-4
-annot <- ("celltype28")
+#SN-NS1
+annot <- ("celltype110")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -915,15 +1343,19 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype28.png){height=200}
+![](snapshots/celltype110.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype28.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype110.html){target="_blank"}
+
+
+
+### Apical organ sensory cells
 
 
 ```{r}
 #| echo: false
-#	SN0DLSO1.2-3
-annot <- ("celltype29")
+#	SNadNS22
+annot <- ("celltype141")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -939,15 +1371,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype29.png){height=200}
+![](snapshots/celltype141.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype29.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype141.html){target="_blank"}
+
 
 
 ```{r}
 #| echo: false
-#	SN0DLSO1.2-1
-annot <- ("celltype30")
+#	SN47Ach
+annot <- ("celltype52")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -963,15 +1396,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype30.png){height=200}
+![](snapshots/celltype52.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype30.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype52.html){target="_blank"}
+
 
 
 ```{r}
 #| echo: false
-#	SN-DLSO2
-annot <- ("celltype31")
+#	SN-YF5cil
+annot <- ("celltype132")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -987,16 +1421,16 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype31.png){height=200}
+![](snapshots/celltype132.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype31.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype132.html){target="_blank"}
 
 
 
 ```{r}
 #| echo: false
-#	SNMB2
-annot <- ("celltype32")
+#	SN47Ach
+annot <- ("celltype52")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -1012,9 +1446,354 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype32.png){height=200}
+![](snapshots/celltype52.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype32.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype52.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-WLD
+annot <- ("celltype48")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype48.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype48.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#	SN-NS6
+annot <- ("celltype135")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype135.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype135.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-NS5
+annot <- ("celltype130")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype130.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype130.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-NS4
+annot <- ("celltype112")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype112.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype112.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-NS3
+annot <- ("celltype111")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype111.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype111.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-NS29
+annot <- ("celltype136")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype136.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype136.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-NS22
+annot <- ("celltype129")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype129.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype129.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-NS20
+annot <- ("celltype134")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype134.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype134.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-NS16
+annot <- ("celltype139")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype139.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype139.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-NS15
+annot <- ("celltype113")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype113.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype113.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-MIP4
+annot <- ("celltype45")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype45.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype45.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-MIP1
+annot <- ("celltype46")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype46.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype46.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#	SN-IRP2-FMRF
+annot <- ("celltype44")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype44.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype44.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-IRP2-burs
+annot <- ("celltype43")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype43.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype43.html){target="_blank"}
 
 
 
@@ -1042,6 +1821,39 @@ htmlwidgets::saveWidget(widgets, path2)
 [3D visualisation](_site/celltype_RGLs/celltype39.html){target="_blank"}
 
 
+See also @sec-cPRC for the apical organ ciliary photoreceptors.
+
+
+
+### Dorsolateral sensory organ sensory cells
+
+
+```{r}
+#| echo: false
+#	SN0DLSO1.2-4
+annot <- ("celltype28")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype28.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype28.html){target="_blank"}
+
+
+
+
 ```{r}
 #| echo: false
 #	SN-DLSO3-PDF
@@ -1064,6 +1876,7 @@ htmlwidgets::saveWidget(widgets, path2)
 ![](snapshots/celltype40.png){height=200}
 
 [3D visualisation](_site/celltype_RGLs/celltype40.html){target="_blank"}
+
 
 
 
@@ -1094,8 +1907,8 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```{r}
 #| echo: false
-#	SN-IRP2-burs
-annot <- ("celltype43")
+#	SN-DLSO2
+annot <- ("celltype31")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -1111,67 +1924,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype43.png){height=200}
+![](snapshots/celltype31.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype43.html){target="_blank"}
-
-
-
-```{r}
-#| echo: false
-#	SN-IRP2-FMRF
-annot <- ("celltype44")
-plot_cell_name(annot, "Sensory neuron")
-plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
-
-
-```
-
-![](snapshots/celltype44.png){height=200}
-
-[3D visualisation](_site/celltype_RGLs/celltype44.html){target="_blank"}
-
-
-
-```{r}
-#| echo: false
-#	SN-MIP4
-annot <- ("celltype45")
-plot_cell_name(annot, "Sensory neuron")
-plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
-
-
-```
-
-![](snapshots/celltype45.png){height=200}
-
-[3D visualisation](_site/celltype_RGLs/celltype45.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype31.html){target="_blank"}
 
 
 
 
 ```{r}
 #| echo: false
-#	SN-MIP1
-annot <- ("celltype46")
+#	SN-DLSO1.3
+annot <- ("celltype163")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -1187,16 +1950,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype46.png){height=200}
+![](snapshots/celltype163.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype46.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype163.html){target="_blank"}
+
 
 
 
 ```{r}
 #| echo: false
-#	SN-WLD
-annot <- ("celltype48")
+#	SN-DLSO1.2-3
+annot <- ("celltype29")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
@@ -1212,9 +1976,163 @@ htmlwidgets::saveWidget(widgets, path2)
 
 ```
 
-![](snapshots/celltype48.png){height=200}
+![](snapshots/celltype29.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype48.html){target="_blank"}
+[3D visualisation](_site/celltype_RGLs/celltype29.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	SN-DLSO1.2-1
+annot <- ("celltype30")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype30.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype30.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-DLSO1.1NP
+annot <- ("celltype172")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype172.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype172.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-DLSO1.1
+annot <- ("celltype173")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype173.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype173.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	SN-DLSO1.0
+annot <- ("celltype103")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype103.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype103.html){target="_blank"}
+
+
+
+### Other sensory cells (unclear modality)
+
+
+```{r}
+#| echo: false
+#SNMIP-vc
+annot <- ("celltype24")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype24.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype24.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#SNPDF-dc
+annot <- ("celltype27")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype27.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype27.html){target="_blank"}
+
 
 
 
@@ -1264,3 +2182,3397 @@ htmlwidgets::saveWidget(widgets, path2)
 ![](snapshots/celltype50.png){height=200}
 
 [3D visualisation](_site/celltype_RGLs/celltype50.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#SNasym
+annot <- ("celltype51")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype51.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype51.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#SNaanc
+annot <- ("celltype114")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype114.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype114.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#SNstiff
+annot <- ("celltype167")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype167.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype167.html){target="_blank"}
+
+
+
+
+## Interneurons
+
+### Visual system interneurons
+
+
+```{r}
+#| echo: false
+#IN1
+annot <- ("celltype2")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype2.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype2.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INton
+annot <- ("celltype3")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype3.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype3.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INR1
+annot <- ("celltype171")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype171.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype171.html){target="_blank"}
+
+
+
+### Ciliomotor interneurons
+
+
+```{r}
+#| echo: false
+#cMNATO
+annot <- ("celltype11")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype11.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype11.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#cMNdc
+annot <- ("celltype12")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype12.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype12.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#cMNPDF-vcl1
+annot <- ("celltype10")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype10.png){height=200}
+
+[3D visualisation](_site/celltype_RGLs/celltype10.html){target="_blank"}
+
+### Apical organ interneurons
+
+
+
+```{r}
+#| echo: false
+#INNOS
+annot <- ("celltype7")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype7.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype7.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INRGWa
+annot <- ("celltype6")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+
+
+```
+
+![](snapshots/celltype6.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype6.html){target="_blank"}
+
+
+### Central brain interneurons
+
+
+```{r}
+#| echo: false
+#INexsn
+annot <- ("celltype188")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype188.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype188.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INface
+annot <- ("celltype193")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype193.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype193.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INmidL
+annot <- ("celltype118")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype118.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype118.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INmus
+annot <- ("celltype174")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype174.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype174.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INpara
+annot <- ("celltype196")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype196.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype196.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsn
+annot <- ("celltype57")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype57.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype57.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INsqNSasym
+annot <- ("celltype179")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype179.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype179.html){target="_blank"}
+
+
+
+### Central brain decussating interneurons
+
+
+```{r}
+#| echo: false
+#INarc1
+annot <- ("celltype55")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype55.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype55.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INarc2
+annot <- ("celltype56")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype56.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype56.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcross
+annot <- ("celltype123")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype123.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype123.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INdecussfoot
+annot <- ("celltype152")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype152.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype152.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INdecusshook
+annot <- ("celltype153")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype153.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype153.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INdecussPre
+annot <- ("celltype22")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype22.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype22.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INpro
+annot <- ("celltype124")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype124.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype124.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INproT2
+annot <- ("celltype125")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype125.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype125.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INW
+annot <- ("celltype117")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype117.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype117.html){target="_blank"}
+
+### Central brain descending interneurons
+
+```{r}
+#| echo: false
+#INbiax
+annot <- ("celltype76")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype76.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype76.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INdescLuqinPDF
+annot <- ("celltype175")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype175.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype175.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INUturn
+annot <- ("celltype144")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype144.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype144.html){target="_blank"}
+
+
+### Other brain decussating interneurons
+
+
+```{r}
+#| echo: false
+#INdecussM
+annot <- ("celltype199")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype199.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype199.html){target="_blank"}
+
+
+### Mushroom body intrinsic interneurons
+
+
+```{r}
+#| echo: false
+#INMBtype6
+annot <- ("celltype120")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype120.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype120.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBtype5
+annot <- ("celltype121")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype121.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype121.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBtype7
+annot <- ("celltype122")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype122.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype122.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBtype7
+annot <- ("celltype122")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype122.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype122.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBtype9
+annot <- ("celltype197")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype197.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype197.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBtype2
+annot <- ("celltype198")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype198.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype198.html){target="_blank"}
+
+
+
+### Mushroom body projection neurons
+
+
+```{r}
+#| echo: false
+#MBmouth
+annot <- ("celltype189")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype189.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype189.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBPDF
+annot <- ("celltype184")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype184.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype184.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INbigloop
+annot <- ("celltype140")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype140.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype140.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INhorn
+annot <- ("celltype183")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype183.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype183.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INMBdescFMRF
+annot <- ("celltype185")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype185.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype185.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INtorii
+annot <- ("celltype191")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype191.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype191.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INUturnMB
+annot <- ("celltype192")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype192.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype192.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INMBdesc3
+annot <- ("celltype194")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype194.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype194.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INMBdesc2
+annot <- ("celltype195")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype195.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype195.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INrope
+annot <- ("celltype58")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype58.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype58.html){target="_blank"}
+
+
+### Head dorsolateral interneuron 
+
+```{r}
+#| echo: false
+#INpreSer
+annot <- ("celltype4")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype4.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype4.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INlasso
+annot <- ("celltype21")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype21.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype21.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INpreMN
+annot <- ("celltype23")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype23.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype23.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INdc
+annot <- ("celltype104")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype104.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype104.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INfoot
+annot <- ("celltype116")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype116.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype116.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INhook
+annot <- ("celltype119")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype119.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype119.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INpear
+annot <- ("celltype126")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype126.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype126.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INZ
+annot <- ("celltype127")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype127.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype127.html){target="_blank"}
+
+```{r}
+#| echo: false
+#	INlasso-postSN
+annot <- ("celltype160")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype160.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype160.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INDLSO
+annot <- ("celltype186")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype186.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype186.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INmantis
+annot <- ("celltype201")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype201.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype201.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#MC2biax-1
+annot <- ("celltype42")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype42.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype42.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INCrossbow
+annot <- ("celltype53")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype53.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype53.html){target="_blank"}
+
+
+### Head, mechanosensory girdle interneurons
+
+
+```{r}
+#| echo: false
+#INsplitPUh
+annot <- ("celltype83")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype83.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype83.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitSpin
+annot <- ("celltype202")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype202.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype202.html){target="_blank"}
+
+```{r}
+#| echo: false
+#INMC3
+annot <- ("celltype75")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype75.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype75.html){target="_blank"}
+
+
+### Ventral nerve cord, mechanosensory girdle interneurons
+
+```{r}
+#| echo: false
+#INCM
+annot <- ("celltype60")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype60.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype60.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INsplitCR
+annot <- ("celltype73")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype73.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype73.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitCRATO
+annot <- ("celltype74")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype74.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype74.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitPB-RF/Ya
+annot <- ("celltype77")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype77.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype77.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#INsplitPBant
+annot <- ("celltype78")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype78.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype78.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitPB
+annot <- ("celltype79")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype79.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype79.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitBronto
+annot <- ("celltype149")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype149.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype149.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INsplitVent
+annot <- ("celltype157")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype157.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype157.html){target="_blank"}
+
+
+### Pygidial interneurons
+
+```{r}
+#| echo: false
+#INasc-pyg
+annot <- ("celltype147")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype147.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype147.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INFVa-pyg 
+annot <- ("celltype72")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype72.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype72.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INATOpyg
+annot <- ("celltype145")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype145.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype145.html){target="_blank"}
+
+
+
+### Peripheral interneurons
+
+
+```{r}
+#| echo: false
+#INbackcross
+annot <- ("celltype105")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype105.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype105.html){target="_blank"}
+
+
+
+### Other trunk interneurons
+
+
+```{r}
+#| echo: false
+#INchaeMech
+annot <- ("celltype70")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype70.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype70.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INbiaxLeg
+annot <- ("celltype108")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype108.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype108.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INbiaxH
+annot <- ("celltype109")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype109.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype109.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcomm-Upstairs
+annot <- ("celltype146")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype146.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype146.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INleucoPU
+annot <- ("celltype150")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype150.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype150.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INpreLadder
+annot <- ("celltype154")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype154.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype154.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcomm-Upcross
+annot <- ("celltype155")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype155.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype155.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcomm-DownL
+annot <- ("celltype158")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype158.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype158.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcommascFV
+annot <- ("celltype169")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype169.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype169.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcosplit
+annot <- ("celltype176")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype176.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype176.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INcommdescFVa
+annot <- ("celltype177")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype177.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype177.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INbiaxHmid
+annot <- ("celltype180")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype180.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype180.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#INbiaxHmid
+annot <- ("celltype180")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype180.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype180.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#INiaStiff
+annot <- ("celltype200")
+plot_cell_name(annot, "Interneuron")
+plot_cell_chars(annot, "Interneuron")
+rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype200.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype200.html){target="_blank"}
+
+
+## Motor neurons
+
+### Ciliomotor neurons
+
+```{r}
+#| echo: false
+#MC
+annot <- ("celltype9")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype9.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype9.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#MNakro
+annot <- ("celltype164")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype164.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype164.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	Ser-h1
+annot <- ("celltype8")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype8.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype8.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNant
+annot <- ("celltype19")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype19.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype19.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	Ser-tr1
+annot <- ("celltype142")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype142.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype142.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#Loop
+annot <- ("celltype59")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype59.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype59.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	MN3
+annot <- ("celltype84")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype84.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype84.html){target="_blank"}
+
+
+
+### Mixed ciliomotor-musclemotor neurons
+
+```{r}
+#| echo: false
+#	MN1
+annot <- ("celltype85")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype85.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype85.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MN2
+annot <- ("celltype86")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype86.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype86.html){target="_blank"}
+
+### Other head motoneurons
+
+```{r}
+#| echo: false
+#	MNheadV
+annot <- ("celltype178")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype178.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype178.html){target="_blank"}
+
+
+
+### Glandmotor neurons
+
+
+```{r}
+#| echo: false
+#	MNgland-head
+annot <- ("celltype166")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype166.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype166.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNspinning
+annot <- ("celltype47")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype47.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype47.html){target="_blank"}
+
+
+### Pigment-cell-motor neurons
+
+
+```{r}
+#| echo: false
+#	cioMNcover
+annot <- ("celltype82")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype82.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype82.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MC3cover
+annot <- ("celltype87")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype87.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype87.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	pygPBunp
+annot <- ("celltype54")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+```
+
+![](snapshots/celltype54.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype54.html){target="_blank"}
+
+See also @sec-PB for pygPBunp as penetrating biciliated sensory neuron.
+
+
+### Musclemotor neurons
+
+
+
+```{r}
+#| echo: false
+#	MNspider-ant
+annot <- ("celltype61")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype61.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype61.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	MNspider-post
+annot <- ("celltype62")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype62.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype62.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNbiramous
+annot <- ("celltype63")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype63.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype63.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNcrab
+annot <- ("celltype65")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype65.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype65.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNhose
+annot <- ("celltype66")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype66.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype66.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNbow
+annot <- ("celltype67")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype67.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype67.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNwave
+annot <- ("celltype68")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype68.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype68.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	MNacicX
+annot <- ("celltype69")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype69.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype69.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	MNcommUpL
+annot <- ("celltype106")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype106.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype106.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	MNob-ipsi
+annot <- ("celltype107")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype107.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype107.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNpostv
+annot <- ("celltype128")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype128.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype128.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#MNladder
+annot <- ("celltype151")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype151.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype151.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#MNacic
+annot <- ("celltype156")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype156.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype156.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#MNantacic
+annot <- ("celltype161")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype161.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype161.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNpostacic
+annot <- ("celltype162")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype162.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype162.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNantelope
+annot <- ("celltype181")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype181.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype181.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNsmile
+annot <- ("celltype182")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype182.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype182.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNarm
+annot <- ("celltype159")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype159.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype159.html){target="_blank"}
+
+```{r}
+#| echo: false
+#MNchae
+annot <- ("celltype165")
+plot_cell_name(annot, "motorneuron")
+plot_cell_chars(annot, "motorneuron")
+rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype165.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype165.html){target="_blank"}
+
+
+
+
+# Non-neuronal cell types
+
+## Gland cells
+
+```{r}
+#| echo: false
+#spinGland
+annot <- ("celltype_non_neuronal7")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal7.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal7.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#ciliatedGland
+annot <- ("celltype_non_neuronal9")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal9.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal9.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#MVGland
+annot <- ("celltype_non_neuronal17")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal17.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal17.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#HeadGland
+annot <- ("celltype_non_neuronal29")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal29.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal29.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#InterparaGland
+annot <- ("celltype_non_neuronal30")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal30.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal30.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#spinMicroGland
+annot <- ("celltype_non_neuronal31")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal31.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal31.html){target="_blank"}
+
+## Glia cells
+
+
+```{r}
+#| echo: false
+#flat-glia
+annot <- ("celltype_non_neuronal15")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal15.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal15.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#ECmidline
+annot <- ("celltype_non_neuronal16")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal16.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal16.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#Glia-pigmented
+annot <- ("celltype_non_neuronal34")
+plot_cell_name(annot, "gland cell")
+plot_cell_chars(annot, "gland cell")
+rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal34.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal34.html){target="_blank"}
+
+## Multiciliated cells
+
+```{r}
+#| echo: false
+#nuchalCiliaCilia
+annot <- ("celltype_non_neuronal4")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal4.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal4.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#akrotroch
+annot <- ("celltype_non_neuronal1")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal1.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal1.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#crescentcell
+annot <- ("celltype_non_neuronal2")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal2.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal2.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#prototroch
+annot <- ("celltype_non_neuronal3")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal3.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal3.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#metatroch
+annot <- ("celltype_non_neuronal5")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal5.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal5.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#paratroch
+annot <- ("celltype_non_neuronal6")
+plot_cell_name(annot, "multiciliated cell")
+plot_cell_chars(annot, "multiciliated cell")
+rgl <- plot_cell_rgl(annot, "multiciliated cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal6.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal6.html){target="_blank"}
+
+
+
+## Pigment cells
+
+
+```{r}
+#| echo: false
+#covercell
+annot <- ("celltype_non_neuronal8")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal8.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal8.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#eyespot-pigment-cell
+annot <- ("celltype_non_neuronal10")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal10.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal10.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	eye-pigment-cell
+annot <- ("celltype_non_neuronal11")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal11.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal11.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	yolk cover cell 
+annot <- ("celltype_non_neuronal14")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal14.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal14.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	CB-pigment
+annot <- ("celltype_non_neuronal32")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal32.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal32.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	vacuolar-cell-head
+annot <- ("celltype_non_neuronal33")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal33.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal33.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	pygidial-pigment-cell
+annot <- ("celltype_non_neuronal35")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal35.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal35.html){target="_blank"}
+
+## Chaetal and acicular cells
+
+
+```{r}
+#| echo: false
+#	chaeta
+annot <- ("celltype_non_neuronal22")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal22.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal22.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	acicula
+annot <- ("celltype_non_neuronal23")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal23.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal23.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	acFC-noER
+annot <- ("celltype_non_neuronal24")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal24.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal24.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	chaeFC-hemi
+annot <- ("celltype_non_neuronal25")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal25.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal25.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+#	chaeFC-ER
+annot <- ("celltype_non_neuronal26")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal26.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal26.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	chaeFC-noER
+annot <- ("celltype_non_neuronal27")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal27.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal27.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#	chaeFC-EC
+annot <- ("celltype_non_neuronal28")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal28.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal28.html){target="_blank"}
+
+
+## Nephridial cells
+
+
+```{r}
+#| echo: false
+#protonephridium
+annot <- ("celltype_non_neuronal19")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal19.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal19.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#nephridium
+annot <- ("celltype_non_neuronal20")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal20.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal20.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#nephridiumTip
+annot <- ("celltype_non_neuronal21")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal21.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal21.html){target="_blank"}
+
+
+
+
+## Muscle cells
+
+
+
+## Other non-neuronal cell types
+
+
+
+
+```{r}
+#| echo: false
+#coelothelium
+annot <- ("celltype_non_neuronal36")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal36.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal36.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#yolk
+annot <- ("celltype_non_neuronal91")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal91.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal91.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#meso
+annot <- ("celltype_non_neuronal92")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal92.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal92.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#macrophage like
+annot <- ("celltype_non_neuronal13")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal13.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal13.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#microvillarCell
+annot <- ("celltype_non_neuronal18")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal18.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal18.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+#gland-pigment
+annot <- ("celltype_non_neuronal12")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal12.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal12.html){target="_blank"}
+
+
+
+
+```{r}
+#| echo: false
+#EC
+annot <- ("celltype_non_neuronal90")
+plot_cell_name(annot, "pigment cell")
+plot_cell_chars(annot, "pigment cell")
+rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+```
+
+![](snapshots/celltype_non_neuronal90.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal90.html){target="_blank"}
+
+
