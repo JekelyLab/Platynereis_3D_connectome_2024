@@ -43,47 +43,9 @@ library(htmltools)
 ```{r}
 #| echo: false
 
-plot_background <- function(x){
-  nopen3d() # opens a pannable 3d window
-  par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
-  plot3d(bounding_dots, add=T, col="white") 
-  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
-  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
-  par3d(zoom=0.52)
-  nview3d("frontal", extramat=rotationMatrix(0.2, 1, 0.1, 0.5))
-  #z-axis clip
-  #clipplanes3d(0, 0, -1, 65000)
-  #y-axis clip
-  clipplanes3d(1, 0, 0.16, 7000)
-  #x-axis clip
-  clipplanes3d(0, -1, 0.16, 130000)
-}
-
-plot_background_ventral <- function(x){
-  nopen3d() # opens a pannable 3d window
-  par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
-  plot3d(bounding_dots, add=T, col="white") 
-  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
-  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
-  par3d(zoom=0.6)
-  nview3d('ventral', extramat=(rotationMatrix(0.35, 1, 0, 0)%*%rotationMatrix(0.05, 0, 0, 1)))
-  #y-axis clip
-  clipplanes3d(1, 0, 0.16, 7000)
-  #x-axis clip
-  clipplanes3d(0, -1, 0.16, 130000)
-}
-
-  
 
 celltypes <- rio::import("../Supplementary_Table1.csv")
 
-#load anatomy landmarks
-bounding_dots = nlapply(read.neurons.catmaid("^bounding_dots$", pid=11),
-                          function(x) smooth_neuron(x, sigma=6000))
-yolk <- catmaid_get_volume(4, rval = c("mesh3d", "catmaidmesh", "raw"),
-                             invertFaces = T, conn = NULL, pid = 11)
-acicula <-   nlapply(read.neurons.catmaid("^acicula$", pid=11),
-                       function(x) smooth_neuron(x, sigma=6000))
 
 #functions for table and neuron plot
 plot_cell_name <- function(annotation, type_of_cell){
@@ -103,27 +65,7 @@ plot_cell_chars <- function(annotation, type_of_cell){
   kable()
 }
 
-#function to plot rgl widget with neuron
-plot_cell_rgl <- function(annotation, type_of_cell, background){
-  ID <- celltypes |>
-    filter(`Sensory/inter/motor neuron` == type_of_cell) |> 
-    filter(`CATMAID annotation` == annotation) |> 
-    pull(`CATMAID annotation`)
 
-  neuron1 = nlapply(read.neurons.catmaid(ID, pid=11),
-                    function(x) smooth_neuron(x, sigma=6000))
-  if(background == "ventral"){
-    plot_background_ventral()
-  }
-  else{
-    plot_background()
-  }
-  plot3d(neuron1, WithConnectors = F, soma=TRUE, lwd=3,
-         add=T, alpha=0.7, col="#0072B2")
-
-  s <- scene3d()
-  rglwidget(s, width = 400, height = 100)
-}
 
 ```
 
@@ -137,15 +79,15 @@ plot_cell_rgl <- function(annotation, type_of_cell, background){
 annot <- "celltype1"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -160,15 +102,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype33"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -183,15 +125,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype34"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -208,15 +150,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype5"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -235,15 +177,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype100"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -258,16 +200,16 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype101"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
 
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -282,15 +224,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- "celltype102"
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 ```
 
@@ -308,15 +250,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype88")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -333,15 +275,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype89")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -359,15 +301,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype90")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -383,15 +325,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype91")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -408,15 +350,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype92")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -433,15 +375,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype93")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -458,15 +400,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype94")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -482,15 +424,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype95")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -507,15 +449,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype96")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -531,15 +473,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype97")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -555,15 +497,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype98")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -581,17 +523,17 @@ htmlwidgets::saveWidget(widgets, path2)
 
 # PB neurons celltype80 and 54
 annot <- ("celltype80")
-plot_cell_name(annot, "Sensory neuron Interneuron")
-plot_cell_chars(annot, "Sensory neuron Interneuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -609,15 +551,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype54")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -637,15 +579,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype35")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -662,15 +604,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype36")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -687,15 +629,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype37")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -712,15 +654,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype38")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -740,15 +682,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype71")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -768,15 +710,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype26")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -794,15 +736,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype148")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -819,15 +761,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype168")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -843,40 +785,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype143")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
-
-
-```
-
-![](snapshots/celltype143.png){height=200}
-
-[3D visualisation](_site/celltype_RGLs/celltype143.html){target="_blank"}
 
 
 
-```{r}
-#| echo: false
-#SNFVa
-annot <- ("celltype143")
-plot_cell_name(annot, "Sensory neuron")
-plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
 
 
 ```
@@ -893,15 +810,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype115")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -917,15 +834,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype170")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -945,15 +862,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype13")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -970,15 +887,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype14")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -995,15 +912,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype15")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1024,15 +941,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype190")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1049,15 +966,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype187")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1073,15 +990,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype25")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1099,15 +1016,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype32")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1126,15 +1043,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype20")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1153,15 +1070,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype17")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1178,15 +1095,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype18")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1202,15 +1119,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype16")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1227,15 +1144,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype137")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1253,15 +1170,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype133")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1278,15 +1195,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype138")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1304,15 +1221,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype131")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1330,15 +1247,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype110")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1358,15 +1275,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype141")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1383,15 +1300,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype52")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1408,15 +1325,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype132")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1433,15 +1350,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype52")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1457,15 +1374,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype48")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1483,15 +1400,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype135")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1507,15 +1424,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype130")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1531,15 +1448,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype112")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1556,15 +1473,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype111")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1580,15 +1497,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype136")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1605,15 +1522,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype129")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1630,15 +1547,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype134")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1655,15 +1572,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype139")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1680,15 +1597,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype113")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1704,15 +1621,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype45")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1728,15 +1645,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype46")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1754,15 +1671,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype44")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1778,15 +1695,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype43")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1803,15 +1720,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype39")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1834,15 +1751,15 @@ See also @sec-cPRC for the apical organ ciliary photoreceptors.
 annot <- ("celltype28")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1860,15 +1777,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype40")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1886,15 +1803,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype41")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1911,15 +1828,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype31")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1937,15 +1854,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype163")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1963,15 +1880,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype29")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -1987,15 +1904,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype30")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2012,15 +1929,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype172")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2037,15 +1954,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype173")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2062,15 +1979,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype103")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2090,15 +2007,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype24")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2116,15 +2033,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype27")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2142,15 +2059,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype49")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2166,15 +2083,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype50")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2191,15 +2108,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype51")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2215,15 +2132,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype114")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2239,15 +2156,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype167")
 plot_cell_name(annot, "Sensory neuron")
 plot_cell_chars(annot, "Sensory neuron")
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2270,14 +2187,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype2")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype2.png){height=200}
@@ -2290,14 +2207,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype3")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype3.png){height=200}
@@ -2310,14 +2227,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype171")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype171.png){height=200}
@@ -2334,15 +2251,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype11")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2359,15 +2276,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype12")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2384,15 +2301,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype10")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2411,15 +2328,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype7")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2435,15 +2352,15 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype6")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
 
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 
 
 ```
@@ -2461,14 +2378,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype188")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype188.png){height=200}
@@ -2481,14 +2398,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype193")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype193.png){height=200}
@@ -2501,14 +2418,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype118")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype118.png){height=200}
@@ -2521,14 +2438,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype174")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype174.png){height=200}
@@ -2541,14 +2458,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype196")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype196.png){height=200}
@@ -2561,14 +2478,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype57")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype57.png){height=200}
@@ -2582,14 +2499,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype179")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype179.png){height=200}
@@ -2606,14 +2523,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype55")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype55.png){height=200}
@@ -2626,14 +2543,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype56")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype56.png){height=200}
@@ -2646,14 +2563,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype123")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype123.png){height=200}
@@ -2666,14 +2583,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype152")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype152.png){height=200}
@@ -2686,14 +2603,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype153")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype153.png){height=200}
@@ -2706,14 +2623,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype22")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype22.png){height=200}
@@ -2726,14 +2643,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype124")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype124.png){height=200}
@@ -2746,14 +2663,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype125")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype125.png){height=200}
@@ -2766,14 +2683,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype117")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype117.png){height=200}
@@ -2787,14 +2704,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype76")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype76.png){height=200}
@@ -2806,14 +2723,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype175")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype175.png){height=200}
@@ -2825,14 +2742,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype144")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype144.png){height=200}
@@ -2848,14 +2765,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype199")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype199.png){height=200}
@@ -2871,14 +2788,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype120")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype120.png){height=200}
@@ -2891,39 +2808,20 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype121")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype121.png){height=200}
 [3D visualisation](_site/celltype_RGLs/celltype121.html){target="_blank"}
 
 
-```{r}
-#| echo: false
-#INMBtype7
-annot <- ("celltype122")
-plot_cell_name(annot, "Interneuron")
-plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
-```
-
-![](snapshots/celltype122.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype122.html){target="_blank"}
-
 
 ```{r}
 #| echo: false
@@ -2931,14 +2829,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype122")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype122.png){height=200}
@@ -2951,14 +2849,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype197")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype197.png){height=200}
@@ -2971,14 +2869,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype198")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype198.png){height=200}
@@ -2995,14 +2893,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype189")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype189.png){height=200}
@@ -3015,14 +2913,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype184")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype184.png){height=200}
@@ -3035,14 +2933,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype140")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype140.png){height=200}
@@ -3055,14 +2953,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype183")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype183.png){height=200}
@@ -3075,14 +2973,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype185")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype185.png){height=200}
@@ -3094,14 +2992,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype191")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype191.png){height=200}
@@ -3113,14 +3011,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype192")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype192.png){height=200}
@@ -3134,14 +3032,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype194")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype194.png){height=200}
@@ -3155,14 +3053,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype195")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype195.png){height=200}
@@ -3175,14 +3073,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype58")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype58.png){height=200}
@@ -3197,14 +3095,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype4")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype4.png){height=200}
@@ -3216,14 +3114,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype21")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype21.png){height=200}
@@ -3236,14 +3134,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype23")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype23.png){height=200}
@@ -3256,14 +3154,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype104")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype104.png){height=200}
@@ -3277,14 +3175,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype116")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype116.png){height=200}
@@ -3297,14 +3195,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype119")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype119.png){height=200}
@@ -3317,14 +3215,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype126")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype126.png){height=200}
@@ -3336,14 +3234,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype127")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype127.png){height=200}
@@ -3355,14 +3253,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype160")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype160.png){height=200}
@@ -3375,14 +3273,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype186")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype186.png){height=200}
@@ -3395,14 +3293,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype201")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype201.png){height=200}
@@ -3416,14 +3314,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype42")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype42.png){height=200}
@@ -3435,14 +3333,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype53")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype53.png){height=200}
@@ -3458,14 +3356,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype83")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype83.png){height=200}
@@ -3478,14 +3376,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype202")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype202.png){height=200}
@@ -3497,14 +3395,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype75")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype75.png){height=200}
@@ -3519,14 +3417,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype60")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype60.png){height=200}
@@ -3540,14 +3438,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype73")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype73.png){height=200}
@@ -3560,14 +3458,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype74")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype74.png){height=200}
@@ -3580,14 +3478,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype77")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype77.png){height=200}
@@ -3601,14 +3499,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype78")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype78.png){height=200}
@@ -3621,14 +3519,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype79")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype79.png){height=200}
@@ -3641,14 +3539,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype149")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype149.png){height=200}
@@ -3661,14 +3559,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype157")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype157.png){height=200}
@@ -3683,14 +3581,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype147")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype147.png){height=200}
@@ -3703,14 +3601,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype72")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype72.png){height=200}
@@ -3723,14 +3621,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype145")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype145.png){height=200}
@@ -3747,14 +3645,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype105")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype105.png){height=200}
@@ -3771,14 +3669,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype70")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype70.png){height=200}
@@ -3791,14 +3689,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype108")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype108.png){height=200}
@@ -3811,14 +3709,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype109")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype109.png){height=200}
@@ -3831,14 +3729,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype146")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype146.png){height=200}
@@ -3851,14 +3749,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype150")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype150.png){height=200}
@@ -3871,14 +3769,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype154")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype154.png){height=200}
@@ -3891,14 +3789,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype155")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype155.png){height=200}
@@ -3911,14 +3809,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype158")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype158.png){height=200}
@@ -3931,14 +3829,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype169")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype169.png){height=200}
@@ -3951,14 +3849,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype176")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype176.png){height=200}
@@ -3971,39 +3869,20 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype177")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype177.png){height=200}
 [3D visualisation](_site/celltype_RGLs/celltype177.html){target="_blank"}
 
 
-```{r}
-#| echo: false
-#INbiaxHmid
-annot <- ("celltype180")
-plot_cell_name(annot, "Interneuron")
-plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
-```
-
-![](snapshots/celltype180.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype180.html){target="_blank"}
-
 
 ```{r}
 #| echo: false
@@ -4011,14 +3890,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype180")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype180.png){height=200}
@@ -4033,14 +3912,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype200")
 plot_cell_name(annot, "Interneuron")
 plot_cell_chars(annot, "Interneuron")
-rgl <- plot_cell_rgl(annot, "Interneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype200.png){height=200}
@@ -4055,16 +3934,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MC
 annot <- ("celltype9")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype9.png){height=200}
@@ -4075,16 +3954,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNakro
 annot <- ("celltype164")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype164.png){height=200}
@@ -4096,16 +3975,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	Ser-h1
 annot <- ("celltype8")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype8.png){height=200}
@@ -4116,16 +3995,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNant
 annot <- ("celltype19")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype19.png){height=200}
@@ -4136,16 +4015,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	Ser-tr1
 annot <- ("celltype142")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype142.png){height=200}
@@ -4156,16 +4035,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #Loop
 annot <- ("celltype59")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype59.png){height=200}
@@ -4177,16 +4056,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MN3
 annot <- ("celltype84")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype84.png){height=200}
@@ -4200,16 +4079,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MN1
 annot <- ("celltype85")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype85.png){height=200}
@@ -4220,16 +4099,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MN2
 annot <- ("celltype86")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype86.png){height=200}
@@ -4241,16 +4120,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNheadV
 annot <- ("celltype178")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype178.png){height=200}
@@ -4265,16 +4144,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNgland-head
 annot <- ("celltype166")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype166.png){height=200}
@@ -4285,16 +4164,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNspinning
 annot <- ("celltype47")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype47.png){height=200}
@@ -4308,16 +4187,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	cioMNcover
 annot <- ("celltype82")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype82.png){height=200}
@@ -4328,16 +4207,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MC3cover
 annot <- ("celltype87")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype87.png){height=200}
@@ -4349,8 +4228,8 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	pygPBunp
 annot <- ("celltype54")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
+plot_cell_name(annot, "Sensory neuron")
+plot_cell_chars(annot, "Sensory neuron")
 ```
 
 ![](snapshots/celltype54.png){height=200}
@@ -4367,16 +4246,16 @@ See also @sec-PB for pygPBunp as penetrating biciliated sensory neuron.
 #| echo: false
 #	MNspider-ant
 annot <- ("celltype61")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype61.png){height=200}
@@ -4388,16 +4267,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNspider-post
 annot <- ("celltype62")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype62.png){height=200}
@@ -4408,16 +4287,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNbiramous
 annot <- ("celltype63")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype63.png){height=200}
@@ -4428,16 +4307,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNcrab
 annot <- ("celltype65")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype65.png){height=200}
@@ -4448,16 +4327,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNhose
 annot <- ("celltype66")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype66.png){height=200}
@@ -4468,16 +4347,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNbow
 annot <- ("celltype67")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype67.png){height=200}
@@ -4488,16 +4367,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNwave
 annot <- ("celltype68")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype68.png){height=200}
@@ -4508,16 +4387,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNacicX
 annot <- ("celltype69")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype69.png){height=200}
@@ -4529,16 +4408,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNcommUpL
 annot <- ("celltype106")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype106.png){height=200}
@@ -4550,16 +4429,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	MNob-ipsi
 annot <- ("celltype107")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype107.png){height=200}
@@ -4569,16 +4448,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNpostv
 annot <- ("celltype128")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype128.png){height=200}
@@ -4589,16 +4468,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNladder
 annot <- ("celltype151")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype151.png){height=200}
@@ -4610,16 +4489,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNacic
 annot <- ("celltype156")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype156.png){height=200}
@@ -4630,16 +4509,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNantacic
 annot <- ("celltype161")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype161.png){height=200}
@@ -4649,16 +4528,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNpostacic
 annot <- ("celltype162")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype162.png){height=200}
@@ -4668,16 +4547,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNantelope
 annot <- ("celltype181")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype181.png){height=200}
@@ -4687,16 +4566,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNsmile
 annot <- ("celltype182")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype182.png){height=200}
@@ -4706,16 +4585,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNarm
 annot <- ("celltype159")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype159.png){height=200}
@@ -4725,16 +4604,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #MNchae
 annot <- ("celltype165")
-plot_cell_name(annot, "motorneuron")
-plot_cell_chars(annot, "motorneuron")
-rgl <- plot_cell_rgl(annot, "motorneuron", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "Motoneuron")
+plot_cell_chars(annot, "Motoneuron")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype165.png){height=200}
@@ -4753,14 +4632,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal7")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal7.png){height=200}
@@ -4774,14 +4653,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal9")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal9.png){height=200}
@@ -4794,14 +4673,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal17")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal17.png){height=200}
@@ -4815,14 +4694,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal29")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal29.png){height=200}
@@ -4835,14 +4714,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal30")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal30.png){height=200}
@@ -4856,14 +4735,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal31")
 plot_cell_name(annot, "gland cell")
 plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal31.png){height=200}
@@ -4876,16 +4755,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #flat-glia
 annot <- ("celltype_non_neuronal15")
-plot_cell_name(annot, "gland cell")
-plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "glia cell")
+plot_cell_chars(annot, "glia cell")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal15.png){height=200}
@@ -4896,16 +4775,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #ECmidline
 annot <- ("celltype_non_neuronal16")
-plot_cell_name(annot, "gland cell")
-plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "glia cell")
+plot_cell_chars(annot, "glia cell")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal16.png){height=200}
@@ -4917,16 +4796,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #Glia-pigmented
 annot <- ("celltype_non_neuronal34")
-plot_cell_name(annot, "gland cell")
-plot_cell_chars(annot, "gland cell")
-rgl <- plot_cell_rgl(annot, "gland cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "glia cell")
+plot_cell_chars(annot, "glia cell")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal34.png){height=200}
@@ -4940,14 +4819,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal4")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal4.png){height=200}
@@ -4960,14 +4839,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal1")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal1.png){height=200}
@@ -4982,14 +4861,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal2")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal2.png){height=200}
@@ -5003,14 +4882,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal3")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal3.png){height=200}
@@ -5023,14 +4902,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal5")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal5.png){height=200}
@@ -5044,14 +4923,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal6")
 plot_cell_name(annot, "multiciliated cell")
 plot_cell_chars(annot, "multiciliated cell")
-rgl <- plot_cell_rgl(annot, "multiciliated cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal6.png){height=200}
@@ -5068,14 +4947,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal8")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal8.png){height=200}
@@ -5089,14 +4968,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal10")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+"Motoneuron"
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal10.png){height=200}
@@ -5110,14 +4989,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal11")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+"Motoneuron"
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal11.png){height=200}
@@ -5131,14 +5010,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal14")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal14.png){height=200}
@@ -5151,14 +5030,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal32")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal32.png){height=200}
@@ -5171,14 +5050,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal33")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "anterior")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+"Motoneuron"
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal33.png){height=200}
@@ -5192,14 +5071,14 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype_non_neuronal35")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal35.png){height=200}
@@ -5212,16 +5091,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	chaeta
 annot <- ("celltype_non_neuronal22")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal22.png){height=200}
@@ -5233,16 +5112,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	acicula
 annot <- ("celltype_non_neuronal23")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal23.png){height=200}
@@ -5254,16 +5133,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	acFC-noER
 annot <- ("celltype_non_neuronal24")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal24.png){height=200}
@@ -5274,16 +5153,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	chaeFC-hemi
 annot <- ("celltype_non_neuronal25")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal25.png){height=200}
@@ -5294,16 +5173,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	chaeFC-ER
 annot <- ("celltype_non_neuronal26")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal26.png){height=200}
@@ -5315,16 +5194,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	chaeFC-noER
 annot <- ("celltype_non_neuronal27")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal27.png){height=200}
@@ -5336,16 +5215,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #	chaeFC-EC
 annot <- ("celltype_non_neuronal28")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "chaetal complex")
+plot_cell_chars(annot, "chaetal complex")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal28.png){height=200}
@@ -5359,16 +5238,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #protonephridium
 annot <- ("celltype_non_neuronal19")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "excretory system")
+plot_cell_chars(annot, "excretory system")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal19.png){height=200}
@@ -5380,16 +5259,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #nephridium
 annot <- ("celltype_non_neuronal20")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "excretory system")
+plot_cell_chars(annot, "excretory system")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal20.png){height=200}
@@ -5401,16 +5280,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #nephridiumTip
 annot <- ("celltype_non_neuronal21")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "excretory system")
+plot_cell_chars(annot, "excretory system")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal21.png){height=200}
@@ -5432,16 +5311,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #coelothelium
 annot <- ("celltype_non_neuronal36")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "coelothelium")
+plot_cell_chars(annot, "coelothelium")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal36.png){height=200}
@@ -5453,16 +5332,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #yolk
 annot <- ("celltype_non_neuronal91")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "yolk")
+plot_cell_chars(annot, "yolk")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal91.png){height=200}
@@ -5474,16 +5353,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #meso
 annot <- ("celltype_non_neuronal92")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "mesoderm")
+plot_cell_chars(annot, "mesoderm")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal92.png){height=200}
@@ -5496,16 +5375,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #macrophage like
 annot <- ("celltype_non_neuronal13")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "macrophage-like")
+plot_cell_chars(annot, "macrophage-like")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal13.png){height=200}
@@ -5517,16 +5396,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #microvillarCell
 annot <- ("celltype_non_neuronal18")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "microvillar")
+plot_cell_chars(annot, "microvillar")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal18.png){height=200}
@@ -5538,16 +5417,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #gland-pigment
 annot <- ("celltype_non_neuronal12")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "gland")
+plot_cell_chars(annot, "gland")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal12.png){height=200}
@@ -5560,16 +5439,16 @@ htmlwidgets::saveWidget(widgets, path2)
 #| echo: false
 #EC
 annot <- ("celltype_non_neuronal90")
-plot_cell_name(annot, "pigment cell")
-plot_cell_chars(annot, "pigment cell")
-rgl <- plot_cell_rgl(annot, "pigment cell", "ventral")
-widgets <- rglwidget(scene3d(rgl))
-# make snapshot
-path1 <- paste("_site/snapshots/", annot, ".png", sep = "")
-rgl.snapshot(path1)
-close3d()
-path2 <- paste("_site/celltype_RGLs/", annot, ".html", sep = "")
-htmlwidgets::saveWidget(widgets, path2)
+plot_cell_name(annot, "epidermis")
+plot_cell_chars(annot, "epidermis")
+
+
+
+
+
+
+
+
 ```
 
 ![](snapshots/celltype_non_neuronal90.png){height=200}

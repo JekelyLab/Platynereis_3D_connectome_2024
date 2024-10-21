@@ -78,7 +78,7 @@ INbiax,2,celltype76,Interneuron,head,central brain  descending,dense cored vesic
 INsplitPB-RF/Ya,2,celltype77,Interneuron,sg1,ventral nerve cord   mechanosensory girdle,FVRIamide pigment dispersing factor  FMRFamide    dense cored vesicles,SNlasso INsplitPBant INsplitPB,,Shahidi et al. 2015
 INsplitPBant,2,celltype78,Interneuron,sg1,ventral nerve cord   mechanosensory girdle,dense cored vesicles,INasc-pyg,INsplitPB-RF/Ya PB,this study
 INsplitPB,16,celltype79,Interneuron,sg1 sg2 sg3,ventral nerve cord   mechanosensory girdle,FVamide   orexin/allatotropin    proenkephalin dense cored vesicles,MNspinning INsplitPB SNPDF-pyg INasc-pyg INleucoPU,INsplitPB-RF/Ya INsplitPB PB interparaPM1,this study
-PB,57,celltype80,Sensory neuron Interneuron,head  sg1 sg2 sg3 pygidium,dorsal sensory organ        ventral nerve cord peripheral NS  mechanosensory girdle,dense cored vesicles,MNspinning INsplitPBant INsplitPB PB SNFVa,PB,Bezares-Calderon et al. 2018
+PB,57,celltype80,Sensory neuron,head  sg1 sg2 sg3 pygidium,dorsal sensory organ        ventral nerve cord peripheral NS  mechanosensory girdle,dense cored vesicles,MNspinning INsplitPBant INsplitPB PB SNFVa,PB,Bezares-Calderon et al. 2018
 interparaPM1,4,celltype81,Sensory neuron,sg1 sg2,peripheral NS  mechanosensory girdle,,INsplitPB,,Bezares-Calderon et al. 2018
 cioMNcover,3,celltype82,Motoneuron,pygidium,ventral nerve cord,dense cored vesicles,covercell,,this study
 INsplitPUh,4,celltype83,Interneuron,head,mechanosensory girdle,dense cored vesicles,,hPU,this study
@@ -104,7 +104,7 @@ doCRunp,1,celltype102,Sensory neuron,sg1,peripheral NS  mechanosensory girdle,gl
 SN-DLSO1.0,2,celltype103,Sensory neuron,head,,dense cored vesicles,SN-DLSO1.2-3,,this study
 INdc,6,celltype104,Interneuron,head,dorsolateral interneuron cluster,,,,Randel et al. 2015
 INbackcross,6,celltype105,Interneuron,sg1 sg2 sg3,ciliomotor  peripheral NS,,,Loop,this study
-MNcommUpL,4,celltype106,Interneuron Motoneuron,sg2 sg3,ventral nerve cord,,,INrope INleucoPU,Bezares-Calderon et al. 2018
+MNcommUpL,4,celltype106,Motoneuron,sg2 sg3,ventral nerve cord,,,INrope INleucoPU,Bezares-Calderon et al. 2018
 MNob-ipsi,4,celltype107,Motoneuron,sg2 sg3,ventral nerve cord,dense cored vesicles,MUSobP-neuV MUSobP-notV,,this study
 INbiaxLeg,3,celltype108,Interneuron,sg2,ventral nerve cord,FVamide        dense cored vesicles,INsplitCR,,this study
 INbiaxH,5,celltype109,Interneuron,sg1 sg2,ventral nerve cord,dense cored vesicles,INsplitCR INasc-pyg,chaeMech,this study
@@ -212,31 +212,31 @@ covercell,16,celltype_non_neuronal8,pigment cell,head,,,,pygPBunp cioMNcover MC3
 ciliatedGland,24,celltype_non_neuronal9,gland cell,sg1,,,,MNgland-head,Jasek et al. 2022
 eyespot-pigment-cell,2,celltype_non_neuronal10,pigment cell,head,,,,,this study
 pigment-cell,12,celltype_non_neuronal11,pigment cell,head,,,,,Jasek et al. 2022
-gland-pigment,10,celltype_non_neuronal12,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-macrophage-like,13,celltype_non_neuronal13,,head  sg1 sg2 sg3 pygidium,,,,,this study
+gland-pigment,10,celltype_non_neuronal12,gland,sg1 sg2 sg3,,,,,Jasek et al. 2022
+macrophage-like,13,celltype_non_neuronal13,macrophage-like,head  sg1 sg2 sg3 pygidium,,,,,this study
 yolk-cover-cell cell,39,celltype_non_neuronal14,pigment cell,head sg0 sg1 sg2 sg3,,,,,this study
 flat-glia,21,celltype_non_neuronal15,glia cell,head sg0 sg1 sg2 sg3,,,,,Bezares-Calderon et al. 2018      Jasek et al. 2022
 ECmidline,46,celltype_non_neuronal16,glia cell,sg1 sg2 sg3 pygidium,,,,,Jasek et al. 2022
 MVGland,6,celltype_non_neuronal17,gland cell,sg1,,,,,this study
-microvillarCell,13,celltype_non_neuronal18,,sg2 sg3,,,,,this study
-protonephridium,4,celltype_non_neuronal19,,head,,,,,Jasek et al. 2022
-nephridium,14,celltype_non_neuronal20,,sg3,,,,,this study
-nephridiumTip,2,celltype_non_neuronal21,,sg3,,,,,this study
-chaeta,106,celltype_non_neuronal22,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-acicula,12,celltype_non_neuronal23,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-acFC-noER,54,celltype_non_neuronal24,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-chaeFC-hemi,187,celltype_non_neuronal25,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-chaeFC-ER,90,celltype_non_neuronal26,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-chaeFC-noER,102,celltype_non_neuronal27,,sg1 sg2 sg3,,,,,Jasek et al. 2022
-chaeFC-EC,106,celltype_non_neuronal28,,sg1 sg2 sg3,,,,,Jasek et al. 2022
+microvillarCell,13,celltype_non_neuronal18,microvillar,sg2 sg3,,,,,this study
+protonephridium,4,celltype_non_neuronal19,excretory system,head,,,,,Jasek et al. 2022
+nephridium,14,celltype_non_neuronal20,excretory system,sg3,,,,,this study
+nephridiumTip,2,celltype_non_neuronal21,excretory system,sg3,,,,,this study
+chaeta,106,celltype_non_neuronal22,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+acicula,12,celltype_non_neuronal23,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+acFC-noER,54,celltype_non_neuronal24,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+chaeFC-hemi,187,celltype_non_neuronal25,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+chaeFC-ER,90,celltype_non_neuronal26,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+chaeFC-noER,102,celltype_non_neuronal27,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
+chaeFC-EC,106,celltype_non_neuronal28,chaetal complex,sg1 sg2 sg3,,,,,Jasek et al. 2022
 HeadGland,5,celltype_non_neuronal29,gland cell,head,,,,,this study
 InterparaGland,4,celltype_non_neuronal30,gland cell,sg2 sg3,,,,,this study
 spinMicroGland,19,celltype_non_neuronal31,gland cell,sg2 sg3,,,,,this study
 CB-pigment,58,celltype_non_neuronal32,pigment cell,head sg0 sg1 sg2 sg3,,,,,Jasek et al. 2022
 vacuolar-cell-head,3,celltype_non_neuronal33,pigment cell,head,,,,,Jasek et al. 2022
-Glia-pigmented,5,celltype_non_neuronal34,pigment cell  glia cell,head,,,,,Jasek et al. 2022
+Glia-pigmented,5,celltype_non_neuronal34,glia cell,head,,,,,Jasek et al. 2022
 pygidial-pigment-cell,26,celltype_non_neuronal35,pigment cell,pygidium,,,,,Jasek et al. 2022
-coelothelium,100,celltype_non_neuronal36,,head sg0 sg1 sg2 sg3,,,,MNwave,Jasek et al. 2022
+coelothelium,100,celltype_non_neuronal36,coelothelium,head sg0 sg1 sg2 sg3,,,,MNwave,Jasek et al. 2022
 MUSac-notA,12,celltype_non_neuronal37,muscle,sg1 sg2 sg3,parapodia,,,MNring MNcrab,Bezares-Calderon et al. 2018      Jasek et al. 2022
 MUSac-notP,12,celltype_non_neuronal38,muscle,sg1 sg2 sg3,parapodia,,,MNspider-ant MNcrab MNbow MNwave MNacic,Bezares-Calderon et al. 2018      Jasek et al. 2022
 MUSac-notM,12,celltype_non_neuronal39,muscle,sg1 sg2 sg3,parapodia,,,MNwave,Bezares-Calderon et al. 2018      Jasek et al. 2022
@@ -290,6 +290,6 @@ MUSpx,1,celltype_non_neuronal86,muscle,head,,,,,Jasek et al. 2022
 MUSpr-vt,1,celltype_non_neuronal87,muscle,head,,,,,Jasek et al. 2022
 MUStri,2,celltype_non_neuronal88,muscle,head,,,,,Jasek et al. 2022
 MUSmed,2,celltype_non_neuronal89,muscle,head,,,,,Jasek et al. 2022
-EC,1118,celltype_non_neuronal90,pigment cell gland cell,head sg0 sg1 sg2 sg3 pygidium,nuchal organ,,,Loop MNring,Jasek et al. 2022
-yolk,5,celltype_non_neuronal91,,sg1 sg2,,,,,this study
-meso 1592020,24,celltype_non_neuronal92,,pygidium,,,,,Jasek et al. 2022
+EC,1118,celltype_non_neuronal90,epidermis,head sg0 sg1 sg2 sg3 pygidium,nuchal organ,,,Loop MNring,Jasek et al. 2022
+yolk,5,celltype_non_neuronal91,yolk,sg1 sg2,,,,,this study
+meso 1592020,24,celltype_non_neuronal92,mesoderm,pygidium,,,,,Jasek et al. 2022
