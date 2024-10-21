@@ -4968,7 +4968,7 @@ plot_cell_chars(annot, "pigment cell")
 annot <- ("celltype_non_neuronal10")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-"Motoneuron"
+
 
 
 
@@ -4989,7 +4989,7 @@ plot_cell_chars(annot, "pigment cell")
 annot <- ("celltype_non_neuronal11")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-"Motoneuron"
+
 
 
 
@@ -5050,7 +5050,7 @@ plot_cell_chars(annot, "pigment cell")
 annot <- ("celltype_non_neuronal33")
 plot_cell_name(annot, "pigment cell")
 plot_cell_chars(annot, "pigment cell")
-"Motoneuron"
+
 
 
 
@@ -5301,6 +5301,508 @@ plot_cell_chars(annot, "excretory system")
 ## Muscle cells
 
 
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal37")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal37.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal37.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal38")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal38.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal38.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal39")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal39.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal39.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal40")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal40.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal40.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal41")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal41.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal41.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal42")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal42.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal42.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal43")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal43.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal43.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal44")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal44.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal44.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal45")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal45.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal45.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal46")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal46.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal46.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal47")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal47.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal47.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal48")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal48.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal48.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal49")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal49.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal49.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal50")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal50.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal50.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal51")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal51.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal51.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal52")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal52.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal52.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal53")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal53.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal53.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal54")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal54.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal54.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal55")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal55.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal55.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal56")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal56.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal56.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal57")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal57.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal57.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal58")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal58.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal58.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal59")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal59.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal59.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal60")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal60.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal60.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal61")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal61.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal61.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal62")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal62.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal62.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal63")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal63.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal63.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal64")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal64.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal64.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal65")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal65.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal65.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal66")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal66.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal66.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal67")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal67.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal67.html){target="_blank"}
+
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal68")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal68.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal68.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal69")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal69.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal69.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal70")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal70.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal70.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal71")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal71.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal71.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal72")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal72.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal72.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal73")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal73.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal73.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal74")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal74.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal74.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal75")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal75.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal75.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal76")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal76.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal76.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal77")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal77.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal77.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal78")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal78.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal78.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal79")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal79.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal79.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal80")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal80.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal80.html){target="_blank"}
+
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal81")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal81.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal81.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal82")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal82.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal82.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal83")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal83.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal83.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal84")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal84.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal84.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal85")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal85.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal85.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal86")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal86.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal86.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal87")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal87.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal87.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal88")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal88.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal88.html){target="_blank"}
+
+```{r}
+#| echo: false
+annot <- ("celltype_non_neuronal89")
+plot_cell_name(annot, "muscle")
+plot_cell_chars(annot, "muscle")
+```
+![](snapshots/celltype_non_neuronal89.png){height=200}
+[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal89.html){target="_blank"}
 
 ## Other non-neuronal cell types
 

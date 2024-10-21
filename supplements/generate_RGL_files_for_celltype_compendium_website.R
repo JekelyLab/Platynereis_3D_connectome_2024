@@ -4412,6 +4412,20 @@ htmlwidgets::saveWidget(widgets, path2)
 
 
 
+#muscle
+
+for (i in 37:89){
+annot <- paste("celltype_non_neuronal", i, sep = "")
+rgl <- plot_cell_rgl(annot, "muscle", "ventral")
+widgets <- rglwidget(scene3d(rgl))
+# make snapshot
+path1 <- paste("supplements/celltype_compendium_website/_site/snapshots/", annot, ".png", sep = "")
+rgl.snapshot(path1)
+close3d()
+path2 <- paste("supplements/celltype_compendium_website/_site/celltype_RGLs/", annot, ".html", sep = "")
+htmlwidgets::saveWidget(widgets, path2)
+}
+
 ## Other non-neuronal cell types
 
 
