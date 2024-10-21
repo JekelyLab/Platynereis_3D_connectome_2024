@@ -93,7 +93,7 @@ plot_cell_chars(annot, "Sensory neuron")
 ```
 ![](snapshots/celltype1.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype1.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype1.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -116,7 +116,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype33.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype33.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype33.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -139,7 +139,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype34.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype34.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype34.html){target="_blank"}
 
 #### Ciliary photoreceptors {#sec-cPRC}
 
@@ -164,7 +164,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype5.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype5.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype5.html){target="_blank"}
 
 ### Mechanoreceptors
 
@@ -191,7 +191,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype100.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype100.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype100.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -215,7 +215,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype101.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype101.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype101.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -238,7 +238,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype102.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype102.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype102.html){target="_blank"}
 
 
 #### PU (penetrating uniciliated) mechanosensory neurons
@@ -265,7 +265,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype88.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype88.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype88.html){target="_blank"}
 
 
 ```{r}
@@ -290,7 +290,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype89.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype89.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype89.html){target="_blank"}
 
 
 ```{r}
@@ -316,7 +316,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype90.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype90.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype90.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -340,7 +340,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype91.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype91.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype91.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -365,7 +365,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype92.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype92.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype92.html){target="_blank"}
 
 
 ```{r}
@@ -390,7 +390,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype93.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype93.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype93.html){target="_blank"}
 
 
 ```{r}
@@ -415,7 +415,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype94.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype94.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype94.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -439,7 +439,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype95.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype95.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype95.html){target="_blank"}
 
 
 ```{r}
@@ -464,7 +464,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype96.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype96.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype96.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -488,7 +488,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype97.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype97.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype97.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -512,7 +512,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype98.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype98.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype98.html){target="_blank"}
 
 
 #### PB (penetrating biciliated) mechanosensory neurons  {#sec-PB}
@@ -540,7 +540,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype80.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype80.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype80.html){target="_blank"}
 
 
 ```{r}
@@ -566,7 +566,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype54.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype54.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype54.html){target="_blank"}
 
 
 #### Flow-sensory MS neurons
@@ -594,7 +594,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype35.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype35.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype35.html){target="_blank"}
 
 
 ```{r}
@@ -619,7 +619,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype36.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype36.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype36.html){target="_blank"}
 
 
 ```{r}
@@ -644,7 +644,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype37.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype37.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype37.html){target="_blank"}
 
 
 ```{r}
@@ -669,7 +669,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype38.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype38.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype38.html){target="_blank"}
 
 
 #### Chaetal mechanosensory neurons
@@ -697,7 +697,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype71.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype71.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype71.html){target="_blank"}
 
 
 #### Other putative mechanosensory neurons in the mechanosensory girdle
@@ -725,7 +725,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype26.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype26.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype26.html){target="_blank"}
 
 
 
@@ -751,7 +751,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype148.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype148.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype148.html){target="_blank"}
 
 
 
@@ -776,7 +776,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype168.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype168.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype168.html){target="_blank"}
 
 
 ```{r}
@@ -800,7 +800,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype143.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype143.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype143.html){target="_blank"}
 
 
 
@@ -825,7 +825,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype115.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype115.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype115.html){target="_blank"}
 
 
 ```{r}
@@ -849,7 +849,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype170.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype170.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype170.html){target="_blank"}
 
 
 
@@ -877,7 +877,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype13.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype13.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype13.html){target="_blank"}
 
 
 ```{r}
@@ -902,7 +902,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype14.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype14.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype14.html){target="_blank"}
 
 
 ```{r}
@@ -927,7 +927,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype15.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype15.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype15.html){target="_blank"}
 
 
 ### Mushroom body sensory cells
@@ -956,7 +956,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype190.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype190.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype190.html){target="_blank"}
 
 
 
@@ -981,7 +981,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype187.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype187.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype187.html){target="_blank"}
 
 
 ```{r}
@@ -1005,7 +1005,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype25.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype25.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype25.html){target="_blank"}
 
 
 
@@ -1031,7 +1031,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype32.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype32.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype32.html){target="_blank"}
 
 
 
@@ -1058,7 +1058,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype20.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype20.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype20.html){target="_blank"}
 
 
 
@@ -1085,7 +1085,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype17.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype17.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype17.html){target="_blank"}
 
 
 
@@ -1110,7 +1110,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype18.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype18.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype18.html){target="_blank"}
 
 
 ```{r}
@@ -1134,7 +1134,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype16.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype16.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype16.html){target="_blank"}
 
 
 
@@ -1159,7 +1159,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype137.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype137.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype137.html){target="_blank"}
 
 
 
@@ -1185,7 +1185,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype133.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype133.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype133.html){target="_blank"}
 
 
 
@@ -1210,7 +1210,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype138.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype138.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype138.html){target="_blank"}
 
 
 
@@ -1236,7 +1236,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype131.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype131.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype131.html){target="_blank"}
 
 
 
@@ -1262,7 +1262,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype110.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype110.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype110.html){target="_blank"}
 
 
 
@@ -1290,7 +1290,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype141.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype141.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype141.html){target="_blank"}
 
 
 
@@ -1315,7 +1315,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype52.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype52.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype52.html){target="_blank"}
 
 
 
@@ -1340,7 +1340,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype132.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype132.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype132.html){target="_blank"}
 
 
 
@@ -1365,7 +1365,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype52.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype52.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype52.html){target="_blank"}
 
 
 ```{r}
@@ -1389,7 +1389,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype48.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype48.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype48.html){target="_blank"}
 
 
 
@@ -1415,7 +1415,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype135.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype135.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype135.html){target="_blank"}
 
 
 ```{r}
@@ -1439,7 +1439,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype130.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype130.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype130.html){target="_blank"}
 
 
 ```{r}
@@ -1463,7 +1463,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype112.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype112.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype112.html){target="_blank"}
 
 
 
@@ -1488,7 +1488,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype111.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype111.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype111.html){target="_blank"}
 
 
 ```{r}
@@ -1512,7 +1512,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype136.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype136.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype136.html){target="_blank"}
 
 
 
@@ -1537,7 +1537,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype129.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype129.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype129.html){target="_blank"}
 
 
 
@@ -1562,7 +1562,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype134.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype134.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype134.html){target="_blank"}
 
 
 
@@ -1587,7 +1587,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype139.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype139.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype139.html){target="_blank"}
 
 
 
@@ -1612,7 +1612,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype113.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype113.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype113.html){target="_blank"}
 
 
 ```{r}
@@ -1636,7 +1636,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype45.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype45.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype45.html){target="_blank"}
 
 
 ```{r}
@@ -1660,7 +1660,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype46.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype46.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype46.html){target="_blank"}
 
 
 
@@ -1686,7 +1686,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype44.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype44.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype44.html){target="_blank"}
 
 
 ```{r}
@@ -1710,7 +1710,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype43.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype43.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype43.html){target="_blank"}
 
 
 
@@ -1735,7 +1735,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype39.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype39.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype39.html){target="_blank"}
 
 
 See also @sec-cPRC for the apical organ ciliary photoreceptors.
@@ -1766,7 +1766,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype28.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype28.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype28.html){target="_blank"}
 
 
 
@@ -1792,7 +1792,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype40.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype40.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype40.html){target="_blank"}
 
 
 
@@ -1818,7 +1818,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype41.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype41.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype41.html){target="_blank"}
 
 
 
@@ -1843,7 +1843,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype31.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype31.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype31.html){target="_blank"}
 
 
 
@@ -1869,7 +1869,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype163.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype163.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype163.html){target="_blank"}
 
 
 
@@ -1895,7 +1895,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype29.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype29.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype29.html){target="_blank"}
 
 
 ```{r}
@@ -1919,7 +1919,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype30.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype30.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype30.html){target="_blank"}
 
 
 
@@ -1944,7 +1944,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype172.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype172.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype172.html){target="_blank"}
 
 
 
@@ -1969,7 +1969,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype173.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype173.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype173.html){target="_blank"}
 
 
 
@@ -1994,7 +1994,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype103.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype103.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype103.html){target="_blank"}
 
 
 
@@ -2022,7 +2022,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype24.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype24.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype24.html){target="_blank"}
 
 
 
@@ -2048,7 +2048,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype27.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype27.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype27.html){target="_blank"}
 
 
 
@@ -2074,7 +2074,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype49.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype49.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype49.html){target="_blank"}
 
 
 ```{r}
@@ -2098,7 +2098,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype50.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype50.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype50.html){target="_blank"}
 
 
 
@@ -2123,7 +2123,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype51.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype51.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype51.html){target="_blank"}
 
 
 ```{r}
@@ -2147,7 +2147,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype114.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype114.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype114.html){target="_blank"}
 
 
 ```{r}
@@ -2171,7 +2171,7 @@ plot_cell_chars(annot, "Sensory neuron")
 
 ![](snapshots/celltype167.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype167.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype167.html){target="_blank"}
 
 
 
@@ -2198,7 +2198,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype2.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype2.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype2.html){target="_blank"}
 
 
 ```{r}
@@ -2218,7 +2218,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype3.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype3.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype3.html){target="_blank"}
 
 
 ```{r}
@@ -2238,7 +2238,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype171.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype171.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype171.html){target="_blank"}
 
 
 
@@ -2266,7 +2266,7 @@ plot_cell_chars(annot, "Interneuron")
 
 ![](snapshots/celltype11.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype11.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype11.html){target="_blank"}
 
 
 
@@ -2291,7 +2291,7 @@ plot_cell_chars(annot, "Interneuron")
 
 ![](snapshots/celltype12.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype12.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype12.html){target="_blank"}
 
 
 
@@ -2316,7 +2316,7 @@ plot_cell_chars(annot, "Interneuron")
 
 ![](snapshots/celltype10.png){height=200}
 
-[3D visualisation](_site/celltype_RGLs/celltype10.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype10.html){target="_blank"}
 
 ### Apical organ interneurons
 
@@ -2342,7 +2342,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype7.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype7.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype7.html){target="_blank"}
 
 
 
@@ -2366,7 +2366,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype6.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype6.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype6.html){target="_blank"}
 
 
 ### Central brain interneurons
@@ -2389,7 +2389,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype188.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype188.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype188.html){target="_blank"}
 
 
 ```{r}
@@ -2409,7 +2409,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype193.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype193.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype193.html){target="_blank"}
 
 
 ```{r}
@@ -2429,7 +2429,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype118.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype118.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype118.html){target="_blank"}
 
 
 ```{r}
@@ -2449,7 +2449,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype174.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype174.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype174.html){target="_blank"}
 
 
 ```{r}
@@ -2469,7 +2469,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype196.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype196.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype196.html){target="_blank"}
 
 
 ```{r}
@@ -2489,7 +2489,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype57.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype57.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype57.html){target="_blank"}
 
 
 
@@ -2510,7 +2510,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype179.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype179.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype179.html){target="_blank"}
 
 
 
@@ -2534,7 +2534,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype55.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype55.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype55.html){target="_blank"}
 
 
 ```{r}
@@ -2554,7 +2554,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype56.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype56.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype56.html){target="_blank"}
 
 
 ```{r}
@@ -2574,7 +2574,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype123.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype123.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype123.html){target="_blank"}
 
 
 ```{r}
@@ -2594,7 +2594,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype152.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype152.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype152.html){target="_blank"}
 
 
 ```{r}
@@ -2614,7 +2614,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype153.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype153.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype153.html){target="_blank"}
 
 
 ```{r}
@@ -2634,7 +2634,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype22.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype22.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype22.html){target="_blank"}
 
 
 ```{r}
@@ -2654,7 +2654,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype124.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype124.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype124.html){target="_blank"}
 
 
 ```{r}
@@ -2674,7 +2674,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype125.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype125.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype125.html){target="_blank"}
 
 
 ```{r}
@@ -2694,7 +2694,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype117.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype117.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype117.html){target="_blank"}
 
 ### Central brain descending interneurons
 
@@ -2715,7 +2715,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype76.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype76.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype76.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -2734,7 +2734,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype175.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype175.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype175.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -2753,7 +2753,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype144.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype144.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype144.html){target="_blank"}
 
 
 ### Other brain decussating interneurons
@@ -2776,7 +2776,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype199.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype199.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype199.html){target="_blank"}
 
 
 ### Mushroom body intrinsic interneurons
@@ -2799,7 +2799,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype120.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype120.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype120.html){target="_blank"}
 
 
 ```{r}
@@ -2819,7 +2819,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype121.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype121.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype121.html){target="_blank"}
 
 
 
@@ -2840,7 +2840,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype122.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype122.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype122.html){target="_blank"}
 
 
 ```{r}
@@ -2860,7 +2860,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype197.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype197.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype197.html){target="_blank"}
 
 
 ```{r}
@@ -2880,7 +2880,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype198.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype198.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype198.html){target="_blank"}
 
 
 
@@ -2904,7 +2904,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype189.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype189.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype189.html){target="_blank"}
 
 
 ```{r}
@@ -2924,7 +2924,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype184.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype184.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype184.html){target="_blank"}
 
 
 ```{r}
@@ -2944,7 +2944,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype140.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype140.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype140.html){target="_blank"}
 
 
 ```{r}
@@ -2964,7 +2964,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype183.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype183.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype183.html){target="_blank"}
 
 
 ```{r}
@@ -2984,7 +2984,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype185.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype185.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype185.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3003,7 +3003,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype191.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype191.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype191.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3022,7 +3022,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype192.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype192.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype192.html){target="_blank"}
 
 
 
@@ -3043,7 +3043,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype194.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype194.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype194.html){target="_blank"}
 
 
 
@@ -3064,7 +3064,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype195.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype195.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype195.html){target="_blank"}
 
 
 ```{r}
@@ -3084,7 +3084,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype58.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype58.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype58.html){target="_blank"}
 
 
 ### Head dorsolateral interneuron 
@@ -3106,7 +3106,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype4.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype4.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype4.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3125,7 +3125,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype21.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype21.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype21.html){target="_blank"}
 
 
 ```{r}
@@ -3145,7 +3145,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype23.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype23.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype23.html){target="_blank"}
 
 
 ```{r}
@@ -3165,7 +3165,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype104.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype104.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype104.html){target="_blank"}
 
 
 
@@ -3186,7 +3186,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype116.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype116.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype116.html){target="_blank"}
 
 
 ```{r}
@@ -3206,7 +3206,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype119.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype119.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype119.html){target="_blank"}
 
 
 ```{r}
@@ -3226,7 +3226,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype126.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype126.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype126.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3245,7 +3245,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype127.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype127.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype127.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3264,7 +3264,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype160.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype160.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype160.html){target="_blank"}
 
 
 ```{r}
@@ -3284,7 +3284,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype186.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype186.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype186.html){target="_blank"}
 
 
 ```{r}
@@ -3304,7 +3304,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype201.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype201.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype201.html){target="_blank"}
 
 
 
@@ -3325,7 +3325,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype42.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype42.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype42.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3344,7 +3344,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype53.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype53.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype53.html){target="_blank"}
 
 
 ### Head, mechanosensory girdle interneurons
@@ -3367,7 +3367,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype83.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype83.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype83.html){target="_blank"}
 
 
 ```{r}
@@ -3387,7 +3387,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype202.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype202.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype202.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -3406,7 +3406,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype75.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype75.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype75.html){target="_blank"}
 
 
 ### Ventral nerve cord, mechanosensory girdle interneurons
@@ -3428,7 +3428,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype60.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype60.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype60.html){target="_blank"}
 
 
 
@@ -3449,7 +3449,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype73.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype73.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype73.html){target="_blank"}
 
 
 ```{r}
@@ -3469,7 +3469,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype74.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype74.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype74.html){target="_blank"}
 
 
 ```{r}
@@ -3489,7 +3489,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype77.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype77.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype77.html){target="_blank"}
 
 
 
@@ -3510,7 +3510,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype78.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype78.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype78.html){target="_blank"}
 
 
 ```{r}
@@ -3530,7 +3530,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype79.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype79.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype79.html){target="_blank"}
 
 
 ```{r}
@@ -3550,7 +3550,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype149.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype149.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype149.html){target="_blank"}
 
 
 ```{r}
@@ -3570,7 +3570,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype157.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype157.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype157.html){target="_blank"}
 
 
 ### Pygidial interneurons
@@ -3592,7 +3592,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype147.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype147.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype147.html){target="_blank"}
 
 
 ```{r}
@@ -3612,7 +3612,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype72.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype72.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype72.html){target="_blank"}
 
 
 ```{r}
@@ -3632,7 +3632,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype145.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype145.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype145.html){target="_blank"}
 
 
 
@@ -3656,7 +3656,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype105.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype105.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype105.html){target="_blank"}
 
 
 
@@ -3680,7 +3680,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype70.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype70.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype70.html){target="_blank"}
 
 
 ```{r}
@@ -3700,7 +3700,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype108.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype108.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype108.html){target="_blank"}
 
 
 ```{r}
@@ -3720,7 +3720,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype109.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype109.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype109.html){target="_blank"}
 
 
 ```{r}
@@ -3740,7 +3740,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype146.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype146.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype146.html){target="_blank"}
 
 
 ```{r}
@@ -3760,7 +3760,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype150.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype150.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype150.html){target="_blank"}
 
 
 ```{r}
@@ -3780,7 +3780,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype154.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype154.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype154.html){target="_blank"}
 
 
 ```{r}
@@ -3800,7 +3800,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype155.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype155.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype155.html){target="_blank"}
 
 
 ```{r}
@@ -3820,7 +3820,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype158.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype158.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype158.html){target="_blank"}
 
 
 ```{r}
@@ -3840,7 +3840,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype169.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype169.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype169.html){target="_blank"}
 
 
 ```{r}
@@ -3860,7 +3860,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype176.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype176.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype176.html){target="_blank"}
 
 
 ```{r}
@@ -3880,7 +3880,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype177.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype177.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype177.html){target="_blank"}
 
 
 
@@ -3901,7 +3901,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype180.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype180.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype180.html){target="_blank"}
 
 
 
@@ -3923,7 +3923,7 @@ plot_cell_chars(annot, "Interneuron")
 ```
 
 ![](snapshots/celltype200.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype200.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype200.html){target="_blank"}
 
 
 ## Motor neurons
@@ -3947,7 +3947,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype9.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype9.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype9.html){target="_blank"}
 
 
 ```{r}
@@ -3967,7 +3967,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype164.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype164.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype164.html){target="_blank"}
 
 
 
@@ -3988,7 +3988,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype8.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype8.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype8.html){target="_blank"}
 
 
 ```{r}
@@ -4008,7 +4008,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype19.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype19.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype19.html){target="_blank"}
 
 
 ```{r}
@@ -4028,7 +4028,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype142.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype142.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype142.html){target="_blank"}
 
 
 ```{r}
@@ -4048,7 +4048,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype59.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype59.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype59.html){target="_blank"}
 
 
 
@@ -4069,7 +4069,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype84.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype84.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype84.html){target="_blank"}
 
 
 
@@ -4092,7 +4092,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype85.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype85.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype85.html){target="_blank"}
 
 
 ```{r}
@@ -4112,7 +4112,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype86.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype86.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype86.html){target="_blank"}
 
 ### Other head motoneurons
 
@@ -4133,7 +4133,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype178.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype178.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype178.html){target="_blank"}
 
 
 
@@ -4157,7 +4157,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype166.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype166.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype166.html){target="_blank"}
 
 
 ```{r}
@@ -4177,7 +4177,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype47.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype47.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype47.html){target="_blank"}
 
 
 ### Pigment-cell-motor neurons
@@ -4200,7 +4200,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype82.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype82.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype82.html){target="_blank"}
 
 
 ```{r}
@@ -4220,7 +4220,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype87.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype87.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype87.html){target="_blank"}
 
 
 
@@ -4233,7 +4233,7 @@ plot_cell_chars(annot, "Sensory neuron")
 ```
 
 ![](snapshots/celltype54.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype54.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype54.html){target="_blank"}
 
 See also @sec-PB for pygPBunp as penetrating biciliated sensory neuron.
 
@@ -4259,7 +4259,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype61.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype61.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype61.html){target="_blank"}
 
 
 
@@ -4280,7 +4280,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype62.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype62.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype62.html){target="_blank"}
 
 
 ```{r}
@@ -4300,7 +4300,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype63.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype63.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype63.html){target="_blank"}
 
 
 ```{r}
@@ -4320,7 +4320,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype65.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype65.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype65.html){target="_blank"}
 
 
 ```{r}
@@ -4340,7 +4340,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype66.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype66.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype66.html){target="_blank"}
 
 
 ```{r}
@@ -4360,7 +4360,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype67.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype67.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype67.html){target="_blank"}
 
 
 ```{r}
@@ -4380,7 +4380,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype68.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype68.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype68.html){target="_blank"}
 
 
 ```{r}
@@ -4400,7 +4400,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype69.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype69.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype69.html){target="_blank"}
 
 
 
@@ -4421,7 +4421,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype106.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype106.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype106.html){target="_blank"}
 
 
 
@@ -4442,7 +4442,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype107.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype107.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype107.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4461,7 +4461,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype128.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype128.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype128.html){target="_blank"}
 
 
 ```{r}
@@ -4481,7 +4481,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype151.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype151.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype151.html){target="_blank"}
 
 
 
@@ -4502,7 +4502,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype156.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype156.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype156.html){target="_blank"}
 
 
 ```{r}
@@ -4522,7 +4522,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype161.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype161.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype161.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4541,7 +4541,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype162.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype162.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype162.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4560,7 +4560,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype181.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype181.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype181.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4579,7 +4579,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype182.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype182.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype182.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4598,7 +4598,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype159.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype159.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype159.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -4617,7 +4617,7 @@ plot_cell_chars(annot, "Motoneuron")
 ```
 
 ![](snapshots/celltype165.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype165.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype165.html){target="_blank"}
 
 
 
@@ -4643,7 +4643,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal7.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal7.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal7.html){target="_blank"}
 
 
 
@@ -4664,7 +4664,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal9.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal9.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal9.html){target="_blank"}
 
 
 ```{r}
@@ -4684,7 +4684,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal17.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal17.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal17.html){target="_blank"}
 
 
 
@@ -4705,7 +4705,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal29.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal29.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal29.html){target="_blank"}
 
 
 ```{r}
@@ -4725,7 +4725,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal30.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal30.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal30.html){target="_blank"}
 
 
 
@@ -4746,7 +4746,7 @@ plot_cell_chars(annot, "gland cell")
 ```
 
 ![](snapshots/celltype_non_neuronal31.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal31.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal31.html){target="_blank"}
 
 ## Glia cells
 
@@ -4768,7 +4768,7 @@ plot_cell_chars(annot, "glia cell")
 ```
 
 ![](snapshots/celltype_non_neuronal15.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal15.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal15.html){target="_blank"}
 
 
 ```{r}
@@ -4788,7 +4788,7 @@ plot_cell_chars(annot, "glia cell")
 ```
 
 ![](snapshots/celltype_non_neuronal16.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal16.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal16.html){target="_blank"}
 
 
 
@@ -4809,7 +4809,7 @@ plot_cell_chars(annot, "glia cell")
 ```
 
 ![](snapshots/celltype_non_neuronal34.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal34.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal34.html){target="_blank"}
 
 ## Multiciliated cells
 
@@ -4830,7 +4830,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal4.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal4.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal4.html){target="_blank"}
 
 
 ```{r}
@@ -4850,7 +4850,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal1.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal1.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal1.html){target="_blank"}
 
 
 
@@ -4872,7 +4872,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal2.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal2.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal2.html){target="_blank"}
 
 
 
@@ -4893,7 +4893,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal3.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal3.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal3.html){target="_blank"}
 
 
 ```{r}
@@ -4913,7 +4913,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal5.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal5.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal5.html){target="_blank"}
 
 
 
@@ -4934,7 +4934,7 @@ plot_cell_chars(annot, "multiciliated cell")
 ```
 
 ![](snapshots/celltype_non_neuronal6.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal6.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal6.html){target="_blank"}
 
 
 
@@ -4958,7 +4958,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal8.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal8.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal8.html){target="_blank"}
 
 
 
@@ -4979,7 +4979,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal10.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal10.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal10.html){target="_blank"}
 
 
 
@@ -5000,7 +5000,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal11.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal11.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal11.html){target="_blank"}
 
 
 
@@ -5021,7 +5021,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal14.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal14.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal14.html){target="_blank"}
 
 
 ```{r}
@@ -5041,7 +5041,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal32.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal32.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal32.html){target="_blank"}
 
 
 ```{r}
@@ -5061,7 +5061,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal33.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal33.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal33.html){target="_blank"}
 
 
 
@@ -5082,7 +5082,7 @@ plot_cell_chars(annot, "pigment cell")
 ```
 
 ![](snapshots/celltype_non_neuronal35.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal35.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal35.html){target="_blank"}
 
 ## Chaetal and acicular cells
 
@@ -5104,7 +5104,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal22.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal22.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal22.html){target="_blank"}
 
 
 
@@ -5125,7 +5125,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal23.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal23.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal23.html){target="_blank"}
 
 
 
@@ -5146,7 +5146,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal24.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal24.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal24.html){target="_blank"}
 
 
 ```{r}
@@ -5166,7 +5166,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal25.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal25.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal25.html){target="_blank"}
 
 
 ```{r}
@@ -5186,7 +5186,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal26.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal26.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal26.html){target="_blank"}
 
 
 
@@ -5207,7 +5207,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal27.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal27.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal27.html){target="_blank"}
 
 
 
@@ -5228,7 +5228,7 @@ plot_cell_chars(annot, "chaetal complex")
 ```
 
 ![](snapshots/celltype_non_neuronal28.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal28.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal28.html){target="_blank"}
 
 
 ## Nephridial cells
@@ -5251,7 +5251,7 @@ plot_cell_chars(annot, "excretory system")
 ```
 
 ![](snapshots/celltype_non_neuronal19.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal19.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal19.html){target="_blank"}
 
 
 
@@ -5272,7 +5272,7 @@ plot_cell_chars(annot, "excretory system")
 ```
 
 ![](snapshots/celltype_non_neuronal20.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal20.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal20.html){target="_blank"}
 
 
 
@@ -5293,7 +5293,7 @@ plot_cell_chars(annot, "excretory system")
 ```
 
 ![](snapshots/celltype_non_neuronal21.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal21.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal21.html){target="_blank"}
 
 
 
@@ -5308,7 +5308,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal37.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal37.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal37.html){target="_blank"}
 
 
 ```{r}
@@ -5318,7 +5318,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal38.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal38.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal38.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5327,7 +5327,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal39.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal39.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal39.html){target="_blank"}
 
 
 
@@ -5338,7 +5338,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal40.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal40.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal40.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5347,7 +5347,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal41.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal41.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal41.html){target="_blank"}
 
 
 ```{r}
@@ -5357,7 +5357,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal42.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal42.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal42.html){target="_blank"}
 
 
 ```{r}
@@ -5367,7 +5367,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal43.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal43.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal43.html){target="_blank"}
 
 
 ```{r}
@@ -5377,7 +5377,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal44.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal44.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal44.html){target="_blank"}
 
 
 ```{r}
@@ -5387,7 +5387,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal45.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal45.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal45.html){target="_blank"}
 
 
 ```{r}
@@ -5397,7 +5397,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal46.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal46.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal46.html){target="_blank"}
 
 
 ```{r}
@@ -5407,7 +5407,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal47.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal47.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal47.html){target="_blank"}
 
 
 ```{r}
@@ -5417,7 +5417,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal48.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal48.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal48.html){target="_blank"}
 
 
 ```{r}
@@ -5427,7 +5427,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal49.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal49.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal49.html){target="_blank"}
 
 
 ```{r}
@@ -5437,7 +5437,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal50.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal50.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal50.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5446,7 +5446,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal51.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal51.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal51.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5455,7 +5455,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal52.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal52.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal52.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5464,7 +5464,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal53.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal53.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal53.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5473,7 +5473,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal54.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal54.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal54.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5482,7 +5482,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal55.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal55.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal55.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5491,7 +5491,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal56.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal56.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal56.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5500,7 +5500,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal57.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal57.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal57.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5509,7 +5509,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal58.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal58.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal58.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5518,7 +5518,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal59.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal59.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal59.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5527,7 +5527,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal60.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal60.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal60.html){target="_blank"}
 
 
 
@@ -5538,7 +5538,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal61.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal61.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal61.html){target="_blank"}
 
 
 ```{r}
@@ -5548,7 +5548,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal62.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal62.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal62.html){target="_blank"}
 
 
 ```{r}
@@ -5558,7 +5558,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal63.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal63.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal63.html){target="_blank"}
 
 
 ```{r}
@@ -5568,7 +5568,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal64.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal64.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal64.html){target="_blank"}
 
 
 ```{r}
@@ -5578,7 +5578,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal65.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal65.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal65.html){target="_blank"}
 
 
 ```{r}
@@ -5588,7 +5588,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal66.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal66.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal66.html){target="_blank"}
 
 
 ```{r}
@@ -5598,7 +5598,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal67.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal67.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal67.html){target="_blank"}
 
 
 
@@ -5609,7 +5609,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal68.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal68.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal68.html){target="_blank"}
 
 
 ```{r}
@@ -5619,7 +5619,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal69.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal69.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal69.html){target="_blank"}
 
 
 ```{r}
@@ -5629,7 +5629,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal70.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal70.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal70.html){target="_blank"}
 
 
 ```{r}
@@ -5639,7 +5639,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal71.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal71.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal71.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5648,7 +5648,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal72.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal72.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal72.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5657,7 +5657,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal73.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal73.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal73.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5666,7 +5666,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal74.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal74.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal74.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5675,7 +5675,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal75.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal75.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal75.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5684,7 +5684,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal76.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal76.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal76.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5693,7 +5693,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal77.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal77.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal77.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5702,7 +5702,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal78.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal78.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal78.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5711,7 +5711,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal79.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal79.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal79.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5720,7 +5720,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal80.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal80.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal80.html){target="_blank"}
 
 
 ```{r}
@@ -5730,7 +5730,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal81.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal81.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal81.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5739,7 +5739,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal82.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal82.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal82.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5748,7 +5748,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal83.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal83.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal83.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5757,7 +5757,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal84.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal84.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal84.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5766,7 +5766,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal85.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal85.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal85.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5775,7 +5775,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal86.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal86.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal86.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5784,7 +5784,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal87.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal87.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal87.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5793,7 +5793,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal88.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal88.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal88.html){target="_blank"}
 
 ```{r}
 #| echo: false
@@ -5802,7 +5802,7 @@ plot_cell_name(annot, "muscle")
 plot_cell_chars(annot, "muscle")
 ```
 ![](snapshots/celltype_non_neuronal89.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal89.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal89.html){target="_blank"}
 
 ## Other non-neuronal cell types
 
@@ -5826,7 +5826,7 @@ plot_cell_chars(annot, "coelothelium")
 ```
 
 ![](snapshots/celltype_non_neuronal36.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal36.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal36.html){target="_blank"}
 
 
 
@@ -5847,7 +5847,7 @@ plot_cell_chars(annot, "yolk")
 ```
 
 ![](snapshots/celltype_non_neuronal91.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal91.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal91.html){target="_blank"}
 
 
 
@@ -5868,7 +5868,7 @@ plot_cell_chars(annot, "mesoderm")
 ```
 
 ![](snapshots/celltype_non_neuronal92.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal92.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal92.html){target="_blank"}
 
 
 
@@ -5890,7 +5890,7 @@ plot_cell_chars(annot, "macrophage-like")
 ```
 
 ![](snapshots/celltype_non_neuronal13.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal13.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal13.html){target="_blank"}
 
 
 
@@ -5911,7 +5911,7 @@ plot_cell_chars(annot, "microvillar")
 ```
 
 ![](snapshots/celltype_non_neuronal18.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal18.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal18.html){target="_blank"}
 
 
 
@@ -5932,7 +5932,7 @@ plot_cell_chars(annot, "gland")
 ```
 
 ![](snapshots/celltype_non_neuronal12.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal12.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal12.html){target="_blank"}
 
 
 
@@ -5954,6 +5954,6 @@ plot_cell_chars(annot, "epidermis")
 ```
 
 ![](snapshots/celltype_non_neuronal90.png){height=200}
-[3D visualisation](_site/celltype_RGLs/celltype_non_neuronal90.html){target="_blank"}
+[3D visualisation](celltype_RGLs/celltype_non_neuronal90.html){target="_blank"}
 
 
