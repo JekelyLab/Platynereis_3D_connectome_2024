@@ -64,10 +64,10 @@ Whole-animal synaptic connectomes have so far only been described for the nemato
 Circuits spanning the entire central nervous system (CNS) have also been reconstructed in the larval CNS of the fruit fly *Drosophila melanogaster* [@carreira2018mdn; @miroschnikow2018convergence; @ohyama2015multilevel] and in the three-day-old larva of the annelid *Platynereis dumerilii* [@bezares-calderon2018; @Randel2015; @veraszto2017].
 Recently, whole-brain connectomics has become possible in the larval and adult fly brain [@zheng2018complete; @franconville2018building; @winding2023connectome].
 
-Here we report the complete synaptic connectome and the cell-type complement of a three-day-old larva (nectochaete stage) of the marine annelid *Platynereis dumerilii*.
+Here we report the complete synaptic connectome and the cell-type complement of a three-day-old larva (early nectochaete stage) of the marine annelid *Platynereis dumerilii*.
 This larval stage has three trunk segments, adult and larval eyes, segmental ciliary bands and a well-developed somatic musculature [@jasek2022].
 The larvae show several behaviours, including visual phototaxis [@randel2014neuronal], UV avoidance [@veraszto2018], a startle response [@bezares-calderon2018] and coordinated ciliary activity [@veraszto2017].
-Three-day-old larvae do not yet have sensory palps and other sensory appendages (cirri), they do not feed and lack visceral muscles and an enteric nervous system [@brunet2016evolutionary; @williams2015myoinhibitory].
+The early nectochaete larva represents a transient dispersing stage in the life cycle of *Platynereis*. During this stage the larvae do not feed yet but rely on maternally provided yolk. Compared to the juvenile and adult stages it is expected that a considerable number of cell types will be only developing or completely missing at this stage. Three-day-old larvae do not yet have sensory palps and other sensory appendages (cirri), they do not crawl or feed and lack visceral muscles and an enteric nervous system [@brunet2016evolutionary; @williams2015myoinhibitory].
 
 In *Platynereis* larvae, it has been possible to integrate behaviour with synapse-level maps, transgenic labelling of individual neurons, activity imaging and gene knockouts [@bezares-calderon2018; @veraszto2017; @veraszto2018; @jokura2023nitric].
 Cellular-resolution gene expression atlases have also been developed for different larval stages.
@@ -219,7 +219,7 @@ These annotations were used to query the data and visualise subsets of cells.
 
 Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
 We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
-
+Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_celltype_compendium.html and Supplementary file 1).
 Querying by two or more annotations allows tallying the number of cells in different category (e.g. number of sensory cells with a single penetrating cilium or the number of gland cells in a particular segment)(Figure 3---figure supplement 3).
 
 Left-right cell-type pairs have similar arbor morphologies (Figure 3---figure supplement 4).
@@ -1040,6 +1040,19 @@ Video 2.
 Video 3.
 Video 4.
 Video 5.
+
+\
+
+# Supplementary files
+
+Supplementary Table 1.
+List of all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, main synaptic partners and reference.
+
+Supplementary Table 2.
+Summary of all EM layers including the information on lost layers, immunogold labelling and re-imaging.
+
+Supplementary file 1. 
+A compressed (zip) stand-alone webpage listing all cell types together with their interactive 3D morphological rendering. After uncompressing the file, the Platynereis_celltype_compendium.html file can be opened in a browser.
 
 \
 
