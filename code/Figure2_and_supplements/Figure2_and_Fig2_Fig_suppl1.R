@@ -41,8 +41,7 @@ visNet <- visNetwork(conn_graph.visn$nodes, conn_graph.visn$edges) %>%
     borderWidth = 0.1,
     color = list(border = "black"),
     opacity = 1,
-    scaling = list(min = 10, max = 50),
-    font = list(size = 20)
+    scaling = list(min = 10, max = 50)
   ) %>%
   visOptions(
     highlightNearest = list(
@@ -88,6 +87,44 @@ webshot::webshot(
   cliprect = c(90, 105, 2420, 2400), zoom = 2
 )
 
+# save with labels for interactive website
+
+conn_graph.visn$nodes$label <- conn_graph.visn$nodes$names
+
+visNet <- visNetwork(conn_graph.visn$nodes, conn_graph.visn$edges) %>%
+  visIgraphLayout(layout = "layout.norm", layoutMatrix = coords_rotated) %>%
+  visEdges(
+    smooth = list(type = "curvedCW", roundness = 0),
+    scaling = list(min = 0.05, max = 35),
+    color = list(inherit = TRUE, opacity = 0.5),
+    arrows = list(to = list(
+      enabled = TRUE,
+      scaleFactor = 0.5, type = "arrow"
+    ))
+  ) %>%
+  visNodes(
+    borderWidth = 0.1,
+    color = list(border = "black"),
+    opacity = 1,
+    scaling = list(min = 10, max = 50),
+    font = list(color = "black", size = 15)
+  ) %>%
+  visOptions(
+    highlightNearest = list(
+      enabled = TRUE, degree = 1,
+      algorithm = "hierarchical", labelOnly = FALSE
+    ),
+    width = 2500, height = 2500, autoResize = FALSE
+  ) %>%
+  visInteraction(
+    dragNodes = TRUE, dragView = TRUE,
+    zoomView = TRUE, hover = TRUE,
+    multiselect = TRUE
+  ) %>%
+  addFontAwesome()
+
+# save as html
+saveNetwork(visNet, "pictures/Full_connectome_modules_with_names.html", selfcontained = TRUE)
 
 # plot neurons by colours matching network pic -----------------------------
 
