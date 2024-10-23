@@ -422,7 +422,19 @@ webshot2::webshot(
       x = 0.4, y = 0.98, fontfamily = "sans", fontface = "plain",
       color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1
     ) +
-    draw_label(expression(paste("50 ", mu, " m")), x = 0.8, y = 0.05, size = 10)
+    draw_label(expression(paste("50 ", mu, " m")), x = 0.8, y = 0.05, size = 10) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   
   panelB <- ggdraw() + draw_image(imgB, scale = 1) +
     draw_label("chaeMech, synapses",
@@ -436,12 +448,38 @@ webshot2::webshot(
     draw_label("postsynapse",
       x = 0.15, y = 0.85, fontfamily = "sans", fontface = "plain",
       color = blues[4], size = 9, angle = 0, lineheight = 0.9, alpha = 1
-    )
+    ) 
+  
   panelC <- ggdraw() + draw_image(imgC, scale = 1) +
     draw_label("chaeMech, lateral",
       x = 0.4, y = 0.98, fontfamily = "sans", fontface = "plain",
       color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1
-    )
+    )  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8)   +
+    geom_segment(aes(x = 0.78,
+                     y = 0.93,
+                     xend = 0.88,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.88,
+                     y = 0.93,
+                     xend = 0.78,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.76, y = 0.93, size = 8) +
+    draw_label("v", x = 0.9, y = 0.93, size = 8) 
+
   panelD <- ggdraw() + draw_image(imgD, scale = 1) +
     draw_label(expression(paste("2.5 ", mu, "m", sep = "")),
       x = 0.21, y = 0.18, fontfamily = "sans", fontface = "bold",

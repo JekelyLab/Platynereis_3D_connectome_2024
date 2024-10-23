@@ -1755,7 +1755,19 @@ panel_sg0 <- ggdraw() + draw_image(readPNG("pictures/Figure_sg0.png")) +
 
 panel_cil <- ggdraw() + draw_image(readPNG("pictures/Figure_sg1_Loop_Ser_trochs.png")) +
   draw_label("sg1 ciliomotors", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11) 
+             color = "black", size = 11)   +
+    geom_segment(aes(x = 0.03,
+                     y = 0.9,
+                     xend = 0.03,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.03,
+                     y = 0.82,
+                     xend = 0.03,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.03, y = 0.93, size = 8) +
+    draw_label("p", x = 0.03, y = 0.79, size = 8) 
 panel_MC3 <- ggdraw() + draw_image(readPNG("pictures/Figure_sg1_MN_targets.png")) +
   draw_label("sg1 other motor", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
              color = "black", size = 11)

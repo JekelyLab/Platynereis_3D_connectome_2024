@@ -463,7 +463,19 @@ webshot2::webshot(url="pictures/visNetwork_mech_INsplit_circuit.html",
   panelCR <- ggdraw() + draw_image(imgCR, scale=1) +
     draw_label('CR', x=0.2, y=0.99, fontfamily = "sans", fontface = "plain",
                color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
-    draw_label(expression(paste("50 ", mu, " m")), x = 0.79, y = 0.04, size = 10)
+    draw_label(expression(paste("50 ", mu, " m")), x = 0.79, y = 0.04, size = 10)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   
   panelPB <- ggdraw() + draw_image(imgPB, scale=1) +
     draw_label('PB', x=0.2, y=0.99, fontfamily = "sans", fontface = "plain",

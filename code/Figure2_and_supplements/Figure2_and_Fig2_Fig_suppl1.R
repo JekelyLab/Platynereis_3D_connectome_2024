@@ -853,7 +853,19 @@ panel_mod12 <- ggdraw() + draw_image(readPNG("pictures/conn_module_MUS3_r.png"))
 
 panel_all <- ggdraw() + draw_image(readPNG("pictures/conn_module_all.png")) +
   draw_label("all modules", x = 0.5, y = 0.95, size = 9) +
-  draw_label(expression(paste("50 ", mu, " m")), x = 0.84, y = 0.08, size = 10)
+  draw_label(expression(paste("50 ", mu, " m")), x = 0.84, y = 0.08, size = 10) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   
 
 panel_conn <- ggdraw() + draw_image(img_conn) +

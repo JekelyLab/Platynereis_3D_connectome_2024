@@ -604,7 +604,19 @@ panel_full <- ggdraw() + draw_image(
 ) + 
   draw_label("head cells", x = 0.3, y = 0.99, size = 10, color = segmental_colors[1]) + 
   draw_label("trunk cells", x = 0.7, y = 0.99, size = 10, color = segmental_colors[6]) +
-  draw_label(expression(paste("50 ", mu, " m")), x = 0.86, y = 0.12, size = 10)
+  draw_label(expression(paste("50 ", mu, " m")), x = 0.86, y = 0.12, size = 10)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   
 
 panel_conn <- ggdraw() + draw_image(

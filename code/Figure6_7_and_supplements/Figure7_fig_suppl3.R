@@ -732,7 +732,19 @@ panel_hCR <- ggdraw() + draw_image(readPNG(
   draw_label(
     "hCR and postsynaptic partners",
     x = 0.5, y = 0.98, color = "black", size = 12
-  )
+  ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_INRGWa_pre <- ggdraw() + draw_image(readPNG(
   "pictures/INRGWa_presyn_partners.png"

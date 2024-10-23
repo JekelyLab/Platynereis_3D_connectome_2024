@@ -120,14 +120,38 @@ panel_1 <- ggdraw() + draw_image(readPNG("pictures/conn_module_eye_MB_AO_postura
   draw_label("visual", x = 0.47, y = 0.44, size = 11) +
   draw_label("MB and central brain", x = 0.3, y = 0.35, size = 11) +
   draw_label("anterior NS", x = 0.5, y = 0.6, size = 11) +
-  draw_label("postural control", x = 0.3, y = 0.2, size = 11)
+  draw_label("postural control", x = 0.3, y = 0.2, size = 11) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.82,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.05, y = 0.93, size = 8) +
+    draw_label("v", x = 0.05, y = 0.79, size = 8)
 
 panel_2 <- ggdraw() + draw_image(readPNG("pictures/conn_module_Mech_MB_post.png")) +
   draw_label("VNC neuropils", x = 0.4, y = 0.99, size = 10) +
   draw_label("Mech. (r)", x = 0.85, y = 0.35, size = 11) +  
   draw_label("Mech. (l)", x = 0.2, y = 0.35, size = 11) +
   draw_label("MB and central brain", x = 0.54, y = 0.52, size = 11) +
-  draw_label("postural control", x = 0.5, y = 0.63, size = 11)
+  draw_label("postural control", x = 0.5, y = 0.63, size = 11) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.82,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.05, y = 0.93, size = 8) +
+    draw_label("v", x = 0.05, y = 0.79, size = 8)
 
 # define layout
 layout <- "
@@ -139,12 +163,12 @@ Figure2_fig_suppl_neuropil <- panel_1 + panel_2  +
   plot_annotation(tag_levels = "A") &
   theme(plot.tag = element_text(size = 12, face = "plain"))
 
-ggsave("Figures/Figure2_fig_suppl_3.png",
+ggsave("Figures/Figure2_fig_suppl3.png",
        limitsize = FALSE,
        units = c("px"), Figure2_fig_suppl_neuropil, width = 1800, height = 960, bg = "white"
 )
 
-ggsave("Figures/Figure2_fig_suppl_3.pdf",
+ggsave("Figures/Figure2_fig_suppl3.pdf",
        limitsize = FALSE,
        units = c("px"), Figure2_fig_suppl_neuropil, width = 1800, height = 960
 )

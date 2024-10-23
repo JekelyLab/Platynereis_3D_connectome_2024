@@ -269,7 +269,19 @@ webshot::webshot(
 panel_glands <- ggdraw() + 
   draw_image(readPNG("pictures/all_glands.png")) +
   draw_label("all gland cell types", x = 0.5, y = 0.99, 
-             fontfamily = "sans", size = 11)
+             fontfamily = "sans", size = 11)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 panel_MNgland_head_v <- ggdraw() + 
   draw_image(readPNG("pictures/MNgland_head_glands_v.png")) +
@@ -279,7 +291,19 @@ panel_MNgland_head_v <- ggdraw() +
 panel_MNgland_head_a <- ggdraw() + 
   draw_image(readPNG("pictures/MNgland_head_glands_a.png")) +
   draw_label("anterior view", x = 0.6, y = 0.99, 
-             fontfamily = "sans", size = 11)
+             fontfamily = "sans", size = 11) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_table <- ggdraw() + 
   draw_image(readPNG("pictures/glands_stats_table.png"))

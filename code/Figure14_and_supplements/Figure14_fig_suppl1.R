@@ -297,7 +297,19 @@ for (i in 1:length(mech_MN)){
   #convert png to image panel
   panelAll_SN <- ggdraw() + draw_image(imgAll, scale = 1) + 
     draw_label("all sensory", x = 0.5, y = 0.98,
-               color = "black", size = 11)
+               color = "black", size = 11)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   panelAll_IN <- ggdraw() + draw_image(imgAll_IN, scale = 1) + 
     draw_label("all inter", x = 0.5, y = 0.98,
                color = "black", size = 11)

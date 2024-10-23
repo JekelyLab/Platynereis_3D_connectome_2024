@@ -433,22 +433,6 @@ close3d()
 # assemble figure ------------------
 
 
-panel_decuss_desc_f <- ggdraw() + draw_image(
-  readPNG("pictures/desc_decuss_neurons_frontal.png")
-) +
-  draw_label("decussating",
-    x = 0.1, y = 0.99, hjust = 0,
-    size = 10, color = Okabe_Ito[1], fontface = "bold"
-  ) +
-  draw_label("descending",
-    x = 0.1, y = 0.94, hjust = 0,
-    size = 10, color = Okabe_Ito[5], fontface = "bold"
-  ) +
-  draw_label("neurites",
-    x = 0.7, y = 0.99, hjust = 0,
-    size = 10, color = Okabe_Ito[8], fontface = "plain"
-  )
-
 panel_decuss_desc_post_v <- ggdraw() + draw_image(
   readPNG("pictures/desc_decuss_postsyn_ventral.png")
 ) +
@@ -484,7 +468,19 @@ panel_decuss_desc_pre_v <- ggdraw() + draw_image(
 
 panel_decuss_post_pre_v <- ggdraw() + draw_image(
   readPNG("pictures/decuss_post_pre_ventral.png")
-)
+)  +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.82,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.05, y = 0.93, size = 8) +
+    draw_label("p", x = 0.05, y = 0.79, size = 8) 
 
 panel_decuss_post_pre_f <- ggdraw() + draw_image(
   readPNG("pictures/decuss_post_pre_frontal.png")
@@ -500,11 +496,35 @@ panel_decuss_post_pre_f <- ggdraw() + draw_image(
   draw_label("postsynapse",
     x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[6], fontface = "bold"
-  )
+  )+
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_desc_post_pre_v <- ggdraw() + draw_image(
   readPNG("pictures/desc_post_pre_ventral.png")
-)
+)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 panel_desc_post_pre_f <- ggdraw() + draw_image(
   readPNG("pictures/desc_post_pre_frontal.png")
@@ -520,7 +540,19 @@ panel_desc_post_pre_f <- ggdraw() + draw_image(
   draw_label("postsynapse",
     x = 0.6, y = 0.99, hjust = 0,
     size = 10, color = Okabe_Ito[6], fontface = "bold"
-  )
+  ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_decuss_desc_v <- ggdraw() + draw_image(
   readPNG("pictures/desc_decuss_neurons_ventral.png")
@@ -536,7 +568,20 @@ panel_decuss_desc_v <- ggdraw() + draw_image(
   draw_label("neurites",
              x = 0.7, y = 0.99, hjust = 0,
              size = 10, color = Okabe_Ito[8], fontface = "plain"
-  ) 
+  )   +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.82,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.05, y = 0.93, size = 8) +
+    draw_label("p", x = 0.05, y = 0.79, size = 8) 
+
 
 
 panel_desc_decuss_partners <- ggdraw() + draw_image(readPNG(
@@ -567,7 +612,19 @@ panel_desc_decuss_cross <- ggdraw() + draw_image(readPNG(
   draw_label("descending",
              x = 0.1, y = 0.89, hjust = 0,
              size = 10, color = Okabe_Ito[5], fontface = "bold"
-  )
+  ) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.76),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.76,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.05, y = 0.94, size = 8) +
+    draw_label("v", x = 0.05, y = 0.72, size = 8) 
 
 panel_desc_decuss_partners_cross <- ggdraw() + draw_image(readPNG(
   "pictures/neurites_desc_decuss_VNC_targets.png"

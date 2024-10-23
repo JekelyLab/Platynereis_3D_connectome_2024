@@ -590,14 +590,38 @@ panel_PDFv <-ggdraw() + draw_image(readPNG("pictures/PDF_neurons_ventral.png")) 
     expression(paste("50 ", mu, " m")), 
     x = 0.83, y = 0.07, 
     color = "black", size = 10
-    )
+    ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.5,
+                     xend = 0.1,
+                     yend = 0.42),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.42,
+                     xend = 0.1,
+                     yend = 0.5),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.53, size = 8) +
+    draw_label("p", x = 0.1, y = 0.39, size = 8) 
 
 
 panel_PDFa <-ggdraw() + draw_image(readPNG("pictures/PDF_neurons_frontal.png")) + 
   draw_label(
     "PDF+, anterior view", x = 0.4, y = 0.99, 
     color = "black", size = 11
-  )
+  ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_ATO <-ggdraw() + draw_image(readPNG("pictures/ATO_neurons_ventral.png")) + 
   draw_label(
@@ -615,14 +639,38 @@ panel_FVa <-ggdraw() + draw_image(readPNG("pictures/FVa_neurons_ventral.png")) +
   draw_label(
     "FVamide+", x = 0.3, y = 0.99, 
     color = "black", size = 11
-  )
+  )  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 panel_cPRC <-ggdraw() + draw_image(readPNG("pictures/cPRC_et_al.png")) + 
   draw_label(
     "sNPF/RYamide+ (INNOS)\nRGWamide+ (INRGW)\npedal-peptide-2+ (cPRC)", 
     x = 0.1, y = 0.94, 
     color = "black", size = 11, hjust = 0
-  )
+  ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.7,
+                     xend = 0.1,
+                     yend = 0.62),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.62,
+                     xend = 0.1,
+                     yend = 0.7),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.73, size = 8) +
+    draw_label("v", x = 0.1, y = 0.59, size = 8) 
 
 panel_ach <-ggdraw() + draw_image(readPNG("pictures/SN47Ach.png")) + 
   draw_label(
@@ -640,7 +688,19 @@ panel_Ser <-ggdraw() + draw_image(readPNG("pictures/Ser_neurons.png")) +
   draw_label(
     "serotonergic", x = 0.5, y = 0.99, 
     color = "black", size = 11
-  )
+  )  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 panel_ACh_v <-ggdraw() + draw_image(readPNG("pictures/ACh_neurons_ventral.png")) + 
   draw_label(
@@ -651,7 +711,19 @@ panel_ACh_a <-ggdraw() + draw_image(readPNG("pictures/ACh_neurons_frontal.png"))
   draw_label(
     "cholinergic, anterior view", x = 0.5, y = 0.99, 
     color = "black", size = 11
-  )
+  ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 panel_Glu <-ggdraw() + draw_image(readPNG("pictures/Glu_neurons.png")) + 
   draw_label(
@@ -704,7 +776,7 @@ ggsave("Figures/Figure5.png", limitsize = FALSE,
        width = 3200, height = 4500, bg='white'
        )  
 
-  ggsave("Figures/Figure5.pdf", limitsize = FALSE, 
+ggsave("Figures/Figure5.pdf", limitsize = FALSE, 
        units = c("px"), Figure5, 
        width = 3200, height = 4500
        )  

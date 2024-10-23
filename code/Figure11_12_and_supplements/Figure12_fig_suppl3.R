@@ -286,7 +286,19 @@ panel_SNstiff <- ggdraw() + draw_image(
 ) + 
   draw_label("SNstiff", x = 0.5, y = 0.95, size = 11) +
   draw_label(expression(paste("50 ", mu, " m")), 
-             x = 0.84, y = 0.07, size = 9, color = "black")
+             x = 0.84, y = 0.07, size = 9, color = "black")  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 
 panel_doCRunp <- ggdraw() + draw_image(

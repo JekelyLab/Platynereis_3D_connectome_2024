@@ -1531,7 +1531,19 @@ imgJ <- readPNG("pictures/Figure_MB_overviewDlat.png")
 
 #convert png to image panel
 {
-panel_MBover <- ggdraw() + draw_image(img_MBover, scale = 1)
+panel_MBover <- ggdraw() + draw_image(img_MBover, scale = 1)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.86),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.86,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.92, size = 8) +
+    draw_label("p", x = 0.1, y = 0.85, size = 8) 
 
 panelMBintrIN <- ggdraw() + draw_image(imgC, scale = 1) + 
   draw_label("MBintrIN, anterior", x = 0.5, y = 0.98, fontfamily = "sans", fontface = "plain",
@@ -1539,7 +1551,20 @@ panelMBintrIN <- ggdraw() + draw_image(imgC, scale = 1) +
 
 panelMBSN <- ggdraw() + draw_image(imgD, scale = 1) + 
   draw_label("MBSN, anterior", x = 0.5, y = 0.98, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
+
 panelMBON <- ggdraw() + draw_image(imgF, scale = 1) + 
   draw_label("MBON, anterior", x = 0.5, y = 0.98, fontfamily = "sans", fontface = "plain",
              color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
@@ -1552,7 +1577,31 @@ panelAllMBventr <- ggdraw() + draw_image(imgI, scale = 1) +
              color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
 panelAllMBright <- ggdraw() + draw_image(imgJ, scale = 1) + 
   draw_label("all MB neurons, right", x = 0.5, y = 0.98, fontfamily = "sans", fontface = "plain",
-             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+             color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8)   +
+    geom_segment(aes(x = 0.78,
+                     y = 0.9,
+                     xend = 0.88,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.88,
+                     y = 0.9,
+                     xend = 0.78,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.76, y = 0.9, size = 8) +
+    draw_label("v", x = 0.9, y = 0.9, size = 8) 
 
 }
 
@@ -1651,14 +1700,51 @@ panel_grouped_plots <- plot_grid(panel_small1,panel_small2,panel_small3,panel_sm
 {
   panelSNA <- cowplot::ggdraw() + draw_image(imgSN1, scale = 1) + 
     draw_label("MB SN inputs", x = 0.3, y = 0.97, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
   
   panelSNB <- ggdraw() + draw_image(imgSN2, scale = 1) + 
     draw_label("MB SN inputs, ventral view", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
   panelSNC <- ggdraw() + draw_image(imgSN3, scale = 1) + 
     draw_label("palp partners", x = 0.3, y = 0.97, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
+  
   panelSND <- ggdraw() + draw_image(imgSN4, scale = 1) + 
     draw_label("antenna and SNbronto partners", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
                color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
@@ -1685,10 +1771,36 @@ panel_grouped_plots <- plot_grid(panel_small1,panel_small2,panel_small3,panel_sm
   
   panel_T2a <- ggdraw() + draw_image(img_T2a, scale = 1) + 
     draw_label("INproT2 partners, anterior", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
+  
   panel_T2v <- ggdraw() + draw_image(img_T2v, scale = 1) + 
     draw_label("INproT2 partners, ventral", x = 0.5, y = 0.97, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)
+               color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1) +
+    geom_segment(aes(x = 0.02,
+                     y = 0.9,
+                     xend = 0.02,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.02,
+                     y = 0.82,
+                     xend = 0.02,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.02, y = 0.93, size = 8) +
+    draw_label("p", x = 0.02, y = 0.79, size = 8) 
+  
   panel_INW <- ggdraw() + draw_image(img_INW, scale = 1) + 
     draw_label("INW partners", x = 0.4, y = 0.97, fontfamily = "sans", fontface = "plain",
                color = "black", size = 11, angle = 0, lineheight = 0.9, alpha = 1)

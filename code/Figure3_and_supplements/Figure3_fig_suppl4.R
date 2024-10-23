@@ -130,7 +130,19 @@ source("code/Natverse_functions_and_conn.R")
 # assemble figure ------------------------------
 
 MNakro <- ggdraw() + draw_image(readPNG("pictures/MNakro.png"), scale = 1) +
-  draw_label(expression(paste("50 ", mu, " m")), x = 0.68, y = 0.07, size = 10)
+  draw_label(expression(paste("50 ", mu, " m")), x = 0.68, y = 0.07, size = 10) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
 
 MNgland <- ggdraw() + draw_image(readPNG("pictures/MNgland.png"), scale = 1)
 MNheadV <- ggdraw() + draw_image(readPNG("pictures/MNheadV.png"), scale = 1)
@@ -148,7 +160,19 @@ INDLSO <- ggdraw() + draw_image(readPNG("pictures/INDLSO.png"), scale = 1)
 INATOpyg <- ggdraw() + draw_image(readPNG("pictures/INATOpyg.png"), scale = 1)
 
 MNbow <- ggdraw() + draw_image(readPNG("pictures/MNbow.png"), scale = 1) +
-  draw_label(expression(paste("50 ", mu, " m")), x = 0.83, y = 0.1, size = 10)
+  draw_label(expression(paste("50 ", mu, " m")), x = 0.83, y = 0.1, size = 10)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 
 SNgolden <- ggdraw() + draw_image(readPNG("pictures/SNgold.png"), scale = 1)

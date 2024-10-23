@@ -672,7 +672,31 @@ p_germ_layers <- ggdraw() + draw_image(readPNG("pictures/germ_layers.png")) +
   draw_label("right view, left side", x = 0.7, y = 0.99, size = 10) +
   draw_label("ectoderm", x = 0.5, y = 0.3, size = 10, color=Okabe_Ito[6]) +
   draw_label("mesoderm", x = 0.5, y = 0.25, size = 10, color=Okabe_Ito[2]) +
-  draw_label("endoderm", x = 0.5, y = 0.2, size = 10, color=Okabe_Ito[8])
+  draw_label("endoderm", x = 0.5, y = 0.2, size = 10, color=Okabe_Ito[8])  +
+    geom_segment(aes(x = 0.04,
+                     y = 0.9,
+                     xend = 0.04,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.04,
+                     y = 0.82,
+                     xend = 0.04,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.04, y = 0.93, size = 8) +
+    draw_label("p", x = 0.04, y = 0.79, size = 8)    +
+    geom_segment(aes(x = 0.88,
+                     y = 0.95,
+                     xend = 0.96,
+                     yend = 0.95),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.96,
+                     y = 0.95,
+                     xend = 0.88,
+                     yend = 0.95),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.86, y = 0.95, size = 8) +
+    draw_label("v", x = 0.98, y = 0.95, size = 8) 
 
 p_glia <- ggdraw() + draw_image(readPNG("pictures/germ_layers_glia.png")) +
   draw_label("glia", x = 0.5, y = 0.3, size = 10)

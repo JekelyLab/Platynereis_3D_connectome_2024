@@ -279,7 +279,19 @@ close3d()
     draw_label(expression(paste("50 ", mu, "m")),
       x = 0.73, y = 0.08, fontfamily = "sans", fontface = "plain",
       color = "black", size = 10, angle = 0, lineheight = 0.9, alpha = 1
-    )
+    ) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.1, y = 0.93, size = 8) +
+    draw_label("v", x = 0.1, y = 0.79, size = 8) 
   panelB <- ggdraw() + draw_image(readPNG("pictures/Figure_head_Suppl_eyespot-PRCR1.png")) +
     draw_label("eyespot-PRCR1",
       x = 0.35, y = 0.95, fontfamily = "sans", fontface = "plain",

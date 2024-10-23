@@ -366,7 +366,19 @@ colnames(N_cells_seg) <- c("CR", "PU", "PB", "INsplit", "MUSlongV", "MUStrans")
     draw_label(expression(paste("50 ", mu, " m")),
       x = 0.78, y = 0.07, fontfamily = "sans", fontface = "plain",
       color = "black", size = 10
-    )
+    )  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
   panelPU <- ggdraw() + draw_image(imgPU, scale = 1) +
     draw_label("PU",

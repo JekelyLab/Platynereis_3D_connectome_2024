@@ -518,21 +518,106 @@ panelMN <- ggdraw() + draw_image(imgMN, scale = 1) +
 panelAll <- ggdraw() + draw_image(imgAll, scale = 1) + 
     draw_label("girdle all, ventral", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
                color = "black", size = 11) +
-  draw_label(expression(paste("50 ", mu, " m")), x = 0.75, y = 0.04, size = 10)
+  draw_label(expression(paste("50 ", mu, " m")), x = 0.75, y = 0.04, size = 10)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 
 panelAll_lat <- ggdraw() + draw_image(imgAll_lat, scale = 1) + 
     draw_label("girdle all, lateral", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11)
+               color = "black", size = 11)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8)   +
+    geom_segment(aes(x = 0.78,
+                     y = 0.93,
+                     xend = 0.88,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.88,
+                     y = 0.93,
+                     xend = 0.78,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.76, y = 0.93, size = 8) +
+    draw_label("v", x = 0.9, y = 0.93, size = 8) 
+
   
 panelIN_ventr <- ggdraw() + draw_image(imgIN_ventr, scale = 1) + 
     draw_label("girdle IN, ventral", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11)
+               color = "black", size = 11)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8) 
 panelIN_ant <- ggdraw() + draw_image(imgIN_ant, scale = 1) + 
     draw_label("girdle IN, anterior", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11)
+               color = "black", size = 11) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.9,
+                     xend = 0.05,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.05,
+                     y = 0.82,
+                     xend = 0.05,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.05, y = 0.93, size = 8) +
+    draw_label("v", x = 0.05, y = 0.79, size = 8) 
 panelIN_lat <- ggdraw() + draw_image(imgIN_lat, scale = 1) + 
     draw_label("girdle IN, lateral", x = 0.5, y = 0.99, fontfamily = "sans", fontface = "plain",
-               color = "black", size = 11)
+               color = "black", size = 11)  +
+    geom_segment(aes(x = 0.1,
+                     y = 0.9,
+                     xend = 0.1,
+                     yend = 0.82),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.1,
+                     y = 0.82,
+                     xend = 0.1,
+                     yend = 0.9),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("a", x = 0.1, y = 0.93, size = 8) +
+    draw_label("p", x = 0.1, y = 0.79, size = 8)   +
+    geom_segment(aes(x = 0.78,
+                     y = 0.93,
+                     xend = 0.88,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) +
+    geom_segment(aes(x = 0.88,
+                     y = 0.93,
+                     xend = 0.78,
+                     yend = 0.93),
+                 arrow = arrow(type = 'closed', length = unit(0.8, "mm"))) + 
+    draw_label("d", x = 0.76, y = 0.93, size = 8) +
+    draw_label("v", x = 0.9, y = 0.93, size = 8) 
 
 panel_girdle <- ggdraw() + 
   draw_image(image_read("pictures/Full_connectome_girdle.png")) +
