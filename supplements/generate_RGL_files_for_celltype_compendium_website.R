@@ -34,15 +34,20 @@ celltypes <- rio::import("supplements/Supplementary_Table1.csv")
 
 ## Sensory neurons
 
-
+#load anatomy landmarks
+bounding_dots = nlapply(read.neurons.catmaid("^bounding_dots$", pid=11),
+                          function(x) smooth_neuron(x, sigma=6000))
+yolk <- catmaid_get_volume(4, rval = c("mesh3d", "catmaidmesh", "raw"),
+                             invertFaces = T, conn = NULL, pid = 11)
+acicula <-   nlapply(read.neurons.catmaid("^acicula$", pid=11),
+                       function(x) smooth_neuron(x, sigma=6000))
 
 
 plot_background <- function(x){
   nopen3d() # opens a pannable 3d window
   par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
   plot3d(bounding_dots, add=T, col="white") 
-  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
-  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
+  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey60")
   par3d(zoom=0.52)
   nview3d("frontal", extramat=rotationMatrix(0.2, 1, 0.1, 0.5))
   #z-axis clip
@@ -57,8 +62,7 @@ plot_background_ventral <- function(x){
   nopen3d() # opens a pannable 3d window
   par3d(windowRect = c(0, 0, 200, 200)) #resize for frontal view
   plot3d(bounding_dots, add=T, col="white") 
-  plot3d(yolk, add=T, alpha=0.1, col="#E2E2E2") 
-  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey70")
+  plot3d(acicula, soma=F, lwd=2, add=T, alpha=1, col="grey60")
   par3d(zoom=0.6)
   nview3d('ventral', extramat=(rotationMatrix(0.35, 1, 0, 0)%*%rotationMatrix(0.05, 0, 0, 1)))
   #y-axis clip
@@ -68,13 +72,6 @@ plot_background_ventral <- function(x){
 }
 
 
-#load anatomy landmarks
-bounding_dots = nlapply(read.neurons.catmaid("^bounding_dots$", pid=11),
-                          function(x) smooth_neuron(x, sigma=6000))
-yolk <- catmaid_get_volume(4, rval = c("mesh3d", "catmaidmesh", "raw"),
-                             invertFaces = T, conn = NULL, pid = 11)
-acicula <-   nlapply(read.neurons.catmaid("^acicula$", pid=11),
-                       function(x) smooth_neuron(x, sigma=6000))
 
 
 #function to plot rgl widget with neuron
@@ -94,6 +91,8 @@ plot_cell_rgl <- function(annotation, type_of_cell, background){
   }
   plot3d(neuron1, WithConnectors = F, soma=TRUE, lwd=3,
          add=T, alpha=0.7, col="#0072B2")
+  plot3d(yolk, add=T, alpha=0.06, col="#E2E2E2") 
+
 
   s <- scene3d()
   rglwidget(s, width = 400, height = 100)
@@ -105,13 +104,10 @@ plot_cell_rgl <- function(annotation, type_of_cell, background){
 
 #### Rhabdomeric photoreceptors
 
-
-
 # PRC
 annot <- "celltype1"
-
-
 rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+
 widgets <- rglwidget(scene3d(rgl))
 # make snapshot
 path1 <- paste("supplements/celltype_compendium_website/_site/snapshots/", annot, ".png", sep = "")
@@ -485,7 +481,7 @@ htmlwidgets::saveWidget(widgets, path2)
 # PB neurons celltype80 and 54
 annot <- ("celltype80")
 
-rgl <- plot_cell_rgl(annot, "Sensory neuron Interneuron", "ventral")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
 widgets <- rglwidget(scene3d(rgl))
 # make snapshot
 path1 <- paste("supplements/celltype_compendium_website/_site/snapshots/", annot, ".png", sep = "")
@@ -615,7 +611,7 @@ htmlwidgets::saveWidget(widgets, path2)
 annot <- ("celltype71")
 
 
-rgl <- plot_cell_rgl(annot, "Sensory neuron", "anterior")
+rgl <- plot_cell_rgl(annot, "Sensory neuron", "ventral")
 widgets <- rglwidget(scene3d(rgl))
 # make snapshot
 path1 <- paste("supplements/celltype_compendium_website/_site/snapshots/", annot, ".png", sep = "")
