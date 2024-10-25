@@ -219,10 +219,10 @@ These annotations were used to query the data and visualise subsets of cells.
 
 Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
 We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
-Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_celltype_compendium.html and Supplementary file 1).
+Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_connectome/celltype_compendium/index.html and Supplementary file 1).
 Querying by two or more annotations allows tallying the number of cells in different category (e.g. number of sensory cells with a single penetrating cilium or the number of gland cells in a particular segment)(Figure 3---figure supplement 3).
 
-Left-right cell-type pairs have similar arbor morphologies (Figure 3---figure supplement 4).
+Left-right cell-type pairs have similar arbour morphologies (Figure 3---figure supplement 4).
 The similar branching patterns for left and right cells of the same type is also indicated by their similar average Sholl diagrams (Figure 3---figure supplement 5).
 Left-right pairs also have projections at symmetrical positions in the VNC indicating neuropil stereotypy (Figure 3---figure supplement 6).
 
