@@ -1052,7 +1052,7 @@ Supplementary Table 2.
 Summary of all EM layers including the information on lost layers, immunogold labelling and re-imaging.
 
 Supplementary file 1. 
-A compressed (zip) stand-alone webpage listing all cell types together with their interactive 3D morphological rendering. After uncompressing the file, the Platynereis_celltype_compendium.html file can be opened in a browser.
+A compressed (zip) stand-alone webpage listing all cell types together with their interactive 3D morphological rendering. After uncompressing the file, the index.html file can be opened in a browser.
 
 \
 
