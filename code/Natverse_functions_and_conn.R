@@ -39,12 +39,21 @@ if (!dir.exists("Figures")) {
 }
 
 
+#for revision only, then delete and decomment public server
+{
+  # can run this separate file using source function
+  conn <- source("~/R/conn.R")
+  #for larger calls we need to use http/1, see https://www.gitmemory.com/issue/natverse/rcatmaid/158/641537466
+  #for this we configure to http/1.1
+  conn_http1 = catmaid_login(conn=conn, config=httr::config(ssl_verifypeer=0, http_version=1))
+}
+
 # catmaid connection
-conn_http1 <- catmaid_login(
-  server="https://catmaid.jekelylab.ex.ac.uk/", 
-  authname="AnonymousUser",
-  config=httr::config(ssl_verifypeer=0, http_version=1)
-)
+#conn_http1 <- catmaid_login(
+#  server="https://catmaid.jekelylab.ex.ac.uk/", 
+#  authname="AnonymousUser",
+#  config=httr::config(ssl_verifypeer=0, http_version=1)
+#)
 
 #save session info and Rstudio version info for reproducibility
 writeLines(capture.output(sessionInfo()), "code/sessionInfo.txt")
