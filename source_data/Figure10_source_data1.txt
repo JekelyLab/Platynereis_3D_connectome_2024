@@ -2536,7 +2536,7 @@
 "2535"	"INRGWa_dcr1"	"SN"	1	"#CC79A7"	1
 "2536"	"INpreSer_l"	"SN"	1	"#CC79A7"	1
 "2537"	"eyespot-PRCR1_l"	"SN"	1	"#E69F00"	1
-"2538"	"prototroch_7clock_A"	"SN"	1	"grey50"	1
+"2538"	"prototroch_8A"	"SN"	1	"grey50"	1
 "2539"	"INhead_r 1304980"	"SN"	1	"#CC79A7"	1
 "2540"	"INdecussfoot_l"	"SN"	1	"#CC79A7"	1
 "2541"	"cPRC_l2"	"IN"	1	"#E69F00"	1
