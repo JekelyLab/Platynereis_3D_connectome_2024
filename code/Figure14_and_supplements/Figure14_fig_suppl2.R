@@ -17,8 +17,6 @@ panelTEM <- ggdraw() + draw_image(imgTEM, scale = 1) +
   draw_label(expression(paste("10 ", mu, "m")), x = 0.82, y = 0.08, fontfamily = "sans", fontface = "plain",
              color = "white", size = 15) + 
   draw_line(x=c(0.7, 0.95), y=0.05, color='white', size=2) + 
-    draw_label("all sensory", x = 0.5, y = 0.98,
-               color = "black", size = 11)  +
     geom_segment(aes(x = 0.02,
                      y = 0.9,
                      xend = 0.02,
