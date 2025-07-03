@@ -67,7 +67,10 @@ Recently, whole-brain connectomics has become possible in the larval and adult f
 Here we report the complete synaptic connectome and the cell-type complement of a three-day-old larva (early nectochaete stage) of the marine annelid *Platynereis dumerilii*.
 This larval stage has three trunk segments, adult and larval eyes, segmental ciliary bands and a well-developed somatic musculature [@jasek2022].
 The larvae show several behaviours, including visual phototaxis [@randel2014neuronal], UV avoidance [@veraszto2018], a startle response [@bezares-calderon2018] and coordinated ciliary activity [@veraszto2017].
-The early nectochaete larva represents a transient dispersing stage in the life cycle of *Platynereis*. During this stage the larvae do not feed yet but rely on maternally provided yolk. Compared to the juvenile and adult stages it is expected that a considerable number of cell types will be only developing or completely missing at this stage. Three-day-old larvae do not yet have sensory palps and other sensory appendages (cirri), they do not crawl or feed and lack visceral muscles and an enteric nervous system [@brunet2016evolutionary; @williams2015myoinhibitory].
+The early nectochaete larva represents a transient dispersing stage in the life cycle of *Platynereis*.
+During this stage the larvae do not feed yet but rely on maternally provided yolk.
+Compared to the juvenile and adult stages it is expected that a considerable number of cell types will be only developing or completely missing at this stage.
+Three-day-old larvae do not yet have sensory palps and other sensory appendages (cirri), they do not crawl or feed and lack visceral muscles and an enteric nervous system [@brunet2016evolutionary; @williams2015myoinhibitory].
 
 In *Platynereis* larvae, it has been possible to integrate behaviour with synapse-level maps, transgenic labelling of individual neurons, activity imaging and gene knockouts [@bezares-calderon2018; @veraszto2017; @veraszto2018; @jokura2023nitric].
 Cellular-resolution gene expression atlases have also been developed for different larval stages.
@@ -314,7 +317,8 @@ Sensory integration also characterises the visual system.
 Here, the visual eye photoreceptors (PRC) share a postsynaptic interneuron (INR) with the PRCR1 photoreceptors of the eyespots (Figure 7G-H).
 
 To identify neurons with possible integrative function, we ranked cells by the number of presynaptic and postsynaptic cell-type-level partners (Figure 7J, K).
-We also ranked cells by various node-centrality measures including node weighted degree, PageRank, betweenness and authority (Figure 7---figure supplement 2). PageRank is an algorithm used by Google to rank webpages and scores the number and quality of the incoming links of a node [@page1999pagerank], betweenness centrality measures the number of shortest paths that pass through a node in a graph [@freeman1977set],  and authority measures the extent of inputs to a node by hubs in a network [@kleinberg1999authoritative].
+We also ranked cells by various node-centrality measures including node weighted degree, PageRank, betweenness and authority (Figure 7---figure supplement 2).
+PageRank is an algorithm used by Google to rank webpages and scores the number and quality of the incoming links of a node [@page1999pagerank], betweenness centrality measures the number of shortest paths that pass through a node in a graph [@freeman1977set], and authority measures the extent of inputs to a node by hubs in a network [@kleinberg1999authoritative].
 
 The MNant and vMN motoneurons have among the highest number of presynaptic partners.
 Among the interneurons, INRGW, INarc1 and INW integrate the largest number of inputs.
@@ -663,7 +667,8 @@ According to this model, the diversification of mechanoreceptors may have been p
 This enabled sensory refinement in parallel with the evolution of matched downstream circuits and behaviours.
 
 The duplication and divergence of cell-type sets also characterised the evolution of the vertebrate cerebellum [@kebschull2020cerebellar].
-Duplication and divergence of circuits was also proposed as a possible mechanism for the evolution of brain pathways for vocal learning in song-learning birds, spoken language in humans [@chakraborty2015brain] and other circuits [@roberts2022evolution]. Further support for this model in *Platynereis* could come from comprehensive gene expression analyses for the distinct mechanosensory and INsplit neurons.
+Duplication and divergence of circuits was also proposed as a possible mechanism for the evolution of brain pathways for vocal learning in song-learning birds, spoken language in humans [@chakraborty2015brain] and other circuits [@roberts2022evolution].
+Further support for this model in *Platynereis* could come from comprehensive gene expression analyses for the distinct mechanosensory and INsplit neurons.
 
 ### Connectomics informs the evolution of the annelid segmental body plan
 
@@ -792,6 +797,8 @@ Interneurons often start with IN and motoneurons with MN.
 There are exceptions, including neurons with known function (e.g. PRC for photoreceptor cells) and neurons with prominent morphology (e.g. Loop).
 Segmental position (sg0-3) and body side (l or r) is indicated in the name of most neurons.
 Non-neuronal cells were named based on anatomical terms (e.g. prototroch) or by abbreviations (e.g. EC for epithelial cell).
+Prototroch cells were renamed to match the literature [@Vopalensky_2019; @poon2025].
+The old names as published in [@Randel2015; @veraszto2017] were kept as annotations in the format "old_name:name:DOI".
 
 All cells have multiple annotations, which can be used to query the database in CATMAID or through the CATMAID API (e.g. in R b the catmaid package).
 Neurons belonging to a cell-type category were annotated with the generalist annotation 'celltype' and a cell-type-specific annotation (e.g. celltype23 for the INpreMN neurons).
@@ -814,8 +821,11 @@ We checked for connected components and selected the largest subgraph.
 
 **Quantitative analysis of neuron morphologies**
 
-For quantitative neuroanatomy, we used functions of CATMAID as implemented in the catmaid (catmaid-package {catmaid}: R access to the API for the CATMAID web image annotation tool) and nat (nat-package {nat}: Analyse 3D biological image data especially neurons) packages. For morphological rendering and quantititave analysis, skeletons were first smoothed with the smooth_neuron function (smooth_neuron {nat}: Smooth the 3D coordinates of a neuron skeleton) with a sigma of 6000 nm.
-Neuronal cable length was calculated on trimmed skeletons. Each twig shorter than 2 mm was removed with the prune_twigs {nat} function. Cable length then gives the length of the trimmed skeletons in microns (Figure1_fig_suppl2.R code in the code repository).
+For quantitative neuroanatomy, we used functions of CATMAID as implemented in the catmaid (catmaid-package {catmaid}: R access to the API for the CATMAID web image annotation tool) and nat (nat-package {nat}: Analyse 3D biological image data especially neurons) packages.
+For morphological rendering and quantititave analysis, skeletons were first smoothed with the smooth_neuron function (smooth_neuron {nat}: Smooth the 3D coordinates of a neuron skeleton) with a sigma of 6000 nm.
+Neuronal cable length was calculated on trimmed skeletons.
+Each twig shorter than 2 mm was removed with the prune_twigs {nat} function.
+Cable length then gives the length of the trimmed skeletons in microns (Figure1_fig_suppl2.R code in the code repository).
 For Sholl analysis, we used the sholl_analysis function (sholl_analysis {nat}: Perform a Sholl analysis on neuron skeletons) on untrimmed, smoothed skeletons.
 The radial density of input and output synapses was calculated in the CATMAID web interface and the data were saved as .csv and plotted in R (Figure1.R code).
 
@@ -1050,7 +1060,6 @@ List of all neuronal and non-neuronal cell types, their main annotations, includ
 
 Supplementary Table 2.
 Summary of all EM layers including the information on lost layers, immunogold labelling and re-imaging.
-
 
 \
 
