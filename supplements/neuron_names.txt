@@ -1,0 +1,2676 @@
+pull(select(conn.tb.annot.type.color.cent, names))
+Neuron 992594
+paratroch_I_dl_2
+paratroch_I_dr_1
+paratroch_I_dr_2
+paratroch_II_dl_1
+paratroch_II_dr_1
+paratroch_II_vr_1
+paratroch_II_vr_2
+paratroch_II_vr_4
+paratroch_II_vl_4
+paratroch_II_vl_3
+paratroch_II_vl_2
+paratroch_II_vl_1
+paratroch_III_dl_1; telotroch_dl_1
+paratroch_III_dr_3; telotroch_dr_1
+paratroch_III_vr_3; telotroch_vr_1
+paratroch_III_vr_1; telotroch_vr_2
+paratroch_III_vl_3; telotroch_vl_2
+paratroch_III_vl_2; telotroch_vl_3
+fragment 991508
+MNheadV_r1
+INsplitPB-RF/Ya_sg1r
+SNaant_2r
+SNaant_1r
+SNaant_3r
+MNheadV_l2
+INsqNSasym_r
+MUSobP-neuDlong_sg1l4
+fragment 979524
+INsplit_sg2r luqin-postsynaptic5
+INvnc_r3 962327
+MNVNC_sg2r
+INcomm_sg2l 961337
+piece 960677-T
+INcomm_sg2r 958100
+neuron 957867
+INcommasc_RYa_sg2l
+MNspiderATO-ant_sg2r1
+VNCATO_sg1l
+MNwave_sg3r1
+INsplitATO_sg1r
+MUSlongD_sg1l13
+INcommasc_sg2r2
+paratroch_I_dl_1
+MUSlongD_sg0l4
+MUSlongD_sg0l6
+MUSlongD_sg1l12
+MUSlongD_sg0l8
+MUSlongD_sg0l7
+MUSlongD_sg0l9
+MUSlongD_sg2l9
+fragment leucokinin 940602
+paratroch_II_dl_3
+MUSlongD_sg3l7
+paratroch_III_dl_3; telotroch_dl_2
+INsplitPB_sg2l3
+INipsidesc_sg1l1 932288
+MNring_sg1r6
+INpro_l1
+INproT2_r2; INpro_r2
+MUSchae-notAac_sg3r2
+INcomm-Upcross_sg1r1; INcomm-Uparc_sg1r  
+MNpostacic_sg3l1
+MNacic_sg3r
+IN 893805
+MUSchae-notAac_sg1r3
+Neuron 869680
+INpear_r2
+cMNPDF-vcl1
+IN_closetoMC3
+INZ_r1
+crescentcell
+neuron 843374
+SN 839187
+SNnuchPDF_l1
+SN-DLSO2_necklace-l
+INcomm-Upcross_sg1l1
+MN2_l
+INmeta_sg0r
+IN 813773
+IN 813172 peptiderg
+SN-IRP2-burs
+IN 812241
+MUSobA-mpp_sg1r1
+IN with trunk soma 802200
+INcommasc_sg1l 802067
+INbiax_l
+INbiax_r
+SN-DLSO1.2__DLSOr11
+dsoCR_1r; PDF
+INMBdev_r 786570
+fragment 786318
+flat-glia_783258
+INdecuss_l 780916
+SN-DLSO1.1NP_r
+INcross_l1; INvc_l1
+SNaant_3l
+SNhook_l
+covercell_1clock
+INarc1_r
+eyespot-PRCR1_r
+INvc_l8
+covercell_12clock_ant
+INangle_r 766683
+eyespot-PRCR1_l
+INipsiasc_sg2l 764616
+INbush 762388
+INsplitCR_sg1r2 
+INipsidesc_sg2r 758872
+SNMB 758790
+INvc_l7 756865
+fragment 753722
+covercell_9clock_and
+PRC_al4
+covercell_8clock
+INexsn_l
+INdc_l1
+antPUc_1l; SN
+INintl5
+INvc_l5 73028 
+INsplit_sg1 r 1316197
+MNbiramous_sg1r1
+INton_r2
+akrotroch_r3
+INsplitPB_sg2l4
+INsplitCRATO_sg3l
+INleg_sg2r
+INsplit_sg3l 707998
+INipsiasc_sg2r 2000807 FMRFa_right3
+fragment 690084
+INcommasc_sg2l 1307803
+INton_r1
+INR1_l2
+PRC_al3
+SNadNS22_l
+IN 672987
+SN-DLSO3_1r
+INdc_r3
+SNMB3_l 669559
+SNpygM_l
+fragment 666255
+fragment 662903
+SNhead_l; INintl2
+luq47_left-FVa_middle_right-postsyn1
+MNdecuss_l 656355
+INdinofl_vnc_r5 653848
+INhead_l 649900
+MS4
+SHORTFRG 63953
+INarc2_r
+SN-DLSO3-PDF_dcr2
+SN-NS18_r
+INbiaxHmid_sg2r
+neuron 615271
+SN-DLSO_r5
+ventralParaPB2_sg1r
+paratroch_I_vr_1
+paratroch_I_vr_2
+MUSlongV_sg1r11
+MC
+MUSlongV_sg2r6
+PRC_pr5
+MUSlongV_sg2r7
+MUSlongV_sg1r12
+MUSlongV_sg0r4
+INsn_r4
+PRC_pl5
+SN-NS16_l
+PRC_pl4
+MUSlongV_sg1r9
+MUSlongV_sg1r10
+PRC_pl3
+luqin4-postsynaptic5
+IN 584185
+MUSlongD_sg3r5
+MUSlongD_sg3r6
+MNring_sg3l1
+paratroch_III_dr_1; telotroch_dr_2
+paratroch_III_dr_2; telotroch_dr_3
+INbackcross3_r
+MUSlongD_sg2r7
+paratroch_II_dr_2
+INsn_l2
+paratroch_II_dr_3
+MUSlongD_sg2r8
+IN 57509
+MUSlongD_sg0r5
+eyespot-PRCR3_r
+MUSlongD_sg0r3
+MUSlongD_sg0r2
+MUSlongD_sg1r12
+MUSlongD_sg0r4
+INipsiasc_sg3l 565080
+fragment 564836
+flat-glia_564048
+INantlercurve 56101
+INton_l2
+INproT3_r1; INpro_r3
+MNpostacic_sg1r2
+MUSlongV_sg1l5
+MUSlongV_sg1l4
+INdecuss_r 1363308
+paratroch_I_vl_1
+MUSlongV_sg0l6
+INintl4
+INcommascL_FMRFa_sg2r
+INATOpyg_l
+INhead_r; INintr6
+INdecuss_l 54909
+akrotroch_r1
+SN-DLSO1.2_2r_DLSOr9
+INsn_r1
+SN-NS5_l
+INhead_l 537119
+SN-IRP2-FMRF
+SNnuchNS_r2
+IN FVa-right4_sigold
+INsplitPB_sg3l2
+IN 523875
+SN-DLSO1.2-1_l
+MUSlongV_sg1l6
+MUSlongV_sg1l8
+MUSlongV_sg3l8
+MUSlongV_sg2l11
+MUSlongV_sg2l7
+paratroch_I_vl_2
+EC_V_glila_sg1_1 518391
+INW_r2; INvc_r5
+SN-DLSO1.2_4lPDF-dcl2
+INipsiasc_sg2l 505209
+luqin47-postsynaptic_left
+INvc_l3 503433
+INpro_l3
+INpro_l2; INvc_l2
+SNMB 497209
+fragment 494285-T
+INpro_r2; INvc_r7
+INMBtype2_l1
+SN-MIP1_r
+INsplitPU_sg2r  493122
+SNaant_2l; SN_38
+INintr5
+SN-NS29_r
+SN-DLSO1.2_2l_DLSOl8
+SN-NS15_l
+SN-DLSO_l1
+INipsiasc_sg3r 478001
+SN-DLSO1.3_PDF_4r
+INr 469849
+SNblunt_l
+SN28l
+Neuron 462855
+INpreMN_3l
+SN-DLSO1.2_5l_DLSOl10
+SN-NS16_r
+SN-NS22_l
+sensory25;SN
+SN-DLSO1.1NP_l
+INsplitPB_sg2l2
+INasc-pyg_r2-MIP
+SN-WLD_1r
+fragment leucokinin 442258
+SNgolden_l
+SN-ASTC_1l
+MUSpx
+SN-DLSO_r10
+SN-DLSO2_1l
+SN-DLSO2l
+SN-NS1_l
+MNperif_luqin_sg2l
+INsplitPB-RF/Ya_sg1l
+fragment luqin 421537
+INpear_l2
+INdc_r1
+INsn_l4
+INdc_l2
+IN cPRC_postsyn_IN3
+INintr4
+SN-DLSO_r2
+SN-DLSO_r6
+prototroch_4P
+INdesc_r 393182
+INhead_r; INintr3
+SNstiff_sg0r1
+INintl1
+INrope_l1
+INMBdev 386261
+INproT2_l2; INpro_l2 
+INdesc_exsn_r; sn_like
+IN1_pr
+pygPBunp
+INsn_l3
+INFVa-pyg_r1
+INsn_r2
+piece neuron 366395-RRT
+INpro_r1
+INmus_r
+INtorii_l
+covercell_9clock_post
+INvc_r3 359613
+MN2_r
+IN_vc_r8 357456-RRT with soma
+INpreMN_2l
+INvc_r2
+INvc_r1 347710
+SN-LSO_r; INintr2
+MN3_l
+INipsidesc_sg1l1
+IN1_ar
+INdesc_r 335229
+IN_mn4 333054
+INMBdesc3_r  331495
+INintr1
+dsoCR_2r
+INton_l1
+IN1_pl
+SNhead20_l
+SN-NS5_r
+INNOS_vr
+SNadNS22_r
+SN-DSO18
+nuchalCiliaCilia_dr2; nuchal_dr1; cc_dr_1
+SN-WLD_1l
+SN-DLSO3_5l2
+INMBdesc2_l 296187
+SN47Ach
+fragment PDF 292344
+SN-NS3_r
+fragment MC-presyn-n9 285487
+Ser-h1_r
+INPDF_sg2r
+PRC_ar7
+SN-MIP1_l
+SNMB with bubble 2
+SN-DLSO3_3l
+SN-NS19_r
+covercell_4clock_ant
+PRC_ar6
+SNbicil_r
+SN-NS20_r
+PRC_ar5
+MC3cover_l
+INipsiasc_sg1r 259764
+INNOS_dr
+cPRC_l2
+cPRC_l1
+cPRC_r2
+INRGWa_dcl1
+SN-ASTC_1r
+PRC_ar4
+SN-NS19_l
+INcommasc_sg2r 247790
+SN-NS20_l
+PRC_ar2
+INRGWa_dcr1
+cPRC_r1
+INvnc_l
+Neuron 2401579
+Neuron 2399501
+frag 2398933
+PRC_ar1
+Neuron 2366864
+Neuron 2365709
+Neuron 2339676
+antenna_right8;SN
+Neuron 2313925
+INasc-pyg_l2
+frag 2313871
+INMBdev 2313186
+SN68_r
+Neuron 2312932
+Neuron 2312896
+Neuron 2311063
+Neuron 2309085
+IN_sg3 1528624
+Neuron 2301385
+Neuron 2301261
+Neuron 2297050
+INtorii_r
+INhead 2295110
+fragment 2294818
+SNMB4_l 1374501
+INhead 1273950
+fragment 2294717
+VNCneuron 2294701
+Neuron 2294690
+ventralParaPU2_sg1l
+MBmouth_r1
+MBmouth_r2
+INMBdesc3_l 2294252
+INhorn_r
+frag 2294162
+PRC_pr4
+cioMNcover_r
+INbiped_sg1r
+INcommasc_sg2r 1597115
+fragment 1685249
+Neuron 2233800
+INsplit 2233701
+Neuron 2233531
+IN 2233439
+Neuron 2220689
+IN1_al
+Neuron 2214678
+Neuron 2202074
+covercell_12clock_post
+Neuron 2191876
+Neuron 2191175
+Neuron 2187480
+Neuron 2185819
+MNring_sg1r8
+fragment 2185442
+Neuron 2183678
+fragment 2166770
+fragment 2131577
+prototroch_2P
+prototroch_2A
+prototroch_3A
+prototroch_3P
+prototroch_5P
+prototroch_6A
+fragment 2033695
+Neuron 2029401
+MNpostv_sg2l
+VNC_sg2l 2028657
+VNCcomm_sg2l 2028569
+fragment 2028490
+fragment 2028265
+prototroch_6P
+fragment 2027989
+INdescRFa_r
+fragment 2019111
+fragment 2018953
+fragment 2018825
+fragment 2018706
+fragment 2018298
+INdecuss_r 2017536
+fragment 2017335
+MNdecuss_r 1593703
+MNdesc_l 1325300
+INcommasc_sg1r 921512
+fragment 2016639
+fragment 2016576
+MNVNC_chaetal_sg2r 2016554
+fragment 2016474
+fragment 2016289
+Neuron 2016280
+VNC_sg2l 2016269
+fragment 2016250
+fragment 2016099
+fragment 2016029
+fragment 2016024
+INsplit_sg1l 2015949
+INipsiasc_sg2l 1419967
+SN-sg0l 1732520
+hCirrusPU_1l
+INsplitCR_sg1l1
+fragment 2015462
+fragment PDF 2015449
+hCR1_l1; SN
+hCR1_l2; SN
+dsoCR_2l; PDF
+hCR2_l; SN
+INcommasc_sg1l 1954576
+fragment 2014798
+fragment 2014771
+fragment 2014648
+fragment 2014639
+fragment 2014022
+INcommascATO_sg1l
+fragment 2013671
+Neuron 2012742
+InterparaGland_sg2r
+fragment 2012084
+fragment RYa 2012071
+fragment 2011824
+INVNC_sg2r 2011761
+VNC_sg1r 2011671
+VNC_sg1r 2010984
+INcosplit_sg2r 2010916
+INcommasc_sg2r 2010860
+covercell_6clock_ant
+INipsidesc_sg2r 2010340
+MNVNCob_sg2r 1971477
+VNC_sg2l 2010300
+INcommasc_sg2l 2010225
+INcommasc_sg2r 2009603
+fragment 2008749
+fragment 2008685
+spinPB2_sg2l
+chaeMech_sg2l1
+fragment 2008598
+spinPB1_sg2l
+MNpostacic_sg2r1
+neuron fragment 2008502
+spinPU3_sg2l
+Neuron 2008425
+fragment 2008374
+MNob_sg2r 2008356
+chaeMech_sg2l4
+INcommascATO_sg2r2
+INcommdesc_sg1l 1449055
+MNgland-head_l
+fragment 2007297
+SNimmature_sg0r 2007174
+INhead_r 2007061
+fragment 2003589
+fragment 2003582
+INMBtype8_r1
+fragment 2002716
+fragment 2001649
+fragment 2001403
+INipsiasc_sg2l 2001381
+INdecuss_r 1796980
+MNobFMRFa_sg2l
+IN 2000979
+fragment 2000972
+INipsiasc_sg3l 2000956
+VNC_sg3r 2000896
+VNC_sg2l 2000883
+INpreLadderATO_sg2l
+INcomm_sg2l 961640
+VNCneuron_sg2l 2000175
+fragment 2000090
+VNC_sg1r 1999957
+notopodPUc1_sg1r
+INdesc_r 1998558
+prototroch_7A
+INipsiasc_sg2l 1417624
+fragment 1985624
+prototroch_7P
+pnb 1982356
+fragment 1981718
+fragment RYa 1979014
+Neuron 1978236
+fragment 1977657
+Neuron 1976949
+INipsiasc_sg3r 1976064
+fragment 1975623
+interparaPUc1_sg2l
+MNring_sg2r7
+INcosplit_sg2r 1971465
+INVNC 1971453
+INsplit_sg3l 1631437
+MNob-ipsi_sg3l
+MNVNCob_sg2r 1971228
+VNCneuron 1970775
+IN 1968683
+Neuron 1968293
+fragment 1965441
+INchaeMech_sg3r
+fragment 1963582
+fragment 1963471
+fragment 1963047
+fragment 1960744
+VNCneuron 1960513
+SNant_r 1959493
+INipsiasc_sg2l 1959422
+INcommascATO_sg2r1
+VNC_sg1r 1958361
+fragment 1958051
+fragment MNax 1957907
+INipsiasc_sg2l 1957860
+MNpostacic_sg2r2
+fragment 1957729
+INipsiascATO_sg1r
+INsplit_sg2l 1957715
+VNCneuron 1957378
+fragment 1957351
+fragment 1957323
+fragment 1957306
+INMBdescFMRF_r
+MNVNClong_sg2l 1957251
+INcosplit_sg2l 1957231
+fragment 1957144
+INipsidesc_sg2r
+fragment 1956494
+fragment 1956424
+fragment 1956405
+MNhose_sg2r1
+fragment 1956118
+fragment 1956075
+fragment 1956037
+INcommasc_sg1r 1956010
+fragment 1955942
+fragment 1955934
+fragment 1955929
+Neuron 1955564
+fragment VNC 1954707
+fragment 1954491
+fragment 1953249
+fragment 1953157
+MNVNC fragment 1953145
+INperif_sg2r 1953099
+MNantacic_sg2l
+Neuron 1952561 TODO
+fragment 1952230
+fragment 1952170
+SN-gland_sg2l
+fragment 1952127
+PRC_pr3
+fragment 1951151
+MNchae_sg1l
+fragment 1950634
+MNpostacic_sg2r3
+fragment 1950551
+INipsiasc_sg1l 1950394
+pnb 1950382
+INVNC_sg2l 1950246
+SN-sg2l
+VNCneuron 1949237
+Neuron 1948374
+INcommasc_sg2r 1948152
+fragment 1948061
+INsplit_sg3r 1947648
+fragment 1947529
+INcomm-Upcross_sg2l3
+fragment 1944897
+fragment 1943719
+fragment 1942619
+fragment 1939933
+INcommascEnk_sg3l 1017681
+fragment 1939640
+antCR_3r; SN
+INcommdesc_sg2l 1937282
+fragment 1937232
+Neuron 1935255
+INipsiasc_sg3r 1934818
+INMBdesc2FMRFtype2_l
+fragment 1932831
+fragment 1932477
+fragment RYa 1929076
+MNpseu_sg1r
+fragment 1928909
+fragment 1928873
+INdecuss_r 1928755
+INdecuss_r 1928680
+fragment 1928307
+antPUc_3r; SN
+fragment 1925134
+antCR_4r; SN
+SNbronto_l
+Neuron 1923278
+fragment 1923176
+MNVNC_sg2rFVa
+antCR_5r; SN
+MNipsiasc_sg2r 1920886
+INsplitPB_sg1r2_nosoma
+antPUc_4r; SN
+MUSchae-notDn_sg1l1
+fragment 1913627
+INasc_sg2r
+INpreMN_3r
+hPUc_2r; SN
+prototroch_8P
+prototroch_10P
+prototroch_8A
+INW_l1
+fragment 1860826
+INcommascFV_sg2l1
+fragment 1857879
+INdecuss_l 1856972
+INipsiasc_sg1l 1856289
+INdecussM_l
+INdecuss_l 1855915
+hPUc_3r; SN
+INipsiasc_sg0r 1855340
+INipsidesc_sg1 185521
+INcommasc_sg1l 1855014
+MNperifac_sg1r1
+INUturnMB_r
+fragment 1854623 
+fragment 1850808
+MNantacic_sg1l
+INipsiasc_sg2r 1850682
+chaeMech_sg2l3
+VNC_sg2 1850476
+MN 1850406
+INcommasc_sg2r 1850080
+interparaPU1_sg2l
+Neuron 1849837
+chaeMech_sg2l2
+fragment 1849494
+fragment 1849384
+MNbiramous_sg2l1
+SNdors_sg1l
+prototroch_9A
+VNCneuron 1849211
+ventralParaPU4_sg2l
+fragment 1849075
+ventralParaPB2_sg2l_PKD2-1+
+prototroch_9P
+INperif_sg2l
+MNVNC_sg2l 1848250
+neuropodPUc2_sg2l
+neuropodPUc1_sg2l
+SNstiff_sg0l1
+MN-oblique_sg3l1
+INsplitPB_sg3r3
+INcommdesc_sg1l 1846188
+INipsiasc_sg3r 1172205
+INsplit_sg2r 1845775
+chaeMech_sg2r4
+INVNC_sg2l 1845657
+INbiaxH_sg2l1
+fragment 1845415
+fragment MN 1845359
+INperifasc_sg2r 1845306
+IN 1845176
+Neuron 1845036
+fragment 1842082
+INdecuss_l 241833
+INsplitPB_FVa_sg2l1
+fragment 1841564
+INipsidesc_sg3r 1841403
+IN 1841369
+INipsiasc_sg2r 1841159
+MNVNC 1840972
+IN 1840170
+fragment MN 1840045
+fragment 1839708
+INipsiasc_sg2r 1839509
+chaeMech_sg2r1
+Neuron 1837715
+prototroch_10A
+fragment 1836431
+fragment 1834436
+MNantacic_sg1r1
+MNring_sg1r3
+MNhose_sg2l1
+MNring_sg2l6
+hPUc_2l; SN
+MNcool 1830643
+INcommasc_sg1l 1830525
+fragment 1830319
+INcomm_sg2l 1395576
+INVNC_sg2r 1829357
+fragment 1829227
+INpreLadderATO_sg2r
+INleucoPU_sg1r
+INcommasc_sg2l 1828979
+MNpostv_sg3l
+INipsiasc_sg1l 2001305
+INipsiasc_sg1l 1827287
+MNVNC  1825923
+Neuron 1825736
+INcommdesc_sg2r2
+MNring_sg2l 7
+MNpostv_sg2r
+Neuron 1821527
+Neuron 1821240
+fragment 1820104
+fragment MN 1818829
+VNC_sg3l 1817850
+hPUc_3l; SN
+coelothelium_1816094
+MN 1815733
+dorsalParaPU1_sg2r
+Neuron 1815348
+VNCimmature 1814383
+MNcomm_sg2r 1813881
+prototroch_12P
+neuron 1808906
+MBmouth_l1
+MBmouthL2
+fragment 1803129
+prototroch_11P
+neuron 1799720
+INipsiasc_sg1r 1797851
+MNob-contra_sg3r1
+INdesc_l 1259647
+INdescLuqinPDF_l
+Neuron 1797152
+Neuron 1797126
+fragment 1796904
+fragment 1796853
+fragment 1796775
+INipsiasc_sg1r 1357013
+fragment deus 1794987
+fragment 1794837
+MNpostacic_sg1l2
+MNring_sg2r5
+MNVNC 1398670
+SNMB 1374585
+INdecuss_r 1272025
+fragment MN 1787399
+Neuron 1786138
+SN-DLSO2l 1639380
+IN 1784974
+SN-HSG3_1l
+fragment 1781611
+MNob-contra_sg1l2
+pnb 1778489
+ventralpostParaPUc1_sg1r
+pnb 1778045
+SN 1777191
+fragment 1777084
+MNring_sg2l5
+MNring_sg2l3
+hPUc1_r
+SNcir 1770015
+SNimmature_pstr 1769486
+ventraltrunkPB1_sg2l
+MNarm_sg3r
+MNchaet_sg3r3
+MNacic_sg1r
+MNarm_sg2r2
+ventralParaPU2_sg2r
+VNC neuron 1755684
+INcommasc_sg1r
+MNVNC_sg2l 1755081
+MNantelope_sg1r
+prototroch_1P
+MNwave_sg3r2
+fragment 1750891
+VNC neuron 1750415
+fragment 1748894
+prototroch_1A
+INhead_r 1330968
+pnb 1744184
+IN 1744167
+INipsiasc_sg0r 1742613
+prototroch_11-12A
+INipsidesc_sg1l 1742501
+neuron 1741995
+hPUc1_l
+IN 1741540
+MNring_sg1l4
+MNring_sg1l2
+neuron 1741165
+MNladder_sg1r
+INcomm-DownL_sg1l
+INipsiasc_sg2l 1739165
+fragment 1738974
+fragment Acicula-base 1737561
+MNwave fragment 1737306  fragment
+MS2
+dsoCR_1l
+antCR_5l; SN
+MUSobA-trans_sg3r1
+fragment 1734779
+Neuron 1733662
+INsplitCR_sg0r1  
+INarc1_l
+INDLSO_l2
+INMIP_l 1732421
+interparaPM1_sg2l
+INcomm-Upcross_sg2l1
+INcommasc_sg3l 1732322
+flat-glia_1286549
+INATOpyg_r
+INpreLadder_sg3r
+INcomm_centralcb_sg3r 1732274
+INcommasc_sg3l1 1732257
+MUSobP-neuV_sg2r4
+INbush 1732126
+MN3_r
+INsplitCR_sg2l2 
+INsplitVent_sg2r
+INcommdesc_sg2r 1731719
+INdesc_r 1731420
+INsplitCR_sg1r3 
+chaeMech_sg3r3
+INcosplit_sg2r1 1731014
+INcommdesc_sg3r 1730844
+ventralParaPU2_sg2l
+SNpyg 1354804
+MNVNC_sg3r 1729831
+MNbow_sg2l1; proenk
+INMBtype4_r3
+Glia-pigmented_1729207
+MUSlongV_sg2l6
+MNchae_sg2r
+INbackcross3_l
+INsplitPBant_sg1l
+MNcrab_sg2l1
+ventralSOMA-decusL 1726645_sg3
+INcommasc_sg2l 1726597
+INsplitPUh_l2
+INcomm_sg1l 1725738
+INsplitHairyCR_sg2r1
+INsplit_sg2r 1725170
+INcommdesc_sg1l 1725003
+fragment 1721959
+SNMB2_2l
+neuron 1720449
+coelothelium_1718173
+INMBtype9_l1
+IN 1717381
+neuron 1715989
+MBmouth _r3
+akrotroch_r2
+INMBdev 1705565
+INdecussPre_l
+INR1_r2
+flat-glia_170458
+NOSOMA-SHORT 1704297
+MUStrans_sg2r7
+MUStrans_sg2r5
+MUStrans_sg2r6
+INdecuss_r 1701850
+dorsalTeloPUc_1l
+dorsalTeloPU2l
+fragment  1700072
+MNacicular_sg3l 1700044
+Neuron 1699908
+INipsiasc_sg3l 1699768
+ventralTeloPUc_2l
+MNspider-post_sg3r2
+fragment 1697792
+INcomm-Upcross_sg2l2
+IN 169575
+SHORTNOSOMANeuron 1695384
+fragment 1695284
+MN fragment 1693947
+neuron 1692433
+neuron 1692182
+chaeMech_sg3l3
+MNac_sg1r 1690430
+dorsalParaPU2_sg2r
+MNax_sg1r2
+hCR1_r; SN
+flat-glia_GliaCR_sg1r1
+fragment 1687664
+VNC_sg1r 1685645
+fragment  1685032
+MNarm_sg2l1
+connective_tissue_cell 1684796
+INcommasc_sg2r 1683886
+INipsiasc_sg3l 1274482
+INshort 1682795
+akrotroch_l4
+ciliatedGland_r2
+MNring_sg1r1
+INFVa-pyg_l1
+MNob-post_sg1l
+MNring_sg1r2
+MNperiph 1677776
+MNob-post_sg1r
+eyespot-PRCR3_l
+fragment 1675927
+INcommdesc_sg1l 1675902
+SNdors_sg1r
+INcomm_sg1l 1674500
+MNpostacic_sg1l1
+INcomm-Upcross_sg2r1
+INipsidesc_sg1r 1673947
+MUStrans_sg2r3
+VNC_sg2l 1673140
+MS1
+MNchae_sg1r
+MUSobP-neuV_sg2l4
+paratroch_III_vl_1; telotroch_vl_1
+akrotroch_l3
+MNring_sg2r1
+VNC_sg1r 1667278
+PRC_pr1
+MNperifche_sg1r
+MNperifche_sg1fragment 1663517
+MNperifob_sg1r
+INperif 1663435
+MNperifac_sg1r2
+MUSobP-neuV_sg1l3
+pnb 1659942
+fragment 1659212
+VNCneuron 1658528
+fragment 1657187
+ciliatedGland_l7
+INcommasc_sg1l 1656441
+coelothelium_1655776
+INdecussPre_r
+MUStrans_sg3r3
+INsplitCR_sg2l3; leuco
+INVNC 1652812
+IN 1652655
+INcomm-DownL_sg1r  
+INipsiasc_sg1r 1650726
+MUSac-neuPV_sg1l1
+MUSac-neuPV_sg1l2
+MUSchae-neuDac_sg2l2
+MUSac-neuAV_sg3l1
+Neuron 1648286
+neuron 1648092
+MUSac-neuAV_sg1l1
+MUSac-notA_sg2l2
+MC4-ciomn-l
+MUSac-neuDach_sg2l2
+INsplitPUh_l1
+IN 1646126
+MUSac-neuDy_sg2l1
+MUSac-neuDx_sg2l2
+MUSac-neuDx_sg2l
+INipsidesc_sg1l 1645790
+INasc-l 1645748
+INdecuss_r 1321500
+INimmature 1643441
+SN 1639676
+SN-DLSO2_necklace-r
+IN 1639182
+SNimmature_sg0l 1655416
+neuron 1637521
+fragment 1636202
+MUSac-neuPV_sg3l2
+MUSac-neuPV_sg3l1
+MUStrans_sg3l3
+IN 1635417
+INdecuss_l 1635280
+MUSac-neuPD_sg2l1
+MUSchae-notAac_sg2l1
+MUSchae-notAac_sg2l4
+MUSchae-notAac_sg2l3
+MUSobP-notD_sg2l3
+MUSchae-notDob_sg2l3
+MUSchae-neuDac_sg2l3
+MUSobA-lpp_sg2r2
+MUSchae-notA_sg2l1
+neuropodPUc1_sg3l
+MUSac-neuAV_sg2l1
+MUSobA-re_sg2l3
+MUSchae-Are_sg2l1
+MUSobA-re_sg2l1
+MUSobA-lpp_sg2l1
+MUStrans_sg2l4
+INhead_l 1627480
+MUSchae-notA_sg1l1
+neuron 162661
+MUSchae-notAac_sg1l3
+INcosplit_sg2r1 1626390
+ fragment 1457033
+MUSac-notA_sg2l1
+MUSac-notP_sg2l2
+MUSac-notP_sg2l1
+spinPB3_sg3l
+INbiaxLeg_sg2l2
+MUSac-neuAV_sg3l2
+MUSac-neuDx_sg3l2
+MUSobA-mlpp_sg3r1
+MUStrans_sg3r7
+MUSchae-neuAVt_sg3r1
+neuron 1618232
+MUSchae-neuDac_sg2r2
+coelothelium_1617522
+INrope_r1
+Neuron 1617306
+INbiaxH_sg2r
+Neuron 1616690
+INlongCR-UpL_sg3r1
+INsplit_sg2r 1616493
+INshort 1616483
+ecto fragment 1616479
+fragment 1615940
+INCM_sg1r1
+fragment MN 1613031
+neuron 1612469
+INsplit_sg1r 1612234
+neuron 1612094
+INsplitCR_sg2r3
+INipsidesc_sg2l 1611443
+chaeMech_sg2r3
+INshort_lmmature_l 1609130
+fragment 1608466
+fragment 1608425
+INsplitRYa_sg1l
+INipsiasc_sg1r 1607606
+MUSobA-arc_sg2r3
+INipsidesc_sg1l
+MUStrans_sg1r2
+fragment 1603843
+INipsidesc_sg1r 1603828
+MN no soma 1603014
+INperiasc_sg1l
+INcommasc_sg1r 1602681
+MUSac-notM_sg2l2
+antPUc_1r; SN
+support cell 1601266
+INcommdesc_sg1r 1600837
+INcosplit_sgr1
+fragment 1600782
+INsplitPBsg1r2
+INasc_sg1l 1599766
+VNC neuron 1598939
+MNladder_sg1l
+fragment ciomn 1597825
+MUSlongV_pygr
+fragment 1595818
+neuron 1594726
+fragment 1594477
+pygCirrusPUSM_r
+fragment large 1593770 soma in trunk - to find
+MUSac-neuDach_sg1r1
+MUSchae-notAac_sg1r2
+MUSchae-notAac_sg1r4
+INcommdesc_sg2l 1592896
+MUSac-notM_sg1r2
+fragment 1591858
+SN 1591472
+MUSchae-notAac_sg3r4
+neuron 1590061
+MUSchae-notD_sg2r1
+INVNC_sg1r 1589783
+notopodPUc1_sg1l (deprecatedMNperif) 1588420
+MUSobP-notD_sg2r2
+INperifsplit_sg1l 1592517
+IN 1588113
+MUSchae-notDob_sg2r3
+IN 1587974
+MUStrans_sg2r4
+MUSobP-notD_sg1r2
+MUSac-notM_sg1r1
+MUSchae-notAac_sg1r1
+MNchae_sg1l2
+MUSchae-neuDac_sg1r6
+MUSac-notP_sg1r2
+MUSobP-neuV_sg1r5
+INbiax_sg1r1 1583195
+INipsidesc_sg1r 1582965
+neuron 1582754
+fragment  1582516
+INcommdesc_sg1l 1582276
+fragment 1580829
+neuron 1580706
+MNantacic_sg2r1
+MNVNC_sg2r 1578508
+INhead_r 1578085
+fragment 1577569
+fragment 1576571
+MUSchae-neuVob_sg3l2
+fragment 1576420
+VNCneuron_sg2l 1576393
+MUSchae-notAac_sg3l1
+fragment 1575932
+MUSac-notP_sg3r2
+MUSchae-neuDac_sg3l3
+IN 1573225
+INsplit_sg1r 1571935
+INsplitPUh_r1
+INcomm_sg2l 1570929
+MUSchae-neuDac_sg3l1
+MUSac-notA_sg2r1
+MUSac-notA_sg1l1
+MUSac-notP_sg1l2
+MUSobP-noty_sg1l1
+MUSobA-re_sg1r1
+MUSobP-notV_sg1l2
+VNC 1570189
+INsplitBronto_sg1r; ATO
+hCirrusPU_c1r
+MUSchae-notAre_sg3l1
+MUSchae-notAac_sg3l4
+MUSchae-notAac_sg3l2
+MUSobA-re_sg1l2
+MUSobA-re_sg1r4
+MUSobA-re_sg1l3
+MUSobP_sg0r2
+MUSobA-re_sg1r5
+MUSobA-trans_sg1r1
+MUStrans_sg1r1
+INipsi-bifushort_r 1567362
+MUSchae-neuDac_sg2r3
+MNbiramous_sg2r1
+MUSac-neuPD_sg2r1
+fragment MNacicular 1567067
+MNcontra_sg2l2
+MUSac-neuDach_sg2r2
+MUSac-neuDx_sg2r2
+MNarm_sg2r1
+neuron 1565732
+IN 1565600
+CB-pigment_1564704
+fragment 1564537
+fragment  1564420
+MUSac-neuDy_sg2r1
+IN 1563803
+IN 1562483
+INbiaxH_sg1r
+INcomm-Upcross_sg2r2
+INdecuss_l 1560655
+cMNdc
+MUSchae-neuDac_sg1r4
+INcomm_sg2l 1554728
+MNheadV_r2
+VNC_sg2r 1552919
+PRC_pr2
+INbackcross2_r
+fragment MS 1551389
+MNsmile_sg1l7
+IN-decus_l 1548774sg1
+MUSac-neuPD_sg1r1
+MUSchae-neuDac_sg1l4
+MUSac-notP_sg1l1
+SNnuch_r19
+MNVNC 1547425
+MUSobP-notV_sg1r2
+INipsiasc_sg2l 1279738
+MUSac-notA_sg1r1
+MUSchae-Are_sg2r1
+coelothelium_1545566
+INsplitCR_sg3l1
+MUSchae-notAac_sg2r4
+MUSchae-notAac_sg2r1
+MUSlongV_sg1l1
+IN 1544599
+Neuron 1543221
+INsplit_sg1r 154304
+UnicilNonP_SNpost 1175413
+VNCneuron 1541263
+MNarm_sg2l2
+neuron 1539248
+luqin2-postsynaptic1
+MNax_sg2l; IN 1534322
+IN 1534075
+VNCneuron 1533918
+neuron 1533802
+MN 1533720
+fragment 1533714
+hCR2_r; SN
+INsplit_sg2r 1301718
+fragment 1528800
+MNipsiasc_sg3r 1528698
+Neuron 1528429
+INcommascFV_sg2l2
+MNspider-post_sg2r2
+MNperif 1525236
+VNC_sg3r 1524203
+INdecus_l 1521625
+neuron 1521529
+INipsiasc_sg3l 1521492
+INsplit_sg2l 1520959
+fragment 1520917
+MNVNC 1520857
+INipsiasc_sg2l 1520676
+PRC_al2
+INdecus_l 1517021sg2
+neuron 1516939
+ventralTeloPUc_1l
+neuron 1515934
+fragment 1515355
+MNcommdesc_sg1r 1514870
+neuron 1514459
+neuron 1514426
+pnb 1514372
+neuron 1514173
+INsplitSNFV_sg1r
+INcomm_sg1r 1509405
+MUSac-notM_sg3r2
+MUSac-neuDach_sg3r1
+MUSac-notM_sg3r1
+MUSac-notP_sg2r1
+MUSac-notP_sg2r2
+MUSobP-notD_sg2r5
+MUSobP-notD_sg2r3
+neuron 1504273
+Neuron 1504150
+MUSlongD_sg1r9
+MUSlongD_sg0r6
+MUSlongD_sg1l2
+MUSlongD_sg1l3
+pnb 1500957
+INcommasc_sg2l 1500208
+Neuron 1500134
+INipsidesc_sg1l 1499595
+INsplit_sg1r 1499327
+SNtrunk_sgl1 1582321
+INdesc_l 1498371
+INcosplitATO_sg1l2
+INdesc_sg2r 1491578
+fragment 1491497
+MNVNC 1490864
+NOSOMASHORTneuron 1490792
+INcommasc_sg2l 1490676
+fragment 1490624
+INVNCdcv ipsiasc 1490552 
+INipsidesc_sg1r 1489890
+INipsidesc_sg1r 1489842
+MNakro_l
+INproT2_l1
+INcommdesc_sg1l2 1488796
+MNring_sg1l3
+INcomm-Upcross_sg2r3
+INsplitCR_sg2r2
+fragment 1487843
+INMBdev 1487502
+INpreMNob_sg2l
+fragment 1486953
+MUSchae-notAac_sg1l4
+MUSac-notP_sg3l1
+MUSac-notM_sg3l1
+MUSac-notP_sg3l2
+MUSobP-neuDlong_sg3l4
+MNring_sg2r6
+MNring_sg2r4
+INcommdesc_sg2l 1486137
+MUSlongD_sg1l4
+MUSlongD_sg1l11
+MUSlongD_sg2l8
+MUSlongD_sg0l3
+INcommascATO_sg3l1
+fragment 1483318
+INcommasc_sg2l 1483100
+INipsiasc_sg2r 1483033
+INcomm_sg2r 1482991
+SNFVa_sg2r1
+INdecuss_l 1354049
+neuron 1481973
+neuron 1481768
+fragment 1481308
+neuron 1480540
+INcommdescATO_sg1r
+INcosplit_sg2l 1479581
+pnb 1479392
+MNcontra_sg2l1
+neuron 1477424
+INipsidesc_sg2r 1477379
+MUSobA-re_sg3l5
+MNpseu_sg2r
+neuron 1477101
+fragment 1477013
+INcommasc_sg2l 1476103
+INMBdev_r 1474794
+MNVNC_sg3r  1044290
+SNMB5_l 1473905
+INcomm_sg1l 147361
+SNMB 1660629
+INsplitPBbiax_sg2r3
+INdc_r2
+INcosplit_sg2l 1472929
+IN 1472845
+SN-DLSO1.3_1l
+INMBtype8_l1
+SNpalp 1372849
+INMBdev_r 1471324
+INbigloop_l1
+MBmouth_l3
+SNpalpPU 1470407
+fragment 1470137
+fragment 1469659
+INipsidesc_sg2r 1469616
+VNCneuron 1469606
+VNCneuron 1469593
+INipsidesc_sg2r 1469562
+IN 1469435
+MNob-ipsi_sg2r
+INcosplit_sg2r 1468501
+MNVNC 1468266
+VNCneuron 1468080
+fragment chae 1467403
+MNring_sg2r3
+SNpalp 1325687
+INpro_l6
+MUSobP-neuDlong_sg2l4
+fragment MN 1464818
+ventralParaPU1_sg2r
+MUSlongD_sg3l6
+MUSlongD_sg2l10
+EC_V_sg3r 1463047
+INipsiasc_sg2l 1462291
+paratroch_III_dl_2; telotroch_dl_3
+INipsiasc_sg2l 1462226
+MNVNC 1462146
+MNring_sg2l4
+INcommasc_sg2r 1461847
+MUSobP-neuV_sg2l3
+neuron 1461401
+pnb 1461069
+VNCneuron 1460922
+MNVNC 1460906
+pnb 1460883
+MUSobP-neuDprox_sg2l1
+MNring_sg2r2
+INipsiasc_sg2r 1460632
+fragment 1460582
+fragment 1460398
+fragment 1460348
+MNcommdesc_sg3l 1460114
+MUSobP-neuV_sg2r5
+INcomm-Upstairs_pygr1; INcomm-UpL_sg3r  
+neuron 1459956
+pygidial-pigment-cell_459797
+INipsidesc_sg1l 1459398
+neuron 1459350
+INcommasc_sg2l 1459187
+ciliatedGland_r3
+MNantelope_sg3r
+INsplit_sg2l 1457579
+INcommasc_sg1r 1457435
+INipsiasc_sg2l 1456639
+SNMB2_4l
+MUSobP-neuDlong_sg2l5
+MUSobP-noty_sg2l1
+MUSobP-neuV_sg2l1
+coelothelium_muscle 1455248
+INipsidesc_sg1l 1455179
+fragment 1455149
+INsplit_sg2r 1454933
+INhead_l 1454847
+IN 1454805
+MUSobP-neuV_sg2l2
+INipsiasc_sg2r 1454629
+fragment 1454498
+coelothelium_1453827
+InterparaGland_sg3r
+INsplit_sg1r 1453548
+MNob_sg2r 1452688
+glia 1452349
+INipsiasc_sg1r 1452160
+INipsiasc_sg2r 1454390
+INcommasc_sg3r 1450610
+IN 1450581
+MUSac-notP_sg3r1
+INsplit_sg1r 1449904
+SN-sg3r 1449611
+fragment 1449344
+INdecuss_r 1449340
+fragment 1449246
+INMBproj 1449235
+fragment 1449125
+INipsiasc_sg2r 1448859
+fragment MN 1448696
+neuron 1448516
+IN 1448245
+INipsiasc_sg2r 1447993
+INipsidesc_sg1l 1447878
+NOSOMAneuron 1447582
+MNspider_sg3l3_immature
+NOSOMA 1447173 fragment
+MNacic_sg3l
+INipsiasc_sg3r 1446685
+INcommasc__sg2l
+INasc-r 1446516
+fragment 1446410
+flat-glia_1446385
+INipsiasc_sg2r 1446192
+neuron 1446156
+INipsi-branchy_l1446137
+fragment 1446022
+VNCcomm_sg3l 1445460
+VNC_sg2r 1445168
+pnb 1444806
+INsplit_sg2r 1444675
+SHORTYneuron 1444260
+MUSobP-notV_sg2l2
+MUSobP-notV_sg2l1
+chaeMech_sg1r2
+spinPU_sg3r
+cioMNcover_l1
+MN 1442573
+IN 1442569
+SNMB 1442493
+VNCneuron immature 1442427
+INsplit_sg3l 1442135
+MUSlongD_sg1r11
+MNob_sg3r 1441776
+MUSobP-neuV_sg2r6
+MNVNC_sg3 1441661
+INipsiasc_sg2r 1441615
+INsplit_sg2r 1441390
+INipsiasc_sg2r 1441374
+INsplit_sg2r 1441074
+INipsiasc_sg2l 1441051
+IN 1440817
+IN 1440757
+pnb 1440718
+INsplit_sg3l 1383185
+fragment 1439959
+SN-DLSO1.1_2r
+neuron 1439533
+pnb 1439105
+INsplit_sg2l 1438683
+INcomm-Upstair_sg3r1; RF/RYa
+INsplitPDF_sg1l 1475456
+neuron 1437290
+fragm 1437265
+INsplitPB_sg3r1
+INVNC_sg3r 1436896
+prototroch_4A
+MUStrans_sg3l7
+MUSobA-lpp_sg3l1
+INbiaxHmid_sg2l
+SHORTNOSOMA 1436545
+INcosplit_sg2l 1436507
+INcosplit_sg2r 1436494
+IN 1436455
+MNVNC 1436291
+MNchae_sg2l1
+fragment 1435812
+MNVNC 1435592
+INcomm_sg1 1435541
+MUSobA-re_sg3l4
+MUSobA-re_sg3l3
+MNantelope_sg3l
+MNVNC 1435325
+MUSobA-lpp_sg3r1
+MN-oblique_sg3l2
+coelothelium_1435079
+INipsidesc_sg3r 1435059
+neuron 1434996
+chaeMech_sg3r4
+MNVNC 1434747
+MNring_pygr1
+fragment 1434240
+IN 1434210
+meso 1434137
+neuron 1434065
+fragment 1434039
+SHORTNOSOMAneuron 1433887
+VNCneuron 1433752
+VNCneuron 1433692
+SHORTneuron 1433436
+INdecuss_r 1013576
+MNsmile_sg1l6
+VNCFMRF_sg2l 1433270
+INpreLadder_sg3l
+fragment 1432587
+MNax_sg2r1
+neuron 1431896
+fragment 1431669
+VNCneuron 1431398
+VNCimmat_sg3l
+INipsi-Lshape-asc_l 1431291
+fragment 1430777
+INipsidesc_sg3l 1430492
+INproATO_r3
+INhead_r 1430234
+neuron 1429505
+neuron 1429498
+IN 1429161
+fragment FVa 1427971
+fragment 1427725
+VNC_sg1r 1427703
+INcommdesc_sg2r 1427618
+fragment 1427591
+fragment 1427343
+VNCneuron 1427288
+INipsidesc_sg1r 1426566
+IN 1426414
+fragment 1426085
+INsplit_sg3r 1425622
+spinPB3_sg3r
+fragment 1425209
+INcross_r1
+INipsidesc_sg3l 1424854
+INcommasc_sg2l 1424525
+VNCneuron 1424456
+fragment 1423596
+INsplit_sg3r 1423132
+INcommasc_sg3l 1422885
+INsplit_sg3l 1422854
+IN 1422388
+INcomm_sg3l 1422304
+INcommasc_sg2l 1421894
+neuron 1421883
+MNspider-post_sg3l2
+pnb 1421759
+IN 1421732
+MNVNC 1421681
+MNVNC 1385476
+INcommdesc_sg3r 1421504
+MUSobP-notV_sg1l3
+INcomm_sg2r 1421213
+INsplitPB_sg3r2
+MUSlongD_sg2r6
+MUSlongD_sg2r3
+MUSlongD_sg3l3
+MUSlongD_sg2l5
+MUSlongD_sg2l4
+MUSlongD_sg3l4
+MUSac-notA_sg3l1
+MNsmile_sg1l2
+MUSlongV_headr5
+MUSobA-re_sg3l2
+MUSobA-arc_sg3l3
+MNVNCax_sg3l 1420303
+IN 1420279
+IN 1420267
+INsplitCR_sg2r1 
+INcommasc_sg3l 1420086
+SN 1419788
+MNdesc_sg1 1419667
+INipsidesc_sg1l 1419640
+MN fragment 1419580
+VNC_sg3l 1419395
+SN-NS4
+MUSobA-arc_sg3r2
+SN-NS27_l
+SN-YF5cil
+Neuron 1418771
+SHORTNOSOMANeuron 1417900
+SNbronto_r
+FVRIa-left 1417676
+neuron 1417307
+INcommasc_sg3r 1417277
+INcomm_sg3l 1417266
+flat-glia_MNcrab 1416769
+MUSac-notP_sg1r1
+INcomm-Upstair_sg3l1
+MUSobP-notV_sg1r3
+MUSobP-noty_sg1r1
+MUSobA-arc_sg1r1
+MUSobA-arc_sg1r2
+MUSobA-mpp_sg2r1
+MUSac-neuDach_sg2r1
+MUSlongD_sg1l10
+PRC_pl2
+MUSlongD_sg2r5
+SN 1415538
+chaeMech_sg1r1
+neuropodPUc1_sg1r; SN
+MNarm_sg3l2
+INsplit_sg3l 1415437
+MUSchae-neuAVo_sg3l3
+MNchae_sg3l1
+MNVNC 1415267
+MUSobA-arc_sg3l1
+MUSobA-arc_sg3l2
+INipsiasc_sg3l 1414340
+MNacicX_sg3ll
+SHORTNOSOMA 1414104
+VNCneuron 1413974
+INcommasc_sg2r 1413806
+flat-glia_1413525
+INcomm_sg3l 1412894
+interparapodCR1_sg1r
+INsplitCR_sg2r4 
+fragment 1412366
+pnb 1412299
+SN-NS27_r
+SN-DLSO_l3
+INvc 1411610
+SNMB2_2r
+SNMB2_1r
+neuron 1411527
+IN 1411257
+IN 1411137
+INcommdesc_sg3r 1411127
+INcommasc_sg3r 1410777
+neuron 1410501
+frag 1410453
+MNVNC_sg2l 1442397
+MNVNC_ips_sg2r 1776778
+MNipsiasc_sg3r 1410275
+VNC_sg3r2
+INcomm-Upstairs_pygr2
+INcomm_sg3l 1409580
+INipsiasc_sg3l 1409562
+neuron 1409489
+fragment 1409406
+MNring_sg2r 8
+INMBtype10_r2
+MUStrans_sg0r4
+MNbiramous_sg3l1
+MN1_r
+INipsidesc_sg1r 1408039
+MNVNC 1407938
+neuron 1407930
+fragment 1407900
+INcomm_sg2l 1407884
+neuron 1407875
+INipsiasc_sg3r 1378972
+MN-oblique_sg3l3
+fragment 1407350
+INsplit_sg2l 1407181
+INcommdesc_sg1r 1407164
+INintl3
+fragment 1406487
+SNMB 1406350
+INcosplit_sg2r 1405840
+INsplit_sg2l 1405727
+fragment 1405628
+INipsidesc_sg1r 1405400
+fragment 1405392
+MUSlongV_sg0l2
+IN 1405191
+INipsiasc_sg3r 1404986
+fragment 1404665
+INleucoPU_sg1l
+MUSax_sg1r3
+MUSax_sg1r2
+MUSobP_sg0r1
+fragment glia 1303018
+INsplit_sg3r 1404084
+MNwave_sg2l2
+MUSobP-neuDlong_sg2r5
+MUSobP-neuV_sg2r2
+MUSobA-re_sg3r4
+INipsidesc_sg1r 1403262
+fragment 1403231
+MUSobP-neuV_sg3r1
+fragment 1403031
+IN 1402737
+SN-DLSO1.3_3l
+neuron 1402237
+MN-oblique_sg3r2
+INcommasc_sg3l 1401123
+fragment 1400997
+SHORTNOSOMA 1400908
+neuron 1400887
+INchaeMech_sg3l
+INipsiasc_sg3r 1400536
+INsplitCRATO_sg3r
+neuron 1400184
+INcosplit_sg3r
+MUSobA-lpp_sg2l2
+MNantacic_sg2r2
+MNwave_sg2l1
+neuron 1399335
+fragment 1399330
+neuron 1399308
+fragment MN 1398955
+neuron 1398915
+MUSac-neuDach_sg2l1
+MNwave_sg2l3
+MNVNC 1398638
+INMBdesc2_r 1398574
+fragment 1398112
+fragment 1397951
+INipsidesc_sg1l 1397888
+neuron 1397867
+MUSac-notM_sg1l2
+MUSobA-arc_sg2l4
+MUSobA-arc_sg2l3
+unlikely glia 1397733
+INcommasc_sg3r 1397640
+INcomm_sg3l 1397628
+fragment 1397403
+INipsidesc_sg2l 1397353
+INipsidesc_sg3l 1397347
+INcommasc_sg3r 1397327
+INcommasc_sg3r 1397286
+SNMB6_r 1397112
+MUSobP-notV_sg3r1
+MUSobP-noty_sg3r1
+INcommasc_sg3l 1396791
+MUSobP-neuV_sg1l4
+INipsiasc_sg3l 1396755
+neuron 1396747
+MUSobP-neuV_sg1l5
+MUSobP-neuV_sg1l2
+MNring_sg3l3
+INcommasc_sg1r 1396375 
+MNsmile_sg1r2
+INcommasc_sg2r 1396320
+INshort-asc_l_vnc_l_immature? 1396069
+MNsmile_sg1l3
+INcomm_sg1l 1395920
+INipsiasc_sg2l 1395840
+MUSlongV_sg1r7
+MUSlongV_sg1r6
+MUSlongV_sg1r3
+MUSlongV_sg1r2
+MNring_sg2l1
+MUSobA-arc_sg2r2
+MNspider-ant_sg2l1
+MS5_r
+INcommasc_sg3r 1395094
+EC_V_sg1r with long process 1394978
+MNmouth_sg2l
+MNspider-post_sg2l2
+INpreMNob 1394877
+spinPB3_sg2l
+MUSobP-neuV_sg2l7
+dorsalParaPUc1_sg2l
+INcomm-UpL_sg3l1
+MUSlongV_sg3r1
+INcommasc_sg3l 1393788
+fragment 1393589
+neuron 1393584
+INcommasc_sg2r 1393553
+MUSchae-neuDac_sg3r4
+MUSobA-re_sg3r5
+very unlikely glia_sg3r 1393090
+INcomm_sg3r 1393084
+INcomm_sg3l 1393035
+doCRunp
+MNring_sg3l2
+INsplit_sg2r 1392933
+MNVNC_sg3l 1443617
+MUSobP-neuV_sg3l5
+MUSobP-neuV_sg3l2
+MUStrans_pygl2
+MUStrans_pygl1
+MUSobP-notV_sg3l2
+MUSobP-notV_sg3l1
+MUSobP-noty_sg3l1
+MUSobP-neuV_sg3r3
+INcommasc_sg1r 1391992
+MUSobA-mpp_sg2l1
+SHORTneuron 1391635
+SN-l 1391603
+MNsmile_sg1l4
+INperiasc_sg1l 1391562
+INcomm_sg1l 1391501
+MS5_l
+SHORTneuron 1391419
+MNwave_sg3l1
+MNhose_sg3l1
+INcommasc_sg3r 1390850
+spinPB2_sg3r
+NOSOMAneuron 1390644
+INsplitVent_sg2l
+INsplitPB_sg3l3
+fragment 1389487 fragment
+fragment 1389384
+INipsiasc_sg3l 1389372
+INipsiasc_sg3r 1388789
+spinPU3_sg3l
+spinPB2_sg3l
+spinPU2_sg3l
+blanket_for mscle 1388086
+fragment 1387836
+IN 1387675
+MNgland-head_r
+flat-glia_1387598
+MNarm_sg3l1
+INsplitCR_sg1l3 
+chaeMech_sg3l4
+MNhose_sg3r1
+blanket_for mscle 1387209
+INasc-pyg_l1
+NOSOMA 1386974
+non-neuron 1386965
+INcommdesc_sg3r 1386951
+INipsiasc_sg3l1 1386659
+INcommDesc_sg3 1386545
+ventralpostParaPUc1_sg2l
+INsplit_sg3l 1386337
+INsplit_sg3r 1386276
+SNPDF-pyg_l
+fragment 1386172
+INcomm-DownL_sg2l1
+INipsiasc_pygl 1385969
+fragment MN 1385868
+pygidial-pigment-cell_1385537
+INdecus-short_r 1385498_sg3
+fragment 1385410
+fragment 1384691
+INipsi-short_l 1384594
+MNchae_sg3l2
+chaeMech_sg3l2
+MNperif_sg3l 1383963
+ECmidline_V_sg3r rad glia 1383779
+INVNC_sg3r 1383724
+INcommasc_sg3l 1383700
+INsplit_sg2r 1383601
+INsplit_sg2r 1383588
+MNspider-ant_sg3l1
+VNC 1383210
+INbiaxLeg_sg2r1
+MNchae_sg3r1
+chaeMech_sg3r1
+chaeMech_sg3r2
+INcosplit_sg2l 1382872
+INcosplit_sg3l
+MNacicX_sg2r
+fragment 1382358
+INsplit_sg2l 1382195
+MUSobP-neuV_sg2r3
+MUSobP-notV_sg2r1
+MUSobA-re_sg1l6
+MUSobA-mpp_sg3l1
+MUSac-neuDach_sg3l1
+IN 1381821
+MNchae_sg2l2
+MNVNC 1381641
+INipsiasc_sg3r 1381576
+VNC_sg3r 1381528
+INipsidesc_sg2l 1381502
+neuron 1381261
+chaeMech_sg3l1
+MUSobP-noty_sg2r1
+fragment 1381083
+MUSobP-notV_sg2r2
+INstarFVa_sg3l 1380904
+MUSax_sg3r1
+MUSax_sg3l1
+MUSax_sg2l1
+MUSobA-re_sg3l8
+MUSax_sg1r4
+MUSobA-mpp_sg3r1
+MUSax_sg2r1
+MUSobA-mpp_sg3r2
+INipsiasc_sg3r 1172370
+INcommdesc_sg1r 1380151
+INVNC_sg2 1380119
+INcomm_sg2r 1380068
+INcomm_sg2l 1379999
+VNCneuron 1379903
+INcomm_sg2r 1379778
+fragment 1379632
+fragment 1379551
+INcosplit_sg2r 1379512
+neuron 1379478
+NOSOMA 1379273
+neuron 1379134
+fragment 1378989
+neuron 1378864
+MUSlongD_sg0r7
+INcommFMRFa_sg1l
+fragment 1378255
+INipsidesc_sg1r 1378190
+SNgolden_r
+MNcosplitN3r
+INh_l
+interparaPU1_sg2r
+ventralpostParaPUc1_sg1l
+INcosplit_sg1r 1376460
+INcommasc_sg1r 1376351
+IN 1376252
+fragment MNVNC 1375627
+SNMB 1374632
+SNMB 1374515 
+SN-DSO7
+SNpalp 1374125
+MN 1373278
+VNCciliomotor_sg3r 1373225
+IN 1373065
+MNob-ipsi_sg2l
+neuron 1372505
+neuron 1372385
+INipsiasc_sg3r 1372364
+SNMB 1372331
+SN-sg0l
+IN 1372019
+INbackcross1_r
+INhead_r 1371847
+INfoot_r2
+INipsiasc_sg0r_1370694
+INMBtype10_l2
+fragment 1370381
+SN-sg3r 1370204
+fragment 1370142
+fragment 1369709
+INr 1369463
+fragment 1369174
+MUSlongV_sg2l10
+MUSlongD_sg0l1
+MUSlongV_sg3l5
+MUSlongV_sg3l9
+fragment 1367937
+SNMB 1367777
+INZ_l1
+hPU2l-asymPDF
+pnb 1367231
+MNVNC wave 1366840
+fragment 1366794
+INbiaxLeg_sg2l1  
+INsplitPB_sg2l5
+pygCirrusCR1_r
+INipsiasc_pygr 1366161
+INMC3_l
+INsplitBronto_sg1l
+dsoPU2unp
+INsplitPBsg1l1
+MNantacic_sg1r2
+MNpostacic_sg1r1
+INsplitPB_sg3l1
+InterparaGland_sg2l
+chaeMech_sg1l1
+VNCperif_sg1r 1363723
+IN 1363317
+INcommasc_sg3l 1293982
+IN 1361952
+ventralParaPB1_sg1r
+ventralParaPU2_sg1r
+ventralParaPB1_sg1l
+INMBtype6_l3
+ventralpygPU1unp
+ventralTeloPUc_1r
+ventralParaPU1_sg1l
+ventralParaPU1_sg1r
+SN-immature_pyg
+ventralParaPB1_sg2l
+ventraltrunkPB1_sg3l_PKD2-1+
+neuron 1360641
+interparaPM1_sg2r
+INhead_r 1360457
+IN 1359996
+IN_sg0l 1359788
+INpara_r2
+INUturn_l
+INMBtype7_r1
+MUSlongV_sg1r4
+MUSlongV_sg2r2
+INcomm-Upcross_sg2r4
+INperiasc_sg1r 1357167
+ventraltrunkPU1_sg1r
+INMBdesc2_r 1342039
+MUSlongV_headr3
+INcomm_sg1l 1356812
+MUSlongD_sg2l7
+INface_l
+INhorn_l
+INcommdesc_sg2l 1356178
+SNMB 1355912 
+INcommasc_sg1l 1355728
+SNMB 1355428
+fragment 1355411
+MNant_l
+INipsiasc_Latcb_r 1355224
+MNmouth_sg2r
+INsplitCR_PDF_sg1l2
+INpara_r1
+INMBdev_l 1354682
+IN 1354629
+SNpyg 1354533
+INMBtype5_r
+INMBtype6_l2
+INlasso_l2
+INipsiasc_sg2l 1354210
+INipsiasc_dorsalcellbo_r_1353434sg1
+fragment 1353408
+INcomm_sg3r  
+NOSOMA-SHORTNeuron 1353273
+pnb 1771413
+NOSOMASHORT 1352548
+MUSobP_sg0l1
+fragment 1352334
+fragment 1352017
+IN 1351519
+fragment 1351443
+IN 1351386
+INsplitCR_sg1l5
+INsplitCR_sg2l1 
+INbiaxonCR_sg1l  
+MNVNC_1A_sg2l
+SNpyg 1351072
+NOSOMA_4
+IN 1350480
+VNC_sg1r 1350395
+metatrochNPU1r; SN
+IN 1350198
+IN 1350127
+interparapodCR1_sg1l
+interparaPM1_sg1l
+INhead_l 1349858
+INW_l2
+pygCirrusPBc1l
+spinPB1_sg3l
+VentralpygCR3r
+spinPB1_sg3r
+ventralTeloPUc_2r
+ventralTeloPB1r
+ventraltrunkPB1_sg1r
+ventraltrunkPU1_sg1l; SN
+ventraltrunkPB1_sg1l
+MUSlongD_sg2l6
+MNcrab_sg2r1
+INloop 1348200
+IN weird 1347892
+INcommasc_sg1l 1347816
+INsplitHairy_sg2l1
+IN 1346664
+INMBdecussdesc_r 1346362
+PRC_pl1
+SNstiff_pstl2
+INlasso-postSN_l1
+INdecussfoot_r
+MNVNC_1A_sg2r
+INhead_r 1345238
+INl 1345151
+pygCirrusPU_5r
+pygCirrusPU_3r
+IN 1344085
+INdecusshook_r
+IN 1343347
+MNVNC_sg3r 1343036
+devMUS
+MUSobP-neuV_sg3l3
+nuchalCiliaCilia_dr3; nuchal_dr2; cc_dr_2
+SNtrpa_r
+SNMB 1342971
+IN 1342946
+SNpalp 1342820
+SNpygM_r
+IN 854300
+INMBtype6_l1
+INMBtype10_l1
+MNakro_r
+VNCneuron 1341319
+IN trunk 1341303
+INperiasc_sg3r 1341141
+INipsiascFVa_sg3r2
+INpro_l5
+INr 1340704
+INhead_r 1340648
+INsplitPB_sg2r2
+INipsiasc_sg1r
+ecto fragment 1340167
+fragment 1340150
+MUSobA-lpp_sg1l1
+MUStrans_sg1l5
+MUSlongD_sg0l10
+INdecusshook_l
+INbackcross1_l
+INVNC_sg3l 1339153
+notopodPUc1_sg3l
+INcommdescFVa_sg2r
+MNcross_sg2l2
+MNhose_sg1l1
+INcosplit_sg2l 1338884
+neuron 1338848
+ventraltrunkPB1_sg2r_PKD2-1+
+INdecussfoot_l
+INbiaxDors_sg1l 1338018
+dorsalTeloPUc_1r
+dorsalTeloPB1r
+INhead_l 1337355
+INMBtype7_l2
+INMBPDF_l1
+INMBdev1_r 1337005
+SNMIP-vc_l
+fragment ciliomotor loop 1336470
+INUturn_r
+SNpyg 1335846_putPU
+SNpyg_l 1335833
+UnicilNonP_SNpost 1335791
+pygCirrusPBc13
+INMBdev 1335728
+INMBtype5_l
+SNMB1_r 1335598
+INMBtype7_r2
+IN 1335431
+CB-pigment_1335105
+INmus_l
+IN 1334139
+INcross_l3
+IN r 1333781
+spinGland_sg2l
+spinGland_sg2r
+MNspinning_sg2l
+spinGland_sg3r
+IN 1333450
+spinGland_sg3l
+MNspinning_sg2r
+SNhorn_r
+Spinning gland stalk cell; luqinpos 1333137
+IN 1332792
+IN 1332712
+SN-DSO1
+INMBtype6_r2
+SNMB2_3r
+INMBtype6_r3
+INMBtype6_r4
+INMBtype10_r1
+IN 1331807
+IN 1331434
+INlassoRGWa_r2
+IN 1330879
+INMBtype9_r1
+SNmus_r
+IN 1330334
+INMBtype3_r1
+INcosplit_sg2l2
+INMBtype10_r6
+SNant 1329667
+fragment 1329618
+INsplitPUh_r2
+IN 1329248
+SNimmature 1329205
+INsplit_sg2l 1329167
+INR1_r1
+INr 1328674
+INsplit_sg1l 1328484
+SNant 1328430
+INsplit_sg1l 1328127
+paratroch_III_vr_2; telotroch_vr_3
+SN-DLSO1.2-1_r
+SNMB 1326922
+SNMB2_r 1326587 
+SNr 1326535
+SNbicilDhead_r
+INpara_l2
+SNMB 1325884
+SNMB3_r 1325844
+INMBtype1_r
+SN HC 1325701
+SN HC 1325683
+SNpalp 1325634
+SNpalp 1325626
+IN 1325273
+pygCirrusCR3r
+antPUc_6l; SN
+pygCirrusPBc12
+INsplit_sg3r 1324108
+IN 1324061
+fragment 1323998
+ECmidline_V_sg3r rad glia 1323989
+INcommasc_sg3r 1323883
+pnb 1323841
+IN 1323829
+fragment 1323804
+INipsidesc_sg2l
+neuron 1323674
+MNob-ipsi_sg3r
+SN 1323537
+SN1323364
+NOSOMA_2
+SNantimp 1322646
+IN 1322587
+MNheadV_l1
+INcross_r4
+INpro_r4
+INdecuss_l 1321532
+INMC3_r
+IN 1321045
+INUturnMB_l
+INMBdescFMRF_l
+SN-DSO20
+IN 1319882
+SNr 1319752
+IN 1319705
+SN-DLSO1.0_1r
+SN-DLSO_r1
+SNnuch_r18
+SNnuchBx_r
+IN 1318987
+INhead 1318966
+antPUc_2l; SN
+antPUc_3l; SN
+INhead_l 1318603
+INpara_l1
+SNMB 1318326
+SNMB1_l 1318312
+INdecuss_l 1318237
+IN 1318072
+INcross_l2
+dsoPU3unp
+INhead_l 1317376
+INNOS_dl
+INbigloop_l2
+INMBtype1_l
+SNtorii_l
+SNMB 1316425
+INMBdev 1316333
+IN 1316131
+SNtorii_r
+IN 1316039
+SN-DLSO_r 1315272
+MUSac-notA_sg3r1
+INcomm_sg3l4
+INlasso_r1
+MUSlongV_sg2l2
+INhook_l
+INcosplit_sg2r 1314140
+INcosplitATO_sg1l1
+INcommATO_sg1r
+fragment ATO 1313540
+INcommasc_sg2l 1313187
+INcomm-Upstairs_FVa_PDF_pygl1
+chaeMech_sg1l2
+INCM_sg1l1
+VentraltrunkPUunp-Glialike_sg2
+INcommasc_sg1r 1312587
+flat-glia_GliaCR_sg1l1
+MNsmile_sg1r1
+INsplit_sg3l
+INcommdescFVa_sg2l
+INasc-pyg_r1
+IN 1312225
+dsoPU1unp
+INDLSO_r1
+INcomm_sg1r 1311788
+SN-HSG3_4r
+INMB_r 1311698
+SNMB 1311598
+SNMB ventral head 1311559
+INZ_r2
+INW_l3
+INsplitCR_sg1r1
+fragment 1310154
+INVNC_sg1l 1310144
+SN 1310017
+SNnuch_r12 
+SNnuch_r4 
+INipsidesc_sg1l 1309033
+INipsiasc_sg1l 1308878
+MNring_sg1l1
+INsplitCR_sg1l4 
+EC_V_sg0rr 1308388
+INsplit_sg1l 1308348
+fragment 1308316
+INcommdesc_sg1l1 1308022
+neuron 1307755
+INMBdecussdesc_l 1307746
+INbigloop_r1
+MNbow_sg2r1; proenk
+n2-postsyn 1307460
+interparaPU1_sg1r
+interparaPUc1_sg1r
+MNperif_sg1r 1307041
+IN r 1306907
+INcommdesc_sg1r 1306860
+INcosplit_sg2l 1306608
+INarc2_l
+IN 1306491
+metatroch_vl_3
+SNnuch_r10
+flat-glia_1306247
+SNnuch_r9
+SNnuch_r3
+SNnuch_r6  
+SNnuch_r7; fork
+MNsmile_sg1l1
+INipsidesc_sg1l 1305462
+INsplitPBant_sg1r
+INhead_r 1304980
+INpreMN_1r
+INsplitPB_ATO_sg2r1
+fragment 1304890
+INlasso_r3
+INbiaxH_sg1l
+INpear_r1
+INlasso_l1
+INhead 1303656
+INMBdev 1303297
+IN 1303154
+covercell_2clock_ant
+SNMB 1302664
+fragment 1302572
+SNMB 1302514
+IN 1302346-RGWa-post2
+INdescRGWa_r
+INbiaxH_sg2l2
+cMNATO
+INcross_l4
+INasc 1302041
+INpro_l4
+IN 1301968
+INface_r
+INpreSer_l
+flat-glia_1301262
+MN MIP?? 1301109
+fragment ATO right 1298485 part2?
+SNantlerPDF_l
+INhead_l 1300036
+paratroch_II_vr_3
+INmidL_r2
+INbush 1299491
+SNhorn_l 
+INMBtype2_r1
+IN 1299052
+SNMB 1299042
+INfoot_l1
+IN 1298857
+dsoPUc1unp
+INcommascATO_sg3l2
+Loop_l
+paratroch_II_dl_2
+INipsi-bifu_l_ATO left 1298375
+ventralpostParaPUc1_sg2r
+INipsidesc_sg1l 1297502
+MNhose_sg1r1
+INVNC_sg1r 1296920
+VNCcomm_sg1r 1296876
+MNVNC_sg1 1296677
+INcommascATO_sg2l
+MNVNC 1295824
+fragment 1295795
+MNbiramous_sg1l1
+IN-biaxonal_ipsi_l_VNC 1295407
+neuron 1295347
+INcommdesc_sg2r 1295232
+IN 1295162
+Ser-tr1_l
+covercell_7clock_ant
+covercell_5clock
+akrotroch_r4
+fragment 1294766
+SN-DLSO1.3_2r
+SN-DLSO1.3_1r
+IN 1294207
+fragment 1293935
+INcomm_sg2r 1293816
+INMBPDF_r1
+MNbiramous_sg3r1
+SNMB 1293405
+IN 1293382
+neuron 1293304
+INdescLuqinPDF_r
+INpro_r7
+INRGWa_dcr2
+INNOS_vl
+INRGWa_dcl2
+INcommdesc_sg1l 1292353
+SNasym_l
+SN-NS29_l
+INMBPDF_r2
+pygCirrusCR_2l
+INexsn_r
+fragment 1286645
+fragment 1286447
+flat-glia_606591
+SN-DSO19
+INpro_r6
+SNMB ventral head r 1285843
+SN-NS1_r
+SN-DLSO1.2_4rPDF-dcr3
+INpreSer_r
+SN-NS15_r
+IN 1285328
+INpreMN_2r
+INhead_r 1285307
+INDLSO_r2
+IN 1285268
+INpear_l1
+MNant_r 
+SNMB2_3l
+SN-NS17_r
+INhook_r
+INcommasc_sg2r 1284426
+IN 1283876
+fragment ciliom 1283750
+hPU1_r; SN
+SN 1283039
+covercell_2clock_post
+covercell_4clock_post
+covercell_7clock_post
+hCR1_r1; antCR_1r; SN
+Glia-pigmented_1282807
+fragment 1282545
+SNMB2_1l
+INhead_l 1321570
+SNlasso_l
+SN-NS17_l
+INcommasc_sg2r 1281474
+INcommasc_sg3l 1281433
+INcomm-Upstairs_pygl3
+dsoCR_4r
+hPBc1r
+dsoCR_3r
+MNperif_sg2l 1280931
+INhead_r 1280538
+INiaStiff_sg1r
+SNFVa_sg2l1
+Loop_r
+MUSobP-neuV_sg3r2
+MUStrans_pygr4
+pygCirrusCR2_r
+pygCirrusPU_c1r_Hair_cell pygidium 1279544
+pygCirrusMSPUc2r pygidium 1279526
+pygCirrusPBc1r
+pygCirrusPU_c3r_SC pygidium 1279509
+INsplit_sg3l 1279253
+MNdecus-branch_sg3l
+SHORTNOSOMAneuron 1279059
+INcomm-Downarc_sg2r1
+INsplit_sg3l 1278948
+pygCirrusCR1l
+INcomm-Upstairs_pygl_immature
+VentralpygCR3l
+VentralpygCR2_l
+vacuolar-cell-head_1
+covercell_6clock_post
+pygCirrusPBcl4
+sensory67;SN
+INipsiasc_sg3r 1278419
+pygCirrusPU_4r
+SNFVa_sg3l1
+fragment 1277937
+CiomRaphe_n3_sg1l
+SNFVa_sg3r1
+cioMNcover_l2
+Neuron 1277734
+MUSlongV_sg0l3
+dorsalTeloPB1l
+dorsalParaPB2_sg2l
+SNhook_r
+MUSlongV_sg1l3
+INMBdev 1276718
+INZ_l2
+IN 1276486
+SN 1070398
+INhead_l 1276148
+INfoot_l2
+INhead_l 1275917
+SN-DSO8
+SN-DSO11
+SN-DSO6
+ventralCirrusPB1_pygr
+INsplit_sg2l 1275802
+IN r 1275769
+INasym_r
+INr 1275592
+IN 1275445
+IN 1275389
+INcomm-Upstairs_pygl2
+ventralpygPB1l
+INipsiasc_sg3l 1275244
+INsplit_sg3l 1275230
+SNPDF-pyg_r
+VentralpygCR1_r
+VentralpygCR1_l
+INsplit_sg2l 1274821
+Ser-tr1_r
+fragment 1274700
+fragment 1274515
+IN 1274486
+INipsiasc_sg3l 1274440
+fragment 1274343
+ventralpostParaPUc2_sg2l1
+VentralpygCRunp
+pygidial-pigment-cell_274025
+INhead_l 1273564
+INhead_l 1273555
+INhead_l 1273540
+INlasso_l3
+SN-DLSO3-PDF_l
+INlasso-postSN_r1
+SNlasso_r
+antCR_4l; SN
+hCR3l; SN
+hCR3r; SN
+INhead_l 1272535
+INr 1272524
+INW_r1
+neuron 1272345
+flat-glia_1272017
+SN 1271929
+IN 1271921
+IN 1271885
+IN 1271861
+SNblunt_r
+IN_l 1271738
+INDLSO_l1
+SN-HSG3_6r; sensory64;SN
+INR1_l1
+IN 1265746
+INdecussn2_l 1264499
+SNnuchNS_r1
+IN 1263276
+INheadPDF_l 1261996
+IN 1258528
+INcommasc_sg2l 1250521
+MNring_sg2l2
+fragment 1244845
+MNring_sg3r3
+MNipsi_sg2l 1243777
+fragment MN 1244337
+MNring_sg3r2
+MNcrab_sg3l1
+MUSlongV_sg1l7
+fragment MN neuroacicular 1237284
+MUSac-neuAV_sg2r1
+INMBtype7_l1
+metatroch_vl_4
+MNacicX_sg3lr
+INbigloop_r2
+SNnuch_l4
+SNMIP-vc_r
+SNnuchBx_l
+PRC_al1
+SNMB 1209703
+MUSll_sg0r4
+metatroch_vl_2
+akrotroch_l2
+metatroch_vr_4
+SNstiff_sg0r2
+metatroch_vr_1
+INCrossbow_r
+INMBPDF_l2; INvc_l6
+INlasso_r4
+MNspider-ant_sg3r1
+MS3_r
+VentralpygCR2_r
+INipsiasc-short_sg3r 1178654
+INCrossbow_l
+VNC IN 1173401
+INcommasc_sg1r 1173304
+neuron 1172422
+IN 1172403
+piece 1172330-T
+pygCirrusPU_2r post-r 1166447
+INsplit_sg3r 1166369
+MC3cover_r
+SN-DLSO1.3_2l
+SN-DLSO1.1_3l_116l
+SN-DLSO3_3r
+SN-DLSO3_5r1
+SN-DLSO3_5r2
+INhead_l 1157465
+SN-NS18_l
+SN-DLSO1.3_4l_DLSOl11
+SN-DLSO_l6
+SN-DLSO1.4_1l
+SN 1155296
+MS3_l
+ciliatedGland_r1
+MUSac-neuAV_sg1r2
+Ser-h1_l
+MUSac-neuPV_sg1r2
+MUSac-neuPV_sg1r1
+MUSac-neuAV_sg1r1
+MNpostv_sg3r
+Neuron 1133029
+SN-DSO10
+IN MIP 1129678
+fragment 1129079
+SNnuch_l11
+SNnuch_l3
+SN-DLSO_r 1123965
+SN-DLSO1.1_3r_116r
+SN 1122239
+SN-DLSO_l8
+INdecussM_PDF_r
+SNnuch_l14 fork 
+IN PDF-left1 target 111829
+SN-HSG3_1r
+fragment_ab 111675
+SN28r
+metatroch_vr_2
+metatroch_vr_3
+PRC_al7
+SNnuch_l9
+INdecuss_r 111232
+pnb 1111919
+INiaStiff_sg1l
+SNnuch_l8 
+IN 1104825
+SNnuch_r2
+SNnuch_l7 
+SN-DLSO_l4
+SN-DLSO1.0_1l
+SN-DLSO_l2
+MN1_l
+IN 1086657-Reza
+INipsiasc_sg1l 1082471
+INproT2_r1; INpro_r4
+SNPDF-dc_r1_DLSO1.1_4r
+SNnuch_l2 
+akrotroch_l1
+SNnuch_r13 
+SNPDF-dc_l1_DLSO1.1_4l
+SNnuch_l13 ant 
+SNantlerPDF_r
+SNnuch_r8 ant 
+SNnuch_l6 
+INdesc_l 106879
+SNnuch_r1 
+fragment 1068036
+SNnuch_l12 ant 
+SNbicil_l
+INr 1065084
+INcommascFV_sg2r
+INfoot_r1
+MUSlongV_sg2l9
+INpreMN_1l
+RGWa_incomplete-sigold
+PRC_al5
+MNperif_sg3r 1052127
+MUSac-neuAV_sg3r2
+MUSac-neuPV_sg3r1
+MUSac-neuPV_sg2r2
+IN 1050288
+fragment 1050267
+VNC 1048574
+MNVNC_sg3l 10335809
+MUSac-neuPV_sg2r1
+MUSchae-neuAVt_sg2l1
+MUSac-neuPV_sg2l1
+MUSlongV_sg3r6
+MUSac-neuPV_sg2l3
+MUSlongV_sg3l6
+MUSlongV_sg3l4
+MUSlongV_sg3l3
+MUSlongV_sg2l3
+MNcrab_sg3r1
+MNring_sg3r1
+IN 1024096
+pnb 1234567
+fragment MN 1022473
+INcommdesc_sg1l 1018326
+INcommasc_sg1r 1018304
+INMB_r 149323
+MNax_sg1l1
+prototroch_5A
+INipsidesc_sg1r 1000273

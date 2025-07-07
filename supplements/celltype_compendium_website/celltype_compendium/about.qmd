@@ -1,0 +1,21 @@
+---
+format:
+  html:
+    smooth-scroll: true
+    theme: [default, custom_index.scss]  
+
+---
+
+### Cell type compendium of the three-day-old *Platynereis dumerilii* larva.
+
+<br>
+
+Based on the *Whole-body connectome of a segmented annelid larva*
+[connectome paper](https://elifesciences.org/reviewed-preprints/97964v1){.external target="_blank"}.
+<br>
+
+#### by the Jékely lab, [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely){.external target="_blank"}, Heidelberg University
+
+
+
+

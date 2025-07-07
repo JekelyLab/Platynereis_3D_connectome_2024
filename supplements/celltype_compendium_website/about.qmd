@@ -1,9 +1,0 @@
----
-title: "About"
----
-
-Cell-type compendium of the three-day-old *Platynereis dumerilii* larva, accompanying the paper [**Whole-body connectome of a segmented annelid larva**](    https://doi.org/10.7554/eLife.97964.1)
-
-by
-
-Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares-Calderón, Elizabeth A Williams, Réza Shahidi and Gáspár Jékely
