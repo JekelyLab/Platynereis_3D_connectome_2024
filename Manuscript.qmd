@@ -222,7 +222,7 @@ These annotations were used to query the data and visualise subsets of cells.
 
 Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
 We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
-Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_connectome/).
+Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_connectome/;  permanent version in [@jekely_2024_10825371], /supplements/celltype_compendium_website).
 Querying by two or more annotations allows tallying the number of cells in different category (e.g. number of sensory cells with a single penetrating cilium or the number of gland cells in a particular segment)(Figure 3---figure supplement 3).
 
 Left-right cell-type pairs have similar arbour morphologies (Figure 3---figure supplement 4).
@@ -797,8 +797,8 @@ Interneurons often start with IN and motoneurons with MN.
 There are exceptions, including neurons with known function (e.g. PRC for photoreceptor cells) and neurons with prominent morphology (e.g. Loop).
 Segmental position (sg0-3) and body side (l or r) is indicated in the name of most neurons.
 Non-neuronal cells were named based on anatomical terms (e.g. prototroch) or by abbreviations (e.g. EC for epithelial cell).
-Prototroch cells were renamed to match the literature [@Vopalensky_2019; @poon2025].
-The old names as published in [@Randel2015; @veraszto2017] were kept as annotations in the format "old_name:name:DOI".
+We have updated the numbering of the prototroch cells (by counter-clockwise rotation; prototroch_1 to prototroch_2 etc.) to better match the developmental cell lineage and recent
+literature [@Vopalensky_2019; @poon2025]. The old names we used in previous publications [@Randel2015; @veraszto2017] were kept as annotations in the format "old_name:name:DOI".
 
 All cells have multiple annotations, which can be used to query the database in CATMAID or through the CATMAID API (e.g. in R b the catmaid package).
 Neurons belonging to a cell-type category were annotated with the generalist annotation 'celltype' and a cell-type-specific annotation (e.g. celltype23 for the INpreMN neurons).
@@ -943,7 +943,7 @@ knitr::include_graphics("Figures/Figure4_fig_suppl4.png")
 knitr::include_graphics("Figures/Figure4_fig_suppl5.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 6. Grouped connectivity graph. ** Cell-type level connectome graph with node horizontal positions proportional to the relative ratio of incoming (postsynaptic) and outgoing (presynpatic) sites. Cell-type names are shown under the nodes. <br> Figure 4—figure supplement 6—source data 1. The network in visNetwork format saved as an R RDS source file, saved with bz2 compression. Can be loaded with read_rds(). For an interactive version of the graph see also https://jekelylab.github.io/Platynereis_connectome/."}
+```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 6. Grouped connectivity graph. ** Cell-type level connectome graph with node horizontal positions proportional to the relative ratio of incoming (postsynaptic) and outgoing (presynpatic) sites. Cell-type names are shown under the nodes. <br> Figure 4—figure supplement 6—source data 1. The network in visNetwork format saved as an R RDS source file, saved with bz2 compression. Can be loaded with read_rds(). For an interactive version of the graph see also https://jekelylab.github.io/Platynereis_connectome/ (a permanent version is in [@jekely_2024_10825371] in /supplements/celltype_compendium_website)."}
 #| echo: false
 knitr::include_graphics("Figures/Figure4_fig_suppl6.png")
 ```
