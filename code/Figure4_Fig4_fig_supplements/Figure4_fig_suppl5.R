@@ -1,134 +1,141 @@
 # code to generate Figure 4 fig suppl 5 of the Platynereis connectome paper
-# Gaspar Jekely 2023
+# Gaspar Jekely 2024
 
 # load natverse and other packages, some custom natverse functions and catmaid connectivity info
-source("code/libraries_functions_and_CATMAID_conn.R")
+source("code/Natverse_functions_and_conn.R")
 
-# load cell type graph
+# network plot ----------------------------------
+
+# load network
 syn_tb <- readRDS("source_data/Figure4_source_data1.rds")
+conn_gexf <- rgexf::read.gexf("data/celltype_connectome_force_layout.gexf")
 
-# distances plot ---------------------
+# get coordinates from imported gephi file
+coords <- as_tibble(x = conn_gexf$nodesVizAtt$position$x) %>%
+  mutate(x = value) %>%
+  mutate(y = conn_gexf$nodesVizAtt$position$y) %>%
+  mutate(skid = conn_gexf$nodes$label)
+
+# sort by skid
+x_coord <- as.list(arrange(coords, desc(skid)) %>%
+                     select(x))
+y_coord <- as.list(arrange(coords, desc(skid)) %>%
+                     select(y))
 
 
-syn_tb_filt <- syn_tb %>%
-  activate(edges) %>%
-  filter(synapses>3) %>%
-  activate(nodes)
+# add node in and out weight and I/O ratio --------------
 
-# distances from SN to effectors ------------
-d_eff <- distances(syn_tb_filt, v = syn_tb_filt %>%
-                     filter(group == "sensory neuron") %>% pull(name),
-                   to = syn_tb_filt %>%
-                     filter(group == "effector") %>% pull(name),
-                   mode = "out")
+syn.igraph <- as.igraph(syn_tb)
+# calculate node weighted degree
+weights_in <- strength(
+  syn.igraph, vids = V(syn.igraph), 
+  mode = "in", loops = TRUE
+)
+weights_out <- strength(
+  syn.igraph, vids = V(syn.igraph), 
+  mode = "out", loops = TRUE
+)
 
-# sensory-motor neurons ------------------
+# assign weighted degree to nodes
+V(syn.igraph)$weights_in <- weights_in
+V(syn.igraph)$weights_out <- weights_out
 
-sensory_motor_neurons <- as.data.frame(d_eff) %>% rownames_to_column("input") %>%
-  pivot_longer(
-    -input, names_to = "effector", values_to = "distance"
-  ) %>%
-  group_by(input) %>%
-  mutate(shortest_path_to_effector = min(distance)) %>%
-  select(input, shortest_path_to_effector) %>%
-  unique() %>%
-  filter(shortest_path_to_effector == 1) %>%
-  pull(input)
+syn_tb <- syn.igraph %>%
+  as_tbl_graph()
 
-sensory_motor_neurons_l <- paste0(sensory_motor_neurons, collapse = ", ")
-
-# premotor SN neurons -----------
-d_MN <- distances(syn_tb_filt, v = syn_tb_filt %>%
-                    filter(group == "sensory neuron") %>% pull(name),
-                  to = syn_tb_filt %>%
-                    filter(group == "motoneuron") %>% pull(name),
-                  mode = "out")
-
-premotor_SN <- as.data.frame(d_MN) %>% rownames_to_column("input") %>%
-  pivot_longer(
-    -input, names_to = "MN", values_to = "distance"
-  ) %>%
-  filter(distance == 1)
-premotor_SNs <- premotor_SN %>%
-  pull(input) %>% unique()
-
-premotor_SNs_l <- paste0(premotor_SNs, collapse = ", ")
-
-# SN with no path to effectors ---------------
-SN_with_effector_connection <- as.data.frame(d_eff) %>% rownames_to_column("input") %>%
-  pivot_longer(
-    -input, names_to = "effector", values_to = "distance"
-  ) %>%
-  group_by(input) %>%
-  mutate(shortest_path_to_effector = min(distance)) %>%
-  filter(shortest_path_to_effector != Inf) %>%
-  pull(input) %>% unique()
-
-SN_with_effector_connection_l <- paste0(SN_with_effector_connection, collapse = ", ")
-
-all_SN <- as.data.frame(d_eff) %>% rownames_to_column("input") %>%
-  pivot_longer(
-    -input, names_to = "effector", values_to = "distance"
-  ) %>%
-  pull(input) %>% unique()
-
-SN_with_NO_effector_connection <- setdiff(all_SN, SN_with_effector_connection)
-
-SN_with_NO_effector_connection_l <- paste0(SN_with_NO_effector_connection, collapse = ", ")
-
-#verify that these cells have no connection to effectors
-as.data.frame(d_eff) %>% rownames_to_column("input") %>%
-  pivot_longer(
-    -input, names_to = "effector", values_to = "distance"
-  ) %>%
-  group_by(input) %>%
-  mutate(shortest_path_to_effector = min(distance)) %>%
-  filter(input %in% SN_with_NO_effector_connection) %>%
-  pull(shortest_path_to_effector) %>% unique()
-
-# table of SN types
-table_SN <- plot_ly(
-  type = "table",
-  columnwidth = c(10, 20, 20, 20),
-  columnorder = c(0, 1, 2, 3),
-  header = list(
-    values = c(
-      "sensory-motor", "premotor SN", 
-      "SN 2-5 hops from effectors", 
-      "SN with no path to effectors"
-    ),
-    align = c("center", "center"),
-    line = list(width = 1, color = "black"),
-    fill = list(color = c("#CCCCCC","#CCCCCC","#CCCCCC", "#CCCCCC")),
-    font = list(family = "Arial", size = 14, color = "black")
-  ),
-  cells = list(
-    values = rbind(
-      sensory_motor_neurons_l,
-      premotor_SNs_l,
-      SN_with_effector_connection_l,
-      SN_with_NO_effector_connection_l
-    ),
-    align = c("center", "center", "center", "center"),
-    line = list(color = "black", width = 0.3),
-    font = list(family = "Arial", size = 12, color = c("black"))
+# assign coordinates from imported gephi graph to original CATMAID graph
+syn_tb <- activate(syn_tb, nodes) %>%
+  arrange(desc(name)) %>% # sort by skid to match coordinate list
+  mutate(
+    x = unlist(x_coord), # add coordinates
+    y = unlist(y_coord)
   )
+
+syn_tb_IO <- syn_tb %>%
+  activate(nodes) %>%
+  mutate(
+    IO_rel_diff = round(((weights_in-weights_out)/
+      (weights_in+weights_out)+1)*15), digits = 2)
+  
+level <- syn_tb_IO %>%
+  as_tibble() %>%
+  select(IO_rel_diff) %>%
+  pull()
+level
+
+# graph visualisation -----------------------------------------------------
+
+# convert to visNet form
+syn.vis <- syn_tb_IO %>%
+  toVisNetworkData()
+
+# assign sqrt of number of synapses to edge 'value'
+syn.vis$edges$value <- sqrt(syn.vis$edges$synapses)
+
+#level	: Number. Default to undefined. When using the hierarchical layout, the level determines where the node is going to be positioned.
+syn.vis$nodes$level <- level
+#hierarchical layout
+
+visNet <- visNetwork(syn.vis$nodes, syn.vis$edges) %>%
+  visIgraphLayout(layout = "layout_nicely", physics = FALSE, 
+                  randomSeed = 42, type="square") %>%
+  visHierarchicalLayout(levelSeparation=280, 
+                        nodeSpacing=70,
+                        direction='LR',
+                        blockShifting = TRUE,
+                        sortMethod='hubsize',
+                        shakeTowards='roots') %>%
+  visEdges(
+    smooth = list(type = "curvedCW", roundness = 0.2),
+    scaling = list(min = 3, max = 30),
+    color = list(inherit = TRUE, opacity = 0.5),
+    arrows = list(to = list(
+      enabled = TRUE,
+      scaleFactor = 1, type = "arrow"
+    ))
+  ) %>%
+  visNodes(
+    borderWidth = 0.3,
+    color = list(background = syn.vis$nodes$color, border = "black"),
+    scaling = list(min = 10, max = 50),
+    font = list(color = "black", size = 40),
+  ) %>%
+  visGroups(
+    groupname = "sensory neuron", color = "#E69F00", shape = "dot",
+    opacity = 1
+  ) %>%
+  visGroups(
+    groupname = "interneuron", shape = "square",
+    opacity = 1, color = "#CC79A7"
+  ) %>%
+  visGroups(
+    groupname = "motoneuron", shape = "diamond",
+    opacity = 1, color = "#0072B2"
+  ) %>%
+  visGroups(
+    groupname = "effector", shape = "triangle",
+    opacity = 1, color = "#CCCCCC"
+  ) %>%
+  visOptions(
+    highlightNearest = list(enabled = T, hover = T),
+    width = 6000, height = 3000) %>%
+  addFontAwesome()
+
+# save as html
+saveNetwork(visNet, "pictures/network_with_IO_layout.html",
+            selfcontained = TRUE
 )
-
-table_SN
-
-saveNetwork(table_SN, "pictures/Figure4_fig_suppl5.html")
+# save from web browser
 webshot::webshot(
-  url = "pictures/Figure4_fig_suppl5.html",
-  file = "Figures/Figure4_fig_suppl5.pdf",
-  vwidth = 1000, vheight = 310, # define the size of the browser window
-  zoom = 1
-)
-
-webshot::webshot(
-  url = "pictures/Figure4_fig_suppl5.html",
+  url = "pictures/network_with_IO_layout.html",
   file = "Figures/Figure4_fig_suppl5.png",
-  vwidth = 900, vheight = 350, # define the size of the browser window
-  zoom = 10, cliprect = c(20, 52, 847, 275)
+  vwidth = 6000, vheight = 3000, # define the size of the browser window
+  cliprect = c(100, 280, 5500, 2750), zoom = 1, delay = 1
 )
+
+write_rds(
+  syn.vis, "source_data/Figure4_fig_suppl5_source_data1.bz2", 
+  compress = "bz2"
+  )
+syn.vis <- read_rds("source_data/Figure4_fig_suppl5_source_data1.bz2")
 
