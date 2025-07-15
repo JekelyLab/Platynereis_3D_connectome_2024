@@ -193,22 +193,22 @@ Neurons and non-neuronal cells were categorised into classes (sensory, inter- an
 For classifying neurons into cell types, we used a combination of five morphological and connectivity criteria: i) position of cell somata, ii) the morphology of neurite projections (e.g. branching pattern, decussating, ascending or descending), iii) the ultrastructure of sensory specialisations (e.g. number and type of cilia, microvilli --- for sensory neurons only), iv) neuropeptide content as determined by the siGOLD immunolabelling method [@shahidi2015serial], and v) synaptic connectivity.
 Most cell types show left-right symmetry except for a few asymmetric or midline neurons (e.g. SN_YF5cil, pygPBunp).
 
-Based on these criteria, we classified `r n_neuro_celltypes` neurons into 202 cell types (Supplementary Table 1, Video 1, Figure 3).
+Based on these criteria, we classified `r n_neuro_celltypes` neurons into 202 cell types (Supplementary File 1, Video 1, Figure 3).
 Most neuronal cell types are represented by only two cells in the entire body (Figure 3D).
 
 We also categorised the remaining `r num_remaining_cells` cells in the larva.
-Of these, `r n_non_neuro_celltypes` were classified into 92 non-neuronal cell types (Supplementary Table 1, Figure 3---figure supplement 1).
+Of these, `r n_non_neuro_celltypes` were classified into 92 non-neuronal cell types (Supplementary File 1, Figure 3---figure supplement 1).
 
 ```{r, out.width = "100%", fig.cap="**Figure 3. Cell-type complement of the three-day-old *Platynereis* larva.** Segmental distribution and number of sensory neuron types (A), interneuron types (B) and motoneuron types (C). Histogram of the number of cells per neuronal (D) and non-neuronal (E) cell types. (F) Segmental distribution and number of non-neuronal cell types. The number in each box refers to the number of cells of the indicated cell type in the indicated segment. <br> Figure 3—source data 1. Source data for panels A-C. <br> Figure 3—source data 2. Source data for panel F. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure3.png")
 ```
 
-These included epidermal cells (`r n_epidermis` cells), various pigment cells (`r n_pigment` cells of 7 types), muscle cells (`r n_MUS` cells of 53 types, described in [@jasek2022]), locomotor ciliated cells (`r n_ciliated` cells of 6 types, described in [@veraszto2017]), glial cells (`r n_glia` cells of 3 types), gland cells (`r n_gland` cells of 6 types), various support and sheet cells, nephridia, putative migratory cells, parapodial cells producing chitin chaetae (`r n_chaeta` cells) or aciculae (`r n_aciculae` cells), and the follicle cells (`r n_follicle` cells of 5 types) ensheathing them (Supplementary Table 1; Video 1; Figure 3---figure supplement 1).
+These included epidermal cells (`r n_epidermis` cells), various pigment cells (`r n_pigment` cells of 7 types), muscle cells (`r n_MUS` cells of 53 types, described in [@jasek2022]), locomotor ciliated cells (`r n_ciliated` cells of 6 types, described in [@veraszto2017]), glial cells (`r n_glia` cells of 3 types), gland cells (`r n_gland` cells of 6 types), various support and sheet cells, nephridia, putative migratory cells, parapodial cells producing chitin chaetae (`r n_chaeta` cells) or aciculae (`r n_aciculae` cells), and the follicle cells (`r n_follicle` cells of 5 types) ensheathing them (Supplementary File 1; Video 1; Figure 3---figure supplement 1).
 
 In addition, we defined 18 broader neuronal cell groups, containing neurons of similar morphology (e.g. head decussating neurons) but in either differentiated or immature state (e.g. immature palp sensory neurons).
 
-The annotations are hierarchical and cell groups can contain one or more differentiated cell types (Supplementary Table 1).
+The annotations are hierarchical and cell groups can contain one or more differentiated cell types (Supplementary File 1).
 The remaining `r n_non_celltype` cells are either dividing cells (`r n_dividing` cells), undifferentiated cells that putatively belong to the neuronal lineage (`r n_pnb` cells) and various developing neurons with projections but no or only very few synapses (`r n_all_neuronal_skids-n_neuro_celltypes`).
 These cells were not classified into cell types.
 
@@ -220,7 +220,7 @@ All cells were annotated in CATMAID [@Saalfeld2009; @Schneider-Mizell2016] with 
 We also annotated all cells based on their soma position in the body (e.g. left or right side, segment 0-3, germ layer etc.)(Figure 3---figure supplement 2).
 These annotations were used to query the data and visualise subsets of cells.
 
-Supplementary Table 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
+Supplementary File 1 lists all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, and main synaptic partners.
 We also listed all literature references for previously published neuronal and non-neuronal cells and indicated which cells are reported here for the first time (105 cell types out of 294).
 Interactive 3D morphological renderings of each cell type together with their main annotations can also be explored on a webpage (https://jekelylab.github.io/Platynereis_connectome/;  permanent version in [@jekely_2024_10825371], /supplements/celltype_compendium_website).
 Querying by two or more annotations allows tallying the number of cells in different category (e.g. number of sensory cells with a single penetrating cilium or the number of gland cells in a particular segment)(Figure 3---figure supplement 3).
@@ -254,8 +254,8 @@ To explore sensory-motor pathways in the grouped graph, we searched for the shor
 We identified four sensory neurons with direct motor output (sensory-motor neurons: eyespot-PRCR3, pygPBunp, pygCirrusPUSM, hPU2l-asymPDF) and 25 premotor sensory neurons.
 The maximum number of hops from sensory neurons to an effector is five.
 33 sensory neurons have no synaptic paths to effectors.
-19 of these are neurosecretory cells with few or no synaptic partners [@williams2017] (Figure 4---figure supplement 5).
-For a graph-based visualisation of information flow, we arranged the nodes according to their relative ratio of post- and presynapses (Figure 4---figure supplement 6).
+19 of these are neurosecretory cells with few or no synaptic partners [@williams2017] (Table 1).
+For a graph-based visualisation of information flow, we arranged the nodes according to their relative ratio of post- and presynapses (Figure 4---figure supplement 5).
 This layout indicates that sensory-evoked activity propagates from sensory neurons through interneurons and motoneurons to effectors.
 
 ### Neurotransmitter and neuropeptides phenotypes
@@ -325,7 +325,7 @@ Among the interneurons, INRGW, INarc1 and INW integrate the largest number of in
 
 Regarding the multiplicity of outputs, the head collar receptor neurons (hCR) that mediate a startle response [@bezares-calderon2018] stand out with the largest number of postsynaptic cell types.
 
-Some sensory neurons directly connect to muscle-motor, ciliomotor or pigment-motor neurons (e.g. eyespotPRC_R3, MS cells, SNhook, SNblunt) (Figure 6---figure supplement1, Figure 7) or to effector cells (e.g. eyespotPRC_R3, hPU2l_asymPDF)(Figure 7, Figure 4---figure supplement 5).
+Some sensory neurons directly connect to muscle-motor, ciliomotor or pigment-motor neurons (e.g. eyespotPRC_R3, MS cells, SNhook, SNblunt) (Figure 6---figure supplement1, Figure 7) or to effector cells (e.g. eyespotPRC_R3, hPU2l_asymPDF)(Figure 7, Table 1).
 
 Analysis of connectivity (\>2 synapses) only between head sensory and interneurons revealed a skewed distribution with many sensory neurons only synapsing on one interneuron type and many interneurons only receiving input from one sensory neuron type (Figure 7---figure supplement 2A, B).
 
@@ -739,7 +739,7 @@ We used the collaborative annotation toolkit CATMAID for tracing, annotation and
 Due to contrast and focus problems in the main dataset we had to re-image certain layers at higher resolutions, to allow tracing of neurons.
 These re-imaged series were made into independent CATMAID projects.
 This included five extra projects, taken at various points throughout the main dataset.
-All layers including the information on lost layers, immunogold labelling and re-imaging are listed in Supplementary Table 2.
+All layers including the information on lost layers, immunogold labelling and re-imaging are listed in Supplementary File 2.
 The largest of these, Plexus_HT-4_Naomi_project\_\_372-4013, consisted of 1407 layers at resolution of 2.2 nm.
 This stack mostly focused on the brain plexus and the ventral nerve cord where most neurites and synapses occur.
 Other projects consisted of three jump/gap regions that required not only high resolution but also better realignment.
@@ -851,7 +851,18 @@ For data handling and plotting we endeavoured to adhere to the practices and pac
 Data plotting was done with the ggplot2 package [@wickham2016package].
 See also the 'versionInfo.txt' and 'sessionInfo.txt' files in the repository for full package and version information.
 
-# Figure supplements
+# Tables and Figure supplements
+
+
+
+
+```{r, out.width = "100%", fig.cap="**Table 1. Sensory neurons categorised by path length to effectors.**"}
+#| echo: false
+library(tinytable)
+Table1 <- readRDS("data/Table1.RDS")
+Table1
+```
+
 
 ```{r, out.width = "100%", fig.cap="**Figure 1—figure supplement 1. Anatomy of the three-day-old *Platynereis dumerilii* larva.** (A) Scanning electron micrograph of a three-day-old larva, ventral view. (B) Light microscopy image of a three-day-old larva, ventral view. (C) Morphological rendering of ciliary bands, stomodeum, aciculae, chaetae and pygidial sensory neurons in the three-day-old larval volume. "}
 #| echo: false
@@ -938,14 +949,9 @@ knitr::include_graphics("Figures/Figure4_fig_suppl3.png")
 knitr::include_graphics("Figures/Figure4_fig_suppl4.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 5. Sensory neurons categorised by path length to effectors.**"}
+```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 5. Grouped connectivity graph. ** Cell-type level connectome graph with node horizontal positions proportional to the relative ratio of incoming (postsynaptic) and outgoing (presynpatic) sites. Cell-type names are shown under the nodes. <br> Figure 4—figure supplement 5—source data 1. The network in visNetwork format saved as an R RDS source file, saved with zip compression. Can be loaded with read_rds(). For an interactive version of the graph see also https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html."}
 #| echo: false
 knitr::include_graphics("Figures/Figure4_fig_suppl5.png")
-```
-
-```{r, out.width = "100%", fig.cap="**Figure 4—figure supplement 6. Grouped connectivity graph. ** Cell-type level connectome graph with node horizontal positions proportional to the relative ratio of incoming (postsynaptic) and outgoing (presynpatic) sites. Cell-type names are shown under the nodes. <br> Figure 4—figure supplement 6—source data 1. The network in visNetwork format saved as an R RDS source file, saved with bz2 compression. Can be loaded with read_rds(). For an interactive version of the graph see also https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html."}
-#| echo: false
-knitr::include_graphics("Figures/Figure4_fig_suppl6.png")
 ```
 
 ```{r, out.width = "100%", fig.cap="**Figure 5—figure supplement 1. Neurons with dense cored vesicles.** (A, B) Morphological rendering of neurons with dense cored vesicles, ventral (A) and anterior (B) views. "}
@@ -1055,10 +1061,10 @@ Video 5.
 
 # Supplementary files
 
-Supplementary Table 1.
+Supplementary File 1.
 List of all neuronal and non-neuronal cell types, their main annotations, including morphological, cell-class, segment, ganglion or sensory organ, neurotransmitter and neuropeptide phenotype, main synaptic partners and reference.
 
-Supplementary Table 2.
+Supplementary File 2.
 Summary of all EM layers including the information on lost layers, immunogold labelling and re-imaging.
 
 \
