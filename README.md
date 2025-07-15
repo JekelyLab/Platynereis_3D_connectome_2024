@@ -8,14 +8,14 @@
   by [Jékely
   lab](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely).
 
-[![DOI](https://zenodo.org/badge/773035678.svg)](https://zenodo.org/doi/10.5281/zenodo.10825370)
+[![DOI](https://zenodo.org/badge/773035678.svg)](https://doi.org/10.5281/zenodo.10825370)
 
 This repository contains the data and code for our paper:
 
 > Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
 > Calderón, Elizabeth A. Williams, Réza Shahidi, Gáspár Jékely (2024) .
-> *Whole-body connectome of a segmented annelid larva*. biorxiv. Online
-> at <https://doi.org/10.1101/2024.03.17.585258>
+> *Whole-body connectome of a segmented annelid larva*. eLife Online at
+> <https://elifesciences.org/reviewed-preprints/97964>
 
 ### How to cite
 
@@ -23,9 +23,9 @@ Please cite this compendium as:
 
 > Csaba Verasztó, Sanja Jasek, Martin Gühmann, Luis Alberto Bezares
 > Calderón, Elizabeth A. Williams, Réza Shahidi, , Gáspár Jékely,
-> (2024). *Compendium of R code and data for Whole-body connectome of a
-> segmented annelid larva*. Accessed 16 Jun 2024. Online at
-> <https://zenodo.org/records/11811680>
+> (2025). *Compendium of R code and data for Whole-body connectome of a
+> segmented annelid larva*. Accessed 15 Jul 2025. Online at
+> <https://doi.org/10.5281/zenodo.10825370>
 
 ## Contents
 
@@ -53,6 +53,8 @@ The project directory contains:
 - [:file_folder: source_data](/source_data): Source data files
   associated with each figure containing all data points that have been
   plotted in the figure.
+
+- [:file_folder: videos](/Videos): Videos in mp4 format.
 
 ## How to run in your browser or download and run locally
 

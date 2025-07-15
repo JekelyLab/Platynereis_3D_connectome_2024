@@ -26,6 +26,6 @@ authors:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.10825371
-repository-code: 'https://zenodo.org/doi/10.5281/zenodo.10825370'
+repository-code: 'https://doi.org/10.5281/zenodo.10825370'
 license: CC-BY-4.0
 date-released: '2024-03-16'
