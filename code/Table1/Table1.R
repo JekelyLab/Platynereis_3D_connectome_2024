@@ -115,8 +115,20 @@ table_SN <- plot_ly(
   )
 )
 
-table_SN
-saveRDS(table_SN, "data/Table1.RDS")
+data_for_table <- tibble(
+  "sensory-motor" = sensory_motor_neurons_l, 
+  "premotor SN" = premotor_SNs_l, 
+  "SN 2-5 hops from effectors" = SN_with_effector_connection_l, 
+  "SN with no path to effectors" = SN_with_NO_effector_connection_l
+)
+
+data_for_table
+
+table_SN_tt <- tt(
+  data_for_table
+)
+
+saveRDS(table_SN_tt, "data/Table1.RDS")
 
 saveNetwork(table_SN, "pictures/Table1.html")
 webshot2::webshot(
