@@ -991,7 +991,7 @@ layout <- "
 AAAAAAAAAAAAAAAAAAAAAA
 BBBBBB################
 BBBBBB#CCDDDEEEFFFFFFF
-GGGGGGGGHHHHHHHHIIIIII
+GGGGGGGGHHHHHHHIIIIIII
 "
 
 Figure4 <- panel_network + 
@@ -1001,7 +1001,7 @@ Figure4 <- panel_network +
     design = layout, 
     heights = c(2, 0.25, 0.75, 1)
     )+
-  plot_annotation(tag_levels = list(c("A", "B", "C", "D", "E", "F", "", "", "", "G", "H" ))) &
+  plot_annotation(tag_levels = list(c("A", "B", "C", "D", "E", "F", "", "", "", "G", "H", "I"))) &
   theme(plot.tag = element_text(size = 12, face = "plain"))
 
 ggsave("Figures/Figure4.png",

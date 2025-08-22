@@ -754,7 +754,6 @@ First, we opened the original project with the TrakEM2 plugin for FIJI (ImageJ) 
 We set the region of interest (ROI) to width: 25792, height: 28800, x-shift: 20885, y-shift: 11928.
 All 4846 layers were then exported as flat TIFF images with a scale of 100%, 8-bit grayscale, no background color (0).
 A new blank TrakEM2 project was then created in FIJI and the exported TIFF images were imported using the project import function “import sequence as grid”.
-The project was then aligned according to Albert Cardona’s 2016 alignment protocol (https://wikis.utexas.edu/display/khlab/TrakEM2+elastic+alignment?preview=/139168916/194807990/TEM Alignment in TrakEM2 (Cardona 2016).pdf) with some modifications.
 The image filters were previously applied to the images, and therefore were not required.
 First, an ‘Affine’ alignment was applied using the following parameters: least squares (linear feature correspondences) mode, choosing entire layer range with first layer as reference, using visible images only and no propagation, initial Gaussian blur of 1.6 pixels, 3 steps per scale octave, minimum image size of 64 pixels and maximum of 2048 pixels, feature descriptor size of 8, feature descriptor orientation bins of 8, closest ratio of 0.92, with clear cache selected, feature extraction threads of 30, maximal alignment error of 100 pixels, minimal inlier ratio of 0.20, minimal number of inliers of 12, expected transformation as Affine, testing multiple hypotheses with tolerance of 5.00 pixels, testing maximal layer neighbour range of 5 layers, giving up after 5 failures, desired transformation as Affine, regularizing model, maximal iteration of 1000, maximal plateauwidth of 200, regularizer as Rigid, and lambda of 0.10.
 Next, two iterations of Elastic alignment were applied using the following parameters: block matching layer scale of 0.05, search radius of 200 pixels, block radius of 2000 pixels (increased to 2400 pixels during second iteration), resolution of 60, correlation filters with minimal PMCC r of 0.10, maximal curvature ratio of 1000, maximal second best r/best r of 0.90, using local smoothness filter, with approximate local transformation as Affine, local region sigma of 1000 pixels, absolute maximal local displacement of 10 pixels, relative maximal local displacement of 3.00, as pre-aligned layers, testing maximal of 4 layers, approximate transformation as Rigid, maximal iterations of 1000, maximal plateau width of 200, spring mesh stiffness of 0.01, maximal stretch of 2000 pixels, maximal iterations of 3000, maximal plateauwidth of 200, using legacy optimizer.
@@ -874,7 +873,7 @@ knitr::include_graphics("Figures/Figure1_fig_suppl1.png")
 knitr::include_graphics("Figures/Figure1_fig_suppl2.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 2—figure supplement 1. Network parameters of the connectome.** (A) The full connectome graph with nodes coloured by cell class. (B) The full connectome graph with all source nodes coloured in red. (C) The full connectome graph with all sink nodes coloured in red. (D) The full connectome graph with all cut nodes coloured in red. Node size is proportional to node weighted degree. (E) Number of nodes in the largest network after deleting edges with an increasing number of synapses from the connectome. (F) Distribution of edge weight (number of synapses) in the connectome. (G) Distribution of node weighted degree in the connectome. (G) Relationship of node eccentricity to node weighted degree. (H) Number of sensory, inter-, motor neurons and effectors among all nodes, or among source, sink and cut nodes. (I) Number of sensory, inter-, motor neurons and effectors in the different modules of the connectome. The source data file is the same as for Figure 2.  "}
+```{r, out.width = "100%", fig.cap="**Figure 2—figure supplement 1. Network parameters of the connectome.** (A) The full connectome graph with nodes coloured by cell class. (B) The full connectome graph with all source nodes coloured in red. (C) The full connectome graph with all sink nodes coloured in red. (D) The full connectome graph with all cut nodes coloured in red. Node size is proportional to node weighted degree. (E) Number of nodes in the largest network after deleting edges with an increasing number of synapses from the connectome. (F) Distribution of edge weight (number of synapses) in the connectome. (G) Distribution of node weighted degree in the connectome. (H) Relationship of node eccentricity to node weighted degree. (I) Number of sensory, inter-, motor neurons and effectors among all nodes, or among source, sink and cut nodes. (J) Number of sensory, inter-, motor neurons and effectors in the different modules of the connectome. The source data file is the same as for Figure 2.  "}
 #| echo: false
 knitr::include_graphics("Figures/Figure2_fig_suppl1.png")
 ```
@@ -914,7 +913,7 @@ knitr::include_graphics("Figures/Figure3_fig_suppl4.png")
 knitr::include_graphics("Figures/Figure3_fig_suppl5.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 6. Position of axons of left-right symmetric cell pairs. ** Position of bilaterally symmetrical cell types on the right and left side of the stomodeum. Left-right pairs from the same cell type are connected by a thin line. Left panel shows the position of the layer (later 975) in the volume. "}
+```{r, out.width = "100%", fig.cap="**Figure 3—figure supplement 6. Position of axons of left-right symmetric neuron pairs. ** Position of bilaterally symmetrical neuron types on the right and left side of the stomodeum. Left-right pairs from the same cell type are connected by a thin line. (A) The position of the annotated layer (layer 975) in the volume and morphological rendering of left-right cell pairs. (B) EM images at the level of the circumesophageal connectives (layer 975) with the position of neuron profiles indicated. Left-right pairs from the same neuron type are connected by a thin line. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure3_fig_suppl6.png")
 ```
@@ -954,7 +953,7 @@ knitr::include_graphics("Figures/Figure4_fig_suppl4.png")
 knitr::include_graphics("Figures/Figure4_fig_suppl5.png")
 ```
 
-```{r, out.width = "100%", fig.cap="**Figure 5—figure supplement 1. Neurons with dense cored vesicles.** (A, B) Morphological rendering of neurons with dense cored vesicles, ventral (A) and anterior (B) views. "}
+```{r, out.width = "100%", fig.cap="**Figure 5—figure supplement 1. Neurons with dense cored vesicles.** (A, B) Morphological rendering of neurons with dense cored vesicles, ventral (A) and anterior (B) views. (C) Number of sensory, inter- and motoneurons with dense-cored vesicles. (D) Example electron micrographs of neuronal profiles containing dense-cored vesicles. "}
 #| echo: false
 knitr::include_graphics("Figures/Figure5_fig_suppl1.png")
 ```

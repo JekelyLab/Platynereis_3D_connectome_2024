@@ -6,7 +6,7 @@ source("code/Natverse_functions_and_conn.R")
 
 # load cell-type connectivity -----------
 syn_tb <- readRDS("source_data/Figure4_source_data1.rds")
-celltypes_table <- read_csv("supplements/Supplementary_Table1.csv")
+celltypes_table <- read_csv("supplements/Supplementary_File1.csv")
 
 head_only_celltypes <- celltypes_table %>% 
   filter(`soma position` == "head") %>%
